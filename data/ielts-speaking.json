@@ -1,0 +1,232 @@
+[
+  {
+    "id": "ielts_sp_001",
+    "topic": "Hometown",
+    "topicJa": "故郷",
+    "part1": [
+      "Where is your hometown?",
+      "What is your hometown famous for?",
+      "Has your hometown changed in recent years?",
+      "Would you like to live there in the future?"
+    ],
+    "part2": {
+      "title": "Describe a place in your hometown that you like to visit.",
+      "cueCard": "Describe a place in your hometown that you like to visit.\n\nYou should say:\n- where it is\n- what you do there\n- who you go with\n\nand explain why you like it.",
+      "preparation": 60
+    },
+    "part3": [
+      "How important is it for people to feel a connection to their hometown?",
+      "Do you think modern cities have less character than older cities?",
+      "How might urban development affect local communities?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-places"]
+  },
+  {
+    "id": "ielts_sp_002",
+    "topic": "Work or Studies",
+    "topicJa": "仕事・学業",
+    "part1": [
+      "Are you a student or do you work?",
+      "What do you study or what do you do for a living?",
+      "Why did you choose this field?",
+      "What do you find most difficult about your work or studies?"
+    ],
+    "part2": {
+      "title": "Describe a skill you would like to learn.",
+      "cueCard": "Describe a skill you would like to learn.\n\nYou should say:\n- what the skill is\n- why you want to learn it\n- how you would learn it\n\nand explain how it would help you in the future.",
+      "preparation": 60
+    },
+    "part3": [
+      "Why do people choose to learn new skills as adults?",
+      "How has the way people work changed in the past 20 years?",
+      "Do you think artificial intelligence will replace many jobs?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-work"]
+  },
+  {
+    "id": "ielts_sp_003",
+    "topic": "Hobbies and Free Time",
+    "topicJa": "趣味・余暇",
+    "part1": [
+      "What do you do in your free time?",
+      "Do you have any hobbies?",
+      "Have your hobbies changed since you were a child?",
+      "Do you prefer indoor or outdoor activities?"
+    ],
+    "part2": {
+      "title": "Describe a hobby you would like to take up.",
+      "cueCard": "Describe a hobby you would like to take up.\n\nYou should say:\n- what it is\n- why it interests you\n- what equipment is needed\n\nand explain how it would benefit you.",
+      "preparation": 60
+    },
+    "part3": [
+      "Why do people in modern society seem to have less free time?",
+      "Are some hobbies better for mental health than others?",
+      "How important are hobbies for children's development?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-leisure"]
+  },
+  {
+    "id": "ielts_sp_004",
+    "topic": "Technology",
+    "topicJa": "テクノロジー",
+    "part1": [
+      "Do you use a smartphone often?",
+      "What apps do you use most every day?",
+      "Has technology improved your life?",
+      "What technology would you like to learn more about?"
+    ],
+    "part2": {
+      "title": "Describe a piece of technology you find useful.",
+      "cueCard": "Describe a piece of technology you find useful.\n\nYou should say:\n- what it is\n- how often you use it\n- what it does\n\nand explain why you find it useful.",
+      "preparation": 60
+    },
+    "part3": [
+      "How has technology changed the way people communicate?",
+      "Are there any negative effects of technology on society?",
+      "Should children's screen time be limited?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-technology"]
+  },
+  {
+    "id": "ielts_sp_005",
+    "topic": "Travel",
+    "topicJa": "旅行",
+    "part1": [
+      "Do you like to travel?",
+      "Where would you like to visit in the future?",
+      "What was your most recent trip?",
+      "Do you prefer city trips or nature trips?"
+    ],
+    "part2": {
+      "title": "Describe a memorable trip you have taken.",
+      "cueCard": "Describe a memorable trip you have taken.\n\nYou should say:\n- where you went\n- who you went with\n- what you did there\n\nand explain why it was memorable.",
+      "preparation": 60
+    },
+    "part3": [
+      "Why do people choose to travel?",
+      "How has travel changed in the last 30 years?",
+      "What are the benefits of cultural exchange through tourism?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-travel"]
+  },
+  {
+    "id": "ielts_sp_006",
+    "topic": "Food and Cooking",
+    "topicJa": "食事・料理",
+    "part1": [
+      "What is your favorite food?",
+      "Do you cook often?",
+      "Do you prefer eating at home or in restaurants?",
+      "Have your food preferences changed over time?"
+    ],
+    "part2": {
+      "title": "Describe a traditional dish from your country.",
+      "cueCard": "Describe a traditional dish from your country.\n\nYou should say:\n- what it is\n- how it is made\n- when it is eaten\n\nand explain why it is significant in your culture.",
+      "preparation": 60
+    },
+    "part3": [
+      "How does food connect to a country's culture?",
+      "Why do some traditional foods disappear over time?",
+      "Should children learn cooking as a school subject?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-food"]
+  },
+  {
+    "id": "ielts_sp_007",
+    "topic": "Books and Reading",
+    "topicJa": "本・読書",
+    "part1": [
+      "Do you read often?",
+      "What kinds of books do you enjoy?",
+      "Do you prefer paper books or e-books?",
+      "When did you last read for pleasure?"
+    ],
+    "part2": {
+      "title": "Describe a book that influenced you.",
+      "cueCard": "Describe a book that influenced you.\n\nYou should say:\n- what the book is\n- when you read it\n- what it is about\n\nand explain how it influenced you.",
+      "preparation": 60
+    },
+    "part3": [
+      "How important is reading in modern society?",
+      "Why do fewer young people read books today?",
+      "Should governments do more to promote reading?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-reading"]
+  },
+  {
+    "id": "ielts_sp_008",
+    "topic": "Sports and Fitness",
+    "topicJa": "スポーツ・健康",
+    "part1": [
+      "Do you do any sports?",
+      "How often do you exercise?",
+      "Did you play sports as a child?",
+      "Do you prefer team sports or individual sports?"
+    ],
+    "part2": {
+      "title": "Describe a sport you would like to try.",
+      "cueCard": "Describe a sport you would like to try.\n\nYou should say:\n- what the sport is\n- why you want to try it\n- what challenges it might have\n\nand explain how you would prepare for it.",
+      "preparation": 60
+    },
+    "part3": [
+      "Why is physical fitness important in everyday life?",
+      "Should governments invest more in public sports facilities?",
+      "Are professional athletes paid too much?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-sports"]
+  },
+  {
+    "id": "ielts_sp_009",
+    "topic": "Education",
+    "topicJa": "教育",
+    "part1": [
+      "What did you study at school?",
+      "What was your favorite subject?",
+      "Do you think your education has been useful?",
+      "Would you like to study more in the future?"
+    ],
+    "part2": {
+      "title": "Describe a teacher who influenced you.",
+      "cueCard": "Describe a teacher who influenced you.\n\nYou should say:\n- who the teacher was\n- what they taught\n- how they taught\n\nand explain how they influenced you.",
+      "preparation": 60
+    },
+    "part3": [
+      "How has education changed in your country in recent years?",
+      "Should students be allowed to choose their own subjects?",
+      "Is online education as effective as traditional classroom learning?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-education"]
+  },
+  {
+    "id": "ielts_sp_010",
+    "topic": "Environment",
+    "topicJa": "環境",
+    "part1": [
+      "What environmental problems are common in your area?",
+      "What do you personally do to protect the environment?",
+      "Do you think your country is doing enough for the environment?",
+      "Which environmental problem do you think is most serious?"
+    ],
+    "part2": {
+      "title": "Describe a natural place you have visited.",
+      "cueCard": "Describe a natural place you have visited.\n\nYou should say:\n- where it is\n- when you went there\n- what you did there\n\nand explain why you remember it.",
+      "preparation": 60
+    },
+    "part3": [
+      "How can individuals reduce their environmental impact?",
+      "Should companies pay more for the pollution they cause?",
+      "Will technology be enough to solve climate change?"
+    ],
+    "level": "B2-C1",
+    "tags": ["ielts-speaking", "topic-environment"]
+  }
+]

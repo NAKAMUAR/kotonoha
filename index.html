@@ -154,6 +154,11 @@
             <div class="action-label">TOEIC スコア予測</div>
             <div class="action-sub">L + R の予測点数</div>
           </button>
+          <button class="action-card" data-target="ielts-speaking">
+            <div class="action-icon">話</div>
+            <div class="action-label">IELTS Speaking</div>
+            <div class="action-sub">AI 試験官の評価付き</div>
+          </button>
         </div>
       </div>
 
@@ -499,6 +504,66 @@
         <div id="tr-empty-title" class="text-sm font-mincho mb-2">完了！</div>
         <div id="tr-summary" class="text-xs text-sumi-soft mb-4">—</div>
         <button id="tr-restart-btn" class="btn-secondary">最初から</button>
+      </div>
+    </section>
+
+    <section id="screen-ielts-speaking" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">IELTS Speaking</h2>
+        <p class="screen-sub">トピックを選んで AI 試験官に評価してもらう</p>
+      </div>
+
+      <div id="is-list-view">
+        <div id="is-topic-list" class="grid grid-cols-1 gap-2 mb-4"></div>
+      </div>
+
+      <div id="is-detail-view" class="hidden">
+        <button id="is-back-btn" class="text-xs text-sumi-soft mb-3">← トピック一覧に戻る</button>
+
+        <div class="card mb-4">
+          <div class="card-title">
+            <span id="is-topic-title">—</span>
+            <span class="text-xs text-sumi-soft ml-2" id="is-topic-title-ja">—</span>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-title">Part 1 — Introduction</div>
+          <ol id="is-part1-list" class="text-sm font-cormorant mt-3 space-y-2 list-decimal list-inside"></ol>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-title">Part 2 — Long Turn (Cue Card)</div>
+          <pre id="is-part2-cue" class="text-sm font-cormorant mt-3 whitespace-pre-wrap leading-relaxed">—</pre>
+          <div class="text-xs text-sumi-soft mt-2">準備時間: 1 分 / 話す時間: 1〜2 分</div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-title">Part 3 — Discussion</div>
+          <ol id="is-part3-list" class="text-sm font-cormorant mt-3 space-y-2 list-decimal list-inside"></ol>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-title">あなたの回答</div>
+          <div class="text-xs text-sumi-soft mt-2 mb-2">下のテキストエリアに回答を書いてください（音声入力にも対応）</div>
+          <div class="flex items-center gap-2 mb-2">
+            <select id="is-question-select" class="text-sm border rounded px-2 py-1 flex-1" style="border-color: var(--sumi-light);">
+              <option value="">— 評価したい質問を選択 —</option>
+            </select>
+          </div>
+          <textarea id="is-answer-input" rows="6" class="w-full p-3 text-sm border rounded font-cormorant" style="border-color: var(--sumi-light); background: var(--washi-light);" placeholder="Type or paste your answer here..."></textarea>
+          <div class="flex items-center gap-2 mt-3 flex-wrap">
+            <button id="is-mic-btn" class="btn-secondary text-sm">🎤 音声入力</button>
+            <button id="is-evaluate-btn" class="btn-primary text-sm">AI 試験官に評価依頼</button>
+          </div>
+          <div class="text-xs text-sumi-soft mt-2">使用する AI:
+            <span class="ai-chip ai-chip-active inline-block ml-1" data-is-ai="claude">Claude</span>
+            <span class="ai-chip inline-block" data-is-ai="gemini">Gemini</span>
+            <span class="ai-chip inline-block" data-is-ai="chatgpt">ChatGPT</span>
+            <span class="ai-chip inline-block" data-is-ai="copilot">Copilot</span>
+            <span class="ai-chip inline-block" data-is-ai="ollama">Ollama</span>
+          </div>
+        </div>
       </div>
     </section>
 

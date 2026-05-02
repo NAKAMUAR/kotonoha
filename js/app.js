@@ -59,8 +59,9 @@ import {
 
 import { getReadingByPart } from './toeic-reading.js';
 import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.js';
+import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 
-const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score'];
+const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -135,6 +136,7 @@ function showScreen(name) {
   if (name === 'toeic-listening')  activateListeningScreen();
   if (name === 'toeic-reading')    activateReadingScreen();
   if (name === 'toeic-score')      activateScoreScreen();
+  if (name === 'ielts-speaking')   activateIeltsSpeakingScreen();
   if (name !== 'scenarios' && name !== 'toeic-listening') stopSpeaking();
   if (name !== 'toeic-listening')  stopListeningAudio();
 }
@@ -565,6 +567,186 @@ function onListeningSpeedChange(speed) {
   document.querySelectorAll('#screen-toeic-listening .chip[data-tl-speed]').forEach((c) => {
     c.classList.toggle('chip-active', parseFloat(c.dataset.tlSpeed) === speed);
   });
+}
+
+// ---------- IELTS Speaking 画面 ----------
+
+const isState = {
+  topics: [],
+  current: null,
+  selectedAi: 'claude',
+  recognition: null,
+  recognizing: false,
+};
+
+async function activateIeltsSpeakingScreen() {
+  try {
+    isState.topics = await loadIeltsTopics();
+    showIeltsListView();
+  } catch (err) {
+    console.error('ielts speaking activate failed:', err);
+    showToast('IELTS データの読み込みに失敗しました');
+  }
+}
+
+function showIeltsListView() {
+  document.getElementById('is-list-view')?.classList.remove('hidden');
+  document.getElementById('is-detail-view')?.classList.add('hidden');
+
+  const list = document.getElementById('is-topic-list');
+  if (!list) return;
+  list.innerHTML = '';
+  isState.topics.forEach((t, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'scenario-card';
+    btn.innerHTML = `
+      <div class="scenario-num">${String(i + 1).padStart(2, '0')}</div>
+      <div class="text-sm font-mincho mb-1">${escapeHtml(t.topic)}</div>
+      <div class="text-xs text-sumi-soft">${escapeHtml(t.topicJa)}</div>
+    `;
+    btn.addEventListener('click', () => showIeltsDetailView(t.id));
+    list.appendChild(btn);
+  });
+}
+
+async function showIeltsDetailView(topicId) {
+  const t = await getIeltsTopicById(topicId);
+  if (!t) return;
+  isState.current = t;
+
+  document.getElementById('is-list-view')?.classList.add('hidden');
+  document.getElementById('is-detail-view')?.classList.remove('hidden');
+
+  setText('is-topic-title', t.topic);
+  setText('is-topic-title-ja', t.topicJa);
+  setText('is-part2-cue', t.part2?.cueCard ?? '—');
+
+  const p1 = document.getElementById('is-part1-list');
+  if (p1) {
+    p1.innerHTML = '';
+    (t.part1 ?? []).forEach((q) => {
+      const li = document.createElement('li');
+      li.textContent = q;
+      p1.appendChild(li);
+    });
+  }
+
+  const p3 = document.getElementById('is-part3-list');
+  if (p3) {
+    p3.innerHTML = '';
+    (t.part3 ?? []).forEach((q) => {
+      const li = document.createElement('li');
+      li.textContent = q;
+      p3.appendChild(li);
+    });
+  }
+
+  // 質問選択ドロップダウン
+  const sel = document.getElementById('is-question-select');
+  if (sel) {
+    sel.innerHTML = '<option value="">— 評価したい質問を選択 —</option>';
+    (t.part1 ?? []).forEach((q, i) => {
+      const opt = document.createElement('option');
+      opt.value = `Part 1 Q${i + 1}|||${q}`;
+      opt.textContent = `Part 1 Q${i + 1}: ${q.slice(0, 60)}${q.length > 60 ? '…' : ''}`;
+      sel.appendChild(opt);
+    });
+    if (t.part2?.cueCard) {
+      const opt = document.createElement('option');
+      opt.value = `Part 2 Long Turn|||${t.part2.cueCard}`;
+      opt.textContent = `Part 2 (Cue Card): ${t.part2.title ?? 'Long turn'}`;
+      sel.appendChild(opt);
+    }
+    (t.part3 ?? []).forEach((q, i) => {
+      const opt = document.createElement('option');
+      opt.value = `Part 3 Q${i + 1}|||${q}`;
+      opt.textContent = `Part 3 Q${i + 1}: ${q.slice(0, 60)}${q.length > 60 ? '…' : ''}`;
+      sel.appendChild(opt);
+    });
+  }
+
+  const ans = document.getElementById('is-answer-input');
+  if (ans) ans.value = '';
+}
+
+function onIeltsBack() {
+  isStopRecognition();
+  showIeltsListView();
+}
+
+function onIeltsAiSelect(chip) {
+  document.querySelectorAll('#screen-ielts-speaking .ai-chip').forEach((c) => c.classList.remove('ai-chip-active'));
+  chip.classList.add('ai-chip-active');
+  isState.selectedAi = chip.dataset.isAi;
+}
+
+function isStartRecognition() {
+  if (!('SpeechRecognition' in window) && !('webkitSpeechRecognition' in window)) {
+    showToast('お使いのブラウザは音声認識に対応していません');
+    return;
+  }
+  if (isState.recognizing) {
+    isStopRecognition();
+    return;
+  }
+  const Ctor = window.SpeechRecognition ?? window.webkitSpeechRecognition;
+  const rec = new Ctor();
+  rec.lang = 'en-US';
+  rec.interimResults = true;
+  rec.continuous = true;
+
+  const ans = document.getElementById('is-answer-input');
+  let finalText = ans?.value ? ans.value + ' ' : '';
+
+  rec.onresult = (e) => {
+    let interim = '';
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      const transcript = e.results[i][0].transcript;
+      if (e.results[i].isFinal) finalText += transcript + ' ';
+      else interim += transcript;
+    }
+    if (ans) ans.value = finalText + interim;
+  };
+  rec.onend = () => { isState.recognizing = false; setText('is-mic-btn', '🎤 音声入力'); };
+  rec.onerror = (e) => { console.warn('STT error:', e.error); isState.recognizing = false; setText('is-mic-btn', '🎤 音声入力'); };
+
+  rec.start();
+  isState.recognition = rec;
+  isState.recognizing = true;
+  setText('is-mic-btn', '⏹ 停止');
+}
+
+function isStopRecognition() {
+  if (isState.recognition && isState.recognizing) {
+    try { isState.recognition.stop(); } catch { /* ignore */ }
+  }
+  isState.recognizing = false;
+  setText('is-mic-btn', '🎤 音声入力');
+}
+
+async function onIeltsEvaluate() {
+  const sel = document.getElementById('is-question-select');
+  const ans = document.getElementById('is-answer-input');
+  const value = sel?.value;
+  const userAnswer = ans?.value?.trim();
+
+  if (!value) { showToast('評価したい質問を選択してください'); return; }
+  if (!userAnswer || userAnswer.length < 10) { showToast('回答が短すぎます（10 文字以上）'); return; }
+  if (!isState.current) return;
+
+  const [partLabel, question] = value.split('|||');
+  const prompt = buildIeltsEvalPrompt({
+    topic: isState.current.topic,
+    partLabel,
+    question,
+    userAnswer,
+  });
+
+  try {
+    await copyToClipboard(prompt);
+    showToast('プロンプトをコピー → AI を起動します', 2000);
+  } catch { /* ignore */ }
+  launchProvider(isState.selectedAi);
 }
 
 // ---------- TOEIC スコア予測画面 ----------
@@ -1208,6 +1390,14 @@ function bindEvents() {
 
   // TOEIC スコア予測: リセット
   document.getElementById('ts-reset-btn')?.addEventListener('click', onScoreReset);
+
+  // IELTS Speaking
+  document.getElementById('is-back-btn')?.addEventListener('click', onIeltsBack);
+  document.getElementById('is-mic-btn')?.addEventListener('click', isStartRecognition);
+  document.getElementById('is-evaluate-btn')?.addEventListener('click', onIeltsEvaluate);
+  document.querySelectorAll('#screen-ielts-speaking .ai-chip').forEach((chip) => {
+    chip.addEventListener('click', () => onIeltsAiSelect(chip));
+  });
 
   // シナリオ: Phase タブ
   document.querySelectorAll('#scenario-list-view .tab').forEach((tab) => {
