@@ -745,10 +745,12 @@ async function onIeltsEvaluate() {
   });
 
   try {
-    await copyToClipboard(prompt);
-    showToast('プロンプトをコピー → AI を起動します', 2000);
-  } catch { /* ignore */ }
-  launchProvider(isState.selectedAi);
+    const result = await launchProvider(isState.selectedAi, prompt);
+    showToast(result.copied ? 'プロンプトをコピー → AI を起動しました' : 'AI を起動しました（手動でプロンプトをコピーしてください）', 2500);
+  } catch (err) {
+    console.error('launchProvider failed:', err);
+    showToast('AI 起動に失敗しました');
+  }
 }
 
 // ---------- IELTS Writing 画面 ----------
@@ -866,10 +868,12 @@ async function onIwEvaluate() {
   });
 
   try {
-    await copyToClipboard(prompt);
-    showToast('プロンプトをコピー → AI を起動します', 2000);
-  } catch { /* ignore */ }
-  launchProvider(iwState.selectedAi);
+    const result = await launchProvider(iwState.selectedAi, prompt);
+    showToast(result.copied ? 'プロンプトをコピー → AI を起動しました' : 'AI を起動しました（手動でプロンプトをコピーしてください）', 2500);
+  } catch (err) {
+    console.error('launchProvider failed:', err);
+    showToast('AI 起動に失敗しました');
+  }
 }
 
 // ---------- TOEIC スコア予測画面 ----------
