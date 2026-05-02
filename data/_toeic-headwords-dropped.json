@@ -1,0 +1,4640 @@
+﻿[
+    {
+        "word":  "clock-in",
+        "band":  "score-600",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "yen-equivalent",
+        "band":  "score-600",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "payroll-tax",
+        "band":  "score-600",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "trade-show",
+        "band":  "score-600",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "follower-count",
+        "band":  "score-600",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "human-resources",
+        "band":  "score-600",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "duty-of-care",
+        "band":  "score-600",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "data-protection",
+        "band":  "score-600",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "exhibit-legal",
+        "band":  "score-600",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "storage-cloud",
+        "band":  "score-600",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "plug-in",
+        "band":  "score-600",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "add-on",
+        "band":  "score-600",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "desktop-shortcut",
+        "band":  "score-600",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "user-interface",
+        "band":  "score-600",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "carry-on",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "window-seat",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tour-guide",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "travel-agency",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "travel-agent",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "package-deal",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "destination-card",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "connection-flight",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "upgrade-seat",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "boarding-pass",
+        "band":  "score-600",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "mini-bar",
+        "band":  "score-600",
+        "topic":  "hotel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "front-desk",
+        "band":  "score-600",
+        "topic":  "hotel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "check-in-counter",
+        "band":  "score-600",
+        "topic":  "hotel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "laundry-service",
+        "band":  "score-600",
+        "topic":  "hotel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "ironing-board",
+        "band":  "score-600",
+        "topic":  "hotel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "main-course",
+        "band":  "score-600",
+        "topic":  "restaurant",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "prix-fixe",
+        "band":  "score-600",
+        "topic":  "restaurant",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "reservation-list",
+        "band":  "score-600",
+        "topic":  "restaurant",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "walk-in",
+        "band":  "score-600",
+        "topic":  "restaurant",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "department-store",
+        "band":  "score-600",
+        "topic":  "retail",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "window-shopping",
+        "band":  "score-600",
+        "topic":  "retail",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "retail-store",
+        "band":  "score-600",
+        "topic":  "retail",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "convenience-store",
+        "band":  "score-600",
+        "topic":  "retail",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "living-room",
+        "band":  "score-600",
+        "topic":  "realestate",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "gate-residential",
+        "band":  "score-600",
+        "topic":  "realestate",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "mailbox-residential",
+        "band":  "score-600",
+        "topic":  "realestate",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "raw-material",
+        "band":  "score-600",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "blueprint-doc",
+        "band":  "score-600",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "prototype-mfg",
+        "band":  "score-600",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "mass-production",
+        "band":  "score-600",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "air-shipping",
+        "band":  "score-600",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "sea-shipping",
+        "band":  "score-600",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "customs-clearance",
+        "band":  "score-600",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "temperature-body",
+        "band":  "score-600",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "first-aid",
+        "band":  "score-600",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "emergency-room",
+        "band":  "score-600",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "nurse-practitioner",
+        "band":  "score-600",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "eco-friendly",
+        "band":  "score-600",
+        "topic":  "environment",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "podcast-media",
+        "band":  "score-600",
+        "topic":  "media",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "draft-document",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "forward-document",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cc-someone",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "bcc-someone",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "attach-file",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "draft-email",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cover-page",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "index-doc",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "disclaimer-doc",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "in-tray",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "out-tray",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "filing-cabinet",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "punch-hole",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "binder-clip",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "paper-shredder",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "paper-jam",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "double-sided",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "single-sided",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "portrait-orientation",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "landscape-orientation",
+        "band":  "score-730",
+        "topic":  "office",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "vendor-relations",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "scope-of-work",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "stakeholder-meeting",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "wrap-up",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "executive-summary",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "unique-selling-point",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "competitive-edge",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "strategic-plan",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "announcement-corporate",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "corporate-identity",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "dashboard-business",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "compliance-corporate",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "sustainability-corporate",
+        "band":  "score-730",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "trust-fund",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "mutual-fund",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "hedge-fund",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "profit-margin",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "markdown-finance",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "gross-profit",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "operating-profit",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "net-profit",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "earnings-per-share",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "price-earnings",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "P-E-ratio",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "balance-sheet",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "income-statement",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cashflow-statement",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "write-off",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "write-down",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "reserve-fund",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "fiscal-policy",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "monetary-policy",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "depression-econ",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "estate-finance",
+        "band":  "score-730",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "positioning-marketing",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "lead-generation",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "conversion-rate",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "click-through",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "engagement-rate",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "bounce-rate",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "retention-rate",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "loyalty-program",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "referral-program",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cross-promotion",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "co-branding",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "white-label",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "private-label",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tiered-pricing",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "dynamic-pricing",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "penetration-pricing",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "loss-leader",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "trial-offer",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "money-back",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "subscription-model",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "one-time",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "auto-renewal",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "drip-campaign",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "native-advertising",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "sponsored-content",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "placement-advertising",
+        "band":  "score-730",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "benefits-package",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "stock-option",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "equity-grant",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "performance-bonus",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "competency-framework",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "career-path",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "career-ladder",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "succession-planning",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "feedback-360",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "performance-review",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "peer-review",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "self-evaluation",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "goal-setting",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "SMART-goal",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "stretch-goal",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "exit-interview",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "employee-handbook",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "equity-hr",
+        "band":  "score-730",
+        "topic":  "hr",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "arbitration-legal",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "mediation-legal",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "liability-legal",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cross-examination",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "public-defender",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "billable-hour",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "pro-bono",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "conflict-of-interest",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "power-of-attorney",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "estate-legal",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "will-legal",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "divorce-legal",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "child-support",
+        "band":  "score-730",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "library-code",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "production-tech",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "environment-tech",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "encryption-tech",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "index-tech",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "transaction-tech",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "event-driven",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "automation-tech",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "unit-test",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "integration-test",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "regression-test",
+        "band":  "score-730",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "layover-extended",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "standby-list",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "upgrade-class",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "compensation-travel",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "frequent-flyer-miles",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "loyalty-airline",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "status-airline",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "gold-status",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "platinum-status",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "priority-lane",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "global-entry",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "customs-form",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "conversion-rate-travel",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "exchange-rate-fee",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "visa-waiver",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "health-certificate",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "vaccination-certificate",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "yellow-fever",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "trip-cancellation",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "baggage-loss",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "lost-luggage",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "claim-travel",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "compensation-luggage",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tour-operator",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "B-and-B",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "capsule-hotel",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Airbnb-style",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "short-term-rental",
+        "band":  "score-730",
+        "topic":  "travel",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "six-sigma",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "supply-chain-mfg",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "stock-mfg",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "reorder-point",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "ISO-standard",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "ISO-9001",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "ISO-14001",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Six-Sigma-belt",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "root-cause",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "corrective-action",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "preventive-action",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "failure-mode",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "defect-rate",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "yield-rate",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "first-pass",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "upgrade-mfg",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "reverse-logistics",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "recycle-mfg",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "scrap-mfg",
+        "band":  "score-730",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "procurement-logistics",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "vendor-management",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "just-in-time-logistics",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "drop-shipping",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cross-docking",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "warehouse-management",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "broker-logistics",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "customs-broker",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cash-on-delivery",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "insurance-cargo",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "liability-shipping",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "loss-claim",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "damage-claim",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "handling-fee",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "fuel-surcharge",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "peak-surcharge",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "weight-class",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "dimensional-weight",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "bonded-warehouse",
+        "band":  "score-730",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "therapist-health",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "emergency-medicine",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "ICU-care",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "intensive-care",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "critical-care",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "referral-medical",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "second-opinion",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "privacy-medical",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "consent-form",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "living-will",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "insurance-medical",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "deductible-medical",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "premium-medical",
+        "band":  "score-730",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "credential-edu",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "registration-edu",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "double-major",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cohort-edu",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "summa-cum-laude",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "magna-cum-laude",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cum-laude",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "trustee-edu",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "capital-campaign",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "endowment-edu",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "financial-aid",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "grant-edu",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "scholarship-merit",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "scholarship-need",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "work-study",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "apprenticeship-edu",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tenure-track",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "faculty-meeting",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "department-chair",
+        "band":  "score-730",
+        "topic":  "education",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "whereas-clause",
+        "band":  "score-730",
+        "topic":  "general",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "abstract-paper",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "area-research",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "benefit-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "contract-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "environment-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "estimate-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "export-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "finance-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "function-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "income-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "legal-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "major-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "percent-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "policy-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "require-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "role-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "sector-academic",
+        "band":  "score-730",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "conglomerate-strategy",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "vertical-integration",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "horizontal-integration",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "economy-of-scale",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "economy-of-scope",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "barriers-to-entry",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "switching-cost",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "network-effect",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "second-mover",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "secondary-offering",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "direct-listing",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "private-equity",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "venture-capital",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "seed-round",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "series-A",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "series-B",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "valuation-vc",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "term-sheet",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cap-table",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "convertible-note",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "preferred-stock",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "common-stock",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "liquidation-preference",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "drag-along",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tag-along",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "right-of-first-refusal",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "anti-dilution",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "earn-out",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "vesting-schedule",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cliff-vesting",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "accelerated-vesting",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "badge-vc",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "bridge-round",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "down-round",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "up-round",
+        "band":  "score-860",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "options-finance",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "margin-call",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "short-sale",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "long-position",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "short-position",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "bull-market",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "bear-market",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "crash-market",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "alpha-finance",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "sharpe-ratio",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "capital-gains",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "capital-loss",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "wash-sale",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tax-loss-harvesting",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "dividend-yield",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "payout-ratio",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "retained-earnings",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "goodwill-finance",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "straight-line",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "declining-balance",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "weighted-average",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "accrual-accounting",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cash-accounting",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Sarbanes-Oxley",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "transfer-pricing",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "arms-length",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "double-taxation",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tax-treaty",
+        "band":  "score-860",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "behavioral-targeting",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "contextual-targeting",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "multi-touch",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "first-touch",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "last-touch",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "time-decay",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "linear-attribution",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "lift-test",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "A-B-test",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "split-test",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cohort-analysis",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "funnel-analysis",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "customer-lifetime-value",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "customer-acquisition-cost",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "quadrant-marketing",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "BCG-matrix",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "star-product",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "question-mark",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "dog-product",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "five-forces",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "value-chain",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "pricing-elasticity",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "price-discrimination",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tiered-product",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "loss-leader-strategy",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "captive-pricing",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "penetration-strategy",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "skimming-strategy",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "psychological-pricing",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "odd-pricing",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "prestige-pricing",
+        "band":  "score-860",
+        "topic":  "marketing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "monopoly-legal",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "oligopoly-legal",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "price-fixing",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "insider-trading",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "market-manipulation",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "fraud-legal",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "money-laundering",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tax-evasion",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tax-avoidance",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "securities-law",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "class-action",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "derivative-suit",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "shareholder-suit",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "fiduciary-duty",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "duty-of-loyalty",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "business-judgment",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "piercing-corporate-veil",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "alter-ego",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "successor-liability",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "joint-and-several",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "contributory-negligence",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "comparative-negligence",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "strict-liability",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "vicarious-liability",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "respondeat-superior",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "force-majeure",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "specific-performance",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "equitable-relief",
+        "band":  "score-860",
+        "topic":  "legal",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "transformer-tech",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "attention-mechanism",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "fine-tuning",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "semi-supervised",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "active-learning",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "federated-learning",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "distributed-computing",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "parallel-processing",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "quantum-computing",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "smart-contract",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "proof-of-work",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "proof-of-stake",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "zero-knowledge",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "differential-privacy",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "federated-identity",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "metrics-tech",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "logging-tech",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "error-budget",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "chaos-engineering",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "blue-green",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "canary-deploy",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "shadow-deploy",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "dark-launch",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "progressive-delivery",
+        "band":  "score-860",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "additive-manufacturing",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "3D-printing",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "flexible-manufacturing",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cellular-manufacturing",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "group-technology",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "poka-yoke",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "mistake-proofing",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "level-loading",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "genchi-genbutsu",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "A3-thinking",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "theory-of-constraints",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "drum-buffer-rope",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "throughput-accounting",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "overall-equipment-effectiveness",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "total-productive-maintenance",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "mean-time-between-failures",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "mean-time-to-repair",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "fault-tree",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "reliability-engineering",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "bathtub-curve",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "burn-in",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "accelerated-life-test",
+        "band":  "score-860",
+        "topic":  "manufacturing",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "demand-planning",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "supply-planning",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "S-and-OP",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "sales-and-operations-planning",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "collaborative-planning",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "vendor-managed-inventory",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "consignment-stock",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "safety-stock-calc",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "reorder-point-formula",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "economic-order-quantity",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "ABC-analysis",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Pareto-inventory",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cycle-counting",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "perpetual-inventory",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "periodic-inventory",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "FIFO-warehouse",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "LIFO-warehouse",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "first-expired-first-out",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "wave-picking",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "zone-picking",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "batch-picking",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "pick-to-light",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "voice-picking",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cross-dock",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "mixing-center",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "distribution-center",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "fulfillment-center",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "intermodal-rail",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "short-sea",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "feeder-service",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "milk-run",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "less-container-load",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "full-container-load",
+        "band":  "score-860",
+        "topic":  "logistics",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "half-life",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "loading-dose",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "maintenance-dose",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "adverse-event",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "side-effect",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "off-label",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "tiered-formulary",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "step-therapy",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "preferred-drug",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "generic-drug",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "brand-name",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "controlled-substance",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "schedule-drug",
+        "band":  "score-860",
+        "topic":  "health",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "abandon-awl",
+        "band":  "score-860",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "academic-awl",
+        "band":  "score-860",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "achieve-awl",
+        "band":  "score-860",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "adjust-awl",
+        "band":  "score-860",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "alter-awl",
+        "band":  "score-860",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "approach-awl",
+        "band":  "score-860",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "assume-awl",
+        "band":  "score-860",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "attach-awl",
+        "band":  "score-860",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "authority-awl",
+        "band":  "score-860",
+        "topic":  "academic",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "albeit-formal",
+        "band":  "score-860",
+        "topic":  "general",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "conform-formal",
+        "band":  "score-860",
+        "topic":  "general",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "fiduciary-corporate",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "predatory-pricing",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "most-favored-nation",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "national-treatment",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "comparative-advantage",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "absolute-advantage",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "factor-endowment",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Heckscher-Ohlin",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Stolper-Samuelson",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Leontief-paradox",
+        "band":  "score-990",
+        "topic":  "business",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Black-Scholes",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Greeks-options",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "delta-options",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "gamma-options",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "theta-options",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "vega-options",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "rho-options",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Monte-Carlo",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "binomial-tree",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Brownian-motion",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Wiener-process",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Ito-calculus",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "risk-neutral",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "arbitrage-pricing",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Fama-French",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "factor-investing",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "smart-beta",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "style-investing",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "value-investing",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "growth-investing",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "high-frequency",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "market-making",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "designated-market-maker",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "dark-pool",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "payment-for-order-flow",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "best-execution",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "fiduciary-finance",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "KYC-finance",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "customer-due-diligence",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "enhanced-due-diligence",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "suspicious-activity-report",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "currency-transaction-report",
+        "band":  "score-990",
+        "topic":  "finance",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "ultra-vires",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "mens-rea",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "actus-reus",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "habeas-corpus",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "amicus-curiae",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "stare-decisis",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ratio-decidendi",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "obiter-dicta",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "res-judicata",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "collateral-estoppel",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "forum-non-conveniens",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "lis-pendens",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "quantum-meruit",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "quid-pro-quo",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "prima-facie",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "de-novo",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "de-facto",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "de-jure",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ipso-facto",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ad-hoc",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ad-hominem",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "caveat-emptor",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "caveat-venditor",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "nolo-contendere",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "pro-se",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "pro-bono-publico",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "sui-generis",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "mutatis-mutandis",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ceteris-paribus",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ex-parte",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "in-camera",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "in-rem",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "in-personam",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ex-post-facto",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "nunc-pro-tunc",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "writ-of-mandamus",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "writ-of-certiorari",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "writ-of-habeas",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "interpleader",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "intervenor",
+        "band":  "score-990",
+        "topic":  "legal",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "Byzantine-fault",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Paxos-algo",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Raft-algo",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "two-phase-commit",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "three-phase-commit",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "CAP-theorem",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "BASE-tech",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "eventual-consistency",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "strong-consistency",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "snapshot-isolation",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "read-committed",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "read-uncommitted",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "repeatable-read",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "phantom-read",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "dirty-read",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "write-skew",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "lost-update",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Lamport-clock",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "vector-clock",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "conflict-free-replicated",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "operational-transform",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "gossip-protocol",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "epidemic-protocol",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "anti-entropy",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "Merkle-tree",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "bloom-filter",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "cuckoo-filter",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "count-min-sketch",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "reservoir-sampling",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "consistent-hashing",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "rendezvous-hashing",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "jump-hash",
+        "band":  "score-990",
+        "topic":  "tech",
+        "reason":  "hyphen-disambiguator"
+    },
+    {
+        "word":  "antecedent",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apriori",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "aposteriori",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "axiomatic",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "tautological",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "syllogism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "enthymeme",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "sorites",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "modus-ponens",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "modus-tollens",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "reductio",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ad-absurdum",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "epistemology",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ontology",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "phenomenology",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "hermeneutics",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "dialectic",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "heuristic",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "paradigm",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "zeitgeist",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "weltanschauung",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "gestalt",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "schemata",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "praxis",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "poiesis",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "aporia",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apothegm",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apotheosis",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apocrypha",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apostasy",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apostate",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "heretical",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "heterodox",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "orthodox",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "syncretism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "eclecticism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "dogmatism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "relativism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "absolutism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "existentialism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "phenomenalism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "positivism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "logicism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "formalism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "intuitionism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "constructivism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "empiricism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "rationalism",
+        "band":  "score-990",
+        "topic":  "academic",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "abnegate",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "abrogate",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "abstemious",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "acerbic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "acquiesce",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "acrimonious",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "adjudicate",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "admonish",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "adumbrate",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "aegis",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "alacrity",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "aloof",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "amalgamate",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ameliorate",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "amenable",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "anachronism",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "anathema",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ancillary",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "anodyne",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "antediluvian",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "antithetical",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apocryphal",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apoplectic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apostate-gen",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apotheosis-gen",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "apropos",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "arcane",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ardor",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "arduous",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ascertain",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "ascetic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "aspersion",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "assiduous",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "assuage",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "atavistic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "attenuate",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "audacious",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "austere",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "autocratic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "avarice",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "aver",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "axiomatic-gen",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "baleful",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "banal",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "beatific",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "bedraggled",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "beguile",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "behemoth",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "beleaguer",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "belie",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "belligerent",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "benevolent",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "benign",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "bequeath",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "besmirch",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "bifurcate",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "blandish",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "blasphemy",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "bombastic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "boorish",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "brusque",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "bucolic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "cacophony",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "callow",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "capitulate-gen",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "capricious",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "castigate-gen",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "cathartic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "caustic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "cavalier",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "censorious",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "cerebral",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "chagrin",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "chicanery",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "chimerical",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "churlish",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "circuitous",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "circumlocution",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "circumspect",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "clemency",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "cloying",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "cogent-gen",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "cognizant",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "commensurate",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "compunction",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "concomitant",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "conflagration",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "conjugal",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "consanguinity",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "consternation",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "contiguous-gen",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "contrite",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "contumacious",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "copacetic",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    },
+    {
+        "word":  "corpulent",
+        "band":  "score-990",
+        "topic":  "general",
+        "reason":  "section-drop"
+    }
+]

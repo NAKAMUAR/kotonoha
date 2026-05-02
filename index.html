@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#c5382b">
+  <meta name="description" content="言の葉 - 日本人のための外国語学習アプリ">
+  <title>言の葉 - Kotonoha</title>
+
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="言の葉">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            shu:           '#c5382b',
+            'shu-dark':    '#a02b22',
+            'shu-light':   '#e85a4c',
+            washi:         '#f5f1e8',
+            'washi-dark':  '#ebe5d3',
+            'washi-light': '#faf7ee',
+            sumi:          '#1a1612',
+            'sumi-light':  '#4a3f38',
+            'sumi-soft':   '#7a6f63',
+            koke:          '#5a7048',
+            'koke-dark':   '#445632',
+          },
+          fontFamily: {
+            mincho:    ['"Shippori Mincho"', 'serif'],
+            cormorant: ['"Cormorant Garamond"', 'serif'],
+            jetbrains: ['"JetBrains Mono"', 'monospace'],
+          },
+        },
+      },
+    };
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-washi text-sumi font-mincho min-h-screen flex flex-col antialiased">
+
+  <header class="header-bar sticky top-0 z-40">
+    <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
+      <h1 class="logo text-2xl font-bold tracking-wide">
+        <span class="text-shu">言</span><span class="text-sumi">の</span><span class="text-shu">葉</span>
+        <span class="text-[10px] text-sumi-soft font-cormorant tracking-widest ml-2 align-middle">KOTONOHA</span>
+      </h1>
+      <button id="profile-btn" class="hidden w-9 h-9 rounded-full bg-koke text-washi items-center justify-center text-sm font-cormorant" aria-label="プロフィール">
+        <span id="profile-initial">U</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="flex-1 w-full max-w-4xl mx-auto px-4 pt-6 pb-28">
+
+    <section id="screen-login" class="screen">
+      <div class="text-center mt-12 mb-10">
+        <div class="inline-block mb-4">
+          <span class="block text-7xl font-mincho font-bold leading-none">
+            <span class="text-shu">言</span>の<span class="text-shu">葉</span>
+          </span>
+          <span class="block mt-2 text-xs tracking-[0.4em] text-sumi-soft font-cormorant">KOTONOHA</span>
+        </div>
+        <p class="mt-6 text-sumi-light text-sm leading-relaxed">
+          日本人のための外国語学習アプリ<br>
+          一日十五分、十二ヶ月で B1-B2 へ
+        </p>
+      </div>
+
+      <div class="card max-w-md mx-auto">
+        <h2 class="text-lg font-semibold mb-4 text-center">はじめる</h2>
+        <button id="btn-google-login" class="btn-primary w-full flex items-center justify-center gap-3">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M21.35 11.1h-9.17v2.73h6.51c-.33 3.81-3.5 5.44-6.5 5.44C8.36 19.27 5 16.25 5 12c0-4.1 3.2-7.27 7.2-7.27 3.09 0 4.9 1.97 4.9 1.97L19 4.72S16.56 2 12.1 2C6.42 2 2.03 6.8 2.03 12c0 5.05 4.13 10 10.22 10 5.35 0 9.25-3.67 9.25-9.09 0-1.15-.15-1.81-.15-1.81z"/></svg>
+          <span>Google でログイン</span>
+        </button>
+        <p class="text-xs text-sumi-soft text-center mt-4 leading-relaxed">
+          ログインすると iPhone と PC で<br>
+          学習進捗が自動同期されます
+        </p>
+      </div>
+
+      <div class="mt-8 text-center text-xs text-sumi-soft">
+        <span class="font-cormorant tracking-widest">v0.1 · Step 1 (Skeleton)</span>
+      </div>
+    </section>
+
+    <section id="screen-home" class="screen hidden">
+      <div class="mb-6">
+        <p class="text-sm text-sumi-soft">こんにちは</p>
+        <h2 class="text-2xl font-semibold mt-1" id="greeting-name">ゲスト さん</h2>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+        <div class="stat-card">
+          <div class="stat-label">連続学習</div>
+          <div class="stat-value"><span id="stat-streak">0</span><span class="stat-unit">日</span></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">習得単語</div>
+          <div class="stat-value"><span id="stat-words">0</span><span class="stat-unit">語</span></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">完了シナリオ</div>
+          <div class="stat-value"><span id="stat-scenarios">0</span><span class="stat-unit">/30</span></div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">進行フェーズ</div>
+          <div class="stat-value text-lg pt-1"><span id="stat-phase">日常</span></div>
+        </div>
+      </div>
+
+      <div class="card mb-6">
+        <h3 class="card-title">今日の学習</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-4">
+          <button class="action-card" data-target="vocabulary">
+            <div class="action-icon">学</div>
+            <div class="action-label">単語復習</div>
+            <div class="action-sub">SRS で <span id="due-count">0</span> 語</div>
+          </button>
+          <button class="action-card" data-target="scenarios">
+            <div class="action-icon">話</div>
+            <div class="action-label">会話練習</div>
+            <div class="action-sub">シナリオから選択</div>
+          </button>
+          <button class="action-card" data-target="grammar">
+            <div class="action-icon">筆</div>
+            <div class="action-label">文法添削</div>
+            <div class="action-sub">AI が文章を確認</div>
+          </button>
+          <button class="action-card" data-target="toeic-listening">
+            <div class="action-icon">聴</div>
+            <div class="action-label">TOEIC リスニング</div>
+            <div class="action-sub">Part 1-4 の演習</div>
+          </button>
+          <button class="action-card" data-target="toeic-reading">
+            <div class="action-icon">読</div>
+            <div class="action-label">TOEIC リーディング</div>
+            <div class="action-sub">Part 5-7 の演習</div>
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">フェーズ進捗</h3>
+        <div class="mt-4 space-y-3">
+          <div class="phase-row">
+            <div class="phase-name">Phase 1 — 日常会話</div>
+            <div class="phase-bar"><div class="phase-fill" style="width: 0%"></div></div>
+            <div class="phase-pct">0%</div>
+          </div>
+          <div class="phase-row opacity-50">
+            <div class="phase-name">Phase 2 — 中級表現</div>
+            <div class="phase-bar"><div class="phase-fill" style="width: 0%"></div></div>
+            <div class="phase-pct">0%</div>
+          </div>
+          <div class="phase-row opacity-50">
+            <div class="phase-name">Phase 3 — ビジネス</div>
+            <div class="phase-bar"><div class="phase-fill" style="width: 0%"></div></div>
+            <div class="phase-pct">0%</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-vocabulary" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">単語帳</h2>
+        <p class="screen-sub">SRS — 間隔反復学習</p>
+      </div>
+
+      <div id="vocab-deck-row" class="filter-row mb-3">
+        <button class="chip chip-active" data-deck="daily">日常会話</button>
+        <button class="chip" data-deck="toeic">TOEIC</button>
+        <button class="chip" data-deck="vi3kyu">VI 検定3級</button>
+      </div>
+
+      <div id="vocab-lang-tabs" class="tab-bar mb-6">
+        <button class="tab tab-active" data-lang="en">English</button>
+        <button class="tab" data-lang="vi">Tiếng Việt</button>
+      </div>
+
+      <div class="filter-row mb-4">
+        <button class="chip chip-active" data-filter="all">全て</button>
+        <button class="chip" data-filter="learning">学習中</button>
+        <button class="chip" data-filter="review">復習</button>
+        <button class="chip" data-filter="mastered">習得済</button>
+      </div>
+
+      <div id="vocab-counter" class="text-center text-xs text-sumi-soft mb-4 font-cormorant tracking-wider">
+        <span id="vocab-status-text">残り <span id="vocab-remaining">0</span> 語</span>
+      </div>
+
+      <div id="flashcard-area" class="flashcard-area">
+        <div class="flashcard">
+          <div class="flashcard-inner">
+            <div class="flashcard-face flashcard-front">
+              <div class="text-xs text-sumi-soft tracking-widest mb-3 font-cormorant">WORD</div>
+              <div id="card-word" class="text-4xl font-cormorant font-medium px-2 break-words">—</div>
+              <div id="card-reading" class="text-sm text-sumi-soft mt-3 font-jetbrains"></div>
+              <div class="text-xs text-sumi-soft mt-auto pt-6">タップで裏返し</div>
+            </div>
+            <div class="flashcard-face flashcard-back">
+              <div class="text-xs text-sumi-soft tracking-widest mb-2 font-cormorant">MEANING</div>
+              <div id="card-meaning" class="text-2xl font-mincho font-medium px-2 break-words">—</div>
+              <div class="w-10 h-px bg-sumi/20 my-3"></div>
+              <div id="card-example" class="text-sm font-cormorant italic text-sumi-light px-2"></div>
+              <div id="card-example-tr" class="text-xs text-sumi-soft mt-1 px-2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="rating-row mt-6">
+          <button class="rating-btn rating-hard" data-quality="2">難しい</button>
+          <button class="rating-btn rating-normal" data-quality="4">普通</button>
+          <button class="rating-btn rating-easy" data-quality="5">簡単</button>
+        </div>
+      </div>
+
+      <div id="vocab-empty" class="hidden text-center py-12">
+        <div class="text-6xl font-mincho text-shu mb-4">完</div>
+        <p class="text-sumi font-mincho text-lg">本日のレビューは完了しました</p>
+        <p class="text-sumi-soft text-xs mt-2 font-cormorant tracking-widest">SEE YOU TOMORROW</p>
+        <div id="vocab-stats" class="mt-8 text-xs text-sumi-soft"></div>
+      </div>
+    </section>
+
+    <section id="screen-scenarios" class="screen hidden">
+
+      <div id="scenario-list-view">
+        <div class="screen-header">
+          <h2 class="screen-title">シナリオ会話</h2>
+          <p class="screen-sub">場面別の会話練習</p>
+        </div>
+
+        <div class="tab-bar mb-6">
+          <button class="tab tab-active" data-phase="1">Phase 1 日常</button>
+          <button class="tab" data-phase="2">Phase 2 中級</button>
+          <button class="tab" data-phase="3">Phase 3 ビジネス</button>
+        </div>
+
+        <div id="scenario-grid" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+
+        <div id="scenario-empty" class="hidden text-center py-12">
+          <div class="text-5xl font-mincho text-shu mb-3">準</div>
+          <p class="text-sumi font-mincho">このフェーズは準備中です</p>
+          <p class="text-sumi-soft text-xs mt-2 font-cormorant tracking-widest">COMING SOON</p>
+        </div>
+      </div>
+
+      <div id="scenario-detail-view" class="hidden">
+        <button id="scenario-back" class="text-sm text-sumi-light hover:text-shu mb-4 inline-flex items-center gap-1 font-mincho">
+          <span class="text-base">←</span> 一覧に戻る
+        </button>
+
+        <div class="card mb-4">
+          <div class="flex items-baseline justify-between gap-3">
+            <h3 id="detail-title" class="text-xl font-mincho font-semibold">—</h3>
+            <span id="detail-num" class="font-cormorant text-3xl text-shu opacity-40 font-medium">—</span>
+          </div>
+          <p id="detail-desc" class="text-sm text-sumi-soft mt-1">—</p>
+          <div class="text-[10px] text-sumi-soft tracking-[0.25em] font-cormorant mt-3 uppercase">
+            <span id="detail-level">A1</span><span class="mx-2">·</span><span id="detail-tags">—</span>
+          </div>
+        </div>
+
+        <div class="tab-bar mb-4">
+          <button class="detail-lang-tab tab tab-active" data-lang="en">English</button>
+          <button class="detail-lang-tab tab" data-lang="vi">Tiếng Việt</button>
+        </div>
+
+        <div class="flex gap-2 mb-4">
+          <button id="btn-play-all" class="btn-secondary text-xs flex-1 py-2">▶ 全て連続で読み上げ</button>
+          <button id="btn-stop-all" class="btn-secondary text-xs px-3 py-2">■ 停止</button>
+        </div>
+
+        <div id="detail-dialogue" class="space-y-3 mb-6"></div>
+
+        <div class="card">
+          <h3 class="card-title">AI と会話練習</h3>
+          <p class="text-xs text-sumi-soft mt-2">このシナリオを使って AI とロールプレイ練習ができます</p>
+          <div class="flex flex-wrap gap-2 mt-3">
+            <button class="ai-chip-scenario ai-chip ai-chip-active" data-ai="claude">Claude</button>
+            <button class="ai-chip-scenario ai-chip" data-ai="gemini">Gemini</button>
+            <button class="ai-chip-scenario ai-chip" data-ai="chatgpt">ChatGPT</button>
+            <button class="ai-chip-scenario ai-chip" data-ai="copilot">Copilot</button>
+            <button class="ai-chip-scenario ai-chip" data-ai="ollama">Ollama</button>
+          </div>
+          <button id="btn-scenario-ai" class="btn-primary w-full mt-4">AI と会話練習を始める</button>
+          <div id="scenario-ai-response" class="hidden mt-4 p-3 bg-washi border border-sumi/10 rounded text-sm font-mincho whitespace-pre-wrap leading-relaxed text-sumi max-h-96 overflow-y-auto"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-grammar" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">文法添削</h2>
+        <p class="screen-sub">書いた文章を AI でチェック</p>
+      </div>
+
+      <div class="card mb-4">
+        <label class="label" for="grammar-input">添削する文章</label>
+        <textarea id="grammar-input" rows="6" class="textarea" placeholder="ここに英文またはベトナム語の文章を入力..."></textarea>
+        <div class="flex flex-wrap items-center gap-2 mt-3">
+          <span class="text-xs text-sumi-soft mr-1">使う AI:</span>
+          <button class="ai-chip ai-chip-active" data-ai="claude">Claude</button>
+          <button class="ai-chip" data-ai="gemini">Gemini</button>
+          <button class="ai-chip" data-ai="chatgpt">ChatGPT</button>
+          <button class="ai-chip" data-ai="copilot">Copilot</button>
+          <button class="ai-chip" data-ai="ollama">Ollama</button>
+        </div>
+        <button id="btn-grammar-check" class="btn-primary w-full mt-4">添削プロンプトをコピーして AI を開く</button>
+      </div>
+
+      <div id="grammar-result" class="card hidden mb-4">
+        <div class="flex items-start justify-between gap-3 mb-3">
+          <div>
+            <div class="text-[10px] text-sumi-soft tracking-[0.25em] font-cormorant">PROMPT SENT TO</div>
+            <div id="grammar-result-ai" class="font-mincho text-base font-semibold mt-1">—</div>
+            <div id="grammar-result-status" class="text-xs text-koke mt-1">クリップボードにコピーしました</div>
+          </div>
+          <button id="btn-copy-again" class="btn-secondary text-xs px-3 py-1.5">再コピー</button>
+        </div>
+        <details class="text-xs">
+          <summary class="cursor-pointer text-sumi-soft hover:text-sumi font-cormorant tracking-wider">PROMPT 内容を確認</summary>
+          <pre id="grammar-result-prompt" class="text-xs bg-washi p-3 rounded mt-2 border border-sumi/10 overflow-x-auto whitespace-pre-wrap font-jetbrains text-sumi-light"></pre>
+        </details>
+        <p class="text-xs text-sumi-soft mt-3 leading-relaxed">
+          開いた AI で <kbd class="kbd">Ctrl</kbd>+<kbd class="kbd">V</kbd> で貼り付けて送信してください。
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">添削の流れ</h3>
+        <ol class="text-sm text-sumi-light leading-relaxed mt-3 space-y-1 list-decimal list-inside">
+          <li>文章を入力して AI を選ぶ</li>
+          <li>ボタンを押すとプロンプトがコピーされ、AI が新タブで開く</li>
+          <li>貼り付けて送信、AI の結果を確認</li>
+        </ol>
+        <p class="text-xs text-sumi-soft mt-3">言語は自動判定されます（ベトナム語の声調記号があれば vi、なければ en）</p>
+      </div>
+    </section>
+
+    <section id="screen-toeic-listening" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">TOEIC リスニング</h2>
+        <p class="screen-sub">Part 1 — 写真描写問題</p>
+      </div>
+
+      <div class="tab-bar mb-4">
+        <button class="tab tab-active" data-tl-part="1">Part 1</button>
+        <button class="tab" data-tl-part="2">Part 2</button>
+        <button class="tab" data-tl-part="3">Part 3</button>
+        <button class="tab" data-tl-part="4">Part 4</button>
+      </div>
+
+      <div id="tl-counter" class="text-center text-xs text-sumi-soft mb-4 font-cormorant tracking-wider">
+        <span id="tl-progress">— / —</span>
+        <span class="mx-2">·</span>
+        <span id="tl-score-tag">—</span>
+      </div>
+
+      <div id="tl-image-card" class="card mb-4">
+        <div class="card-title">写真の描写</div>
+        <div id="tl-image-desc-ja" class="text-sm font-mincho mt-3">—</div>
+        <details class="text-xs text-sumi-soft mt-3">
+          <summary class="cursor-pointer">English description</summary>
+          <div id="tl-image-desc-en" class="mt-2 italic font-cormorant">—</div>
+        </details>
+      </div>
+
+      <div id="tl-prompt-card" class="card mb-4 hidden">
+        <div class="card-title">応答問題</div>
+        <div class="text-sm font-mincho mt-3">音声を聴いて、最も適切な応答を A / B / C から選んでください。</div>
+        <div class="text-xs text-sumi-soft mt-2">問題文と選択肢の本文は採点後に表示されます。</div>
+      </div>
+
+      <div id="tl-question-card" class="card mb-4 hidden">
+        <div class="card-title">設問</div>
+        <div id="tl-talk-type-label" class="text-xs text-sumi-soft mt-2 hidden">—</div>
+        <div id="tl-question-text" class="text-sm font-mincho mt-3">—</div>
+        <div id="tl-sub-progress" class="text-xs text-sumi-soft mt-2">—</div>
+      </div>
+
+      <div class="card mb-4">
+        <div class="flex items-center gap-2 mb-3 flex-wrap">
+          <button id="tl-play-btn" class="btn-primary text-sm">▶ 再生</button>
+          <button id="tl-replay-btn" class="btn-secondary text-sm">🔁 リプレイ</button>
+          <button id="tl-stop-btn" class="btn-secondary text-sm">⏸ 停止</button>
+        </div>
+        <div class="flex items-center gap-1 text-xs flex-wrap">
+          <span class="text-sumi-soft mr-1">速度:</span>
+          <button class="chip" data-tl-speed="0.7">0.7×</button>
+          <button class="chip chip-active" data-tl-speed="0.9">0.9×</button>
+          <button class="chip" data-tl-speed="1.0">1.0×</button>
+          <button class="chip" data-tl-speed="1.2">1.2×</button>
+          <button class="chip" data-tl-speed="1.5">1.5×</button>
+        </div>
+      </div>
+
+      <div id="tl-choices" class="grid grid-cols-2 gap-3 mb-4">
+        <button class="tl-choice-btn" data-tl-choice="0">A</button>
+        <button class="tl-choice-btn" data-tl-choice="1">B</button>
+        <button class="tl-choice-btn" data-tl-choice="2">C</button>
+        <button class="tl-choice-btn" data-tl-choice="3">D</button>
+      </div>
+
+      <div id="tl-result" class="card hidden">
+        <div id="tl-result-icon" class="text-3xl text-center mb-2">—</div>
+        <div id="tl-result-text" class="text-sm font-mincho text-center mb-3">—</div>
+        <details open class="mb-3">
+          <summary class="text-xs text-sumi-soft cursor-pointer mb-2">スクリプト</summary>
+          <ol id="tl-script" class="text-xs mt-2 space-y-1 font-cormorant"></ol>
+        </details>
+        <div id="tl-explanation" class="text-xs text-sumi-soft border-t border-sumi/10 pt-3 mt-3"></div>
+        <button id="tl-next-btn" class="btn-primary w-full mt-3">次の問題 →</button>
+      </div>
+
+      <div id="tl-empty" class="card hidden text-center">
+        <div class="text-2xl mb-3">了</div>
+        <div id="tl-empty-title" class="text-sm font-mincho mb-2">完了！</div>
+        <div id="tl-summary" class="text-xs text-sumi-soft mb-4">—</div>
+        <button id="tl-restart-btn" class="btn-secondary">最初から</button>
+      </div>
+    </section>
+
+    <section id="screen-toeic-reading" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">TOEIC リーディング</h2>
+        <p class="screen-sub">Part 5 — 短文穴埋め問題</p>
+      </div>
+
+      <div class="tab-bar mb-4">
+        <button class="tab tab-active" data-tr-part="5">Part 5</button>
+        <button class="tab" data-tr-part="6" disabled>Part 6</button>
+        <button class="tab" data-tr-part="7" disabled>Part 7</button>
+      </div>
+
+      <div id="tr-counter" class="text-center text-xs text-sumi-soft mb-4 font-cormorant tracking-wider">
+        <span id="tr-progress">— / —</span>
+        <span class="mx-2">·</span>
+        <span id="tr-score-tag">—</span>
+      </div>
+
+      <div id="tr-sentence-card" class="card mb-4">
+        <div class="card-title">空欄を埋める単語を選んでください</div>
+        <div id="tr-sentence" class="text-base font-cormorant mt-3 leading-relaxed">—</div>
+      </div>
+
+      <div id="tr-choices" class="grid grid-cols-2 gap-3 mb-4">
+        <button class="tr-choice-btn" data-tr-choice="0">—</button>
+        <button class="tr-choice-btn" data-tr-choice="1">—</button>
+        <button class="tr-choice-btn" data-tr-choice="2">—</button>
+        <button class="tr-choice-btn" data-tr-choice="3">—</button>
+      </div>
+
+      <div id="tr-result" class="card hidden">
+        <div id="tr-result-icon" class="text-3xl text-center mb-2">—</div>
+        <div id="tr-result-text" class="text-sm font-mincho text-center mb-3">—</div>
+        <details open class="mb-3">
+          <summary class="text-xs text-sumi-soft cursor-pointer mb-2">完成文と全選択肢</summary>
+          <div id="tr-completed" class="text-sm font-cormorant mb-3 mt-2">—</div>
+          <ol id="tr-options-list" class="text-xs space-y-1 font-cormorant"></ol>
+        </details>
+        <div id="tr-explanation" class="text-xs text-sumi-soft border-t border-sumi/10 pt-3 mt-3"></div>
+        <button id="tr-next-btn" class="btn-primary w-full mt-3">次の問題 →</button>
+      </div>
+
+      <div id="tr-empty" class="card hidden text-center">
+        <div class="text-2xl mb-3">了</div>
+        <div id="tr-empty-title" class="text-sm font-mincho mb-2">完了！</div>
+        <div id="tr-summary" class="text-xs text-sumi-soft mb-4">—</div>
+        <button id="tr-restart-btn" class="btn-secondary">最初から</button>
+      </div>
+    </section>
+
+  </main>
+
+  <nav id="bottom-nav" class="bottom-nav hidden">
+    <button class="nav-item nav-active" data-target="home">
+      <div class="nav-icon">家</div>
+      <div class="nav-label">ホーム</div>
+    </button>
+    <button class="nav-item" data-target="vocabulary">
+      <div class="nav-icon">単</div>
+      <div class="nav-label">単語</div>
+    </button>
+    <button class="nav-item" data-target="scenarios">
+      <div class="nav-icon">話</div>
+      <div class="nav-label">会話</div>
+    </button>
+    <button class="nav-item" data-target="grammar">
+      <div class="nav-icon">添</div>
+      <div class="nav-label">添削</div>
+    </button>
+  </nav>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script type="module" src="js/app.js"></script>
+  <script>
+    // Service Worker 登録 — http://localhost や https:// でのみ動作
+    if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./service-worker.js').then((reg) => {
+          console.log('[SW] registered:', reg.scope);
+          reg.addEventListener('updatefound', () => {
+            const nw = reg.installing;
+            if (!nw) return;
+            nw.addEventListener('statechange', () => {
+              if (nw.state === 'installed' && navigator.serviceWorker.controller) {
+                console.log('[SW] update available — reload to apply');
+              }
+            });
+          });
+        }).catch((err) => console.error('[SW] register failed:', err));
+      });
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node / npm (将来 SDK で使うかも)
+node_modules/
+npm-debug.log*
+
+# Python (ローカルサーバー用)
+__pycache__/
+*.pyc
+
+# Environment / secrets (念のため)
+.env
+.env.local
+*.key
+*.pem
+service-account*.json
+
+# Build / temp
+dist/
+build/
+*.log
+*.tmp
+
+# Bundled artifacts (将来の biuld 用)
+*.tgz

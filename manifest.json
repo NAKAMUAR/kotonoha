@@ -1,0 +1,63 @@
+{
+  "name": "言の葉 — Kotonoha",
+  "short_name": "言の葉",
+  "description": "日本人のための外国語学習アプリ（英語・ベトナム語）。SRS とシナリオ会話で B1-B2 を目指す。",
+  "lang": "ja",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f1e8",
+  "theme_color": "#c5382b",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "単語復習",
+      "short_name": "単語",
+      "description": "SRS の期日が来た単語を復習する",
+      "url": "./?screen=vocabulary",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "会話練習",
+      "short_name": "会話",
+      "description": "シナリオから会話を練習する",
+      "url": "./?screen=scenarios",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "文法添削",
+      "short_name": "添削",
+      "description": "AI に文章を添削してもらう",
+      "url": "./?screen=grammar",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

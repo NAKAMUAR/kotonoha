@@ -1,0 +1,302 @@
+[
+  {
+    "id": "toeic_sample_01",
+    "word": "agenda",
+    "reading": "əˈdʒendə",
+    "meaning": "議題、検討事項",
+    "example": "Please review the agenda before the meeting.",
+    "exampleTranslation": "会議の前に議題をご確認ください。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "office"]
+  },
+  {
+    "id": "toeic_sample_02",
+    "word": "customer",
+    "reading": "ˈkʌstəmər",
+    "meaning": "顧客、お客様",
+    "example": "Our top priority is customer satisfaction.",
+    "exampleTranslation": "私たちの最優先事項は顧客満足です。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "business"]
+  },
+  {
+    "id": "toeic_sample_03",
+    "word": "invoice",
+    "reading": "ˈɪnvɔɪs",
+    "meaning": "請求書、インボイス",
+    "example": "We will send the invoice by the end of the month.",
+    "exampleTranslation": "月末までに請求書をお送りします。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "finance"]
+  },
+  {
+    "id": "toeic_sample_04",
+    "word": "campaign",
+    "reading": "kæmˈpeɪn",
+    "meaning": "キャンペーン、運動",
+    "example": "The marketing campaign starts next Monday.",
+    "exampleTranslation": "マーケティングキャンペーンは来週月曜日に始まります。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "marketing"]
+  },
+  {
+    "id": "toeic_sample_05",
+    "word": "applicant",
+    "reading": "ˈæplɪkənt",
+    "meaning": "応募者、志願者",
+    "example": "We received over 200 applicants for the position.",
+    "exampleTranslation": "そのポジションに 200 名以上の応募者がありました。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "hr"]
+  },
+  {
+    "id": "toeic_sample_06",
+    "word": "license",
+    "reading": "ˈlaɪsəns",
+    "meaning": "免許、許諾、ライセンス",
+    "example": "You need a valid license to operate this equipment.",
+    "exampleTranslation": "この機器を操作するには有効な免許が必要です。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "legal"]
+  },
+  {
+    "id": "toeic_sample_07",
+    "word": "laptop",
+    "reading": "ˈlæptɒp",
+    "meaning": "ノートパソコン",
+    "example": "Please bring your laptop to the training session.",
+    "exampleTranslation": "研修にはノートパソコンをご持参ください。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "tech"]
+  },
+  {
+    "id": "toeic_sample_08",
+    "word": "terminal",
+    "reading": "ˈtɜːrmɪnəl",
+    "meaning": "ターミナル、終着駅",
+    "example": "Please proceed to terminal 2 for your flight.",
+    "exampleTranslation": "ご搭乗便はターミナル 2 へお進みください。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "travel"]
+  },
+  {
+    "id": "toeic_sample_09",
+    "word": "warehouse",
+    "reading": "ˈwɛərhaʊs",
+    "meaning": "倉庫",
+    "example": "The new warehouse can store 10,000 items.",
+    "exampleTranslation": "新しい倉庫は 10,000 点の商品を保管できます。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "manufacturing"]
+  },
+  {
+    "id": "toeic_sample_10",
+    "word": "pharmacy",
+    "reading": "ˈfɑːrməsi",
+    "meaning": "薬局",
+    "example": "There is a pharmacy on the first floor of this building.",
+    "exampleTranslation": "この建物の 1 階に薬局があります。",
+    "level": "B1",
+    "tags": ["toeic", "score-600", "retail"]
+  },
+  {
+    "id": "toeic_sample_11",
+    "word": "delegate",
+    "reading": "ˈdɛlɪɡeɪt",
+    "meaning": "委任する、代表者",
+    "example": "Good managers know how to delegate tasks effectively.",
+    "exampleTranslation": "優れた管理者はタスクを効果的に委任する方法を知っています。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "office"]
+  },
+  {
+    "id": "toeic_sample_12",
+    "word": "procurement",
+    "reading": "prəˈkjʊərmənt",
+    "meaning": "調達、仕入れ",
+    "example": "The procurement department is reviewing the new supplier.",
+    "exampleTranslation": "調達部門は新しいサプライヤーを審査しています。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "business"]
+  },
+  {
+    "id": "toeic_sample_13",
+    "word": "amortization",
+    "reading": "əˌmɔːrtəˈzeɪʃən",
+    "meaning": "償却、減価償却",
+    "example": "The amortization schedule is attached to the loan agreement.",
+    "exampleTranslation": "償却スケジュールは融資契約書に添付されています。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "finance"]
+  },
+  {
+    "id": "toeic_sample_14",
+    "word": "churn",
+    "reading": "tʃɜːrn",
+    "meaning": "解約率、顧客離れ",
+    "example": "We are working to reduce customer churn this quarter.",
+    "exampleTranslation": "今四半期は顧客の解約率を下げる取り組みをしています。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "marketing"]
+  },
+  {
+    "id": "toeic_sample_15",
+    "word": "compensation",
+    "reading": "ˌkɒmpənˈseɪʃən",
+    "meaning": "報酬、賃金、補償",
+    "example": "The compensation package includes health insurance.",
+    "exampleTranslation": "報酬パッケージには健康保険が含まれています。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "hr"]
+  },
+  {
+    "id": "toeic_sample_16",
+    "word": "litigation",
+    "reading": "ˌlɪtɪˈɡeɪʃən",
+    "meaning": "訴訟、係争",
+    "example": "The company is currently involved in litigation with a competitor.",
+    "exampleTranslation": "当社は現在、競合他社と訴訟中です。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "legal"]
+  },
+  {
+    "id": "toeic_sample_17",
+    "word": "algorithm",
+    "reading": "ˈælɡərɪðəm",
+    "meaning": "アルゴリズム",
+    "example": "Our search algorithm has been improved for better results.",
+    "exampleTranslation": "より良い結果のため検索アルゴリズムが改善されました。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "tech"]
+  },
+  {
+    "id": "toeic_sample_18",
+    "word": "accreditation",
+    "reading": "əˌkrɛdɪˈteɪʃən",
+    "meaning": "認定、認可",
+    "example": "The university received accreditation from the international board.",
+    "exampleTranslation": "その大学は国際委員会から認定を受けました。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "education"]
+  },
+  {
+    "id": "toeic_sample_19",
+    "word": "kanban",
+    "reading": "ˈkænbæn",
+    "meaning": "かんばん（生産管理方式）",
+    "example": "The factory uses a kanban system to manage inventory.",
+    "exampleTranslation": "工場はかんばん方式で在庫を管理しています。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "manufacturing"]
+  },
+  {
+    "id": "toeic_sample_20",
+    "word": "epidemiology",
+    "reading": "ˌɛpɪˌdiːmiˈɒlədʒi",
+    "meaning": "疫学",
+    "example": "Recent epidemiology studies show a decrease in flu cases.",
+    "exampleTranslation": "最近の疫学研究はインフルエンザ患者の減少を示しています。",
+    "level": "B2",
+    "tags": ["toeic", "score-730", "health"]
+  },
+  {
+    "id": "toeic_sample_21",
+    "word": "diversification",
+    "reading": "daɪˌvɜːrsɪfɪˈkeɪʃən",
+    "meaning": "多角化、多様化",
+    "example": "Product diversification helps reduce business risk.",
+    "exampleTranslation": "製品の多角化は事業リスクの軽減に役立ちます。",
+    "level": "C1",
+    "tags": ["toeic", "score-860", "business"]
+  },
+  {
+    "id": "toeic_sample_22",
+    "word": "derivative",
+    "reading": "dɪˈrɪvətɪv",
+    "meaning": "デリバティブ、派生商品",
+    "example": "The bank specializes in derivative trading.",
+    "exampleTranslation": "その銀行はデリバティブ取引を専門としています。",
+    "level": "C1",
+    "tags": ["toeic", "score-860", "finance"]
+  },
+  {
+    "id": "toeic_sample_23",
+    "word": "attribution",
+    "reading": "ˌætrɪˈbjuːʃən",
+    "meaning": "帰属、起因",
+    "example": "Marketing attribution analysis shows email drives the most sales.",
+    "exampleTranslation": "マーケティング帰属分析によるとメールが最も売上を生み出しています。",
+    "level": "C1",
+    "tags": ["toeic", "score-860", "marketing"]
+  },
+  {
+    "id": "toeic_sample_24",
+    "word": "antitrust",
+    "reading": "ˌæntiˈtrʌst",
+    "meaning": "独占禁止の、反トラストの",
+    "example": "The merger is under antitrust review by regulators.",
+    "exampleTranslation": "その合併は規制当局による独占禁止審査中です。",
+    "level": "C1",
+    "tags": ["toeic", "score-860", "legal"]
+  },
+  {
+    "id": "toeic_sample_25",
+    "word": "blockchain",
+    "reading": "ˈblɒktʃeɪn",
+    "meaning": "ブロックチェーン",
+    "example": "The company is exploring blockchain technology for supply chains.",
+    "exampleTranslation": "同社はサプライチェーン用のブロックチェーン技術を検討しています。",
+    "level": "C1",
+    "tags": ["toeic", "score-860", "tech"]
+  },
+  {
+    "id": "toeic_sample_26",
+    "word": "lean",
+    "reading": "liːn",
+    "meaning": "リーン、無駄のない（経営手法）",
+    "example": "Our factory adopted lean manufacturing principles last year.",
+    "exampleTranslation": "当社の工場は昨年、リーン生産方式の原則を採用しました。",
+    "level": "C1",
+    "tags": ["toeic", "score-860", "manufacturing"]
+  },
+  {
+    "id": "toeic_sample_27",
+    "word": "morbidity",
+    "reading": "mɔːrˈbɪdɪti",
+    "meaning": "罹患率、病気の発生率",
+    "example": "Smoking cessation programs aim to reduce morbidity.",
+    "exampleTranslation": "禁煙プログラムは罹患率の低下を目的としています。",
+    "level": "C1",
+    "tags": ["toeic", "score-860", "health"]
+  },
+  {
+    "id": "toeic_sample_28",
+    "word": "appropriate",
+    "reading": "əˈproʊpriət",
+    "meaning": "適切な、ふさわしい",
+    "example": "Please choose an appropriate response for the customer.",
+    "exampleTranslation": "顧客に適切な対応を選んでください。",
+    "level": "B2",
+    "tags": ["toeic", "score-860", "academic"]
+  },
+  {
+    "id": "toeic_sample_29",
+    "word": "deregulation",
+    "reading": "ˌdiːrɛɡjəˈleɪʃən",
+    "meaning": "規制緩和",
+    "example": "Deregulation of the airline industry led to lower fares.",
+    "exampleTranslation": "航空業界の規制緩和は運賃の低下につながりました。",
+    "level": "C1",
+    "tags": ["toeic", "score-990", "business"]
+  },
+  {
+    "id": "toeic_sample_30",
+    "word": "stochastic",
+    "reading": "stəˈkæstɪk",
+    "meaning": "確率論的な、ランダムな",
+    "example": "The stochastic model accounts for market volatility.",
+    "exampleTranslation": "確率論的モデルは市場のボラティリティを考慮します。",
+    "level": "C1",
+    "tags": ["toeic", "score-990", "finance"]
+  }
+]

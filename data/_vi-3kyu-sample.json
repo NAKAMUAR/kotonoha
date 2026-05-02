@@ -1,0 +1,302 @@
+[
+  {
+    "id": "vi_3kyu_sample_01",
+    "word": "doanh nghiệp",
+    "reading": "ゾアィン ギエップ",
+    "meaning": "企業、事業所",
+    "example": "Doanh nghiệp này hoạt động trong lĩnh vực công nghệ.",
+    "exampleTranslation": "この企業は技術分野で事業を行っています。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "business"]
+  },
+  {
+    "id": "vi_3kyu_sample_02",
+    "word": "doanh nhân",
+    "reading": "ゾアィン ニャン",
+    "meaning": "実業家、ビジネスパーソン",
+    "example": "Cô ấy là một doanh nhân thành đạt.",
+    "exampleTranslation": "彼女は成功した実業家です。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "business"]
+  },
+  {
+    "id": "vi_3kyu_sample_03",
+    "word": "giám đốc",
+    "reading": "ザーム ドック",
+    "meaning": "取締役、社長",
+    "example": "Giám đốc đang họp với khách hàng.",
+    "exampleTranslation": "社長は顧客と打ち合わせ中です。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "business"]
+  },
+  {
+    "id": "vi_3kyu_sample_04",
+    "word": "hợp đồng",
+    "reading": "ホップ ドン",
+    "meaning": "契約、契約書",
+    "example": "Chúng ta cần ký hợp đồng vào tuần tới.",
+    "exampleTranslation": "私たちは来週、契約書に署名する必要があります。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "business"]
+  },
+  {
+    "id": "vi_3kyu_sample_05",
+    "word": "khách hàng",
+    "reading": "カック ハン",
+    "meaning": "顧客、お客様",
+    "example": "Chăm sóc khách hàng là ưu tiên hàng đầu.",
+    "exampleTranslation": "顧客対応は最優先事項です。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "business"]
+  },
+  {
+    "id": "vi_3kyu_sample_06",
+    "word": "lợi nhuận",
+    "reading": "ロイ ニュアン",
+    "meaning": "利益、収益",
+    "example": "Lợi nhuận quý này tăng 15%.",
+    "exampleTranslation": "今四半期の利益は 15% 増加しました。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "business"]
+  },
+  {
+    "id": "vi_3kyu_sample_07",
+    "word": "phần mềm",
+    "reading": "ファン メム",
+    "meaning": "ソフトウェア",
+    "example": "Phần mềm này giúp quản lý dữ liệu khách hàng.",
+    "exampleTranslation": "このソフトウェアは顧客データの管理に役立ちます。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "it"]
+  },
+  {
+    "id": "vi_3kyu_sample_08",
+    "word": "máy chủ",
+    "reading": "マイ チュー",
+    "meaning": "サーバー",
+    "example": "Máy chủ đang được bảo trì vào tối nay.",
+    "exampleTranslation": "サーバーは今夜メンテナンス中です。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "it"]
+  },
+  {
+    "id": "vi_3kyu_sample_09",
+    "word": "mật khẩu",
+    "reading": "マッ カウ",
+    "meaning": "パスワード",
+    "example": "Bạn nên thay đổi mật khẩu định kỳ.",
+    "exampleTranslation": "パスワードは定期的に変更すべきです。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "it"]
+  },
+  {
+    "id": "vi_3kyu_sample_10",
+    "word": "cập nhật",
+    "reading": "カップ ニャッ",
+    "meaning": "更新、アップデート",
+    "example": "Hệ thống cần được cập nhật mỗi tháng.",
+    "exampleTranslation": "システムは毎月更新する必要があります。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "it"]
+  },
+  {
+    "id": "vi_3kyu_sample_11",
+    "word": "mã hóa",
+    "reading": "マー ホア",
+    "meaning": "暗号化",
+    "example": "Tất cả dữ liệu nhạy cảm đều được mã hóa.",
+    "exampleTranslation": "すべての機密データは暗号化されています。",
+    "level": "B2",
+    "tags": ["kentei3kyu", "it"]
+  },
+  {
+    "id": "vi_3kyu_sample_12",
+    "word": "trí tuệ nhân tạo",
+    "reading": "チー トゥエ ニャン タオ",
+    "meaning": "人工知能（AI）",
+    "example": "Công ty đang đầu tư vào trí tuệ nhân tạo.",
+    "exampleTranslation": "会社は人工知能に投資しています。",
+    "level": "B2",
+    "tags": ["kentei3kyu", "it"]
+  },
+  {
+    "id": "vi_3kyu_sample_13",
+    "word": "dây chuyền sản xuất",
+    "reading": "ザイ チュエン サン スアッ",
+    "meaning": "生産ライン",
+    "example": "Dây chuyền sản xuất hoạt động 24 giờ một ngày.",
+    "exampleTranslation": "生産ラインは 1 日 24 時間稼働しています。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "manufacturing"]
+  },
+  {
+    "id": "vi_3kyu_sample_14",
+    "word": "nhà máy",
+    "reading": "ニャー マイ",
+    "meaning": "工場",
+    "example": "Nhà máy mới được khánh thành vào tháng trước.",
+    "exampleTranslation": "新しい工場は先月オープンしました。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "manufacturing"]
+  },
+  {
+    "id": "vi_3kyu_sample_15",
+    "word": "kiểm tra chất lượng",
+    "reading": "キエム チャー チャッ ルオン",
+    "meaning": "品質検査",
+    "example": "Mỗi sản phẩm đều phải qua kiểm tra chất lượng.",
+    "exampleTranslation": "すべての製品は品質検査を受けなければなりません。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "manufacturing"]
+  },
+  {
+    "id": "vi_3kyu_sample_16",
+    "word": "nguyên liệu",
+    "reading": "グエン リエウ",
+    "meaning": "原材料",
+    "example": "Nguyên liệu được nhập khẩu từ Nhật Bản.",
+    "exampleTranslation": "原材料は日本から輸入されています。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "manufacturing"]
+  },
+  {
+    "id": "vi_3kyu_sample_17",
+    "word": "lắp ráp",
+    "reading": "ラップ ラップ",
+    "meaning": "組み立て、アセンブリ",
+    "example": "Công đoạn lắp ráp mất khoảng 30 phút.",
+    "exampleTranslation": "組み立て工程は約 30 分かかります。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "manufacturing"]
+  },
+  {
+    "id": "vi_3kyu_sample_18",
+    "word": "sản lượng",
+    "reading": "サン ルオン",
+    "meaning": "生産量、産出量",
+    "example": "Sản lượng năm nay vượt mục tiêu.",
+    "exampleTranslation": "今年の生産量は目標を上回りました。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "manufacturing"]
+  },
+  {
+    "id": "vi_3kyu_sample_19",
+    "word": "bán hàng",
+    "reading": "バン ハン",
+    "meaning": "販売、販売活動",
+    "example": "Đội bán hàng đang chuẩn bị cho hội chợ.",
+    "exampleTranslation": "営業チームは展示会の準備をしています。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "sales"]
+  },
+  {
+    "id": "vi_3kyu_sample_20",
+    "word": "khuyến mãi",
+    "reading": "クエン マイ",
+    "meaning": "プロモーション、販促",
+    "example": "Chương trình khuyến mãi kéo dài đến cuối tháng.",
+    "exampleTranslation": "プロモーションは月末まで続きます。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "sales"]
+  },
+  {
+    "id": "vi_3kyu_sample_21",
+    "word": "chăm sóc khách hàng",
+    "reading": "チャム ソック カック ハン",
+    "meaning": "顧客ケア、カスタマーサポート",
+    "example": "Bộ phận chăm sóc khách hàng làm việc 24/7.",
+    "exampleTranslation": "顧客サポート部門は 24 時間 365 日対応しています。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "sales"]
+  },
+  {
+    "id": "vi_3kyu_sample_22",
+    "word": "doanh số",
+    "reading": "ゾアィン ソー",
+    "meaning": "売上高",
+    "example": "Doanh số tháng này tăng 20% so với tháng trước.",
+    "exampleTranslation": "今月の売上は前月比 20% 増加しました。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "sales"]
+  },
+  {
+    "id": "vi_3kyu_sample_23",
+    "word": "mục tiêu doanh số",
+    "reading": "ムック ティエウ ゾアィン ソー",
+    "meaning": "売上目標",
+    "example": "Đội bán hàng đã đạt mục tiêu doanh số quý.",
+    "exampleTranslation": "営業チームは四半期の売上目標を達成しました。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "sales"]
+  },
+  {
+    "id": "vi_3kyu_sample_24",
+    "word": "nghiên cứu thị trường",
+    "reading": "ギエン クー ティ チュオン",
+    "meaning": "市場調査",
+    "example": "Chúng tôi tiến hành nghiên cứu thị trường trước khi ra mắt sản phẩm.",
+    "exampleTranslation": "製品リリース前に市場調査を実施します。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "sales"]
+  },
+  {
+    "id": "vi_3kyu_sample_25",
+    "word": "xây dựng",
+    "reading": "サイ ズン",
+    "meaning": "建設、建てる",
+    "example": "Việc xây dựng tòa nhà sẽ hoàn thành vào năm sau.",
+    "exampleTranslation": "ビルの建設は来年完成予定です。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "construction"]
+  },
+  {
+    "id": "vi_3kyu_sample_26",
+    "word": "công trình",
+    "reading": "コン チン",
+    "meaning": "建設工事、プロジェクト",
+    "example": "Công trình này có quy mô 30 tầng.",
+    "exampleTranslation": "この建設プロジェクトは 30 階建ての規模です。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "construction"]
+  },
+  {
+    "id": "vi_3kyu_sample_27",
+    "word": "nhà thầu",
+    "reading": "ニャー タウ",
+    "meaning": "請負業者、ゼネコン",
+    "example": "Nhà thầu chịu trách nhiệm về tiến độ thi công.",
+    "exampleTranslation": "請負業者は工事の進捗に責任を負います。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "construction"]
+  },
+  {
+    "id": "vi_3kyu_sample_28",
+    "word": "kiến trúc sư",
+    "reading": "キエン チュック スー",
+    "meaning": "建築家",
+    "example": "Kiến trúc sư đang trình bày bản thiết kế.",
+    "exampleTranslation": "建築家は設計図を発表しています。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "construction"]
+  },
+  {
+    "id": "vi_3kyu_sample_29",
+    "word": "bê tông",
+    "reading": "ベー トン",
+    "meaning": "コンクリート",
+    "example": "Tường nhà được làm bằng bê tông cốt thép.",
+    "exampleTranslation": "家の壁は鉄筋コンクリートで作られています。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "construction"]
+  },
+  {
+    "id": "vi_3kyu_sample_30",
+    "word": "cầu thang",
+    "reading": "カウ タン",
+    "meaning": "階段",
+    "example": "Cầu thang dẫn lên tầng hai.",
+    "exampleTranslation": "階段は 2 階へ続いています。",
+    "level": "B1",
+    "tags": ["kentei3kyu", "construction"]
+  }
+]

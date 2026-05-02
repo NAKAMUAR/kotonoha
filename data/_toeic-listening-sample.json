@@ -1,0 +1,132 @@
+[
+  {
+    "id": "tl_sample_p1_01",
+    "part": 1,
+    "type": "photo_description",
+    "imageDescription": "A man in business attire is sitting at a desk in an office, reviewing documents. There is a laptop open in front of him.",
+    "imageDescriptionJa": "ビジネススーツの男性がオフィスのデスクに座り、書類を確認している。前にノートパソコンが開いている。",
+    "choices": [
+      "The man is reading a book on the floor.",
+      "The man is reviewing papers at his desk.",
+      "The man is talking on the phone outside.",
+      "The man is preparing coffee in the kitchen."
+    ],
+    "correct": 1,
+    "explanation": "(B) reviewing papers at his desk が「デスクで書類を確認している」状況と一致。(A) は本ではなく書類、(C) 電話していない、(D) 場所が異なる。",
+    "level": "B1",
+    "tags": ["toeic-listening", "part-1", "office"]
+  },
+  {
+    "id": "tl_sample_p2_01",
+    "part": 2,
+    "type": "question_response",
+    "question": "Where did you put the meeting agenda?",
+    "choices": [
+      "On your desk this morning.",
+      "Yes, I attended the meeting.",
+      "The agenda is very interesting."
+    ],
+    "correct": 0,
+    "explanation": "Where 疑問文には「場所」で答える。(A) On your desk が場所を示し正答。(B) は Did you...? への応答、(C) は質問の意図と無関係。",
+    "level": "B1",
+    "tags": ["toeic-listening", "part-2", "office"]
+  },
+  {
+    "id": "tl_sample_p3_01",
+    "part": 3,
+    "type": "conversation",
+    "conversation": [
+      { "speaker": "M", "line": "Hi Sarah, did you finish the quarterly sales report?" },
+      { "speaker": "W", "line": "Almost. I just need to add the figures from June." },
+      { "speaker": "M", "line": "Great. Can you have it ready by Friday morning?" },
+      { "speaker": "W", "line": "I'll send it to you Thursday afternoon at the latest." }
+    ],
+    "questions": [
+      {
+        "id": "tl_sample_p3_01_q1",
+        "q": "What are the speakers mainly discussing?",
+        "choices": [
+          "A vacation schedule",
+          "A quarterly sales report",
+          "A new hire",
+          "A product launch"
+        ],
+        "correct": 1,
+        "explanation": "冒頭で「quarterly sales report」と明言されている。"
+      },
+      {
+        "id": "tl_sample_p3_01_q2",
+        "q": "What does the woman still need to do?",
+        "choices": [
+          "Schedule a meeting",
+          "Hire a new employee",
+          "Add June's sales figures",
+          "Approve a budget"
+        ],
+        "correct": 2,
+        "explanation": "女性の発言「I just need to add the figures from June」と一致。"
+      },
+      {
+        "id": "tl_sample_p3_01_q3",
+        "q": "When will the woman send the report?",
+        "choices": [
+          "Wednesday morning",
+          "Thursday afternoon",
+          "Friday morning",
+          "Friday afternoon"
+        ],
+        "correct": 1,
+        "explanation": "女性の最後の発言「Thursday afternoon at the latest」と一致。"
+      }
+    ],
+    "level": "B1",
+    "tags": ["toeic-listening", "part-3", "office"]
+  },
+  {
+    "id": "tl_sample_p4_01",
+    "part": 4,
+    "type": "talk",
+    "talkType": "announcement",
+    "talk": "Attention all passengers on Flight 217 to Tokyo. Due to inclement weather at the destination airport, our departure has been delayed by approximately one hour. The new boarding time is 3:45 PM, with departure scheduled for 4:15 PM. Passengers may use the airport lounge during the wait, and complimentary refreshments will be available at Gate 22. We apologize for the inconvenience and appreciate your patience.",
+    "questions": [
+      {
+        "id": "tl_sample_p4_01_q1",
+        "q": "Where is this announcement being made?",
+        "choices": [
+          "At a train station",
+          "At an airport",
+          "At a hotel lobby",
+          "At a bus terminal"
+        ],
+        "correct": 1,
+        "explanation": "「Flight 217」「Gate 22」「departure airport」など空港特有の単語が複数使われている。"
+      },
+      {
+        "id": "tl_sample_p4_01_q2",
+        "q": "Why has the departure been delayed?",
+        "choices": [
+          "A mechanical issue",
+          "Bad weather at the destination",
+          "A staff shortage",
+          "Late-arriving passengers"
+        ],
+        "correct": 1,
+        "explanation": "「Due to inclement weather at the destination airport」と明言。"
+      },
+      {
+        "id": "tl_sample_p4_01_q3",
+        "q": "What is offered to passengers at Gate 22?",
+        "choices": [
+          "A discount voucher",
+          "A hotel reservation",
+          "Complimentary refreshments",
+          "A free upgrade"
+        ],
+        "correct": 2,
+        "explanation": "「complimentary refreshments will be available at Gate 22」と一致。"
+      }
+    ],
+    "level": "B1",
+    "tags": ["toeic-listening", "part-4", "travel"]
+  }
+]
