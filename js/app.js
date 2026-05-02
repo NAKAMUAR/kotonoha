@@ -578,10 +578,11 @@ async function activateReadingScreen() {
 }
 
 function showReadingQuestion() {
-  const result   = document.getElementById('tr-result');
-  const empty    = document.getElementById('tr-empty');
-  const choices  = document.getElementById('tr-choices');
+  const result       = document.getElementById('tr-result');
+  const empty        = document.getElementById('tr-empty');
+  const choices      = document.getElementById('tr-choices');
   const sentenceCard = document.getElementById('tr-sentence-card');
+  const passageCard  = document.getElementById('tr-passage-card');
 
   result?.classList.add('hidden');
   trState.answered = false;
@@ -590,6 +591,7 @@ function showReadingQuestion() {
     empty?.classList.remove('hidden');
     choices?.classList.add('hidden');
     sentenceCard?.classList.add('hidden');
+    passageCard?.classList.add('hidden');
     const titles = { 5: 'Part 5 完了！', 6: 'Part 6 完了！', 7: 'Part 7 完了！' };
     setText('tr-empty-title', titles[trState.part] ?? '完了！');
     setText('tr-summary', `${trState.correct} / ${trState.total} 問正解`);
@@ -598,7 +600,6 @@ function showReadingQuestion() {
 
   empty?.classList.add('hidden');
   choices?.classList.remove('hidden');
-  sentenceCard?.classList.remove('hidden');
 
   const q = trState.questions[trState.index];
   setText('tr-progress', `${trState.index + 1} / ${trState.questions.length}`);
@@ -606,12 +607,42 @@ function showReadingQuestion() {
   const scoreTag = (q.tags ?? []).find((t) => t.startsWith('score-'));
   setText('tr-score-tag', scoreTag ? scoreTag.replace('score-', '') + '点レベル' : '');
 
-  // 文章: 空欄を視覚的に強調
-  const sentenceEl = document.getElementById('tr-sentence');
-  if (sentenceEl) {
-    const blank = q.blank ?? '___';
-    const parts = (q.sentence ?? '').split(blank);
-    sentenceEl.innerHTML = parts.map(escapeHtml).join('<span class="tr-blank">_____</span>');
+  // Part 別の表示切替
+  if (trState.part === 5) {
+    passageCard?.classList.add('hidden');
+    sentenceCard?.classList.remove('hidden');
+
+    const sentenceEl = document.getElementById('tr-sentence');
+    if (sentenceEl) {
+      const blank = q.blank ?? '___';
+      const parts = (q.sentence ?? '').split(blank);
+      sentenceEl.innerHTML = parts.map(escapeHtml).join('<span class="tr-blank">_____</span>');
+    }
+  } else if (trState.part === 6) {
+    sentenceCard?.classList.add('hidden');
+    passageCard?.classList.remove('hidden');
+
+    setText('tr-passage-type', q.passageTypeJa ?? '長文');
+    if (typeof q.subIndex === 'number' && typeof q.totalSub === 'number') {
+      setText('tr-current-blank', `空欄 [${q.subIndex + 1}] / ${q.totalSub} を選択`);
+    } else {
+      setText('tr-current-blank', '');
+    }
+
+    // パッセージ内の現在の空欄を強調表示
+    const passageEl = document.getElementById('tr-passage');
+    if (passageEl) {
+      let html = escapeHtml(q.passage ?? '');
+      // [1] [2] [3] [4] のマーカーを置換
+      html = html.replace(/\[(\d+)\]/g, (m, n) => {
+        const idx = parseInt(n, 10) - 1;
+        if (idx === q.subIndex) {
+          return `<span class="tr-blank-active">[${n}]</span>`;
+        }
+        return `<span class="tr-blank-other">[${n}]</span>`;
+      });
+      passageEl.innerHTML = html;
+    }
   }
 
   // 選択肢
@@ -646,12 +677,20 @@ function onReadingChoice(choiceIdx) {
   setText('tr-result-icon', isCorrect ? '◯' : '✗');
   setText('tr-result-text', isCorrect ? `正解（${String.fromCharCode(65 + q.correct)}）` : `不正解 — 正解は ${String.fromCharCode(65 + q.correct)}`);
 
-  // 完成文
+  // 完成文（Part 5 = 文、Part 6 = パッセージ全体に当てはめ）
   const completedEl = document.getElementById('tr-completed');
   if (completedEl) {
-    const blank = q.blank ?? '___';
-    const filled = (q.sentence ?? '').replace(blank, q.choices[q.correct]);
-    completedEl.textContent = filled;
+    if (trState.part === 5) {
+      const blank = q.blank ?? '___';
+      const filled = (q.sentence ?? '').replace(blank, q.choices[q.correct]);
+      completedEl.textContent = filled;
+    } else if (trState.part === 6) {
+      const marker = q.marker ?? `[${(q.subIndex ?? 0) + 1}]`;
+      const filled = (q.passage ?? '').replace(marker, `「${q.choices[q.correct]}」`);
+      completedEl.textContent = filled;
+    } else {
+      completedEl.textContent = q.choices[q.correct] ?? '';
+    }
   }
 
   // 全選択肢

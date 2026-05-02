@@ -414,6 +414,17 @@ body {
   color: var(--shu);
   font-weight: 600;
 }
+.tr-blank-active {
+  background: rgba(197, 56, 43, 0.15);
+  color: var(--shu);
+  font-weight: 700;
+  padding: 0 0.4rem;
+  border-radius: 3px;
+}
+.tr-blank-other {
+  color: var(--sumi-soft);
+  font-style: italic;
+}
 
 /* ---------- Scenario card ---------- */
 

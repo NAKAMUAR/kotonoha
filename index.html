@@ -443,7 +443,7 @@
 
       <div class="tab-bar mb-4">
         <button class="tab tab-active" data-tr-part="5">Part 5</button>
-        <button class="tab" data-tr-part="6" disabled>Part 6</button>
+        <button class="tab" data-tr-part="6">Part 6</button>
         <button class="tab" data-tr-part="7" disabled>Part 7</button>
       </div>
 
@@ -451,6 +451,12 @@
         <span id="tr-progress">— / —</span>
         <span class="mx-2">·</span>
         <span id="tr-score-tag">—</span>
+      </div>
+
+      <div id="tr-passage-card" class="card mb-4 hidden">
+        <div class="card-title"><span id="tr-passage-type">長文</span></div>
+        <div id="tr-current-blank" class="text-xs text-sumi-soft mt-2">—</div>
+        <pre id="tr-passage" class="text-xs font-cormorant mt-3 leading-relaxed whitespace-pre-wrap break-words">—</pre>
       </div>
 
       <div id="tr-sentence-card" class="card mb-4">
