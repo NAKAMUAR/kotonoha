@@ -1,0 +1,107 @@
+[
+  {
+    "id": "ielts_w1_001",
+    "task": 1,
+    "type": "line_graph",
+    "typeJa": "折れ線グラフ",
+    "prompt": "The graph below shows the population growth of three major cities (Tokyo, Mumbai, and São Paulo) from 2000 to 2020.\n\nSummarize the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "imageDescriptionJa": "折れ線グラフ: 2000-2020年の3都市人口（百万人単位）。東京は12→14でほぼ横ばい、ムンバイは16→20で急増、サンパウロは10→12で緩やかに増加。",
+    "wordTarget": 150,
+    "timeMinutes": 20,
+    "tags": ["ielts-writing", "task-1", "graph"]
+  },
+  {
+    "id": "ielts_w1_002",
+    "task": 1,
+    "type": "pie_chart",
+    "typeJa": "円グラフ",
+    "prompt": "The two pie charts below show how a typical household in 1990 and 2020 spent its monthly income.\n\nSummarize the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "imageDescriptionJa": "円グラフ2枚: 1990年=食費35%, 住居25%, 交通10%, 教育10%, 娯楽10%, その他10%。2020年=食費20%, 住居30%, 交通10%, 教育15%, 娯楽15%, その他10%。食費が減り住居・教育・娯楽が増加。",
+    "wordTarget": 150,
+    "timeMinutes": 20,
+    "tags": ["ielts-writing", "task-1", "pie_chart"]
+  },
+  {
+    "id": "ielts_w1_003",
+    "task": 1,
+    "type": "bar_chart",
+    "typeJa": "棒グラフ",
+    "prompt": "The bar chart below shows the percentage of GDP that five countries spent on education in 2010 and 2020.\n\nSummarize the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "imageDescriptionJa": "棒グラフ: 5か国の教育支出（GDP比%）。2010→2020 で日本3.4→3.8、韓国4.5→5.2、米国5.2→5.5、ノルウェー6.5→7.1、メキシコ4.8→4.5。メキシコのみ減少、他は増加。",
+    "wordTarget": 150,
+    "timeMinutes": 20,
+    "tags": ["ielts-writing", "task-1", "bar_chart"]
+  },
+  {
+    "id": "ielts_w1_004",
+    "task": 1,
+    "type": "process",
+    "typeJa": "プロセス図",
+    "prompt": "The diagram below shows how a solar panel system generates electricity for a typical home.\n\nSummarize the information by selecting and reporting the main features.\n\nWrite at least 150 words.",
+    "imageDescriptionJa": "プロセス図: ① 太陽光がソーラーパネル（屋根）に当たる → ② DC電力を生成 → ③ インバーターでAC電力に変換 → ④ 家庭用電力として使用、余剰分は蓄電池へ または送電網へ売電。",
+    "wordTarget": 150,
+    "timeMinutes": 20,
+    "tags": ["ielts-writing", "task-1", "process"]
+  },
+  {
+    "id": "ielts_w1_005",
+    "task": 1,
+    "type": "map",
+    "typeJa": "地図比較",
+    "prompt": "The two maps below show the development of a town centre between 1990 and 2020.\n\nSummarize the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "imageDescriptionJa": "地図2枚: 1990年は中央広場と教会、市場、住宅地。2020年では市場が地下駐車場に、東側住宅地がショッピングモールに、北端に新駅と歩行者専用道路が追加。教会と中央広場は維持。",
+    "wordTarget": 150,
+    "timeMinutes": 20,
+    "tags": ["ielts-writing", "task-1", "map"]
+  },
+  {
+    "id": "ielts_w2_001",
+    "task": 2,
+    "type": "opinion",
+    "typeJa": "意見論述",
+    "prompt": "Some people believe that universities should focus on teaching practical skills rather than academic knowledge.\n\nTo what extent do you agree or disagree?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordTarget": 250,
+    "timeMinutes": 40,
+    "tags": ["ielts-writing", "task-2", "opinion"]
+  },
+  {
+    "id": "ielts_w2_002",
+    "task": 2,
+    "type": "discussion",
+    "typeJa": "両論論述",
+    "prompt": "Some people argue that technology has made traditional classroom learning obsolete, while others believe that face-to-face teaching remains essential.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordTarget": 250,
+    "timeMinutes": 40,
+    "tags": ["ielts-writing", "task-2", "discussion"]
+  },
+  {
+    "id": "ielts_w2_003",
+    "task": 2,
+    "type": "problem_solution",
+    "typeJa": "問題解決",
+    "prompt": "Traffic congestion is becoming an increasing problem in many large cities around the world.\n\nWhat are the causes of this problem and what measures could be taken to address it?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordTarget": 250,
+    "timeMinutes": 40,
+    "tags": ["ielts-writing", "task-2", "problem_solution"]
+  },
+  {
+    "id": "ielts_w2_004",
+    "task": 2,
+    "type": "opinion",
+    "typeJa": "意見論述",
+    "prompt": "Some people believe that working from home is more productive than working in an office, while others disagree.\n\nWhat is your opinion?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordTarget": 250,
+    "timeMinutes": 40,
+    "tags": ["ielts-writing", "task-2", "opinion"]
+  },
+  {
+    "id": "ielts_w2_005",
+    "task": 2,
+    "type": "discussion",
+    "typeJa": "両論論述",
+    "prompt": "Some people think governments should fund more research in the sciences, while others believe more funding should go to the arts.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience.\n\nWrite at least 250 words.",
+    "wordTarget": 250,
+    "timeMinutes": 40,
+    "tags": ["ielts-writing", "task-2", "discussion"]
+  }
+]

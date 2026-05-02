@@ -60,8 +60,9 @@ import {
 import { getReadingByPart } from './toeic-reading.js';
 import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.js';
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
+import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
 
-const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking'];
+const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -137,6 +138,7 @@ function showScreen(name) {
   if (name === 'toeic-reading')    activateReadingScreen();
   if (name === 'toeic-score')      activateScoreScreen();
   if (name === 'ielts-speaking')   activateIeltsSpeakingScreen();
+  if (name === 'ielts-writing')    activateIeltsWritingScreen();
   if (name !== 'scenarios' && name !== 'toeic-listening') stopSpeaking();
   if (name !== 'toeic-listening')  stopListeningAudio();
 }
@@ -747,6 +749,127 @@ async function onIeltsEvaluate() {
     showToast('プロンプトをコピー → AI を起動します', 2000);
   } catch { /* ignore */ }
   launchProvider(isState.selectedAi);
+}
+
+// ---------- IELTS Writing 画面 ----------
+
+const iwState = {
+  prompts: [],
+  current: null,
+  task: 1,
+  selectedAi: 'claude',
+};
+
+async function activateIeltsWritingScreen() {
+  try {
+    iwState.prompts = await loadIeltsWritingPrompts();
+    showIwListView();
+  } catch (err) {
+    console.error('ielts writing activate failed:', err);
+    showToast('IELTS Writing データの読み込みに失敗しました');
+  }
+}
+
+function showIwListView() {
+  document.getElementById('iw-list-view')?.classList.remove('hidden');
+  document.getElementById('iw-detail-view')?.classList.add('hidden');
+  renderIwPromptList();
+}
+
+function renderIwPromptList() {
+  const list = document.getElementById('iw-prompt-list');
+  if (!list) return;
+  list.innerHTML = '';
+  const filtered = iwState.prompts.filter((p) => p.task === iwState.task);
+  filtered.forEach((p, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'scenario-card';
+    const preview = p.prompt.split('\n')[0].slice(0, 80);
+    btn.innerHTML = `
+      <div class="scenario-num">${String(i + 1).padStart(2, '0')}</div>
+      <div class="text-xs text-sumi-soft mb-1">${escapeHtml(p.typeJa ?? p.type)}</div>
+      <div class="text-sm font-mincho">${escapeHtml(preview)}…</div>
+    `;
+    btn.addEventListener('click', () => showIwDetailView(p.id));
+    list.appendChild(btn);
+  });
+  document.querySelectorAll('#screen-ielts-writing .tab[data-iw-task]').forEach((t) => {
+    t.classList.toggle('tab-active', parseInt(t.dataset.iwTask, 10) === iwState.task);
+  });
+}
+
+async function showIwDetailView(promptId) {
+  const p = await getIeltsWritingById(promptId);
+  if (!p) return;
+  iwState.current = p;
+
+  document.getElementById('iw-list-view')?.classList.add('hidden');
+  document.getElementById('iw-detail-view')?.classList.remove('hidden');
+
+  setText('iw-task-label', `Task ${p.task}`);
+  setText('iw-type-label', p.typeJa ?? p.type);
+  setText('iw-prompt-text', p.prompt);
+
+  const imgEl = document.getElementById('iw-image-desc');
+  if (imgEl) {
+    if (p.imageDescriptionJa) {
+      imgEl.classList.remove('hidden');
+      imgEl.textContent = `[図の内容] ${p.imageDescriptionJa}`;
+    } else {
+      imgEl.classList.add('hidden');
+    }
+  }
+
+  setText('iw-word-target', `${p.wordTarget} 語以上`);
+  setText('iw-time', `${p.timeMinutes} 分`);
+
+  const ans = document.getElementById('iw-answer-input');
+  if (ans) {
+    ans.value = '';
+    setText('iw-word-count', '0');
+  }
+}
+
+function onIwBack() { showIwListView(); }
+
+function onIwTaskChange(task) {
+  iwState.task = task;
+  renderIwPromptList();
+}
+
+function onIwAiSelect(chip) {
+  document.querySelectorAll('#screen-ielts-writing .ai-chip').forEach((c) => c.classList.remove('ai-chip-active'));
+  chip.classList.add('ai-chip-active');
+  iwState.selectedAi = chip.dataset.iwAi;
+}
+
+function onIwInputChange() {
+  const ans = document.getElementById('iw-answer-input');
+  setText('iw-word-count', String(countWords(ans?.value ?? '')));
+}
+
+async function onIwEvaluate() {
+  if (!iwState.current) return;
+  const ans = document.getElementById('iw-answer-input');
+  const userText = ans?.value?.trim();
+  if (!userText || countWords(userText) < 50) {
+    showToast('解答が短すぎます（50 語以上）');
+    return;
+  }
+
+  const prompt = buildIeltsWritingEvalPrompt({
+    task: iwState.current.task,
+    type: iwState.current.type,
+    prompt: iwState.current.prompt,
+    userText,
+    imageDescriptionJa: iwState.current.imageDescriptionJa,
+  });
+
+  try {
+    await copyToClipboard(prompt);
+    showToast('プロンプトをコピー → AI を起動します', 2000);
+  } catch { /* ignore */ }
+  launchProvider(iwState.selectedAi);
 }
 
 // ---------- TOEIC スコア予測画面 ----------
@@ -1397,6 +1520,20 @@ function bindEvents() {
   document.getElementById('is-evaluate-btn')?.addEventListener('click', onIeltsEvaluate);
   document.querySelectorAll('#screen-ielts-speaking .ai-chip').forEach((chip) => {
     chip.addEventListener('click', () => onIeltsAiSelect(chip));
+  });
+
+  // IELTS Writing
+  document.getElementById('iw-back-btn')?.addEventListener('click', onIwBack);
+  document.getElementById('iw-evaluate-btn')?.addEventListener('click', onIwEvaluate);
+  document.getElementById('iw-answer-input')?.addEventListener('input', onIwInputChange);
+  document.querySelectorAll('#screen-ielts-writing .tab[data-iw-task]').forEach((tab) => {
+    tab.addEventListener('click', () => {
+      const task = parseInt(tab.dataset.iwTask, 10);
+      if (!Number.isNaN(task)) onIwTaskChange(task);
+    });
+  });
+  document.querySelectorAll('#screen-ielts-writing .ai-chip').forEach((chip) => {
+    chip.addEventListener('click', () => onIwAiSelect(chip));
   });
 
   // シナリオ: Phase タブ

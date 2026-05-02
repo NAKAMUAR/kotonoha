@@ -159,6 +159,11 @@
             <div class="action-label">IELTS Speaking</div>
             <div class="action-sub">AI 試験官の評価付き</div>
           </button>
+          <button class="action-card" data-target="ielts-writing">
+            <div class="action-icon">作</div>
+            <div class="action-label">IELTS Writing</div>
+            <div class="action-sub">Task 1 / 2 の AI 添削</div>
+          </button>
         </div>
       </div>
 
@@ -562,6 +567,53 @@
             <span class="ai-chip inline-block" data-is-ai="chatgpt">ChatGPT</span>
             <span class="ai-chip inline-block" data-is-ai="copilot">Copilot</span>
             <span class="ai-chip inline-block" data-is-ai="ollama">Ollama</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-ielts-writing" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">IELTS Writing</h2>
+        <p class="screen-sub">Task 1 / Task 2 を AI 添削</p>
+      </div>
+
+      <div id="iw-list-view">
+        <div class="tab-bar mb-4">
+          <button class="tab tab-active" data-iw-task="1">Task 1 (グラフ等)</button>
+          <button class="tab" data-iw-task="2">Task 2 (エッセイ)</button>
+        </div>
+        <div id="iw-prompt-list" class="grid grid-cols-1 gap-2 mb-4"></div>
+      </div>
+
+      <div id="iw-detail-view" class="hidden">
+        <button id="iw-back-btn" class="text-xs text-sumi-soft mb-3">← 一覧に戻る</button>
+
+        <div class="card mb-4">
+          <div class="card-title">
+            <span id="iw-task-label">Task</span>
+            <span class="text-xs text-sumi-soft ml-2" id="iw-type-label">—</span>
+          </div>
+          <pre id="iw-prompt-text" class="text-sm font-cormorant mt-3 whitespace-pre-wrap leading-relaxed">—</pre>
+          <div id="iw-image-desc" class="text-xs text-sumi-soft mt-3 italic hidden">—</div>
+          <div class="text-xs text-sumi-soft mt-3">
+            <span id="iw-word-target">— 語以上</span> ・ <span id="iw-time">— 分</span>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-title">あなたの解答</div>
+          <textarea id="iw-answer-input" rows="14" class="w-full p-3 text-sm border rounded font-cormorant mt-3" style="border-color: var(--sumi-light); background: var(--washi-light);" placeholder="Write your response here..."></textarea>
+          <div class="text-xs text-sumi-soft mt-2">語数: <span id="iw-word-count">0</span></div>
+          <div class="flex items-center gap-2 mt-3 flex-wrap">
+            <button id="iw-evaluate-btn" class="btn-primary text-sm">AI 試験官に添削依頼</button>
+          </div>
+          <div class="text-xs text-sumi-soft mt-2">使用する AI:
+            <span class="ai-chip ai-chip-active inline-block ml-1" data-iw-ai="claude">Claude</span>
+            <span class="ai-chip inline-block" data-iw-ai="gemini">Gemini</span>
+            <span class="ai-chip inline-block" data-iw-ai="chatgpt">ChatGPT</span>
+            <span class="ai-chip inline-block" data-iw-ai="copilot">Copilot</span>
+            <span class="ai-chip inline-block" data-iw-ai="ollama">Ollama</span>
           </div>
         </div>
       </div>
