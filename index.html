@@ -149,6 +149,11 @@
             <div class="action-label">TOEIC リーディング</div>
             <div class="action-sub">Part 5-7 の演習</div>
           </button>
+          <button class="action-card" data-target="toeic-score">
+            <div class="action-icon">測</div>
+            <div class="action-label">TOEIC スコア予測</div>
+            <div class="action-sub">L + R の予測点数</div>
+          </button>
         </div>
       </div>
 
@@ -494,6 +499,63 @@
         <div id="tr-empty-title" class="text-sm font-mincho mb-2">完了！</div>
         <div id="tr-summary" class="text-xs text-sumi-soft mb-4">—</div>
         <button id="tr-restart-btn" class="btn-secondary">最初から</button>
+      </div>
+    </section>
+
+    <section id="screen-toeic-score" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">TOEIC スコア予測</h2>
+        <p class="screen-sub">演習結果からの推定点数と弱点</p>
+      </div>
+
+      <div id="ts-empty" class="card text-center hidden">
+        <div class="text-sm font-mincho mb-2">まだ回答データがありません</div>
+        <div class="text-xs text-sumi-soft mb-4">リスニング / リーディングの問題を解いてから戻ってきてください。</div>
+      </div>
+
+      <div id="ts-content">
+        <div class="card mb-4 text-center">
+          <div class="card-title">予測スコア</div>
+          <div class="text-5xl font-cormorant font-medium mt-3" style="color: var(--shu);">
+            <span id="ts-total-score">—</span> <span class="text-sm text-sumi-soft">/ 990</span>
+          </div>
+          <div class="text-xs text-sumi-soft mt-2" id="ts-total-progress">— 問回答済</div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3 mb-4">
+          <div class="card text-center">
+            <div class="text-xs text-sumi-soft font-cormorant mb-1">LISTENING</div>
+            <div class="text-3xl font-cormorant font-medium" style="color: var(--koke);">
+              <span id="ts-l-score">—</span>
+              <span class="text-xs text-sumi-soft">/ 495</span>
+            </div>
+            <div class="text-xs text-sumi-soft mt-1" id="ts-l-progress">— / 180</div>
+          </div>
+          <div class="card text-center">
+            <div class="text-xs text-sumi-soft font-cormorant mb-1">READING</div>
+            <div class="text-3xl font-cormorant font-medium" style="color: var(--koke);">
+              <span id="ts-r-score">—</span>
+              <span class="text-xs text-sumi-soft">/ 495</span>
+            </div>
+            <div class="text-xs text-sumi-soft mt-1" id="ts-r-progress">— / 114</div>
+          </div>
+        </div>
+
+        <div class="card mb-4">
+          <div class="card-title">スコア帯別正答率</div>
+          <div id="ts-band-listening" class="mt-3">
+            <div class="text-xs text-sumi-soft font-cormorant mb-2">LISTENING</div>
+            <div id="ts-band-listening-list" class="space-y-1 text-xs"></div>
+          </div>
+          <div id="ts-band-reading" class="mt-4">
+            <div class="text-xs text-sumi-soft font-cormorant mb-2">READING</div>
+            <div id="ts-band-reading-list" class="space-y-1 text-xs"></div>
+          </div>
+        </div>
+
+        <div class="card text-center">
+          <button id="ts-reset-btn" class="btn-secondary text-sm">記録を全消去</button>
+        </div>
       </div>
     </section>
 

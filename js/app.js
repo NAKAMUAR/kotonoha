@@ -58,8 +58,9 @@ import {
 } from './toeic-listening.js';
 
 import { getReadingByPart } from './toeic-reading.js';
+import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.js';
 
-const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading'];
+const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -133,6 +134,7 @@ function showScreen(name) {
   if (name === 'scenarios')        activateScenariosScreen();
   if (name === 'toeic-listening')  activateListeningScreen();
   if (name === 'toeic-reading')    activateReadingScreen();
+  if (name === 'toeic-score')      activateScoreScreen();
   if (name !== 'scenarios' && name !== 'toeic-listening') stopSpeaking();
   if (name !== 'toeic-listening')  stopListeningAudio();
 }
@@ -473,6 +475,10 @@ function onListeningChoice(choiceIdx) {
   const isCorrect = choiceIdx === q.correct;
   if (isCorrect) tlState.correct += 1;
 
+  // スコア予測用に記録（best-effort）
+  recordAnswer({ questionId: q.id, correct: isCorrect, part: q.part, tags: q.tags ?? [] })
+    .catch((err) => console.warn('record answer failed:', err));
+
   // ボタンの色付け
   document.querySelectorAll('#tl-choices .tl-choice-btn').forEach((b) => {
     const idx = parseInt(b.dataset.tlChoice, 10);
@@ -559,6 +565,73 @@ function onListeningSpeedChange(speed) {
   document.querySelectorAll('#screen-toeic-listening .chip[data-tl-speed]').forEach((c) => {
     c.classList.toggle('chip-active', parseFloat(c.dataset.tlSpeed) === speed);
   });
+}
+
+// ---------- TOEIC スコア予測画面 ----------
+
+const TOTAL_LISTENING_QS = 180;
+const TOTAL_READING_QS   = 114;
+
+async function activateScoreScreen() {
+  try {
+    const stats = await getScorePrediction();
+    renderScoreScreen(stats);
+  } catch (err) {
+    console.error('score screen activate failed:', err);
+    showToast('スコア予測の読み込みに失敗しました');
+  }
+}
+
+function renderScoreScreen(stats) {
+  const empty   = document.getElementById('ts-empty');
+  const content = document.getElementById('ts-content');
+
+  if (!stats || stats.totalAnswered === 0) {
+    empty?.classList.remove('hidden');
+    content?.classList.add('hidden');
+    return;
+  }
+  empty?.classList.add('hidden');
+  content?.classList.remove('hidden');
+
+  setText('ts-total-score', stats.total);
+  setText('ts-total-progress', `${stats.totalAnswered} / ${TOTAL_LISTENING_QS + TOTAL_READING_QS} 問回答済`);
+  setText('ts-l-score', stats.listening.score ?? '—');
+  setText('ts-l-progress', `${stats.listening.answered} / ${TOTAL_LISTENING_QS}`);
+  setText('ts-r-score', stats.reading.score ?? '—');
+  setText('ts-r-progress', `${stats.reading.answered} / ${TOTAL_READING_QS}`);
+
+  renderBandList('ts-band-listening-list', stats.listening.byBand);
+  renderBandList('ts-band-reading-list',   stats.reading.byBand);
+}
+
+function renderBandList(containerId, byBand) {
+  const el = document.getElementById(containerId);
+  if (!el) return;
+  el.innerHTML = '';
+  for (const band of ['600', '730', '860', '990']) {
+    const b = byBand[band] ?? { answered: 0, correct: 0, accuracy: null };
+    const pct = b.accuracy === null ? '—' : `${Math.round(b.accuracy * 100)}%`;
+    const row = document.createElement('div');
+    row.className = 'flex items-center justify-between';
+    row.innerHTML = `
+      <span class="text-sumi-soft">${band} 点レベル</span>
+      <span class="font-cormorant">${b.correct} / ${b.answered} <span class="text-sumi-soft ml-2">${pct}</span></span>
+    `;
+    el.appendChild(row);
+  }
+}
+
+async function onScoreReset() {
+  if (!confirm('回答記録を全て消去しますか？この操作は取り消せません。')) return;
+  try {
+    await clearAttempts();
+    await activateScoreScreen();
+    showToast('記録を消去しました');
+  } catch (err) {
+    console.error('reset failed:', err);
+    showToast('消去に失敗しました');
+  }
 }
 
 // ---------- TOEIC リーディング画面 ----------
@@ -682,6 +755,9 @@ function onReadingChoice(choiceIdx) {
   trState.total += 1;
   const isCorrect = choiceIdx === q.correct;
   if (isCorrect) trState.correct += 1;
+
+  recordAnswer({ questionId: q.id, correct: isCorrect, part: q.part, tags: q.tags ?? [] })
+    .catch((err) => console.warn('record answer failed:', err));
 
   document.querySelectorAll('#tr-choices .tr-choice-btn').forEach((b) => {
     const idx = parseInt(b.dataset.trChoice, 10);
@@ -1129,6 +1205,9 @@ function bindEvents() {
   // TOEIC リーディング: 次へ / 最初から
   document.getElementById('tr-next-btn')?.addEventListener('click', onReadingNext);
   document.getElementById('tr-restart-btn')?.addEventListener('click', onReadingRestart);
+
+  // TOEIC スコア予測: リセット
+  document.getElementById('ts-reset-btn')?.addEventListener('click', onScoreReset);
 
   // シナリオ: Phase タブ
   document.querySelectorAll('#scenario-list-view .tab').forEach((tab) => {
