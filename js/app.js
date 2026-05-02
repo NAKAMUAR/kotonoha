@@ -1031,7 +1031,25 @@ function showReadingQuestion() {
     setText('tr-current-blank', '');
 
     const passageEl = document.getElementById('tr-passage');
-    if (passageEl) passageEl.textContent = q.passage ?? '';
+    if (passageEl) {
+      if (Array.isArray(q.passages) && q.passages.length > 0) {
+        // 複数パッセージを区切って表示
+        passageEl.innerHTML = '';
+        q.passages.forEach((p, i) => {
+          const titleDiv = document.createElement('div');
+          titleDiv.className = 'font-semibold mt-3 mb-1';
+          titleDiv.style.color = 'var(--shu)';
+          titleDiv.textContent = `[${i + 1}] ${p.title ?? ''}`;
+          passageEl.appendChild(titleDiv);
+          const contentDiv = document.createElement('div');
+          contentDiv.className = 'mb-2';
+          contentDiv.textContent = p.content ?? '';
+          passageEl.appendChild(contentDiv);
+        });
+      } else {
+        passageEl.textContent = q.passage ?? '';
+      }
+    }
 
     setText('tr-question-text', q.q ?? '');
     if (typeof q.subIndex === 'number' && typeof q.totalSub === 'number') {

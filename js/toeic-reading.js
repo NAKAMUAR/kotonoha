@@ -33,6 +33,7 @@ export async function getReadingByPart(part) {
           part: r.part,
           parentId: r.id,
           passage: r.passage,
+          passages: r.passages,
           passageType: r.passageType,
           passageTypeJa: r.passageTypeJa,
           subIndex: i,
