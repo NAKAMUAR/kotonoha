@@ -583,6 +583,7 @@ function showReadingQuestion() {
   const choices      = document.getElementById('tr-choices');
   const sentenceCard = document.getElementById('tr-sentence-card');
   const passageCard  = document.getElementById('tr-passage-card');
+  const questionCard = document.getElementById('tr-question-card');
 
   result?.classList.add('hidden');
   trState.answered = false;
@@ -592,6 +593,7 @@ function showReadingQuestion() {
     choices?.classList.add('hidden');
     sentenceCard?.classList.add('hidden');
     passageCard?.classList.add('hidden');
+    questionCard?.classList.add('hidden');
     const titles = { 5: 'Part 5 完了！', 6: 'Part 6 完了！', 7: 'Part 7 完了！' };
     setText('tr-empty-title', titles[trState.part] ?? '完了！');
     setText('tr-summary', `${trState.correct} / ${trState.total} 問正解`);
@@ -607,9 +609,12 @@ function showReadingQuestion() {
   const scoreTag = (q.tags ?? []).find((t) => t.startsWith('score-'));
   setText('tr-score-tag', scoreTag ? scoreTag.replace('score-', '') + '点レベル' : '');
 
-  // Part 別の表示切替
+  // 全カード非表示にしてから Part 別に再表示
+  sentenceCard?.classList.add('hidden');
+  passageCard?.classList.add('hidden');
+  questionCard?.classList.add('hidden');
+
   if (trState.part === 5) {
-    passageCard?.classList.add('hidden');
     sentenceCard?.classList.remove('hidden');
 
     const sentenceEl = document.getElementById('tr-sentence');
@@ -619,7 +624,6 @@ function showReadingQuestion() {
       sentenceEl.innerHTML = parts.map(escapeHtml).join('<span class="tr-blank">_____</span>');
     }
   } else if (trState.part === 6) {
-    sentenceCard?.classList.add('hidden');
     passageCard?.classList.remove('hidden');
 
     setText('tr-passage-type', q.passageTypeJa ?? '長文');
@@ -629,11 +633,9 @@ function showReadingQuestion() {
       setText('tr-current-blank', '');
     }
 
-    // パッセージ内の現在の空欄を強調表示
     const passageEl = document.getElementById('tr-passage');
     if (passageEl) {
       let html = escapeHtml(q.passage ?? '');
-      // [1] [2] [3] [4] のマーカーを置換
       html = html.replace(/\[(\d+)\]/g, (m, n) => {
         const idx = parseInt(n, 10) - 1;
         if (idx === q.subIndex) {
@@ -642,6 +644,22 @@ function showReadingQuestion() {
         return `<span class="tr-blank-other">[${n}]</span>`;
       });
       passageEl.innerHTML = html;
+    }
+  } else if (trState.part === 7) {
+    passageCard?.classList.remove('hidden');
+    questionCard?.classList.remove('hidden');
+
+    setText('tr-passage-type', q.passageTypeJa ?? '読解');
+    setText('tr-current-blank', '');
+
+    const passageEl = document.getElementById('tr-passage');
+    if (passageEl) passageEl.textContent = q.passage ?? '';
+
+    setText('tr-question-text', q.q ?? '');
+    if (typeof q.subIndex === 'number' && typeof q.totalSub === 'number') {
+      setText('tr-question-sub', `この長文の設問 ${q.subIndex + 1} / ${q.totalSub}`);
+    } else {
+      setText('tr-question-sub', '');
     }
   }
 
@@ -677,7 +695,7 @@ function onReadingChoice(choiceIdx) {
   setText('tr-result-icon', isCorrect ? '◯' : '✗');
   setText('tr-result-text', isCorrect ? `正解（${String.fromCharCode(65 + q.correct)}）` : `不正解 — 正解は ${String.fromCharCode(65 + q.correct)}`);
 
-  // 完成文（Part 5 = 文、Part 6 = パッセージ全体に当てはめ）
+  // 完成文（Part 5 = 文、Part 6 = パッセージに当てはめ、Part 7 = 設問+正答）
   const completedEl = document.getElementById('tr-completed');
   if (completedEl) {
     if (trState.part === 5) {
@@ -688,6 +706,8 @@ function onReadingChoice(choiceIdx) {
       const marker = q.marker ?? `[${(q.subIndex ?? 0) + 1}]`;
       const filled = (q.passage ?? '').replace(marker, `「${q.choices[q.correct]}」`);
       completedEl.textContent = filled;
+    } else if (trState.part === 7) {
+      completedEl.textContent = `Q: ${q.q ?? ''}\n正答: ${q.choices[q.correct] ?? ''}`;
     } else {
       completedEl.textContent = q.choices[q.correct] ?? '';
     }
