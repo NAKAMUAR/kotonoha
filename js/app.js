@@ -62,7 +62,55 @@ import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.j
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
 
-const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
+import {
+  loadSettings,
+  saveSettings,
+  pullSettingsFromFirestore,
+  decideLanguage,
+  pickLanguage,
+  COURSES,
+  LANGUAGE_MODES,
+} from './daily-settings.js';
+
+import {
+  getOrGenerateDailyTasks,
+  toggleTaskComplete,
+  pullDailyTasksFromFirestore,
+  todayKey,
+  getBasePreset,
+} from './daily-tasks.js';
+
+import {
+  getMistakes,
+  getMistakeCounts,
+  markReviewed,
+  pullMistakesFromFirestore,
+  PRIORITY_LABELS,
+} from './mistakes.js';
+
+import { getProfile, adaptPreset } from './personalization.js';
+import { fetchAdvice, getCachedAdvice } from './daily-advice.js';
+import { buildPrompt } from './prompts.js';
+
+import {
+  getStatsForPeriod,
+  getCumulativeSummary,
+  getAccuracyByCategory,
+} from './stats.js';
+
+import {
+  checkAndAwardBadges,
+  getAllBadgesWithStatus,
+  pullBadgesFromFirestore,
+} from './badges.js';
+
+import {
+  renderDailyBar,
+  renderAccuracyBars,
+  renderLevelRing,
+} from './charts.js';
+
+const SCREENS = ['login', 'home', 'daily', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing', 'review', 'stats'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -111,6 +159,36 @@ const trState = {
   total:     0,
 };
 
+const dailyState = {
+  settings:  null,
+  day:       null,
+  course:    'standard',
+  language:  'en',
+  loading:   false,
+  pulledFromFirestore: false,
+  profile:   null,
+  adviceAi:  'claude',
+  adviceText: null,
+  adviceFetching: false,
+  adapted:   false,
+};
+
+const reviewState = {
+  loading:     false,
+  pulled:      false,
+  filterPriority: 'all',
+  focusSource: 'all',
+  // 集中復習セッション
+  session:     null,        // { items, index, answered, revealedMeaning }
+};
+
+const statsState = {
+  loading:  false,
+  pulled:   false,
+  period:   'week',
+  summary:  null,
+};
+
 // ---------- 画面切替 ----------
 
 function showScreen(name) {
@@ -133,6 +211,9 @@ function showScreen(name) {
 
   if (name === 'vocabulary')       activateVocabularyScreen();
   if (name === 'home')             refreshHomeStats();
+  if (name === 'daily')            activateDailyScreen();
+  if (name === 'review')           activateReviewScreen();
+  if (name === 'stats')            activateStatsScreen();
   if (name === 'scenarios')        activateScenariosScreen();
   if (name === 'toeic-listening')  activateListeningScreen();
   if (name === 'toeic-reading')    activateReadingScreen();
@@ -186,6 +267,13 @@ async function handleAuthChange(user) {
     vocabState.pulledFromFirestore = false;
     vocabState.queue = [];
     vocabState.index = 0;
+    dailyState.pulledFromFirestore = false;
+    dailyState.day      = null;
+    dailyState.settings = null;
+    reviewState.pulled  = false;
+    reviewState.session = null;
+    statsState.pulled   = false;
+    statsState.summary  = null;
 
     profileBtn?.classList.add('hidden');
     bottomNav?.classList.add('hidden');
@@ -337,7 +425,14 @@ async function onRate(quality) {
 
   const word = vocabState.queue[vocabState.index];
   try {
-    await rateWord(word.id, quality);
+    await rateWord(word.id, quality, {
+      word:    word.word ?? word.target,
+      reading: word.reading ?? '',
+      meaning: word.meaning ?? '',
+      example: word.example ?? '',
+      lang:    word.lang ?? vocabState.lang,
+      deck:    word.deck ?? vocabState.deck,
+    });
   } catch (err) {
     console.error('rate failed:', err);
     showToast('評価の保存に失敗しました');
@@ -347,6 +442,828 @@ async function onRate(quality) {
   vocabState.index += 1;
   showCurrentCard();
   refreshDueCount();
+}
+
+// ---------- デイリー画面 ----------
+
+async function activateDailyScreen() {
+  if (dailyState.loading) return;
+  dailyState.loading = true;
+  try {
+    if (!dailyState.pulledFromFirestore && state.user) {
+      try {
+        await pullSettingsFromFirestore();
+        await pullDailyTasksFromFirestore();
+        dailyState.pulledFromFirestore = true;
+      } catch (err) {
+        console.warn('daily pull failed (using local cache):', err);
+      }
+    }
+
+    dailyState.settings = await loadSettings();
+    dailyState.course   = dailyState.settings.defaultCourse ?? 'standard';
+    dailyState.language = decideLanguage(dailyState.settings);
+
+    // profile はバックグラウンドで取得 (アドバイス・適応的タスクで使用)
+    dailyState.profile = await getProfile({
+      lang: dailyState.language,
+      deck: 'daily',
+    }).catch((err) => { console.warn('profile load failed:', err); return null; });
+
+    dailyState.day = await getOrGenerateDailyTasks({
+      course:   dailyState.course,
+      language: dailyState.language,
+    });
+    dailyState.adapted = !!dailyState.day.adapted;
+
+    // 既存のアドバイスキャッシュがあれば表示
+    dailyState.adviceText = await getCachedAdvice(
+      dailyState.day.date,
+      dailyState.course,
+      dailyState.language,
+      dailyState.profile?.generatedAt
+    ).catch(() => null);
+
+    renderDailyScreen();
+    renderDailyAdvice();
+  } catch (err) {
+    console.error('daily screen activate failed:', err);
+    showToast('本日のタスク取得に失敗しました');
+  } finally {
+    dailyState.loading = false;
+  }
+}
+
+function renderDailyScreen() {
+  const day = dailyState.day;
+  const settings = dailyState.settings;
+  if (!day || !settings) return;
+
+  // 日付サブタイトル
+  const dateObj = new Date(day.date + 'T00:00');
+  const yobi = '日月火水木金土'[dateObj.getDay()];
+  setText('daily-date-sub', `${day.date}（${yobi}）`);
+
+  // コース chip の active 切替
+  document.querySelectorAll('#daily-course-row .course-chip').forEach((c) => {
+    c.classList.toggle('course-chip-active', c.dataset.course === dailyState.course);
+  });
+
+  // 進捗バー
+  const pct = day.totalMin > 0 ? Math.min(100, Math.round((day.completedMin / day.totalMin) * 100)) : 0;
+  const fill = document.getElementById('daily-progress-fill');
+  if (fill) fill.style.width = `${pct}%`;
+  setText('daily-progress-text', `${day.completedMin} / ${day.totalMin} 分（${pct}%）`);
+
+  // 言語表示
+  const langLabel = dailyState.language === 'vi' ? 'Tiếng Việt' : 'English';
+  setText('daily-lang-display', langLabel);
+
+  // 言語モード chip
+  document.querySelectorAll('#daily-lang-mode-row .chip').forEach((c) => {
+    c.classList.toggle('chip-active', c.dataset.langMode === settings.languageMode);
+  });
+
+  // pick モードのときだけ言語選択行を表示
+  const pickRow = document.getElementById('daily-lang-pick-row');
+  if (pickRow) {
+    pickRow.classList.toggle('hidden', settings.languageMode !== 'pick');
+    pickRow.querySelectorAll('.chip').forEach((c) => {
+      c.classList.toggle('chip-active', c.dataset.pickLang === dailyState.language);
+    });
+  }
+
+  // タスクリスト
+  const list = document.getElementById('daily-task-list');
+  const empty = document.getElementById('daily-empty');
+  if (!list) return;
+
+  if (!day.tasks.length) {
+    list.innerHTML = '<p class="text-xs text-sumi-soft text-center py-4">タスクがありません</p>';
+    empty?.classList.add('hidden');
+    return;
+  }
+
+  list.innerHTML = '';
+  for (const t of day.tasks) {
+    const row = document.createElement('div');
+    row.className = 'daily-task-row' + (t.completed ? ' completed' : '');
+    row.dataset.taskId = t.id;
+    row.dataset.target = t.target;
+    row.innerHTML = `
+      <button class="daily-task-icon" data-toggle="${t.id}" aria-label="完了切替">
+        <span class="daily-task-icon-char">${t.icon ?? '・'}</span>
+      </button>
+      <div class="daily-task-label">${escapeHtml(t.label)}</div>
+      <div class="daily-task-min">${t.estimatedMin} 分</div>
+      <button class="daily-task-go" data-go="${t.target}">開く</button>
+    `;
+    list.appendChild(row);
+  }
+
+  empty?.classList.toggle('hidden', !day.allCompleted);
+
+  // adapted インジケータ
+  const adaptedNote = document.getElementById('daily-adapted-note');
+  adaptedNote?.classList.toggle('hidden', !day.adapted);
+
+  // ホーム CTA のサブテキストも更新
+  const cta = document.getElementById('home-daily-sub');
+  if (cta) {
+    if (day.allCompleted) {
+      cta.textContent = '本日はすべて完了しました';
+    } else {
+      cta.textContent = `${day.completedMin} / ${day.totalMin} 分 完了 — 続きをやる`;
+    }
+  }
+}
+
+// ---------- Daily AI Advice ----------
+
+function renderDailyAdvice() {
+  // 選んでいる AI chip の active 切替
+  document.querySelectorAll('.advice-ai-chip').forEach((c) => {
+    c.classList.toggle('ai-chip-active', c.dataset.adviceAi === dailyState.adviceAi);
+  });
+
+  const content = document.getElementById('daily-advice-content');
+  if (!content) return;
+
+  if (dailyState.adviceFetching) {
+    content.innerHTML = '<p class="text-xs text-sumi-soft">取得中…</p>';
+    return;
+  }
+
+  if (dailyState.adviceText) {
+    content.textContent = dailyState.adviceText;
+  } else {
+    content.innerHTML = '<p class="text-xs text-sumi-soft">「アドバイスを取得」を押すと AI が今日の助言を生成します。</p>';
+  }
+}
+
+async function onAdviceFetch({ force = false } = {}) {
+  if (!dailyState.day) {
+    showToast('タスクを先に読み込んでください');
+    return;
+  }
+  if (dailyState.adviceFetching) return;
+  dailyState.adviceFetching = true;
+  setText('daily-advice-status', '');
+  document.getElementById('daily-advice-status')?.classList.add('hidden');
+  renderDailyAdvice();
+
+  try {
+    const taskLabels = (dailyState.day.tasks ?? []).map((t) => t.label);
+    let streamed = '';
+    const result = await fetchAdvice({
+      dateKey:    dailyState.day.date,
+      course:     dailyState.course,
+      language:   dailyState.language,
+      profile:    dailyState.profile,
+      taskLabels,
+      providerKey: dailyState.adviceAi,
+      force,
+      onToken:    (tok, full) => {
+        streamed = full;
+        const content = document.getElementById('daily-advice-content');
+        if (content) content.textContent = streamed;
+      },
+    });
+
+    if (result.source === 'launch') {
+      const status = document.getElementById('daily-advice-status');
+      if (status) {
+        status.classList.remove('hidden');
+        status.textContent = `プロンプトをコピーして ${dailyState.adviceAi} を新タブで開きました。AI で貼り付けて結果を確認してください。`;
+      }
+      dailyState.adviceText = null;
+    } else {
+      dailyState.adviceText = result.text;
+      const status = document.getElementById('daily-advice-status');
+      if (status && result.source === 'cache') {
+        status.classList.remove('hidden');
+        status.textContent = '(キャッシュ)';
+      }
+    }
+  } catch (err) {
+    console.error('advice fetch failed:', err);
+    showToast('アドバイス取得に失敗しました');
+  } finally {
+    dailyState.adviceFetching = false;
+    renderDailyAdvice();
+  }
+}
+
+async function onAdaptiveTasks() {
+  if (!dailyState.day) return;
+  // profile を強制再計算
+  dailyState.profile = await getProfile({
+    force: true,
+    lang:  dailyState.language,
+    deck:  'daily',
+  }).catch(() => null);
+  if (!dailyState.profile) {
+    showToast('プロファイル取得に失敗しました');
+    return;
+  }
+  const adapted = adaptPreset(getBasePreset(dailyState.course), dailyState.profile);
+  dailyState.day = await getOrGenerateDailyTasks({
+    course:        dailyState.course,
+    language:      dailyState.language,
+    regenerate:    true,
+    adaptedPreset: adapted,
+  });
+  dailyState.adapted = !!dailyState.day.adapted;
+  renderDailyScreen();
+  showToast('弱点に合わせてタスクを調整しました');
+}
+
+function onAdviceAiChange(key) {
+  if (!key) return;
+  dailyState.adviceAi = key;
+  renderDailyAdvice();
+}
+
+async function onCourseChange(courseId) {
+  if (!COURSES[courseId]) return;
+  if (courseId === dailyState.course) return;
+  dailyState.course = courseId;
+  await saveSettings({ defaultCourse: courseId });
+  dailyState.day = await getOrGenerateDailyTasks({
+    course:   dailyState.course,
+    language: dailyState.language,
+  });
+  renderDailyScreen();
+}
+
+async function onLanguageModeChange(mode) {
+  if (!LANGUAGE_MODES[mode]) return;
+  dailyState.settings = await saveSettings({ languageMode: mode });
+  const newLang = decideLanguage(dailyState.settings);
+  if (newLang !== dailyState.language) {
+    dailyState.language = newLang;
+    dailyState.day = await getOrGenerateDailyTasks({
+      course:   dailyState.course,
+      language: dailyState.language,
+    });
+  }
+  renderDailyScreen();
+}
+
+async function onLanguagePick(lang) {
+  if (lang !== 'en' && lang !== 'vi') return;
+  if (lang === dailyState.language) return;
+  dailyState.settings = await pickLanguage(lang);
+  dailyState.language = lang;
+  dailyState.day = await getOrGenerateDailyTasks({
+    course:   dailyState.course,
+    language: dailyState.language,
+  });
+  renderDailyScreen();
+}
+
+async function onTaskToggle(taskId) {
+  if (!dailyState.day) return;
+  dailyState.day = await toggleTaskComplete(dailyState.day.date, taskId);
+  renderDailyScreen();
+  // 完了で新バッジ条件を満たすかも
+  checkBadgesQuiet();
+}
+
+async function onDailyRegenerate() {
+  if (!dailyState.day) return;
+  dailyState.day = await getOrGenerateDailyTasks({
+    course:    dailyState.course,
+    language:  dailyState.language,
+    regenerate:true,
+    adaptedPreset: null,   // 標準プリセットに戻す
+  });
+  dailyState.adapted = false;
+  renderDailyScreen();
+  showToast('タスクを再生成しました');
+}
+
+// ---------- 復習画面 ----------
+
+const SOURCE_LABELS = {
+  'vocab':    '単語',
+  'toeic-l':  'TOEIC L',
+  'toeic-r':  'TOEIC R',
+  'ielts-w':  'IELTS W',
+  'ielts-s':  'IELTS S',
+  'scenario': 'シナリオ',
+};
+
+const SOURCE_TARGETS = {
+  'vocab':    'vocabulary',
+  'toeic-l':  'toeic-listening',
+  'toeic-r':  'toeic-reading',
+  'ielts-w':  'ielts-writing',
+  'ielts-s':  'ielts-speaking',
+  'scenario': 'scenarios',
+};
+
+async function activateReviewScreen() {
+  if (reviewState.loading) return;
+  reviewState.loading = true;
+  try {
+    if (!reviewState.pulled && state.user) {
+      try {
+        await pullMistakesFromFirestore();
+        reviewState.pulled = true;
+      } catch (err) {
+        console.warn('mistakes pull failed:', err);
+      }
+    }
+
+    // セッション中なら継続表示、そうでなければリスト
+    if (reviewState.session) {
+      showReviewFocusView();
+      renderReviewSessionStep();
+    } else {
+      showReviewListView();
+      await renderReviewList();
+    }
+  } catch (err) {
+    console.error('review activate failed:', err);
+    showToast('復習データ取得に失敗しました');
+  } finally {
+    reviewState.loading = false;
+  }
+}
+
+function showReviewListView() {
+  document.getElementById('review-list-view')?.classList.remove('hidden');
+  document.getElementById('review-focus-view')?.classList.add('hidden');
+}
+
+function showReviewFocusView() {
+  document.getElementById('review-list-view')?.classList.add('hidden');
+  document.getElementById('review-focus-view')?.classList.remove('hidden');
+}
+
+async function renderReviewList() {
+  const counts = await getMistakeCounts();
+  setText('rv-count-all',      counts.all      ?? 0);
+  setText('rv-count-critical', counts.critical ?? 0);
+  setText('rv-count-review',   counts.review   ?? 0);
+  setText('rv-count-caution',  counts.caution  ?? 0);
+
+  // 優先度 chip の active 切替
+  document.querySelectorAll('#review-filter-row .chip').forEach((c) => {
+    c.classList.toggle('chip-active', c.dataset.reviewPriority === reviewState.filterPriority);
+  });
+  // ソース chip の active 切替
+  document.querySelectorAll('[data-focus-source]').forEach((c) => {
+    c.classList.toggle('chip-active', c.dataset.focusSource === reviewState.focusSource);
+  });
+
+  const list  = document.getElementById('review-item-list');
+  const empty = document.getElementById('review-empty');
+  if (!list) return;
+
+  const items = await getMistakes({
+    priority: reviewState.filterPriority,
+    source:   reviewState.focusSource === 'all' ? 'all' : reviewState.focusSource,
+  });
+
+  if (!items.length) {
+    list.innerHTML = '';
+    empty?.classList.remove('hidden');
+    return;
+  }
+  empty?.classList.add('hidden');
+  list.innerHTML = '';
+  for (const m of items) {
+    const row = document.createElement('div');
+    row.className = 'review-row';
+    row.dataset.mistakeId = m.id;
+    const target = SOURCE_TARGETS[m.source] ?? 'home';
+    const sourceLabel = SOURCE_LABELS[m.source] ?? m.source;
+    const title = mistakeTitle(m);
+    const occ   = m.occurrences ?? 1;
+    const days  = ageDays(m.lastWrongAt ?? m.firstWrongAt);
+    row.innerHTML = `
+      <div class="review-row-main">
+        <span class="review-priority-badge review-priority-${m.priority}">${PRIORITY_LABELS[m.priority] ?? m.priority}</span>
+        <span class="review-source-tag">${sourceLabel}</span>
+        <div class="review-row-title">${escapeHtml(title)}</div>
+        <div class="review-row-meta">${occ} 回間違い · ${days}</div>
+      </div>
+      <div class="flex flex-col gap-1">
+        <button class="review-row-action" data-rv-explain="${m.id}">AI 解説</button>
+        <button class="review-row-action" data-rv-open="${target}">開く</button>
+      </div>
+    `;
+    list.appendChild(row);
+  }
+}
+
+function mistakeTitle(m) {
+  const s = m.snapshot ?? {};
+  if (m.source === 'vocab') {
+    return s.word ?? m.refId;
+  }
+  if (m.source === 'toeic-l' || m.source === 'toeic-r') {
+    const q = s.question ?? '';
+    if (q) return q.slice(0, 60) + (q.length > 60 ? '…' : '');
+    return `${SOURCE_LABELS[m.source]} ${m.refId}`;
+  }
+  return s.question ?? m.refId;
+}
+
+function ageDays(ts) {
+  if (!ts) return '—';
+  const days = Math.floor((Date.now() - ts) / 86400000);
+  if (days === 0) return '今日';
+  if (days === 1) return '昨日';
+  return `${days} 日前`;
+}
+
+async function onReviewFilterChange(priority) {
+  reviewState.filterPriority = priority ?? 'all';
+  await renderReviewList();
+}
+
+async function onReviewSourceChange(source) {
+  reviewState.focusSource = source ?? 'all';
+  await renderReviewList();
+}
+
+// ---------- 集中復習セッション ----------
+
+async function startReviewSession() {
+  const items = await getMistakes({
+    priority: reviewState.filterPriority,
+    source:   reviewState.focusSource === 'all' ? 'all' : reviewState.focusSource,
+    limit:    20,
+  });
+  if (!items.length) {
+    showToast('復習する問題がありません');
+    return;
+  }
+  reviewState.session = {
+    items,
+    index:    0,
+    answered: false,
+    revealed: false,
+    correctCount: 0,
+  };
+  showReviewFocusView();
+  renderReviewSessionStep();
+}
+
+function renderReviewSessionStep() {
+  const sess = reviewState.session;
+  if (!sess) return;
+  const area = document.getElementById('rv-focus-area');
+  const done = document.getElementById('rv-focus-done');
+  const fill = document.getElementById('rv-focus-fill');
+
+  setText('rv-focus-progress', `${Math.min(sess.index + 1, sess.items.length)} / ${sess.items.length}`);
+  if (fill) {
+    const pct = sess.items.length ? (sess.index / sess.items.length) * 100 : 0;
+    fill.style.width = `${Math.min(100, pct)}%`;
+  }
+
+  if (sess.index >= sess.items.length) {
+    area.innerHTML = '';
+    done?.classList.remove('hidden');
+    setText('rv-focus-summary', `${sess.correctCount} / ${sess.items.length} 正解`);
+    if (fill) fill.style.width = '100%';
+    return;
+  }
+
+  done?.classList.add('hidden');
+  const m = sess.items[sess.index];
+  if (m.source === 'vocab') {
+    area.innerHTML = renderVocabReviewCard(m, sess.revealed);
+  } else if (m.source === 'toeic-l' || m.source === 'toeic-r') {
+    area.innerHTML = renderToeicReviewCard(m, sess.revealed, sess.answered);
+  } else {
+    // IELTS/シナリオ等は再採点不可なので「該当画面で復習」のリンクのみ
+    area.innerHTML = renderUnsupportedReviewCard(m);
+  }
+}
+
+function renderVocabReviewCard(m, revealed) {
+  const s = m.snapshot ?? {};
+  const word     = escapeHtml(s.word ?? m.refId);
+  const reading  = escapeHtml(s.reading ?? '');
+  const meaning  = escapeHtml(s.meaning ?? '—');
+  const example  = escapeHtml(s.example ?? '');
+
+  if (!revealed) {
+    return `
+      <div class="rv-focus-question">
+        <div class="text-xs text-sumi-soft tracking-widest mb-3 font-cormorant">REVIEW WORD</div>
+        <div class="rv-focus-word">${word}</div>
+        ${reading ? `<div class="rv-focus-reading">${reading}</div>` : ''}
+      </div>
+      <button class="btn-secondary w-full" data-rv-action="reveal">意味を表示</button>
+    `;
+  }
+  return `
+    <div class="rv-focus-question">
+      <div class="text-xs text-sumi-soft tracking-widest mb-3 font-cormorant">REVIEW WORD</div>
+      <div class="rv-focus-word">${word}</div>
+      ${reading ? `<div class="rv-focus-reading">${reading}</div>` : ''}
+      <div class="rv-focus-meaning">${meaning}</div>
+      ${example ? `<div class="rv-focus-example">${example}</div>` : ''}
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button class="btn-secondary" data-rv-action="wrong">わからなかった</button>
+      <button class="btn-primary" data-rv-action="right">覚えていた</button>
+    </div>
+  `;
+}
+
+function renderToeicReviewCard(m, revealed, answered) {
+  const s = m.snapshot ?? {};
+  const q  = escapeHtml(s.question ?? '');
+  const choices = s.choices ?? [];
+  const correctIdx = s.correctIdx;
+  const chosenIdx  = s.chosenIdx;
+
+  if (!revealed) {
+    let html = `<div class="card mb-3"><div class="card-title">設問を確認</div>
+      <div class="text-sm font-mincho mt-3">${q || '(本文は復習画面では割愛)'}</div>
+      <p class="text-xs text-sumi-soft mt-3">本文を読んで答えを思い出してから「答えを表示」を押してください。</p>
+    </div>
+    <button class="btn-secondary w-full" data-rv-action="reveal">答えを表示</button>`;
+    return html;
+  }
+
+  let choicesHtml = '';
+  choices.forEach((c, i) => {
+    const cls = i === correctIdx ? 'snapshot-correct' : (i === chosenIdx ? 'snapshot-chosen' : 'snapshot-other');
+    const label = String.fromCharCode(65 + i);
+    choicesHtml += `<span class="snapshot-choice ${cls}">${label}. ${escapeHtml(c)}</span>`;
+  });
+  const explanation = s.explanation ? `<p class="text-xs text-sumi-soft mt-3">${escapeHtml(s.explanation)}</p>` : '';
+
+  return `
+    <div class="card mb-3">
+      <div class="card-title">復習: 答え合わせ</div>
+      <div class="rv-focus-snapshot mt-3">
+        <div class="snapshot-q">${q}</div>
+        ${choicesHtml}
+      </div>
+      ${explanation}
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button class="btn-secondary" data-rv-action="wrong">理解できていなかった</button>
+      <button class="btn-primary" data-rv-action="right">理解できた</button>
+    </div>
+  `;
+}
+
+function renderUnsupportedReviewCard(m) {
+  const target = SOURCE_TARGETS[m.source] ?? 'home';
+  return `
+    <div class="card mb-3 text-center">
+      <div class="text-3xl font-mincho text-shu mb-3">${SOURCE_LABELS[m.source] ?? '?'}</div>
+      <p class="text-sm font-mincho mb-2">${escapeHtml(mistakeTitle(m))}</p>
+      <p class="text-xs text-sumi-soft mb-4">この種別は集中復習モードでは再出題できません。元の画面で復習してください。</p>
+      <button class="btn-secondary" data-rv-open="${target}">元の画面を開く</button>
+    </div>
+    <div class="grid grid-cols-2 gap-2">
+      <button class="btn-secondary" data-rv-action="skip">スキップ</button>
+      <button class="btn-primary" data-rv-action="resolve">復習済みにする</button>
+    </div>
+  `;
+}
+
+async function onReviewSessionAction(action) {
+  const sess = reviewState.session;
+  if (!sess) return;
+
+  if (action === 'reveal') {
+    sess.revealed = true;
+    renderReviewSessionStep();
+    return;
+  }
+
+  const m = sess.items[sess.index];
+  if (!m) return;
+
+  if (action === 'right' || action === 'resolve') {
+    await markReviewed(m.id, true);
+    if (action === 'right') sess.correctCount += 1;
+  } else if (action === 'wrong') {
+    await markReviewed(m.id, false);
+  }
+  // skip は何もしない（次へ）
+
+  sess.index += 1;
+  sess.revealed = false;
+  sess.answered = false;
+  renderReviewSessionStep();
+}
+
+function exitReviewSession() {
+  reviewState.session = null;
+  showReviewListView();
+  renderReviewList();
+}
+
+// ---------- 統計画面 ----------
+
+async function activateStatsScreen() {
+  if (statsState.loading) return;
+  statsState.loading = true;
+  try {
+    if (!statsState.pulled && state.user) {
+      try {
+        await pullBadgesFromFirestore();
+        statsState.pulled = true;
+      } catch (err) {
+        console.warn('badges pull failed:', err);
+      }
+    }
+    // ログイン中ならバッジ判定 (画面に来たタイミングで再評価)
+    try {
+      const newly = await checkAndAwardBadges();
+      if (newly?.length) {
+        for (const b of newly) showBadgeToast(b);
+      }
+    } catch (err) { /* */ }
+
+    statsState.summary = await getCumulativeSummary();
+    await renderStatsScreen();
+  } catch (err) {
+    console.error('stats activate failed:', err);
+    showToast('統計データ取得に失敗しました');
+  } finally {
+    statsState.loading = false;
+  }
+}
+
+async function renderStatsScreen() {
+  const summary = statsState.summary;
+  if (!summary) return;
+
+  // 連続日数 / 累計分 / レベル
+  setText('stats-streak',    summary.streak ?? 0);
+  setText('stats-total-min', summary.totalMin ?? 0);
+  const ringEl = document.getElementById('stats-level-ring');
+  if (ringEl && summary.level) {
+    ringEl.innerHTML = renderLevelRing(summary.level, { size: 90 });
+    setText('stats-level-label', summary.level.label ?? '');
+    if (summary.level.nextThreshold) {
+      const need = Math.max(0, summary.level.nextThreshold - summary.totalMin);
+      setText('stats-level-progress', `次レベル「${summary.level.nextLabel ?? '—'}」まで ${need} 分`);
+    } else {
+      setText('stats-level-progress', '最高レベルに到達しました');
+    }
+  }
+
+  // 単語サマリ
+  const byDeck = summary.byDeck ?? {};
+  setText('stats-vocab-daily',  byDeck.daily ?? 0);
+  setText('stats-vocab-toeic',  byDeck.toeic ?? 0);
+  setText('stats-vocab-vi3kyu', byDeck.vi3kyu ?? 0);
+  setText('stats-vocab-total',  summary.mastered ?? 0);
+
+  // 期間別棒グラフ
+  const periodStats = await getStatsForPeriod(statsState.period);
+  setText('stats-period-summary',
+    `${periodStats.daysActive} 日 学習 / 合計 ${periodStats.totalMin} 分`);
+  const chartEl = document.getElementById('stats-bar-chart');
+  if (chartEl) {
+    if (periodStats.dailyMin?.length) {
+      chartEl.innerHTML = renderDailyBar(periodStats.dailyMin);
+    } else if (statsState.period === 'all') {
+      chartEl.innerHTML = '<div class="text-xs text-sumi-soft text-center py-6">全期間グラフは「今週」「今月」をご利用ください</div>';
+    } else {
+      chartEl.innerHTML = '<div class="text-xs text-sumi-soft text-center py-6">データがありません</div>';
+    }
+  }
+
+  // 正答率
+  const accuracy = await getAccuracyByCategory();
+  const accEl = document.getElementById('stats-accuracy-chart');
+  if (accEl) {
+    accEl.innerHTML = renderAccuracyBars(accuracy);
+  }
+
+  // バッジ
+  await renderBadgeGrid();
+
+  // ホーム画面の連続日数表示も更新
+  setText('stat-streak', summary.streak ?? 0);
+}
+
+async function renderBadgeGrid() {
+  const list = await getAllBadgesWithStatus();
+  const grid = document.getElementById('stats-badge-grid');
+  if (!grid) return;
+  const earned = list.filter((b) => b.earned).length;
+  setText('stats-badge-count', `${earned} / ${list.length}`);
+  grid.innerHTML = '';
+  for (const b of list) {
+    const tile = document.createElement('div');
+    tile.className = 'badge-tile ' + (b.earned ? 'earned' : 'locked');
+    tile.title = b.desc ?? '';
+    const dateStr = b.earned && b.earnedAt
+      ? new Date(b.earnedAt).toISOString().slice(2, 10).replace(/-/g, '/')
+      : '—';
+    tile.innerHTML = `
+      <div class="badge-kanji">${escapeHtml(b.kanji ?? '?')}</div>
+      <div class="badge-name">${escapeHtml(b.name ?? '')}</div>
+      <div class="badge-date">${b.earned ? dateStr : 'LOCKED'}</div>
+    `;
+    grid.appendChild(tile);
+  }
+}
+
+async function onStatsPeriodChange(period) {
+  if (!['week', 'month', 'all'].includes(period)) return;
+  statsState.period = period;
+  document.querySelectorAll('.stats-tab').forEach((t) => {
+    t.classList.toggle('tab-active', t.dataset.statsPeriod === period);
+  });
+  await renderStatsScreen();
+}
+
+function showBadgeToast(badge) {
+  if (!badge) return;
+  const el = document.createElement('div');
+  el.className = 'badge-toast';
+  el.innerHTML = `
+    <div class="badge-kanji">${escapeHtml(badge.kanji ?? '?')}</div>
+    <div class="badge-meta">
+      <div class="badge-meta-sub">BADGE EARNED</div>
+      <div class="badge-meta-title">${escapeHtml(badge.name ?? '')}</div>
+    </div>
+  `;
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 4000);
+}
+
+async function checkBadgesQuiet() {
+  // 完了タスク後などに呼ばれて静かに判定 (新規があればトースト)
+  try {
+    const newly = await checkAndAwardBadges();
+    for (const b of newly) showBadgeToast(b);
+  } catch { /* */ }
+}
+
+async function onMistakeExplain(mistakeId) {
+  if (!mistakeId) return;
+  // mistakes IDB から該当を取得 (簡便のため getMistakes で全取得して find)
+  const all = await getMistakes({ priority: 'all', source: 'all' });
+  const m = all.find((x) => x.id === mistakeId);
+  if (!m) {
+    showToast('対象が見つかりませんでした');
+    return;
+  }
+  const provider = state.selectedAi ?? 'claude';
+  const prompt = buildPrompt('mistake-explain', provider, { mistake: m });
+  const result = await launchProvider(provider, prompt);
+  if (result.opened) {
+    showToast(`${result.provider.name} を開きました — Ctrl+V で貼り付け`);
+  } else {
+    showToast('AI を開けませんでした (ポップアップブロック?)');
+  }
+}
+
+// ---------- 間違い snapshot ビルダー ----------
+
+function buildListeningSnapshot(q, chosenIdx) {
+  // 復習画面で「設問・正解・選んだ答え」が再現できる最小情報を保存
+  const choices = q.choices ?? [];
+  // Part 1: imageDescriptionJa が「設問」の役割。Part 2/3/4 は q.q
+  const question = q.q ?? q.imageDescriptionJa ?? '';
+  return {
+    type:        'toeic-l',
+    part:        q.part,
+    question,
+    questionEn:  q.imageDescription ?? '',
+    choices,
+    correctIdx:  q.correct,
+    chosenIdx,
+    correctText: choices[q.correct] ?? '',
+    chosenText:  choices[chosenIdx] ?? '',
+    explanation: q.explanation ?? '',
+    script:      q.script ?? null,
+  };
+}
+
+function buildReadingSnapshot(q, chosenIdx) {
+  const choices = q.choices ?? [];
+  return {
+    type:        'toeic-r',
+    part:        q.part,
+    question:    q.q ?? q.sentence ?? '',
+    passage:     q.passage ?? '',
+    choices,
+    correctIdx:  q.correct,
+    chosenIdx,
+    correctText: choices[q.correct] ?? '',
+    chosenText:  choices[chosenIdx] ?? '',
+    explanation: q.explanation ?? '',
+  };
 }
 
 // ---------- TOEIC リスニング画面 ----------
@@ -479,8 +1396,9 @@ function onListeningChoice(choiceIdx) {
   const isCorrect = choiceIdx === q.correct;
   if (isCorrect) tlState.correct += 1;
 
-  // スコア予測用に記録（best-effort）
-  recordAnswer({ questionId: q.id, correct: isCorrect, part: q.part, tags: q.tags ?? [] })
+  // スコア予測用に記録 + 不正解なら mistakes プールにも記録 (best-effort)
+  const tlSnapshot = !isCorrect ? buildListeningSnapshot(q, choiceIdx) : null;
+  recordAnswer({ questionId: q.id, correct: isCorrect, part: q.part, tags: q.tags ?? [], snapshot: tlSnapshot })
     .catch((err) => console.warn('record answer failed:', err));
 
   // ボタンの色付け
@@ -1083,7 +2001,8 @@ function onReadingChoice(choiceIdx) {
   const isCorrect = choiceIdx === q.correct;
   if (isCorrect) trState.correct += 1;
 
-  recordAnswer({ questionId: q.id, correct: isCorrect, part: q.part, tags: q.tags ?? [] })
+  const trSnapshot = !isCorrect ? buildReadingSnapshot(q, choiceIdx) : null;
+  recordAnswer({ questionId: q.id, correct: isCorrect, part: q.part, tags: q.tags ?? [], snapshot: trSnapshot })
     .catch((err) => console.warn('record answer failed:', err));
 
   document.querySelectorAll('#tr-choices .tr-choice-btn').forEach((b) => {
@@ -1423,6 +2342,126 @@ function bindEvents() {
       const target = btn.dataset.target;
       if (target) showScreen(target);
     });
+  });
+
+  // ホーム CTA (本日の学習を始める)
+  document.getElementById('home-daily-cta')?.addEventListener('click', () => {
+    showScreen('daily');
+  });
+
+  // コース選択 (短/中/長)
+  document.querySelectorAll('#daily-course-row .course-chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const c = chip.dataset.course;
+      if (c) onCourseChange(c);
+    });
+  });
+
+  // 言語モード (rotate/pick/fixed)
+  document.querySelectorAll('#daily-lang-mode-row .chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const m = chip.dataset.langMode;
+      if (m) onLanguageModeChange(m);
+    });
+  });
+
+  // 言語選択 (pick モード時のみ表示)
+  document.querySelectorAll('#daily-lang-pick-row .chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      const l = chip.dataset.pickLang;
+      if (l) onLanguagePick(l);
+    });
+  });
+
+  // タスクリスト (event delegation)
+  document.getElementById('daily-task-list')?.addEventListener('click', (e) => {
+    const toggleBtn = e.target.closest('[data-toggle]');
+    if (toggleBtn) {
+      e.stopPropagation();
+      const taskId = toggleBtn.dataset.toggle;
+      onTaskToggle(taskId);
+      return;
+    }
+    const goBtn = e.target.closest('[data-go]');
+    if (goBtn) {
+      const target = goBtn.dataset.go;
+      if (target) showScreen(target);
+      return;
+    }
+    // 行全体をタップ → 該当画面へ
+    const row = e.target.closest('.daily-task-row');
+    if (row?.dataset.target) {
+      showScreen(row.dataset.target);
+    }
+  });
+
+  // タスク再生成
+  document.getElementById('daily-regenerate-btn')?.addEventListener('click', onDailyRegenerate);
+
+  // 適応的タスク (★)
+  document.getElementById('daily-adapt-btn')?.addEventListener('click', onAdaptiveTasks);
+
+  // AI アドバイス: AI 選択 chip
+  document.querySelectorAll('.advice-ai-chip').forEach((chip) => {
+    chip.addEventListener('click', () => onAdviceAiChange(chip.dataset.adviceAi));
+  });
+  // AI アドバイス: 取得 / 再生成
+  document.getElementById('btn-advice-fetch')?.addEventListener('click', () => onAdviceFetch({ force: false }));
+  document.getElementById('btn-advice-refresh')?.addEventListener('click', () => onAdviceFetch({ force: true }));
+
+  // 統計画面: 期間タブ
+  document.querySelectorAll('.stats-tab').forEach((tab) => {
+    tab.addEventListener('click', () => onStatsPeriodChange(tab.dataset.statsPeriod));
+  });
+
+  // 復習画面: 優先度フィルタ
+  document.querySelectorAll('#review-filter-row .chip').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      onReviewFilterChange(chip.dataset.reviewPriority);
+    });
+  });
+
+  // 復習画面: ソースフィルタ
+  document.querySelectorAll('[data-focus-source]').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      onReviewSourceChange(chip.dataset.focusSource);
+    });
+  });
+
+  // 集中復習開始
+  document.getElementById('btn-review-focus-start')?.addEventListener('click', startReviewSession);
+
+  // 集中復習: 戻る
+  document.getElementById('rv-focus-back')?.addEventListener('click', exitReviewSession);
+  document.getElementById('rv-focus-restart')?.addEventListener('click', exitReviewSession);
+
+  // 集中復習: 動的に生成されるアクションボタン (delegation)
+  document.getElementById('rv-focus-area')?.addEventListener('click', (e) => {
+    const actBtn = e.target.closest('[data-rv-action]');
+    if (actBtn) {
+      onReviewSessionAction(actBtn.dataset.rvAction);
+      return;
+    }
+    const openBtn = e.target.closest('[data-rv-open]');
+    if (openBtn) {
+      const t = openBtn.dataset.rvOpen;
+      if (t) showScreen(t);
+    }
+  });
+
+  // 個別復習リストの「開く」/「AI 解説」ボタン (delegation)
+  document.getElementById('review-item-list')?.addEventListener('click', async (e) => {
+    const explainBtn = e.target.closest('[data-rv-explain]');
+    if (explainBtn) {
+      e.stopPropagation();
+      await onMistakeExplain(explainBtn.dataset.rvExplain);
+      return;
+    }
+    const openBtn = e.target.closest('[data-rv-open]');
+    if (openBtn) {
+      const t = openBtn.dataset.rvOpen;
+      if (t) showScreen(t);
+    }
   });
 
   // フラッシュカード裏返し

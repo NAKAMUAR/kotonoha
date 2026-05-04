@@ -574,7 +574,7 @@ body {
   left: 0;
   right: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   background: rgba(245, 241, 232, 0.95);
   backdrop-filter: saturate(140%) blur(8px);
   -webkit-backdrop-filter: saturate(140%) blur(8px);
@@ -655,6 +655,350 @@ body {
 @keyframes toast-in {
   from { opacity: 0; transform: translate(-50%, 8px); }
   to   { opacity: 1; transform: translate(-50%, 0); }
+}
+
+/* ---------- Daily screen ---------- */
+
+.course-chip {
+  text-align: center;
+  padding: 0.875rem 0.5rem;
+  background: var(--washi);
+  border: 1px solid rgba(26, 22, 18, 0.12);
+  border-radius: 8px;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+.course-chip:hover { border-color: var(--shu); }
+.course-chip-active {
+  background: var(--shu);
+  color: var(--washi);
+  border-color: var(--shu-dark);
+  box-shadow: 0 2px 0 var(--shu-dark);
+}
+
+.course-kanji {
+  font-family: "Shippori Mincho", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.course-min {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.7rem;
+  color: var(--sumi-soft);
+  margin-top: 0.25rem;
+  letter-spacing: 0.1em;
+}
+.course-chip-active .course-min { color: var(--washi); opacity: 0.85; }
+
+.daily-task-row {
+  display: grid;
+  grid-template-columns: 28px 1fr auto auto;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.65rem 0.75rem;
+  background: var(--washi);
+  border: 1px solid rgba(26, 22, 18, 0.08);
+  border-radius: 6px;
+  transition: border-color 0.15s, background 0.15s;
+}
+.daily-task-row:hover { border-color: var(--shu); }
+.daily-task-row.completed {
+  background: rgba(90, 112, 72, 0.08);
+  border-color: rgba(90, 112, 72, 0.25);
+}
+.daily-task-row.completed .daily-task-label {
+  color: var(--sumi-soft);
+  text-decoration: line-through;
+}
+
+.daily-task-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: var(--shu);
+  color: var(--washi);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: "Shippori Mincho", serif;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.daily-task-row.completed .daily-task-icon {
+  background: var(--koke);
+}
+.daily-task-icon::before {
+  content: "";
+  display: none;
+}
+.daily-task-row.completed .daily-task-icon::before {
+  content: "✓";
+  display: inline-block;
+  font-size: 0.95rem;
+}
+.daily-task-row.completed .daily-task-icon-char { display: none; }
+
+.daily-task-label {
+  font-size: 0.9rem;
+  font-family: "Shippori Mincho", serif;
+}
+
+.daily-task-min {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.75rem;
+  color: var(--sumi-soft);
+}
+
+.daily-task-go {
+  background: transparent;
+  border: 1px solid rgba(26, 22, 18, 0.15);
+  color: var(--sumi-light);
+  border-radius: 4px;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.7rem;
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: 0.1em;
+  transition: all 0.15s;
+}
+.daily-task-go:hover {
+  background: var(--shu);
+  color: var(--washi);
+  border-color: var(--shu);
+}
+
+/* ---------- AI Advice card ---------- */
+
+#daily-advice-content {
+  min-height: 3rem;
+  background: var(--washi);
+  border: 1px solid rgba(26, 22, 18, 0.06);
+  border-radius: 6px;
+  padding: 0.75rem 0.875rem;
+  font-family: "Shippori Mincho", serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.advice-ai-chip {
+  font-size: 0.7rem;
+  padding: 0.25rem 0.55rem;
+}
+
+#daily-adapted-note {
+  font-family: "Shippori Mincho", serif;
+}
+
+/* ---------- Review screen ---------- */
+
+.review-row {
+  background: var(--washi);
+  border: 1px solid rgba(26, 22, 18, 0.08);
+  border-radius: 6px;
+  padding: 0.75rem 0.875rem;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+  align-items: center;
+  transition: border-color 0.15s;
+}
+.review-row:hover { border-color: var(--shu); }
+
+.review-row-main { min-width: 0; }
+
+.review-priority-badge {
+  display: inline-block;
+  font-family: "Shippori Mincho", serif;
+  font-size: 0.65rem;
+  padding: 0.125rem 0.4rem;
+  border-radius: 999px;
+  margin-right: 0.4rem;
+  letter-spacing: 0.05em;
+  vertical-align: middle;
+}
+.review-priority-critical { background: var(--shu);  color: var(--washi); }
+.review-priority-review   { background: var(--sumi); color: var(--washi); }
+.review-priority-caution  { background: var(--washi-dark); color: var(--sumi-light); }
+
+.review-source-tag {
+  display: inline-block;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.65rem;
+  color: var(--sumi-soft);
+  letter-spacing: 0.1em;
+  vertical-align: middle;
+}
+
+.review-row-title {
+  font-size: 0.85rem;
+  font-family: "Shippori Mincho", serif;
+  margin-top: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.review-row-meta {
+  font-size: 0.7rem;
+  color: var(--sumi-soft);
+  font-family: "Cormorant Garamond", serif;
+  margin-top: 0.125rem;
+  letter-spacing: 0.05em;
+}
+
+.review-row-action {
+  background: transparent;
+  border: 1px solid rgba(26, 22, 18, 0.15);
+  color: var(--sumi-light);
+  border-radius: 4px;
+  padding: 0.25rem 0.55rem;
+  font-size: 0.7rem;
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: 0.1em;
+}
+.review-row-action:hover {
+  background: var(--shu); color: var(--washi); border-color: var(--shu);
+}
+
+/* Focus review session card */
+.rv-focus-question {
+  background: var(--washi-light);
+  border: 1px solid rgba(26, 22, 18, 0.12);
+  border-radius: 8px;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.rv-focus-word {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+.rv-focus-reading {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.875rem;
+  color: var(--sumi-soft);
+  margin-top: 0.4rem;
+}
+.rv-focus-meaning {
+  font-family: "Shippori Mincho", serif;
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+.rv-focus-example {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  color: var(--sumi-light);
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.rv-focus-snapshot {
+  text-align: left;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.95rem;
+}
+.rv-focus-snapshot .snapshot-q {
+  margin-bottom: 0.5rem;
+  font-family: "Shippori Mincho", serif;
+}
+.rv-focus-snapshot .snapshot-choice {
+  display: block;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+}
+.rv-focus-snapshot .snapshot-correct {
+  background: rgba(90, 112, 72, 0.15);
+  color: var(--koke-dark);
+  border: 1px solid var(--koke);
+}
+.rv-focus-snapshot .snapshot-chosen {
+  background: rgba(197, 56, 43, 0.1);
+  color: var(--shu-dark);
+  border: 1px solid var(--shu);
+}
+.rv-focus-snapshot .snapshot-other {
+  background: var(--washi);
+  color: var(--sumi-soft);
+  border: 1px solid rgba(26, 22, 18, 0.08);
+}
+
+/* ---------- Stats / Badges ---------- */
+
+#stats-level-ring svg { display: inline-block; }
+
+.stats-tab.tab-active { font-weight: 600; }
+
+.badge-tile {
+  background: var(--washi);
+  border: 1px solid rgba(26, 22, 18, 0.1);
+  border-radius: 8px;
+  padding: 0.75rem 0.5rem;
+  text-align: center;
+  position: relative;
+  transition: border-color 0.15s, transform 0.1s;
+}
+.badge-tile.earned {
+  background: linear-gradient(180deg, var(--washi-light) 0%, var(--washi-dark) 100%);
+  border-color: var(--shu);
+}
+.badge-tile.locked { opacity: 0.45; }
+
+.badge-kanji {
+  font-family: "Shippori Mincho", serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--shu);
+}
+.badge-tile.locked .badge-kanji { color: var(--sumi-soft); }
+
+.badge-name {
+  font-size: 0.65rem;
+  color: var(--sumi-light);
+  margin-top: 0.4rem;
+  font-family: "Shippori Mincho", serif;
+  letter-spacing: 0.05em;
+}
+
+.badge-date {
+  font-size: 0.55rem;
+  color: var(--sumi-soft);
+  font-family: "Cormorant Garamond", serif;
+  letter-spacing: 0.1em;
+  margin-top: 0.15rem;
+}
+
+.badge-toast {
+  position: fixed;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--sumi);
+  color: var(--washi);
+  padding: 0.875rem 1.5rem;
+  border-radius: 6px;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  box-shadow: 0 6px 20px rgba(26, 22, 18, 0.25);
+  animation: badge-pop 0.4s ease;
+}
+.badge-toast .badge-kanji { font-size: 2rem; color: var(--shu-light); }
+.badge-toast .badge-meta { display: flex; flex-direction: column; gap: 0.125rem; }
+.badge-toast .badge-meta-title { font-family: "Shippori Mincho", serif; font-size: 0.85rem; }
+.badge-toast .badge-meta-sub   { font-family: "Cormorant Garamond", serif; font-size: 0.7rem; letter-spacing: 0.15em; opacity: 0.7; }
+
+@keyframes badge-pop {
+  0%   { opacity: 0; transform: translate(-50%, -10px) scale(0.9); }
+  60%  { transform: translate(-50%, 0) scale(1.04); }
+  100% { opacity: 1; transform: translate(-50%, 0) scale(1); }
 }
 
 /* ---------- Utility ---------- */

@@ -39,6 +39,20 @@
   ],
   "shortcuts": [
     {
+      "name": "本日の学習",
+      "short_name": "本日",
+      "description": "本日のデイリータスクを開く",
+      "url": "./?screen=daily",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "統計",
+      "short_name": "統計",
+      "description": "学習統計とバッジを確認する",
+      "url": "./?screen=stats",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
       "name": "単語復習",
       "short_name": "単語",
       "description": "SRS の期日が来た単語を復習する",

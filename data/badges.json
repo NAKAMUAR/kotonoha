@@ -1,0 +1,92 @@
+[
+  {
+    "id":       "streak-3",
+    "name":     "三日坊主突破",
+    "kanji":    "参",
+    "category": "streak",
+    "level":    1,
+    "condition":{ "type": "streak", "min": 3 },
+    "desc":     "3 日連続で学習"
+  },
+  {
+    "id":       "streak-7",
+    "name":     "七日連続",
+    "kanji":    "漆",
+    "category": "streak",
+    "level":    2,
+    "condition":{ "type": "streak", "min": 7 },
+    "desc":     "7 日連続で学習"
+  },
+  {
+    "id":       "streak-30",
+    "name":     "卅日連続",
+    "kanji":    "卅",
+    "category": "streak",
+    "level":    3,
+    "condition":{ "type": "streak", "min": 30 },
+    "desc":     "30 日連続で学習"
+  },
+  {
+    "id":       "vocab-100",
+    "name":     "百語習得",
+    "kanji":    "百",
+    "category": "mastery",
+    "level":    1,
+    "condition":{ "type": "vocabMastered", "min": 100 },
+    "desc":     "単語を 100 語マスター"
+  },
+  {
+    "id":       "vocab-500",
+    "name":     "五百語習得",
+    "kanji":    "達",
+    "category": "mastery",
+    "level":    2,
+    "condition":{ "type": "vocabMastered", "min": 500 },
+    "desc":     "単語を 500 語マスター"
+  },
+  {
+    "id":       "toeic-600",
+    "name":     "TOEIC 600",
+    "kanji":    "陸",
+    "category": "score",
+    "level":    1,
+    "condition":{ "type": "toeicTotal", "min": 600 },
+    "desc":     "TOEIC 予測スコア 600"
+  },
+  {
+    "id":       "toeic-730",
+    "name":     "TOEIC 730",
+    "kanji":    "捌",
+    "category": "score",
+    "level":    2,
+    "condition":{ "type": "toeicTotal", "min": 730 },
+    "desc":     "TOEIC 予測スコア 730"
+  },
+  {
+    "id":       "vi-3kyu-50",
+    "name":     "ベトナム語 3 級",
+    "kanji":    "越",
+    "category": "mastery",
+    "level":    1,
+    "condition":{ "type": "deckMastered", "deck": "vi3kyu", "min": 50 },
+    "desc":     "ベトナム語検定 3 級単語を 50 語マスター"
+  },
+  {
+    "id":       "ielts-first",
+    "name":     "IELTS 始めました",
+    "kanji":    "作",
+    "category": "milestone",
+    "level":    1,
+    "condition":{ "type": "ieltsWriteCount", "min": 1 },
+    "desc":     "IELTS Writing を初投稿"
+  },
+  {
+    "id":       "mistake-master",
+    "name":     "復習名人",
+    "kanji":    "復",
+    "category": "review",
+    "level":    1,
+    "condition":{ "type": "mistakesResolved", "min": 50 },
+    "desc":     "間違いを 50 件克服"
+  }
+]

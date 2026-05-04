@@ -146,7 +146,7 @@ export async function getAllSrsStates() {
   return await idbGetAll(STORE_SRS);
 }
 
-export async function rateWord(wordId, quality) {
+export async function rateWord(wordId, quality, wordMeta = null) {
   const current = (await getSrsState(wordId)) ?? { wordId, ...newSrsState() };
   const updated = { wordId, ...applySrs(current, quality) };
   await idbPut(STORE_SRS, updated);
@@ -155,6 +155,24 @@ export async function rateWord(wordId, quality) {
   syncSrsToFirestore(wordId, updated).catch((err) => {
     console.warn('Firestore SRS sync failed for', wordId, err);
   });
+
+  // 「難しい」(HARD = 2) なら間違いプールに記録 (best-effort, dynamic import でサイクル回避)
+  if (quality === QUALITY.HARD && wordMeta) {
+    import('./mistakes.js').then(({ recordMistake }) => {
+      recordMistake({
+        source:   'vocab',
+        refId:    wordId,
+        language: wordMeta.lang ?? 'en',
+        snapshot: {
+          word:     wordMeta.word ?? wordMeta.target ?? wordId,
+          reading:  wordMeta.reading ?? '',
+          meaning:  wordMeta.meaning ?? '',
+          example:  wordMeta.example ?? '',
+          deck:     wordMeta.deck ?? 'daily',
+        },
+      }).catch((err) => console.warn('mistake record failed:', err));
+    }).catch(() => {});
+  }
 
   return updated;
 }

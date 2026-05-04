@@ -96,11 +96,111 @@
       </div>
     </section>
 
+    <section id="screen-daily" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">本日の学習</h2>
+        <p class="screen-sub" id="daily-date-sub">—</p>
+      </div>
+
+      <div class="card mb-4">
+        <div class="text-xs text-sumi-soft tracking-wider mb-2 font-cormorant">COURSE</div>
+        <div id="daily-course-row" class="grid grid-cols-3 gap-2">
+          <button class="course-chip" data-course="short">
+            <div class="course-kanji">短</div>
+            <div class="course-min">15 分</div>
+          </button>
+          <button class="course-chip course-chip-active" data-course="standard">
+            <div class="course-kanji">中</div>
+            <div class="course-min">30 分</div>
+          </button>
+          <button class="course-chip" data-course="long">
+            <div class="course-kanji">長</div>
+            <div class="course-min">60 分</div>
+          </button>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <div class="flex items-center justify-between mb-2">
+          <div class="text-xs text-sumi-soft tracking-wider font-cormorant">PROGRESS</div>
+          <div class="text-xs text-sumi-soft" id="daily-progress-text">— / — 分</div>
+        </div>
+        <div class="phase-bar">
+          <div class="phase-fill" id="daily-progress-fill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <div class="flex items-center justify-between flex-wrap gap-2">
+          <div>
+            <div class="text-xs text-sumi-soft tracking-wider font-cormorant">LANGUAGE</div>
+            <div class="text-base font-mincho font-semibold mt-1" id="daily-lang-display">—</div>
+          </div>
+          <div class="flex gap-1" id="daily-lang-mode-row">
+            <button class="chip" data-lang-mode="rotate">日替り</button>
+            <button class="chip" data-lang-mode="pick">選択</button>
+            <button class="chip" data-lang-mode="fixed">固定</button>
+          </div>
+        </div>
+        <div class="filter-row mt-3 hidden" id="daily-lang-pick-row">
+          <button class="chip" data-pick-lang="en">English</button>
+          <button class="chip" data-pick-lang="vi">Tiếng Việt</button>
+        </div>
+      </div>
+
+      <div class="card mb-4">
+        <h3 class="card-title">今日のタスク</h3>
+        <div id="daily-task-list" class="mt-4 space-y-2"></div>
+        <div id="daily-adapted-note" class="text-xs text-koke mt-3 hidden">★ 弱点に合わせて調整されたタスクです</div>
+        <div class="flex gap-2 mt-4">
+          <button id="daily-regenerate-btn" class="btn-secondary text-xs flex-1">タスクを再生成</button>
+          <button id="daily-adapt-btn" class="btn-secondary text-xs flex-1">★ 弱点に合わせて調整</button>
+        </div>
+      </div>
+
+      <div class="card mb-4" id="daily-advice-card">
+        <h3 class="card-title">今日のアドバイス（AI）</h3>
+        <div id="daily-advice-content" class="mt-3 text-sm font-mincho whitespace-pre-wrap leading-relaxed text-sumi">
+          <p class="text-xs text-sumi-soft">「アドバイスを取得」を押すと AI が今日の助言を生成します。</p>
+        </div>
+        <div class="flex flex-wrap items-center gap-2 mt-3">
+          <span class="text-xs text-sumi-soft mr-1">使う AI:</span>
+          <button class="advice-ai-chip ai-chip ai-chip-active" data-advice-ai="claude">Claude</button>
+          <button class="advice-ai-chip ai-chip" data-advice-ai="gemini">Gemini</button>
+          <button class="advice-ai-chip ai-chip" data-advice-ai="chatgpt">ChatGPT</button>
+          <button class="advice-ai-chip ai-chip" data-advice-ai="copilot">Copilot</button>
+          <button class="advice-ai-chip ai-chip" data-advice-ai="ollama">Ollama</button>
+        </div>
+        <div class="flex gap-2 mt-3">
+          <button id="btn-advice-fetch" class="btn-primary text-sm flex-1">アドバイスを取得</button>
+          <button id="btn-advice-refresh" class="btn-secondary text-sm">↻ 再生成</button>
+        </div>
+        <div id="daily-advice-status" class="text-xs text-sumi-soft mt-2 hidden">—</div>
+      </div>
+
+      <div id="daily-empty" class="card text-center hidden">
+        <div class="text-3xl font-mincho text-koke mb-3">完</div>
+        <p class="font-mincho">本日のタスクはすべて完了しました</p>
+        <p class="text-sumi-soft text-xs mt-2 font-cormorant tracking-widest">WELL DONE</p>
+      </div>
+    </section>
+
     <section id="screen-home" class="screen hidden">
       <div class="mb-6">
         <p class="text-sm text-sumi-soft">こんにちは</p>
         <h2 class="text-2xl font-semibold mt-1" id="greeting-name">ゲスト さん</h2>
       </div>
+
+      <button id="home-daily-cta" class="card mb-6 w-full text-left block hover:border-shu transition-colors" data-target="daily">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-md bg-shu text-washi flex items-center justify-center font-mincho font-semibold">日</div>
+          <div class="flex-1 min-w-0">
+            <div class="font-mincho font-semibold text-base">本日の学習を始める</div>
+            <div class="text-xs text-sumi-soft mt-0.5" id="home-daily-sub">コースを選んでタスクを生成 →</div>
+          </div>
+          <div class="text-shu text-lg" aria-hidden="true">→</div>
+        </div>
+      </button>
 
       <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
         <div class="stat-card">
@@ -688,6 +788,139 @@
       </div>
     </section>
 
+    <section id="screen-review" class="screen hidden">
+      <div id="review-list-view">
+        <div class="screen-header">
+          <h2 class="screen-title">復習</h2>
+          <p class="screen-sub">間違えた問題をまとめて復習</p>
+        </div>
+
+        <div class="filter-row mb-4" id="review-filter-row">
+          <button class="chip chip-active" data-review-priority="all">全 <span id="rv-count-all">0</span></button>
+          <button class="chip" data-review-priority="critical">最重要 <span id="rv-count-critical">0</span></button>
+          <button class="chip" data-review-priority="review">要復習 <span id="rv-count-review">0</span></button>
+          <button class="chip" data-review-priority="caution">注意 <span id="rv-count-caution">0</span></button>
+        </div>
+
+        <div class="card mb-4" id="review-focus-card">
+          <h3 class="card-title">集中復習モード</h3>
+          <p class="text-xs text-sumi-soft mt-2" id="review-focus-sub">優先度の高い間違いを連続で復習します</p>
+          <div class="filter-row mt-3">
+            <button class="chip" data-focus-source="vocab">単語のみ</button>
+            <button class="chip" data-focus-source="toeic-l">TOEIC L</button>
+            <button class="chip" data-focus-source="toeic-r">TOEIC R</button>
+            <button class="chip chip-active" data-focus-source="all">全種別</button>
+          </div>
+          <button id="btn-review-focus-start" class="btn-primary w-full mt-4">集中復習を始める</button>
+        </div>
+
+        <div class="card mb-4">
+          <h3 class="card-title">個別に復習</h3>
+          <div id="review-item-list" class="mt-3 space-y-2"></div>
+          <div id="review-empty" class="hidden text-center py-6">
+            <div class="text-3xl font-mincho text-koke mb-2">空</div>
+            <p class="text-sm font-mincho">該当する間違いはありません</p>
+            <p class="text-xs text-sumi-soft mt-1 font-cormorant tracking-widest">CLEAR</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="review-focus-view" class="hidden">
+        <button id="rv-focus-back" class="text-xs text-sumi-soft mb-3">← 復習リストに戻る</button>
+
+        <div class="card mb-4">
+          <div class="flex items-center justify-between mb-2">
+            <div class="text-xs text-sumi-soft tracking-wider font-cormorant">FOCUS REVIEW</div>
+            <div class="text-xs text-sumi-soft" id="rv-focus-progress">— / —</div>
+          </div>
+          <div class="phase-bar">
+            <div class="phase-fill" id="rv-focus-fill" style="width: 0%"></div>
+          </div>
+        </div>
+
+        <div id="rv-focus-area"></div>
+
+        <div id="rv-focus-done" class="card text-center hidden">
+          <div class="text-4xl font-mincho text-koke mb-3">完</div>
+          <p class="font-mincho">集中復習が完了しました</p>
+          <p class="text-xs text-sumi-soft mt-2 font-cormorant tracking-widest">WELL DONE</p>
+          <div id="rv-focus-summary" class="text-xs text-sumi-soft mt-4">—</div>
+          <button id="rv-focus-restart" class="btn-secondary mt-4">復習リストに戻る</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-stats" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">統計</h2>
+        <p class="screen-sub">学習時間・正答率・バッジ</p>
+      </div>
+
+      <div class="card mb-4">
+        <div class="grid grid-cols-3 gap-3 items-center">
+          <div class="text-center" id="stats-level-ring-wrap">
+            <div id="stats-level-ring"></div>
+            <div class="text-xs text-sumi-soft mt-1 font-cormorant tracking-widest" id="stats-level-label">—</div>
+          </div>
+          <div class="text-center">
+            <div class="text-xs text-sumi-soft tracking-widest font-cormorant mb-1">STREAK</div>
+            <div class="font-cormorant text-3xl font-medium text-shu" id="stats-streak">0</div>
+            <div class="text-xs text-sumi-soft mt-1">日連続</div>
+          </div>
+          <div class="text-center">
+            <div class="text-xs text-sumi-soft tracking-widest font-cormorant mb-1">TOTAL</div>
+            <div class="font-cormorant text-3xl font-medium" id="stats-total-min">0</div>
+            <div class="text-xs text-sumi-soft mt-1">分 累計</div>
+          </div>
+        </div>
+        <div class="text-xs text-sumi-soft mt-3 text-center" id="stats-level-progress">—</div>
+      </div>
+
+      <div class="tab-bar mb-4">
+        <button class="stats-tab tab tab-active" data-stats-period="week">今週</button>
+        <button class="stats-tab tab" data-stats-period="month">今月</button>
+        <button class="stats-tab tab" data-stats-period="all">全期間</button>
+      </div>
+
+      <div class="card mb-4">
+        <h3 class="card-title">学習時間</h3>
+        <div class="text-xs text-sumi-soft mt-2" id="stats-period-summary">—</div>
+        <div id="stats-bar-chart" class="mt-3"></div>
+      </div>
+
+      <div class="card mb-4">
+        <h3 class="card-title">正答率</h3>
+        <div id="stats-accuracy-chart" class="mt-3"></div>
+      </div>
+
+      <div class="card mb-4">
+        <h3 class="card-title">獲得バッジ <span class="text-xs text-sumi-soft font-cormorant ml-2" id="stats-badge-count">0 / 0</span></h3>
+        <div id="stats-badge-grid" class="grid grid-cols-3 gap-2 mt-3"></div>
+      </div>
+
+      <div class="card">
+        <h3 class="card-title">単語</h3>
+        <div class="grid grid-cols-2 gap-3 mt-3">
+          <div>
+            <div class="text-xs text-sumi-soft font-cormorant tracking-widest">DAILY</div>
+            <div class="text-2xl font-cormorant font-medium" id="stats-vocab-daily">0</div>
+          </div>
+          <div>
+            <div class="text-xs text-sumi-soft font-cormorant tracking-widest">TOEIC</div>
+            <div class="text-2xl font-cormorant font-medium" id="stats-vocab-toeic">0</div>
+          </div>
+          <div>
+            <div class="text-xs text-sumi-soft font-cormorant tracking-widest">VI 3 級</div>
+            <div class="text-2xl font-cormorant font-medium" id="stats-vocab-vi3kyu">0</div>
+          </div>
+          <div>
+            <div class="text-xs text-sumi-soft font-cormorant tracking-widest">合計</div>
+            <div class="text-2xl font-cormorant font-medium" id="stats-vocab-total">0</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <nav id="bottom-nav" class="bottom-nav hidden">
@@ -695,17 +928,21 @@
       <div class="nav-icon">家</div>
       <div class="nav-label">ホーム</div>
     </button>
+    <button class="nav-item" data-target="daily">
+      <div class="nav-icon">日</div>
+      <div class="nav-label">デイリー</div>
+    </button>
     <button class="nav-item" data-target="vocabulary">
       <div class="nav-icon">単</div>
       <div class="nav-label">単語</div>
     </button>
-    <button class="nav-item" data-target="scenarios">
-      <div class="nav-icon">話</div>
-      <div class="nav-label">会話</div>
+    <button class="nav-item" data-target="review">
+      <div class="nav-icon">復</div>
+      <div class="nav-label">復習</div>
     </button>
-    <button class="nav-item" data-target="grammar">
-      <div class="nav-icon">添</div>
-      <div class="nav-label">添削</div>
+    <button class="nav-item" data-target="stats">
+      <div class="nav-icon">統</div>
+      <div class="nav-label">統計</div>
     </button>
   </nav>
 

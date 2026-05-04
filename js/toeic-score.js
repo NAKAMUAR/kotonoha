@@ -61,8 +61,11 @@ async function idbClear() {
 /**
  * 問題への回答を記録。同じ questionId は最新で上書き。
  * tags から score-XXX を抽出して scoreLevel に保存。
+ *
+ * 不正解の場合、snapshot が渡されていれば mistakes プールにも記録。
+ * （snapshot は best-effort. 渡されなければ mistake hook はスキップ）
  */
-export async function recordAnswer({ questionId, correct, part, tags = [] }) {
+export async function recordAnswer({ questionId, correct, part, tags = [], snapshot = null }) {
   const scoreTag = tags.find((t) => t.startsWith('score-'));
   const scoreLevel = scoreTag ? parseInt(scoreTag.replace('score-', ''), 10) : null;
 
@@ -73,6 +76,23 @@ export async function recordAnswer({ questionId, correct, part, tags = [] }) {
     scoreLevel,
     timestamp: Date.now(),
   });
+
+  if (!correct && snapshot) {
+    // dynamic import でサイクル回避
+    import('./mistakes.js').then(({ recordMistake }) => {
+      const source = part >= 1 && part <= 4 ? 'toeic-l' : 'toeic-r';
+      recordMistake({
+        source,
+        refId:    questionId,
+        language: 'en',
+        snapshot: {
+          ...snapshot,
+          part,
+          tags,
+        },
+      }).catch((err) => console.warn('mistake record failed:', err));
+    }).catch(() => {});
+  }
 }
 
 // ---------- 集計 ----------
