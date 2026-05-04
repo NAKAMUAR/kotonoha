@@ -85,9 +85,17 @@ export async function fetchAdvice({
     todayTaskLabels: taskLabels,
   });
 
-  // Ollama が使えるなら直接取得
-  const ollamaOk = providerKey === 'ollama' || await checkOllamaAvailable();
-  if (ollamaOk) {
+  // ユーザーが明示的に Ollama を選んだ場合のみ直接 API 経由で取得 (ストリーミング)。
+  // 他の AI を選択した場合はユーザーの選択を尊重して新タブで起動する。
+  if (providerKey === 'ollama') {
+    if (!(await checkOllamaAvailable())) {
+      return {
+        source: 'launch',
+        text:   null,
+        error:  'Ollama に接続できません (http://localhost:11434 が起動していますか?)',
+        prompt,
+      };
+    }
     try {
       const text = await callOllama(prompt, { onToken });
       await writeAdviceCache({
@@ -99,11 +107,12 @@ export async function fetchAdvice({
       });
       return { source: 'ollama', text };
     } catch (err) {
-      console.warn('Ollama advice failed, falling back to launch:', err);
+      console.warn('Ollama advice failed:', err);
+      return { source: 'launch', text: null, error: err.message, prompt };
     }
   }
 
-  // フォールバック: クラウド AI を開く
+  // クラウド AI: プロンプトをコピーして新タブで開く
   const launched = await launchProvider(providerKey, prompt);
   return { source: 'launch', text: null, launched, prompt };
 }

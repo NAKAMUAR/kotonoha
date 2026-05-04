@@ -268,12 +268,19 @@ async function handleAuthChange(user) {
     vocabState.queue = [];
     vocabState.index = 0;
     dailyState.pulledFromFirestore = false;
-    dailyState.day      = null;
-    dailyState.settings = null;
-    reviewState.pulled  = false;
-    reviewState.session = null;
-    statsState.pulled   = false;
-    statsState.summary  = null;
+    dailyState.day        = null;
+    dailyState.settings   = null;
+    dailyState.profile    = null;
+    dailyState.adviceText = null;
+    dailyState.adviceFetching = false;
+    dailyState.adapted    = false;
+    reviewState.pulled    = false;
+    reviewState.session   = null;
+    reviewState.filterPriority = 'all';
+    reviewState.focusSource = 'all';
+    statsState.pulled     = false;
+    statsState.summary    = null;
+    statsState.period     = 'week';
 
     profileBtn?.classList.add('hidden');
     bottomNav?.classList.add('hidden');
@@ -634,7 +641,11 @@ async function onAdviceFetch({ force = false } = {}) {
       const status = document.getElementById('daily-advice-status');
       if (status) {
         status.classList.remove('hidden');
-        status.textContent = `プロンプトをコピーして ${dailyState.adviceAi} を新タブで開きました。AI で貼り付けて結果を確認してください。`;
+        if (result.error) {
+          status.textContent = `エラー: ${result.error}`;
+        } else {
+          status.textContent = `プロンプトをコピーして ${dailyState.adviceAi} を新タブで開きました。AI で貼り付けて結果を確認してください。`;
+        }
       }
       dailyState.adviceText = null;
     } else {
