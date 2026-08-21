@@ -2,7 +2,7 @@
 // 言の葉 / Kotonoha — メインエントリ
 // Step 1: 画面切り替え骨格
 // Step 2: Firebase 認証 + Firestore ユーザードキュメント連携
-// Step 3: 単語帳（IndexedDB + SM-2 SRS + Firestore 同期）  ← 現在
+// Step 3: 単語帳（IndexedDB + FSRS-6 SRS + Firestore 同期）  ← 現在
 //   AI 連携は Step 4 で接続。
 // =====================================================================
 
@@ -19,10 +19,18 @@ import {
   loadVocabulary,
   buildQueue,
   rateWord,
+  previewWord,
   getStudyStats,
+  getForecast,
+  getSettings,
+  updateSettings,
   pullSrsFromFirestore,
+  pullSettingsFromFirestore,
   clearLocalSrs,
+  shouldRequeue,
   getDeck,
+  formatInterval,
+  RATING,
 } from './vocabulary.js';
 
 import {
@@ -82,7 +90,14 @@ const vocabState = {
   flipped:             false,
   loading:             false,
   pulledFromFirestore: false,
+  settings:            null,
+  // 当セッションの成績。終了時に振り返りとして提示する。
+  session:             { reviewed: 0, again: 0, hard: 0, good: 0, easy: 0 },
 };
+
+// 学習ステップ中のカードを同一セッション内で再提示するまでに挟む枚数。
+// 直後に出すと短期記憶で答えられてしまい、想起練習にならない。
+const REQUEUE_GAP = 4;
 
 const scenarioState = {
   phase:        1,
@@ -211,7 +226,9 @@ async function refreshHomeStats() {
   try {
     const stats = await getStudyStats(vocabState.lang, vocabState.deck);
     setText('stat-words', stats.mastered + stats.review);
-    setText('due-count',  stats.dueCount);
+    // 期日総数（数千件になりうる）ではなく、1 日の上限を反映した
+    // 「今日こなす量」を見せる。達成可能な数字のほうが継続率が高い。
+    setText('due-count',  stats.todayCount);
   } catch (err) {
     console.warn('home stats refresh failed:', err);
   }
@@ -220,7 +237,8 @@ async function refreshHomeStats() {
 async function refreshDueCount() {
   try {
     const stats = await getStudyStats(vocabState.lang, vocabState.deck);
-    setText('due-count', stats.dueCount);
+    setText('due-count', stats.todayCount);
+    renderTodayProgress(stats);
   } catch {
     /* ignore */
   }
@@ -235,15 +253,20 @@ async function activateVocabularyScreen() {
     if (!vocabState.pulledFromFirestore && state.user) {
       try {
         await pullSrsFromFirestore();
+        await pullSettingsFromFirestore();
         vocabState.pulledFromFirestore = true;
       } catch (err) {
         console.warn('SRS pull failed (using local cache):', err);
       }
     }
+    vocabState.settings = await getSettings();
+    syncSettingsUi();
     syncDeckUi();
+    resetSession();
     await loadVocabulary(vocabState.lang, vocabState.deck);
     await rebuildVocabQueue();
-    showCurrentCard();
+    await showCurrentCard();
+    refreshDueCount();
   } catch (err) {
     console.error('vocab screen activate failed:', err);
     showToast('単語データの読み込みに失敗しました');
@@ -256,6 +279,10 @@ async function rebuildVocabQueue() {
   vocabState.queue   = await buildQueue(vocabState.lang, vocabState.filter, vocabState.deck);
   vocabState.index   = 0;
   vocabState.flipped = false;
+}
+
+function resetSession() {
+  vocabState.session = { reviewed: 0, again: 0, hard: 0, good: 0, easy: 0 };
 }
 
 // デッキ切替時に言語タブの表示・選択状態を整える
@@ -283,7 +310,14 @@ function syncDeckUi() {
   });
 }
 
-function showCurrentCard() {
+const STATUS_BADGE = {
+  new:      { label: 'NEW',      cls: 'card-badge-new' },
+  learning: { label: 'LEARNING', cls: 'card-badge-learning' },
+  review:   { label: 'REVIEW',   cls: 'card-badge-review' },
+  mastered: { label: 'MASTERED', cls: 'card-badge-mastered' },
+};
+
+async function showCurrentCard() {
   const total       = vocabState.queue.length;
   const remaining   = Math.max(0, total - vocabState.index);
   const cardArea    = document.getElementById('flashcard-area');
@@ -312,23 +346,126 @@ function showCurrentCard() {
   setText('card-example',    word.example ?? '');
   setText('card-example-tr', word.exampleTranslation ?? '');
 
+  updateCardBadges(word);
+
   flashcardEl?.classList.remove('flipped');
   vocabState.flipped = false;
+
+  // 「今どれを押すと次はいつか」をボタンに表示する。
+  // 自分の記憶状態を見積もる作業自体が学習効果を持つ（メタ認知）。
+  await updateIntervalPreview(word.id);
+}
+
+function updateCardBadges(word) {
+  const badge  = document.getElementById('card-status-badge');
+  const recall = document.getElementById('card-recall-badge');
+
+  if (badge) {
+    const info = STATUS_BADGE[word.status] ?? STATUS_BADGE.new;
+    badge.textContent = info.label;
+    badge.className = `card-badge ${info.cls}`;
+  }
+
+  if (recall) {
+    // 想起率＝いま思い出せる推定確率。忘れかけている単語ほど低い。
+    const hasMemory = word.srs && word.srs.stability > 0;
+    if (hasMemory && word.status !== 'new') {
+      recall.textContent = `想起率 ${Math.round(word.retrievability * 100)}%`;
+      recall.classList.remove('hidden');
+    } else {
+      recall.classList.add('hidden');
+    }
+  }
+}
+
+/** カードを裏返す。想起 → 答え合わせ の順を守らせるための単一の入口。 */
+function flipCurrentCard() {
+  const el = document.querySelector('.flashcard');
+  if (!el) return;
+  el.classList.toggle('flipped');
+  vocabState.flipped = el.classList.contains('flipped');
+}
+
+async function updateIntervalPreview(wordId) {
+  const nodes = document.querySelectorAll('.rating-interval');
+  if (!nodes.length) return;
+  try {
+    const preview = await previewWord(wordId);
+    nodes.forEach((el) => {
+      const rating = Number(el.dataset.interval);
+      el.textContent = formatInterval(preview[rating]);
+    });
+  } catch {
+    nodes.forEach((el) => { el.textContent = '—'; });
+  }
 }
 
 async function populateEmptyStats() {
   try {
     const stats = await getStudyStats(vocabState.lang, vocabState.deck);
+
     setText(
       'vocab-stats',
       `新規 ${stats.new} ・ 学習中 ${stats.learning} ・ 復習 ${stats.review} ・ 習得 ${stats.mastered}`
+      + (stats.leeches > 0 ? ` ・ 要注意 ${stats.leeches}` : '')
     );
+
+    // 平均安定度＝この単語群を平均どれだけの間隔で覚えていられるか。
+    // 学習が進むほど伸びるので、進捗の実感につながる。
+    setText(
+      'vocab-memory-stats',
+      stats.avgStability > 0
+        ? `平均定着 ${formatInterval(stats.avgStability)} ・ 平均難易度 ${stats.avgDifficulty}/10`
+        : ''
+    );
+
+    renderSessionSummary(stats);
   } catch {
     /* ignore */
   }
 }
 
-async function onRate(quality) {
+function renderSessionSummary(stats) {
+  const el = document.getElementById('vocab-session-summary');
+  if (!el) return;
+
+  const { reviewed, again } = vocabState.session;
+  if (reviewed === 0) { el.innerHTML = ''; return; }
+
+  const accuracy = Math.round((1 - again / reviewed) * 100);
+  const target   = Math.round((stats.settings?.desiredRetention ?? 0.9) * 100);
+
+  el.innerHTML = `
+    <div class="session-stat">
+      <div class="session-stat-value">${reviewed}</div>
+      <div class="session-stat-label">今回の復習</div>
+    </div>
+    <div class="session-stat">
+      <div class="session-stat-value">${accuracy}%</div>
+      <div class="session-stat-label">正答率 (目標 ${target}%)</div>
+    </div>
+    <div class="session-stat">
+      <div class="session-stat-value">${stats.today.newDone}</div>
+      <div class="session-stat-label">本日の新規</div>
+    </div>`;
+}
+
+/** 今日の進捗を「12 / 20 新規」の形でヘッダに出す。 */
+function renderTodayProgress(stats) {
+  const el = document.getElementById('vocab-today-progress');
+  if (!el || !stats?.settings) return;
+  const { newDone, reviewDone } = stats.today;
+  el.textContent = `｜新規 ${newDone}/${stats.settings.newPerDay} ・ 復習 ${reviewDone}/${stats.settings.reviewPerDay}`;
+}
+
+const SESSION_KEY_BY_RATING = {
+  [RATING.AGAIN]: 'again',
+  [RATING.HARD]:  'hard',
+  [RATING.GOOD]:  'good',
+  [RATING.EASY]:  'easy',
+};
+
+async function onRate(rating) {
   if (vocabState.queue.length === 0 || vocabState.index >= vocabState.queue.length) return;
   if (!vocabState.flipped) {
     showToast('カードをタップして意味を確認してください');
@@ -336,17 +473,90 @@ async function onRate(quality) {
   }
 
   const word = vocabState.queue[vocabState.index];
+  let updated;
   try {
-    await rateWord(word.id, quality);
+    updated = await rateWord(word.id, rating);
   } catch (err) {
     console.error('rate failed:', err);
     showToast('評価の保存に失敗しました');
     return;
   }
 
+  vocabState.session.reviewed += 1;
+  const key = SESSION_KEY_BY_RATING[rating];
+  if (key) vocabState.session[key] += 1;
+
   vocabState.index += 1;
-  showCurrentCard();
+
+  // 学習ステップ中（新規・忘れた単語）は当日中にもう一度出す。
+  // 1 回見ただけで数日先に送ると、そのまま忘れて定着しない。
+  if (shouldRequeue(updated)) {
+    const insertAt = Math.min(vocabState.index + REQUEUE_GAP, vocabState.queue.length);
+    vocabState.queue.splice(insertAt, 0, {
+      ...word,
+      srs: updated,
+      status: 'learning',
+      retrievability: 1,
+    });
+    if (updated.leech) {
+      showToast(`「${word.word}」は何度も忘れています。例文ごと覚え直しましょう`);
+    }
+  }
+
+  await showCurrentCard();
   refreshDueCount();
+}
+
+// ---------- 学習設定 ----------
+
+function syncSettingsUi() {
+  const s = vocabState.settings;
+  if (!s) return;
+
+  document.querySelectorAll('#vocab-settings [data-retention]').forEach((chip) => {
+    chip.classList.toggle('chip-active', Number(chip.dataset.retention) === s.desiredRetention);
+  });
+
+  const newSlider = document.getElementById('setting-new-per-day');
+  if (newSlider) { newSlider.value = s.newPerDay; setText('setting-new-per-day-val', s.newPerDay); }
+
+  const revSlider = document.getElementById('setting-review-per-day');
+  if (revSlider) { revSlider.value = s.reviewPerDay; setText('setting-review-per-day-val', s.reviewPerDay); }
+
+  const interleaveBox = document.getElementById('setting-interleave');
+  if (interleaveBox) interleaveBox.checked = Boolean(s.interleave);
+}
+
+async function applySettings(patch) {
+  vocabState.settings = await updateSettings(patch);
+  syncSettingsUi();
+  await rebuildVocabQueue();
+  await showCurrentCard();
+  await refreshForecast();
+  refreshDueCount();
+}
+
+/** 今後 14 日の復習予定を棒グラフで描く。学習負荷の可視化。 */
+async function refreshForecast() {
+  const el = document.getElementById('vocab-forecast');
+  if (!el) return;
+  try {
+    const buckets = await getForecast(vocabState.lang, vocabState.deck, 14);
+    const max = Math.max(...buckets, 1);
+    if (buckets.every((b) => b === 0)) {
+      el.innerHTML = '<span class="forecast-empty">まだ復習予定はありません</span>';
+      return;
+    }
+    el.innerHTML = buckets
+      .map((n, i) => {
+        const h = Math.max(2, Math.round((n / max) * 100));
+        const cls = i === 0 ? 'forecast-bar forecast-bar-today' : 'forecast-bar';
+        return `<div class="${cls}" style="height:${h}%" title="${i === 0 ? '今日' : i + '日後'}: ${n} 語"></div>`;
+      })
+      .join('');
+  } catch {
+    el.innerHTML = '';
+  }
 }
 
 // ---------- TOEIC リスニング画面 ----------
@@ -1426,18 +1636,65 @@ function bindEvents() {
   });
 
   // フラッシュカード裏返し
-  document.querySelector('.flashcard')?.addEventListener('click', (e) => {
-    e.currentTarget.classList.toggle('flipped');
-    vocabState.flipped = e.currentTarget.classList.contains('flipped');
-  });
+  document.querySelector('.flashcard')?.addEventListener('click', () => flipCurrentCard());
 
-  // 評価ボタン
+  // 評価ボタン（4 段階）。旧 data-quality も後方互換で受け付ける。
   document.querySelectorAll('.rating-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
-      const q = parseInt(btn.dataset.quality, 10);
-      if (!Number.isNaN(q)) onRate(q);
+      const raw = btn.dataset.rating ?? btn.dataset.quality;
+      const r = parseInt(raw, 10);
+      if (!Number.isNaN(r)) onRate(r);
     });
   });
+
+  // キーボード操作。マウスへ手を伸ばす往復がなくなるだけで
+  // 1 セッションの復習枚数がはっきり増える。
+  document.addEventListener('keydown', (e) => {
+    if (state.currentScreen !== 'vocabulary') return;
+    const tag = document.activeElement?.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return;
+
+    if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault();
+      flipCurrentCard();
+      return;
+    }
+    if (e.key >= '1' && e.key <= '4') {
+      e.preventDefault();
+      // 裏返す前は、まず自力で想起させる（active recall）
+      if (!vocabState.flipped) { flipCurrentCard(); return; }
+      onRate(Number(e.key));
+    }
+  });
+
+  // 学習設定パネルの開閉
+  const settingsToggle = document.getElementById('vocab-settings-toggle');
+  settingsToggle?.addEventListener('click', async () => {
+    const panel = document.getElementById('vocab-settings');
+    if (!panel) return;
+    const nowHidden = panel.classList.toggle('hidden');
+    settingsToggle.setAttribute('aria-expanded', String(!nowHidden));
+    if (!nowHidden) await refreshForecast();
+  });
+
+  // 目標記憶率
+  document.querySelectorAll('#vocab-settings [data-retention]').forEach((chip) => {
+    chip.addEventListener('click', () => {
+      applySettings({ desiredRetention: Number(chip.dataset.retention) });
+    });
+  });
+
+  // 1 日の上限スライダー（ドラッグ中は表示だけ、確定時に保存）
+  const newSlider = document.getElementById('setting-new-per-day');
+  newSlider?.addEventListener('input', () => setText('setting-new-per-day-val', newSlider.value));
+  newSlider?.addEventListener('change', () => applySettings({ newPerDay: Number(newSlider.value) }));
+
+  const revSlider = document.getElementById('setting-review-per-day');
+  revSlider?.addEventListener('input', () => setText('setting-review-per-day-val', revSlider.value));
+  revSlider?.addEventListener('change', () => applySettings({ reviewPerDay: Number(revSlider.value) }));
+
+  const interleaveBox = document.getElementById('setting-interleave');
+  interleaveBox?.addEventListener('change', () => applySettings({ interleave: interleaveBox.checked }));
 
   // デッキチップ（日常会話 / TOEIC / VI 検定3級）
   document.querySelectorAll('#vocab-deck-row .chip').forEach((chip) => {
@@ -1448,7 +1705,7 @@ function bindEvents() {
       syncDeckUi();
       await loadVocabulary(vocabState.lang, vocabState.deck);
       await rebuildVocabQueue();
-      showCurrentCard();
+      await showCurrentCard();
       refreshDueCount();
     });
   });
@@ -1462,7 +1719,7 @@ function bindEvents() {
       syncDeckUi();
       await loadVocabulary(vocabState.lang, vocabState.deck);
       await rebuildVocabQueue();
-      showCurrentCard();
+      await showCurrentCard();
       refreshDueCount();
     });
   });
@@ -1474,7 +1731,7 @@ function bindEvents() {
       chip.classList.add('chip-active');
       vocabState.filter = chip.dataset.filter ?? 'all';
       await rebuildVocabQueue();
-      showCurrentCard();
+      await showCurrentCard();
     });
   });
 

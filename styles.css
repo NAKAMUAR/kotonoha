@@ -15,6 +15,7 @@
   --sumi-soft:     #7a6f63;
   --koke:          #5a7048;
   --koke-dark:     #445632;
+  --kincha:        #a86f32;
 }
 
 * { -webkit-tap-highlight-color: transparent; }
@@ -327,26 +328,224 @@ body {
 .flashcard-front #card-word    { margin-top: 0.5rem; }
 .flashcard-back  #card-meaning { margin-top: 0.25rem; }
 
-.rating-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; }
+/* ---------- 4 段階評価（FSRS） ---------- */
+
+.rating-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.375rem; }
 
 .rating-btn {
-  padding: 0.75rem;
+  padding: 0.625rem 0.25rem;
   border-radius: 6px;
-  font-size: 0.875rem;
   font-weight: 500;
   font-family: "Shippori Mincho", serif;
   border: 1px solid;
   transition: all 0.15s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  min-height: 3.5rem;
+  justify-content: center;
 }
 
-.rating-hard   { color: var(--shu);  border-color: var(--shu);  background: transparent; }
-.rating-hard:hover   { background: var(--shu);  color: var(--washi); }
+.rating-label    { font-size: 0.8125rem; line-height: 1.1; white-space: nowrap; }
+.rating-interval { font-size: 0.6875rem; opacity: 0.75; letter-spacing: 0.02em; }
 
+.rating-help {
+  margin-top: 0.625rem;
+  text-align: center;
+  font-size: 0.6875rem;
+  color: var(--sumi-soft);
+  opacity: 0.8;
+}
+
+.rating-again  { color: var(--shu);        border-color: var(--shu);        background: transparent; }
+.rating-again:hover  { background: var(--shu);        color: var(--washi); }
+
+.rating-hard   { color: var(--kincha);     border-color: var(--kincha);     background: transparent; }
+.rating-hard:hover   { background: var(--kincha);     color: var(--washi); }
+
+.rating-good   { color: var(--sumi-light); border-color: var(--sumi-light); background: transparent; }
+.rating-good:hover   { background: var(--sumi-light); color: var(--washi); }
+
+.rating-easy   { color: var(--koke);       border-color: var(--koke);       background: transparent; }
+.rating-easy:hover   { background: var(--koke);       color: var(--washi); }
+
+/* 旧 3 段階 UI 用クラス（互換のため残す） */
 .rating-normal { color: var(--sumi-light); border-color: var(--sumi-light); background: transparent; }
 .rating-normal:hover { background: var(--sumi-light); color: var(--washi); }
 
-.rating-easy   { color: var(--koke); border-color: var(--koke); background: transparent; }
-.rating-easy:hover   { background: var(--koke); color: var(--washi); }
+.rating-btn:active { transform: translateY(1px); }
+
+/* ---------- カード上のステータスバッジ ---------- */
+
+.card-badge-row {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  gap: 0.375rem;
+  justify-content: flex-start;
+}
+
+.card-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.5625rem;
+  letter-spacing: 0.08em;
+  padding: 0.1875rem 0.4375rem;
+  border-radius: 3px;
+  background: var(--washi-dark);
+  color: var(--sumi-soft);
+  text-transform: uppercase;
+}
+
+.card-badge-new       { background: var(--shu);    color: var(--washi); }
+.card-badge-learning  { background: var(--kincha); color: var(--washi); }
+.card-badge-review    { background: var(--sumi-light); color: var(--washi); }
+.card-badge-mastered  { background: var(--koke);   color: var(--washi); }
+.card-badge-ghost     { background: transparent; border: 1px solid rgba(26, 22, 18, 0.15); }
+
+/* ---------- 学習設定パネル ---------- */
+
+.chip-ghost { border-style: dashed; opacity: 0.85; }
+
+.settings-panel {
+  background: var(--washi-light);
+  border: 1px solid rgba(26, 22, 18, 0.08);
+  border-radius: 8px;
+  padding: 0.875rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.settings-row-block { flex-direction: column; align-items: stretch; }
+
+.settings-label {
+  font-family: "Shippori Mincho", serif;
+  font-size: 0.8125rem;
+  color: var(--sumi);
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.settings-hint { font-size: 0.6875rem; color: var(--sumi-soft); font-family: inherit; }
+
+.settings-control { display: flex; align-items: center; gap: 0.625rem; }
+.settings-value   { font-size: 0.8125rem; color: var(--sumi); min-width: 2.25rem; text-align: right; }
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 8rem;
+  height: 2px;
+  background: var(--washi-dark);
+  border-radius: 2px;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--shu);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border: none;
+  border-radius: 50%;
+  background: var(--shu);
+  cursor: pointer;
+}
+
+/* ---------- トグルスイッチ ---------- */
+
+.switch { display: inline-flex; cursor: pointer; }
+.switch input { position: absolute; opacity: 0; width: 0; height: 0; }
+
+.switch-track {
+  width: 38px;
+  height: 22px;
+  border-radius: 11px;
+  background: var(--washi-dark);
+  border: 1px solid rgba(26, 22, 18, 0.12);
+  display: inline-flex;
+  align-items: center;
+  padding: 2px;
+  transition: background 0.15s;
+}
+
+.switch-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--washi);
+  box-shadow: 0 1px 3px rgba(26, 22, 18, 0.25);
+  transition: transform 0.15s;
+}
+
+.switch input:checked + .switch-track { background: var(--koke); }
+.switch input:checked + .switch-track .switch-thumb { transform: translateX(16px); }
+
+/* ---------- 復習予定グラフ ---------- */
+
+.forecast {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 48px;
+  margin-top: 0.5rem;
+}
+
+.forecast-bar {
+  flex: 1;
+  background: var(--shu);
+  opacity: 0.35;
+  border-radius: 2px 2px 0 0;
+  min-height: 2px;
+  transition: opacity 0.15s;
+}
+
+.forecast-bar-today { opacity: 0.85; }
+.forecast-empty { font-size: 0.6875rem; color: var(--sumi-soft); }
+
+/* ---------- セッション結果 ---------- */
+
+.session-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.session-stat {
+  background: var(--washi-light);
+  border: 1px solid rgba(26, 22, 18, 0.08);
+  border-radius: 6px;
+  padding: 0.625rem 0.375rem;
+}
+
+.session-stat-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.125rem;
+  color: var(--sumi);
+}
+
+.session-stat-label { font-size: 0.625rem; color: var(--sumi-soft); margin-top: 0.125rem; }
 
 /* ---------- TOEIC Listening choice buttons ---------- */
 

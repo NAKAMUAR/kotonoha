@@ -204,7 +204,7 @@
     <section id="screen-vocabulary" class="screen hidden">
       <div class="screen-header">
         <h2 class="screen-title">単語帳</h2>
-        <p class="screen-sub">SRS — 間隔反復学習</p>
+        <p class="screen-sub">FSRS — 忘却曲線ベースの間隔反復</p>
       </div>
 
       <div id="vocab-deck-row" class="filter-row mb-3">
@@ -219,20 +219,81 @@
       </div>
 
       <div class="filter-row mb-4">
-        <button class="chip chip-active" data-filter="all">全て</button>
+        <button class="chip chip-active" data-filter="all">今日の学習</button>
         <button class="chip" data-filter="learning">学習中</button>
         <button class="chip" data-filter="review">復習</button>
         <button class="chip" data-filter="mastered">習得済</button>
+        <button class="chip" data-filter="leech">要注意</button>
+        <button id="vocab-settings-toggle" class="chip chip-ghost" type="button" aria-expanded="false">⚙ 学習設定</button>
+      </div>
+
+      <!-- 学習設定：目標記憶率と 1 日の上限。学習量を学習者自身が制御できるようにする -->
+      <div id="vocab-settings" class="settings-panel hidden mb-4">
+        <div class="settings-row">
+          <div class="settings-label">
+            目標記憶率
+            <span class="settings-hint">高いほど復習が増え、低いほど減ります</span>
+          </div>
+          <div class="filter-row">
+            <button class="chip" data-retention="0.80">80%</button>
+            <button class="chip" data-retention="0.85">85%</button>
+            <button class="chip chip-active" data-retention="0.90">90%</button>
+            <button class="chip" data-retention="0.95">95%</button>
+          </div>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-label">
+            1日の新規単語
+            <span class="settings-hint">上限を超えると復習が雪崩式に増えます</span>
+          </div>
+          <div class="settings-control">
+            <input id="setting-new-per-day" type="range" min="0" max="60" step="5" value="20" class="slider">
+            <span id="setting-new-per-day-val" class="settings-value font-jetbrains">20</span>
+          </div>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-label">
+            1日の復習上限
+            <span class="settings-hint">こなしきれる量に抑えると継続しやすくなります</span>
+          </div>
+          <div class="settings-control">
+            <input id="setting-review-per-day" type="range" min="20" max="400" step="10" value="150" class="slider">
+            <span id="setting-review-per-day-val" class="settings-value font-jetbrains">150</span>
+          </div>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-label">
+            交互出題
+            <span class="settings-hint">新規と復習を混ぜると長期保持が上がります</span>
+          </div>
+          <label class="switch">
+            <input id="setting-interleave" type="checkbox" checked>
+            <span class="switch-track"><span class="switch-thumb"></span></span>
+          </label>
+        </div>
+
+        <div class="settings-row settings-row-block">
+          <div class="settings-label">今後14日の復習予定</div>
+          <div id="vocab-forecast" class="forecast"></div>
+        </div>
       </div>
 
       <div id="vocab-counter" class="text-center text-xs text-sumi-soft mb-4 font-cormorant tracking-wider">
         <span id="vocab-status-text">残り <span id="vocab-remaining">0</span> 語</span>
+        <span id="vocab-today-progress" class="ml-2"></span>
       </div>
 
       <div id="flashcard-area" class="flashcard-area">
         <div class="flashcard">
           <div class="flashcard-inner">
             <div class="flashcard-face flashcard-front">
+              <div class="card-badge-row">
+                <span id="card-status-badge" class="card-badge">NEW</span>
+                <span id="card-recall-badge" class="card-badge card-badge-ghost hidden"></span>
+              </div>
               <div class="text-xs text-sumi-soft tracking-widest mb-3 font-cormorant">WORD</div>
               <div id="card-word" class="text-4xl font-cormorant font-medium px-2 break-words">—</div>
               <div id="card-reading" class="text-sm text-sumi-soft mt-3 font-jetbrains"></div>
@@ -248,18 +309,38 @@
           </div>
         </div>
 
+        <!-- FSRS は 4 段階評価が前提。「思い出せなかった」と
+             「苦しかったが思い出せた」を分けることで難易度推定の精度が上がる。
+             各ボタンには次回の出題時期を表示し、学習者が自分の記憶状態を
+             見積もれるようにしている。 -->
         <div class="rating-row mt-6">
-          <button class="rating-btn rating-hard" data-quality="2">難しい</button>
-          <button class="rating-btn rating-normal" data-quality="4">普通</button>
-          <button class="rating-btn rating-easy" data-quality="5">簡単</button>
+          <button class="rating-btn rating-again" data-rating="1">
+            <span class="rating-label">もう一度</span>
+            <span class="rating-interval font-jetbrains" data-interval="1">—</span>
+          </button>
+          <button class="rating-btn rating-hard" data-rating="2">
+            <span class="rating-label">難しい</span>
+            <span class="rating-interval font-jetbrains" data-interval="2">—</span>
+          </button>
+          <button class="rating-btn rating-good" data-rating="3">
+            <span class="rating-label">普通</span>
+            <span class="rating-interval font-jetbrains" data-interval="3">—</span>
+          </button>
+          <button class="rating-btn rating-easy" data-rating="4">
+            <span class="rating-label">簡単</span>
+            <span class="rating-interval font-jetbrains" data-interval="4">—</span>
+          </button>
         </div>
+        <p class="rating-help">キーボード: 1–4 で評価 / Space で裏返し</p>
       </div>
 
       <div id="vocab-empty" class="hidden text-center py-12">
         <div class="text-6xl font-mincho text-shu mb-4">完</div>
         <p class="text-sumi font-mincho text-lg">本日のレビューは完了しました</p>
         <p class="text-sumi-soft text-xs mt-2 font-cormorant tracking-widest">SEE YOU TOMORROW</p>
-        <div id="vocab-stats" class="mt-8 text-xs text-sumi-soft"></div>
+        <div id="vocab-session-summary" class="session-summary"></div>
+        <div id="vocab-stats" class="mt-6 text-xs text-sumi-soft"></div>
+        <div id="vocab-memory-stats" class="mt-2 text-xs text-sumi-soft"></div>
       </div>
     </section>
 
