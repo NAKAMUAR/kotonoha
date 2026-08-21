@@ -30,6 +30,9 @@ import {
   shouldRequeue,
   getDeck,
   formatInterval,
+  optimizeParameters,
+  resetParameters,
+  getOptimizeReadiness,
   RATING,
 } from './vocabulary.js';
 
@@ -534,6 +537,136 @@ async function applySettings(patch) {
   await showCurrentCard();
   await refreshForecast();
   refreshDueCount();
+}
+
+// ---------- FSRS パラメータの個人最適化 ----------
+
+let optimizerRunning = false;
+
+/** 履歴が足りているかを見て、ボタンの有効／無効と説明文を更新する。 */
+async function refreshOptimizerStatus() {
+  const statusEl = document.getElementById('optimizer-status');
+  const runBtn   = document.getElementById('optimizer-run');
+  const resetBtn = document.getElementById('optimizer-reset');
+  if (!statusEl || !runBtn) return;
+
+  const s = vocabState.settings;
+  const optimized = Array.isArray(s?.params);
+  resetBtn?.classList.toggle('hidden', !optimized);
+
+  try {
+    const { reviews, required, ready } = await getOptimizeReadiness();
+    runBtn.disabled = !ready || optimizerRunning;
+
+    if (!ready) {
+      statusEl.textContent =
+        `復習履歴 ${reviews} / ${required} 件。あと ${required - reviews} 件たまると最適化できます。`;
+      return;
+    }
+
+    if (optimized && s.optimizedAt) {
+      const when = new Date(s.optimizedAt).toLocaleDateString('ja-JP');
+      statusEl.textContent = `${when} に最適化済み（履歴 ${reviews} 件）。履歴が増えたら再実行できます。`;
+    } else {
+      statusEl.textContent = `復習履歴 ${reviews} 件。いま最適化できます（数十秒かかります）。`;
+    }
+  } catch (err) {
+    console.warn('optimizer readiness failed:', err);
+    statusEl.textContent = '履歴を読み込めませんでした';
+    runBtn.disabled = true;
+  }
+}
+
+async function onOptimizeClick() {
+  if (optimizerRunning) return;
+
+  const runBtn      = document.getElementById('optimizer-run');
+  const progressBox = document.getElementById('optimizer-progress');
+  const barFill     = document.getElementById('optimizer-bar-fill');
+  const resultBox   = document.getElementById('optimizer-result');
+
+  optimizerRunning = true;
+  if (runBtn) { runBtn.disabled = true; runBtn.textContent = '最適化中…'; }
+  progressBox?.classList.remove('hidden');
+  resultBox?.classList.add('hidden');
+  if (barFill) barFill.style.width = '0%';
+
+  try {
+    const result = await optimizeParameters(({ iteration, total, logLoss }) => {
+      const pct = Math.min(100, Math.round((iteration / total) * 100));
+      if (barFill) barFill.style.width = `${pct}%`;
+      setText('optimizer-progress-text', `${pct}% (${logLoss.toFixed(4)})`);
+    });
+
+    if (barFill) barFill.style.width = '100%';
+    vocabState.settings = await getSettings();
+    renderOptimizeResult(result);
+
+    // 新しい係数で間隔が変わるので、キューと予測を引き直す
+    await rebuildVocabQueue();
+    await showCurrentCard();
+    await refreshForecast();
+  } catch (err) {
+    console.error('optimize failed:', err);
+    showToast('最適化に失敗しました');
+    resultBox?.classList.add('hidden');
+  } finally {
+    optimizerRunning = false;
+    if (runBtn) { runBtn.textContent = '最適化する'; }
+    progressBox?.classList.add('hidden');
+    setText('optimizer-progress-text', '');
+    await refreshOptimizerStatus();
+  }
+}
+
+function renderOptimizeResult(result) {
+  const el = document.getElementById('optimizer-result');
+  if (!el) return;
+  el.classList.remove('hidden');
+
+  if (!result.ok) {
+    el.innerHTML = `履歴が足りません（${result.reviews} / ${result.required} 件）。`;
+    return;
+  }
+
+  if (!result.improved) {
+    // 検証データで既定値を上回れなかったので採用しない。
+    // 「変化なし」を正直に出したほうが、次に何をすべきかが伝わる。
+    const why = result.rejectedFor === 'calibration'
+      ? '予測日付の当たり具合がむしろ悪くなったため、採用を見送りました。'
+      : '既定パラメータと比べて意味のある差が出ませんでした。';
+    el.innerHTML = `
+      ${why}既定値のまま続けます。復習履歴が増えてから再実行してください。<br>
+      <span class="optimizer-result-metric">
+        検証 ${result.validReviews} 件 ・
+        logLoss ${result.before.logLoss.toFixed(4)} → ${result.after.logLoss.toFixed(4)} ・
+        RMSE ${result.before.rmse.toFixed(4)} → ${result.after.rmse.toFixed(4)}
+      </span>`;
+    return;
+  }
+
+  const lossGain = (1 - result.after.logLoss / result.before.logLoss) * 100;
+  const rmseGain = (1 - result.after.rmse / result.before.rmse) * 100;
+
+  el.innerHTML = `
+    <span class="optimizer-result-good">あなた専用のパラメータを適用しました。</span><br>
+    予測のずれが ${lossGain.toFixed(1)}%${rmseGain > 0 ? `、日付の当たり具合が ${rmseGain.toFixed(0)}%` : ''} 改善しました。<br>
+    <span class="optimizer-result-metric">
+      学習 ${result.trainReviews} 件 / 検証 ${result.validReviews} 件 ・
+      logLoss ${result.before.logLoss.toFixed(4)} → ${result.after.logLoss.toFixed(4)} ・
+      RMSE ${result.before.rmse.toFixed(4)} → ${result.after.rmse.toFixed(4)}
+    </span>`;
+}
+
+async function onResetParameters() {
+  if (!confirm('個人最適化したパラメータを破棄して既定値に戻しますか？')) return;
+  vocabState.settings = await resetParameters();
+  document.getElementById('optimizer-result')?.classList.add('hidden');
+  await rebuildVocabQueue();
+  await showCurrentCard();
+  await refreshForecast();
+  await refreshOptimizerStatus();
+  showToast('既定パラメータに戻しました');
 }
 
 /** 今後 14 日の復習予定を棒グラフで描く。学習負荷の可視化。 */
@@ -1674,7 +1807,10 @@ function bindEvents() {
     if (!panel) return;
     const nowHidden = panel.classList.toggle('hidden');
     settingsToggle.setAttribute('aria-expanded', String(!nowHidden));
-    if (!nowHidden) await refreshForecast();
+    if (!nowHidden) {
+      await refreshForecast();
+      await refreshOptimizerStatus();
+    }
   });
 
   // 目標記憶率
@@ -1695,6 +1831,10 @@ function bindEvents() {
 
   const interleaveBox = document.getElementById('setting-interleave');
   interleaveBox?.addEventListener('change', () => applySettings({ interleave: interleaveBox.checked }));
+
+  // パラメータ最適化
+  document.getElementById('optimizer-run')?.addEventListener('click', onOptimizeClick);
+  document.getElementById('optimizer-reset')?.addEventListener('click', onResetParameters);
 
   // デッキチップ（日常会話 / TOEIC / VI 検定3級）
   document.querySelectorAll('#vocab-deck-row .chip').forEach((chip) => {

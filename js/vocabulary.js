@@ -32,6 +32,7 @@ import {
   RATING_LABELS,
   CARD_STATE,
   DEFAULT_CONFIG,
+  DEFAULT_PARAMS,
   QUALITY,
 } from './srs.js';
 
@@ -147,6 +148,9 @@ export const DEFAULT_SETTINGS = Object.freeze({
   reviewPerDay:     150,  // 1 日の復習上限
   interleave:       true, // 新規と復習を混ぜて出題する
   burySiblings:     true, // リーチ単語を通常キューから外す
+  params:           null, // 個人最適化した FSRS パラメータ（null なら既定値）
+  optimizedAt:      null, // 最後に最適化した時刻
+  optimizeStats:    null, // 最適化時の指標（改善幅の表示用）
 });
 
 let settingsCache = null;
@@ -184,7 +188,19 @@ export async function pullSettingsFromFirestore() {
 /** FSRS に渡す設定へ変換。 */
 async function fsrsConfig() {
   const s = await getSettings();
-  return { ...DEFAULT_CONFIG, desiredRetention: s.desiredRetention };
+  return {
+    ...DEFAULT_CONFIG,
+    desiredRetention: s.desiredRetention,
+    // 個人最適化済みなら、以降の全スケジューリングがその係数で動く
+    params: isValidParams(s.params) ? s.params : DEFAULT_PARAMS,
+  };
+}
+
+/** 保存済みパラメータが壊れていないか検査する（不正なら既定値に戻す）。 */
+function isValidParams(p) {
+  return Array.isArray(p)
+    && p.length === DEFAULT_PARAMS.length
+    && p.every((v) => typeof v === 'number' && Number.isFinite(v));
 }
 
 // ---------- デッキ定義 ----------
@@ -588,4 +604,84 @@ export async function getForecast(lang, deck = 'daily', days = 14) {
     else if (idx < 0) buckets[0] += 1; // 期日超過は今日に積む
   }
   return buckets;
+}
+
+// ---------- FSRS パラメータの個人最適化 ----------
+
+export { MIN_REVIEWS } from './fsrs-optimizer.js';
+
+/**
+ * 自分の復習ログから FSRS パラメータを推定し直す。
+ *
+ * 重い計算なので Web Worker で実行し、進捗をコールバックで返す。
+ * Worker が使えない環境ではメインスレッドにフォールバックする。
+ *
+ * @param {(p:{iteration:number,total:number,logLoss:number}) => void} onProgress
+ * @returns {Promise<object>} optimizeFromLogs の結果
+ */
+export async function optimizeParameters(onProgress = null) {
+  const logs = await getReviewLog();
+  const result = await runOptimizer(logs, onProgress);
+
+  if (result.ok && result.improved) {
+    await updateSettings({
+      params:      result.params,
+      optimizedAt: Date.now(),
+      optimizeStats: {
+        reviews:     result.reviews,
+        logLossBefore: +result.before.logLoss.toFixed(4),
+        logLossAfter:  +result.after.logLoss.toFixed(4),
+        rmseBefore:    +result.before.rmse.toFixed(4),
+        rmseAfter:     +result.after.rmse.toFixed(4),
+      },
+    });
+  }
+  return result;
+}
+
+function runOptimizer(logs, onProgress) {
+  return new Promise((resolve, reject) => {
+    let worker;
+    try {
+      worker = new Worker(new URL('./optimizer-worker.js', import.meta.url), { type: 'module' });
+    } catch (err) {
+      console.warn('optimizer worker unavailable, running inline:', err);
+      return optimizeInline(logs, onProgress).then(resolve, reject);
+    }
+
+    worker.onmessage = (e) => {
+      const msg = e.data;
+      if (msg.type === 'progress') { onProgress?.(msg); return; }
+      worker.terminate();
+      if (msg.type === 'done')  resolve(msg.result);
+      if (msg.type === 'error') reject(new Error(msg.message));
+    };
+
+    worker.onerror = (err) => {
+      // Worker の起動自体に失敗した場合もインラインで完遂させる
+      worker.terminate();
+      console.warn('optimizer worker failed, running inline:', err.message);
+      optimizeInline(logs, onProgress).then(resolve, reject);
+    };
+
+    worker.postMessage({ type: 'start', logs, options: {} });
+  });
+}
+
+async function optimizeInline(logs, onProgress) {
+  const { optimizeFromLogs } = await import('./fsrs-optimizer.js');
+  return optimizeFromLogs(logs, {}, onProgress);
+}
+
+/** 現在のパラメータを既定値へ戻す。 */
+export async function resetParameters() {
+  return updateSettings({ params: null, optimizedAt: null, optimizeStats: null });
+}
+
+/** 最適化がいま実行できるか（何件足りないか）を返す。 */
+export async function getOptimizeReadiness() {
+  const { buildTrainingSet, countReviews, MIN_REVIEWS: MIN } = await import('./fsrs-optimizer.js');
+  const logs = await getReviewLog();
+  const reviews = countReviews(buildTrainingSet(logs));
+  return { reviews, required: MIN, ready: reviews >= MIN };
 }

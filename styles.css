@@ -865,3 +865,57 @@ body {
   .phase-row { grid-template-columns: 1fr; gap: 0.25rem; }
   .phase-pct { text-align: left; }
 }
+
+/* ---------- パラメータ最適化 ---------- */
+
+.optimizer-row { gap: 0.625rem; }
+
+.optimizer-status {
+  font-size: 0.75rem;
+  color: var(--sumi-soft);
+  margin-top: 0.375rem;
+}
+
+.optimizer-actions { display: flex; align-items: center; gap: 0.75rem; margin-top: 0.125rem; }
+
+.optimizer-btn { padding: 0.4375rem 0.875rem; font-size: 0.8125rem; }
+.optimizer-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.optimizer-link {
+  font-size: 0.75rem;
+  color: var(--sumi-soft);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.optimizer-link:hover { color: var(--shu); }
+
+.optimizer-progress { display: flex; align-items: center; gap: 0.625rem; }
+
+.optimizer-bar {
+  flex: 1;
+  height: 3px;
+  background: var(--washi-dark);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.optimizer-bar-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--shu);
+  transition: width 0.2s;
+}
+
+.optimizer-progress-text { font-size: 0.6875rem; color: var(--sumi-soft); min-width: 3.5rem; text-align: right; }
+
+.optimizer-result {
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--sumi);
+  background: var(--washi-dark);
+  border-radius: 6px;
+  padding: 0.625rem 0.75rem;
+}
+
+.optimizer-result-metric { font-family: 'JetBrains Mono', monospace; font-size: 0.6875rem; color: var(--sumi-soft); }
+.optimizer-result-good { color: var(--koke-dark); font-weight: 500; }

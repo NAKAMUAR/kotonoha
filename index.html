@@ -279,6 +279,30 @@
           <div class="settings-label">今後14日の復習予定</div>
           <div id="vocab-forecast" class="forecast"></div>
         </div>
+
+        <!-- 自分の復習ログから FSRS の係数を推定し直す。
+             既定値は多数派に合わせた汎用値なので、個人の忘却の速さに
+             合わせるほど復習日の予測が当たるようになる。 -->
+        <div class="settings-row settings-row-block optimizer-row">
+          <div class="settings-label">
+            記憶パラメータの個人最適化
+            <span class="settings-hint">自分の復習履歴から、忘却の速さを推定し直します</span>
+          </div>
+
+          <div id="optimizer-status" class="optimizer-status">履歴を確認しています…</div>
+
+          <div class="optimizer-actions">
+            <button id="optimizer-run" class="btn-secondary optimizer-btn" type="button" disabled>最適化する</button>
+            <button id="optimizer-reset" class="optimizer-link hidden" type="button">既定値に戻す</button>
+          </div>
+
+          <div id="optimizer-progress" class="optimizer-progress hidden">
+            <div class="optimizer-bar"><div id="optimizer-bar-fill" class="optimizer-bar-fill"></div></div>
+            <span id="optimizer-progress-text" class="optimizer-progress-text font-jetbrains"></span>
+          </div>
+
+          <div id="optimizer-result" class="optimizer-result hidden"></div>
+        </div>
       </div>
 
       <div id="vocab-counter" class="text-center text-xs text-sumi-soft mb-4 font-cormorant tracking-wider">
