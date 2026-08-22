@@ -139,6 +139,11 @@
             <div class="action-label">文法添削</div>
             <div class="action-sub">AI が文章を確認</div>
           </button>
+          <button class="action-card" data-target="pronunciation">
+            <div class="action-icon">声</div>
+            <div class="action-label">発音練習</div>
+            <div class="action-sub">ベトナム語の声調</div>
+          </button>
         </div>
       </div>
 
@@ -365,6 +370,84 @@
         <div id="vocab-session-summary" class="session-summary"></div>
         <div id="vocab-stats" class="mt-6 text-xs text-sumi-soft"></div>
         <div id="vocab-memory-stats" class="mt-2 text-xs text-sumi-soft"></div>
+      </div>
+    </section>
+
+    <section id="screen-pronunciation" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">発音練習</h2>
+        <p class="screen-sub">ベトナム語の声調 — 端末内で解析（通信なし）</p>
+      </div>
+
+      <div id="pron-unsupported" class="card hidden mb-4">
+        <p id="pron-unsupported-text" class="text-sm text-sumi"></p>
+      </div>
+
+      <div id="pron-main">
+        <div id="pron-set-row" class="filter-row mb-4"></div>
+
+        <!-- 声調カード -->
+        <div class="pron-card">
+          <div class="pron-tone-badge-row">
+            <span id="pron-tone-label" class="pron-tone-badge">—</span>
+            <span id="pron-tone-mark" class="pron-tone-mark"></span>
+          </div>
+
+          <div id="pron-word" class="pron-word">—</div>
+          <div id="pron-meaning" class="pron-meaning">—</div>
+          <div id="pron-hint" class="pron-hint"></div>
+
+          <!-- F0 輪郭の可視化。お手本と自分の声を重ねて見せる -->
+          <div class="pron-graph-wrap">
+            <svg id="pron-graph" class="pron-graph" viewBox="0 0 300 110" preserveAspectRatio="none"
+                 role="img" aria-label="声の高さの変化">
+              <line x1="0" y1="55" x2="300" y2="55" class="pron-axis" />
+              <path id="pron-target-path" class="pron-path-target" d="" />
+              <path id="pron-user-path" class="pron-path-user" d="" />
+            </svg>
+            <div class="pron-graph-legend">
+              <span class="pron-legend-target">— お手本</span>
+              <span class="pron-legend-user">— あなた</span>
+            </div>
+          </div>
+
+          <div class="pron-actions">
+            <button id="pron-listen" class="btn-secondary pron-listen-btn" type="button">お手本を聞く</button>
+            <button id="pron-record" class="pron-record-btn" type="button">
+              <span id="pron-record-label">押しながら発音</span>
+            </button>
+          </div>
+
+          <div id="pron-status" class="pron-status">マイクのボタンを押しながら発音してください</div>
+        </div>
+
+        <!-- 判定結果 -->
+        <div id="pron-result" class="pron-result hidden">
+          <div class="pron-score-row">
+            <div id="pron-score" class="pron-score">—</div>
+            <div class="pron-score-unit">点</div>
+            <div id="pron-verdict" class="pron-verdict"></div>
+          </div>
+          <p id="pron-advice" class="pron-advice"></p>
+
+          <div class="pron-rating-row">
+            <button class="rating-btn rating-again" data-pron-rating="1">
+              <span class="rating-label">できない</span>
+            </button>
+            <button class="rating-btn rating-hard" data-pron-rating="2">
+              <span class="rating-label">あやしい</span>
+            </button>
+            <button class="rating-btn rating-good" data-pron-rating="3">
+              <span class="rating-label">できた</span>
+            </button>
+            <button class="rating-btn rating-easy" data-pron-rating="4">
+              <span class="rating-label">余裕</span>
+            </button>
+          </div>
+          <p class="pron-rating-help">評価すると、苦手な声調ほど早く再出題されます</p>
+        </div>
+
+        <div id="pron-progress" class="pron-progress"></div>
       </div>
     </section>
 
@@ -811,6 +894,10 @@
     <button class="nav-item" data-target="grammar">
       <div class="nav-icon">添</div>
       <div class="nav-label">添削</div>
+    </button>
+    <button class="nav-item" data-target="pronunciation">
+      <div class="nav-icon">声</div>
+      <div class="nav-label">発音</div>
     </button>
   </nav>
 

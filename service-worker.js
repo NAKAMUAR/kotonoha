@@ -10,7 +10,7 @@
 // バージョンを上げると古いキャッシュは activate 時に削除される。
 // =====================================================================
 
-const VERSION = 'kotonoha-v0.16.0';
+const VERSION = 'kotonoha-v0.17.0';
 const STATIC_CACHE = `${VERSION}-static`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
 
@@ -27,6 +27,11 @@ const PRECACHE = [
   './js/fsrs.js',
   './js/fsrs-optimizer.js',
   './js/optimizer-worker.js',
+  './js/pitch.js',
+  './js/tones.js',
+  './js/pronunciation.js',
+  './js/audio-recorder.js',
+  './js/recorder-worklet.js',
   './js/ai-providers.js',
   './js/prompts.js',
   './js/scenarios.js',
@@ -40,6 +45,7 @@ const PRECACHE = [
   './data/vocabulary-toeic.json',
   './data/vocabulary-vi-3kyu.json',
   './data/scenarios.json',
+  './data/vi-tones.json',
   './data/toeic-listening.json',
   './data/toeic-reading.json',
   './data/ielts-speaking.json',

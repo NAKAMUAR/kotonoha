@@ -69,11 +69,29 @@ import {
 } from './toeic-listening.js';
 
 import { getReadingByPart } from './toeic-reading.js';
+
+import {
+  loadToneSets,
+  buildToneQueue,
+  evaluateRecording,
+  verdictOf,
+  suggestedRating,
+  recordToneAttempt,
+  contourToPath,
+  TONES,
+} from './pronunciation.js';
+
+import {
+  Recorder,
+  isSupported as micSupported,
+  unsupportedReason as micUnsupportedReason,
+  micErrorMessage,
+} from './audio-recorder.js';
 import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.js';
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
 
-const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
+const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing', 'pronunciation'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -101,6 +119,18 @@ const vocabState = {
 // 学習ステップ中のカードを同一セッション内で再提示するまでに挟む枚数。
 // 直後に出すと短期記憶で答えられてしまい、想起練習にならない。
 const REQUEUE_GAP = 4;
+
+const pronState = {
+  sets:      [],
+  setId:     null,
+  queue:     [],
+  index:     0,
+  recorder:  null,
+  recording: false,
+  lastResult: null,
+  rated:     false,
+  done:      0,
+};
 
 const scenarioState = {
   phase:        1,
@@ -146,6 +176,14 @@ function showScreen(name) {
     btn.classList.toggle('nav-active', btn.dataset.target === name);
   });
 
+  // 発音画面から離れるときはマイクを必ず解放する
+  if (state.currentScreen === 'pronunciation' && name !== 'pronunciation') {
+    pronState.recording = false;
+    pronState.recorder?.release();
+    pronState.recorder = null;
+    document.getElementById('pron-record')?.classList.remove('recording');
+  }
+
   state.currentScreen = name;
   window.scrollTo({ top: 0, behavior: 'instant' });
 
@@ -155,6 +193,7 @@ function showScreen(name) {
   if (name === 'toeic-listening')  activateListeningScreen();
   if (name === 'toeic-reading')    activateReadingScreen();
   if (name === 'toeic-score')      activateScoreScreen();
+  if (name === 'pronunciation')    activatePronunciationScreen();
   if (name === 'ielts-speaking')   activateIeltsSpeakingScreen();
   if (name === 'ielts-writing')    activateIeltsWritingScreen();
   if (name !== 'scenarios' && name !== 'toeic-listening') stopSpeaking();
@@ -690,6 +729,231 @@ async function refreshForecast() {
   } catch {
     el.innerHTML = '';
   }
+}
+
+// ---------- 発音練習画面（ベトナム語の声調） ----------
+
+async function activatePronunciationScreen() {
+  const reason = micUnsupportedReason();
+  const box = document.getElementById('pron-unsupported');
+  const main = document.getElementById('pron-main');
+
+  if (reason || !micSupported()) {
+    setText('pron-unsupported-text', reason ?? 'この端末では発音練習を利用できません');
+    box?.classList.remove('hidden');
+    main?.classList.add('hidden');
+    return;
+  }
+  box?.classList.add('hidden');
+  main?.classList.remove('hidden');
+
+  try {
+    if (!pronState.sets.length) {
+      pronState.sets = await loadToneSets();
+      pronState.setId = pronState.sets[0]?.id ?? null;
+      renderToneSetChips();
+    }
+    await rebuildToneQueue();
+    showToneItem();
+  } catch (err) {
+    console.error('pronunciation activate failed:', err);
+    showToast('発音データの読み込みに失敗しました');
+  }
+}
+
+function renderToneSetChips() {
+  const row = document.getElementById('pron-set-row');
+  if (!row) return;
+  row.innerHTML = pronState.sets
+    .map((set) => `<button class="chip${set.id === pronState.setId ? ' chip-active' : ''}" data-pron-set="${set.id}">${set.title}</button>`)
+    .join('');
+
+  row.querySelectorAll('[data-pron-set]').forEach((chip) => {
+    chip.addEventListener('click', async () => {
+      if (chip.dataset.pronSet === pronState.setId) return;
+      pronState.setId = chip.dataset.pronSet;
+      pronState.done = 0;
+      renderToneSetChips();
+      await rebuildToneQueue();
+      showToneItem();
+    });
+  });
+}
+
+async function rebuildToneQueue() {
+  pronState.queue = await buildToneQueue(pronState.setId);
+  pronState.index = 0;
+}
+
+function currentToneItem() {
+  return pronState.queue[pronState.index] ?? null;
+}
+
+function showToneItem() {
+  const item = currentToneItem();
+  const result = document.getElementById('pron-result');
+  result?.classList.add('hidden');
+  pronState.lastResult = null;
+  pronState.rated = false;
+
+  if (!item) {
+    setText('pron-word', '完');
+    setText('pron-meaning', 'このセットは一巡しました');
+    setText('pron-hint', '別のセットを選ぶか、時間をおいて復習してください');
+    setText('pron-tone-label', '—');
+    setText('pron-tone-mark', '');
+    setPath('pron-target-path', '');
+    setPath('pron-user-path', '');
+    setText('pron-status', '');
+    document.getElementById('pron-record')?.setAttribute('disabled', 'true');
+    renderToneProgress();
+    return;
+  }
+
+  document.getElementById('pron-record')?.removeAttribute('disabled');
+
+  const tone = TONES[item.tone];
+  setText('pron-word', item.word);
+  setText('pron-meaning', item.meaning ?? '');
+  setText('pron-tone-label', tone?.label ?? item.tone);
+  setText('pron-tone-mark', tone?.mark ?? '');
+  setText('pron-hint', tone?.description ?? '');
+  setText('pron-status', 'ボタンを押しながら発音してください');
+
+  // お手本の輪郭を先に描いておく（何を目指すのか見えてから発音させる）
+  setPath('pron-target-path', contourToPath(toneTargetShape(item.tone)));
+  setPath('pron-user-path', '');
+  renderToneProgress();
+}
+
+/** 表示用のお手本輪郭。記述用の contour をそのまま使う。 */
+function toneTargetShape(toneId) {
+  const c = TONES[toneId]?.contour ?? [];
+  const mean = c.reduce((a, b) => a + b, 0) / (c.length || 1);
+  return c.map((v) => v - mean);
+}
+
+function setPath(id, d) {
+  const el = document.getElementById(id);
+  if (el) el.setAttribute('d', d);
+}
+
+function renderToneProgress() {
+  const total = pronState.queue.length;
+  setText('pron-progress', total ? `${Math.min(pronState.index + 1, total)} / ${total}　（練習 ${pronState.done} 回）` : '');
+}
+
+// --- 録音 ---
+
+async function startToneRecording() {
+  if (pronState.recording) return;
+  const item = currentToneItem();
+  if (!item) return;
+
+  const btn = document.getElementById('pron-record');
+  try {
+    pronState.recorder = new Recorder();
+    await pronState.recorder.start();
+    pronState.recording = true;
+    btn?.classList.add('recording');
+    setText('pron-record-label', '録音中…');
+    setText('pron-status', '母音を少し長めに伸ばしてください');
+  } catch (err) {
+    console.error('mic start failed:', err);
+    pronState.recording = false;
+    pronState.recorder?.release();
+    pronState.recorder = null;
+    btn?.classList.remove('recording');
+    setText('pron-record-label', '押しながら発音');
+    showToast(micErrorMessage(err));
+    setText('pron-status', micErrorMessage(err));
+  }
+}
+
+async function stopToneRecording() {
+  if (!pronState.recording || !pronState.recorder) return;
+  const btn = document.getElementById('pron-record');
+  pronState.recording = false;
+  btn?.classList.remove('recording');
+  setText('pron-record-label', '押しながら発音');
+  setText('pron-status', '解析中…');
+
+  let captured;
+  try {
+    captured = await pronState.recorder.stop();
+  } catch (err) {
+    console.error('mic stop failed:', err);
+    setText('pron-status', '録音を取得できませんでした');
+    return;
+  } finally {
+    pronState.recorder = null;
+  }
+
+  const item = currentToneItem();
+  if (!item) return;
+
+  if (captured.durationSec < 0.2) {
+    setText('pron-status', '短すぎます。ボタンを押したまま、はっきり発音してください');
+    return;
+  }
+
+  const { result } = evaluateRecording(captured.samples, captured.sampleRate, item.tone);
+  pronState.lastResult = result;
+  renderToneResult(result);
+}
+
+function renderToneResult(result) {
+  const box = document.getElementById('pron-result');
+  if (!box) return;
+
+  if (!result.ok) {
+    setText('pron-status', result.advice ?? '判定できませんでした');
+    box.classList.add('hidden');
+    return;
+  }
+
+  setText('pron-status', '');
+  box.classList.remove('hidden');
+
+  setText('pron-score', String(result.score));
+  setText('pron-advice', result.advice);
+  setPath('pron-user-path', contourToPath(result.userShape));
+
+  const verdict = verdictOf(result);
+  const el = document.getElementById('pron-verdict');
+  if (el) {
+    el.textContent = verdict.label;
+    el.className = `pron-verdict pron-verdict-${verdict.key}`;
+  }
+
+  // 自己申告がないまま次へ進んだ場合に備え、機械判定を既定値として持っておく
+  pronState.suggested = suggestedRating(result);
+  pronState.done += 1;
+  renderToneProgress();
+}
+
+async function onToneRate(rating) {
+  const item = currentToneItem();
+  if (!item || !pronState.lastResult || pronState.rated) return;
+  pronState.rated = true;
+
+  try {
+    await recordToneAttempt(item.id, rating);
+  } catch (err) {
+    console.error('tone rating failed:', err);
+    showToast('評価の保存に失敗しました');
+  }
+
+  pronState.index += 1;
+  showToneItem();
+}
+
+function speakCurrentTone() {
+  const item = currentToneItem();
+  if (!item) return;
+  // 端末に vi-VN の音声が無い場合は無音になるため、その旨を伝える
+  const ok = speak(item.word, 'vi', { rate: 0.75 });
+  if (!ok) setText('pron-status', 'この端末にベトナム語の音声が入っていません');
 }
 
 // ---------- TOEIC リスニング画面 ----------
@@ -1835,6 +2099,50 @@ function bindEvents() {
   // パラメータ最適化
   document.getElementById('optimizer-run')?.addEventListener('click', onOptimizeClick);
   document.getElementById('optimizer-reset')?.addEventListener('click', onResetParameters);
+
+  // --- 発音練習 ---
+  document.getElementById('pron-listen')?.addEventListener('click', speakCurrentTone);
+
+  // 録音ボタンは「押している間だけ録る」。
+  // iOS Safari は pointerdown をユーザー操作として扱うので、
+  // ここから AudioContext を resume できる（click を待つと録り逃す）。
+  const recBtn = document.getElementById('pron-record');
+  if (recBtn) {
+    const begin = (e) => {
+      e.preventDefault();
+      startToneRecording();
+    };
+    const end = (e) => {
+      e.preventDefault();
+      stopToneRecording();
+    };
+
+    if (window.PointerEvent) {
+      recBtn.addEventListener('pointerdown', begin);
+      recBtn.addEventListener('pointerup', end);
+      recBtn.addEventListener('pointercancel', end);
+      // 押したまま指がボタンの外へ出ても録音を止める
+      recBtn.addEventListener('pointerleave', (e) => { if (pronState.recording) end(e); });
+    } else {
+      // 古い iOS 向けフォールバック
+      recBtn.addEventListener('touchstart', begin, { passive: false });
+      recBtn.addEventListener('touchend', end);
+      recBtn.addEventListener('touchcancel', end);
+      recBtn.addEventListener('mousedown', begin);
+      recBtn.addEventListener('mouseup', end);
+    }
+
+    // 長押しによるテキスト選択・コンテキストメニューを抑止
+    recBtn.addEventListener('contextmenu', (e) => e.preventDefault());
+  }
+
+  // 発音の自己評価
+  document.querySelectorAll('[data-pron-rating]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const r = parseInt(btn.dataset.pronRating, 10);
+      if (!Number.isNaN(r)) onToneRate(r);
+    });
+  });
 
   // デッキチップ（日常会話 / TOEIC / VI 検定3級）
   document.querySelectorAll('#vocab-deck-row .chip').forEach((chip) => {

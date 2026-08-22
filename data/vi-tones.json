@@ -1,0 +1,76 @@
+[
+  {
+    "id": "set_ma",
+    "base": "ma",
+    "title": "ma の 6 声調",
+    "note": "最も基本的な最小対。まずこの 6 つを聞き分け・言い分けられるようにします。",
+    "items": [
+      { "word": "ma",  "meaning": "幽霊",            "tone": "ngang" },
+      { "word": "mà",  "meaning": "しかし",          "tone": "huyen" },
+      { "word": "má",  "meaning": "母（南部）・頬",  "tone": "sac"   },
+      { "word": "mạ",  "meaning": "稲の苗",          "tone": "nang"  },
+      { "word": "mả",  "meaning": "墓",              "tone": "hoi"   },
+      { "word": "mã",  "meaning": "馬（漢越語）",    "tone": "nga"   }
+    ]
+  },
+  {
+    "id": "set_la",
+    "base": "la",
+    "title": "la の 6 声調",
+    "note": "l の後の母音で声調を保つ練習。日本語話者は語末で声が下がりがちです。",
+    "items": [
+      { "word": "la",  "meaning": "叫ぶ",       "tone": "ngang" },
+      { "word": "là",  "meaning": "〜である",   "tone": "huyen" },
+      { "word": "lá",  "meaning": "葉",         "tone": "sac"   },
+      { "word": "lạ",  "meaning": "見知らぬ",   "tone": "nang"  },
+      { "word": "lả",  "meaning": "ぐったりした", "tone": "hoi" },
+      { "word": "lã",  "meaning": "（真水）",   "tone": "nga"   }
+    ]
+  },
+  {
+    "id": "set_ba",
+    "base": "ba",
+    "title": "ba の 6 声調",
+    "note": "数字の 3 と親族名称。日常会話での出現頻度が高い組です。",
+    "items": [
+      { "word": "ba",  "meaning": "3・父（南部）", "tone": "ngang" },
+      { "word": "bà",  "meaning": "祖母・〜さん",  "tone": "huyen" },
+      { "word": "bá",  "meaning": "伯母",          "tone": "sac"   },
+      { "word": "bạ",  "meaning": "手当たり次第の", "tone": "nang" },
+      { "word": "bả",  "meaning": "毒餌",          "tone": "hoi"   },
+      { "word": "bã",  "meaning": "かす・絞りかす", "tone": "nga"  }
+    ]
+  },
+  {
+    "id": "set_pairs_hard",
+    "base": "混合",
+    "title": "まぎらわしい 2 声調",
+    "note": "日本人が最も取り違えやすい組み合わせだけを集めています。hỏi と ngã、huyền と nặng は特に注意。",
+    "items": [
+      { "word": "hỏi", "meaning": "尋ねる",   "tone": "hoi"   },
+      { "word": "hãi", "meaning": "怖がる",   "tone": "nga"   },
+      { "word": "cửa", "meaning": "扉",       "tone": "hoi"   },
+      { "word": "cữa", "meaning": "（比較用）", "tone": "nga" },
+      { "word": "bàn", "meaning": "机",       "tone": "huyen" },
+      { "word": "bạn", "meaning": "友達",     "tone": "nang"  }
+    ]
+  },
+  {
+    "id": "set_daily",
+    "base": "日常語",
+    "title": "よく使う語で練習",
+    "note": "実際の会話で使う語。声調が崩れると通じないものを選んでいます。",
+    "items": [
+      { "word": "chào",   "meaning": "こんにちは",   "tone": "huyen" },
+      { "word": "cảm",    "meaning": "感（cảm ơn）", "tone": "hoi"   },
+      { "word": "ơn",     "meaning": "恩（cảm ơn）", "tone": "ngang" },
+      { "word": "khỏe",   "meaning": "元気な",       "tone": "hoi"   },
+      { "word": "học",    "meaning": "学ぶ",         "tone": "nang"  },
+      { "word": "tiếng",  "meaning": "言語・音",     "tone": "sac"   },
+      { "word": "Việt",   "meaning": "ベトナム",     "tone": "nang"  },
+      { "word": "người",  "meaning": "人",           "tone": "huyen" },
+      { "word": "nữa",    "meaning": "もっと",       "tone": "nga"   },
+      { "word": "được",   "meaning": "できる",       "tone": "nang"  }
+    ]
+  }
+]
