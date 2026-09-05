@@ -1117,3 +1117,34 @@ body {
   .pron-card, .pron-result { max-width: 520px; margin-left: auto; margin-right: auto; }
   .pron-word { font-size: 4rem; }
 }
+
+/* ネイティブ表現の解説。会話文より一段控えめにして、
+   本文の音読を邪魔しない見た目にする。 */
+.dialogue-note {
+  margin-top: 0.5rem;
+  padding: 0.4375rem 0.625rem;
+  background: var(--washi-dark);
+  border-left: 2px solid var(--kincha);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.75rem;
+  line-height: 1.65;
+  color: var(--sumi-light);
+}
+
+.scenario-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 0.625rem;
+  color: var(--sumi-soft);
+}
+
+.scenario-badge {
+  background: var(--kincha);
+  color: var(--washi);
+  padding: 0.0625rem 0.375rem;
+  border-radius: 3px;
+  font-size: 0.5625rem;
+  letter-spacing: 0.02em;
+}

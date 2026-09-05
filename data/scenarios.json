@@ -1,365 +1,2214 @@
 [
   {
-    "id": "s001", "phase": 1, "order": 1, "level": "A1",
+    "id": "s001",
+    "phase": 1,
+    "order": 1,
+    "level": "A1",
     "title": "朝の挨拶",
     "description": "朝に交わす基本の挨拶",
-    "tags": ["greeting", "daily"],
+    "tags": [
+      "greeting",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Good morning!",                   "vi": "Chào buổi sáng!",            "ja": "おはようございます！" },
-      { "speaker": "B", "en": "Good morning. How are you?",      "vi": "Chào buổi sáng. Bạn khỏe không?", "ja": "おはようございます。お元気ですか？" },
-      { "speaker": "A", "en": "I'm good, thanks. And you?",      "vi": "Tôi khỏe, cảm ơn. Còn bạn?", "ja": "元気です、ありがとう。あなたは？" },
-      { "speaker": "B", "en": "Pretty good. Have a nice day!",   "vi": "Khá tốt. Chúc bạn một ngày tốt lành!", "ja": "わりと元気です。良い一日を！" }
+      {
+        "speaker": "A",
+        "en": "Good morning!",
+        "vi": "Chào buổi sáng!",
+        "ja": "おはようございます！"
+      },
+      {
+        "speaker": "B",
+        "en": "Good morning. How are you?",
+        "vi": "Chào buổi sáng. Bạn khỏe không?",
+        "ja": "おはようございます。お元気ですか？"
+      },
+      {
+        "speaker": "A",
+        "en": "I'm good, thanks. And you?",
+        "vi": "Tôi khỏe, cảm ơn. Còn bạn?",
+        "ja": "元気です、ありがとう。あなたは？"
+      },
+      {
+        "speaker": "B",
+        "en": "Pretty good. Have a nice day!",
+        "vi": "Khá tốt. Chúc bạn một ngày tốt lành!",
+        "ja": "わりと元気です。良い一日を！"
+      }
     ]
   },
   {
-    "id": "s002", "phase": 1, "order": 2, "level": "A1",
+    "id": "s002",
+    "phase": 1,
+    "order": 2,
+    "level": "A1",
     "title": "自己紹介",
     "description": "名前・出身・仕事を伝える",
-    "tags": ["self-intro", "daily"],
+    "tags": [
+      "self-intro",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Hello, my name is Sakura. Nice to meet you.", "vi": "Xin chào, tôi tên là Sakura. Rất vui được gặp bạn.", "ja": "こんにちは、私の名前はさくらです。はじめまして。" },
-      { "speaker": "B", "en": "Nice to meet you too. I'm Tom.",               "vi": "Tôi cũng vui được gặp bạn. Tôi là Tom.",        "ja": "はじめまして。私はトムです。" },
-      { "speaker": "A", "en": "Where are you from?",                          "vi": "Bạn đến từ đâu?",                              "ja": "どちらから来られましたか？" },
-      { "speaker": "B", "en": "I'm from Canada. And you?",                    "vi": "Tôi đến từ Canada. Còn bạn?",                  "ja": "カナダから来ました。あなたは？" },
-      { "speaker": "A", "en": "I'm from Japan. I work as a designer.",        "vi": "Tôi từ Nhật Bản. Tôi làm nhà thiết kế.",       "ja": "日本から来ました。デザイナーをしています。" }
+      {
+        "speaker": "A",
+        "en": "Hello, my name is Sakura. Nice to meet you.",
+        "vi": "Xin chào, tôi tên là Sakura. Rất vui được gặp bạn.",
+        "ja": "こんにちは、私の名前はさくらです。はじめまして。"
+      },
+      {
+        "speaker": "B",
+        "en": "Nice to meet you too. I'm Tom.",
+        "vi": "Tôi cũng vui được gặp bạn. Tôi là Tom.",
+        "ja": "はじめまして。私はトムです。"
+      },
+      {
+        "speaker": "A",
+        "en": "Where are you from?",
+        "vi": "Bạn đến từ đâu?",
+        "ja": "どちらから来られましたか？"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm from Canada. And you?",
+        "vi": "Tôi đến từ Canada. Còn bạn?",
+        "ja": "カナダから来ました。あなたは？"
+      },
+      {
+        "speaker": "A",
+        "en": "I'm from Japan. I work as a designer.",
+        "vi": "Tôi từ Nhật Bản. Tôi làm nhà thiết kế.",
+        "ja": "日本から来ました。デザイナーをしています。"
+      }
     ]
   },
   {
-    "id": "s003", "phase": 1, "order": 3, "level": "A1",
+    "id": "s003",
+    "phase": 1,
+    "order": 3,
+    "level": "A1",
     "title": "天気の話",
     "description": "天気を話題にした世間話",
-    "tags": ["smalltalk", "daily"],
+    "tags": [
+      "smalltalk",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "It's a beautiful day, isn't it?",   "vi": "Hôm nay trời đẹp nhỉ?",          "ja": "今日はいい天気ですね。" },
-      { "speaker": "B", "en": "Yes, it is. The weather is perfect.","vi": "Vâng, đúng vậy. Thời tiết hoàn hảo.","ja": "本当ですね。最高の天気です。" },
-      { "speaker": "A", "en": "I heard it will rain tomorrow.",     "vi": "Tôi nghe nói ngày mai trời sẽ mưa.","ja": "明日は雨だそうですよ。" },
-      { "speaker": "B", "en": "Really? I'd better take an umbrella.","vi": "Thật sao? Tôi nên mang theo ô.",     "ja": "そうですか。傘を持っていかないと。" }
+      {
+        "speaker": "A",
+        "en": "It's a beautiful day, isn't it?",
+        "vi": "Hôm nay trời đẹp nhỉ?",
+        "ja": "今日はいい天気ですね。"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes, it is. The weather is perfect.",
+        "vi": "Vâng, đúng vậy. Thời tiết hoàn hảo.",
+        "ja": "本当ですね。最高の天気です。"
+      },
+      {
+        "speaker": "A",
+        "en": "I heard it will rain tomorrow.",
+        "vi": "Tôi nghe nói ngày mai trời sẽ mưa.",
+        "ja": "明日は雨だそうですよ。"
+      },
+      {
+        "speaker": "B",
+        "en": "Really? I'd better take an umbrella.",
+        "vi": "Thật sao? Tôi nên mang theo ô.",
+        "ja": "そうですか。傘を持っていかないと。"
+      }
     ]
   },
   {
-    "id": "s004", "phase": 1, "order": 4, "level": "A1",
+    "id": "s004",
+    "phase": 1,
+    "order": 4,
+    "level": "A1",
     "title": "お礼を言う",
     "description": "感謝を伝える表現",
-    "tags": ["politeness", "daily"],
+    "tags": [
+      "politeness",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Here's the document you asked for.", "vi": "Đây là tài liệu bạn yêu cầu.",      "ja": "ご依頼の書類です。" },
-      { "speaker": "B", "en": "Thank you so much. That was quick!", "vi": "Cảm ơn bạn rất nhiều. Nhanh quá!", "ja": "本当にありがとうございます。早かったですね！" },
-      { "speaker": "A", "en": "You're welcome. Glad I could help.", "vi": "Không có gì. Rất vui được giúp.",  "ja": "どういたしまして。お役に立ててよかったです。" }
+      {
+        "speaker": "A",
+        "en": "Here's the document you asked for.",
+        "vi": "Đây là tài liệu bạn yêu cầu.",
+        "ja": "ご依頼の書類です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Thank you so much. That was quick!",
+        "vi": "Cảm ơn bạn rất nhiều. Nhanh quá!",
+        "ja": "本当にありがとうございます。早かったですね！"
+      },
+      {
+        "speaker": "A",
+        "en": "You're welcome. Glad I could help.",
+        "vi": "Không có gì. Rất vui được giúp.",
+        "ja": "どういたしまして。お役に立ててよかったです。"
+      }
     ]
   },
   {
-    "id": "s005", "phase": 1, "order": 5, "level": "A1",
+    "id": "s005",
+    "phase": 1,
+    "order": 5,
+    "level": "A1",
     "title": "謝る",
     "description": "うっかりミスを謝る",
-    "tags": ["politeness", "daily"],
+    "tags": [
+      "politeness",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "I'm sorry I'm late.",                "vi": "Xin lỗi, tôi đến muộn.",         "ja": "遅れてすみません。" },
-      { "speaker": "B", "en": "That's all right. What happened?",   "vi": "Không sao. Có chuyện gì vậy?",    "ja": "大丈夫ですよ。どうしたんですか？" },
-      { "speaker": "A", "en": "The train was delayed.",             "vi": "Tàu bị trễ.",                    "ja": "電車が遅延していました。" },
-      { "speaker": "B", "en": "No worries. Let's get started.",     "vi": "Đừng lo. Bắt đầu thôi.",         "ja": "気にしないで。始めましょう。" }
+      {
+        "speaker": "A",
+        "en": "I'm sorry I'm late.",
+        "vi": "Xin lỗi, tôi đến muộn.",
+        "ja": "遅れてすみません。"
+      },
+      {
+        "speaker": "B",
+        "en": "That's all right. What happened?",
+        "vi": "Không sao. Có chuyện gì vậy?",
+        "ja": "大丈夫ですよ。どうしたんですか？"
+      },
+      {
+        "speaker": "A",
+        "en": "The train was delayed.",
+        "vi": "Tàu bị trễ.",
+        "ja": "電車が遅延していました。"
+      },
+      {
+        "speaker": "B",
+        "en": "No worries. Let's get started.",
+        "vi": "Đừng lo. Bắt đầu thôi.",
+        "ja": "気にしないで。始めましょう。"
+      }
     ]
   },
   {
-    "id": "s006", "phase": 1, "order": 6, "level": "A1",
+    "id": "s006",
+    "phase": 1,
+    "order": 6,
+    "level": "A1",
     "title": "数字・時間",
     "description": "時刻と簡単な数の言い方",
-    "tags": ["numbers", "daily"],
+    "tags": [
+      "numbers",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "What time is it now?",                "vi": "Bây giờ là mấy giờ?",          "ja": "今、何時ですか？" },
-      { "speaker": "B", "en": "It's three thirty.",                   "vi": "Bây giờ là ba giờ rưỡi.",      "ja": "三時半です。" },
-      { "speaker": "A", "en": "Thanks. The meeting starts at four.",  "vi": "Cảm ơn. Cuộc họp bắt đầu lúc bốn giờ.","ja": "ありがとう。会議は四時からです。" },
-      { "speaker": "B", "en": "We have thirty minutes left.",         "vi": "Chúng ta còn ba mươi phút.",   "ja": "あと三十分ありますね。" }
+      {
+        "speaker": "A",
+        "en": "What time is it now?",
+        "vi": "Bây giờ là mấy giờ?",
+        "ja": "今、何時ですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "It's three thirty.",
+        "vi": "Bây giờ là ba giờ rưỡi.",
+        "ja": "三時半です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Thanks. The meeting starts at four.",
+        "vi": "Cảm ơn. Cuộc họp bắt đầu lúc bốn giờ.",
+        "ja": "ありがとう。会議は四時からです。"
+      },
+      {
+        "speaker": "B",
+        "en": "We have thirty minutes left.",
+        "vi": "Chúng ta còn ba mươi phút.",
+        "ja": "あと三十分ありますね。"
+      }
     ]
   },
   {
-    "id": "s007", "phase": 1, "order": 7, "level": "A1",
+    "id": "s007",
+    "phase": 1,
+    "order": 7,
+    "level": "A1",
     "title": "道を尋ねる",
     "description": "目的地までの行き方を聞く",
-    "tags": ["directions", "daily"],
+    "tags": [
+      "directions",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Excuse me, where is the station?",          "vi": "Xin lỗi, ga ở đâu vậy?",                "ja": "すみません、駅はどこですか？" },
-      { "speaker": "B", "en": "Go straight and turn left at the corner.",  "vi": "Đi thẳng và rẽ trái ở góc đường.",      "ja": "まっすぐ行って、角を左に曲がってください。" },
-      { "speaker": "A", "en": "Is it far from here?",                      "vi": "Có xa đây không?",                      "ja": "ここから遠いですか？" },
-      { "speaker": "B", "en": "About five minutes on foot.",               "vi": "Khoảng năm phút đi bộ.",                "ja": "徒歩で五分くらいです。" },
-      { "speaker": "A", "en": "Thank you very much.",                      "vi": "Cảm ơn bạn rất nhiều.",                 "ja": "ありがとうございました。" }
+      {
+        "speaker": "A",
+        "en": "Excuse me, where is the station?",
+        "vi": "Xin lỗi, ga ở đâu vậy?",
+        "ja": "すみません、駅はどこですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Go straight and turn left at the corner.",
+        "vi": "Đi thẳng và rẽ trái ở góc đường.",
+        "ja": "まっすぐ行って、角を左に曲がってください。"
+      },
+      {
+        "speaker": "A",
+        "en": "Is it far from here?",
+        "vi": "Có xa đây không?",
+        "ja": "ここから遠いですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "About five minutes on foot.",
+        "vi": "Khoảng năm phút đi bộ.",
+        "ja": "徒歩で五分くらいです。"
+      },
+      {
+        "speaker": "A",
+        "en": "Thank you very much.",
+        "vi": "Cảm ơn bạn rất nhiều.",
+        "ja": "ありがとうございました。"
+      }
     ]
   },
   {
-    "id": "s008", "phase": 1, "order": 8, "level": "A1",
+    "id": "s008",
+    "phase": 1,
+    "order": 8,
+    "level": "A1",
     "title": "簡単な買い物",
     "description": "店で商品の値段を聞く",
-    "tags": ["shopping", "daily"],
+    "tags": [
+      "shopping",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "How much is this?",                      "vi": "Cái này giá bao nhiêu?",       "ja": "これはいくらですか？" },
-      { "speaker": "B", "en": "It's twenty dollars.",                   "vi": "Hai mươi đô la.",              "ja": "二十ドルです。" },
-      { "speaker": "A", "en": "I'll take it. Do you accept credit cards?","vi": "Tôi mua nó. Có nhận thẻ tín dụng không?","ja": "これにします。カードは使えますか？" },
-      { "speaker": "B", "en": "Yes, of course. Here's your receipt.",   "vi": "Vâng, tất nhiên. Đây là biên lai.","ja": "はい、もちろん。レシートです。" }
+      {
+        "speaker": "A",
+        "en": "How much is this?",
+        "vi": "Cái này giá bao nhiêu?",
+        "ja": "これはいくらですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "It's twenty dollars.",
+        "vi": "Hai mươi đô la.",
+        "ja": "二十ドルです。"
+      },
+      {
+        "speaker": "A",
+        "en": "I'll take it. Do you accept credit cards?",
+        "vi": "Tôi mua nó. Có nhận thẻ tín dụng không?",
+        "ja": "これにします。カードは使えますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes, of course. Here's your receipt.",
+        "vi": "Vâng, tất nhiên. Đây là biên lai.",
+        "ja": "はい、もちろん。レシートです。"
+      }
     ]
   },
   {
-    "id": "s009", "phase": 1, "order": 9, "level": "A1",
+    "id": "s009",
+    "phase": 1,
+    "order": 9,
+    "level": "A1",
     "title": "レストラン注文",
     "description": "メニューから料理を選ぶ",
-    "tags": ["restaurant", "daily"],
+    "tags": [
+      "restaurant",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Are you ready to order?",                "vi": "Bạn đã sẵn sàng gọi món chưa?",  "ja": "ご注文はお決まりですか？" },
-      { "speaker": "B", "en": "Yes. I'll have the chicken, please.",   "vi": "Vâng. Cho tôi món gà.",          "ja": "はい。チキンをお願いします。" },
-      { "speaker": "A", "en": "Anything to drink?",                    "vi": "Anh dùng gì để uống không?",    "ja": "お飲み物はいかがですか？" },
-      { "speaker": "B", "en": "Just water, thanks.",                   "vi": "Chỉ cần nước, cảm ơn.",         "ja": "お水だけで、ありがとう。" }
+      {
+        "speaker": "A",
+        "en": "Are you ready to order?",
+        "vi": "Bạn đã sẵn sàng gọi món chưa?",
+        "ja": "ご注文はお決まりですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes. I'll have the chicken, please.",
+        "vi": "Vâng. Cho tôi món gà.",
+        "ja": "はい。チキンをお願いします。"
+      },
+      {
+        "speaker": "A",
+        "en": "Anything to drink?",
+        "vi": "Anh dùng gì để uống không?",
+        "ja": "お飲み物はいかがですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Just water, thanks.",
+        "vi": "Chỉ cần nước, cảm ơn.",
+        "ja": "お水だけで、ありがとう。"
+      }
     ]
   },
   {
-    "id": "s010", "phase": 1, "order": 10, "level": "A1",
+    "id": "s010",
+    "phase": 1,
+    "order": 10,
+    "level": "A1",
     "title": "別れの挨拶",
     "description": "別れぎわの自然な一言",
-    "tags": ["greeting", "daily"],
+    "tags": [
+      "greeting",
+      "daily"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "It was nice talking with you.",     "vi": "Rất vui được nói chuyện với bạn.",   "ja": "お話できて楽しかったです。" },
-      { "speaker": "B", "en": "Same here. See you next time.",     "vi": "Tôi cũng vậy. Hẹn gặp lại lần sau.", "ja": "私もです。また今度。" },
-      { "speaker": "A", "en": "Take care. Goodbye!",               "vi": "Bảo trọng nhé. Tạm biệt!",           "ja": "お気をつけて。さようなら！" },
-      { "speaker": "B", "en": "Goodbye!",                          "vi": "Tạm biệt!",                          "ja": "さようなら！" }
+      {
+        "speaker": "A",
+        "en": "It was nice talking with you.",
+        "vi": "Rất vui được nói chuyện với bạn.",
+        "ja": "お話できて楽しかったです。"
+      },
+      {
+        "speaker": "B",
+        "en": "Same here. See you next time.",
+        "vi": "Tôi cũng vậy. Hẹn gặp lại lần sau.",
+        "ja": "私もです。また今度。"
+      },
+      {
+        "speaker": "A",
+        "en": "Take care. Goodbye!",
+        "vi": "Bảo trọng nhé. Tạm biệt!",
+        "ja": "お気をつけて。さようなら！"
+      },
+      {
+        "speaker": "B",
+        "en": "Goodbye!",
+        "vi": "Tạm biệt!",
+        "ja": "さようなら！"
+      }
     ]
   },
   {
-    "id": "s011", "phase": 1, "order": 11, "level": "A2",
+    "id": "s011",
+    "phase": 1,
+    "order": 11,
+    "level": "A2",
     "title": "電話で話す",
     "description": "電話を受ける・伝言を頼む",
-    "tags": ["phone"],
+    "tags": [
+      "phone"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Hello, this is Sakura speaking.",          "vi": "A lô, Sakura đây.",                       "ja": "もしもし、さくらです。" },
-      { "speaker": "B", "en": "Hi Sakura. Is John there?",                "vi": "Chào Sakura. John có ở đó không?",        "ja": "さくら、ジョンはいますか？" },
-      { "speaker": "A", "en": "He's not here right now. Can I take a message?", "vi": "Anh ấy không có ở đây. Tôi nhắn lại được không?", "ja": "今いません。伝言を承りましょうか？" },
-      { "speaker": "B", "en": "Yes, please tell him to call me back.",    "vi": "Vâng, làm ơn nói anh ấy gọi lại cho tôi.","ja": "はい、折り返し電話してと伝えてください。" }
+      {
+        "speaker": "A",
+        "en": "Hello, this is Sakura speaking.",
+        "vi": "A lô, Sakura đây.",
+        "ja": "もしもし、さくらです。"
+      },
+      {
+        "speaker": "B",
+        "en": "Hi Sakura. Is John there?",
+        "vi": "Chào Sakura. John có ở đó không?",
+        "ja": "さくら、ジョンはいますか？"
+      },
+      {
+        "speaker": "A",
+        "en": "He's not here right now. Can I take a message?",
+        "vi": "Anh ấy không có ở đây. Tôi nhắn lại được không?",
+        "ja": "今いません。伝言を承りましょうか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes, please tell him to call me back.",
+        "vi": "Vâng, làm ơn nói anh ấy gọi lại cho tôi.",
+        "ja": "はい、折り返し電話してと伝えてください。"
+      }
     ]
   },
   {
-    "id": "s012", "phase": 1, "order": 12, "level": "A2",
+    "id": "s012",
+    "phase": 1,
+    "order": 12,
+    "level": "A2",
     "title": "病院での会話",
     "description": "症状を伝えて受診する",
-    "tags": ["health"],
+    "tags": [
+      "health"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "What's wrong today?",                       "vi": "Hôm nay bạn bị làm sao?",            "ja": "今日はどうしましたか？" },
-      { "speaker": "B", "en": "I have a headache and a slight fever.",     "vi": "Tôi bị đau đầu và sốt nhẹ.",         "ja": "頭痛と微熱があります。" },
-      { "speaker": "A", "en": "Since when?",                               "vi": "Từ bao giờ?",                        "ja": "いつからですか？" },
-      { "speaker": "B", "en": "Since yesterday evening.",                  "vi": "Từ tối hôm qua.",                    "ja": "昨日の夜からです。" },
-      { "speaker": "A", "en": "I'll prescribe some medicine. Take a rest.","vi": "Tôi sẽ kê thuốc cho bạn. Nghỉ ngơi đi.","ja": "薬を出します。安静にしてください。" }
+      {
+        "speaker": "A",
+        "en": "What's wrong today?",
+        "vi": "Hôm nay bạn bị làm sao?",
+        "ja": "今日はどうしましたか？"
+      },
+      {
+        "speaker": "B",
+        "en": "I have a headache and a slight fever.",
+        "vi": "Tôi bị đau đầu và sốt nhẹ.",
+        "ja": "頭痛と微熱があります。"
+      },
+      {
+        "speaker": "A",
+        "en": "Since when?",
+        "vi": "Từ bao giờ?",
+        "ja": "いつからですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Since yesterday evening.",
+        "vi": "Từ tối hôm qua.",
+        "ja": "昨日の夜からです。"
+      },
+      {
+        "speaker": "A",
+        "en": "I'll prescribe some medicine. Take a rest.",
+        "vi": "Tôi sẽ kê thuốc cho bạn. Nghỉ ngơi đi.",
+        "ja": "薬を出します。安静にしてください。"
+      }
     ]
   },
   {
-    "id": "s013", "phase": 1, "order": 13, "level": "A2",
+    "id": "s013",
+    "phase": 1,
+    "order": 13,
+    "level": "A2",
     "title": "ホテルチェックイン",
     "description": "予約を伝えてチェックイン",
-    "tags": ["travel"],
+    "tags": [
+      "travel"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "I have a reservation under Tanaka.",       "vi": "Tôi có đặt phòng dưới tên Tanaka.",  "ja": "田中の名前で予約しています。" },
-      { "speaker": "B", "en": "Welcome. May I see your passport?",        "vi": "Chào mừng. Cho tôi xem hộ chiếu được không?","ja": "ようこそ。パスポートを拝見できますか？" },
-      { "speaker": "A", "en": "Sure, here you are.",                      "vi": "Vâng, đây.",                          "ja": "はい、どうぞ。" },
-      { "speaker": "B", "en": "Your room is on the fifth floor, number 503.","vi": "Phòng của bạn ở tầng năm, số 503.","ja": "お部屋は五階の503号室です。" },
-      { "speaker": "A", "en": "What time is breakfast served?",           "vi": "Bữa sáng phục vụ lúc mấy giờ?",      "ja": "朝食は何時からですか？" }
+      {
+        "speaker": "A",
+        "en": "I have a reservation under Tanaka.",
+        "vi": "Tôi có đặt phòng dưới tên Tanaka.",
+        "ja": "田中の名前で予約しています。"
+      },
+      {
+        "speaker": "B",
+        "en": "Welcome. May I see your passport?",
+        "vi": "Chào mừng. Cho tôi xem hộ chiếu được không?",
+        "ja": "ようこそ。パスポートを拝見できますか？"
+      },
+      {
+        "speaker": "A",
+        "en": "Sure, here you are.",
+        "vi": "Vâng, đây.",
+        "ja": "はい、どうぞ。"
+      },
+      {
+        "speaker": "B",
+        "en": "Your room is on the fifth floor, number 503.",
+        "vi": "Phòng của bạn ở tầng năm, số 503.",
+        "ja": "お部屋は五階の503号室です。"
+      },
+      {
+        "speaker": "A",
+        "en": "What time is breakfast served?",
+        "vi": "Bữa sáng phục vụ lúc mấy giờ?",
+        "ja": "朝食は何時からですか？"
+      }
     ]
   },
   {
-    "id": "s014", "phase": 1, "order": 14, "level": "A2",
+    "id": "s014",
+    "phase": 1,
+    "order": 14,
+    "level": "A2",
     "title": "公共交通機関",
     "description": "切符を買って乗る",
-    "tags": ["travel"],
+    "tags": [
+      "travel"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "One ticket to the airport, please.",      "vi": "Cho tôi một vé đến sân bay.",        "ja": "空港まで一枚お願いします。" },
-      { "speaker": "B", "en": "One way or round trip?",                  "vi": "Một chiều hay khứ hồi?",             "ja": "片道ですか、往復ですか？" },
-      { "speaker": "A", "en": "One way, please.",                        "vi": "Một chiều thôi.",                    "ja": "片道でお願いします。" },
-      { "speaker": "B", "en": "That'll be ten dollars. Platform two.",   "vi": "Mười đô la. Sân ga số hai.",          "ja": "十ドルです。二番ホームです。" }
+      {
+        "speaker": "A",
+        "en": "One ticket to the airport, please.",
+        "vi": "Cho tôi một vé đến sân bay.",
+        "ja": "空港まで一枚お願いします。"
+      },
+      {
+        "speaker": "B",
+        "en": "One way or round trip?",
+        "vi": "Một chiều hay khứ hồi?",
+        "ja": "片道ですか、往復ですか？"
+      },
+      {
+        "speaker": "A",
+        "en": "One way, please.",
+        "vi": "Một chiều thôi.",
+        "ja": "片道でお願いします。"
+      },
+      {
+        "speaker": "B",
+        "en": "That'll be ten dollars. Platform two.",
+        "vi": "Mười đô la. Sân ga số hai.",
+        "ja": "十ドルです。二番ホームです。"
+      }
     ]
   },
   {
-    "id": "s015", "phase": 1, "order": 15, "level": "A2",
+    "id": "s015",
+    "phase": 1,
+    "order": 15,
+    "level": "A2",
     "title": "銀行・両替",
     "description": "外貨両替を依頼する",
-    "tags": ["money"],
+    "tags": [
+      "money"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "I'd like to exchange yen for dollars.",   "vi": "Tôi muốn đổi yên sang đô la.",       "ja": "円をドルに両替したいです。" },
-      { "speaker": "B", "en": "How much would you like to exchange?",    "vi": "Bạn muốn đổi bao nhiêu?",            "ja": "いくら両替しますか？" },
-      { "speaker": "A", "en": "Fifty thousand yen, please.",             "vi": "Năm mươi nghìn yên.",                "ja": "五万円、お願いします。" },
-      { "speaker": "B", "en": "Today's rate is 150 yen per dollar.",     "vi": "Tỉ giá hôm nay là 150 yên một đô la.","ja": "本日のレートは1ドル150円です。" }
+      {
+        "speaker": "A",
+        "en": "I'd like to exchange yen for dollars.",
+        "vi": "Tôi muốn đổi yên sang đô la.",
+        "ja": "円をドルに両替したいです。"
+      },
+      {
+        "speaker": "B",
+        "en": "How much would you like to exchange?",
+        "vi": "Bạn muốn đổi bao nhiêu?",
+        "ja": "いくら両替しますか？"
+      },
+      {
+        "speaker": "A",
+        "en": "Fifty thousand yen, please.",
+        "vi": "Năm mươi nghìn yên.",
+        "ja": "五万円、お願いします。"
+      },
+      {
+        "speaker": "B",
+        "en": "Today's rate is 150 yen per dollar.",
+        "vi": "Tỉ giá hôm nay là 150 yên một đô la.",
+        "ja": "本日のレートは1ドル150円です。"
+      }
     ]
   },
   {
-    "id": "s016", "phase": 1, "order": 16, "level": "A2",
+    "id": "s016",
+    "phase": 1,
+    "order": 16,
+    "level": "A2",
     "title": "観光案内所",
     "description": "おすすめスポットを聞く",
-    "tags": ["travel"],
+    "tags": [
+      "travel"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Could you recommend a good place to visit?", "vi": "Bạn có thể giới thiệu một nơi nên đến không?","ja": "おすすめの観光地はありますか？" },
-      { "speaker": "B", "en": "The old castle is very popular.",           "vi": "Lâu đài cổ rất nổi tiếng.",          "ja": "旧城がとても人気です。" },
-      { "speaker": "A", "en": "How can I get there?",                      "vi": "Làm sao để đến đó?",                 "ja": "そこへはどう行けばいいですか？" },
-      { "speaker": "B", "en": "Take bus number twelve from this stop.",    "vi": "Đi xe buýt số mười hai từ trạm này.","ja": "このバス停から十二番のバスに乗ってください。" }
+      {
+        "speaker": "A",
+        "en": "Could you recommend a good place to visit?",
+        "vi": "Bạn có thể giới thiệu một nơi nên đến không?",
+        "ja": "おすすめの観光地はありますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "The old castle is very popular.",
+        "vi": "Lâu đài cổ rất nổi tiếng.",
+        "ja": "旧城がとても人気です。"
+      },
+      {
+        "speaker": "A",
+        "en": "How can I get there?",
+        "vi": "Làm sao để đến đó?",
+        "ja": "そこへはどう行けばいいですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Take bus number twelve from this stop.",
+        "vi": "Đi xe buýt số mười hai từ trạm này.",
+        "ja": "このバス停から十二番のバスに乗ってください。"
+      }
     ]
   },
   {
-    "id": "s017", "phase": 1, "order": 17, "level": "A2",
+    "id": "s017",
+    "phase": 1,
+    "order": 17,
+    "level": "A2",
     "title": "写真を撮る",
     "description": "撮影をお願いする",
-    "tags": ["smalltalk"],
+    "tags": [
+      "smalltalk"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Could you take a picture of us?",          "vi": "Bạn có thể chụp giúp chúng tôi không?","ja": "写真を撮ってもらえますか？" },
-      { "speaker": "B", "en": "Sure. Where do you want to stand?",        "vi": "Được. Bạn muốn đứng chỗ nào?",       "ja": "もちろん。どこに立ちますか？" },
-      { "speaker": "A", "en": "In front of the fountain, please.",        "vi": "Trước đài phun nước.",               "ja": "噴水の前でお願いします。" },
-      { "speaker": "B", "en": "OK, say cheese!",                          "vi": "Được, cười lên nào!",                "ja": "では、はいチーズ！" }
+      {
+        "speaker": "A",
+        "en": "Could you take a picture of us?",
+        "vi": "Bạn có thể chụp giúp chúng tôi không?",
+        "ja": "写真を撮ってもらえますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure. Where do you want to stand?",
+        "vi": "Được. Bạn muốn đứng chỗ nào?",
+        "ja": "もちろん。どこに立ちますか？"
+      },
+      {
+        "speaker": "A",
+        "en": "In front of the fountain, please.",
+        "vi": "Trước đài phun nước.",
+        "ja": "噴水の前でお願いします。"
+      },
+      {
+        "speaker": "B",
+        "en": "OK, say cheese!",
+        "vi": "Được, cười lên nào!",
+        "ja": "では、はいチーズ！"
+      }
     ]
   },
   {
-    "id": "s018", "phase": 1, "order": 18, "level": "A2",
+    "id": "s018",
+    "phase": 1,
+    "order": 18,
+    "level": "A2",
     "title": "趣味について",
     "description": "趣味を共有する",
-    "tags": ["smalltalk"],
+    "tags": [
+      "smalltalk"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "What do you like to do in your free time?","vi": "Lúc rảnh bạn thích làm gì?",         "ja": "暇な時は何をしていますか？" },
-      { "speaker": "B", "en": "I enjoy reading and hiking.",              "vi": "Tôi thích đọc sách và đi bộ đường dài.","ja": "読書とハイキングが好きです。" },
-      { "speaker": "A", "en": "What kind of books do you read?",          "vi": "Bạn đọc loại sách nào?",             "ja": "どんな本を読みますか？" },
-      { "speaker": "B", "en": "Mostly novels and history books.",         "vi": "Chủ yếu là tiểu thuyết và sách lịch sử.","ja": "主に小説と歴史の本です。" }
+      {
+        "speaker": "A",
+        "en": "What do you like to do in your free time?",
+        "vi": "Lúc rảnh bạn thích làm gì?",
+        "ja": "暇な時は何をしていますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "I enjoy reading and hiking.",
+        "vi": "Tôi thích đọc sách và đi bộ đường dài.",
+        "ja": "読書とハイキングが好きです。"
+      },
+      {
+        "speaker": "A",
+        "en": "What kind of books do you read?",
+        "vi": "Bạn đọc loại sách nào?",
+        "ja": "どんな本を読みますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Mostly novels and history books.",
+        "vi": "Chủ yếu là tiểu thuyết và sách lịch sử.",
+        "ja": "主に小説と歴史の本です。"
+      }
     ]
   },
   {
-    "id": "s019", "phase": 1, "order": 19, "level": "A2",
+    "id": "s019",
+    "phase": 1,
+    "order": 19,
+    "level": "A2",
     "title": "家族の話",
     "description": "家族構成を話す",
-    "tags": ["family"],
+    "tags": [
+      "family"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Do you have any siblings?",                "vi": "Bạn có anh chị em không?",           "ja": "ご兄弟はいますか？" },
-      { "speaker": "B", "en": "Yes, I have one older sister.",            "vi": "Có, tôi có một chị gái.",            "ja": "はい、姉が一人います。" },
-      { "speaker": "A", "en": "What does she do?",                        "vi": "Chị ấy làm gì?",                     "ja": "お姉さんは何をされていますか？" },
-      { "speaker": "B", "en": "She's a teacher in Tokyo.",                "vi": "Chị ấy là giáo viên ở Tokyo.",       "ja": "東京で先生をしています。" }
+      {
+        "speaker": "A",
+        "en": "Do you have any siblings?",
+        "vi": "Bạn có anh chị em không?",
+        "ja": "ご兄弟はいますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes, I have one older sister.",
+        "vi": "Có, tôi có một chị gái.",
+        "ja": "はい、姉が一人います。"
+      },
+      {
+        "speaker": "A",
+        "en": "What does she do?",
+        "vi": "Chị ấy làm gì?",
+        "ja": "お姉さんは何をされていますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "She's a teacher in Tokyo.",
+        "vi": "Chị ấy là giáo viên ở Tokyo.",
+        "ja": "東京で先生をしています。"
+      }
     ]
   },
   {
-    "id": "s020", "phase": 1, "order": 20, "level": "A2",
+    "id": "s020",
+    "phase": 1,
+    "order": 20,
+    "level": "A2",
     "title": "仕事の話",
     "description": "仕事の内容を伝える",
-    "tags": ["work"],
+    "tags": [
+      "work"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "What do you do for a living?",             "vi": "Bạn làm nghề gì?",                   "ja": "お仕事は何をされていますか？" },
-      { "speaker": "B", "en": "I work at a software company.",            "vi": "Tôi làm ở công ty phần mềm.",        "ja": "ソフトウェア会社で働いています。" },
-      { "speaker": "A", "en": "How long have you been there?",            "vi": "Bạn làm ở đó bao lâu rồi?",          "ja": "どのくらい働いていますか？" },
-      { "speaker": "B", "en": "About five years now.",                    "vi": "Khoảng năm năm rồi.",                "ja": "もう五年ぐらいです。" }
+      {
+        "speaker": "A",
+        "en": "What do you do for a living?",
+        "vi": "Bạn làm nghề gì?",
+        "ja": "お仕事は何をされていますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "I work at a software company.",
+        "vi": "Tôi làm ở công ty phần mềm.",
+        "ja": "ソフトウェア会社で働いています。"
+      },
+      {
+        "speaker": "A",
+        "en": "How long have you been there?",
+        "vi": "Bạn làm ở đó bao lâu rồi?",
+        "ja": "どのくらい働いていますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "About five years now.",
+        "vi": "Khoảng năm năm rồi.",
+        "ja": "もう五年ぐらいです。"
+      }
     ]
   },
   {
-    "id": "s021", "phase": 1, "order": 21, "level": "A2",
+    "id": "s021",
+    "phase": 1,
+    "order": 21,
+    "level": "A2",
     "title": "体調が悪い",
     "description": "不調を伝える",
-    "tags": ["health"],
+    "tags": [
+      "health"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Are you OK? You look pale.",               "vi": "Bạn ổn chứ? Trông bạn xanh xao quá.","ja": "大丈夫？顔色が悪いよ。" },
-      { "speaker": "B", "en": "I don't feel well today.",                 "vi": "Hôm nay tôi không khỏe.",            "ja": "今日は体調が悪いんです。" },
-      { "speaker": "A", "en": "Maybe you should go home and rest.",       "vi": "Có lẽ bạn nên về nhà nghỉ.",         "ja": "家に帰って休んだ方がいいよ。" },
-      { "speaker": "B", "en": "Thanks. I think I will.",                  "vi": "Cảm ơn. Tôi sẽ làm vậy.",            "ja": "ありがとう。そうします。" }
+      {
+        "speaker": "A",
+        "en": "Are you OK? You look pale.",
+        "vi": "Bạn ổn chứ? Trông bạn xanh xao quá.",
+        "ja": "大丈夫？顔色が悪いよ。"
+      },
+      {
+        "speaker": "B",
+        "en": "I don't feel well today.",
+        "vi": "Hôm nay tôi không khỏe.",
+        "ja": "今日は体調が悪いんです。"
+      },
+      {
+        "speaker": "A",
+        "en": "Maybe you should go home and rest.",
+        "vi": "Có lẽ bạn nên về nhà nghỉ.",
+        "ja": "家に帰って休んだ方がいいよ。"
+      },
+      {
+        "speaker": "B",
+        "en": "Thanks. I think I will.",
+        "vi": "Cảm ơn. Tôi sẽ làm vậy.",
+        "ja": "ありがとう。そうします。"
+      }
     ]
   },
   {
-    "id": "s022", "phase": 1, "order": 22, "level": "A2",
+    "id": "s022",
+    "phase": 1,
+    "order": 22,
+    "level": "A2",
     "title": "道に迷う",
     "description": "迷ったときに尋ねる",
-    "tags": ["directions"],
+    "tags": [
+      "directions"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Excuse me, I think I'm lost.",             "vi": "Xin lỗi, hình như tôi bị lạc.",      "ja": "すみません、迷ってしまったようです。" },
-      { "speaker": "B", "en": "Where are you trying to go?",              "vi": "Bạn đang muốn đi đâu?",              "ja": "どこに行きたいんですか？" },
-      { "speaker": "A", "en": "The central library.",                     "vi": "Thư viện trung tâm.",                "ja": "中央図書館です。" },
-      { "speaker": "B", "en": "It's two blocks back the way you came.",   "vi": "Đi ngược lại hai dãy nhà.",          "ja": "来た道を二ブロック戻ったところです。" }
+      {
+        "speaker": "A",
+        "en": "Excuse me, I think I'm lost.",
+        "vi": "Xin lỗi, hình như tôi bị lạc.",
+        "ja": "すみません、迷ってしまったようです。"
+      },
+      {
+        "speaker": "B",
+        "en": "Where are you trying to go?",
+        "vi": "Bạn đang muốn đi đâu?",
+        "ja": "どこに行きたいんですか？"
+      },
+      {
+        "speaker": "A",
+        "en": "The central library.",
+        "vi": "Thư viện trung tâm.",
+        "ja": "中央図書館です。"
+      },
+      {
+        "speaker": "B",
+        "en": "It's two blocks back the way you came.",
+        "vi": "Đi ngược lại hai dãy nhà.",
+        "ja": "来た道を二ブロック戻ったところです。"
+      }
     ]
   },
   {
-    "id": "s023", "phase": 1, "order": 23, "level": "A2",
+    "id": "s023",
+    "phase": 1,
+    "order": 23,
+    "level": "A2",
     "title": "値段交渉",
     "description": "値引きをお願いする",
-    "tags": ["shopping"],
+    "tags": [
+      "shopping"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Could you give me a small discount?",     "vi": "Bạn có thể giảm giá một chút không?","ja": "少し値引きしてもらえますか？" },
-      { "speaker": "B", "en": "I can take ten percent off.",              "vi": "Tôi có thể giảm mười phần trăm.",    "ja": "一割なら引けますよ。" },
-      { "speaker": "A", "en": "How about fifteen percent?",               "vi": "Mười lăm phần trăm thì sao?",        "ja": "一割五分はどうでしょう？" },
-      { "speaker": "B", "en": "Twelve, that's my best offer.",            "vi": "Mười hai, đó là giá tốt nhất.",      "ja": "12% でいかがですか。これが限界です。" }
+      {
+        "speaker": "A",
+        "en": "Could you give me a small discount?",
+        "vi": "Bạn có thể giảm giá một chút không?",
+        "ja": "少し値引きしてもらえますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "I can take ten percent off.",
+        "vi": "Tôi có thể giảm mười phần trăm.",
+        "ja": "一割なら引けますよ。"
+      },
+      {
+        "speaker": "A",
+        "en": "How about fifteen percent?",
+        "vi": "Mười lăm phần trăm thì sao?",
+        "ja": "一割五分はどうでしょう？"
+      },
+      {
+        "speaker": "B",
+        "en": "Twelve, that's my best offer.",
+        "vi": "Mười hai, đó là giá tốt nhất.",
+        "ja": "12% でいかがですか。これが限界です。"
+      }
     ]
   },
   {
-    "id": "s024", "phase": 1, "order": 24, "level": "A2",
+    "id": "s024",
+    "phase": 1,
+    "order": 24,
+    "level": "A2",
     "title": "食事の感想",
     "description": "感想を伝える",
-    "tags": ["restaurant"],
+    "tags": [
+      "restaurant"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "How is your meal?",                       "vi": "Món ăn của bạn thế nào?",            "ja": "お食事はいかがですか？" },
-      { "speaker": "B", "en": "It's delicious. I really love it.",       "vi": "Rất ngon. Tôi thực sự thích.",       "ja": "とても美味しいです。気に入りました。" },
-      { "speaker": "A", "en": "Would you like dessert?",                 "vi": "Bạn có muốn dùng tráng miệng không?","ja": "デザートはいかがですか？" },
-      { "speaker": "B", "en": "Yes, what do you recommend?",             "vi": "Vâng, bạn gợi ý gì?",                "ja": "はい、おすすめは何ですか？" }
+      {
+        "speaker": "A",
+        "en": "How is your meal?",
+        "vi": "Món ăn của bạn thế nào?",
+        "ja": "お食事はいかがですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "It's delicious. I really love it.",
+        "vi": "Rất ngon. Tôi thực sự thích.",
+        "ja": "とても美味しいです。気に入りました。"
+      },
+      {
+        "speaker": "A",
+        "en": "Would you like dessert?",
+        "vi": "Bạn có muốn dùng tráng miệng không?",
+        "ja": "デザートはいかがですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes, what do you recommend?",
+        "vi": "Vâng, bạn gợi ý gì?",
+        "ja": "はい、おすすめは何ですか？"
+      }
     ]
   },
   {
-    "id": "s025", "phase": 1, "order": 25, "level": "A2",
+    "id": "s025",
+    "phase": 1,
+    "order": 25,
+    "level": "A2",
     "title": "招待する",
     "description": "誘いをかける",
-    "tags": ["smalltalk"],
+    "tags": [
+      "smalltalk"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Would you like to join us for dinner?",   "vi": "Bạn có muốn đi ăn tối với chúng tôi không?","ja": "一緒に夕食はいかがですか？" },
-      { "speaker": "B", "en": "I'd love to. What time?",                 "vi": "Tôi rất muốn. Mấy giờ vậy?",         "ja": "ぜひ。何時ですか？" },
-      { "speaker": "A", "en": "How about seven pm?",                     "vi": "Bảy giờ tối được không?",            "ja": "夜七時はどうですか？" },
-      { "speaker": "B", "en": "Perfect. Where shall we meet?",           "vi": "Hoàn hảo. Chúng ta gặp nhau ở đâu?", "ja": "ちょうどいいです。どこで会いますか？" }
+      {
+        "speaker": "A",
+        "en": "Would you like to join us for dinner?",
+        "vi": "Bạn có muốn đi ăn tối với chúng tôi không?",
+        "ja": "一緒に夕食はいかがですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "I'd love to. What time?",
+        "vi": "Tôi rất muốn. Mấy giờ vậy?",
+        "ja": "ぜひ。何時ですか？"
+      },
+      {
+        "speaker": "A",
+        "en": "How about seven pm?",
+        "vi": "Bảy giờ tối được không?",
+        "ja": "夜七時はどうですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Perfect. Where shall we meet?",
+        "vi": "Hoàn hảo. Chúng ta gặp nhau ở đâu?",
+        "ja": "ちょうどいいです。どこで会いますか？"
+      }
     ]
   },
   {
-    "id": "s026", "phase": 1, "order": 26, "level": "A2",
+    "id": "s026",
+    "phase": 1,
+    "order": 26,
+    "level": "A2",
     "title": "招待を断る",
     "description": "丁寧に断る",
-    "tags": ["politeness"],
+    "tags": [
+      "politeness"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Can you come to the party tomorrow?",     "vi": "Bạn đến dự tiệc ngày mai được không?","ja": "明日のパーティーに来られますか？" },
-      { "speaker": "B", "en": "I'm sorry, I have other plans.",          "vi": "Xin lỗi, tôi có kế hoạch khác.",     "ja": "すみません、予定があって。" },
-      { "speaker": "A", "en": "That's a shame. Maybe next time?",        "vi": "Tiếc quá. Lần sau nhé?",             "ja": "残念ですね。また今度？" },
-      { "speaker": "B", "en": "Definitely, I'd like that.",              "vi": "Chắc chắn, tôi sẽ rất vui.",         "ja": "ぜひ、お願いします。" }
+      {
+        "speaker": "A",
+        "en": "Can you come to the party tomorrow?",
+        "vi": "Bạn đến dự tiệc ngày mai được không?",
+        "ja": "明日のパーティーに来られますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm sorry, I have other plans.",
+        "vi": "Xin lỗi, tôi có kế hoạch khác.",
+        "ja": "すみません、予定があって。"
+      },
+      {
+        "speaker": "A",
+        "en": "That's a shame. Maybe next time?",
+        "vi": "Tiếc quá. Lần sau nhé?",
+        "ja": "残念ですね。また今度？"
+      },
+      {
+        "speaker": "B",
+        "en": "Definitely, I'd like that.",
+        "vi": "Chắc chắn, tôi sẽ rất vui.",
+        "ja": "ぜひ、お願いします。"
+      }
     ]
   },
   {
-    "id": "s027", "phase": 1, "order": 27, "level": "A2",
+    "id": "s027",
+    "phase": 1,
+    "order": 27,
+    "level": "A2",
     "title": "約束をする",
     "description": "予定を決める",
-    "tags": ["smalltalk"],
+    "tags": [
+      "smalltalk"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Are you free on Saturday?",               "vi": "Thứ bảy bạn rảnh không?",            "ja": "土曜日は空いていますか？" },
-      { "speaker": "B", "en": "Yes, what's up?",                         "vi": "Có, có chuyện gì thế?",              "ja": "はい、どうしました？" },
-      { "speaker": "A", "en": "Want to go see a movie?",                 "vi": "Đi xem phim không?",                 "ja": "映画を観に行きませんか？" },
-      { "speaker": "B", "en": "Sounds great. What time?",                "vi": "Nghe hay đấy. Mấy giờ?",             "ja": "いいですね。何時に？" }
+      {
+        "speaker": "A",
+        "en": "Are you free on Saturday?",
+        "vi": "Thứ bảy bạn rảnh không?",
+        "ja": "土曜日は空いていますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes, what's up?",
+        "vi": "Có, có chuyện gì thế?",
+        "ja": "はい、どうしました？"
+      },
+      {
+        "speaker": "A",
+        "en": "Want to go see a movie?",
+        "vi": "Đi xem phim không?",
+        "ja": "映画を観に行きませんか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Sounds great. What time?",
+        "vi": "Nghe hay đấy. Mấy giờ?",
+        "ja": "いいですね。何時に？"
+      }
     ]
   },
   {
-    "id": "s028", "phase": 1, "order": 28, "level": "A2",
+    "id": "s028",
+    "phase": 1,
+    "order": 28,
+    "level": "A2",
     "title": "待ち合わせ",
     "description": "待ち合わせ場所を決める",
-    "tags": ["smalltalk"],
+    "tags": [
+      "smalltalk"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Where shall we meet?",                    "vi": "Chúng ta gặp nhau ở đâu?",           "ja": "どこで待ち合わせますか？" },
-      { "speaker": "B", "en": "Let's meet at the station.",              "vi": "Gặp ở ga nhé.",                      "ja": "駅で会いましょう。" },
-      { "speaker": "A", "en": "Which exit?",                             "vi": "Cửa nào?",                           "ja": "どの出口で？" },
-      { "speaker": "B", "en": "The east exit at six pm.",                "vi": "Cửa phía đông, sáu giờ tối.",         "ja": "東口で六時に。" }
+      {
+        "speaker": "A",
+        "en": "Where shall we meet?",
+        "vi": "Chúng ta gặp nhau ở đâu?",
+        "ja": "どこで待ち合わせますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Let's meet at the station.",
+        "vi": "Gặp ở ga nhé.",
+        "ja": "駅で会いましょう。"
+      },
+      {
+        "speaker": "A",
+        "en": "Which exit?",
+        "vi": "Cửa nào?",
+        "ja": "どの出口で？"
+      },
+      {
+        "speaker": "B",
+        "en": "The east exit at six pm.",
+        "vi": "Cửa phía đông, sáu giờ tối.",
+        "ja": "東口で六時に。"
+      }
     ]
   },
   {
-    "id": "s029", "phase": 1, "order": 29, "level": "A2",
+    "id": "s029",
+    "phase": 1,
+    "order": 29,
+    "level": "A2",
     "title": "プレゼントを贈る",
     "description": "贈り物を渡す表現",
-    "tags": ["smalltalk"],
+    "tags": [
+      "smalltalk"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "This is a small gift for you.",           "vi": "Đây là món quà nhỏ tặng bạn.",       "ja": "これ、ささやかなプレゼントです。" },
-      { "speaker": "B", "en": "Wow, thank you so much! Can I open it?",  "vi": "Wow, cảm ơn bạn nhiều! Tôi mở được không?","ja": "わあ、本当にありがとう！開けてもいい？" },
-      { "speaker": "A", "en": "Of course, please do.",                   "vi": "Tất nhiên, mở đi.",                  "ja": "もちろん、どうぞ。" },
-      { "speaker": "B", "en": "It's lovely. I'll cherish it.",           "vi": "Đẹp quá. Tôi sẽ trân trọng nó.",     "ja": "素敵です。大切にします。" }
+      {
+        "speaker": "A",
+        "en": "This is a small gift for you.",
+        "vi": "Đây là món quà nhỏ tặng bạn.",
+        "ja": "これ、ささやかなプレゼントです。"
+      },
+      {
+        "speaker": "B",
+        "en": "Wow, thank you so much! Can I open it?",
+        "vi": "Wow, cảm ơn bạn nhiều! Tôi mở được không?",
+        "ja": "わあ、本当にありがとう！開けてもいい？"
+      },
+      {
+        "speaker": "A",
+        "en": "Of course, please do.",
+        "vi": "Tất nhiên, mở đi.",
+        "ja": "もちろん、どうぞ。"
+      },
+      {
+        "speaker": "B",
+        "en": "It's lovely. I'll cherish it.",
+        "vi": "Đẹp quá. Tôi sẽ trân trọng nó.",
+        "ja": "素敵です。大切にします。"
+      }
     ]
   },
   {
-    "id": "s030", "phase": 1, "order": 30, "level": "A2",
+    "id": "s030",
+    "phase": 1,
+    "order": 30,
+    "level": "A2",
     "title": "感謝のメッセージ",
     "description": "改まったお礼",
-    "tags": ["politeness"],
+    "tags": [
+      "politeness"
+    ],
     "dialogue": [
-      { "speaker": "A", "en": "Thank you for everything you've done.",   "vi": "Cảm ơn bạn vì tất cả những gì đã làm.","ja": "色々してくださって、ありがとうございました。" },
-      { "speaker": "B", "en": "It was my pleasure.",                     "vi": "Đó là vinh dự của tôi.",             "ja": "とんでもないです。" },
-      { "speaker": "A", "en": "I really appreciate your kindness.",      "vi": "Tôi thực sự trân trọng lòng tốt của bạn.","ja": "ご親切に本当に感謝しています。" },
-      { "speaker": "B", "en": "I'm just glad I could help.",             "vi": "Tôi chỉ vui vì có thể giúp được.",   "ja": "お役に立ててよかったです。" }
+      {
+        "speaker": "A",
+        "en": "Thank you for everything you've done.",
+        "vi": "Cảm ơn bạn vì tất cả những gì đã làm.",
+        "ja": "色々してくださって、ありがとうございました。"
+      },
+      {
+        "speaker": "B",
+        "en": "It was my pleasure.",
+        "vi": "Đó là vinh dự của tôi.",
+        "ja": "とんでもないです。"
+      },
+      {
+        "speaker": "A",
+        "en": "I really appreciate your kindness.",
+        "vi": "Tôi thực sự trân trọng lòng tốt của bạn.",
+        "ja": "ご親切に本当に感謝しています。"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm just glad I could help.",
+        "vi": "Tôi chỉ vui vì có thể giúp được.",
+        "ja": "お役に立ててよかったです。"
+      }
+    ]
+  },
+  {
+    "id": "s031",
+    "phase": 2,
+    "order": 31,
+    "level": "A2",
+    "title": "入国審査",
+    "description": "空港のイミグレーションで実際に聞かれること",
+    "tags": [
+      "travel",
+      "airport",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "What's the purpose of your visit?",
+        "vi": "Anh đến đây với mục đích gì?",
+        "ja": "訪問の目的は何ですか？",
+        "note": "審査官はほぼこの一文。教科書の Why did you come here? はまず使われません。"
+      },
+      {
+        "speaker": "B",
+        "en": "Just sightseeing.",
+        "vi": "Tôi đi du lịch thôi.",
+        "ja": "観光です。",
+        "note": "just / thôi は「〜なだけ」。短く言い切るのが自然で、余計な説明は不要です。"
+      },
+      {
+        "speaker": "A",
+        "en": "How long are you staying?",
+        "vi": "Anh ở lại bao lâu?",
+        "ja": "どのくらい滞在しますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "About ten days.",
+        "vi": "Khoảng mười ngày.",
+        "ja": "10日ほどです。",
+        "note": "About / Khoảng を付けると角が立ちません。数字だけだと事務的に響きます。"
+      },
+      {
+        "speaker": "A",
+        "en": "Where are you staying?",
+        "vi": "Anh ở khách sạn nào?",
+        "ja": "どこに泊まりますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "At a hotel in the old quarter. Here's the booking.",
+        "vi": "Ở khách sạn khu phố cổ. Đây là đặt phòng của tôi.",
+        "ja": "旧市街のホテルです。これが予約です。",
+        "note": "Here's ... と物を差し出すのが定型。I have a booking より自然です。"
+      }
+    ]
+  },
+  {
+    "id": "s032",
+    "phase": 2,
+    "order": 32,
+    "level": "A2",
+    "title": "配車アプリで乗る",
+    "description": "Grab などで運転手と落ち合うときの短いやりとり",
+    "tags": [
+      "travel",
+      "taxi",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Hi, are you Minh? I'm the one who booked.",
+        "vi": "Anh ơi, anh Minh phải không? Em đặt xe.",
+        "ja": "こんにちは、ミンさんですか？予約した者です。",
+        "note": "ベトナム語で人に呼びかける時は必ず Anh ơi! / Chị ơi!。この ơi が無いと呼びかけとして不自然です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Yes. Hop in.",
+        "vi": "Đúng rồi. Lên xe đi.",
+        "ja": "そうです。乗ってください。",
+        "note": "Hop in は「さっと乗って」。Please get in the car は硬すぎます。"
+      },
+      {
+        "speaker": "A",
+        "en": "Could you turn the AC up a bit?",
+        "vi": "Anh mở máy lạnh to hơn chút được không?",
+        "ja": "エアコンを少し強くしてもらえますか？",
+        "note": "a bit / chút を入れるだけで依頼が柔らかくなります。ベトナム語の ...được không? は依頼の万能形です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure thing.",
+        "vi": "Được chứ.",
+        "ja": "もちろん。",
+        "note": "Sure thing はカジュアルな了承。Of course より軽い響きです。"
+      },
+      {
+        "speaker": "A",
+        "en": "How long does it take?",
+        "vi": "Đi bao lâu ạ?",
+        "ja": "どのくらいかかりますか？",
+        "note": "所要時間は How long does it take? が定型。ベトナム語の文末 ạ は敬意を添える語で、年上には付けると印象が良いです。"
+      },
+      {
+        "speaker": "B",
+        "en": "Twenty minutes, give or take.",
+        "vi": "Khoảng hai mươi phút.",
+        "ja": "だいたい20分です。",
+        "note": "give or take は「前後」。ネイティブが数字の後によく足します。"
+      }
+    ]
+  },
+  {
+    "id": "s033",
+    "phase": 2,
+    "order": 33,
+    "level": "A2",
+    "title": "屋台・ローカル食堂",
+    "description": "看板もメニューも無い店での注文",
+    "tags": [
+      "travel",
+      "restaurant",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Excuse me, what do you have today?",
+        "vi": "Chị ơi, hôm nay có món gì?",
+        "ja": "すみません、今日は何がありますか？",
+        "note": "屋台にメニューは無いことが多く、まずこれを聞きます。"
+      },
+      {
+        "speaker": "B",
+        "en": "Pho and bun cha.",
+        "vi": "Có phở với bún chả.",
+        "ja": "フォーとブンチャーがあります。"
+      },
+      {
+        "speaker": "A",
+        "en": "I'll take the pho, please.",
+        "vi": "Cho em một bát phở.",
+        "ja": "フォーをお願いします。",
+        "note": "I'll take ... が最も自然な注文。I want は子どもっぽく響きます。ベトナム語の Cho em... は「私に〜ください」の定型です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Anything to drink?",
+        "vi": "Uống gì không?",
+        "ja": "飲み物はいかがですか？"
+      },
+      {
+        "speaker": "A",
+        "en": "Just water, thanks.",
+        "vi": "Cho em nước lọc thôi.",
+        "ja": "お水だけで大丈夫です。",
+        "note": "Just ... , thanks は「〜だけで結構です」。断りと注文を同時にこなす便利な形です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Check, please!",
+        "vi": "Chị ơi, tính tiền!",
+        "ja": "お会計お願いします！",
+        "note": "ベトナムでは Tính tiền! と声を掛けるのが普通。伝票を待つ習慣はありません。"
+      }
+    ]
+  },
+  {
+    "id": "s034",
+    "phase": 2,
+    "order": 34,
+    "level": "B1",
+    "title": "市場で値段交渉",
+    "description": "観光地価格から下げてもらう実際の流れ",
+    "tags": [
+      "travel",
+      "shopping",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "How much is this?",
+        "vi": "Cái này bao nhiêu tiền?",
+        "ja": "これはいくらですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Five hundred thousand.",
+        "vi": "Năm trăm nghìn.",
+        "ja": "50万ドンです。"
+      },
+      {
+        "speaker": "A",
+        "en": "That's a bit steep.",
+        "vi": "Đắt quá!",
+        "ja": "ちょっと高いですね。",
+        "note": "a bit steep は「ちょっと高い」の婉曲。That's expensive! より角が立ちません。ベトナム語では Đắt quá! とはっきり言うのが普通です。"
+      },
+      {
+        "speaker": "B",
+        "en": "How much do you want to pay?",
+        "vi": "Anh trả bao nhiêu?",
+        "ja": "いくらなら買いますか？"
+      },
+      {
+        "speaker": "A",
+        "en": "Could you do three hundred?",
+        "vi": "Ba trăm được không?",
+        "ja": "30万でどうですか？",
+        "note": "Could you do 〜? は値段交渉の定番。金額だけ言うより丁寧に響きます。"
+      },
+      {
+        "speaker": "B",
+        "en": "Four hundred. That's my best price.",
+        "vi": "Bốn trăm. Giá chót rồi.",
+        "ja": "40万。これが限界です。",
+        "note": "That's my best price / Giá chót はどちらも「これ以上下げられない」の決まり文句です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Alright, I'll take it.",
+        "vi": "Thôi được, em lấy.",
+        "ja": "わかりました、買います。",
+        "note": "I'll take it が「買います」の定型。I will buy it とはあまり言いません。"
+      }
+    ]
+  },
+  {
+    "id": "s035",
+    "phase": 2,
+    "order": 35,
+    "level": "A2",
+    "title": "薬局で症状を伝える",
+    "description": "病院に行くほどではない不調を薬局で相談する",
+    "tags": [
+      "travel",
+      "health",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "I've got an upset stomach.",
+        "vi": "Em bị đau bụng.",
+        "ja": "お腹の調子が悪いんです。",
+        "note": "I've got 〜 は体調を言う定型。I have a stomachache でも通じますが、口語では I've got が優勢です。ベトナム語の bị は好ましくない状態に使う語です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Since when?",
+        "vi": "Bị từ khi nào?",
+        "ja": "いつからですか？",
+        "note": "Since when? の二語だけで「いつから？」。フルセンテンスは不要です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Since last night.",
+        "vi": "Từ tối qua.",
+        "ja": "昨日の夜からです。"
+      },
+      {
+        "speaker": "B",
+        "en": "Do you have a fever?",
+        "vi": "Có sốt không?",
+        "ja": "熱はありますか？"
+      },
+      {
+        "speaker": "A",
+        "en": "No, just the stomach.",
+        "vi": "Không, chỉ đau bụng thôi.",
+        "ja": "いえ、お腹だけです。"
+      },
+      {
+        "speaker": "B",
+        "en": "Take this after meals.",
+        "vi": "Uống cái này sau khi ăn.",
+        "ja": "食後にこれを飲んでください。",
+        "note": "薬を飲むは take。drink medicine とは言いません。ベトナム語では逆に uống（飲む）を使います。"
+      }
+    ]
+  },
+  {
+    "id": "s036",
+    "phase": 2,
+    "order": 36,
+    "level": "A2",
+    "title": "SIM カードを買う",
+    "description": "到着後すぐに必要になる場面",
+    "tags": [
+      "travel",
+      "shopping",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "I'm looking for a SIM card.",
+        "vi": "Em muốn mua sim.",
+        "ja": "SIM カードを探しています。",
+        "note": "I'm looking for 〜 は店で欲しい物を伝える定型。I want to buy より柔らかい響きです。"
+      },
+      {
+        "speaker": "B",
+        "en": "How many days?",
+        "vi": "Dùng mấy ngày?",
+        "ja": "何日使いますか？"
+      },
+      {
+        "speaker": "A",
+        "en": "Ten days. Data only is fine.",
+        "vi": "Mười ngày. Chỉ cần data thôi.",
+        "ja": "10日です。データだけで大丈夫です。",
+        "note": "〜 is fine は「〜で十分」。要望を控えめに伝えられます。"
+      },
+      {
+        "speaker": "B",
+        "en": "This one's unlimited. Two hundred thousand.",
+        "vi": "Cái này không giới hạn. Hai trăm nghìn.",
+        "ja": "これは無制限で20万ドンです。"
+      },
+      {
+        "speaker": "A",
+        "en": "Could you set it up for me?",
+        "vi": "Anh cài giúp em được không?",
+        "ja": "設定してもらえますか？",
+        "note": "set it up for me は「設定してもらう」。ベトナム語の giúp（手伝う）を動詞に添えると依頼になります。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure, give me your phone.",
+        "vi": "Được, đưa máy đây.",
+        "ja": "いいですよ、電話を貸してください。"
+      }
+    ]
+  },
+  {
+    "id": "s037",
+    "phase": 2,
+    "order": 37,
+    "level": "A2",
+    "title": "道を尋ねる（現地流）",
+    "description": "地図が読めない場面での実際のやりとり",
+    "tags": [
+      "travel",
+      "directions",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Excuse me, how do I get to the station?",
+        "vi": "Chị ơi, ga tàu đi lối nào ạ?",
+        "ja": "すみません、駅へはどう行きますか？",
+        "note": "How do I get to 〜? が最も自然。Where is 〜? は場所を聞くだけで、行き方は教えてもらえません。"
+      },
+      {
+        "speaker": "B",
+        "en": "Go straight and turn left at the lights.",
+        "vi": "Đi thẳng, đến đèn đỏ thì rẽ trái.",
+        "ja": "まっすぐ行って、信号を左に曲がってください。",
+        "note": "北部は rẽ trái、南部は quẹo trái。どちらも「左折」です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Is it far?",
+        "vi": "Có xa không ạ?",
+        "ja": "遠いですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Nah, about five minutes on foot.",
+        "vi": "Không xa, đi bộ khoảng năm phút.",
+        "ja": "いえ、歩いて5分くらいです。",
+        "note": "Nah は No のくだけた形。会話では頻繁に使われます。"
+      },
+      {
+        "speaker": "A",
+        "en": "Got it. Thanks a lot.",
+        "vi": "Em hiểu rồi. Cảm ơn chị nhiều.",
+        "ja": "わかりました。ありがとうございます。",
+        "note": "Got it. は「わかりました」の万能表現。I understood より自然です。"
+      }
+    ]
+  },
+  {
+    "id": "s038",
+    "phase": 2,
+    "order": 38,
+    "level": "B1",
+    "title": "ホテルの不具合を伝える",
+    "description": "エアコンが動かない・お湯が出ないなど",
+    "tags": [
+      "travel",
+      "hotel",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Hi, the AC in my room isn't working.",
+        "vi": "Chào chị, máy lạnh phòng em không chạy.",
+        "ja": "エアコンが動かないんですが。",
+        "note": "isn't working が「動かない」の定型。is broken は「壊れている」と断定が強くなります。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sorry about that. What's your room number?",
+        "vi": "Xin lỗi anh. Phòng số mấy ạ?",
+        "ja": "申し訳ありません。お部屋番号は？",
+        "note": "Sorry about that. は軽い謝罪の定型句です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Room 302. Also, there's no hot water.",
+        "vi": "Phòng 302. Với lại không có nước nóng.",
+        "ja": "302号室です。あと、お湯も出ません。",
+        "note": "Also / Với lại で用件を足します。there's no 〜 は「〜が出ない・無い」に広く使えます。"
+      },
+      {
+        "speaker": "B",
+        "en": "I'll send someone right up.",
+        "vi": "Em cho người lên ngay.",
+        "ja": "すぐに人を向かわせます。",
+        "note": "right up / ngay は「すぐに」。immediately より口語的です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Appreciate it.",
+        "vi": "Cảm ơn chị nhé.",
+        "ja": "助かります。",
+        "note": "Appreciate it. は Thank you より少しくだけた感謝。ベトナム語の文末 nhé は親しみを添えます。"
+      }
+    ]
+  },
+  {
+    "id": "s039",
+    "phase": 2,
+    "order": 39,
+    "level": "A2",
+    "title": "カフェで長居する",
+    "description": "Wi-Fi とコンセントを確保する会話",
+    "tags": [
+      "travel",
+      "cafe",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Can I get a Vietnamese iced coffee?",
+        "vi": "Cho em một cà phê sữa đá.",
+        "ja": "ベトナムコーヒー（アイス）をください。",
+        "note": "Can I get 〜? はカフェでの最も一般的な注文形です。cà phê sữa đá は練乳入りアイスコーヒーで、現地で最もよく頼まれる一杯です。"
+      },
+      {
+        "speaker": "B",
+        "en": "For here or to go?",
+        "vi": "Uống ở đây hay mang đi?",
+        "ja": "店内ですか、お持ち帰りですか？",
+        "note": "For here or to go? は必ず聞かれる定型句。丸ごと覚えてください。"
+      },
+      {
+        "speaker": "A",
+        "en": "For here, thanks.",
+        "vi": "Uống ở đây ạ.",
+        "ja": "店内で。"
+      },
+      {
+        "speaker": "A",
+        "en": "What's the Wi-Fi password?",
+        "vi": "Mật khẩu wifi là gì ạ?",
+        "ja": "Wi-Fi のパスワードは何ですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "It's on the receipt.",
+        "vi": "Có trên hóa đơn ạ.",
+        "ja": "レシートに書いてあります。"
+      },
+      {
+        "speaker": "A",
+        "en": "Is it okay if I sit here for a while?",
+        "vi": "Em ngồi đây lâu một chút được không?",
+        "ja": "少し長めに座っても大丈夫ですか？",
+        "note": "Is it okay if I 〜? は許可を求める柔らかい形。Can I 〜? より配慮が伝わります。"
+      }
+    ]
+  },
+  {
+    "id": "s040",
+    "phase": 2,
+    "order": 40,
+    "level": "B1",
+    "title": "予約のトラブル",
+    "description": "予約が通っていなかったときの交渉",
+    "tags": [
+      "travel",
+      "hotel",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "I have a reservation under Nakamura.",
+        "vi": "Em có đặt phòng tên Nakamura.",
+        "ja": "中村で予約しています。",
+        "note": "under + 名前 が予約名の言い方。My name is 〜 では予約の話だと伝わりません。"
+      },
+      {
+        "speaker": "B",
+        "en": "I don't see it in the system.",
+        "vi": "Em không thấy trong hệ thống.",
+        "ja": "システムに見当たりません。"
+      },
+      {
+        "speaker": "A",
+        "en": "That's strange. I got a confirmation email.",
+        "vi": "Lạ nhỉ. Em có email xác nhận mà.",
+        "ja": "おかしいですね。確認メールが来ています。",
+        "note": "That's strange. は相手を責めずに問題を指摘する言い方です。ベトナム語の文末 mà は「〜なんですけど」と軽い反論を表します。"
+      },
+      {
+        "speaker": "B",
+        "en": "Could I see it?",
+        "vi": "Cho em xem được không?",
+        "ja": "見せていただけますか？"
+      },
+      {
+        "speaker": "A",
+        "en": "Sure, here you go.",
+        "vi": "Đây ạ.",
+        "ja": "はい、どうぞ。",
+        "note": "Here you go. は物を渡すときの定番。Here it is. も可ですが、こちらが最頻出です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Ah, it's under a different date. Let me fix it.",
+        "vi": "À, ngày khác rồi. Để em sửa.",
+        "ja": "日付が違っていました。直します。",
+        "note": "Let me 〜 は「私が〜しますね」。I will do it より申し出として自然です。"
+      }
+    ]
+  },
+  {
+    "id": "s041",
+    "phase": 2,
+    "order": 41,
+    "level": "A2",
+    "title": "ご近所の立ち話",
+    "description": "顔を合わせたときの数十秒の会話",
+    "tags": [
+      "life",
+      "smalltalk",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Hey, how's it going?",
+        "vi": "Anh ơi, dạo này thế nào?",
+        "ja": "やあ、調子はどう？",
+        "note": "How's it going? は最も一般的な挨拶。返事は Good. で十分で、本当に近況を語る必要はありません。"
+      },
+      {
+        "speaker": "B",
+        "en": "Not bad. You?",
+        "vi": "Cũng bình thường. Còn anh?",
+        "ja": "まあまあかな。そっちは？",
+        "note": "Not bad. は「悪くない＝まあまあ」。控えめで使いやすい返答です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Have you eaten yet?",
+        "vi": "Anh ăn cơm chưa?",
+        "ja": "ご飯食べた？",
+        "note": "ベトナムでは Ăn cơm chưa? が挨拶そのもの。本当に食事に誘っているわけではなく、日本語の「どうも」に近い感覚です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, just now.",
+        "vi": "Ăn rồi, vừa xong.",
+        "ja": "うん、さっき食べた。"
+      },
+      {
+        "speaker": "A",
+        "en": "Alright, catch you later.",
+        "vi": "Thôi em đi nhé.",
+        "ja": "じゃあ、また。",
+        "note": "Catch you later. は親しい間柄の別れ際。Goodbye は少し硬い響きです。"
+      }
+    ]
+  },
+  {
+    "id": "s042",
+    "phase": 2,
+    "order": 42,
+    "level": "B1",
+    "title": "大家さんに修理を頼む",
+    "description": "水漏れ・故障を伝えて直してもらう",
+    "tags": [
+      "life",
+      "housing",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Sorry to bother you, but the sink is leaking.",
+        "vi": "Xin lỗi làm phiền chị, bồn rửa bị rò nước.",
+        "ja": "お手数ですが、流しから水漏れしています。",
+        "note": "Sorry to bother you, but 〜 は言いにくい要件の前置き。これがあるだけで印象が変わります。"
+      },
+      {
+        "speaker": "B",
+        "en": "Since when?",
+        "vi": "Bị từ bao giờ?",
+        "ja": "いつからですか？"
+      },
+      {
+        "speaker": "A",
+        "en": "It started yesterday and it's getting worse.",
+        "vi": "Từ hôm qua, mà càng ngày càng nặng.",
+        "ja": "昨日からで、だんだんひどくなっています。",
+        "note": "it's getting worse は状況の悪化を伝える定型。ベトナム語の càng ngày càng 〜 は「日に日に〜」です。"
+      },
+      {
+        "speaker": "B",
+        "en": "I'll get a plumber over tomorrow.",
+        "vi": "Mai chị gọi thợ đến.",
+        "ja": "明日、業者を呼びます。"
+      },
+      {
+        "speaker": "A",
+        "en": "Would it be possible to come today?",
+        "vi": "Hôm nay được không ạ?",
+        "ja": "今日でも可能でしょうか？",
+        "note": "Would it be possible to 〜? は最も丁寧な依頼。相手に断る余地を残す言い方です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Let me see what I can do.",
+        "vi": "Để chị xem sao.",
+        "ja": "なんとかしてみます。",
+        "note": "Let me see what I can do. は「確約はしないが努力する」。断りにも承諾にもなる便利な返答です。"
+      }
+    ]
+  },
+  {
+    "id": "s043",
+    "phase": 2,
+    "order": 43,
+    "level": "A2",
+    "title": "荷物を受け取る",
+    "description": "宅配・フードデリバリーの短いやりとり",
+    "tags": [
+      "life",
+      "delivery",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "I'm downstairs with your package.",
+        "vi": "Em đang ở dưới, có hàng của anh.",
+        "ja": "下に荷物を持って来ています。"
+      },
+      {
+        "speaker": "B",
+        "en": "Be right down.",
+        "vi": "Em xuống ngay.",
+        "ja": "すぐ降ります。",
+        "note": "Be right down. は主語を省いた口語。I will go down now とは言いません。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sorry to keep you waiting.",
+        "vi": "Xin lỗi để anh đợi.",
+        "ja": "お待たせしてすみません。",
+        "note": "Sorry to keep you waiting. は待たせたときの定型句です。"
+      },
+      {
+        "speaker": "A",
+        "en": "No worries. Sign here, please.",
+        "vi": "Không sao. Anh ký vào đây.",
+        "ja": "大丈夫です。ここにサインを。",
+        "note": "No worries. は「気にしないで」。It's okay より軽く自然です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Can I pay in cash?",
+        "vi": "Trả tiền mặt được không?",
+        "ja": "現金で払えますか？"
+      },
+      {
+        "speaker": "A",
+        "en": "Sure. Keep the change.",
+        "vi": "Được. Khỏi thối lại.",
+        "ja": "はい。おつりは結構です。",
+        "note": "Keep the change. は「おつりは取っておいて」の決まり文句です。"
+      }
+    ]
+  },
+  {
+    "id": "s044",
+    "phase": 2,
+    "order": 44,
+    "level": "A2",
+    "title": "美容院で注文する",
+    "description": "切りすぎを防ぐための言い方",
+    "tags": [
+      "life",
+      "service",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "What are we doing today?",
+        "vi": "Hôm nay anh cắt kiểu gì?",
+        "ja": "今日はどうしますか？",
+        "note": "美容師の決まり文句。we を使うのが英語らしい言い方です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Just a trim, please.",
+        "vi": "Cắt ngắn một chút thôi.",
+        "ja": "少し整えるだけでお願いします。",
+        "note": "Just a trim は「整える程度」。切りすぎを防ぐ最重要フレーズです。"
+      },
+      {
+        "speaker": "B",
+        "en": "Take off about two centimeters.",
+        "vi": "Cắt khoảng hai phân.",
+        "ja": "2センチくらい切ってください。",
+        "note": "take off 〜 が「〜切る」。cut より自然に響きます。"
+      },
+      {
+        "speaker": "A",
+        "en": "How about the sides?",
+        "vi": "Hai bên thì sao?",
+        "ja": "横はどうしますか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Leave them as they are.",
+        "vi": "Để nguyên hai bên.",
+        "ja": "そのままにしてください。",
+        "note": "Leave it as it is. は「そのままで」。触ってほしくない箇所に使えます。"
+      },
+      {
+        "speaker": "A",
+        "en": "Like this?",
+        "vi": "Vậy được chưa?",
+        "ja": "こんな感じで？"
+      },
+      {
+        "speaker": "B",
+        "en": "That's perfect, thanks.",
+        "vi": "Được rồi, cảm ơn anh.",
+        "ja": "ちょうどいいです、ありがとう。",
+        "note": "Được rồi は「もう十分」。ベトナム語で「これでOK」を伝える最頻出表現です。"
+      }
+    ]
+  },
+  {
+    "id": "s045",
+    "phase": 2,
+    "order": 45,
+    "level": "A2",
+    "title": "気軽に誘う",
+    "description": "友人をカジュアルに誘うときの言い方",
+    "tags": [
+      "life",
+      "smalltalk",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Are you free tonight?",
+        "vi": "Tối nay anh rảnh không?",
+        "ja": "今夜ひま？",
+        "note": "free が「予定が空いている」。Do you have time? は「時間ある？」で少しニュアンスが違います。"
+      },
+      {
+        "speaker": "B",
+        "en": "I think so. What's up?",
+        "vi": "Chắc rảnh. Có gì không?",
+        "ja": "たぶん。どうしたの？",
+        "note": "What's up? は「どうしたの？」。誘いの意図を尋ねる自然な返しです。"
+      },
+      {
+        "speaker": "A",
+        "en": "Want to grab a bite?",
+        "vi": "Đi ăn gì không?",
+        "ja": "何か食べに行かない？",
+        "note": "grab a bite は「軽く食べる」。Let's eat dinner より誘いのハードルが低い表現です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure, why not.",
+        "vi": "Ừ, đi thì đi.",
+        "ja": "いいね、行こう。",
+        "note": "Why not. は「断る理由がない＝いいね」。軽い快諾です。"
+      },
+      {
+        "speaker": "A",
+        "en": "I'll swing by around seven.",
+        "vi": "Khoảng bảy giờ em qua đón.",
+        "ja": "7時ごろ寄るね。",
+        "note": "swing by は「ちょっと立ち寄る」。come to your place より軽い響きです。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sounds good.",
+        "vi": "Ok nhé.",
+        "ja": "了解。",
+        "note": "Sounds good. は同意の万能表現。迷ったらこれで通じます。"
+      }
+    ]
+  },
+  {
+    "id": "s046",
+    "phase": 2,
+    "order": 46,
+    "level": "B1",
+    "title": "やんわり断る",
+    "description": "角を立てずに誘いを断る",
+    "tags": [
+      "life",
+      "politeness",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "We're going out for drinks. Join us?",
+        "vi": "Bọn em đi nhậu, anh đi không?",
+        "ja": "飲みに行くんだけど、来る？"
+      },
+      {
+        "speaker": "B",
+        "en": "I'd love to, but I've got an early start tomorrow.",
+        "vi": "Em muốn đi lắm, mà mai phải dậy sớm.",
+        "ja": "行きたいんだけど、明日早いんだ。",
+        "note": "I'd love to, but 〜 が断りの黄金パターン。「行きたい気持ちはある」と先に示すのが要点です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Come on, just one drink.",
+        "vi": "Thôi mà, một ly thôi.",
+        "ja": "一杯だけでも。",
+        "note": "Come on は「そう言わずに」。ベトナム語の Thôi mà も同じ役割です。"
+      },
+      {
+        "speaker": "B",
+        "en": "I'll pass this time. Next time for sure.",
+        "vi": "Lần này em xin phép. Lần sau nhé.",
+        "ja": "今回はやめておくね。次は必ず。",
+        "note": "I'll pass this time. は「今回は遠慮する」。No とだけ言うより関係を保てます。"
+      },
+      {
+        "speaker": "A",
+        "en": "Alright, I'll hold you to that.",
+        "vi": "Được, nhớ đấy nhé.",
+        "ja": "わかった、約束だからね。",
+        "note": "I'll hold you to that. は「言ったからね」と冗談めかす表現です。"
+      }
+    ]
+  },
+  {
+    "id": "s047",
+    "phase": 2,
+    "order": 47,
+    "level": "A2",
+    "title": "支払いを分ける",
+    "description": "割り勘・おごりのやりとり",
+    "tags": [
+      "life",
+      "money",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Should we split it?",
+        "vi": "Mình chia đôi nhé?",
+        "ja": "割り勘にする？",
+        "note": "split it が「割り勘」。divide the money とは言いません。"
+      },
+      {
+        "speaker": "B",
+        "en": "No, it's on me today.",
+        "vi": "Thôi, hôm nay em mời.",
+        "ja": "いや、今日は僕がおごるよ。",
+        "note": "It's on me. が「おごる」の定型。ベトナム語の mời は「招く＝おごる」です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Are you sure?",
+        "vi": "Thật không?",
+        "ja": "いいの？"
+      },
+      {
+        "speaker": "B",
+        "en": "Yeah, you got it last time.",
+        "vi": "Ừ, lần trước anh trả rồi mà.",
+        "ja": "うん、前回そっちが出したから。",
+        "note": "you got it last time は「前回は君が払った」。got がそのまま「払った」の意味になります。"
+      },
+      {
+        "speaker": "A",
+        "en": "Thanks, I owe you one.",
+        "vi": "Cảm ơn nhé, lần sau em mời lại.",
+        "ja": "ありがとう、貸しにしとくね。",
+        "note": "I owe you one. は「一つ借りができた」。感謝と次回の約束を同時に表します。"
+      }
+    ]
+  },
+  {
+    "id": "s048",
+    "phase": 2,
+    "order": 48,
+    "level": "A2",
+    "title": "暑さの雑談",
+    "description": "天候の話で場をつなぐ",
+    "tags": [
+      "life",
+      "smalltalk",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "It's boiling today.",
+        "vi": "Hôm nay nóng quá!",
+        "ja": "今日は暑すぎる。",
+        "note": "boiling / freezing は very hot / very cold の口語。ベトナム語の 〜 quá! も「〜すぎる」で日常的に使われます。"
+      },
+      {
+        "speaker": "B",
+        "en": "Tell me about it.",
+        "vi": "Đúng thế!",
+        "ja": "本当にね。",
+        "note": "Tell me about it. は「まったくだよ」という強い共感。直訳の「教えて」ではありません。"
+      },
+      {
+        "speaker": "A",
+        "en": "Is it always like this in May?",
+        "vi": "Tháng năm lúc nào cũng vậy à?",
+        "ja": "5月はいつもこうなんですか？"
+      },
+      {
+        "speaker": "B",
+        "en": "Pretty much. It cools down after the rain.",
+        "vi": "Ừ, mưa xong thì mát hơn.",
+        "ja": "だいたいね。雨が降ると涼しくなるよ。",
+        "note": "Pretty much. は「ほぼそう」。Yes より曖昧で使いやすい返答です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Can't wait.",
+        "vi": "Mong quá.",
+        "ja": "待ち遠しいです。",
+        "note": "Can't wait. は「楽しみ」。I'm looking forward to it の口語版です。"
+      }
+    ]
+  },
+  {
+    "id": "s049",
+    "phase": 2,
+    "order": 49,
+    "level": "A2",
+    "title": "相手を気遣う",
+    "description": "体調や様子を心配して声をかける",
+    "tags": [
+      "life",
+      "politeness",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "You look tired. Are you okay?",
+        "vi": "Trông anh mệt thế. Anh ổn không?",
+        "ja": "疲れてるみたい。大丈夫？",
+        "note": "You look 〜 は見た目から察して声をかける形。相手を気遣う最も自然な入り方です。"
+      },
+      {
+        "speaker": "B",
+        "en": "I'm alright, just didn't sleep much.",
+        "vi": "Em ổn, chỉ là ngủ ít thôi.",
+        "ja": "大丈夫、あまり寝てないだけ。",
+        "note": "just 〜 / chỉ là 〜 thôi で「〜なだけ」と軽く流せます。"
+      },
+      {
+        "speaker": "A",
+        "en": "Get some rest.",
+        "vi": "Anh nghỉ ngơi đi.",
+        "ja": "少し休んで。",
+        "note": "Get some rest. は決まり文句。Please rest とは言いません。"
+      },
+      {
+        "speaker": "B",
+        "en": "I will. Thanks for asking.",
+        "vi": "Vâng. Cảm ơn anh đã hỏi thăm.",
+        "ja": "そうする。気にかけてくれてありがとう。",
+        "note": "Thanks for asking. は気遣いへの返礼。ベトナム語の hỏi thăm は「安否を尋ねる」という専用の語です。"
+      },
+      {
+        "speaker": "A",
+        "en": "Let me know if you need anything.",
+        "vi": "Cần gì thì nói em nhé.",
+        "ja": "何かあったら言ってね。",
+        "note": "Let me know if you need anything. は別れ際の気遣いとして頻繁に使われます。"
+      }
+    ]
+  },
+  {
+    "id": "s050",
+    "phase": 2,
+    "order": 50,
+    "level": "B1",
+    "title": "聞き取れなかったとき",
+    "description": "会話を止めずに聞き返す",
+    "tags": [
+      "life",
+      "communication",
+      "native"
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "en": "Sorry, come again?",
+        "vi": "Dạ? Anh nói lại được không?",
+        "ja": "すみません、もう一度？",
+        "note": "Come again? は「もう一度言って」の口語。Pardon? より自然で、Please say again は不自然です。"
+      },
+      {
+        "speaker": "B",
+        "en": "I said the shop closes at six.",
+        "vi": "Anh bảo là cửa hàng đóng lúc sáu giờ.",
+        "ja": "店は6時に閉まると言いました。"
+      },
+      {
+        "speaker": "A",
+        "en": "Sorry, could you slow down a bit?",
+        "vi": "Anh nói chậm hơn chút được không?",
+        "ja": "少しゆっくり話してもらえますか？",
+        "note": "slow down が「ゆっくり話す」。speak slowly より自然に響きます。"
+      },
+      {
+        "speaker": "B",
+        "en": "Sure. The shop. Closes. At six.",
+        "vi": "Được. Cửa hàng. Đóng cửa. Sáu giờ.",
+        "ja": "いいよ。店は。6時に。閉まる。"
+      },
+      {
+        "speaker": "A",
+        "en": "Got it. So it's already closed?",
+        "vi": "Em hiểu rồi. Vậy đóng rồi à?",
+        "ja": "わかりました。じゃあもう閉まってる？",
+        "note": "So 〜? で理解の確認をします。相手の話を自分の言葉で言い直すのが上達の近道です。"
+      },
+      {
+        "speaker": "B",
+        "en": "Afraid so.",
+        "vi": "Đóng rồi.",
+        "ja": "残念ながらね。",
+        "note": "Afraid so. は「残念ながらそう」。Yes より柔らかく悪い知らせを伝えます。"
+      }
     ]
   }
 ]

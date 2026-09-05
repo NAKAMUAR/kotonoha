@@ -1795,7 +1795,10 @@ async function renderScenarioList(phase) {
       <div class="scenario-num">${String(s.order).padStart(2, '0')}</div>
       <div class="scenario-title">${escapeHtml(s.title)}</div>
       <div class="scenario-desc">${escapeHtml(s.description)}</div>
-      <div class="text-[10px] text-sumi-soft mt-2 font-cormorant tracking-widest">${s.level}</div>
+      <div class="scenario-meta">
+        <span class="font-cormorant tracking-widest">${s.level}</span>
+        ${(s.tags ?? []).includes('native') ? '<span class="scenario-badge">ネイティブ表現</span>' : ''}
+      </div>
     </button>
   `).join('');
 
@@ -1831,6 +1834,7 @@ function renderDialogue(scenario, lang) {
       <div class="dialogue-content">
         <div class="dialogue-target">${escapeHtml(turn[lang] ?? '—')}</div>
         <div class="dialogue-translation">${escapeHtml(turn.ja ?? '')}</div>
+        ${turn.note ? `<div class="dialogue-note">${escapeHtml(turn.note)}</div>` : ''}
       </div>
       <button class="dialogue-tts" data-i="${i}" aria-label="読み上げ">♪</button>
     </div>
