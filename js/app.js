@@ -2,7 +2,7 @@
 // 言の葉 / Kotonoha — メインエントリ
 // Step 1: 画面切り替え骨格
 // Step 2: Firebase 認証 + Firestore ユーザードキュメント連携
-// Step 3: 単語帳（IndexedDB + SM-2 SRS + Firestore 同期）  ← 現在
+// Step 3: 単語帳（IndexedDB + FSRS SRS + Firestore 同期）
 //   AI 連携は Step 4 で接続。
 // =====================================================================
 
@@ -13,6 +13,7 @@ import {
   handleRedirectResult,
   ensureUserDoc,
   authErrorMessage,
+  updateUserProgress,
 } from './firebase-init.js';
 
 import {
@@ -23,7 +24,13 @@ import {
   pullSrsFromFirestore,
   clearLocalSrs,
   getDeck,
+  getAllDeckProgress,
+  getLearnedWordCount,
+  PROGRESS_DECKS,
 } from './vocabulary.js';
+
+import { previewIntervals, QUALITY } from './srs.js';
+import { effectiveStreak, nextStreak, withCompletedScenario } from './progress.js';
 
 import {
   launchProvider,
@@ -199,9 +206,9 @@ async function handleAuthChange(user) {
 
 function applyProgressToUI(progress) {
   if (!progress) return;
-  setText('stat-streak',    progress.streak ?? 0);
+  setText('stat-streak',    effectiveStreak(progress));
   setText('stat-words',     progress.totalWordsLearned ?? 0);
-  setText('stat-scenarios', `${progress.completedScenarios ?? 0}`);
+  setText('stat-scenarios', `${completedScenarioIds().length}`);
   setText('stat-phase',     PHASE_LABELS[progress.currentPhase] ?? '日常');
   if (progress.currentLanguage) vocabState.lang = progress.currentLanguage;
 }
@@ -210,11 +217,92 @@ async function refreshHomeStats() {
   if (!state.isAuthenticated) return;
   try {
     const stats = await getStudyStats(vocabState.lang, vocabState.deck);
-    setText('stat-words', stats.mastered + stats.review);
     setText('due-count',  stats.dueCount);
+    setText('stat-words', await getLearnedWordCount());
+    setText('stat-streak', effectiveStreak(state.userData?.progress));
   } catch (err) {
     console.warn('home stats refresh failed:', err);
   }
+  renderProgressRows().catch((err) => console.warn('progress rows failed:', err));
+}
+
+// ---------- 学習進捗（連続学習日数・完了シナリオ・進捗バー） ----------
+
+function completedScenarioIds() {
+  return state.userData?.progress?.completedScenarioIds ?? [];
+}
+
+function saveProgress(partial) {
+  const progress = state.userData?.progress ?? {};
+  state.userData = { ...(state.userData ?? {}), progress: { ...progress, ...partial } };
+  if (state.user) {
+    updateUserProgress(state.user.uid, partial)
+      .catch((err) => console.warn('progress sync failed:', err));
+  }
+}
+
+// 何か学習したら呼ぶ（1 日 1 回だけ連続学習日数を更新）
+function markStudied() {
+  const next = nextStreak(state.userData?.progress);
+  if (!next) return;
+  saveProgress(next);
+  setText('stat-streak', next.streak);
+}
+
+function markScenarioDone(scenarioId) {
+  markStudied();
+  const partial = withCompletedScenario(state.userData?.progress, scenarioId);
+  if (!partial) return;
+  saveProgress(partial);
+  setText('stat-scenarios', `${partial.completedScenarios}`);
+}
+
+async function renderProgressRows() {
+  const box = document.getElementById('progress-rows');
+  if (!box) return;
+
+  const [decks, scenarios, score] = await Promise.all([
+    getAllDeckProgress(),
+    loadScenarios(),
+    getScorePrediction().catch(() => null),
+  ]);
+
+  const deckRow = (i) => {
+    const d = PROGRESS_DECKS[i];
+    const r = decks[`${d.deck}:${d.lang}`];
+    return { label: d.label, total: r.total, learned: r.learned, started: r.started, unit: '語',
+             detail: `定着 ${r.learned} / 学習中 ${r.started - r.learned}` };
+  };
+  const done = completedScenarioIds().length;
+  const toeicTotal   = TOTAL_LISTENING_QS + TOTAL_READING_QS;
+  const toeicCorrect = score ? score.listening.correct + score.reading.correct : 0;
+  const toeicAnswered = score?.totalAnswered ?? 0;
+
+  const rows = [
+    deckRow(0),
+    deckRow(1),
+    { label: 'シナリオ会話', total: scenarios.length, learned: done, started: done, unit: '本',
+      detail: `練習済み ${done}` },
+    deckRow(2),
+    { label: 'TOEIC 問題', total: toeicTotal, learned: toeicCorrect, started: toeicAnswered, unit: '問',
+      detail: `正解 ${toeicCorrect} / 回答 ${toeicAnswered}` },
+    deckRow(3),
+  ];
+
+  const pct = (n, t) => (t > 0 ? Math.min(100, Math.round((n / t) * 100)) : 0);
+  box.innerHTML = rows.map((r) => `
+    <div class="phase-row">
+      <div>
+        <div class="phase-name">${escapeHtml(r.label)}</div>
+        <div class="phase-detail">${escapeHtml(r.detail)} ・ 全 ${r.total} ${r.unit}</div>
+      </div>
+      <div class="phase-bar">
+        <div class="phase-fill-started" style="width: ${pct(r.started, r.total)}%"></div>
+        <div class="phase-fill" style="width: ${pct(r.learned, r.total)}%"></div>
+      </div>
+      <div class="phase-pct">${pct(r.learned, r.total)}%</div>
+    </div>
+  `).join('');
 }
 
 async function refreshDueCount() {
@@ -311,9 +399,27 @@ function showCurrentCard() {
   setText('card-meaning',    word.meaning ?? '');
   setText('card-example',    word.example ?? '');
   setText('card-example-tr', word.exampleTranslation ?? '');
+  renderIntervalPreview(word.srs);
 
   flashcardEl?.classList.remove('flipped');
   vocabState.flipped = false;
+}
+
+// 各評価ボタンの下に「次に出てくるまで」を表示
+function renderIntervalPreview(srs) {
+  const preview = previewIntervals(srs);
+  document.querySelectorAll('.rating-next').forEach((el) => {
+    const days = preview[parseInt(el.dataset.next, 10)];
+    el.textContent = formatInterval(days);
+  });
+}
+
+function formatInterval(days) {
+  if (days == null) return '';
+  if (days <= 0)   return '10分後';
+  if (days < 30)   return `${days}日後`;
+  if (days < 365)  return `${Math.round(days / 30)}か月後`;
+  return `${(days / 365).toFixed(1)}年後`;
 }
 
 async function populateEmptyStats() {
@@ -336,12 +442,20 @@ async function onRate(quality) {
   }
 
   const word = vocabState.queue[vocabState.index];
+  let updated;
   try {
-    await rateWord(word.id, quality);
+    updated = await rateWord(word.id, quality);
   } catch (err) {
     console.error('rate failed:', err);
     showToast('評価の保存に失敗しました');
     return;
+  }
+
+  markStudied();
+
+  // 「忘れた」単語はこのセッションの最後にもう一度出題する
+  if (quality === QUALITY.AGAIN) {
+    vocabState.queue.push({ ...word, srs: updated });
   }
 
   vocabState.index += 1;
@@ -482,6 +596,7 @@ function onListeningChoice(choiceIdx) {
   // スコア予測用に記録（best-effort）
   recordAnswer({ questionId: q.id, correct: isCorrect, part: q.part, tags: q.tags ?? [] })
     .catch((err) => console.warn('record answer failed:', err));
+  markStudied();
 
   // ボタンの色付け
   document.querySelectorAll('#tl-choices .tl-choice-btn').forEach((b) => {
@@ -737,6 +852,7 @@ async function onIeltsEvaluate() {
   if (!isState.current) return;
 
   const [partLabel, question] = value.split('|||');
+  markStudied();
   const prompt = buildIeltsEvalPrompt({
     topic: isState.current.topic,
     partLabel,
@@ -859,6 +975,7 @@ async function onIwEvaluate() {
     return;
   }
 
+  markStudied();
   const prompt = buildIeltsWritingEvalPrompt({
     task: iwState.current.task,
     type: iwState.current.type,
@@ -879,7 +996,7 @@ async function onIwEvaluate() {
 // ---------- TOEIC スコア予測画面 ----------
 
 const TOTAL_LISTENING_QS = 180;
-const TOTAL_READING_QS   = 114;
+const TOTAL_READING_QS   = 134;
 
 async function activateScoreScreen() {
   try {
@@ -1085,6 +1202,7 @@ function onReadingChoice(choiceIdx) {
 
   recordAnswer({ questionId: q.id, correct: isCorrect, part: q.part, tags: q.tags ?? [] })
     .catch((err) => console.warn('record answer failed:', err));
+  markStudied();
 
   document.querySelectorAll('#tr-choices .tr-choice-btn').forEach((b) => {
     const idx = parseInt(b.dataset.trChoice, 10);
@@ -1183,10 +1301,11 @@ async function renderScenarioList(phase) {
   grid.classList.remove('hidden');
   empty?.classList.add('hidden');
 
+  const done = new Set(completedScenarioIds());
   grid.innerHTML = scenarios.map((s) => `
     <button class="scenario-card" data-id="${s.id}">
       <div class="scenario-num">${String(s.order).padStart(2, '0')}</div>
-      <div class="scenario-title">${escapeHtml(s.title)}</div>
+      <div class="scenario-title">${escapeHtml(s.title)}${done.has(s.id) ? '<span class="scenario-done-badge">練習済</span>' : ''}</div>
       <div class="scenario-desc">${escapeHtml(s.description)}</div>
       <div class="text-[10px] text-sumi-soft mt-2 font-cormorant tracking-widest">${s.level}</div>
     </button>
@@ -1273,6 +1392,7 @@ async function onPlayAll() {
     showToast('お使いのブラウザは音声合成に未対応です');
     return;
   }
+  markScenarioDone(scenarioState.current.id);
   scenarioState.playback?.stop();
   scenarioState.playback = speakDialogue(
     scenarioState.current.dialogue,
@@ -1290,6 +1410,7 @@ function onStopAll() {
 async function onScenarioAi() {
   const s = scenarioState.current;
   if (!s) return;
+  markScenarioDone(s.id);
 
   const prompt = buildPrompt('scenario', scenarioState.selectedAi, {
     title:       s.title,
@@ -1569,7 +1690,10 @@ function bindEvents() {
   });
 
   // シナリオ: 戻るボタン
-  document.getElementById('scenario-back')?.addEventListener('click', showListView);
+  document.getElementById('scenario-back')?.addEventListener('click', async () => {
+    await renderScenarioList(scenarioState.phase); // 「練習済」バッジを反映
+    showListView();
+  });
 
   // シナリオ: 詳細の言語切替
   document.querySelectorAll('.detail-lang-tab').forEach((tab) => {

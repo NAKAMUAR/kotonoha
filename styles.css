@@ -216,6 +216,27 @@ body {
   transition: width 0.4s ease;
 }
 
+.phase-bar { position: relative; }
+.phase-fill-started {
+  position: absolute; left: 0; top: 0;
+  background: var(--shu-light);
+  opacity: 0.3;
+  height: 100%;
+  border-radius: 999px;
+}
+.phase-fill { position: relative; }
+.phase-detail { font-size: 0.7rem; color: var(--sumi-soft); }
+
+.legend-dot { display: inline-block; width: 8px; height: 8px; border-radius: 999px; margin-right: 4px; vertical-align: middle; }
+.legend-learned { background: var(--shu); }
+.legend-started { background: var(--shu-light); opacity: 0.3; }
+
+.scenario-done-badge {
+  display: inline-block; margin-left: 0.4rem; font-size: 0.65rem;
+  color: var(--koke); border: 1px solid var(--koke); border-radius: 999px; padding: 0 0.4rem;
+  font-family: "Shippori Mincho", serif; vertical-align: middle;
+}
+
 .phase-pct {
   font-family: "Cormorant Garamond", serif;
   font-size: 0.85rem;
@@ -327,10 +348,10 @@ body {
 .flashcard-front #card-word    { margin-top: 0.5rem; }
 .flashcard-back  #card-meaning { margin-top: 0.25rem; }
 
-.rating-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; }
+.rating-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.5rem; }
 
 .rating-btn {
-  padding: 0.75rem;
+  padding: 0.6rem 0.25rem;
   border-radius: 6px;
   font-size: 0.875rem;
   font-weight: 500;
@@ -338,6 +359,11 @@ body {
   border: 1px solid;
   transition: all 0.15s;
 }
+
+.rating-next { display: block; font-size: 0.625rem; opacity: 0.75; margin-top: 0.125rem; font-family: "JetBrains Mono", monospace; min-height: 0.8rem; }
+
+.rating-again  { color: var(--washi); border-color: var(--shu); background: var(--shu); }
+.rating-again:hover  { background: var(--shu-dark); border-color: var(--shu-dark); }
 
 .rating-hard   { color: var(--shu);  border-color: var(--shu);  background: transparent; }
 .rating-hard:hover   { background: var(--shu);  color: var(--washi); }

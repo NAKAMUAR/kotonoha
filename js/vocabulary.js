@@ -1,6 +1,6 @@
 // =====================================================================
 // 言の葉 / Kotonoha — 単語帳モジュール
-// Step 3: IndexedDB（オフラインキャッシュ）+ Firestore（同期）+ SM-2
+// Step 3: IndexedDB（オフラインキャッシュ）+ Firestore（同期）+ FSRS
 //
 // データの流れ:
 //   ・マスター単語: data/vocabulary-{lang}.json → IndexedDB (cache)
@@ -114,17 +114,21 @@ export async function loadVocabulary(lang, deck = 'daily') {
   const all      = await idbGetAll(STORE_VOCAB);
   const existing = all.filter((w) => (w.deck ?? 'daily') === deck && w.lang === lang);
 
-  if (existing.length === 0) {
-    try {
-      const url = getDeck(deck).file(lang);
-      const res = await fetch(url);
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const words = await res.json();
+  // セッションごとに 1 回、マスターデータと突き合わせる。
+  // 単語が追加・変更されていれば IndexedDB に反映（学習記録は別ストアなので消えない）。
+  try {
+    const url = getDeck(deck).file(lang);
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const words = await res.json();
+    const known = new Set(existing.map((w) => w.id));
+    if (words.length !== existing.length || words.some((w) => !known.has(w.id))) {
       const stamped = words.map((w) => ({ ...w, lang, deck }));
       await idbBulkPut(STORE_VOCAB, stamped);
-    } catch (err) {
-      console.error(`vocab fetch failed for ${deck}/${lang}:`, err);
     }
+  } catch (err) {
+    if (existing.length === 0) console.error(`vocab fetch failed for ${deck}/${lang}:`, err);
+    else console.warn(`vocab refresh skipped for ${deck}/${lang} (using cache):`, err);
   }
 
   cacheLoaded.add(key);
@@ -260,4 +264,51 @@ export async function getStudyStats(lang, deck = 'daily') {
     if (isDue(s, now)) stats.dueCount += 1;
   }
   return stats;
+}
+
+// ---------- ホーム画面の進捗 ----------
+
+// ホームに表示するデッキ（deck, lang）
+export const PROGRESS_DECKS = Object.freeze([
+  { deck: 'daily',  lang: 'en', label: '日常会話 単語（英語）' },
+  { deck: 'daily',  lang: 'vi', label: '日常会話 単語（ベトナム語）' },
+  { deck: 'toeic',  lang: 'en', label: 'TOEIC 単語' },
+  { deck: 'vi3kyu', lang: 'vi', label: 'ベトナム語検定3級 単語' },
+]);
+
+/**
+ * 全デッキの進捗をまとめて返す。
+ *   { 'daily:en': { total, started, learned }, ... }
+ *   started ... 1 回以上学習した語数
+ *   learned ... 定着した語数（復習段階 + 習得済）
+ */
+export async function getAllDeckProgress() {
+  for (const { deck, lang } of PROGRESS_DECKS) {
+    await loadVocabulary(lang, deck);
+  }
+  const vocab  = await idbGetAll(STORE_VOCAB);
+  const states = await getAllSrsStates();
+  const map    = new Map(states.map((s) => [s.wordId, s]));
+
+  const result = {};
+  for (const { deck, lang } of PROGRESS_DECKS) result[cacheKey(deck, lang)] = { total: 0, started: 0, learned: 0 };
+
+  for (const w of vocab) {
+    const r = result[cacheKey(w.deck ?? 'daily', w.lang)];
+    if (!r) continue;
+    r.total += 1;
+    const st = statusOf(map.get(w.id));
+    if (st !== 'new') r.started += 1;
+    if (st === 'review' || st === 'mastered') r.learned += 1;
+  }
+  return result;
+}
+
+/** 全デッキ合計の「習得単語」数（復習段階 + 習得済） */
+export async function getLearnedWordCount() {
+  const states = await getAllSrsStates();
+  return states.filter((s) => {
+    const st = statusOf(s);
+    return st === 'review' || st === 'mastered';
+  }).length;
 }

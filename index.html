@@ -180,23 +180,13 @@
       </div>
 
       <div class="card">
-        <h3 class="card-title">フェーズ進捗</h3>
-        <div class="mt-4 space-y-3">
-          <div class="phase-row">
-            <div class="phase-name">Phase 1 — 日常会話</div>
-            <div class="phase-bar"><div class="phase-fill" style="width: 0%"></div></div>
-            <div class="phase-pct">0%</div>
-          </div>
-          <div class="phase-row opacity-50">
-            <div class="phase-name">Phase 2 — 中級表現</div>
-            <div class="phase-bar"><div class="phase-fill" style="width: 0%"></div></div>
-            <div class="phase-pct">0%</div>
-          </div>
-          <div class="phase-row opacity-50">
-            <div class="phase-name">Phase 3 — ビジネス</div>
-            <div class="phase-bar"><div class="phase-fill" style="width: 0%"></div></div>
-            <div class="phase-pct">0%</div>
-          </div>
+        <h3 class="card-title">学習進捗</h3>
+        <div id="progress-rows" class="mt-4 space-y-3">
+          <div class="text-xs text-sumi-soft">読み込み中...</div>
+        </div>
+        <div class="flex gap-4 mt-4 text-[10px] text-sumi-soft">
+          <span><span class="legend-dot legend-learned"></span>定着</span>
+          <span><span class="legend-dot legend-started"></span>学習中</span>
         </div>
       </div>
     </section>
@@ -204,7 +194,7 @@
     <section id="screen-vocabulary" class="screen hidden">
       <div class="screen-header">
         <h2 class="screen-title">単語帳</h2>
-        <p class="screen-sub">SRS — 間隔反復学習</p>
+        <p class="screen-sub">SRS — 間隔反復学習（FSRS）</p>
       </div>
 
       <div id="vocab-deck-row" class="filter-row mb-3">
@@ -249,10 +239,12 @@
         </div>
 
         <div class="rating-row mt-6">
-          <button class="rating-btn rating-hard" data-quality="2">難しい</button>
-          <button class="rating-btn rating-normal" data-quality="4">普通</button>
-          <button class="rating-btn rating-easy" data-quality="5">簡単</button>
+          <button class="rating-btn rating-again" data-quality="1">忘れた<span class="rating-next" data-next="1"></span></button>
+          <button class="rating-btn rating-hard" data-quality="2">難しい<span class="rating-next" data-next="2"></span></button>
+          <button class="rating-btn rating-normal" data-quality="3">普通<span class="rating-next" data-next="3"></span></button>
+          <button class="rating-btn rating-easy" data-quality="4">簡単<span class="rating-next" data-next="4"></span></button>
         </div>
+        <p class="text-[10px] text-sumi-soft text-center mt-2">ボタンの下の数字は「次に出てくるまでの日数」です（最新の記憶モデル FSRS で計算）</p>
       </div>
 
       <div id="vocab-empty" class="hidden text-center py-12">
@@ -530,6 +522,15 @@
         <p class="screen-sub">トピックを選んで AI 試験官に評価してもらう</p>
       </div>
 
+      <div class="card mb-4 exam-news">
+        <div class="text-xs font-semibold mb-1">最新情報（2026年9月時点）</div>
+        <ul class="text-xs text-sumi-soft space-y-1 list-disc list-inside">
+          <li>2026年6月27日を最後に、多くの国で紙の IELTS が終了し、パソコン受験に一本化されました。</li>
+          <li>Speaking は引き続き試験官との 1 対 1 の面接形式です（構成は Part 1〜3 のまま）。</li>
+          <li>丸暗記した回答は減点対象です。質問に合わせて自然に答える練習をしましょう。</li>
+        </ul>
+      </div>
+
       <div id="is-list-view">
         <div id="is-topic-list" class="grid grid-cols-1 gap-2 mb-4"></div>
       </div>
@@ -590,6 +591,15 @@
         <p class="screen-sub">Task 1 / Task 2 を AI 添削</p>
       </div>
 
+      <div class="card mb-4 exam-news">
+        <div class="text-xs font-semibold mb-1">最新情報（2026年9月時点）</div>
+        <ul class="text-xs text-sumi-soft space-y-1 list-disc list-inside">
+          <li>パソコン受験への一本化で、Writing もキーボード入力が基本になりました（一部の国では紙に書く選択肢あり）。ここでのタイピング練習がそのまま本番対策になります。</li>
+          <li>Task 1 は棒グラフと表を組み合わせた「複合グラフ」にも慣れておきましょう（新しい問題を 1 問追加）。</li>
+          <li>語数・時間（Task 1: 150 語/20 分、Task 2: 250 語/40 分）は変更ありません。</li>
+        </ul>
+      </div>
+
       <div id="iw-list-view">
         <div class="tab-bar mb-4">
           <button class="tab tab-active" data-iw-task="1">Task 1 (グラフ等)</button>
@@ -635,6 +645,15 @@
       <div class="screen-header">
         <h2 class="screen-title">TOEIC スコア予測</h2>
         <p class="screen-sub">演習結果からの推定点数と弱点</p>
+      </div>
+
+      <div class="card mb-4 exam-news">
+        <div class="text-xs font-semibold mb-1">最新情報（2026年9月時点）</div>
+        <ul class="text-xs text-sumi-soft space-y-1 list-disc list-inside">
+          <li>TOEIC L&amp;R の形式（7 パート・200 問・約 2 時間・10〜990 点）は 2026 年も変更ありません。</li>
+          <li>最近の問題では、在宅勤務・オンライン会議・業務ソフトなど「デジタル化した職場」の話題が増えています。単語帳（TOEIC）に関連単語 28 語を追加しました。</li>
+          <li>日本の公開テストは 2026 年度も毎月実施（午前・午後）。リピート受験割引の条件が 2026 年 1 月から変わっています。</li>
+        </ul>
       </div>
 
       <div id="ts-empty" class="card text-center hidden">

@@ -39,6 +39,11 @@ Candidate's answer:
 ${userAnswer}
 """
 
+Scoring notes:
+- Use the official IELTS Speaking band descriptors and give band scores in 0.5 increments.
+- The answer was typed or transcribed, so Pronunciation cannot be assessed; base the overall band on the other three criteria.
+- If the answer sounds memorised or rehearsed (formulaic, generic, or not directly answering the question), point this out: examiners penalise memorised responses, so recommend a more natural, spontaneous answer.
+
 Provide your evaluation in this exact format (in Japanese):
 
 ## バンドスコア (0-9)

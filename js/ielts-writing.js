@@ -45,6 +45,12 @@ Candidate's writing:
 ${userText}
 """
 
+Scoring notes:
+- Use the official IELTS Writing band descriptors and give band scores in 0.5 increments.
+- Minimum length is ${task === 1 ? 150 : 250} words; if the response is shorter, reflect this in ${taskAchievementLabel}.${task === 1 ? `
+- Check that there is a clear overview of the main trends or features, and that data from every chart/table is covered and compared where relevant.` : ''}
+- IELTS is now delivered on computer in most countries, so treat this as a typed answer.
+
 Provide your evaluation in this exact format (in Japanese):
 
 ## バンドスコア (0-9)

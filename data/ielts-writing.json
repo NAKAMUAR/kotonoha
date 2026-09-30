@@ -55,6 +55,17 @@
     "tags": ["ielts-writing", "task-1", "map"]
   },
   {
+    "id": "ielts_w1_006",
+    "task": 1,
+    "type": "mixed_chart",
+    "typeJa": "複合グラフ（棒グラフ＋表）",
+    "prompt": "The bar chart below shows the percentage of employees who worked from home at least one day a week in four countries in 2019 and 2024. The table shows the average weekly hours spent in online meetings by these employees in 2024.\n\nSummarize the information by selecting and reporting the main features, and make comparisons where relevant.\n\nWrite at least 150 words.",
+    "imageDescriptionJa": "棒グラフ（週1日以上在宅勤務した社員の割合, 2019→2024）: 英国 12%→38%, 米国 15%→35%, ドイツ 10%→28%, 日本 5%→18%。表（2024年のオンライン会議 週平均時間）: 英国 6.5時間, 米国 7.0時間, ドイツ 5.0時間, 日本 3.5時間。全国で在宅勤務が増加し、在宅比率が高い国ほどオンライン会議時間も長い。",
+    "wordTarget": 150,
+    "timeMinutes": 20,
+    "tags": ["ielts-writing", "task-1", "mixed_chart"]
+  },
+  {
     "id": "ielts_w2_001",
     "task": 2,
     "type": "opinion",
