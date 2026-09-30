@@ -267,8 +267,8 @@ async function renderProgressRows() {
     getScorePrediction().catch(() => null),
   ]);
 
-  const deckRow = (i) => {
-    const d = PROGRESS_DECKS[i];
+  const deckRow = (deck, lang) => {
+    const d = PROGRESS_DECKS.find((x) => x.deck === deck && x.lang === lang);
     const r = decks[`${d.deck}:${d.lang}`];
     return { label: d.label, total: r.total, learned: r.learned, started: r.started, unit: '語',
              detail: `定着 ${r.learned} / 学習中 ${r.started - r.learned}` };
@@ -279,14 +279,15 @@ async function renderProgressRows() {
   const toeicAnswered = score?.totalAnswered ?? 0;
 
   const rows = [
-    deckRow(0),
-    deckRow(1),
+    deckRow('daily', 'en'),
+    deckRow('phrasal', 'en'),
+    deckRow('daily', 'vi'),
     { label: 'シナリオ会話', total: scenarios.length, learned: done, started: done, unit: '本',
       detail: `練習済み ${done}` },
-    deckRow(2),
+    deckRow('toeic', 'en'),
     { label: 'TOEIC 問題', total: toeicTotal, learned: toeicCorrect, started: toeicAnswered, unit: '問',
       detail: `正解 ${toeicCorrect} / 回答 ${toeicAnswered}` },
-    deckRow(3),
+    deckRow('vi3kyu', 'vi'),
   ];
 
   const pct = (n, t) => (t > 0 ? Math.min(100, Math.round((n / t) * 100)) : 0);
@@ -329,6 +330,7 @@ async function activateVocabularyScreen() {
       }
     }
     syncDeckUi();
+    await loadPhrasalCore();
     await loadVocabulary(vocabState.lang, vocabState.deck);
     await rebuildVocabQueue();
     showCurrentCard();
@@ -369,6 +371,8 @@ function syncDeckUi() {
   document.querySelectorAll('#vocab-deck-row .chip').forEach((c) => {
     c.classList.toggle('chip-active', c.dataset.deck === vocabState.deck);
   });
+
+  syncPhrasalPanel();
 }
 
 function showCurrentCard() {
@@ -399,10 +403,91 @@ function showCurrentCard() {
   setText('card-meaning',    word.meaning ?? '');
   setText('card-example',    word.example ?? '');
   setText('card-example-tr', word.exampleTranslation ?? '');
+  renderConceptCard(word);
   renderIntervalPreview(word.srs);
 
   flashcardEl?.classList.remove('flipped');
   vocabState.flipped = false;
+}
+
+// ---------- 句動詞: コアイメージで覚えるカード ----------
+
+let phrasalCoreCache = null;
+
+async function loadPhrasalCore() {
+  if (phrasalCoreCache) return phrasalCoreCache;
+  try {
+    const res = await fetch('./data/phrasal-core.json');
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    phrasalCoreCache = await res.json();
+  } catch (err) {
+    console.warn('phrasal core load failed:', err);
+    phrasalCoreCache = { verbs: {}, particles: {} };
+  }
+  return phrasalCoreCache;
+}
+
+function renderConceptCard(word) {
+  const card = document.querySelector('.flashcard');
+  const box  = document.getElementById('card-concept');
+  const isConcept = !!word.verb;
+  card?.classList.toggle('flashcard-concept', isConcept);
+  box?.classList.toggle('hidden', !isConcept);
+  setText('card-hint', isConcept ? '動詞と前置詞のイメージを思い浮かべてから、タップ' : 'タップで裏返し');
+  if (!isConcept || !box) return;
+
+  const core = phrasalCoreCache ?? { verbs: {}, particles: {} };
+  const verb = core.verbs[word.verb] ?? {};
+  const particles = (word.particles ?? []).map((p) => `
+    <div class="concept-part">
+      <span class="concept-icon concept-icon-particle">${escapeHtml(p)}</span>
+      <span class="concept-desc">${escapeHtml(core.particles[p]?.image ?? '')}</span>
+    </div>`).join('<div class="concept-plus">＋</div>');
+
+  box.innerHTML = `
+    <div class="concept-formula" style="grid-template-columns: ${['1fr', ...(word.particles ?? []).map(() => 'auto 1fr')].join(' ')}">
+      <div class="concept-part">
+        <span class="concept-icon">${escapeHtml(verb.icon ?? '')}</span>
+        <span class="concept-word">${escapeHtml(word.verb)}</span>
+        <span class="concept-desc">${escapeHtml(verb.image ?? '')}</span>
+      </div>
+      <div class="concept-plus">＋</div>
+      ${particles}
+    </div>
+    <div class="concept-arrow">▼</div>
+    <div class="concept-main">${escapeHtml(word.concept ?? word.meaning ?? '')}</div>
+    <div class="concept-en">${escapeHtml(word.definitionEn ?? '')}</div>
+    <div class="concept-uses-title">イメージの広がり</div>
+    <ul class="concept-uses">
+      ${(word.uses ?? []).map((u) => `
+        <li>
+          <div class="use-image">${escapeHtml(u.image)}</div>
+          <div class="use-ex">${escapeHtml(u.example)}</div>
+          <details class="use-ja"><summary>訳を見る</summary> ${escapeHtml(u.ja)}</details>
+        </li>`).join('')}
+    </ul>`;
+}
+
+async function syncPhrasalPanel() {
+  const panel = document.getElementById('phrasal-core-panel');
+  const isPhrasal = vocabState.deck === 'phrasal';
+  panel?.classList.toggle('hidden', !isPhrasal);
+  if (!isPhrasal) return;
+
+  const core = await loadPhrasalCore();
+  const body = document.getElementById('phrasal-core-body');
+  if (!body || body.dataset.rendered) return;
+  const item = (icon, name, image, cls) => `
+    <div class="core-item">
+      <span class="concept-icon ${cls}">${escapeHtml(icon)}</span>
+      <div>${name ? `<b>${escapeHtml(name)}</b>` : ''}<div class="text-sumi-light">${escapeHtml(image)}</div></div>
+    </div>`;
+  body.innerHTML = `
+    <div class="core-heading">動詞</div>
+    <div class="core-grid">${Object.entries(core.verbs).map(([k, v]) => item(v.icon, k, v.image, '')).join('')}</div>
+    <div class="core-heading">前置詞・副詞</div>
+    <div class="core-grid">${Object.entries(core.particles).map(([k, v]) => item(k, '', v.image, 'concept-icon-particle')).join('')}</div>`;
+  body.dataset.rendered = '1';
 }
 
 // 各評価ボタンの下に「次に出てくるまで」を表示
@@ -1548,6 +1633,7 @@ function bindEvents() {
 
   // フラッシュカード裏返し
   document.querySelector('.flashcard')?.addEventListener('click', (e) => {
+    if (e.target.closest('.use-ja')) return; // 「訳を見る」はカードを裏返さない
     e.currentTarget.classList.toggle('flipped');
     vocabState.flipped = e.currentTarget.classList.contains('flipped');
   });

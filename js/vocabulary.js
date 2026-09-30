@@ -97,6 +97,7 @@ export const DECKS = Object.freeze({
   toeic:  { id: 'toeic',  label: 'TOEIC',            languages: ['en'],       file: ()     => `./data/vocabulary-toeic.json` },
   ielts:  { id: 'ielts',  label: 'IELTS',            languages: ['en'],       file: ()     => `./data/vocabulary-ielts.json` },
   vi3kyu: { id: 'vi3kyu', label: 'ベトナム語検定3級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-3kyu.json` },
+  phrasal: { id: 'phrasal', label: '句動詞（イメージ）', languages: ['en'],     file: ()     => `./data/vocabulary-phrasal.json` },
 });
 
 export function getDeck(deckId) { return DECKS[deckId] ?? DECKS.daily; }
@@ -271,6 +272,7 @@ export async function getStudyStats(lang, deck = 'daily') {
 // ホームに表示するデッキ（deck, lang）
 export const PROGRESS_DECKS = Object.freeze([
   { deck: 'daily',  lang: 'en', label: '日常会話 単語（英語）' },
+  { deck: 'phrasal', lang: 'en', label: '句動詞（イメージで覚える）' },
   { deck: 'daily',  lang: 'vi', label: '日常会話 単語（ベトナム語）' },
   { deck: 'toeic',  lang: 'en', label: 'TOEIC 単語' },
   { deck: 'vi3kyu', lang: 'vi', label: 'ベトナム語検定3級 単語' },

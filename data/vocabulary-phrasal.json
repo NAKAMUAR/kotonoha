@@ -1,0 +1,3315 @@
+[
+ {
+  "id": "phr_001",
+  "word": "take in",
+  "reading": "take ＋ in",
+  "meaning": "外にあるものを、自分の内側に取り込む",
+  "example": "It was too much information to take in at once.",
+  "exampleTranslation": "一度に理解するには多すぎる情報だった。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "in"
+  ],
+  "concept": "外にあるものを、自分の内側に取り込む",
+  "definitionEn": "to bring something into yourself or your space",
+  "uses": [
+   {
+    "image": "情報を頭の中に取り込む",
+    "example": "It was too much information to take in at once.",
+    "ja": "一度に理解するには多すぎる情報だった。"
+   },
+   {
+    "image": "人や動物を家の中に取り込む",
+    "example": "They took in a stray cat.",
+    "ja": "彼らは野良猫を引き取った。"
+   },
+   {
+    "image": "うその話を心の中に取り込んでしまう",
+    "example": "Don't be taken in by his friendly smile.",
+    "ja": "彼の人なつっこい笑顔にだまされないで。"
+   },
+   {
+    "image": "服の布を内側へ取り込む",
+    "example": "Could you take in this jacket at the waist?",
+    "ja": "このジャケットのウエストを詰めてもらえますか？"
+   }
+  ]
+ },
+ {
+  "id": "phr_002",
+  "word": "take off",
+  "reading": "take ＋ off",
+  "meaning": "くっついているものを取って、離す",
+  "example": "Please take off your shoes at the door.",
+  "exampleTranslation": "玄関で靴を脱いでください。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "off"
+  ],
+  "concept": "くっついているものを取って、離す",
+  "definitionEn": "to remove something, or to leave the ground",
+  "uses": [
+   {
+    "image": "身につけた物を体から離す",
+    "example": "Please take off your shoes at the door.",
+    "ja": "玄関で靴を脱いでください。"
+   },
+   {
+    "image": "機体が地面から離れる",
+    "example": "The plane took off on time.",
+    "ja": "飛行機は定刻に離陸した。"
+   },
+   {
+    "image": "自分を仕事から離す",
+    "example": "I'm taking Friday off.",
+    "ja": "金曜日は休みを取ります。"
+   },
+   {
+    "image": "地面を離れて一気に上昇する",
+    "example": "Her career really took off last year.",
+    "ja": "昨年、彼女のキャリアは一気に軌道に乗った。"
+   }
+  ]
+ },
+ {
+  "id": "phr_003",
+  "word": "take on",
+  "reading": "take ＋ on",
+  "meaning": "取って、自分の上に載せる（背負う）",
+  "example": "I can't take on any more work this week.",
+  "exampleTranslation": "今週はこれ以上仕事を引き受けられない。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "on"
+  ],
+  "concept": "取って、自分の上に載せる（背負う）",
+  "definitionEn": "to accept something as your responsibility",
+  "uses": [
+   {
+    "image": "仕事を自分の肩に載せる",
+    "example": "I can't take on any more work this week.",
+    "ja": "今週はこれ以上仕事を引き受けられない。"
+   },
+   {
+    "image": "人を組織の上に載せる",
+    "example": "The company is taking on 20 new staff.",
+    "ja": "その会社は新しく20人を雇う。"
+   },
+   {
+    "image": "相手を自分の正面に載せる",
+    "example": "Our small team took on the champions.",
+    "ja": "私たちの小さなチームが王者に挑んだ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_004",
+  "word": "take over",
+  "reading": "take ＋ over",
+  "meaning": "取って、上から全体を覆う（支配する）",
+  "example": "She will take over the project next month.",
+  "exampleTranslation": "来月、彼女がそのプロジェクトを引き継ぐ。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "over"
+  ],
+  "concept": "取って、上から全体を覆う（支配する）",
+  "definitionEn": "to take control of something",
+  "uses": [
+   {
+    "image": "仕事の全体を引き取る",
+    "example": "She will take over the project next month.",
+    "ja": "来月、彼女がそのプロジェクトを引き継ぐ。"
+   },
+   {
+    "image": "会社全体を手に入れる",
+    "example": "The firm was taken over by a larger company.",
+    "ja": "その会社はより大きな会社に買収された。"
+   }
+  ]
+ },
+ {
+  "id": "phr_005",
+  "word": "take out",
+  "reading": "take ＋ out",
+  "meaning": "中にあるものを取って、外へ出す",
+  "example": "Can you take out the trash?",
+  "exampleTranslation": "ゴミを出してくれる？",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "out"
+  ],
+  "concept": "中にあるものを取って、外へ出す",
+  "definitionEn": "to remove something from inside a place",
+  "uses": [
+   {
+    "image": "ゴミを家の外へ出す",
+    "example": "Can you take out the trash?",
+    "ja": "ゴミを出してくれる？"
+   },
+   {
+    "image": "お金を口座の外へ出す",
+    "example": "I took out a loan to buy a car.",
+    "ja": "車を買うためにローンを組んだ。"
+   },
+   {
+    "image": "人を外へ連れ出す",
+    "example": "He took me out to dinner.",
+    "ja": "彼は私を夕食に連れて行ってくれた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_006",
+  "word": "take up",
+  "reading": "take ＋ up",
+  "meaning": "取って、上に持ち上げる",
+  "example": "I took up yoga last year.",
+  "exampleTranslation": "去年ヨガを始めた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "up"
+  ],
+  "concept": "取って、上に持ち上げる",
+  "definitionEn": "to lift something up; to start or fill something",
+  "uses": [
+   {
+    "image": "新しい趣味を拾い上げる",
+    "example": "I took up yoga last year.",
+    "ja": "去年ヨガを始めた。"
+   },
+   {
+    "image": "空間や時間を持ち上げて埋める",
+    "example": "This sofa takes up too much space.",
+    "ja": "このソファは場所を取りすぎる。"
+   },
+   {
+    "image": "話題を拾い上げてテーブルに載せる",
+    "example": "Let's take up this issue at the next meeting.",
+    "ja": "この問題は次の会議で取り上げよう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_007",
+  "word": "take back",
+  "reading": "take ＋ back",
+  "meaning": "取って、元の場所へ戻す",
+  "example": "I'd like to take back this shirt.",
+  "exampleTranslation": "このシャツを返品したいのですが。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "back"
+  ],
+  "concept": "取って、元の場所へ戻す",
+  "definitionEn": "to return something to where it came from",
+  "uses": [
+   {
+    "image": "買った物を店へ戻す",
+    "example": "I'd like to take back this shirt.",
+    "ja": "このシャツを返品したいのですが。"
+   },
+   {
+    "image": "口から出た言葉を戻す",
+    "example": "I take back what I said.",
+    "ja": "さっき言ったことは撤回します。"
+   },
+   {
+    "image": "心を過去へ連れ戻す",
+    "example": "This song takes me back to my school days.",
+    "ja": "この曲を聴くと学生時代を思い出す。"
+   }
+  ]
+ },
+ {
+  "id": "phr_008",
+  "word": "take after",
+  "reading": "take ＋ after",
+  "meaning": "前を行く人（親）を追いかけて、その特徴を取り込む",
+  "example": "She takes after her mother.",
+  "exampleTranslation": "彼女は母親似だ。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "after"
+  ],
+  "concept": "前を行く人（親）を追いかけて、その特徴を取り込む",
+  "definitionEn": "to look or behave like an older family member",
+  "uses": [
+   {
+    "image": "親の性格や見た目を受け継ぐ",
+    "example": "She takes after her mother.",
+    "ja": "彼女は母親似だ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_009",
+  "word": "take down",
+  "reading": "take ＋ down",
+  "meaning": "取って、下へ降ろす",
+  "example": "Please take down the old posters.",
+  "exampleTranslation": "古いポスターを外してください。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "down"
+  ],
+  "concept": "取って、下へ降ろす",
+  "definitionEn": "to remove something from a high place; to write something",
+  "uses": [
+   {
+    "image": "高い所の物を下へ降ろす",
+    "example": "Please take down the old posters.",
+    "ja": "古いポスターを外してください。"
+   },
+   {
+    "image": "聞いた言葉を紙の上に降ろす",
+    "example": "Let me take down your phone number.",
+    "ja": "電話番号を書き留めさせてください。"
+   }
+  ]
+ },
+ {
+  "id": "phr_010",
+  "word": "take apart",
+  "reading": "take ＋ apart",
+  "meaning": "手に取って、バラバラに離す",
+  "example": "He took the old radio apart.",
+  "exampleTranslation": "彼は古いラジオを分解した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "take"
+  ],
+  "verb": "take",
+  "particles": [
+   "apart"
+  ],
+  "concept": "手に取って、バラバラに離す",
+  "definitionEn": "to separate something into pieces",
+  "uses": [
+   {
+    "image": "機械を部品ごとにバラす",
+    "example": "He took the old radio apart.",
+    "ja": "彼は古いラジオを分解した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_011",
+  "word": "get up",
+  "reading": "get ＋ up",
+  "meaning": "上の状態にたどり着く",
+  "example": "I usually get up at six.",
+  "exampleTranslation": "私はふだん6時に起きる。",
+  "level": "A1",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "up"
+  ],
+  "concept": "上の状態にたどり着く",
+  "definitionEn": "to rise from bed or from a sitting position",
+  "uses": [
+   {
+    "image": "寝ている状態から上へ",
+    "example": "I usually get up at six.",
+    "ja": "私はふだん6時に起きる。"
+   },
+   {
+    "image": "座った状態から上へ",
+    "example": "He got up from his chair.",
+    "ja": "彼は椅子から立ち上がった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_012",
+  "word": "get out",
+  "reading": "get ＋ out",
+  "meaning": "中から外へ出る",
+  "example": "Get out of the car, please.",
+  "exampleTranslation": "車から降りてください。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "out"
+  ],
+  "concept": "中から外へ出る",
+  "definitionEn": "to leave or escape from an enclosed place",
+  "uses": [
+   {
+    "image": "乗り物や部屋の外へ",
+    "example": "Get out of the car, please.",
+    "ja": "車から降りてください。"
+   },
+   {
+    "image": "秘密が外へ出てしまう",
+    "example": "Somehow the secret got out.",
+    "ja": "どういうわけか秘密が漏れた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_013",
+  "word": "get in",
+  "reading": "get ＋ in",
+  "meaning": "中へ入る",
+  "example": "Get in the car. I'll drive you home.",
+  "exampleTranslation": "車に乗って。家まで送るよ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "in"
+  ],
+  "concept": "中へ入る",
+  "definitionEn": "to enter a car or a place",
+  "uses": [
+   {
+    "image": "車の中へ",
+    "example": "Get in the car. I'll drive you home.",
+    "ja": "車に乗って。家まで送るよ。"
+   },
+   {
+    "image": "家の中へたどり着く",
+    "example": "What time did you get in last night?",
+    "ja": "昨夜は何時に帰ってきたの？"
+   }
+  ]
+ },
+ {
+  "id": "phr_014",
+  "word": "get into",
+  "reading": "get ＋ into",
+  "meaning": "中へ入り込む（→ ある状態にはまる）",
+  "example": "She got into a top university.",
+  "exampleTranslation": "彼女は一流大学に合格した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "into"
+  ],
+  "concept": "中へ入り込む（→ ある状態にはまる）",
+  "definitionEn": "to enter a place, group or situation",
+  "uses": [
+   {
+    "image": "選ばれた人の輪の中へ",
+    "example": "She got into a top university.",
+    "ja": "彼女は一流大学に合格した。"
+   },
+   {
+    "image": "良くない状況の中へ",
+    "example": "He got into trouble at school.",
+    "ja": "彼は学校で問題を起こした。"
+   },
+   {
+    "image": "趣味の世界の中へ",
+    "example": "I got into jazz in my twenties.",
+    "ja": "20代でジャズにはまった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_015",
+  "word": "get on",
+  "reading": "get ＋ on",
+  "meaning": "何かの上にくっつく（乗る）",
+  "example": "Let's get on the next bus.",
+  "exampleTranslation": "次のバスに乗ろう。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "on"
+  ],
+  "concept": "何かの上にくっつく（乗る）",
+  "definitionEn": "to board a bus or train; to continue",
+  "uses": [
+   {
+    "image": "バスや電車の上に乗る",
+    "example": "Let's get on the next bus.",
+    "ja": "次のバスに乗ろう。"
+   },
+   {
+    "image": "作業にくっついて続ける",
+    "example": "Let's get on with the meeting.",
+    "ja": "会議を先に進めましょう。"
+   },
+   {
+    "image": "人とくっついてうまく進む",
+    "example": "I get on well with my boss.",
+    "ja": "上司とうまくやっている。"
+   }
+  ]
+ },
+ {
+  "id": "phr_016",
+  "word": "get off",
+  "reading": "get ＋ off",
+  "meaning": "くっついていた所から離れる（降りる）",
+  "example": "Get off at the next stop.",
+  "exampleTranslation": "次の停留所で降りてください。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "off"
+  ],
+  "concept": "くっついていた所から離れる（降りる）",
+  "definitionEn": "to leave a bus, train or place of work",
+  "uses": [
+   {
+    "image": "乗り物から離れる",
+    "example": "Get off at the next stop.",
+    "ja": "次の停留所で降りてください。"
+   },
+   {
+    "image": "仕事から離れる",
+    "example": "What time do you get off work?",
+    "ja": "何時に仕事が終わるの？"
+   }
+  ]
+ },
+ {
+  "id": "phr_017",
+  "word": "get over",
+  "reading": "get ＋ over",
+  "meaning": "障害の上を越えて、向こう側にたどり着く",
+  "example": "It took me two weeks to get over the flu.",
+  "exampleTranslation": "インフルエンザが治るのに2週間かかった。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "over"
+  ],
+  "concept": "障害の上を越えて、向こう側にたどり着く",
+  "definitionEn": "to recover from something difficult",
+  "uses": [
+   {
+    "image": "病気の山を越える",
+    "example": "It took me two weeks to get over the flu.",
+    "ja": "インフルエンザが治るのに2週間かかった。"
+   },
+   {
+    "image": "つらい気持ちや恐怖の壁を越える",
+    "example": "She finally got over her fear of flying.",
+    "ja": "彼女はついに飛行機への恐怖を克服した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_018",
+  "word": "get through",
+  "reading": "get ＋ through",
+  "meaning": "端から端まで通り抜けて、向こう側にたどり着く",
+  "example": "We got through a difficult year together.",
+  "exampleTranslation": "私たちは一緒に大変な1年を乗り切った。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "through"
+  ],
+  "concept": "端から端まで通り抜けて、向こう側にたどり着く",
+  "definitionEn": "to pass through a difficult situation or reach someone",
+  "uses": [
+   {
+    "image": "困難な期間を最後まで通り抜ける",
+    "example": "We got through a difficult year together.",
+    "ja": "私たちは一緒に大変な1年を乗り切った。"
+   },
+   {
+    "image": "電話の声が相手まで通る",
+    "example": "I couldn't get through to the office.",
+    "ja": "会社に電話がつながらなかった。"
+   },
+   {
+    "image": "言葉が相手の頭の中まで通る",
+    "example": "I just can't get through to him.",
+    "ja": "彼にはどうしても話が通じない。"
+   }
+  ]
+ },
+ {
+  "id": "phr_019",
+  "word": "get along",
+  "reading": "get ＋ along",
+  "meaning": "同じ道に沿って、一緒に進む",
+  "example": "Do you get along with your neighbors?",
+  "exampleTranslation": "近所の人とは仲良くしている？",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "along"
+  ],
+  "concept": "同じ道に沿って、一緒に進む",
+  "definitionEn": "to have a friendly relationship; to manage",
+  "uses": [
+   {
+    "image": "人と並んでうまく進む",
+    "example": "Do you get along with your neighbors?",
+    "ja": "近所の人とは仲良くしている？"
+   },
+   {
+    "image": "物事が道に沿って進む",
+    "example": "How are you getting along with your new job?",
+    "ja": "新しい仕事はどう？"
+   }
+  ]
+ },
+ {
+  "id": "phr_020",
+  "word": "get back",
+  "reading": "get ＋ back",
+  "meaning": "元の場所・状態にたどり着く",
+  "example": "When did you get back from Osaka?",
+  "exampleTranslation": "いつ大阪から戻ったの？",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "back"
+  ],
+  "concept": "元の場所・状態にたどり着く",
+  "definitionEn": "to return, or to have something returned",
+  "uses": [
+   {
+    "image": "元の場所へ戻る",
+    "example": "When did you get back from Osaka?",
+    "ja": "いつ大阪から戻ったの？"
+   },
+   {
+    "image": "手放した物が手元へ戻る",
+    "example": "I finally got my money back.",
+    "ja": "やっとお金を取り戻した。"
+   },
+   {
+    "image": "話を相手の所へ戻す",
+    "example": "I'll get back to you tomorrow.",
+    "ja": "明日、折り返しご連絡します。"
+   }
+  ]
+ },
+ {
+  "id": "phr_021",
+  "word": "get around",
+  "reading": "get ＋ around",
+  "meaning": "周りをぐるっと回ってたどり着く",
+  "example": "It's easy to get around Tokyo by train.",
+  "exampleTranslation": "東京は電車で移動しやすい。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "around"
+  ],
+  "concept": "周りをぐるっと回ってたどり着く",
+  "definitionEn": "to move from place to place; to avoid a problem",
+  "uses": [
+   {
+    "image": "あちこちを移動する",
+    "example": "It's easy to get around Tokyo by train.",
+    "ja": "東京は電車で移動しやすい。"
+   },
+   {
+    "image": "障害物の周りを回ってよける",
+    "example": "We found a way to get around the rule.",
+    "ja": "その規則をうまく回避する方法を見つけた。"
+   },
+   {
+    "image": "話が人々の周りに広がる",
+    "example": "News gets around fast in a small town.",
+    "ja": "小さな町では噂がすぐ広まる。"
+   }
+  ]
+ },
+ {
+  "id": "phr_022",
+  "word": "get away",
+  "reading": "get ＋ away",
+  "meaning": "その場から遠くへ離れる",
+  "example": "I need to get away for a few days.",
+  "exampleTranslation": "数日どこかへ出かけたい。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "away"
+  ],
+  "concept": "その場から遠くへ離れる",
+  "definitionEn": "to leave or escape from a place",
+  "uses": [
+   {
+    "image": "日常から遠くへ離れる",
+    "example": "I need to get away for a few days.",
+    "ja": "数日どこかへ出かけたい。"
+   },
+   {
+    "image": "追っ手から遠く離れる",
+    "example": "The thief got away on a motorbike.",
+    "ja": "泥棒はバイクで逃げた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_023",
+  "word": "get away with",
+  "reading": "get ＋ away ＋ with",
+  "meaning": "悪いことを抱えたまま、罰から遠く離れる",
+  "example": "You won't get away with this!",
+  "exampleTranslation": "こんなことをして、ただでは済まないぞ！",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "away",
+   "with"
+  ],
+  "concept": "悪いことを抱えたまま、罰から遠く離れる",
+  "definitionEn": "to do something wrong without being punished",
+  "uses": [
+   {
+    "image": "罰を受けずに逃げ切る",
+    "example": "You won't get away with this!",
+    "ja": "こんなことをして、ただでは済まないぞ！"
+   }
+  ]
+ },
+ {
+  "id": "phr_024",
+  "word": "get by",
+  "reading": "get ＋ by",
+  "meaning": "なんとかそばを通り抜けていく",
+  "example": "I can get by on a small salary.",
+  "exampleTranslation": "少ない給料でなんとかやっていける。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "by"
+  ],
+  "concept": "なんとかそばを通り抜けていく",
+  "definitionEn": "to manage to live or do something with difficulty",
+  "uses": [
+   {
+    "image": "少ないお金でなんとか通り抜ける",
+    "example": "I can get by on a small salary.",
+    "ja": "少ない給料でなんとかやっていける。"
+   },
+   {
+    "image": "少ない力でなんとか通り抜ける",
+    "example": "I know enough French to get by.",
+    "ja": "なんとか通じる程度のフランス語はわかる。"
+   }
+  ]
+ },
+ {
+  "id": "phr_025",
+  "word": "get down",
+  "reading": "get ＋ down",
+  "meaning": "下の状態にたどり着く",
+  "example": "Get down! Someone is shooting!",
+  "exampleTranslation": "伏せろ！誰かが撃っている！",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "down"
+  ],
+  "concept": "下の状態にたどり着く",
+  "definitionEn": "to move lower; to make someone sad",
+  "uses": [
+   {
+    "image": "体を下へ",
+    "example": "Get down! Someone is shooting!",
+    "ja": "伏せろ！誰かが撃っている！"
+   },
+   {
+    "image": "気分を下へ引き下げる",
+    "example": "This rainy weather really gets me down.",
+    "ja": "この雨続きの天気で気が滅入る。"
+   }
+  ]
+ },
+ {
+  "id": "phr_026",
+  "word": "get down to",
+  "reading": "get ＋ down ＋ to",
+  "meaning": "表面から降りていって、本題にたどり着く",
+  "example": "Let's get down to business.",
+  "exampleTranslation": "さあ、本題に入りましょう。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "down",
+   "to"
+  ],
+  "concept": "表面から降りていって、本題にたどり着く",
+  "definitionEn": "to start doing something seriously",
+  "uses": [
+   {
+    "image": "核心の作業に取りかかる",
+    "example": "Let's get down to business.",
+    "ja": "さあ、本題に入りましょう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_027",
+  "word": "get across",
+  "reading": "get ＋ across",
+  "meaning": "向こう側（相手）まで横切って届く",
+  "example": "I tried hard to get my point across.",
+  "exampleTranslation": "言いたいことを伝えようと懸命に努力した。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "get"
+  ],
+  "verb": "get",
+  "particles": [
+   "across"
+  ],
+  "concept": "向こう側（相手）まで横切って届く",
+  "definitionEn": "to make an idea understood",
+  "uses": [
+   {
+    "image": "考えを相手の側まで届ける",
+    "example": "I tried hard to get my point across.",
+    "ja": "言いたいことを伝えようと懸命に努力した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_028",
+  "word": "make up",
+  "reading": "make ＋ up",
+  "meaning": "材料を集めて、すっかり形に仕上げる",
+  "example": "He made up an excuse for being late.",
+  "exampleTranslation": "彼は遅刻の言い訳をでっち上げた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "make"
+  ],
+  "verb": "make",
+  "particles": [
+   "up"
+  ],
+  "concept": "材料を集めて、すっかり形に仕上げる",
+  "definitionEn": "to create or complete something from parts",
+  "uses": [
+   {
+    "image": "ない話を作り上げる",
+    "example": "He made up an excuse for being late.",
+    "ja": "彼は遅刻の言い訳をでっち上げた。"
+   },
+   {
+    "image": "部分を組み上げて全体を作る",
+    "example": "Women make up 60% of our staff.",
+    "ja": "当社の従業員の60%は女性だ。"
+   },
+   {
+    "image": "壊れた関係を作り直す",
+    "example": "They argued but made up the next day.",
+    "ja": "彼らはけんかしたが、翌日仲直りした。"
+   }
+  ]
+ },
+ {
+  "id": "phr_029",
+  "word": "make up for",
+  "reading": "make ＋ up ＋ for",
+  "meaning": "足りない穴に向けて、何かを作って埋める",
+  "example": "I'll work late to make up for lost time.",
+  "exampleTranslation": "遅れを取り戻すために残業します。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "make"
+  ],
+  "verb": "make",
+  "particles": [
+   "up",
+   "for"
+  ],
+  "concept": "足りない穴に向けて、何かを作って埋める",
+  "definitionEn": "to do something good to balance something bad or missing",
+  "uses": [
+   {
+    "image": "失った分を埋め合わせる",
+    "example": "I'll work late to make up for lost time.",
+    "ja": "遅れを取り戻すために残業します。"
+   },
+   {
+    "image": "迷惑をかけた分を埋め合わせる",
+    "example": "How can I make up for my mistake?",
+    "ja": "どうすれば私のミスの埋め合わせができるだろう？"
+   }
+  ]
+ },
+ {
+  "id": "phr_030",
+  "word": "make out",
+  "reading": "make ＋ out",
+  "meaning": "ぼんやりしたものから形を作り出して、外に浮かび上がらせる",
+  "example": "I could just make out a figure in the fog.",
+  "exampleTranslation": "霧の中に人影がかろうじて見えた。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "make"
+  ],
+  "verb": "make",
+  "particles": [
+   "out"
+  ],
+  "concept": "ぼんやりしたものから形を作り出して、外に浮かび上がらせる",
+  "definitionEn": "to see, hear or understand something with difficulty",
+  "uses": [
+   {
+    "image": "見えにくい形を浮かび上がらせる",
+    "example": "I could just make out a figure in the fog.",
+    "ja": "霧の中に人影がかろうじて見えた。"
+   },
+   {
+    "image": "聞き取りにくい言葉をはっきりさせる",
+    "example": "I can't make out what he's saying.",
+    "ja": "彼が何を言っているのか聞き取れない。"
+   },
+   {
+    "image": "書類を作って相手に出す",
+    "example": "Please make the check out to ABC Company.",
+    "ja": "小切手はABC社宛てで書いてください。"
+   }
+  ]
+ },
+ {
+  "id": "phr_031",
+  "word": "make into",
+  "reading": "make ＋ into",
+  "meaning": "手を加えて、別のものの中へ作り変える",
+  "example": "They made the old factory into a museum.",
+  "exampleTranslation": "彼らは古い工場を美術館に作り変えた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "make"
+  ],
+  "verb": "make",
+  "particles": [
+   "into"
+  ],
+  "concept": "手を加えて、別のものの中へ作り変える",
+  "definitionEn": "to change something into something else",
+  "uses": [
+   {
+    "image": "古い物を新しい形に作り変える",
+    "example": "They made the old factory into a museum.",
+    "ja": "彼らは古い工場を美術館に作り変えた。"
+   },
+   {
+    "image": "物語を別の形にする",
+    "example": "The novel was made into a movie.",
+    "ja": "その小説は映画化された。"
+   }
+  ]
+ },
+ {
+  "id": "phr_032",
+  "word": "make it",
+  "reading": "make ＋ it",
+  "meaning": "努力して、目指すゴールを作り出す（到達する）",
+  "example": "Did you make it to the meeting on time?",
+  "exampleTranslation": "会議に間に合った？",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "make"
+  ],
+  "verb": "make",
+  "particles": [
+   "it"
+  ],
+  "concept": "努力して、目指すゴールを作り出す（到達する）",
+  "definitionEn": "to arrive in time or to succeed",
+  "uses": [
+   {
+    "image": "時間内にその場所へたどり着く",
+    "example": "Did you make it to the meeting on time?",
+    "ja": "会議に間に合った？"
+   },
+   {
+    "image": "成功というゴールに到達する",
+    "example": "She finally made it as an actor.",
+    "ja": "彼女はついに俳優として成功した。"
+   },
+   {
+    "image": "予定の場所に行ける",
+    "example": "Sorry, I can't make it tonight.",
+    "ja": "ごめん、今夜は行けないんだ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_033",
+  "word": "make for",
+  "reading": "make ＋ for",
+  "meaning": "目標の方向へ、進路を作って向かう",
+  "example": "When the fire alarm rang, everyone made for the exit.",
+  "exampleTranslation": "火災報知器が鳴ると、全員が出口に向かった。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "make"
+  ],
+  "verb": "make",
+  "particles": [
+   "for"
+  ],
+  "concept": "目標の方向へ、進路を作って向かう",
+  "definitionEn": "to move toward a place; to help produce a result",
+  "uses": [
+   {
+    "image": "出口の方向へ向かう",
+    "example": "When the fire alarm rang, everyone made for the exit.",
+    "ja": "火災報知器が鳴ると、全員が出口に向かった。"
+   },
+   {
+    "image": "良い結果の方向へ導く",
+    "example": "Good weather makes for a great trip.",
+    "ja": "天気が良いと素晴らしい旅になる。"
+   }
+  ]
+ },
+ {
+  "id": "phr_034",
+  "word": "make off with",
+  "reading": "make ＋ off ＋ with",
+  "meaning": "盗んだ物を伴って、その場から素早く離れる",
+  "example": "The thief made off with my bag.",
+  "exampleTranslation": "泥棒が私のかばんを持って逃げた。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "make"
+  ],
+  "verb": "make",
+  "particles": [
+   "off",
+   "with"
+  ],
+  "concept": "盗んだ物を伴って、その場から素早く離れる",
+  "definitionEn": "to escape quickly with something stolen",
+  "uses": [
+   {
+    "image": "盗んで逃げる",
+    "example": "The thief made off with my bag.",
+    "ja": "泥棒が私のかばんを持って逃げた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_035",
+  "word": "make over",
+  "reading": "make ＋ over",
+  "meaning": "上から全体を覆うように作り直す",
+  "example": "We made over the kitchen last year.",
+  "exampleTranslation": "去年キッチンを全面改装した。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "make"
+  ],
+  "verb": "make",
+  "particles": [
+   "over"
+  ],
+  "concept": "上から全体を覆うように作り直す",
+  "definitionEn": "to change the appearance of something completely",
+  "uses": [
+   {
+    "image": "部屋全体を作り直す",
+    "example": "We made over the kitchen last year.",
+    "ja": "去年キッチンを全面改装した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_036",
+  "word": "put on",
+  "reading": "put ＋ on",
+  "meaning": "何かの上に置いて、くっつける",
+  "example": "Put on your coat. It's cold.",
+  "exampleTranslation": "コートを着て。寒いよ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "on"
+  ],
+  "concept": "何かの上に置いて、くっつける",
+  "definitionEn": "to place something on your body or on a surface",
+  "uses": [
+   {
+    "image": "服を体にくっつける",
+    "example": "Put on your coat. It's cold.",
+    "ja": "コートを着て。寒いよ。"
+   },
+   {
+    "image": "体重を体にくっつける",
+    "example": "I've put on weight recently.",
+    "ja": "最近体重が増えた。"
+   },
+   {
+    "image": "作品を舞台の上に置く",
+    "example": "The students put on a play.",
+    "ja": "生徒たちが劇を上演した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_037",
+  "word": "put off",
+  "reading": "put ＋ off",
+  "meaning": "今の位置から離れた所に置く",
+  "example": "The meeting was put off until Monday.",
+  "exampleTranslation": "会議は月曜日に延期された。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "off"
+  ],
+  "concept": "今の位置から離れた所に置く",
+  "definitionEn": "to move something to a later time; to make someone dislike something",
+  "uses": [
+   {
+    "image": "予定を先の方へ離して置く",
+    "example": "The meeting was put off until Monday.",
+    "ja": "会議は月曜日に延期された。"
+   },
+   {
+    "image": "気持ちを対象から離す",
+    "example": "The smell put me off my food.",
+    "ja": "そのにおいで食欲がなくなった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_038",
+  "word": "put out",
+  "reading": "put ＋ out",
+  "meaning": "外に置く（→ 消えてなくなる）",
+  "example": "Firefighters put out the fire quickly.",
+  "exampleTranslation": "消防士がすぐに火を消した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "out"
+  ],
+  "concept": "外に置く（→ 消えてなくなる）",
+  "definitionEn": "to place something outside; to stop a fire",
+  "uses": [
+   {
+    "image": "火をなくす",
+    "example": "Firefighters put out the fire quickly.",
+    "ja": "消防士がすぐに火を消した。"
+   },
+   {
+    "image": "情報を世の中の外側へ置く",
+    "example": "The company put out a statement.",
+    "ja": "その会社は声明を発表した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_039",
+  "word": "put up",
+  "reading": "put ＋ up",
+  "meaning": "上に置く・立てる",
+  "example": "They put up a new sign in front of the shop.",
+  "exampleTranslation": "店の前に新しい看板を掲げた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "up"
+  ],
+  "concept": "上に置く・立てる",
+  "definitionEn": "to raise or build something",
+  "uses": [
+   {
+    "image": "看板や建物を上へ立てる",
+    "example": "They put up a new sign in front of the shop.",
+    "ja": "店の前に新しい看板を掲げた。"
+   },
+   {
+    "image": "人を屋根の下に置く",
+    "example": "Can you put me up for the night?",
+    "ja": "今夜泊めてもらえますか？"
+   }
+  ]
+ },
+ {
+  "id": "phr_040",
+  "word": "put up with",
+  "reading": "put ＋ up ＋ with",
+  "meaning": "嫌なものを抱えたまま、上に載せておく",
+  "example": "I can't put up with the noise anymore.",
+  "exampleTranslation": "もうこの騒音には我慢できない。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "up",
+   "with"
+  ],
+  "concept": "嫌なものを抱えたまま、上に載せておく",
+  "definitionEn": "to accept something unpleasant without complaining",
+  "uses": [
+   {
+    "image": "嫌なことに耐える",
+    "example": "I can't put up with the noise anymore.",
+    "ja": "もうこの騒音には我慢できない。"
+   }
+  ]
+ },
+ {
+  "id": "phr_041",
+  "word": "put away",
+  "reading": "put ＋ away",
+  "meaning": "目の前から離れた（決まった）場所に置く",
+  "example": "Put away your toys, please.",
+  "exampleTranslation": "おもちゃを片付けてね。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "away"
+  ],
+  "concept": "目の前から離れた（決まった）場所に置く",
+  "definitionEn": "to put something in its usual place",
+  "uses": [
+   {
+    "image": "物をしまう",
+    "example": "Put away your toys, please.",
+    "ja": "おもちゃを片付けてね。"
+   },
+   {
+    "image": "お金を手元から離しておく",
+    "example": "I put away some money every month.",
+    "ja": "毎月少しずつお金を貯めている。"
+   }
+  ]
+ },
+ {
+  "id": "phr_042",
+  "word": "put down",
+  "reading": "put ＋ down",
+  "meaning": "下に置く",
+  "example": "Put the box down here.",
+  "exampleTranslation": "箱をここに置いて。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "down"
+  ],
+  "concept": "下に置く",
+  "definitionEn": "to place something on a surface; to write something",
+  "uses": [
+   {
+    "image": "手に持った物を下へ",
+    "example": "Put the box down here.",
+    "ja": "箱をここに置いて。"
+   },
+   {
+    "image": "言葉を紙の上に降ろす",
+    "example": "Put your name down on the list.",
+    "ja": "リストに名前を書いて。"
+   },
+   {
+    "image": "人の価値を下げる",
+    "example": "Stop putting yourself down.",
+    "ja": "自分を卑下するのはやめて。"
+   }
+  ]
+ },
+ {
+  "id": "phr_043",
+  "word": "put forward",
+  "reading": "put ＋ forward",
+  "meaning": "みんなの前へ押し出して置く",
+  "example": "She put forward a new idea at the meeting.",
+  "exampleTranslation": "彼女は会議で新しい案を出した。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "forward"
+  ],
+  "concept": "みんなの前へ押し出して置く",
+  "definitionEn": "to suggest an idea or plan",
+  "uses": [
+   {
+    "image": "考えを前へ出す",
+    "example": "She put forward a new idea at the meeting.",
+    "ja": "彼女は会議で新しい案を出した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_044",
+  "word": "put through",
+  "reading": "put ＋ through",
+  "meaning": "端から端まで通るように置く",
+  "example": "I'll put you through to the manager.",
+  "exampleTranslation": "マネージャーにおつなぎします。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "through"
+  ],
+  "concept": "端から端まで通るように置く",
+  "definitionEn": "to connect someone by phone; to make someone experience something",
+  "uses": [
+   {
+    "image": "電話の線を相手までつなぐ",
+    "example": "I'll put you through to the manager.",
+    "ja": "マネージャーにおつなぎします。"
+   },
+   {
+    "image": "学校を最後まで通らせる",
+    "example": "Her parents put her through college.",
+    "ja": "両親が彼女の大学の学費を出した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_045",
+  "word": "put together",
+  "reading": "put ＋ together",
+  "meaning": "バラバラなものを一か所に集めて置く",
+  "example": "It took an hour to put the desk together.",
+  "exampleTranslation": "机を組み立てるのに1時間かかった。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "put"
+  ],
+  "verb": "put",
+  "particles": [
+   "together"
+  ],
+  "concept": "バラバラなものを一か所に集めて置く",
+  "definitionEn": "to build or organize something from parts",
+  "uses": [
+   {
+    "image": "部品を組み立てる",
+    "example": "It took an hour to put the desk together.",
+    "ja": "机を組み立てるのに1時間かかった。"
+   },
+   {
+    "image": "情報をまとめる",
+    "example": "We put together a report for the client.",
+    "ja": "顧客向けの報告書をまとめた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_046",
+  "word": "come up",
+  "reading": "come ＋ up",
+  "meaning": "下からこちらへ上がってくる（→ 目の前に現れる）",
+  "example": "Your name came up in the meeting.",
+  "exampleTranslation": "会議であなたの名前が出た。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "up"
+  ],
+  "concept": "下からこちらへ上がってくる（→ 目の前に現れる）",
+  "definitionEn": "to appear or be mentioned",
+  "uses": [
+   {
+    "image": "話題が会話の表面に上がってくる",
+    "example": "Your name came up in the meeting.",
+    "ja": "会議であなたの名前が出た。"
+   },
+   {
+    "image": "用事が急に現れる",
+    "example": "Something came up, so I can't go.",
+    "ja": "急用ができて行けなくなった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_047",
+  "word": "come up with",
+  "reading": "come ＋ up ＋ with",
+  "meaning": "アイデアを伴って、頭の表面に上がってくる",
+  "example": "She came up with a great idea.",
+  "exampleTranslation": "彼女が素晴らしい案を思いついた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "up",
+   "with"
+  ],
+  "concept": "アイデアを伴って、頭の表面に上がってくる",
+  "definitionEn": "to think of an idea or plan",
+  "uses": [
+   {
+    "image": "良い考えを思いつく",
+    "example": "She came up with a great idea.",
+    "ja": "彼女が素晴らしい案を思いついた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_048",
+  "word": "come across",
+  "reading": "come ＋ across",
+  "meaning": "向こうから横切って、こちらへやって来る",
+  "example": "I came across an old photo in a drawer.",
+  "exampleTranslation": "引き出しで古い写真を偶然見つけた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "across"
+  ],
+  "concept": "向こうから横切って、こちらへやって来る",
+  "definitionEn": "to find or meet by chance; to seem",
+  "uses": [
+   {
+    "image": "偶然出くわす",
+    "example": "I came across an old photo in a drawer.",
+    "ja": "引き出しで古い写真を偶然見つけた。"
+   },
+   {
+    "image": "印象が相手の側へ伝わってくる",
+    "example": "He comes across as very friendly.",
+    "ja": "彼はとても感じのいい人という印象だ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_049",
+  "word": "come out",
+  "reading": "come ＋ out",
+  "meaning": "中から外へ出てくる（→ 姿を現す）",
+  "example": "Her new book comes out next month.",
+  "exampleTranslation": "彼女の新刊は来月出る。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "out"
+  ],
+  "concept": "中から外へ出てくる（→ 姿を現す）",
+  "definitionEn": "to appear, become available or become known",
+  "uses": [
+   {
+    "image": "新しい物が世の中に出てくる",
+    "example": "Her new book comes out next month.",
+    "ja": "彼女の新刊は来月出る。"
+   },
+   {
+    "image": "隠れていたことが表に出てくる",
+    "example": "The truth came out in the end.",
+    "ja": "結局、真実が明らかになった。"
+   },
+   {
+    "image": "太陽が雲の外に出てくる",
+    "example": "The sun came out after the rain.",
+    "ja": "雨の後、太陽が出てきた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_050",
+  "word": "come back",
+  "reading": "come ＋ back",
+  "meaning": "元の場所へ戻ってくる",
+  "example": "Please come back soon.",
+  "exampleTranslation": "また近いうちに来てね。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "back"
+  ],
+  "concept": "元の場所へ戻ってくる",
+  "definitionEn": "to return",
+  "uses": [
+   {
+    "image": "人が戻ってくる",
+    "example": "Please come back soon.",
+    "ja": "また近いうちに来てね。"
+   },
+   {
+    "image": "記憶が戻ってくる",
+    "example": "It's all coming back to me now.",
+    "ja": "全部思い出してきた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_051",
+  "word": "come down with",
+  "reading": "come ＋ down ＋ with",
+  "meaning": "体調が下がって、病気を伴ってくる",
+  "example": "I think I'm coming down with a cold.",
+  "exampleTranslation": "風邪をひきかけているみたい。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "down",
+   "with"
+  ],
+  "concept": "体調が下がって、病気を伴ってくる",
+  "definitionEn": "to become ill",
+  "uses": [
+   {
+    "image": "病気にかかる",
+    "example": "I think I'm coming down with a cold.",
+    "ja": "風邪をひきかけているみたい。"
+   }
+  ]
+ },
+ {
+  "id": "phr_052",
+  "word": "come over",
+  "reading": "come ＋ over",
+  "meaning": "間にあるものを越えて、こちら側へ来る",
+  "example": "Why don't you come over for dinner?",
+  "exampleTranslation": "夕食を食べに来ない？",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "over"
+  ],
+  "concept": "間にあるものを越えて、こちら側へ来る",
+  "definitionEn": "to visit someone's home; to affect someone suddenly",
+  "uses": [
+   {
+    "image": "人が家に来る",
+    "example": "Why don't you come over for dinner?",
+    "ja": "夕食を食べに来ない？"
+   },
+   {
+    "image": "感情が上から覆ってくる",
+    "example": "I don't know what came over me.",
+    "ja": "なぜあんなことをしたのか自分でもわからない。"
+   }
+  ]
+ },
+ {
+  "id": "phr_053",
+  "word": "come along",
+  "reading": "come ＋ along",
+  "meaning": "同じ道に沿って、こちらへ一緒に来る",
+  "example": "We're going to the park. Do you want to come along?",
+  "exampleTranslation": "公園に行くけど、一緒に来る？",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "along"
+  ],
+  "concept": "同じ道に沿って、こちらへ一緒に来る",
+  "definitionEn": "to go somewhere with someone; to make progress",
+  "uses": [
+   {
+    "image": "人が一緒についてくる",
+    "example": "We're going to the park. Do you want to come along?",
+    "ja": "公園に行くけど、一緒に来る？"
+   },
+   {
+    "image": "物事が道に沿って進んでくる",
+    "example": "How is your project coming along?",
+    "ja": "プロジェクトの進み具合はどう？"
+   }
+  ]
+ },
+ {
+  "id": "phr_054",
+  "word": "come through",
+  "reading": "come ＋ through",
+  "meaning": "困難を通り抜けて、こちらへ出てくる",
+  "example": "He came through the surgery well.",
+  "exampleTranslation": "彼は手術を無事に乗り越えた。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "through"
+  ],
+  "concept": "困難を通り抜けて、こちらへ出てくる",
+  "definitionEn": "to survive a difficult situation; to do what is needed",
+  "uses": [
+   {
+    "image": "困難を通り抜けて無事に出てくる",
+    "example": "He came through the surgery well.",
+    "ja": "彼は手術を無事に乗り越えた。"
+   },
+   {
+    "image": "必要な時に期待どおりのものが届く",
+    "example": "My friends really came through for me.",
+    "ja": "友人たちは本当に頼りになった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_055",
+  "word": "come in",
+  "reading": "come ＋ in",
+  "meaning": "外からこちらの中へ入ってくる",
+  "example": "Come in and sit down.",
+  "exampleTranslation": "入って座ってください。",
+  "level": "A1",
+  "tags": [
+   "phrasal",
+   "come"
+  ],
+  "verb": "come",
+  "particles": [
+   "in"
+  ],
+  "concept": "外からこちらの中へ入ってくる",
+  "definitionEn": "to enter a room or place",
+  "uses": [
+   {
+    "image": "人が部屋に入ってくる",
+    "example": "Come in and sit down.",
+    "ja": "入って座ってください。"
+   },
+   {
+    "image": "情報が手元に入ってくる",
+    "example": "Reports are coming in from the scene.",
+    "ja": "現場から報告が入ってきている。"
+   }
+  ]
+ },
+ {
+  "id": "phr_056",
+  "word": "go on",
+  "reading": "go ＋ on",
+  "meaning": "くっついたまま、先へ進んでいく",
+  "example": "Go on, I'm listening.",
+  "exampleTranslation": "続けて、聞いているよ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "on"
+  ],
+  "concept": "くっついたまま、先へ進んでいく",
+  "definitionEn": "to continue; to happen",
+  "uses": [
+   {
+    "image": "止まらずに続ける",
+    "example": "Go on, I'm listening.",
+    "ja": "続けて、聞いているよ。"
+   },
+   {
+    "image": "物事が今進行している",
+    "example": "What's going on here?",
+    "ja": "ここで何が起きているの？"
+   }
+  ]
+ },
+ {
+  "id": "phr_057",
+  "word": "go out",
+  "reading": "go ＋ out",
+  "meaning": "外へ出ていく（→ 消える）",
+  "example": "Let's go out tonight.",
+  "exampleTranslation": "今夜出かけよう。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "out"
+  ],
+  "concept": "外へ出ていく（→ 消える）",
+  "definitionEn": "to leave home for fun; to stop burning",
+  "uses": [
+   {
+    "image": "家の外へ出かける",
+    "example": "Let's go out tonight.",
+    "ja": "今夜出かけよう。"
+   },
+   {
+    "image": "明かりや火が消えていく",
+    "example": "Suddenly the lights went out.",
+    "ja": "突然明かりが消えた。"
+   },
+   {
+    "image": "二人で外へ出かける関係",
+    "example": "They've been going out for a year.",
+    "ja": "二人は1年付き合っている。"
+   }
+  ]
+ },
+ {
+  "id": "phr_058",
+  "word": "go over",
+  "reading": "go ＋ over",
+  "meaning": "上から全体を覆うように進んでいく",
+  "example": "Let's go over the plan once more.",
+  "exampleTranslation": "もう一度計画を確認しよう。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "over"
+  ],
+  "concept": "上から全体を覆うように進んでいく",
+  "definitionEn": "to examine or check something carefully",
+  "uses": [
+   {
+    "image": "全体を見直す",
+    "example": "Let's go over the plan once more.",
+    "ja": "もう一度計画を確認しよう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_059",
+  "word": "go through",
+  "reading": "go ＋ through",
+  "meaning": "端から端まで通り抜けていく",
+  "example": "She went through a hard time last year.",
+  "exampleTranslation": "彼女は去年つらい時期を経験した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "through"
+  ],
+  "concept": "端から端まで通り抜けていく",
+  "definitionEn": "to experience something difficult; to examine something",
+  "uses": [
+   {
+    "image": "つらい期間を通り抜ける",
+    "example": "She went through a hard time last year.",
+    "ja": "彼女は去年つらい時期を経験した。"
+   },
+   {
+    "image": "書類を最初から最後まで見る",
+    "example": "I went through my notes before the test.",
+    "ja": "テストの前にノートにひと通り目を通した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_060",
+  "word": "go off",
+  "reading": "go ＋ off",
+  "meaning": "今の状態から離れていく（→ 急に作動する・止まる）",
+  "example": "My alarm went off at six.",
+  "exampleTranslation": "6時に目覚ましが鳴った。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "off"
+  ],
+  "concept": "今の状態から離れていく（→ 急に作動する・止まる）",
+  "definitionEn": "to explode or ring suddenly; to stop working",
+  "uses": [
+   {
+    "image": "音が急に飛び出す",
+    "example": "My alarm went off at six.",
+    "ja": "6時に目覚ましが鳴った。"
+   },
+   {
+    "image": "電気が離れて止まる",
+    "example": "The lights went off during the storm.",
+    "ja": "嵐の間に電気が消えた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_061",
+  "word": "go up",
+  "reading": "go ＋ up",
+  "meaning": "上へ進んでいく",
+  "example": "Prices have gone up again.",
+  "exampleTranslation": "また物価が上がった。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "up"
+  ],
+  "concept": "上へ進んでいく",
+  "definitionEn": "to rise or increase",
+  "uses": [
+   {
+    "image": "数値が上がる",
+    "example": "Prices have gone up again.",
+    "ja": "また物価が上がった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_062",
+  "word": "go down",
+  "reading": "go ＋ down",
+  "meaning": "下へ進んでいく",
+  "example": "The sun went down behind the hills.",
+  "exampleTranslation": "太陽が丘の向こうに沈んだ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "down"
+  ],
+  "concept": "下へ進んでいく",
+  "definitionEn": "to fall or decrease",
+  "uses": [
+   {
+    "image": "太陽が沈む",
+    "example": "The sun went down behind the hills.",
+    "ja": "太陽が丘の向こうに沈んだ。"
+   },
+   {
+    "image": "数値が下がる",
+    "example": "Sales went down last quarter.",
+    "ja": "前四半期は売上が下がった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_063",
+  "word": "go back",
+  "reading": "go ＋ back",
+  "meaning": "元の場所へ離れていく（戻る）",
+  "example": "I want to go back to Kyoto someday.",
+  "exampleTranslation": "いつか京都に戻りたい。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "back"
+  ],
+  "concept": "元の場所へ離れていく（戻る）",
+  "definitionEn": "to return to a place; to have existed since a past time",
+  "uses": [
+   {
+    "image": "元の場所へ戻る",
+    "example": "I want to go back to Kyoto someday.",
+    "ja": "いつか京都に戻りたい。"
+   },
+   {
+    "image": "時間をさかのぼる",
+    "example": "This tradition goes back 500 years.",
+    "ja": "この伝統は500年前にさかのぼる。"
+   }
+  ]
+ },
+ {
+  "id": "phr_064",
+  "word": "go with",
+  "reading": "go ＋ with",
+  "meaning": "一緒に並んで進んでいく",
+  "example": "This tie goes with your suit.",
+  "exampleTranslation": "このネクタイはあなたのスーツに合う。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "with"
+  ],
+  "concept": "一緒に並んで進んでいく",
+  "definitionEn": "to match; to choose",
+  "uses": [
+   {
+    "image": "組み合わせが合う",
+    "example": "This tie goes with your suit.",
+    "ja": "このネクタイはあなたのスーツに合う。"
+   },
+   {
+    "image": "選んだものと一緒に進む",
+    "example": "I'll go with the blue one.",
+    "ja": "青いのにします。"
+   }
+  ]
+ },
+ {
+  "id": "phr_065",
+  "word": "go for",
+  "reading": "go ＋ for",
+  "meaning": "目標に向かって進んでいく",
+  "example": "If you want the job, go for it!",
+  "exampleTranslation": "その仕事がしたいなら、挑戦してみなよ！",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "go"
+  ],
+  "verb": "go",
+  "particles": [
+   "for"
+  ],
+  "concept": "目標に向かって進んでいく",
+  "definitionEn": "to try to get something; to choose",
+  "uses": [
+   {
+    "image": "目標を目指す",
+    "example": "If you want the job, go for it!",
+    "ja": "その仕事がしたいなら、挑戦してみなよ！"
+   },
+   {
+    "image": "選んで手を伸ばす",
+    "example": "I'll go for the fish today.",
+    "ja": "今日は魚にします。"
+   }
+  ]
+ },
+ {
+  "id": "phr_066",
+  "word": "look for",
+  "reading": "look ＋ for",
+  "meaning": "求めるものの方向に視線を向ける",
+  "example": "I'm looking for my keys.",
+  "exampleTranslation": "鍵を探している。",
+  "level": "A1",
+  "tags": [
+   "phrasal",
+   "look"
+  ],
+  "verb": "look",
+  "particles": [
+   "for"
+  ],
+  "concept": "求めるものの方向に視線を向ける",
+  "definitionEn": "to try to find something",
+  "uses": [
+   {
+    "image": "見つけようとして探す",
+    "example": "I'm looking for my keys.",
+    "ja": "鍵を探している。"
+   }
+  ]
+ },
+ {
+  "id": "phr_067",
+  "word": "look after",
+  "reading": "look ＋ after",
+  "meaning": "後ろからずっと視線で追いかける（見守る）",
+  "example": "Can you look after my dog this weekend?",
+  "exampleTranslation": "今週末、犬の世話をしてくれる？",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "look"
+  ],
+  "verb": "look",
+  "particles": [
+   "after"
+  ],
+  "concept": "後ろからずっと視線で追いかける（見守る）",
+  "definitionEn": "to take care of someone or something",
+  "uses": [
+   {
+    "image": "世話をする",
+    "example": "Can you look after my dog this weekend?",
+    "ja": "今週末、犬の世話をしてくれる？"
+   }
+  ]
+ },
+ {
+  "id": "phr_068",
+  "word": "look up",
+  "reading": "look ＋ up",
+  "meaning": "視線を上へ向ける／情報を拾い上げる",
+  "example": "Look up the word in a dictionary.",
+  "exampleTranslation": "その単語を辞書で調べて。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "look"
+  ],
+  "verb": "look",
+  "particles": [
+   "up"
+  ],
+  "concept": "視線を上へ向ける／情報を拾い上げる",
+  "definitionEn": "to search for information; to improve",
+  "uses": [
+   {
+    "image": "辞書から言葉を拾い上げる",
+    "example": "Look up the word in a dictionary.",
+    "ja": "その単語を辞書で調べて。"
+   },
+   {
+    "image": "状況が上向きに見える",
+    "example": "Things are looking up for our business.",
+    "ja": "うちの商売は上向いてきた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_069",
+  "word": "look into",
+  "reading": "look ＋ into",
+  "meaning": "物事の中まで視線を入れる",
+  "example": "We'll look into the problem right away.",
+  "exampleTranslation": "すぐにその問題を調査します。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "look"
+  ],
+  "verb": "look",
+  "particles": [
+   "into"
+  ],
+  "concept": "物事の中まで視線を入れる",
+  "definitionEn": "to investigate something",
+  "uses": [
+   {
+    "image": "問題の中身を調べる",
+    "example": "We'll look into the problem right away.",
+    "ja": "すぐにその問題を調査します。"
+   }
+  ]
+ },
+ {
+  "id": "phr_070",
+  "word": "look forward to",
+  "reading": "look ＋ forward ＋ to",
+  "meaning": "前方（未来）のその時点に視線を向ける",
+  "example": "I'm looking forward to seeing you.",
+  "exampleTranslation": "お会いできるのを楽しみにしています。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "look"
+  ],
+  "verb": "look",
+  "particles": [
+   "forward",
+   "to"
+  ],
+  "concept": "前方（未来）のその時点に視線を向ける",
+  "definitionEn": "to feel happy about something that will happen",
+  "uses": [
+   {
+    "image": "未来の出来事を楽しみに待つ",
+    "example": "I'm looking forward to seeing you.",
+    "ja": "お会いできるのを楽しみにしています。"
+   }
+  ]
+ },
+ {
+  "id": "phr_071",
+  "word": "look up to",
+  "reading": "look ＋ up ＋ to",
+  "meaning": "その人の方へ、下から上に視線を向ける",
+  "example": "I've always looked up to my father.",
+  "exampleTranslation": "私はずっと父を尊敬してきた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "look"
+  ],
+  "verb": "look",
+  "particles": [
+   "up",
+   "to"
+  ],
+  "concept": "その人の方へ、下から上に視線を向ける",
+  "definitionEn": "to admire and respect someone",
+  "uses": [
+   {
+    "image": "尊敬する",
+    "example": "I've always looked up to my father.",
+    "ja": "私はずっと父を尊敬してきた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_072",
+  "word": "look down on",
+  "reading": "look ＋ down ＋ on",
+  "meaning": "その人の上から、下に視線を向ける",
+  "example": "Don't look down on people who are different.",
+  "exampleTranslation": "自分と違う人を見下してはいけない。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "look"
+  ],
+  "verb": "look",
+  "particles": [
+   "down",
+   "on"
+  ],
+  "concept": "その人の上から、下に視線を向ける",
+  "definitionEn": "to think you are better than someone",
+  "uses": [
+   {
+    "image": "見下す",
+    "example": "Don't look down on people who are different.",
+    "ja": "自分と違う人を見下してはいけない。"
+   }
+  ]
+ },
+ {
+  "id": "phr_073",
+  "word": "look out",
+  "reading": "look ＋ out",
+  "meaning": "視線を外へ向けて警戒する",
+  "example": "Look out! There's a car coming!",
+  "exampleTranslation": "危ない！車が来てるよ！",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "look"
+  ],
+  "verb": "look",
+  "particles": [
+   "out"
+  ],
+  "concept": "視線を外へ向けて警戒する",
+  "definitionEn": "to be careful",
+  "uses": [
+   {
+    "image": "危険に注意する",
+    "example": "Look out! There's a car coming!",
+    "ja": "危ない！車が来てるよ！"
+   }
+  ]
+ },
+ {
+  "id": "phr_074",
+  "word": "look over",
+  "reading": "look ＋ over",
+  "meaning": "上から全体にざっと視線をかぶせる",
+  "example": "Could you look over my essay?",
+  "exampleTranslation": "私の作文に目を通してもらえますか？",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "look"
+  ],
+  "verb": "look",
+  "particles": [
+   "over"
+  ],
+  "concept": "上から全体にざっと視線をかぶせる",
+  "definitionEn": "to examine something quickly",
+  "uses": [
+   {
+    "image": "書類にざっと目を通す",
+    "example": "Could you look over my essay?",
+    "ja": "私の作文に目を通してもらえますか？"
+   }
+  ]
+ },
+ {
+  "id": "phr_075",
+  "word": "turn on",
+  "reading": "turn ＋ on",
+  "meaning": "つまみを回して、電気をくっつける",
+  "example": "Turn on the light, please.",
+  "exampleTranslation": "電気をつけてください。",
+  "level": "A1",
+  "tags": [
+   "phrasal",
+   "turn"
+  ],
+  "verb": "turn",
+  "particles": [
+   "on"
+  ],
+  "concept": "つまみを回して、電気をくっつける",
+  "definitionEn": "to start a machine or light",
+  "uses": [
+   {
+    "image": "機械を作動させる",
+    "example": "Turn on the light, please.",
+    "ja": "電気をつけてください。"
+   }
+  ]
+ },
+ {
+  "id": "phr_076",
+  "word": "turn off",
+  "reading": "turn ＋ off",
+  "meaning": "つまみを回して、電気を離す",
+  "example": "Please turn off your phone.",
+  "exampleTranslation": "携帯の電源を切ってください。",
+  "level": "A1",
+  "tags": [
+   "phrasal",
+   "turn"
+  ],
+  "verb": "turn",
+  "particles": [
+   "off"
+  ],
+  "concept": "つまみを回して、電気を離す",
+  "definitionEn": "to stop a machine or light",
+  "uses": [
+   {
+    "image": "機械を止める",
+    "example": "Please turn off your phone.",
+    "ja": "携帯の電源を切ってください。"
+   }
+  ]
+ },
+ {
+  "id": "phr_077",
+  "word": "turn down",
+  "reading": "turn ＋ down",
+  "meaning": "つまみを回して、下げる",
+  "example": "Could you turn down the TV?",
+  "exampleTranslation": "テレビの音を下げてくれる？",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "turn"
+  ],
+  "verb": "turn",
+  "particles": [
+   "down"
+  ],
+  "concept": "つまみを回して、下げる",
+  "definitionEn": "to reduce the volume; to refuse",
+  "uses": [
+   {
+    "image": "音量を下げる",
+    "example": "Could you turn down the TV?",
+    "ja": "テレビの音を下げてくれる？"
+   },
+   {
+    "image": "申し出を下へ押し下げる",
+    "example": "She turned down the job offer.",
+    "ja": "彼女はその仕事の誘いを断った。"
+   }
+  ]
+ },
+ {
+  "id": "phr_078",
+  "word": "turn up",
+  "reading": "turn ＋ up",
+  "meaning": "回して上げる／くるっと上に現れる",
+  "example": "Turn up the music!",
+  "exampleTranslation": "音楽の音を大きくして！",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "turn"
+  ],
+  "verb": "turn",
+  "particles": [
+   "up"
+  ],
+  "concept": "回して上げる／くるっと上に現れる",
+  "definitionEn": "to increase the volume; to appear",
+  "uses": [
+   {
+    "image": "音量を上げる",
+    "example": "Turn up the music!",
+    "ja": "音楽の音を大きくして！"
+   },
+   {
+    "image": "人がひょっこり姿を現す",
+    "example": "He turned up an hour late.",
+    "ja": "彼は1時間遅れて現れた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_079",
+  "word": "turn out",
+  "reading": "turn ＋ out",
+  "meaning": "くるっと向きを変えて、外に結果が出てくる",
+  "example": "The rumor turned out to be true.",
+  "exampleTranslation": "その噂は本当だとわかった。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "turn"
+  ],
+  "verb": "turn",
+  "particles": [
+   "out"
+  ],
+  "concept": "くるっと向きを変えて、外に結果が出てくる",
+  "definitionEn": "to happen in a particular way; to be discovered to be",
+  "uses": [
+   {
+    "image": "最後にわかった結果",
+    "example": "The rumor turned out to be true.",
+    "ja": "その噂は本当だとわかった。"
+   },
+   {
+    "image": "物事の結末",
+    "example": "Everything turned out fine.",
+    "ja": "結局すべてうまくいった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_080",
+  "word": "turn into",
+  "reading": "turn ＋ into",
+  "meaning": "向きを変えて、別のものの中へ入る",
+  "example": "The caterpillar turned into a butterfly.",
+  "exampleTranslation": "イモムシはチョウになった。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "turn"
+  ],
+  "verb": "turn",
+  "particles": [
+   "into"
+  ],
+  "concept": "向きを変えて、別のものの中へ入る",
+  "definitionEn": "to change and become something different",
+  "uses": [
+   {
+    "image": "別のものに変わる",
+    "example": "The caterpillar turned into a butterfly.",
+    "ja": "イモムシはチョウになった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_081",
+  "word": "turn around",
+  "reading": "turn ＋ around",
+  "meaning": "ぐるっと回って、反対を向く",
+  "example": "Turn around and look at me.",
+  "exampleTranslation": "振り向いて私を見て。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "turn"
+  ],
+  "verb": "turn",
+  "particles": [
+   "around"
+  ],
+  "concept": "ぐるっと回って、反対を向く",
+  "definitionEn": "to face the opposite direction; to improve a bad situation",
+  "uses": [
+   {
+    "image": "体の向きを反対にする",
+    "example": "Turn around and look at me.",
+    "ja": "振り向いて私を見て。"
+   },
+   {
+    "image": "悪い流れを反対方向へ",
+    "example": "The new CEO turned the company around.",
+    "ja": "新しいCEOが会社を立て直した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_082",
+  "word": "bring up",
+  "reading": "bring ＋ up",
+  "meaning": "下にあるものを、こちらへ持ち上げてくる",
+  "example": "Please don't bring up politics at dinner.",
+  "exampleTranslation": "夕食の席で政治の話を持ち出さないで。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "bring"
+  ],
+  "verb": "bring",
+  "particles": [
+   "up"
+  ],
+  "concept": "下にあるものを、こちらへ持ち上げてくる",
+  "definitionEn": "to mention a subject; to raise a child",
+  "uses": [
+   {
+    "image": "話題を会話の表面に持ち上げる",
+    "example": "Please don't bring up politics at dinner.",
+    "ja": "夕食の席で政治の話を持ち出さないで。"
+   },
+   {
+    "image": "子どもを上へ持ち上げていく",
+    "example": "She was brought up in Osaka.",
+    "ja": "彼女は大阪で育った。"
+   }
+  ]
+ },
+ {
+  "id": "phr_083",
+  "word": "bring about",
+  "reading": "bring ＋ about",
+  "meaning": "周りの世界に、変化を持ってくる",
+  "example": "The internet brought about huge changes.",
+  "exampleTranslation": "インターネットは大きな変化をもたらした。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "bring"
+  ],
+  "verb": "bring",
+  "particles": [
+   "about"
+  ],
+  "concept": "周りの世界に、変化を持ってくる",
+  "definitionEn": "to cause something to happen",
+  "uses": [
+   {
+    "image": "変化を引き起こす",
+    "example": "The internet brought about huge changes.",
+    "ja": "インターネットは大きな変化をもたらした。"
+   }
+  ]
+ },
+ {
+  "id": "phr_084",
+  "word": "bring back",
+  "reading": "bring ＋ back",
+  "meaning": "元の場所へ持って戻ってくる",
+  "example": "Please bring back the book by Friday.",
+  "exampleTranslation": "金曜日までに本を返してね。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "bring"
+  ],
+  "verb": "bring",
+  "particles": [
+   "back"
+  ],
+  "concept": "元の場所へ持って戻ってくる",
+  "definitionEn": "to return something; to make you remember",
+  "uses": [
+   {
+    "image": "物を返しに持ってくる",
+    "example": "Please bring back the book by Friday.",
+    "ja": "金曜日までに本を返してね。"
+   },
+   {
+    "image": "過去の記憶を今に持ってくる",
+    "example": "This photo brings back memories.",
+    "ja": "この写真を見ると思い出がよみがえる。"
+   }
+  ]
+ },
+ {
+  "id": "phr_085",
+  "word": "bring out",
+  "reading": "bring ＋ out",
+  "meaning": "中にあるものを、外へ持ってくる",
+  "example": "The coach brings out the best in his players.",
+  "exampleTranslation": "そのコーチは選手の力を最大限に引き出す。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "bring"
+  ],
+  "verb": "bring",
+  "particles": [
+   "out"
+  ],
+  "concept": "中にあるものを、外へ持ってくる",
+  "definitionEn": "to make something appear; to produce something new",
+  "uses": [
+   {
+    "image": "隠れた力を引き出す",
+    "example": "The coach brings out the best in his players.",
+    "ja": "そのコーチは選手の力を最大限に引き出す。"
+   },
+   {
+    "image": "新製品を世の中に出す",
+    "example": "They're bringing out a new model this spring.",
+    "ja": "この春、新モデルが発売される。"
+   }
+  ]
+ },
+ {
+  "id": "phr_086",
+  "word": "bring in",
+  "reading": "bring ＋ in",
+  "meaning": "外から中へ持ってくる",
+  "example": "The company brought in new rules.",
+  "exampleTranslation": "会社は新しい規則を導入した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "bring"
+  ],
+  "verb": "bring",
+  "particles": [
+   "in"
+  ],
+  "concept": "外から中へ持ってくる",
+  "definitionEn": "to introduce something; to earn money",
+  "uses": [
+   {
+    "image": "新しい仕組みを組織の中へ",
+    "example": "The company brought in new rules.",
+    "ja": "会社は新しい規則を導入した。"
+   },
+   {
+    "image": "お金を手元の中へ持ってくる",
+    "example": "Her shop brings in $5,000 a month.",
+    "ja": "彼女の店は月に5,000ドル稼ぐ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_087",
+  "word": "give up",
+  "reading": "give ＋ up",
+  "meaning": "手から離して、上に差し出す（お手上げ）",
+  "example": "Don't give up! You can do it.",
+  "exampleTranslation": "諦めないで！あなたならできる。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "give"
+  ],
+  "verb": "give",
+  "particles": [
+   "up"
+  ],
+  "concept": "手から離して、上に差し出す（お手上げ）",
+  "definitionEn": "to stop trying or stop doing something",
+  "uses": [
+   {
+    "image": "挑戦を手放す",
+    "example": "Don't give up! You can do it.",
+    "ja": "諦めないで！あなたならできる。"
+   },
+   {
+    "image": "習慣を手放す",
+    "example": "He gave up smoking last year.",
+    "ja": "彼は去年たばこをやめた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_088",
+  "word": "give in",
+  "reading": "give ＋ in",
+  "meaning": "自分を相手の中に明け渡す",
+  "example": "The government finally gave in to the demands.",
+  "exampleTranslation": "政府はついに要求に屈した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "give"
+  ],
+  "verb": "give",
+  "particles": [
+   "in"
+  ],
+  "concept": "自分を相手の中に明け渡す",
+  "definitionEn": "to finally agree after refusing",
+  "uses": [
+   {
+    "image": "相手の要求に屈する",
+    "example": "The government finally gave in to the demands.",
+    "ja": "政府はついに要求に屈した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_089",
+  "word": "give away",
+  "reading": "give ＋ away",
+  "meaning": "手から離して、遠くへ渡してしまう",
+  "example": "They're giving away free samples.",
+  "exampleTranslation": "無料サンプルを配っている。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "give"
+  ],
+  "verb": "give",
+  "particles": [
+   "away"
+  ],
+  "concept": "手から離して、遠くへ渡してしまう",
+  "definitionEn": "to give something for free; to reveal a secret",
+  "uses": [
+   {
+    "image": "無料で配る",
+    "example": "They're giving away free samples.",
+    "ja": "無料サンプルを配っている。"
+   },
+   {
+    "image": "秘密を手放してしまう",
+    "example": "Don't give away the ending!",
+    "ja": "結末をばらさないで！"
+   }
+  ]
+ },
+ {
+  "id": "phr_090",
+  "word": "give back",
+  "reading": "give ＋ back",
+  "meaning": "元の持ち主へ渡して戻す",
+  "example": "Give me back my pen.",
+  "exampleTranslation": "私のペンを返して。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "give"
+  ],
+  "verb": "give",
+  "particles": [
+   "back"
+  ],
+  "concept": "元の持ち主へ渡して戻す",
+  "definitionEn": "to return something",
+  "uses": [
+   {
+    "image": "借りた物を返す",
+    "example": "Give me back my pen.",
+    "ja": "私のペンを返して。"
+   },
+   {
+    "image": "受けた恩を社会へ戻す",
+    "example": "I want to give back to my community.",
+    "ja": "地域社会に恩返しがしたい。"
+   }
+  ]
+ },
+ {
+  "id": "phr_091",
+  "word": "give out",
+  "reading": "give ＋ out",
+  "meaning": "外へ向けて渡す（→ 出し尽くす）",
+  "example": "The teacher gave out the tests.",
+  "exampleTranslation": "先生がテストを配った。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "give"
+  ],
+  "verb": "give",
+  "particles": [
+   "out"
+  ],
+  "concept": "外へ向けて渡す（→ 出し尽くす）",
+  "definitionEn": "to distribute; to stop working",
+  "uses": [
+   {
+    "image": "みんなに配る",
+    "example": "The teacher gave out the tests.",
+    "ja": "先生がテストを配った。"
+   },
+   {
+    "image": "力を出し尽くして止まる",
+    "example": "After ten kilometers, my legs gave out.",
+    "ja": "10キロ走ったところで足が動かなくなった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_092",
+  "word": "give off",
+  "reading": "give ＋ off",
+  "meaning": "自分から離して、周りに出す",
+  "example": "These flowers give off a sweet smell.",
+  "exampleTranslation": "この花は甘い香りを放つ。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "give"
+  ],
+  "verb": "give",
+  "particles": [
+   "off"
+  ],
+  "concept": "自分から離して、周りに出す",
+  "definitionEn": "to produce heat, light or a smell",
+  "uses": [
+   {
+    "image": "におい・熱・光を発する",
+    "example": "These flowers give off a sweet smell.",
+    "ja": "この花は甘い香りを放つ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_093",
+  "word": "break down",
+  "reading": "break ＋ down",
+  "meaning": "壊れて、下へ崩れ落ちる",
+  "example": "My car broke down on the highway.",
+  "exampleTranslation": "高速道路で車が故障した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "break"
+  ],
+  "verb": "break",
+  "particles": [
+   "down"
+  ],
+  "concept": "壊れて、下へ崩れ落ちる",
+  "definitionEn": "to stop working; to lose control of emotions; to divide",
+  "uses": [
+   {
+    "image": "機械が崩れて動かなくなる",
+    "example": "My car broke down on the highway.",
+    "ja": "高速道路で車が故障した。"
+   },
+   {
+    "image": "感情が崩れ落ちる",
+    "example": "She broke down in tears.",
+    "ja": "彼女は泣き崩れた。"
+   },
+   {
+    "image": "大きなものを小さく崩す",
+    "example": "Let's break the problem down into steps.",
+    "ja": "問題を段階に分けて考えよう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_094",
+  "word": "break up",
+  "reading": "break ＋ up",
+  "meaning": "壊して、すっかりバラバラにする",
+  "example": "They broke up last year.",
+  "exampleTranslation": "二人は去年別れた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "break"
+  ],
+  "verb": "break",
+  "particles": [
+   "up"
+  ],
+  "concept": "壊して、すっかりバラバラにする",
+  "definitionEn": "to end a relationship; to separate into parts",
+  "uses": [
+   {
+    "image": "恋人の関係を壊して終える",
+    "example": "They broke up last year.",
+    "ja": "二人は去年別れた。"
+   },
+   {
+    "image": "集まりをバラバラにする",
+    "example": "The police broke up the fight.",
+    "ja": "警察がけんかを止めた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_095",
+  "word": "break out",
+  "reading": "break ＋ out",
+  "meaning": "壁を壊して、外へ飛び出す",
+  "example": "A fire broke out in the kitchen.",
+  "exampleTranslation": "台所で火事が起きた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "break"
+  ],
+  "verb": "break",
+  "particles": [
+   "out"
+  ],
+  "concept": "壁を壊して、外へ飛び出す",
+  "definitionEn": "to start suddenly; to escape",
+  "uses": [
+   {
+    "image": "出来事が突然飛び出す",
+    "example": "A fire broke out in the kitchen.",
+    "ja": "台所で火事が起きた。"
+   },
+   {
+    "image": "閉じ込められた場所から抜け出す",
+    "example": "Two prisoners broke out of jail.",
+    "ja": "囚人2人が脱獄した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_096",
+  "word": "break into",
+  "reading": "break ＋ into",
+  "meaning": "壊して、中へ入り込む",
+  "example": "Someone broke into my car last night.",
+  "exampleTranslation": "昨夜、誰かが私の車に侵入した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "break"
+  ],
+  "verb": "break",
+  "particles": [
+   "into"
+  ],
+  "concept": "壊して、中へ入り込む",
+  "definitionEn": "to enter a building illegally",
+  "uses": [
+   {
+    "image": "建物や車に侵入する",
+    "example": "Someone broke into my car last night.",
+    "ja": "昨夜、誰かが私の車に侵入した。"
+   },
+   {
+    "image": "新しい分野に入り込む",
+    "example": "The company is trying to break into the Asian market.",
+    "ja": "その会社はアジア市場に参入しようとしている。"
+   }
+  ]
+ },
+ {
+  "id": "phr_097",
+  "word": "break through",
+  "reading": "break ＋ through",
+  "meaning": "壁を壊して、向こう側へ通り抜ける",
+  "example": "The sun broke through the clouds.",
+  "exampleTranslation": "雲の切れ間から太陽が差した。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "break"
+  ],
+  "verb": "break",
+  "particles": [
+   "through"
+  ],
+  "concept": "壁を壊して、向こう側へ通り抜ける",
+  "definitionEn": "to force a way through a barrier",
+  "uses": [
+   {
+    "image": "光が雲を突き抜ける",
+    "example": "The sun broke through the clouds.",
+    "ja": "雲の切れ間から太陽が差した。"
+   },
+   {
+    "image": "障壁を突破する",
+    "example": "Scientists have broken through a major barrier.",
+    "ja": "科学者たちが大きな壁を突破した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_098",
+  "word": "break off",
+  "reading": "break ＋ off",
+  "meaning": "壊して、本体から離す",
+  "example": "He broke off a piece of chocolate.",
+  "exampleTranslation": "彼はチョコレートをひとかけら割った。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "break"
+  ],
+  "verb": "break",
+  "particles": [
+   "off"
+  ],
+  "concept": "壊して、本体から離す",
+  "definitionEn": "to separate a piece; to end something suddenly",
+  "uses": [
+   {
+    "image": "一部をちぎり取る",
+    "example": "He broke off a piece of chocolate.",
+    "ja": "彼はチョコレートをひとかけら割った。"
+   },
+   {
+    "image": "話し合いを途中で断ち切る",
+    "example": "They broke off the talks.",
+    "ja": "彼らは交渉を打ち切った。"
+   }
+  ]
+ },
+ {
+  "id": "phr_099",
+  "word": "set up",
+  "reading": "set ＋ up",
+  "meaning": "きちっと据えて、立ち上げる",
+  "example": "She set up her own company.",
+  "exampleTranslation": "彼女は自分の会社を設立した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "set"
+  ],
+  "verb": "set",
+  "particles": [
+   "up"
+  ],
+  "concept": "きちっと据えて、立ち上げる",
+  "definitionEn": "to start a business; to prepare equipment",
+  "uses": [
+   {
+    "image": "会社を立ち上げる",
+    "example": "She set up her own company.",
+    "ja": "彼女は自分の会社を設立した。"
+   },
+   {
+    "image": "機材を据えて準備する",
+    "example": "Let me set up the projector.",
+    "ja": "プロジェクターを準備します。"
+   }
+  ]
+ },
+ {
+  "id": "phr_100",
+  "word": "set off",
+  "reading": "set ＋ off",
+  "meaning": "据えていた位置から離れる（→ 動き出す）",
+  "example": "We set off early in the morning.",
+  "exampleTranslation": "私たちは朝早く出発した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "set"
+  ],
+  "verb": "set",
+  "particles": [
+   "off"
+  ],
+  "concept": "据えていた位置から離れる（→ 動き出す）",
+  "definitionEn": "to start a journey; to make something start",
+  "uses": [
+   {
+    "image": "旅に出発する",
+    "example": "We set off early in the morning.",
+    "ja": "私たちは朝早く出発した。"
+   },
+   {
+    "image": "仕掛けを作動させる",
+    "example": "The smoke set off the fire alarm.",
+    "ja": "煙で火災報知器が鳴った。"
+   }
+  ]
+ },
+ {
+  "id": "phr_101",
+  "word": "set out",
+  "reading": "set ＋ out",
+  "meaning": "外に向けて据える（→ 乗り出す・並べる）",
+  "example": "They set out on a long journey.",
+  "exampleTranslation": "彼らは長い旅に出た。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "set"
+  ],
+  "verb": "set",
+  "particles": [
+   "out"
+  ],
+  "concept": "外に向けて据える（→ 乗り出す・並べる）",
+  "definitionEn": "to start a journey or task; to arrange",
+  "uses": [
+   {
+    "image": "旅に乗り出す",
+    "example": "They set out on a long journey.",
+    "ja": "彼らは長い旅に出た。"
+   },
+   {
+    "image": "目的に向けて動き出す",
+    "example": "He set out to change the world.",
+    "ja": "彼は世界を変えようと乗り出した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_102",
+  "word": "set aside",
+  "reading": "set ＋ aside",
+  "meaning": "脇に据えて、取っておく",
+  "example": "Set aside some time for yourself.",
+  "exampleTranslation": "自分のための時間を取っておいて。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "set"
+  ],
+  "verb": "set",
+  "particles": [
+   "aside"
+  ],
+  "concept": "脇に据えて、取っておく",
+  "definitionEn": "to save something for a special purpose",
+  "uses": [
+   {
+    "image": "時間やお金を別に取っておく",
+    "example": "Set aside some time for yourself.",
+    "ja": "自分のための時間を取っておいて。"
+   },
+   {
+    "image": "問題をいったん脇に置く",
+    "example": "Let's set aside our differences.",
+    "ja": "意見の違いはいったん置いておこう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_103",
+  "word": "set back",
+  "reading": "set ＋ back",
+  "meaning": "後ろの位置に据え直す",
+  "example": "The storm set the project back by a week.",
+  "exampleTranslation": "嵐でプロジェクトが1週間遅れた。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "set"
+  ],
+  "verb": "set",
+  "particles": [
+   "back"
+  ],
+  "concept": "後ろの位置に据え直す",
+  "definitionEn": "to delay progress",
+  "uses": [
+   {
+    "image": "計画を遅らせる",
+    "example": "The storm set the project back by a week.",
+    "ja": "嵐でプロジェクトが1週間遅れた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_104",
+  "word": "run out",
+  "reading": "run ＋ out",
+  "meaning": "走り続けて、中身が外へ出尽くす",
+  "example": "We've run out of milk.",
+  "exampleTranslation": "牛乳を切らしている。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "run"
+  ],
+  "verb": "run",
+  "particles": [
+   "out"
+  ],
+  "concept": "走り続けて、中身が外へ出尽くす",
+  "definitionEn": "to use all of something",
+  "uses": [
+   {
+    "image": "すっかり使い切る",
+    "example": "We've run out of milk.",
+    "ja": "牛乳を切らしている。"
+   },
+   {
+    "image": "時間がなくなっていく",
+    "example": "Time is running out.",
+    "ja": "時間がなくなってきた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_105",
+  "word": "run into",
+  "reading": "run ＋ into",
+  "meaning": "勢いよく進んで、何かの中へ突っ込む",
+  "example": "I ran into an old friend at the station.",
+  "exampleTranslation": "駅で旧友にばったり会った。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "run"
+  ],
+  "verb": "run",
+  "particles": [
+   "into"
+  ],
+  "concept": "勢いよく進んで、何かの中へ突っ込む",
+  "definitionEn": "to meet by chance; to experience problems",
+  "uses": [
+   {
+    "image": "人にばったり出くわす",
+    "example": "I ran into an old friend at the station.",
+    "ja": "駅で旧友にばったり会った。"
+   },
+   {
+    "image": "問題にぶつかる",
+    "example": "We ran into some problems.",
+    "ja": "いくつか問題にぶつかった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_106",
+  "word": "run over",
+  "reading": "run ＋ over",
+  "meaning": "上を走って越えていく",
+  "example": "The cat was almost run over by a car.",
+  "exampleTranslation": "その猫は危うく車にひかれるところだった。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "run"
+  ],
+  "verb": "run",
+  "particles": [
+   "over"
+  ],
+  "concept": "上を走って越えていく",
+  "definitionEn": "to hit with a vehicle; to review quickly",
+  "uses": [
+   {
+    "image": "車が上を走り越える",
+    "example": "The cat was almost run over by a car.",
+    "ja": "その猫は危うく車にひかれるところだった。"
+   },
+   {
+    "image": "全体をざっと走って確認する",
+    "example": "Let's run over the plan again.",
+    "ja": "もう一度計画をざっと確認しよう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_107",
+  "word": "run away",
+  "reading": "run ＋ away",
+  "meaning": "走って、遠くへ離れていく",
+  "example": "The boy ran away from home.",
+  "exampleTranslation": "少年は家出した。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "run"
+  ],
+  "verb": "run",
+  "particles": [
+   "away"
+  ],
+  "concept": "走って、遠くへ離れていく",
+  "definitionEn": "to escape from a place or person",
+  "uses": [
+   {
+    "image": "逃げ出す",
+    "example": "The boy ran away from home.",
+    "ja": "少年は家出した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_108",
+  "word": "run through",
+  "reading": "run ＋ through",
+  "meaning": "最初から最後まで走り抜ける",
+  "example": "Let's run through the presentation once.",
+  "exampleTranslation": "発表を一度通しでやってみよう。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "run"
+  ],
+  "verb": "run",
+  "particles": [
+   "through"
+  ],
+  "concept": "最初から最後まで走り抜ける",
+  "definitionEn": "to practice or check something quickly",
+  "uses": [
+   {
+    "image": "通しで練習する",
+    "example": "Let's run through the presentation once.",
+    "ja": "発表を一度通しでやってみよう。"
+   }
+  ]
+ }
+]

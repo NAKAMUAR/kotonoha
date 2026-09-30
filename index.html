@@ -199,6 +199,7 @@
 
       <div id="vocab-deck-row" class="filter-row mb-3">
         <button class="chip chip-active" data-deck="daily">日常会話</button>
+        <button class="chip" data-deck="phrasal">句動詞</button>
         <button class="chip" data-deck="toeic">TOEIC</button>
         <button class="chip" data-deck="vi3kyu">VI 検定3級</button>
       </div>
@@ -226,7 +227,7 @@
               <div class="text-xs text-sumi-soft tracking-widest mb-3 font-cormorant">WORD</div>
               <div id="card-word" class="text-4xl font-cormorant font-medium px-2 break-words">—</div>
               <div id="card-reading" class="text-sm text-sumi-soft mt-3 font-jetbrains"></div>
-              <div class="text-xs text-sumi-soft mt-auto pt-6">タップで裏返し</div>
+              <div id="card-hint" class="text-xs text-sumi-soft mt-auto pt-6">タップで裏返し</div>
             </div>
             <div class="flashcard-face flashcard-back">
               <div class="text-xs text-sumi-soft tracking-widest mb-2 font-cormorant">MEANING</div>
@@ -234,6 +235,7 @@
               <div class="w-10 h-px bg-sumi/20 my-3"></div>
               <div id="card-example" class="text-sm font-cormorant italic text-sumi-light px-2"></div>
               <div id="card-example-tr" class="text-xs text-sumi-soft mt-1 px-2"></div>
+              <div id="card-concept" class="concept hidden"></div>
             </div>
           </div>
         </div>
@@ -246,6 +248,12 @@
         </div>
         <p class="text-[10px] text-sumi-soft text-center mt-2">ボタンの下の数字は「次に出てくるまでの日数」です（最新の記憶モデル FSRS で計算）</p>
       </div>
+
+      <details id="phrasal-core-panel" class="card mt-6 hidden">
+        <summary class="card-title cursor-pointer">コアイメージ辞典（動詞・前置詞）</summary>
+        <p class="text-xs text-sumi-soft mt-2">句動詞は「動詞のイメージ」と「前置詞のイメージ」の足し算です。訳語ではなく、この絵を思い浮かべて覚えましょう。</p>
+        <div id="phrasal-core-body" class="mt-3"></div>
+      </details>
 
       <div id="vocab-empty" class="hidden text-center py-12">
         <div class="text-6xl font-mincho text-shu mb-4">完</div>
