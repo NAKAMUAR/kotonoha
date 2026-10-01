@@ -343,6 +343,7 @@ async function activateVocabularyScreen() {
 }
 
 async function rebuildVocabQueue() {
+  await loadSituations(vocabState.deck, vocabState.lang);
   vocabState.queue   = await buildQueue(vocabState.lang, vocabState.filter, vocabState.deck);
   vocabState.index   = 0;
   vocabState.flipped = false;
@@ -404,6 +405,7 @@ function showCurrentCard() {
   setText('card-example',    word.example ?? '');
   setText('card-example-tr', word.exampleTranslation ?? '');
   renderConceptCard(word);
+  renderSituations(word);
   renderIntervalPreview(word.srs);
 
   flashcardEl?.classList.remove('flipped');
@@ -466,6 +468,69 @@ function renderConceptCard(word) {
           <details class="use-ja"><summary>訳を見る</summary> ${escapeHtml(u.ja)}</details>
         </li>`).join('')}
     </ul>`;
+}
+
+// ---------- 場面別の会話 ----------
+
+const situationsCache = new Map(); // url → { wordId: [ { scene, lines: [{ speaker, en, ja }] } ] }
+
+async function loadSituations(deck, lang) {
+  const url = getDeck(deck).situations?.(lang);
+  if (!url || situationsCache.has(url)) return;
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    situationsCache.set(url, await res.json());
+  } catch (err) {
+    console.warn('situations load failed:', err);
+  }
+}
+
+function situationsFor(word) {
+  const url = getDeck(word.deck ?? vocabState.deck).situations?.(word.lang ?? vocabState.lang);
+  return (url && situationsCache.get(url)?.[word.id]) ?? [];
+}
+
+// 例文中の見出し語を強調（HTML エスケープ後の文字列に対して）
+function highlightWord(escapedText, word) {
+  const target = escapeHtml(word).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return escapedText.replace(new RegExp(`\\b(${target})\\b`, 'gi'), '<mark>$1</mark>');
+}
+
+function renderSituations(word) {
+  const card = document.querySelector('.flashcard');
+  const box  = document.getElementById('card-situations');
+  const list = situationsFor(word);
+  card?.classList.toggle('flashcard-rich', list.length > 0);
+  box?.classList.toggle('hidden', list.length === 0);
+  if (!box) return;
+  if (list.length === 0) { box.innerHTML = ''; return; }
+
+  box.innerHTML = `
+    <div class="concept-uses-title">場面別の会話</div>
+    ${list.map((sit, i) => `
+      <div class="situation">
+        <div class="situation-head">
+          <span class="scene-chip">${escapeHtml(sit.scene)}</span>
+          ${SpeechSupport.tts ? `<button class="situation-play" data-sit="${i}" aria-label="会話を読み上げ">♪ 読み上げ</button>` : ''}
+        </div>
+        ${sit.lines.map((l) => `
+          <div class="sit-line">
+            <span class="sit-speaker">${escapeHtml(l.speaker)}</span>
+            <span>${highlightWord(escapeHtml(l.en), word.word)}</span>
+          </div>`).join('')}
+        <details class="use-ja"><summary>訳を見る</summary>
+          ${sit.lines.map((l) => `<div>${escapeHtml(l.speaker)}: ${escapeHtml(l.ja)}</div>`).join('')}
+        </details>
+      </div>`).join('')}`;
+
+  box.querySelectorAll('.situation-play').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation(); // カードを裏返さない
+      const sit = list[parseInt(btn.dataset.sit, 10)];
+      if (sit) speakDialogue(sit.lines.map((l) => ({ en: l.en })), 'en', { gapMs: 400 });
+    });
+  });
 }
 
 async function syncPhrasalPanel() {
@@ -537,6 +602,7 @@ async function onRate(quality) {
   }
 
   markStudied();
+  stopSpeaking();
 
   // 「忘れた」単語はこのセッションの最後にもう一度出題する
   if (quality === QUALITY.AGAIN) {
@@ -1633,7 +1699,7 @@ function bindEvents() {
 
   // フラッシュカード裏返し
   document.querySelector('.flashcard')?.addEventListener('click', (e) => {
-    if (e.target.closest('.use-ja')) return; // 「訳を見る」はカードを裏返さない
+    if (e.target.closest('.use-ja, .situation-play')) return; // 「訳を見る」「読み上げ」はカードを裏返さない
     e.currentTarget.classList.toggle('flipped');
     vocabState.flipped = e.currentTarget.classList.contains('flipped');
   });

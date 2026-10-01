@@ -93,11 +93,13 @@ async function idbBulkPut(storeName, values) {
 // 'daily' は既存（en/vi）、'toeic'/'ielts' は英語のみ
 
 export const DECKS = Object.freeze({
-  daily:  { id: 'daily',  label: '日常会話',         languages: ['en', 'vi'], file: (lang) => `./data/vocabulary-${lang}.json` },
+  daily:  { id: 'daily',  label: '日常会話',         languages: ['en', 'vi'], file: (lang) => `./data/vocabulary-${lang}.json`,
+            situations: (lang) => (lang === 'en' ? './data/situations-en.json' : null) },
   toeic:  { id: 'toeic',  label: 'TOEIC',            languages: ['en'],       file: ()     => `./data/vocabulary-toeic.json` },
   ielts:  { id: 'ielts',  label: 'IELTS',            languages: ['en'],       file: ()     => `./data/vocabulary-ielts.json` },
   vi3kyu: { id: 'vi3kyu', label: 'ベトナム語検定3級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-3kyu.json` },
-  phrasal: { id: 'phrasal', label: '句動詞（イメージ）', languages: ['en'],     file: ()     => `./data/vocabulary-phrasal.json` },
+  phrasal: { id: 'phrasal', label: '句動詞（イメージ）', languages: ['en'],     file: ()     => `./data/vocabulary-phrasal.json`,
+             situations: () => './data/situations-phrasal.json' },
 });
 
 export function getDeck(deckId) { return DECKS[deckId] ?? DECKS.daily; }

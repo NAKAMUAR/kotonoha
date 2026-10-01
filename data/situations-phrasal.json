@@ -1,0 +1,5314 @@
+{
+ "phr_001": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was the art museum?",
+     "ja": "美術館どうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Amazing, but there was too much to take in.",
+     "ja": "最高だったけど、見るものが多すぎて頭に入りきらなかった。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Whose cat is that?",
+     "ja": "あれ、誰の猫？"
+    },
+    {
+     "speaker": "B",
+     "en": "Ours now. We took her in last week.",
+     "ja": "もううちの子だよ。先週引き取ったんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_002": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Come in! Please take off your shoes.",
+     "ja": "どうぞ！靴を脱いでね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Where should I put them?",
+     "ja": "わかった。どこに置けばいい？"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You look tired. Why don't you take a day off?",
+     "ja": "疲れてるね。1日休んだら？"
+    },
+    {
+     "speaker": "B",
+     "en": "Good idea. I'll take Friday off.",
+     "ja": "いいね。金曜日を休むよ。"
+    }
+   ]
+  }
+ ],
+ "phr_003": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you help with the new client?",
+     "ja": "新しい顧客の件、手伝ってくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, I can't take on any more work right now.",
+     "ja": "ごめん、今はこれ以上仕事を引き受けられない。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Our team is taking on the champions tomorrow.",
+     "ja": "明日うちのチーム、王者と対戦するんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Wow, good luck!",
+     "ja": "すごい、がんばって！"
+    }
+   ]
+  }
+ ],
+ "phr_004": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who's going to run the project after Ken leaves?",
+     "ja": "ケンが辞めたら誰がプロジェクトを回すの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm taking over from next month.",
+     "ja": "来月から私が引き継ぐよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You've been driving for hours. Let me take over.",
+     "ja": "何時間も運転してるね。代わるよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks, I'm exhausted.",
+     "ja": "ありがとう、もうへとへと。"
+    }
+   ]
+  }
+ ],
+ "phr_005": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Could you take out the trash before you leave?",
+     "ja": "出かける前にゴミ出してくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, no problem.",
+     "ja": "いいよ。"
+    }
+   ]
+  },
+  {
+   "scene": "デート",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's your birthday! Let me take you out to dinner.",
+     "ja": "誕生日だね！夕食に連れて行くよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Really? That's so sweet.",
+     "ja": "本当？うれしい。"
+    }
+   ]
+  }
+ ],
+ "phr_006": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You look really fit these days.",
+     "ja": "最近すごく引き締まってるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks! I took up swimming last spring.",
+     "ja": "ありがとう！去年の春から水泳を始めたんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Should we buy this big sofa?",
+     "ja": "この大きいソファ買う？"
+    },
+    {
+     "speaker": "B",
+     "en": "It would take up half the living room.",
+     "ja": "リビングの半分が埋まっちゃうよ。"
+    }
+   ]
+  }
+ ],
+ "phr_007": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'd like to take back this jacket. It's too small.",
+     "ja": "このジャケットを返品したいです。小さすぎて。"
+    },
+    {
+     "speaker": "B",
+     "en": "Do you have the receipt?",
+     "ja": "レシートはお持ちですか？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You said my cooking was terrible!",
+     "ja": "私の料理がひどいって言ったよね！"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm sorry. I take it back.",
+     "ja": "ごめん。今の取り消すよ。"
+    }
+   ]
+  }
+ ],
+ "phr_008": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your son loves drawing, doesn't he?",
+     "ja": "息子さん、絵を描くのが大好きだよね？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, he takes after his father.",
+     "ja": "うん、父親に似たのよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You and your mom laugh the same way.",
+     "ja": "あなたとお母さん、笑い方が同じだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Everyone says I take after her.",
+     "ja": "みんなに母似だって言われる。"
+    }
+   ]
+  }
+ ],
+ "phr_009": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let me take down your number.",
+     "ja": "電話番号を控えさせてください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. It's 090-1234-5678.",
+     "ja": "はい。090-1234-5678です。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The event is over. Can you take down the posters?",
+     "ja": "イベントは終わったよ。ポスターを外してくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, I'll do it now.",
+     "ja": "わかった、今やるね。"
+    }
+   ]
+  }
+ ],
+ "phr_010": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why is the clock in pieces?",
+     "ja": "なんで時計がバラバラなの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I took it apart to fix it.",
+     "ja": "直そうと思って分解したんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do you get this desk into your car?",
+     "ja": "この机、どうやって車に入れるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "We can take it apart first.",
+     "ja": "先にバラせばいいよ。"
+    }
+   ]
+  }
+ ],
+ "phr_011": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time do you get up on weekdays?",
+     "ja": "平日は何時に起きるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Around six. I need to catch an early train.",
+     "ja": "6時ごろ。早い電車に乗るから。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Everyone, please get up and stretch for a minute.",
+     "ja": "みなさん、立ち上がって少しストレッチしましょう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good idea. I've been sitting all morning.",
+     "ja": "いいですね。午前中ずっと座りっぱなしでした。"
+    }
+   ]
+  }
+ ],
+ "phr_012": [
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We're here. You can get out on the left.",
+     "ja": "着きました。左側から降りてください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you. Keep the change.",
+     "ja": "ありがとう。おつりはとっておいて。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How did the news about the merger get out?",
+     "ja": "合併のニュース、どうして漏れたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No idea. It was supposed to be a secret.",
+     "ja": "わからない。秘密のはずだったのに。"
+    }
+   ]
+  }
+ ],
+ "phr_013": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Get in! I'll give you a ride.",
+     "ja": "乗って！送っていくよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks, that's really kind.",
+     "ja": "ありがとう、助かる。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You got in really late last night.",
+     "ja": "昨日の夜、帰りがすごく遅かったね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, the last train was delayed.",
+     "ja": "ごめん、終電が遅れたんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_014": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I heard you got into Kyoto University!",
+     "ja": "京都大学に受かったって聞いたよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes! I still can't believe it.",
+     "ja": "うん！まだ信じられない。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How did you get into K-pop?",
+     "ja": "どうしてK-POPにはまったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "My sister showed me a music video.",
+     "ja": "姉がMVを見せてくれたんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_015": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which bus should I get on?",
+     "ja": "どのバスに乗ればいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Get on the number 5. It goes to the station.",
+     "ja": "5番に乗ってください。駅まで行きます。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do you get on with your new boss?",
+     "ja": "新しい上司とはうまくやってる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Really well. She's very kind.",
+     "ja": "すごくうまくいってる。とても優しい人だよ。"
+    }
+   ]
+  }
+ ],
+ "phr_016": [
+  {
+   "scene": "電車",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Excuse me, where should I get off for the museum?",
+     "ja": "すみません、美術館へはどこで降りればいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Get off at the next station.",
+     "ja": "次の駅で降りてください。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time do you get off work today?",
+     "ja": "今日は何時に仕事終わる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Around six. Want to grab dinner?",
+     "ja": "6時ごろ。夕飯食べに行く？"
+    }
+   ]
+  }
+ ],
+ "phr_017": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you feeling better?",
+     "ja": "体調よくなった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I finally got over my cold.",
+     "ja": "うん、やっと風邪が治ったよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "She still talks about her ex all the time.",
+     "ja": "彼女、まだ元カレの話ばかりしてる。"
+    },
+    {
+     "speaker": "B",
+     "en": "It takes time to get over a breakup.",
+     "ja": "失恋から立ち直るには時間がかかるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_018": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you call the hotel?",
+     "ja": "ホテルに電話した？"
+    },
+    {
+     "speaker": "B",
+     "en": "I tried, but I couldn't get through.",
+     "ja": "したけど、つながらなかった。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This week has been crazy.",
+     "ja": "今週はめちゃくちゃ忙しかった。"
+    },
+    {
+     "speaker": "B",
+     "en": "We'll get through it together.",
+     "ja": "一緒に乗り切ろう。"
+    }
+   ]
+  }
+ ],
+ "phr_019": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you get along with your roommate?",
+     "ja": "ルームメイトとは仲良くやってる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yeah, we get along really well.",
+     "ja": "うん、すごく仲がいいよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How are you getting along with your new job?",
+     "ja": "新しい仕事はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "Pretty well. I'm learning a lot.",
+     "ja": "順調だよ。いろいろ学んでる。"
+    }
+   ]
+  }
+ ],
+ "phr_020": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When will you get back from your trip?",
+     "ja": "旅行からはいつ帰ってくるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll get back on Sunday night.",
+     "ja": "日曜の夜に戻るよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you check the price for me?",
+     "ja": "値段を調べてもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. I'll get back to you this afternoon.",
+     "ja": "はい。今日の午後に折り返しご連絡します。"
+    }
+   ]
+  }
+ ],
+ "phr_021": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's the best way to get around Kyoto?",
+     "ja": "京都を回るのに一番いい方法は？"
+    },
+    {
+     "speaker": "B",
+     "en": "Buses or rental bikes are great.",
+     "ja": "バスかレンタサイクルがおすすめだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How did everyone hear about my promotion?",
+     "ja": "どうしてみんな私の昇進を知ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "News gets around fast in this office.",
+     "ja": "この職場は噂が広まるのが早いからね。"
+    }
+   ]
+  }
+ ],
+ "phr_022": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You look stressed.",
+     "ja": "ストレスたまってそうだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I am. I really need to get away for a few days.",
+     "ja": "うん。数日どこかへ逃げ出したい。"
+    }
+   ]
+  },
+  {
+   "scene": "ニュース",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did the police catch the thief?",
+     "ja": "警察は泥棒を捕まえたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, he got away on a bike.",
+     "ja": "いや、自転車で逃げたって。"
+    }
+   ]
+  }
+ ],
+ "phr_023": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Mom didn't notice I ate the last cake.",
+     "ja": "最後のケーキ食べたの、お母さん気づかなかった。"
+    },
+    {
+     "speaker": "B",
+     "en": "You won't get away with it for long!",
+     "ja": "いつまでもごまかせないよ！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "He copied my report and said it was his.",
+     "ja": "彼、私の報告書を写して自分のだって言ったの。"
+    },
+    {
+     "speaker": "B",
+     "en": "He can't get away with that. Tell the manager.",
+     "ja": "そんなの許されないよ。部長に言いなよ。"
+    }
+   ]
+  }
+ ],
+ "phr_024": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's your Spanish?",
+     "ja": "スペイン語はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "Not great, but I can get by.",
+     "ja": "上手じゃないけど、なんとか通じるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is it hard living on a part-time salary?",
+     "ja": "バイトの給料で暮らすの大変？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's tight, but I get by.",
+     "ja": "ぎりぎりだけど、なんとかやってる。"
+    }
+   ]
+  }
+ ],
+ "phr_025": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You seem a bit down today.",
+     "ja": "今日ちょっと元気ないね。"
+    },
+    {
+     "speaker": "B",
+     "en": "This gray weather really gets me down.",
+     "ja": "この曇り空で気が滅入るんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Get down from that chair! It's not safe.",
+     "ja": "その椅子から降りて！危ないよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, OK. I was just reaching for a book.",
+     "ja": "はいはい。本を取ろうとしてただけ。"
+    }
+   ]
+  }
+ ],
+ "phr_026": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "OK, everyone's here. Let's get down to business.",
+     "ja": "よし、全員そろったね。本題に入ろう。"
+    },
+    {
+     "speaker": "B",
+     "en": "First, let's look at last month's sales.",
+     "ja": "まず先月の売上を見ましょう。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Exams are next week!",
+     "ja": "試験は来週だよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I really need to get down to studying.",
+     "ja": "わかってる。本腰入れて勉強しなきゃ。"
+    }
+   ]
+  }
+ ],
+ "phr_027": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How did the presentation go?",
+     "ja": "プレゼンはどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "I think I got my main point across.",
+     "ja": "一番言いたいことは伝わったと思う。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The teacher uses lots of pictures.",
+     "ja": "先生は絵をたくさん使うね。"
+    },
+    {
+     "speaker": "B",
+     "en": "It helps her get the ideas across.",
+     "ja": "そのほうが考えが伝わりやすいんだよ。"
+    }
+   ]
+  }
+ ],
+ "phr_028": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why were you late, really?",
+     "ja": "本当はなんで遅れたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Honestly? I made up that story about the train.",
+     "ja": "正直に言うと、電車の話はでっち上げたんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you and Mika make up?",
+     "ja": "ミカと仲直りした？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, we talked last night and made up.",
+     "ja": "うん、昨日の夜話して仲直りしたよ。"
+    }
+   ]
+  }
+ ],
+ "phr_029": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Sorry I missed the deadline.",
+     "ja": "締め切りに間に合わなくてすみません。"
+    },
+    {
+     "speaker": "B",
+     "en": "That's OK. Just work hard to make up for it.",
+     "ja": "大丈夫。その分しっかり取り返してね。"
+    }
+   ]
+  },
+  {
+   "scene": "デート",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm sorry I forgot our anniversary.",
+     "ja": "記念日を忘れてごめん。"
+    },
+    {
+     "speaker": "B",
+     "en": "You'll have to make up for it with a nice dinner.",
+     "ja": "素敵なディナーで埋め合わせしてもらうからね。"
+    }
+   ]
+  }
+ ],
+ "phr_030": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you read that sign?",
+     "ja": "あの看板読める？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I can't make out the words from here.",
+     "ja": "ここからじゃ文字が読み取れない。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hello? Can you hear me?",
+     "ja": "もしもし？聞こえる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, I can't make out what you're saying.",
+     "ja": "ごめん、何て言ってるか聞き取れない。"
+    }
+   ]
+  }
+ ],
+ "phr_031": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are you going to do with the spare room?",
+     "ja": "空いてる部屋、どうするの？"
+    },
+    {
+     "speaker": "B",
+     "en": "We're making it into a home office.",
+     "ja": "在宅勤務用の部屋にするんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I loved that novel.",
+     "ja": "あの小説、大好きだった。"
+    },
+    {
+     "speaker": "B",
+     "en": "Did you know it's being made into a movie?",
+     "ja": "映画化されるって知ってた？"
+    }
+   ]
+  }
+ ],
+ "phr_032": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you make it to the party tonight?",
+     "ja": "今夜のパーティー来られる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, I can't make it. I have to work.",
+     "ja": "ごめん、行けない。仕事なんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The train leaves in two minutes!",
+     "ja": "電車があと2分で出ちゃう！"
+    },
+    {
+     "speaker": "B",
+     "en": "Run! We can still make it!",
+     "ja": "走って！まだ間に合う！"
+    }
+   ]
+  }
+ ],
+ "phr_033": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When the rain started, everyone made for the cafe.",
+     "ja": "雨が降り出したら、みんなカフェに向かったよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Smart. We should do the same.",
+     "ja": "賢いね。私たちもそうしよう。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The weather looks perfect for tomorrow.",
+     "ja": "明日は完璧な天気みたい。"
+    },
+    {
+     "speaker": "B",
+     "en": "Great. That'll make for a nice picnic.",
+     "ja": "いいね。楽しいピクニックになりそう。"
+    }
+   ]
+  }
+ ],
+ "phr_034": [
+  {
+   "scene": "ニュース",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What happened at the store?",
+     "ja": "お店で何があったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Someone made off with the cash register.",
+     "ja": "誰かがレジごと持ち去ったんだって。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's my sandwich?",
+     "ja": "私のサンドイッチどこ？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, the dog made off with it.",
+     "ja": "ごめん、犬がくわえて逃げちゃった。"
+    }
+   ]
+  }
+ ],
+ "phr_035": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your kitchen looks brand new!",
+     "ja": "キッチンが新品みたい！"
+    },
+    {
+     "speaker": "B",
+     "en": "We made it over last month.",
+     "ja": "先月全部リフォームしたんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you going to redecorate your room?",
+     "ja": "部屋の模様替えするの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I want to make it over completely.",
+     "ja": "うん、まるごと作り変えたい。"
+    }
+   ]
+  }
+ ],
+ "phr_036": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's freezing outside.",
+     "ja": "外はすごく寒いよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, I'll put on a thicker coat.",
+     "ja": "わかった、厚いコートを着るね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you been eating a lot lately?",
+     "ja": "最近たくさん食べてる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I've put on three kilos!",
+     "ja": "うん、3キロ太っちゃった！"
+    }
+   ]
+  }
+ ],
+ "phr_037": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the meeting still at three?",
+     "ja": "会議はまだ3時のまま？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it's been put off until tomorrow.",
+     "ja": "いや、明日に延期になったよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you started your report yet?",
+     "ja": "レポートもう始めた？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I keep putting it off.",
+     "ja": "ううん、ずっと先延ばしにしてる。"
+    }
+   ]
+  }
+ ],
+ "phr_038": [
+  {
+   "scene": "キャンプ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Make sure you put out the campfire before bed.",
+     "ja": "寝る前にたき火を消してね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Don't worry, I'll pour water on it.",
+     "ja": "大丈夫、水をかけておくよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did the company say anything about the problem?",
+     "ja": "会社はその問題について何か言った？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, they put out a statement this morning.",
+     "ja": "うん、今朝声明を出したよ。"
+    }
+   ]
+  }
+ ],
+ "phr_039": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you put up this notice by the elevator?",
+     "ja": "このお知らせ、エレベーターの横に貼ってくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Do you have some tape?",
+     "ja": "いいよ。テープある？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I need a place to stay in Osaka.",
+     "ja": "大阪で泊まる所が必要なんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "I can put you up for a couple of nights.",
+     "ja": "うちに2、3泊泊めてあげられるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_040": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The neighbors are so loud every night.",
+     "ja": "隣の人が毎晩うるさいの。"
+    },
+    {
+     "speaker": "B",
+     "en": "I don't know how you put up with it.",
+     "ja": "よく我慢できるね。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why do you put up with so much overtime?",
+     "ja": "なんでそんなに残業を我慢してるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "The project ends next month.",
+     "ja": "プロジェクトは来月終わるから。"
+    }
+   ]
+  }
+ ],
+ "phr_041": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Put away your toys before dinner.",
+     "ja": "夕飯の前におもちゃを片付けなさい。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, Mom.",
+     "ja": "はーい、お母さん。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How did you save for the trip?",
+     "ja": "旅行代、どうやって貯めたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I put away a little money every month.",
+     "ja": "毎月少しずつ貯金したんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_042": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "That box looks heavy.",
+     "ja": "その箱重そうだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "It is. Let me put it down here.",
+     "ja": "うん。ここに置かせて。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm not smart enough for this job.",
+     "ja": "私なんかこの仕事には向いてないよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Stop putting yourself down. You're great at it.",
+     "ja": "自分を下げるのはやめて。すごく上手だよ。"
+    }
+   ]
+  }
+ ],
+ "phr_043": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Does anyone have a solution?",
+     "ja": "誰か解決策はある？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'd like to put forward an idea.",
+     "ja": "ひとつ案を出してもいいですか。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who's going to be class president?",
+     "ja": "学級委員長は誰がなる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Three students have been put forward.",
+     "ja": "3人が推薦されているよ。"
+    }
+   ]
+  }
+ ],
+ "phr_044": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Could I speak to Mr. Tanaka, please?",
+     "ja": "田中さんをお願いできますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "One moment. I'll put you through.",
+     "ja": "少々お待ちください。おつなぎします。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your parents paid for your university?",
+     "ja": "ご両親が大学の学費を払ったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, they put me through college.",
+     "ja": "うん、大学を出させてくれたんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_045": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you help me put this shelf together?",
+     "ja": "この棚を組み立てるの手伝ってくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Where are the instructions?",
+     "ja": "いいよ。説明書はどこ？"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We need a report for the client by Friday.",
+     "ja": "金曜までに顧客向けの報告書が必要だ。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll put one together today.",
+     "ja": "今日まとめておきます。"
+    }
+   ]
+  }
+ ],
+ "phr_046": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your name came up at the meeting today.",
+     "ja": "今日の会議であなたの名前が出たよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Really? In a good way, I hope!",
+     "ja": "本当？いい意味だといいけど！"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you still coming tonight?",
+     "ja": "今夜まだ来られる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, something came up at work.",
+     "ja": "ごめん、仕事で急用ができちゃった。"
+    }
+   ]
+  }
+ ],
+ "phr_047": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We need a name for the new product.",
+     "ja": "新商品の名前が必要だね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's each come up with three ideas.",
+     "ja": "それぞれ3つずつ案を考えよう。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How did you come up with such a cool plan?",
+     "ja": "どうやってそんないい計画を思いついたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "It just came to me in the shower.",
+     "ja": "シャワー中にふと浮かんだんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_048": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Look what I came across in the closet!",
+     "ja": "クローゼットで何を見つけたと思う！"
+    },
+    {
+     "speaker": "B",
+     "en": "Our old wedding album!",
+     "ja": "昔の結婚式のアルバムだ！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did you think of the new manager?",
+     "ja": "新しい部長、どう思った？"
+    },
+    {
+     "speaker": "B",
+     "en": "She comes across as very friendly.",
+     "ja": "すごく感じがいい人に見えるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_049": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When does the new album come out?",
+     "ja": "新しいアルバムはいつ出るの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Next Friday. I already pre-ordered it.",
+     "ja": "来週の金曜。もう予約したよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did he really lie about everything?",
+     "ja": "彼、本当に全部うそついてたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes. The truth came out last week.",
+     "ja": "うん。先週真実が明らかになったんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_050": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We're closed now.",
+     "ja": "もう閉店です。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, I'll come back tomorrow.",
+     "ja": "わかりました、明日また来ます。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you remember his name?",
+     "ja": "彼の名前覚えてる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Wait... yes, it's coming back to me. Ken!",
+     "ja": "待って…あ、思い出してきた。ケンだ！"
+    }
+   ]
+  }
+ ],
+ "phr_051": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You don't look well.",
+     "ja": "具合悪そうだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I think I'm coming down with the flu.",
+     "ja": "インフルエンザにかかりかけてるみたい。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why didn't Yuki come to school?",
+     "ja": "どうしてユキは学校に来なかったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "She came down with a fever.",
+     "ja": "熱を出したんだって。"
+    }
+   ]
+  }
+ ],
+ "phr_052": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are you doing tonight?",
+     "ja": "今夜何してる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Nothing. Do you want to come over?",
+     "ja": "何も。うちに来る？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why did you shout at him like that?",
+     "ja": "なんで彼にあんなふうに怒鳴ったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I don't know what came over me.",
+     "ja": "自分でもどうしちゃったのかわからない。"
+    }
+   ]
+  }
+ ],
+ "phr_053": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We're going to the beach. Want to come along?",
+     "ja": "ビーチに行くんだけど、一緒に来る？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure! Let me grab my sunglasses.",
+     "ja": "もちろん！サングラス取ってくる。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's the new website coming along?",
+     "ja": "新しいウェブサイトの進み具合はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's almost finished.",
+     "ja": "もうすぐ完成だよ。"
+    }
+   ]
+  }
+ ],
+ "phr_054": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How is your grandfather?",
+     "ja": "おじいさんの具合はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "He came through the operation just fine.",
+     "ja": "手術を無事に乗り越えたよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We needed the parts by Monday.",
+     "ja": "月曜までに部品が必要だったんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "And the supplier came through for us!",
+     "ja": "そして業者がちゃんと間に合わせてくれた！"
+    }
+   ]
+  }
+ ],
+ "phr_055": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "(knock, knock)",
+     "ja": "（コンコン）"
+    },
+    {
+     "speaker": "B",
+     "en": "Come in! Have a seat.",
+     "ja": "どうぞ！座って。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have the sales numbers come in yet?",
+     "ja": "売上の数字はもう入ってきた？"
+    },
+    {
+     "speaker": "B",
+     "en": "They're coming in now.",
+     "ja": "今入ってきているところです。"
+    }
+   ]
+  }
+ ],
+ "phr_056": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm sorry, I interrupted you.",
+     "ja": "ごめん、話をさえぎっちゃった。"
+    },
+    {
+     "speaker": "B",
+     "en": "That's OK. Go on, please.",
+     "ja": "大丈夫。続けて。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's going on? Why is everyone outside?",
+     "ja": "何が起きてるの？なんでみんな外にいるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "There was a small earthquake.",
+     "ja": "小さい地震があったんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_057": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you want to go out tonight?",
+     "ja": "今夜出かけない？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. How about karaoke?",
+     "ja": "いいね。カラオケはどう？"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Oh no, the lights just went out!",
+     "ja": "あ、電気が消えた！"
+    },
+    {
+     "speaker": "B",
+     "en": "Let me find the flashlight.",
+     "ja": "懐中電灯を探すね。"
+    }
+   ]
+  }
+ ],
+ "phr_058": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's go over the schedule one more time.",
+     "ja": "もう一度スケジュールを確認しよう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good idea. I don't want any mistakes.",
+     "ja": "いいね。ミスはしたくないし。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can we go over yesterday's homework?",
+     "ja": "昨日の宿題を見直してもいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Open your books to page 20.",
+     "ja": "いいですよ。20ページを開いて。"
+    }
+   ]
+  }
+ ],
+ "phr_059": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "She looks so happy now.",
+     "ja": "彼女、今はすごく幸せそうだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, but she went through a lot last year.",
+     "ja": "うん、でも去年はいろいろ大変だったんだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do I need to go through security again?",
+     "ja": "もう一度保安検査を通る必要がありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, all passengers must go through here.",
+     "ja": "はい、すべてのお客様はここを通ってください。"
+    }
+   ]
+  }
+ ],
+ "phr_060": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why are you so tired?",
+     "ja": "なんでそんなに眠そうなの？"
+    },
+    {
+     "speaker": "B",
+     "en": "My alarm didn't go off this morning!",
+     "ja": "今朝、目覚ましが鳴らなかったんだ！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did the fire alarm just go off?",
+     "ja": "今、火災報知器が鳴った？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes! Everyone, please leave the building.",
+     "ja": "うん！みなさん建物から出てください。"
+    }
+   ]
+  }
+ ],
+ "phr_061": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Didn't this cost 300 yen last month?",
+     "ja": "先月これ300円じゃなかった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, prices have gone up again.",
+     "ja": "うん、また値上がりしたんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do I get to my room?",
+     "ja": "部屋へはどう行けばいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Take the elevator and go up to the fifth floor.",
+     "ja": "エレベーターで5階まで上がってください。"
+    }
+   ]
+  }
+ ],
+ "phr_062": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How were sales last month?",
+     "ja": "先月の売上はどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "They went down a little.",
+     "ja": "少し下がったよ。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's watch the sun go down.",
+     "ja": "日が沈むのを見よう。"
+    },
+    {
+     "speaker": "B",
+     "en": "It's beautiful from this hill.",
+     "ja": "この丘からだときれいだね。"
+    }
+   ]
+  }
+ ],
+ "phr_063": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you ever go back to Hawaii?",
+     "ja": "またハワイに行きたい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Definitely. I'd go back tomorrow!",
+     "ja": "もちろん。明日にでも戻りたい！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long have you two known each other?",
+     "ja": "二人はどれくらいの付き合い？"
+    },
+    {
+     "speaker": "B",
+     "en": "We go back twenty years.",
+     "ja": "20年来の仲だよ。"
+    }
+   ]
+  }
+ ],
+ "phr_064": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Does this scarf go with my coat?",
+     "ja": "このスカーフ、私のコートに合う？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, the colors match perfectly.",
+     "ja": "うん、色がぴったり合ってる。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you decided?",
+     "ja": "お決まりですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll go with the pasta, please.",
+     "ja": "パスタにします。"
+    }
+   ]
+  }
+ ],
+ "phr_065": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I want to apply for that job, but I'm scared.",
+     "ja": "あの仕事に応募したいけど怖い。"
+    },
+    {
+     "speaker": "B",
+     "en": "Just go for it!",
+     "ja": "とにかくやってみなよ！"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are you having?",
+     "ja": "何にする？"
+    },
+    {
+     "speaker": "B",
+     "en": "I think I'll go for the steak.",
+     "ja": "ステーキにしようかな。"
+    }
+   ]
+  }
+ ],
+ "phr_066": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I help you?",
+     "ja": "何かお探しですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I'm looking for a black jacket.",
+     "ja": "はい、黒いジャケットを探しています。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are you looking for?",
+     "ja": "何を探してるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "My keys. Have you seen them?",
+     "ja": "鍵。見なかった？"
+    }
+   ]
+  }
+ ],
+ "phr_067": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you look after my cat this weekend?",
+     "ja": "今週末、うちの猫の世話をしてくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, I love cats.",
+     "ja": "いいよ、猫大好きだし。"
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Please look after yourself.",
+     "ja": "お大事にしてくださいね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you, I will.",
+     "ja": "ありがとうございます、そうします。"
+    }
+   ]
+  }
+ ],
+ "phr_068": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What does this word mean?",
+     "ja": "この単語、どういう意味？"
+    },
+    {
+     "speaker": "B",
+     "en": "I don't know. Let's look it up.",
+     "ja": "わからない。調べてみよう。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's business these days?",
+     "ja": "最近、商売はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "Things are finally looking up.",
+     "ja": "やっと上向いてきたよ。"
+    }
+   ]
+  }
+ ],
+ "phr_069": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My order hasn't arrived yet.",
+     "ja": "注文した品がまだ届いていません。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm sorry. I'll look into it right away.",
+     "ja": "申し訳ありません。すぐにお調べします。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why did the server go down?",
+     "ja": "なんでサーバーが落ちたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "The IT team is looking into it.",
+     "ja": "IT部が調べているところだよ。"
+    }
+   ]
+  }
+ ],
+ "phr_070": [
+  {
+   "scene": "メール",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Thank you for inviting me to the meeting.",
+     "ja": "会議へのご招待ありがとうございます。"
+    },
+    {
+     "speaker": "B",
+     "en": "We look forward to seeing you.",
+     "ja": "お会いできるのを楽しみにしております。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you excited about the trip?",
+     "ja": "旅行楽しみ？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes! I'm really looking forward to it.",
+     "ja": "うん！すごく楽しみにしてる。"
+    }
+   ]
+  }
+ ],
+ "phr_071": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who do you admire most?",
+     "ja": "一番尊敬してる人は？"
+    },
+    {
+     "speaker": "B",
+     "en": "My older sister. I've always looked up to her.",
+     "ja": "姉だよ。ずっと尊敬してるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The younger players really respect you.",
+     "ja": "後輩たち、本当に君を尊敬してるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know they look up to me, so I try hard.",
+     "ja": "慕ってくれてるのがわかるから、がんばってるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_072": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "He never listens to the new staff.",
+     "ja": "彼、新人の話を全然聞かないよね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I think he looks down on them.",
+     "ja": "見下してるんだと思う。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm just a part-timer.",
+     "ja": "私なんてただのバイトだし。"
+    },
+    {
+     "speaker": "B",
+     "en": "No one should look down on you for that.",
+     "ja": "そんなことで誰にも見下される理由はないよ。"
+    }
+   ]
+  }
+ ],
+ "phr_073": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Look out! There's a bike coming!",
+     "ja": "危ない！自転車が来てる！"
+    },
+    {
+     "speaker": "B",
+     "en": "Whoa, thanks. I didn't see it.",
+     "ja": "うわ、ありがとう。気づかなかった。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Look out for pickpockets in this area.",
+     "ja": "このあたりはスリに気をつけて。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks, I'll keep my bag close.",
+     "ja": "ありがとう、かばんを手元に持っておくね。"
+    }
+   ]
+  }
+ ],
+ "phr_074": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Could you look over this email before I send it?",
+     "ja": "送る前にこのメールに目を通してくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Give me two minutes.",
+     "ja": "いいよ。2分ちょうだい。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I finished my essay.",
+     "ja": "作文を書き終えたよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Great. I'll look it over tonight.",
+     "ja": "よし。今夜ざっと見ておくね。"
+    }
+   ]
+  }
+ ],
+ "phr_075": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's so dark in here.",
+     "ja": "ここ、すごく暗いね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll turn on the lights.",
+     "ja": "電気つけるね。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the projector working?",
+     "ja": "プロジェクターは動いてる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Not yet. I'll turn it on now.",
+     "ja": "まだ。今電源を入れるね。"
+    }
+   ]
+  }
+ ],
+ "phr_076": [
+  {
+   "scene": "映画館",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The movie is about to start.",
+     "ja": "映画が始まるよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'd better turn off my phone.",
+     "ja": "携帯の電源を切らなきゃ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you turn off the stove?",
+     "ja": "コンロの火、消した？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I checked twice.",
+     "ja": "うん、2回確認したよ。"
+    }
+   ]
+  }
+ ],
+ "phr_077": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Could you turn down the TV? I'm on the phone.",
+     "ja": "テレビの音を小さくしてくれる？電話中なの。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, sorry!",
+     "ja": "あ、ごめん！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you accept the job in Tokyo?",
+     "ja": "東京の仕事、受けたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I turned it down.",
+     "ja": "ううん、断ったよ。"
+    }
+   ]
+  }
+ ],
+ "phr_078": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I love this song! Turn it up!",
+     "ja": "この曲大好き！音大きくして！"
+    },
+    {
+     "speaker": "B",
+     "en": "OK!",
+     "ja": "オッケー！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did everyone come to the party?",
+     "ja": "みんなパーティーに来た？"
+    },
+    {
+     "speaker": "B",
+     "en": "Most did, but Ken turned up two hours late.",
+     "ja": "ほとんど来たけど、ケンは2時間遅れて現れたよ。"
+    }
+   ]
+  }
+ ],
+ "phr_079": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was the cake you baked?",
+     "ja": "焼いたケーキ、どうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "It turned out great!",
+     "ja": "すごくうまくできたよ！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Was the rumor about the layoffs true?",
+     "ja": "リストラの噂は本当だったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it turned out to be false.",
+     "ja": "いや、うそだとわかったよ。"
+    }
+   ]
+  }
+ ],
+ "phr_080": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Look, the rain is turning into snow.",
+     "ja": "見て、雨が雪に変わってきた。"
+    },
+    {
+     "speaker": "B",
+     "en": "Wow, it's really cold tonight.",
+     "ja": "わあ、今夜はほんとに寒いね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Our small chat turned into a three-hour talk.",
+     "ja": "ちょっとした雑談が3時間の話になっちゃった。"
+    },
+    {
+     "speaker": "B",
+     "en": "That happens with old friends.",
+     "ja": "昔からの友達だとそうなるよね。"
+    }
+   ]
+  }
+ ],
+ "phr_081": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is that your friend calling you?",
+     "ja": "あれ、あなたを呼んでる友達じゃない？"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh! I didn't hear. Let me turn around.",
+     "ja": "あ！聞こえなかった。振り向いてみる。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The company was losing money for years.",
+     "ja": "その会社は何年も赤字だったんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "The new CEO turned it around in one year.",
+     "ja": "新しいCEOが1年で立て直したんだよ。"
+    }
+   ]
+  }
+ ],
+ "phr_082": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Should I bring up the budget problem at the meeting?",
+     "ja": "会議で予算の問題を持ち出すべきかな？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, everyone needs to know.",
+     "ja": "うん、みんな知っておくべきだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where did you grow up?",
+     "ja": "どこで育ったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I was brought up in a small town in Hokkaido.",
+     "ja": "北海道の小さな町で育ったんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_083": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What changes did smartphones bring about?",
+     "ja": "スマホはどんな変化をもたらした？"
+    },
+    {
+     "speaker": "B",
+     "en": "They changed how we talk, shop and study.",
+     "ja": "話し方も買い物も勉強の仕方も変えたね。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The new manager has brought about a lot of changes.",
+     "ja": "新しい部長がいろいろな変化をもたらしたね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, and most of them are good.",
+     "ja": "うん、ほとんどがいい変化だよ。"
+    }
+   ]
+  }
+ ],
+ "phr_084": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This song brings back so many memories.",
+     "ja": "この曲を聴くと思い出があふれてくる。"
+    },
+    {
+     "speaker": "B",
+     "en": "Me too. We sang it every day in high school.",
+     "ja": "私も。高校で毎日歌ってたよね。"
+    }
+   ]
+  },
+  {
+   "scene": "図書館",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When do I need to bring back these books?",
+     "ja": "この本はいつまでに返せばいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Within two weeks, please.",
+     "ja": "2週間以内にお願いします。"
+    }
+   ]
+  }
+ ],
+ "phr_085": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your new glasses really bring out your eyes.",
+     "ja": "新しいメガネ、目がすごく引き立つね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks! I wasn't sure about them.",
+     "ja": "ありがとう！迷ってたんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When will the company bring out the new phone?",
+     "ja": "会社はいつ新しい携帯を出すの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Probably in September.",
+     "ja": "たぶん9月だね。"
+    }
+   ]
+  }
+ ],
+ "phr_086": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why did the company bring in new rules?",
+     "ja": "なぜ会社は新しい規則を導入したの？"
+    },
+    {
+     "speaker": "B",
+     "en": "To reduce overtime.",
+     "ja": "残業を減らすためだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How much does your café bring in?",
+     "ja": "あなたのカフェ、どれくらい稼いでるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Enough to pay the bills, at least.",
+     "ja": "少なくとも生活費をまかなえるくらいはね。"
+    }
+   ]
+  }
+ ],
+ "phr_087": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This math problem is too hard. I give up.",
+     "ja": "この数学の問題、難しすぎる。お手上げ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Don't give up yet! Let's try together.",
+     "ja": "まだ諦めないで！一緒にやってみよう。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You don't drink coffee anymore?",
+     "ja": "もうコーヒー飲まないの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I gave it up last month.",
+     "ja": "うん、先月やめたんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_088": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did your parents let you get a dog?",
+     "ja": "ご両親、犬を飼わせてくれたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes! They finally gave in.",
+     "ja": "うん！ついに折れてくれた。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The client wanted a big discount.",
+     "ja": "顧客が大幅な値引きを求めてきたんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "We can't give in on price this time.",
+     "ja": "今回は値段で譲るわけにはいかない。"
+    }
+   ]
+  }
+ ],
+ "phr_089": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are these samples free?",
+     "ja": "このサンプルは無料ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, we're giving them away today.",
+     "ja": "はい、本日は無料でお配りしています。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "So, who's the killer in the movie?",
+     "ja": "で、映画の犯人は誰なの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I won't give away the ending!",
+     "ja": "結末はばらさないよ！"
+    }
+   ]
+  }
+ ],
+ "phr_090": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you give me back my eraser?",
+     "ja": "消しゴム返してくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, sorry. Here you go.",
+     "ja": "あ、ごめん。はい。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why do you volunteer every weekend?",
+     "ja": "なんで毎週末ボランティアしてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I want to give back to my community.",
+     "ja": "地域に恩返しがしたいんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_091": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you help me give out these handouts?",
+     "ja": "このプリントを配るのを手伝ってくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. One for each student?",
+     "ja": "いいよ。一人1枚？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why did you stop running?",
+     "ja": "なんで走るのやめたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "My legs just gave out.",
+     "ja": "足がもう動かなくなったんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_092": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's that smell?",
+     "ja": "このにおい何？"
+    },
+    {
+     "speaker": "B",
+     "en": "The new candle gives off a lemon scent.",
+     "ja": "新しいキャンドルがレモンの香りを出してるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This old heater gives off a lot of heat.",
+     "ja": "この古いヒーター、すごく熱を出すね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, but it uses a lot of electricity.",
+     "ja": "うん、でも電気をたくさん食うんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_093": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where are you? You're late.",
+     "ja": "どこにいるの？遅いよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, my car broke down on the highway.",
+     "ja": "ごめん、高速で車が故障したんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This project is so big.",
+     "ja": "このプロジェクト、大きすぎる。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's break it down into smaller tasks.",
+     "ja": "小さな作業に分けよう。"
+    }
+   ]
+  }
+ ],
+ "phr_094": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are Ken and Aya still together?",
+     "ja": "ケンとアヤはまだ付き合ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, they broke up last month.",
+     "ja": "ううん、先月別れたよ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The teacher broke up the fight quickly.",
+     "ja": "先生がすぐにけんかを止めたね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good. Someone could have gotten hurt.",
+     "ja": "よかった。誰かけがしてたかも。"
+    }
+   ]
+  }
+ ],
+ "phr_095": [
+  {
+   "scene": "ニュース",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you hear? A fire broke out downtown.",
+     "ja": "聞いた？中心街で火事が起きたって。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I saw the smoke from my window.",
+     "ja": "うん、窓から煙が見えたよ。"
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My skin broke out after I ate shrimp.",
+     "ja": "エビを食べたら肌に発疹が出たんです。"
+    },
+    {
+     "speaker": "B",
+     "en": "You might have an allergy.",
+     "ja": "アレルギーかもしれませんね。"
+    }
+   ]
+  }
+ ],
+ "phr_096": [
+  {
+   "scene": "警察",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How did they break into the house?",
+     "ja": "犯人はどうやって家に侵入したんですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Through the back window.",
+     "ja": "裏の窓からです。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Our company wants to break into the US market.",
+     "ja": "うちの会社はアメリカ市場に参入したいんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "That won't be easy, but it's exciting.",
+     "ja": "簡単じゃないけど、わくわくするね。"
+    }
+   ]
+  }
+ ],
+ "phr_097": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It was cloudy all morning.",
+     "ja": "午前中ずっと曇ってたね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Look, the sun is breaking through now!",
+     "ja": "見て、今日差しが出てきたよ！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We've been stuck on this problem for weeks.",
+     "ja": "何週間もこの問題で行き詰まってる。"
+    },
+    {
+     "speaker": "B",
+     "en": "I think we're about to break through.",
+     "ja": "もうすぐ突破できそうな気がする。"
+    }
+   ]
+  }
+ ],
+ "phr_098": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you want some chocolate?",
+     "ja": "チョコいる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, break me off a piece.",
+     "ja": "うん、ひとかけら割ってちょうだい。"
+    }
+   ]
+  },
+  {
+   "scene": "ニュース",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are the two countries still talking?",
+     "ja": "両国はまだ話し合ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, they broke off the talks yesterday.",
+     "ja": "いや、昨日交渉を打ち切ったよ。"
+    }
+   ]
+  }
+ ],
+ "phr_099": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you set up the room for the meeting?",
+     "ja": "会議用に部屋の準備をしてくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. How many chairs do we need?",
+     "ja": "いいよ。椅子はいくつ必要？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I heard your sister started a business.",
+     "ja": "お姉さんが起業したって聞いたよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, she set up an online shop last year.",
+     "ja": "うん、去年ネットショップを立ち上げたんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_100": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time should we set off tomorrow?",
+     "ja": "明日は何時に出発する？"
+    },
+    {
+     "speaker": "B",
+     "en": "Early. Let's set off at six.",
+     "ja": "早めに。6時に出よう。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why is the alarm ringing?",
+     "ja": "なんで警報が鳴ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "The smoke from the toast set it off.",
+     "ja": "トーストの煙で鳴っちゃったんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_101": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When did they set out on their trip?",
+     "ja": "彼らはいつ旅に出たの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Last Monday. They're cycling across Japan.",
+     "ja": "先週の月曜。自転車で日本を横断してるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did you set out to do with this company?",
+     "ja": "この会社で何を目指して始めたんですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "I set out to make healthy food cheaper.",
+     "ja": "健康的な食べ物を安くしようと乗り出したんです。"
+    }
+   ]
+  }
+ ],
+ "phr_102": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do you find time to read?",
+     "ja": "読書の時間はどうやって作ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I set aside thirty minutes every night.",
+     "ja": "毎晩30分取っておいてるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We disagree on a lot of things.",
+     "ja": "私たち、いろんなことで意見が違うね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's set that aside and focus on the goal.",
+     "ja": "それはいったん置いて、目標に集中しよう。"
+    }
+   ]
+  }
+ ],
+ "phr_103": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long will the system problem set us back?",
+     "ja": "システムの問題でどれくらい遅れそう？"
+    },
+    {
+     "speaker": "B",
+     "en": "About two weeks.",
+     "ja": "2週間くらいかな。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How much did your new bike set you back?",
+     "ja": "新しい自転車、いくらかかったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "About 100,000 yen.",
+     "ja": "10万円くらい。"
+    }
+   ]
+  }
+ ],
+ "phr_104": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you buy some milk? We've run out.",
+     "ja": "牛乳買ってきてくれる？切らしちゃった。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, I'll stop by the store.",
+     "ja": "いいよ、お店に寄るね。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Time is running out! Five minutes left.",
+     "ja": "時間がなくなってきた！あと5分。"
+    },
+    {
+     "speaker": "B",
+     "en": "I still have three questions to answer!",
+     "ja": "まだ3問残ってる！"
+    }
+   ]
+  }
+ ],
+ "phr_105": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Guess who I ran into at the station?",
+     "ja": "駅で誰にばったり会ったと思う？"
+    },
+    {
+     "speaker": "B",
+     "en": "Who? Tell me!",
+     "ja": "誰？教えて！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's the project going?",
+     "ja": "プロジェクトはどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "We ran into a few problems, but it's OK now.",
+     "ja": "いくつか問題にぶつかったけど、今は大丈夫。"
+    }
+   ]
+  }
+ ],
+ "phr_106": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Be careful when you cross the road.",
+     "ja": "道を渡るときは気をつけてね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Don't worry. I won't get run over.",
+     "ja": "大丈夫。ひかれたりしないよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's run over the main points before the client arrives.",
+     "ja": "顧客が来る前に要点をざっと確認しよう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good idea.",
+     "ja": "いいね。"
+    }
+   ]
+  }
+ ],
+ "phr_107": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's the dog?",
+     "ja": "犬はどこ？"
+    },
+    {
+     "speaker": "B",
+     "en": "He ran away when he heard the thunder.",
+     "ja": "雷を聞いて逃げちゃった。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You can't run away from your problems.",
+     "ja": "問題から逃げてちゃだめだよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I'll talk to him tomorrow.",
+     "ja": "わかってる。明日彼と話すよ。"
+    }
+   ]
+  }
+ ],
+ "phr_108": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can we run through the presentation once more?",
+     "ja": "もう一度プレゼンを通しでやってもいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. I'll time you.",
+     "ja": "いいよ。時間を計るね。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The play starts in an hour.",
+     "ja": "劇は1時間後に始まるよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's run through the last scene again.",
+     "ja": "最後の場面をもう一回通そう。"
+    }
+   ]
+  }
+ ],
+ "phr_109": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did she have on at the party?",
+     "ja": "パーティーで彼女、何を着てた？"
+    },
+    {
+     "speaker": "B",
+     "en": "A beautiful blue dress.",
+     "ja": "きれいな青いドレスだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have anything on this Saturday?",
+     "ja": "今度の土曜日、何か予定ある？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I'm free. What's up?",
+     "ja": "ううん、空いてるよ。どうしたの？"
+    }
+   ]
+  }
+ ],
+ "phr_110": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are you doing this weekend?",
+     "ja": "今週末は何するの？"
+    },
+    {
+     "speaker": "B",
+     "en": "We're having some friends over for a barbecue.",
+     "ja": "友達を何人か呼んでバーベキューするんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I have Yuki over after school?",
+     "ja": "放課後ユキを家に呼んでもいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, as long as you finish your homework.",
+     "ja": "いいよ、宿題を終わらせるならね。"
+    }
+   ]
+  }
+ ],
+ "phr_111": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I have my umbrella back? It's raining.",
+     "ja": "傘返してもらえる？雨降ってるんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, sorry! Here it is.",
+     "ja": "あ、ごめん！はい。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's great to have you back! How was your leave?",
+     "ja": "戻ってきてくれてうれしいよ！休暇はどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Relaxing. Thanks!",
+     "ja": "のんびりできたよ。ありがとう！"
+    }
+   ]
+  }
+ ],
+ "phr_112": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you working on Monday?",
+     "ja": "月曜日は出勤？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I have Monday off.",
+     "ja": "ううん、月曜は休みなんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have the whole week off?",
+     "ja": "1週間まるまる休みなの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes! Let's go somewhere.",
+     "ja": "うん！どこか行こうよ。"
+    }
+   ]
+  }
+ ],
+ "phr_113": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have this shirt in medium?",
+     "ja": "このシャツのMサイズはありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Let me check in the back.",
+     "ja": "奥を確認してきますね。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why was there a stranger in the kitchen?",
+     "ja": "なんで台所に知らない人がいたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "We had an electrician in to fix the lights.",
+     "ja": "電気を直してもらうために電気屋さんに来てもらったんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_114": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why do you keep so many batteries?",
+     "ja": "なんでそんなに電池を置いてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's good to have them around in an emergency.",
+     "ja": "非常時に手元にあると安心だから。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Mika is leaving the team.",
+     "ja": "ミカがチームを抜けるんだって。"
+    },
+    {
+     "speaker": "B",
+     "en": "That's sad. She was so nice to have around.",
+     "ja": "寂しいね。そばにいてくれると心強い人だったのに。"
+    }
+   ]
+  }
+ ],
+ "phr_115": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why is your face swollen?",
+     "ja": "なんで顔が腫れてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I had a tooth out yesterday.",
+     "ja": "昨日、歯を抜いたんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you still angry with your brother?",
+     "ja": "まだお兄さんに怒ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes. I need to have it out with him.",
+     "ja": "うん。一度はっきり話をつけないと。"
+    }
+   ]
+  }
+ ],
+ "phr_116": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I use this meeting room?",
+     "ja": "この会議室使ってもいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, go ahead.",
+     "ja": "どうぞ、使ってください。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the festival still happening? It might rain.",
+     "ja": "お祭りはやるの？雨かもしれないよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's going ahead as planned.",
+     "ja": "うん、予定どおり行われるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_117": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Come on, hurry up! The movie starts in five minutes!",
+     "ja": "ほら、急いで！映画があと5分で始まるよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm coming, I'm coming!",
+     "ja": "今行く、今行く！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I can't do it. It's too hard.",
+     "ja": "できない。難しすぎる。"
+    },
+    {
+     "speaker": "B",
+     "en": "Come on, you can do it!",
+     "ja": "ほら、あなたならできるよ！"
+    }
+   ]
+  }
+ ],
+ "phr_118": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Come around for dinner this Friday.",
+     "ja": "今度の金曜、夕飯を食べにおいでよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'd love to. What should I bring?",
+     "ja": "ぜひ。何を持っていけばいい？"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The boss doesn't like our idea.",
+     "ja": "上司は私たちの案が気に入らないみたい。"
+    },
+    {
+     "speaker": "B",
+     "en": "Give him time. He'll come around.",
+     "ja": "時間をあげて。そのうち賛成してくれるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_119": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We should get together more often.",
+     "ja": "もっとちょくちょく集まろうよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes! How about next Saturday?",
+     "ja": "うん！来週の土曜はどう？"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Does your family get together for New Year's?",
+     "ja": "お正月は家族で集まるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, every year at my grandmother's house.",
+     "ja": "うん、毎年祖母の家に集まるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_120": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your room is full of old magazines.",
+     "ja": "あなたの部屋、古い雑誌でいっぱいだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I need to get rid of them.",
+     "ja": "わかってる。処分しなきゃ。"
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How can I get rid of this cough?",
+     "ja": "この咳はどうしたら治りますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Rest and drink lots of warm water.",
+     "ja": "休んで温かいお湯をたくさん飲んでください。"
+    }
+   ]
+  }
+ ],
+ "phr_121": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I help you find anything?",
+     "ja": "何かお探しですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No thanks, I'm just looking around.",
+     "ja": "大丈夫です、見ているだけです。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We have two hours before our train.",
+     "ja": "電車まで2時間あるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's look around the old town.",
+     "ja": "旧市街を見て回ろう。"
+    }
+   ]
+  }
+ ],
+ "phr_122": [
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "For here or to take away?",
+     "ja": "店内でお召し上がりですか、お持ち帰りですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "To take away, please.",
+     "ja": "持ち帰りでお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This medicine should take away the pain.",
+     "ja": "この薬で痛みはなくなるはずです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you, doctor.",
+     "ja": "ありがとうございます、先生。"
+    }
+   ]
+  }
+ ],
+ "phr_123": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is it OK if I bring along my sister?",
+     "ja": "妹を連れて行ってもいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course! The more the merrier.",
+     "ja": "もちろん！人数が多いほうが楽しいよ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What should we bring along for the trip?",
+     "ja": "遠足には何を持っていけばいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Bring along a lunch and a raincoat.",
+     "ja": "お弁当とレインコートを持ってきてください。"
+    }
+   ]
+  }
+ ],
+ "phr_124": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The road is closed because of snow.",
+     "ja": "雪で道が閉鎖されてる。"
+    },
+    {
+     "speaker": "B",
+     "en": "Then we'll have to turn back.",
+     "ja": "じゃあ引き返すしかないね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you sure about quitting your job?",
+     "ja": "本当に仕事を辞めて大丈夫？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes. There's no turning back now.",
+     "ja": "うん。もう後戻りはできないよ。"
+    }
+   ]
+  }
+ ],
+ "phr_125": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time should I pick you up?",
+     "ja": "何時に迎えに行けばいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Could you pick me up at seven?",
+     "ja": "7時に迎えに来てくれる？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your English is so natural!",
+     "ja": "英語がすごく自然だね！"
+    },
+    {
+     "speaker": "B",
+     "en": "I picked it up from watching dramas.",
+     "ja": "ドラマを見て自然に覚えたんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_126": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I need a gift for my wife.",
+     "ja": "妻へのプレゼントが必要なんです。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'd be happy to help you pick something out.",
+     "ja": "選ぶのをお手伝いしますよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which shoes should I wear?",
+     "ja": "どの靴を履いたらいいかな？"
+    },
+    {
+     "speaker": "B",
+     "en": "Let me pick out a pair for you.",
+     "ja": "私が選んであげるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_127": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why are you crying?",
+     "ja": "どうして泣いてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Some older kids keep picking on me.",
+     "ja": "上級生にずっといじめられてるの。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Stop picking on your little sister!",
+     "ja": "妹をからかうのはやめなさい！"
+    },
+    {
+     "speaker": "B",
+     "en": "I was only joking!",
+     "ja": "冗談だったんだよ！"
+    }
+   ]
+  }
+ ],
+ "phr_128": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your sales numbers are excellent. Keep it up!",
+     "ja": "売上の数字がすばらしいね。その調子で！"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you! I'll do my best.",
+     "ja": "ありがとうございます！がんばります。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You're walking too fast. I can't keep up!",
+     "ja": "歩くの速すぎ。ついていけないよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, I'll slow down.",
+     "ja": "ごめん、ゆっくり歩くね。"
+    }
+   ]
+  }
+ ],
+ "phr_129": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Technology changes so fast these days.",
+     "ja": "最近はテクノロジーの変化が速いね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's hard to keep up with it.",
+     "ja": "うん、ついていくのが大変だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you still talk to your school friends?",
+     "ja": "学校の友達とまだ話してる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I keep up with them on LINE.",
+     "ja": "うん、LINEで連絡を取り合ってるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_130": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My phone keeps on freezing.",
+     "ja": "携帯が何度も固まるんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Maybe you need to update it.",
+     "ja": "アップデートが必要なのかもね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I failed the test again.",
+     "ja": "またテストに落ちた。"
+    },
+    {
+     "speaker": "B",
+     "en": "Just keep on trying. You'll pass next time.",
+     "ja": "とにかく挑戦し続けて。次は受かるよ。"
+    }
+   ]
+  }
+ ],
+ "phr_131": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Keep away from the stove. It's hot!",
+     "ja": "コンロに近づかないで。熱いよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, I'll stay over here.",
+     "ja": "わかった、こっちにいるね。"
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I have a cold. Should I go to work?",
+     "ja": "風邪をひいたんです。仕事に行くべきですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Stay home and keep away from other people.",
+     "ja": "家にいて、人に近づかないようにしてください。"
+    }
+   ]
+  }
+ ],
+ "phr_132": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What does that sign say?",
+     "ja": "あの看板、何て書いてあるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "\"Keep out.\" It's private land.",
+     "ja": "「立入禁止」だって。私有地なんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why do you close the curtains in summer?",
+     "ja": "なんで夏にカーテンを閉めるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "To keep out the heat.",
+     "ja": "暑さを入れないためだよ。"
+    }
+   ]
+  }
+ ],
+ "phr_133": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do you stay so fit?",
+     "ja": "どうやってそんなに体型を保ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I work out at the gym three times a week.",
+     "ja": "週3回ジムで運動してるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm so worried about the move.",
+     "ja": "引っ越しがすごく心配。"
+    },
+    {
+     "speaker": "B",
+     "en": "Don't worry. Everything will work out.",
+     "ja": "心配しないで。全部うまくいくよ。"
+    }
+   ]
+  }
+ ],
+ "phr_134": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are you working on right now?",
+     "ja": "今は何に取り組んでるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "A new app for our customers.",
+     "ja": "お客様向けの新しいアプリだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How can I improve my English?",
+     "ja": "どうすれば英語が上達しますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "You should work on your listening first.",
+     "ja": "まずリスニングに取り組むといいよ。"
+    }
+   ]
+  }
+ ],
+ "phr_135": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you help me? I can't figure out this new TV.",
+     "ja": "手伝ってくれる？新しいテレビの使い方がわからない。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Where's the remote?",
+     "ja": "いいよ。リモコンはどこ？"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We don't have enough budget for this.",
+     "ja": "これには予算が足りないね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Don't worry. We'll figure something out.",
+     "ja": "大丈夫。何とか考えよう。"
+    }
+   ]
+  }
+ ],
+ "phr_136": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you know when the store opens?",
+     "ja": "お店が何時に開くか知ってる？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, but I'll find out.",
+     "ja": "知らないけど、調べてみるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I ate your pudding. Please don't be angry.",
+     "ja": "あなたのプリン食べちゃった。怒らないで。"
+    },
+    {
+     "speaker": "B",
+     "en": "So that's what happened! I wondered how I'd find out.",
+     "ja": "そういうことか！どうやって突き止めようかと思ってたよ。"
+    }
+   ]
+  }
+ ],
+ "phr_137": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time do we need to check out?",
+     "ja": "チェックアウトは何時までですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "By eleven o'clock, sir.",
+     "ja": "11時までです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Check out this video. It's so funny!",
+     "ja": "この動画見て。すごく面白いよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Haha! Send it to me.",
+     "ja": "ハハ！送って。"
+    }
+   ]
+  }
+ ],
+ "phr_138": [
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where do I check in for Japan Airlines?",
+     "ja": "日本航空のチェックインはどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Counter C, over there.",
+     "ja": "あちらのCカウンターです。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hi, I'm just checking in. How are you feeling?",
+     "ja": "やあ、ちょっと様子を聞きたくて。体調はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "Much better, thanks for asking.",
+     "ja": "だいぶよくなったよ、ありがとう。"
+    }
+   ]
+  }
+ ],
+ "phr_139": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The baby is very quiet.",
+     "ja": "赤ちゃん、すごく静かだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll go check on her.",
+     "ja": "様子を見てくるね。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you check on the delivery? It's late.",
+     "ja": "配送の状況を確認してくれる？遅れてるんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, I'll call the company.",
+     "ja": "わかった、業者に電話するね。"
+    }
+   ]
+  }
+ ],
+ "phr_140": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did you do on Sunday?",
+     "ja": "日曜日は何したの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Nothing much. I just hung out with friends.",
+     "ja": "特に何も。友達とぶらぶらしてただけ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's sunny today.",
+     "ja": "今日は晴れてるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Great. I'll hang out the laundry.",
+     "ja": "よかった。洗濯物を外に干すね。"
+    }
+   ]
+  }
+ ],
+ "phr_141": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I speak to Ms. Sato?",
+     "ja": "佐藤さんをお願いできますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Hang on a second. I'll get her.",
+     "ja": "少々お待ちください。呼んできます。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This roller coaster is so fast!",
+     "ja": "このジェットコースター、速すぎ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Hang on tight!",
+     "ja": "しっかりつかまって！"
+    }
+   ]
+  }
+ ],
+ "phr_142": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Don't hang up! I have one more thing to say.",
+     "ja": "切らないで！もうひとつ言いたいことがあるの。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, what is it?",
+     "ja": "わかった、何？"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who was that on the phone?",
+     "ja": "今の電話、誰？"
+    },
+    {
+     "speaker": "B",
+     "en": "I don't know. They hung up.",
+     "ja": "わからない。切られちゃった。"
+    }
+   ]
+  }
+ ],
+ "phr_143": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where did you stay in the end?",
+     "ja": "結局どこに泊まったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "We ended up sleeping in the car!",
+     "ja": "結局、車の中で寝ることになったよ！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you go shopping yesterday?",
+     "ja": "昨日は買い物に行った？"
+    },
+    {
+     "speaker": "B",
+     "en": "I planned to, but I ended up staying home.",
+     "ja": "そのつもりだったけど、結局家にいた。"
+    }
+   ]
+  }
+ ],
+ "phr_144": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's Ken? The meeting started ten minutes ago.",
+     "ja": "ケンはどこ？会議は10分前に始まったよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "He hasn't shown up yet.",
+     "ja": "まだ来てないね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did many people come to the concert?",
+     "ja": "コンサートにはたくさん人が来た？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, over a thousand people showed up!",
+     "ja": "うん、千人以上来たよ！"
+    }
+   ]
+  }
+ ],
+ "phr_145": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you see Takashi's new watch?",
+     "ja": "タカシの新しい時計見た？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes. He kept showing it off all day.",
+     "ja": "見た。一日中見せびらかしてたよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Wow, you can speak five languages?",
+     "ja": "すごい、5か国語話せるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I don't mean to show off, but yes.",
+     "ja": "自慢するつもりはないけど、そうなんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_146": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the game still on tomorrow?",
+     "ja": "明日の試合はまだやるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it's been called off because of the typhoon.",
+     "ja": "いや、台風で中止になったよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are they still getting married?",
+     "ja": "二人はまだ結婚する予定なの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, they called off the wedding.",
+     "ja": "いや、結婚式を取りやめたんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_147": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Sorry, I'm in a meeting. Can I call you back?",
+     "ja": "ごめん、会議中なんだ。折り返してもいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, no problem.",
+     "ja": "もちろん、大丈夫。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did the client call?",
+     "ja": "顧客から電話あった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, he asked you to call him back.",
+     "ja": "うん、折り返してほしいって。"
+    }
+   ]
+  }
+ ],
+ "phr_148": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Please fill out this form.",
+     "ja": "この用紙にご記入ください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Do I need to write my insurance number?",
+     "ja": "保険証の番号も書く必要がありますか？"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do I apply for the training?",
+     "ja": "研修にはどうやって申し込むの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Just fill out the form online.",
+     "ja": "ネットで申込書に記入するだけだよ。"
+    }
+   ]
+  }
+ ],
+ "phr_149": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Fill in the blanks with the correct words.",
+     "ja": "空欄に正しい語を入れなさい。"
+    },
+    {
+     "speaker": "B",
+     "en": "Can we use a dictionary?",
+     "ja": "辞書を使ってもいいですか？"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm sick today. Can you fill in for me?",
+     "ja": "今日体調が悪いんだ。代わりに入ってくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, get some rest.",
+     "ja": "いいよ、ゆっくり休んで。"
+    }
+   ]
+  }
+ ],
+ "phr_150": [
+  {
+   "scene": "ドライブ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We're almost out of gas.",
+     "ja": "ガソリンがほとんどないよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's fill up at the next station.",
+     "ja": "次のスタンドで満タンにしよう。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like more bread?",
+     "ja": "パンのおかわりはいかがですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No thanks, I'm already filled up.",
+     "ja": "いえ、もうお腹いっぱいです。"
+    }
+   ]
+  }
+ ],
+ "phr_151": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Thanks for pointing out the mistake in my report.",
+     "ja": "報告書のミスを指摘してくれてありがとう。"
+    },
+    {
+     "speaker": "B",
+     "en": "No problem. It was just a small one.",
+     "ja": "どういたしまして。小さなミスだったよ。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Our guide pointed out the oldest temple in the city.",
+     "ja": "ガイドが街で一番古いお寺を指し示してくれた。"
+    },
+    {
+     "speaker": "B",
+     "en": "Did you go inside?",
+     "ja": "中に入ったの？"
+    }
+   ]
+  }
+ ],
+ "phr_152": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's been ages! Let's get coffee and catch up.",
+     "ja": "久しぶり！コーヒーでも飲んで近況を話そう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I have so much to tell you!",
+     "ja": "うん、話したいことがたくさんある！"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I missed a week of classes.",
+     "ja": "1週間授業を休んじゃった。"
+    },
+    {
+     "speaker": "B",
+     "en": "Don't worry, I'll help you catch up.",
+     "ja": "大丈夫、追いつけるように手伝うよ。"
+    }
+   ]
+  }
+ ],
+ "phr_153": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you think this new app will catch on?",
+     "ja": "この新しいアプリ、流行ると思う？"
+    },
+    {
+     "speaker": "B",
+     "en": "Maybe. Young people seem to love it.",
+     "ja": "たぶんね。若い人に人気みたい。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's the new staff member doing?",
+     "ja": "新人の調子はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "Great. She catches on really quickly.",
+     "ja": "いいよ。飲み込みがすごく早い。"
+    }
+   ]
+  }
+ ],
+ "phr_154": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Sorry to interrupt. Please carry on.",
+     "ja": "お邪魔してすみません。どうぞ続けてください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you. As I was saying...",
+     "ja": "ありがとうございます。さっきの話の続きですが…"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It started raining during the game.",
+     "ja": "試合中に雨が降り出したんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Did you carry on playing?",
+     "ja": "そのままプレーを続けたの？"
+    }
+   ]
+  }
+ ],
+ "phr_155": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who will carry out the survey?",
+     "ja": "誰が調査を実施するの？"
+    },
+    {
+     "speaker": "B",
+     "en": "The marketing team will carry it out next month.",
+     "ja": "来月マーケティング部が実施するよ。"
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Will the doctor carry out more tests?",
+     "ja": "先生はさらに検査をするんですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, just to be safe.",
+     "ja": "はい、念のためです。"
+    }
+   ]
+  }
+ ],
+ "phr_156": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My blood pressure is a little high.",
+     "ja": "血圧が少し高いんです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Try to cut down on salt.",
+     "ja": "塩分を控えるようにしてください。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You used to drink so much coffee.",
+     "ja": "前はコーヒーをすごく飲んでたよね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I've cut down to one cup a day.",
+     "ja": "1日1杯に減らしたんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_157": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hello? Are you there?",
+     "ja": "もしもし？聞こえる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, we got cut off. The signal is bad.",
+     "ja": "ごめん、切れちゃった。電波が悪くて。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why is there no hot water?",
+     "ja": "なんでお湯が出ないの？"
+    },
+    {
+     "speaker": "B",
+     "en": "The gas was cut off for repairs.",
+     "ja": "工事でガスが止められてるんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_158": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hey! That man just cut in line!",
+     "ja": "ちょっと！あの人、列に割り込んだよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Excuse me, sir, the line starts back there.",
+     "ja": "すみません、列の最後尾はあちらです。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Sorry to cut in, but we're running out of time.",
+     "ja": "割り込んでごめん、でも時間がなくなってきてる。"
+    },
+    {
+     "speaker": "B",
+     "en": "You're right. Let's move on.",
+     "ja": "そうだね。次に進もう。"
+    }
+   ]
+  }
+ ],
+ "phr_159": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I talk to the manager?",
+     "ja": "店長と話せますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Hold on, please. I'll get her.",
+     "ja": "少々お待ちください。呼んできます。"
+    }
+   ]
+  },
+  {
+   "scene": "バス",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The bus is going to turn. Please hold on.",
+     "ja": "バスが曲がります。おつかまりください。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, I've got the handle.",
+     "ja": "はい、つり革を持ちました。"
+    }
+   ]
+  }
+ ],
+ "phr_160": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you cry at the wedding?",
+     "ja": "結婚式で泣いた？"
+    },
+    {
+     "speaker": "B",
+     "en": "I tried to hold back my tears, but I couldn't.",
+     "ja": "涙をこらえようとしたけど、無理だった。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm scared to speak in meetings.",
+     "ja": "会議で発言するのが怖いんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Don't let that fear hold you back.",
+     "ja": "その怖さに足を引っ張られないで。"
+    }
+   ]
+  }
+ ],
+ "phr_161": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where are you? The movie's starting!",
+     "ja": "どこにいるの？映画始まるよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, I got held up at work.",
+     "ja": "ごめん、仕事で足止めされちゃって。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How are you holding up after the surgery?",
+     "ja": "手術の後、大丈夫？持ちこたえてる？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm doing OK, thanks.",
+     "ja": "なんとか大丈夫、ありがとう。"
+    }
+   ]
+  }
+ ],
+ "phr_162": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "There's a problem with the client's order.",
+     "ja": "顧客の注文に問題があるんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Leave it to me. I'll sort it out.",
+     "ja": "任せて。私が何とかするよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your desk is such a mess.",
+     "ja": "机がすごく散らかってるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I'll sort it out this weekend.",
+     "ja": "わかってる。今週末に整理するよ。"
+    }
+   ]
+  }
+ ],
+ "phr_163": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Wake up! You'll be late for school!",
+     "ja": "起きて！学校に遅れるよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Five more minutes...",
+     "ja": "あと5分…"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time did you wake up today?",
+     "ja": "今日は何時に起きたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "At noon. I was so tired.",
+     "ja": "昼の12時。すごく疲れてたんだ。"
+    }
+   ]
+  }
+ ],
+ "phr_164": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I can't find my passport! The flight is in two hours!",
+     "ja": "パスポートが見つからない！飛行機は2時間後なのに！"
+    },
+    {
+     "speaker": "B",
+     "en": "Calm down. Let's check your bag again.",
+     "ja": "落ち着いて。もう一回かばんを見てみよう。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The kids are so excited about the trip.",
+     "ja": "子どもたち、旅行ですごく興奮してるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "They'll calm down after dinner.",
+     "ja": "夕飯を食べたら落ち着くよ。"
+    }
+   ]
+  }
+ ],
+ "phr_165": [
+  {
+   "scene": "ドライブ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Slow down! There's a school zone here.",
+     "ja": "スピード落として！ここはスクールゾーンだよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, thanks. I didn't see the sign.",
+     "ja": "あ、ありがとう。標識に気づかなかった。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You've been working too hard.",
+     "ja": "働きすぎだよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I need to slow down a little.",
+     "ja": "わかってる。少しペースを落とさないと。"
+    }
+   ]
+  }
+ ],
+ "phr_166": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hurry up! The bus is coming!",
+     "ja": "急いで！バスが来ちゃう！"
+    },
+    {
+     "speaker": "B",
+     "en": "Wait, I'm putting on my shoes!",
+     "ja": "待って、靴を履いてるところ！"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Our food is taking forever.",
+     "ja": "料理がなかなか来ないね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's ask them to hurry up. We have a movie at eight.",
+     "ja": "急いでもらおう。8時に映画があるし。"
+    }
+   ]
+  }
+ ]
+}

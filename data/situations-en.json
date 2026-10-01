@@ -1,0 +1,9602 @@
+{
+ "en_001": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hello, I'm Sato from ABC Company.",
+     "ja": "こんにちは、ABC社の佐藤です。"
+    },
+    {
+     "speaker": "B",
+     "en": "Hello, nice to meet you.",
+     "ja": "こんにちは、はじめまして。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hello? Is this Mike?",
+     "ja": "もしもし？マイク？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, hi! What's up?",
+     "ja": "うん、やあ！どうしたの？"
+    }
+   ]
+  }
+ ],
+ "en_002": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm leaving now. Goodbye, everyone!",
+     "ja": "お先に失礼します。みなさん、さようなら！"
+    },
+    {
+     "speaker": "B",
+     "en": "Goodbye! See you tomorrow.",
+     "ja": "お疲れさま！また明日。"
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'll miss you. Goodbye!",
+     "ja": "寂しくなるな。さようなら！"
+    },
+    {
+     "speaker": "B",
+     "en": "Goodbye. Have a safe flight!",
+     "ja": "じゃあね。気をつけて！"
+    }
+   ]
+  }
+ ],
+ "en_003": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Here's your change.",
+     "ja": "おつりです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you very much.",
+     "ja": "どうもありがとうございます。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I brought you some cookies.",
+     "ja": "クッキーを持ってきたよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, thank you! That's so kind.",
+     "ja": "わあ、ありがとう！優しいね。"
+    }
+   ]
+  }
+ ],
+ "en_004": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Ouch! You stepped on my foot.",
+     "ja": "痛っ！足を踏まれた。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, I'm so sorry!",
+     "ja": "あっ、本当にごめんなさい！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Sorry I'm late. The train was delayed.",
+     "ja": "遅れてすみません。電車が遅れまして。"
+    },
+    {
+     "speaker": "B",
+     "en": "No problem. We just started.",
+     "ja": "大丈夫。今始めたところだよ。"
+    }
+   ]
+  }
+ ],
+ "en_005": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What would you like to drink?",
+     "ja": "お飲み物は何になさいますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Water, please.",
+     "ja": "お水をお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you close the window, please?",
+     "ja": "窓を閉めてくれる？お願い。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure.",
+     "ja": "いいよ。"
+    }
+   ]
+  }
+ ],
+ "en_006": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Excuse me, where is the station?",
+     "ja": "すみません、駅はどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's just around the corner.",
+     "ja": "すぐそこの角を曲がった所です。"
+    }
+   ]
+  },
+  {
+   "scene": "電車",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Excuse me, can I get past?",
+     "ja": "すみません、通してもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, of course.",
+     "ja": "あ、どうぞ。"
+    }
+   ]
+  }
+ ],
+ "en_007": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is this table free?",
+     "ja": "このテーブル空いてますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, please sit down.",
+     "ja": "はい、どうぞお座りください。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you want to come to the party?",
+     "ja": "パーティーに来る？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I'd love to!",
+     "ja": "うん、ぜひ！"
+    }
+   ]
+  }
+ ],
+ "en_008": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you need a bag?",
+     "ja": "袋はご入用ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, thank you.",
+     "ja": "いいえ、結構です。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you been to Okinawa?",
+     "ja": "沖縄に行ったことある？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, never. I really want to go.",
+     "ja": "ううん、一度も。すごく行きたい。"
+    }
+   ]
+  }
+ ],
+ "en_009": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Good morning! How are you?",
+     "ja": "おはよう！調子はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm good, thanks. And you?",
+     "ja": "元気だよ、ありがとう。あなたは？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hey, how are you doing?",
+     "ja": "やあ、元気にしてる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Pretty busy, but good!",
+     "ja": "けっこう忙しいけど元気だよ！"
+    }
+   ]
+  }
+ ],
+ "en_010": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This is our new team member, Lisa.",
+     "ja": "新しいチームメンバーのリサです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Hi Lisa, nice to meet you.",
+     "ja": "こんにちは、リサ。はじめまして。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This is my friend, Tom.",
+     "ja": "こちら友達のトムだよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Nice to meet you, Tom. I'm Yuki.",
+     "ja": "はじめまして、トム。ユキです。"
+    }
+   ]
+  }
+ ],
+ "en_011": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hi, Ken! Long time no see!",
+     "ja": "やあ、ケン！久しぶり！"
+    },
+    {
+     "speaker": "B",
+     "en": "Hi! How have you been?",
+     "ja": "やあ！元気にしてた？"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hi, are you in this class too?",
+     "ja": "ねえ、あなたもこのクラス？"
+    },
+    {
+     "speaker": "B",
+     "en": "Hi! Yes, I am.",
+     "ja": "こんにちは！うん、そうだよ。"
+    }
+   ]
+  }
+ ],
+ "en_012": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Good morning! Did you sleep well?",
+     "ja": "おはよう！よく眠れた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Good morning. Not really, I'm still tired.",
+     "ja": "おはよう。あまり。まだ眠いよ。"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Good morning, sir. Breakfast is on the second floor.",
+     "ja": "おはようございます。朝食は2階です。"
+    },
+    {
+     "speaker": "B",
+     "en": "Great, thank you.",
+     "ja": "よかった、ありがとう。"
+    }
+   ]
+  }
+ ],
+ "en_013": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Good afternoon, City Hotel. How may I help you?",
+     "ja": "こんにちは、シティホテルでございます。ご用件をどうぞ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Hi, I'd like to make a reservation.",
+     "ja": "予約をしたいのですが。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Good afternoon, everyone. Let's start the meeting.",
+     "ja": "みなさん、こんにちは。会議を始めましょう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good afternoon.",
+     "ja": "こんにちは。"
+    }
+   ]
+  }
+ ],
+ "en_014": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Good evening. Do you have a reservation?",
+     "ja": "こんばんは。ご予約はございますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, under the name Tanaka.",
+     "ja": "はい、田中で予約しています。"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Good evening. Welcome back!",
+     "ja": "こんばんは。おかえりなさいませ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you. Could I have my key?",
+     "ja": "ありがとう。鍵をもらえますか？"
+    }
+   ]
+  }
+ ],
+ "en_015": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm going to bed. Good night!",
+     "ja": "もう寝るね。おやすみ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Good night. Sleep well.",
+     "ja": "おやすみ。ぐっすり眠ってね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's late. I should go home.",
+     "ja": "もう遅いね。帰らなきゃ。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, good night! Text me when you get home.",
+     "ja": "わかった、おやすみ！家に着いたら連絡してね。"
+    }
+   ]
+  }
+ ],
+ "en_016": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm heading out. See you tomorrow!",
+     "ja": "帰るね。また明日！"
+    },
+    {
+     "speaker": "B",
+     "en": "See you!",
+     "ja": "またね！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "See you at the station at ten?",
+     "ja": "10時に駅で会おうか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sounds good. See you then!",
+     "ja": "いいね。じゃあその時に！"
+    }
+   ]
+  }
+ ],
+ "en_017": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm going home now.",
+     "ja": "もう帰るね。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, take care!",
+     "ja": "うん、気をつけてね！"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I have a bit of a cold.",
+     "ja": "ちょっと風邪気味なんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh no. Take care of yourself.",
+     "ja": "えっ。お大事にね。"
+    }
+   ]
+  }
+ ],
+ "en_018": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Welcome! Please come in.",
+     "ja": "いらっしゃいませ！どうぞお入りください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you. Are you open?",
+     "ja": "ありがとう。開いていますか？"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Welcome to the team, Ken!",
+     "ja": "ケン、チームへようこそ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you. I'm happy to be here.",
+     "ja": "ありがとうございます。ここに来られてうれしいです。"
+    }
+   ]
+  }
+ ],
+ "en_019": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Thank you for helping me.",
+     "ja": "助けてくれてありがとう。"
+    },
+    {
+     "speaker": "B",
+     "en": "You're welcome.",
+     "ja": "どういたしまして。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Thanks for the coffee!",
+     "ja": "コーヒーありがとう！"
+    },
+    {
+     "speaker": "B",
+     "en": "You're welcome. Enjoy!",
+     "ja": "どういたしまして。どうぞ！"
+    }
+   ]
+  }
+ ],
+ "en_020": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Here's your umbrella.",
+     "ja": "はい、傘。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks!",
+     "ja": "ありがとう！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I finished the copies for you.",
+     "ja": "コピー終わらせておいたよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks a lot. You saved me!",
+     "ja": "本当にありがとう。助かったよ！"
+    }
+   ]
+  }
+ ],
+ "en_021": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you help me carry this box?",
+     "ja": "この箱を運ぶの手伝ってくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure!",
+     "ja": "いいよ！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you sure you don't want dessert?",
+     "ja": "本当にデザートいらないの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm sure. I'm full.",
+     "ja": "うん、いい。お腹いっぱい。"
+    }
+   ]
+  }
+ ],
+ "en_022": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I pay by card?",
+     "ja": "カードで払えますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course.",
+     "ja": "もちろんです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Will you come to my wedding?",
+     "ja": "私の結婚式に来てくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course I will!",
+     "ja": "もちろん行くよ！"
+    }
+   ]
+  }
+ ],
+ "en_023": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's meet at three.",
+     "ja": "3時に会おう。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK. See you then.",
+     "ja": "オッケー。じゃあその時に。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you OK? You look pale.",
+     "ja": "大丈夫？顔色悪いよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm OK, just a little tired.",
+     "ja": "大丈夫、ちょっと疲れてるだけ。"
+    }
+   ]
+  }
+ ],
+ "en_024": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you coming to the party?",
+     "ja": "パーティー来る？"
+    },
+    {
+     "speaker": "B",
+     "en": "Maybe. I'll let you know tomorrow.",
+     "ja": "たぶんね。明日知らせるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Will it rain today?",
+     "ja": "今日は雨降るかな？"
+    },
+    {
+     "speaker": "B",
+     "en": "Maybe. Take an umbrella just in case.",
+     "ja": "かもね。念のため傘を持っていきなよ。"
+    }
+   ]
+  }
+ ],
+ "en_025": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did you say?",
+     "ja": "何て言ったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Never mind. It's not important.",
+     "ja": "気にしないで。大したことじゃないよ。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Sorry, we don't have that in blue.",
+     "ja": "すみません、それの青はないんです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Never mind. I'll take the black one.",
+     "ja": "大丈夫です。黒にします。"
+    }
+   ]
+  }
+ ],
+ "en_026": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I have your name, please?",
+     "ja": "お名前をお願いできますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's Yuki Tanaka.",
+     "ja": "田中ユキです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's your dog's name?",
+     "ja": "犬の名前は何？"
+    },
+    {
+     "speaker": "B",
+     "en": "His name is Coco.",
+     "ja": "ココっていうんだ。"
+    }
+   ]
+  }
+ ],
+ "en_027": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hi, I am the new intern. My name is Ken.",
+     "ja": "こんにちは、新しいインターンです。ケンといいます。"
+    },
+    {
+     "speaker": "B",
+     "en": "Welcome, Ken!",
+     "ja": "ようこそ、ケン！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you hungry?",
+     "ja": "お腹すいてる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I am! Let's eat.",
+     "ja": "うん、すいてる！食べよう。"
+    }
+   ]
+  }
+ ],
+ "en_028": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You are so good at cooking!",
+     "ja": "料理がすごく上手だね！"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks! I practice a lot.",
+     "ja": "ありがとう！いっぱい練習してるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You are next. Please come in.",
+     "ja": "次はあなたの番です。どうぞ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you.",
+     "ja": "ありがとうございます。"
+    }
+   ]
+  }
+ ],
+ "en_029": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where are you from?",
+     "ja": "どこの出身？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm from Osaka.",
+     "ja": "大阪出身だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who is this letter from?",
+     "ja": "この手紙は誰から？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's from my grandmother.",
+     "ja": "おばあちゃんからだよ。"
+    }
+   ]
+  }
+ ],
+ "en_030": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How many countries have you visited?",
+     "ja": "何か国行ったことある？"
+    },
+    {
+     "speaker": "B",
+     "en": "About ten countries.",
+     "ja": "10か国くらい。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which country do you want to live in?",
+     "ja": "どの国に住みたい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Canada. I love nature.",
+     "ja": "カナダ。自然が大好きなんだ。"
+    }
+   ]
+  }
+ ],
+ "en_031": [
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's the purpose of your visit to Japan?",
+     "ja": "日本への渡航目的は？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sightseeing.",
+     "ja": "観光です。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you ever been to Japan?",
+     "ja": "日本に来たことある？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I went to Kyoto last year.",
+     "ja": "うん、去年京都に行ったよ。"
+    }
+   ]
+  }
+ ],
+ "en_032": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is there a student discount?",
+     "ja": "学割はありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, please show your student ID.",
+     "ja": "はい、学生証を見せてください。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you working?",
+     "ja": "働いてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I'm still a student.",
+     "ja": "ううん、まだ学生だよ。"
+    }
+   ]
+  }
+ ],
+ "en_033": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who's your English teacher?",
+     "ja": "英語の先生は誰？"
+    },
+    {
+     "speaker": "B",
+     "en": "Mr. Brown. He's really funny.",
+     "ja": "ブラウン先生。すごく面白いよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What do you want to be in the future?",
+     "ja": "将来何になりたい？"
+    },
+    {
+     "speaker": "B",
+     "en": "I want to be a teacher.",
+     "ja": "先生になりたいな。"
+    }
+   ]
+  }
+ ],
+ "en_034": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What does your brother do?",
+     "ja": "お兄さんは何の仕事をしてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "He's an engineer at a car company.",
+     "ja": "自動車会社のエンジニアだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The printer is broken again.",
+     "ja": "プリンターがまた壊れた。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's call the engineer.",
+     "ja": "技術者を呼ぼう。"
+    }
+   ]
+  }
+ ],
+ "en_035": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'd like to see a doctor.",
+     "ja": "医者に診てもらいたいのですが。"
+    },
+    {
+     "speaker": "B",
+     "en": "Please wait here. The doctor will see you soon.",
+     "ja": "こちらでお待ちください。すぐに先生が診察します。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You've had a fever for three days.",
+     "ja": "3日も熱が続いてるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I'll go to the doctor tomorrow.",
+     "ja": "わかってる。明日お医者さんに行くよ。"
+    }
+   ]
+  }
+ ],
+ "en_036": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's your new job?",
+     "ja": "新しい仕事はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's busy, but I like it.",
+     "ja": "忙しいけど、気に入ってる。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I finished the report.",
+     "ja": "報告書を終わらせました。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good job!",
+     "ja": "よくやったね！"
+    }
+   ]
+  }
+ ],
+ "en_037": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I ask your age?",
+     "ja": "年齢をお聞きしてもいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm 35.",
+     "ja": "35歳です。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My grandfather still runs every day.",
+     "ja": "祖父はまだ毎日走ってるんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Wow, at his age? Amazing!",
+     "ja": "えっ、あの歳で？すごい！"
+    }
+   ]
+  }
+ ],
+ "en_038": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How old is your son?",
+     "ja": "息子さんは何歳？"
+    },
+    {
+     "speaker": "B",
+     "en": "He's five years old.",
+     "ja": "5歳だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "These shoes are really old.",
+     "ja": "この靴、すごく古いね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I need new ones.",
+     "ja": "そうなの。新しいのが必要。"
+    }
+   ]
+  }
+ ],
+ "en_039": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your mother looks so young!",
+     "ja": "お母さん、すごく若く見えるね！"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks! She's actually 60.",
+     "ja": "ありがとう！実は60歳なんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When I was young, I lived in the country.",
+     "ja": "若いころは田舎に住んでたんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Really? I didn't know that.",
+     "ja": "本当？知らなかった。"
+    }
+   ]
+  }
+ ],
+ "en_040": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where do you live?",
+     "ja": "どこに住んでるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I live in Yokohama.",
+     "ja": "横浜に住んでるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you live alone?",
+     "ja": "一人暮らし？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I live with my family.",
+     "ja": "ううん、家族と住んでる。"
+    }
+   ]
+  }
+ ],
+ "en_041": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How many would you like?",
+     "ja": "いくつになさいますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Just one, please.",
+     "ja": "1つだけお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which cake do you want?",
+     "ja": "どのケーキがいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "This one looks good.",
+     "ja": "これがおいしそう。"
+    }
+   ]
+  }
+ ],
+ "en_042": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Table for how many?",
+     "ja": "何名様ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Two, please.",
+     "ja": "2人です。"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Two tickets to Tokyo, please.",
+     "ja": "東京まで切符を2枚お願いします。"
+    },
+    {
+     "speaker": "B",
+     "en": "That'll be 3,000 yen.",
+     "ja": "3,000円です。"
+    }
+   ]
+  }
+ ],
+ "en_043": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long will you stay?",
+     "ja": "何泊されますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Three nights.",
+     "ja": "3泊です。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time is the meeting?",
+     "ja": "会議は何時？"
+    },
+    {
+     "speaker": "B",
+     "en": "At three o'clock.",
+     "ja": "3時だよ。"
+    }
+   ]
+  }
+ ],
+ "en_044": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have a table for four?",
+     "ja": "4人用のテーブルはありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, this way please.",
+     "ja": "はい、こちらへどうぞ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How many people are in your family?",
+     "ja": "何人家族？"
+    },
+    {
+     "speaker": "B",
+     "en": "Four. My parents, my sister and me.",
+     "ja": "4人。両親と姉と私。"
+    }
+   ]
+  }
+ ],
+ "en_045": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time does the store close?",
+     "ja": "お店は何時に閉まりますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "At five p.m.",
+     "ja": "午後5時です。"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long does it take to the airport?",
+     "ja": "空港までどれくらいかかりますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "About five minutes by taxi.",
+     "ja": "タクシーで5分くらいです。"
+    }
+   ]
+  }
+ ],
+ "en_046": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The store opens at ten.",
+     "ja": "お店は10時に開きます。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, I'll come back then.",
+     "ja": "わかりました、その時に戻ります。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'll be there in ten minutes.",
+     "ja": "あと10分で着くよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, I'll wait at the entrance.",
+     "ja": "わかった、入口で待ってるね。"
+    }
+   ]
+  }
+ ],
+ "en_047": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "That's twenty dollars, please.",
+     "ja": "20ドルになります。"
+    },
+    {
+     "speaker": "B",
+     "en": "Here you are.",
+     "ja": "はい、どうぞ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long have you lived here?",
+     "ja": "ここに住んでどれくらい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Twenty years!",
+     "ja": "20年だよ！"
+    }
+   ]
+  }
+ ],
+ "en_048": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How much is this pen?",
+     "ja": "このペンはいくらですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "One hundred yen.",
+     "ja": "100円です。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How many people came to the event?",
+     "ja": "イベントには何人来たの？"
+    },
+    {
+     "speaker": "B",
+     "en": "About three hundred.",
+     "ja": "300人くらい。"
+    }
+   ]
+  }
+ ],
+ "en_049": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's 5,000 yen in total.",
+     "ja": "合計5,000円です。"
+    },
+    {
+     "speaker": "B",
+     "en": "Can I use a ten thousand yen bill?",
+     "ja": "1万円札でもいいですか？"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How many steps did you walk today?",
+     "ja": "今日は何歩歩いた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Twenty thousand! My feet hurt.",
+     "ja": "2万歩！足が痛い。"
+    }
+   ]
+  }
+ ],
+ "en_050": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is this your first time in Japan?",
+     "ja": "日本は初めてですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's my first visit.",
+     "ja": "はい、初めての訪問です。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What should we do first?",
+     "ja": "まず何をすべき？"
+    },
+    {
+     "speaker": "B",
+     "en": "First, let's check our emails.",
+     "ja": "まずメールを確認しよう。"
+    }
+   ]
+  }
+ ],
+ "en_051": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time is the last train?",
+     "ja": "終電は何時？"
+    },
+    {
+     "speaker": "B",
+     "en": "Twelve fifteen.",
+     "ja": "12時15分だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did you do last weekend?",
+     "ja": "先週末は何したの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I went hiking with my family.",
+     "ja": "家族とハイキングに行ったよ。"
+    }
+   ]
+  }
+ ],
+ "en_052": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you busy today?",
+     "ja": "今日は忙しい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I have three meetings.",
+     "ja": "うん、会議が3つあるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's the date today?",
+     "ja": "今日は何日？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's May 10th.",
+     "ja": "5月10日だよ。"
+    }
+   ]
+  }
+ ],
+ "en_053": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you free tomorrow?",
+     "ja": "明日空いてる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, what's the plan?",
+     "ja": "うん、何するの？"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you finish this by tomorrow?",
+     "ja": "明日までにこれを終わらせられる？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll try my best.",
+     "ja": "精一杯やってみます。"
+    }
+   ]
+  }
+ ],
+ "en_054": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where were you yesterday?",
+     "ja": "昨日どこにいたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I was at home all day.",
+     "ja": "一日中家にいたよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you get my email yesterday?",
+     "ja": "昨日のメール届いた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I'll reply this morning.",
+     "ja": "うん、今朝返信するね。"
+    }
+   ]
+  }
+ ],
+ "en_055": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time is breakfast in the morning?",
+     "ja": "朝食は朝何時ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "From seven to ten.",
+     "ja": "7時から10時までです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you exercise in the morning?",
+     "ja": "朝に運動してる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I go running every morning.",
+     "ja": "うん、毎朝走ってるよ。"
+    }
+   ]
+  }
+ ],
+ "en_056": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can we meet this afternoon?",
+     "ja": "今日の午後に会える？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. How about two o'clock?",
+     "ja": "いいよ。2時はどう？"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are you doing this afternoon?",
+     "ja": "今日の午後は何するの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm going to the library.",
+     "ja": "図書館に行くよ。"
+    }
+   ]
+  }
+ ],
+ "en_057": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you free this evening?",
+     "ja": "今晩空いてる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes. Let's have dinner.",
+     "ja": "うん。夕飯食べよう。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The city is beautiful in the evening.",
+     "ja": "この街は夕方がきれいだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's take a walk by the river.",
+     "ja": "川沿いを散歩しよう。"
+    }
+   ]
+  }
+ ],
+ "en_058": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How much is it per night?",
+     "ja": "1泊いくらですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "12,000 yen per night.",
+     "ja": "1泊12,000円です。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I couldn't sleep last night.",
+     "ja": "昨日の夜眠れなかった。"
+    },
+    {
+     "speaker": "B",
+     "en": "Me neither. It was so hot.",
+     "ja": "私も。すごく暑かったよね。"
+    }
+   ]
+  }
+ ],
+ "en_059": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long is the train ride?",
+     "ja": "電車でどれくらい？"
+    },
+    {
+     "speaker": "B",
+     "en": "About an hour.",
+     "ja": "1時間くらい。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are your opening hours?",
+     "ja": "営業時間は何時から何時までですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "We're open from ten to eight.",
+     "ja": "10時から8時までです。"
+    }
+   ]
+  }
+ ],
+ "en_060": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you ready?",
+     "ja": "準備できた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Just a minute! I'm almost done.",
+     "ja": "ちょっと待って！もうすぐ終わる。"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When does the next train come?",
+     "ja": "次の電車はいつ来ますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "In five minutes.",
+     "ja": "5分後です。"
+    }
+   ]
+  }
+ ],
+ "en_061": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How many days a week do you work?",
+     "ja": "週に何日働いてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Five days a week.",
+     "ja": "週5日だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When is your trip?",
+     "ja": "旅行はいつ？"
+    },
+    {
+     "speaker": "B",
+     "en": "Next week! I'm so excited.",
+     "ja": "来週！すごく楽しみ。"
+    }
+   ]
+  }
+ ],
+ "en_062": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How much is your rent?",
+     "ja": "家賃いくら？"
+    },
+    {
+     "speaker": "B",
+     "en": "About 80,000 yen a month.",
+     "ja": "月8万円くらい。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When does the project start?",
+     "ja": "プロジェクトはいつ始まるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Next month.",
+     "ja": "来月だよ。"
+    }
+   ]
+  }
+ ],
+ "en_063": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long have you been studying English?",
+     "ja": "英語を勉強してどれくらい？"
+    },
+    {
+     "speaker": "B",
+     "en": "About two years.",
+     "ja": "2年くらい。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Happy New Year!",
+     "ja": "あけましておめでとう！"
+    },
+    {
+     "speaker": "B",
+     "en": "Happy New Year! Let's make this a great year.",
+     "ja": "おめでとう！いい年にしよう。"
+    }
+   ]
+  }
+ ],
+ "en_064": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where are you now?",
+     "ja": "今どこ？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm on the train now.",
+     "ja": "今電車の中だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you ready to order now?",
+     "ja": "ご注文はお決まりですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I'll have the curry.",
+     "ja": "はい、カレーをお願いします。"
+    }
+   ]
+  }
+ ],
+ "en_065": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you talk now?",
+     "ja": "今話せる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, I'm busy. I'll call you later.",
+     "ja": "ごめん、忙しい。後でかけるね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Bye! See you later!",
+     "ja": "バイバイ！また後でね！"
+    },
+    {
+     "speaker": "B",
+     "en": "See you!",
+     "ja": "またね！"
+    }
+   ]
+  }
+ ],
+ "en_066": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why did you get up so early?",
+     "ja": "なんでそんなに早く起きたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I have a flight at eight.",
+     "ja": "8時のフライトがあるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You can go home early today.",
+     "ja": "今日は早く帰っていいよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Really? Thank you!",
+     "ja": "本当？ありがとうございます！"
+    }
+   ]
+  }
+ ],
+ "en_067": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Sorry I'm late!",
+     "ja": "遅れてごめん！"
+    },
+    {
+     "speaker": "B",
+     "en": "Don't worry. We just started.",
+     "ja": "気にしないで。今始めたところだから。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's late. Go to bed.",
+     "ja": "もう遅いよ。寝なさい。"
+    },
+    {
+     "speaker": "B",
+     "en": "Just ten more minutes!",
+     "ja": "あと10分だけ！"
+    }
+   ]
+  }
+ ],
+ "en_068": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When is the meeting?",
+     "ja": "会議はいつ？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's on Monday at ten.",
+     "ja": "月曜の10時だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was your weekend?",
+     "ja": "週末はどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Great, but I don't want it to be Monday!",
+     "ja": "最高だったけど、月曜日が来てほしくない！"
+    }
+   ]
+  }
+ ],
+ "en_069": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's go for a drink on Friday.",
+     "ja": "金曜日に飲みに行こうよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sounds great!",
+     "ja": "いいね！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you send the report by Friday?",
+     "ja": "金曜までに報告書を送ってくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, no problem.",
+     "ja": "はい、大丈夫です。"
+    }
+   ]
+  }
+ ],
+ "en_070": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are you doing on Saturday?",
+     "ja": "土曜日は何するの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm going shopping in Shibuya.",
+     "ja": "渋谷に買い物に行くよ。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you open on Saturday?",
+     "ja": "土曜日は営業していますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, from ten to six.",
+     "ja": "はい、10時から6時までです。"
+    }
+   ]
+  }
+ ],
+ "en_071": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's have a picnic on Sunday.",
+     "ja": "日曜日にピクニックしよう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Great idea! I'll make sandwiches.",
+     "ja": "いいね！サンドイッチ作るね。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the bank open on Sunday?",
+     "ja": "銀行は日曜日も開いていますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it's closed on Sundays.",
+     "ja": "いいえ、日曜日は休みです。"
+    }
+   ]
+  }
+ ],
+ "en_072": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have a nice weekend!",
+     "ja": "よい週末を！"
+    },
+    {
+     "speaker": "B",
+     "en": "You too!",
+     "ja": "あなたもね！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you work on weekends?",
+     "ja": "週末も働いてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sometimes, when we're busy.",
+     "ja": "忙しいときはたまにね。"
+    }
+   ]
+  }
+ ],
+ "en_073": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where are you going for the holidays?",
+     "ja": "休みはどこに行くの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm going to visit my parents.",
+     "ja": "両親に会いに行くよ。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you open tomorrow?",
+     "ja": "明日は開いていますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it's a public holiday.",
+     "ja": "いいえ、明日は祝日です。"
+    }
+   ]
+  }
+ ],
+ "en_074": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Happy birthday! This is for you.",
+     "ja": "誕生日おめでとう！これ、あなたに。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, thank you so much!",
+     "ja": "わあ、本当にありがとう！"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When is your birthday?",
+     "ja": "誕生日はいつ？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's on July 7th.",
+     "ja": "7月7日だよ。"
+    }
+   ]
+  }
+ ],
+ "en_075": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is that clock right?",
+     "ja": "あの時計、合ってる？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it's five minutes fast.",
+     "ja": "ううん、5分進んでるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I need a new alarm clock.",
+     "ja": "新しい目覚まし時計が必要だな。"
+    },
+    {
+     "speaker": "B",
+     "en": "Why not use your phone?",
+     "ja": "携帯を使えば？"
+    }
+   ]
+  }
+ ],
+ "en_076": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's the weather today?",
+     "ja": "今日の天気はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's nice and sunny.",
+     "ja": "晴れていい天気だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's the weather like in London now?",
+     "ja": "今ロンドンの天気はどんな感じ？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's cold and rainy.",
+     "ja": "寒くて雨が降ってるよ。"
+    }
+   ]
+  }
+ ],
+ "en_077": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's sunny today. Let's go to the beach!",
+     "ja": "今日は晴れてる。海に行こう！"
+    },
+    {
+     "speaker": "B",
+     "en": "Good idea!",
+     "ja": "いいね！"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Will it be sunny tomorrow?",
+     "ja": "明日は晴れるかな？"
+    },
+    {
+     "speaker": "B",
+     "en": "The forecast says yes.",
+     "ja": "予報では晴れだって。"
+    }
+   ]
+  }
+ ],
+ "en_078": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's rainy today. Take an umbrella.",
+     "ja": "今日は雨だよ。傘を持っていきなさい。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, thanks.",
+     "ja": "わかった、ありがとう。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What do you do on rainy days?",
+     "ja": "雨の日は何してる？"
+    },
+    {
+     "speaker": "B",
+     "en": "I usually watch movies at home.",
+     "ja": "たいてい家で映画を見てるよ。"
+    }
+   ]
+  }
+ ],
+ "en_079": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's cloudy. Can we still see Mt. Fuji?",
+     "ja": "曇ってるね。それでも富士山見えるかな？"
+    },
+    {
+     "speaker": "B",
+     "en": "Maybe not today.",
+     "ja": "今日は無理かも。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's so cloudy. Will it rain?",
+     "ja": "すごく曇ってるね。雨降るかな？"
+    },
+    {
+     "speaker": "B",
+     "en": "Probably in the afternoon.",
+     "ja": "たぶん午後にね。"
+    }
+   ]
+  }
+ ],
+ "en_080": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's so hot today!",
+     "ja": "今日はすごく暑い！"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's get some ice cream.",
+     "ja": "アイス食べに行こう。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Be careful, the plate is hot.",
+     "ja": "お気をつけください、お皿が熱いです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you.",
+     "ja": "ありがとうございます。"
+    }
+   ]
+  }
+ ],
+ "en_081": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's cold in here.",
+     "ja": "ここ寒いね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll turn on the heater.",
+     "ja": "ヒーターつけるね。"
+    }
+   ]
+  },
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like your coffee hot or cold?",
+     "ja": "コーヒーはホットとアイス、どちらにしますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Cold, please.",
+     "ja": "アイスでお願いします。"
+    }
+   ]
+  }
+ ],
+ "en_082": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's warm today, isn't it?",
+     "ja": "今日は暖かいね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, spring is finally here.",
+     "ja": "うん、やっと春が来たね。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This sweater is really warm.",
+     "ja": "このセーター、すごく暖かい。"
+    },
+    {
+     "speaker": "B",
+     "en": "My grandmother made it.",
+     "ja": "おばあちゃんが編んだんだ。"
+    }
+   ]
+  }
+ ],
+ "en_083": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's nice and cool in the mountains.",
+     "ja": "山は涼しくて気持ちいいね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, much better than the city.",
+     "ja": "うん、街よりずっといい。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I got tickets to the concert!",
+     "ja": "コンサートのチケット取れたよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Cool! Can I come too?",
+     "ja": "すごい！私も行っていい？"
+    }
+   ]
+  }
+ ],
+ "en_084": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is it going to rain today?",
+     "ja": "今日は雨降る？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, in the evening.",
+     "ja": "うん、夕方にね。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The game was canceled because of the rain.",
+     "ja": "試合は雨で中止になったよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "That's too bad.",
+     "ja": "残念だね。"
+    }
+   ]
+  }
+ ],
+ "en_085": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Look! It's snowing!",
+     "ja": "見て！雪が降ってる！"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's make a snowman!",
+     "ja": "雪だるま作ろう！"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Does it snow a lot in Hokkaido?",
+     "ja": "北海道は雪がたくさん降るの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, especially in January.",
+     "ja": "うん、特に1月はね。"
+    }
+   ]
+  }
+ ],
+ "en_086": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The wind is so strong today.",
+     "ja": "今日は風がすごく強いね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Hold on to your hat!",
+     "ja": "帽子を押さえて！"
+    }
+   ]
+  },
+  {
+   "scene": "ニュース",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The typhoon will bring strong wind and rain.",
+     "ja": "台風で強い風と雨になるそうです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's stay inside tomorrow.",
+     "ja": "明日は家にいよう。"
+    }
+   ]
+  }
+ ],
+ "en_087": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Excuse me, do you sell umbrellas?",
+     "ja": "すみません、傘は売っていますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, they're near the door.",
+     "ja": "はい、ドアの近くにあります。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I borrow your umbrella?",
+     "ja": "傘を借りてもいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. I have an extra one.",
+     "ja": "いいよ。予備があるんだ。"
+    }
+   ]
+  }
+ ],
+ "en_088": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's your favorite season?",
+     "ja": "好きな季節は？"
+    },
+    {
+     "speaker": "B",
+     "en": "Autumn. The leaves are beautiful.",
+     "ja": "秋。紅葉がきれいだから。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When is the best season to visit Kyoto?",
+     "ja": "京都に行くならどの季節がいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Spring, for the cherry blossoms.",
+     "ja": "春だよ、桜が見られるから。"
+    }
+   ]
+  }
+ ],
+ "en_089": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are your plans for the summer?",
+     "ja": "夏の予定は？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm going to Hawaii!",
+     "ja": "ハワイに行くんだ！"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Summer in Tokyo is really humid.",
+     "ja": "東京の夏は本当に蒸し暑いね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I can't sleep without air conditioning.",
+     "ja": "うん、エアコンなしじゃ眠れない。"
+    }
+   ]
+  }
+ ],
+ "en_090": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you like winter?",
+     "ja": "冬は好き？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I love skiing.",
+     "ja": "うん、スキーが大好きなんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I need a winter coat.",
+     "ja": "冬用のコートが欲しいんです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Our winter collection is over here.",
+     "ja": "冬物はこちらです。"
+    }
+   ]
+  }
+ ],
+ "en_091": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Excuse me, where is the post office?",
+     "ja": "すみません、郵便局はどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's next to the bank.",
+     "ja": "銀行の隣です。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where are my glasses?",
+     "ja": "私のメガネどこ？"
+    },
+    {
+     "speaker": "B",
+     "en": "They're on your head!",
+     "ja": "頭の上にあるよ！"
+    }
+   ]
+  }
+ ],
+ "en_092": [
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Please stop here.",
+     "ja": "ここで止めてください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. That's 1,500 yen.",
+     "ja": "はい。1,500円です。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Here's your receipt.",
+     "ja": "こちらがレシートです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you.",
+     "ja": "ありがとう。"
+    }
+   ]
+  }
+ ],
+ "en_093": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the station far?",
+     "ja": "駅は遠いですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it's right over there.",
+     "ja": "いいえ、すぐあそこですよ。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you there yet?",
+     "ja": "もう着いた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Almost. I'll be there in five minutes.",
+     "ja": "もうすぐ。5分で着くよ。"
+    }
+   ]
+  }
+ ],
+ "en_094": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do I get to the museum?",
+     "ja": "美術館へはどう行けばいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Turn left at the next corner.",
+     "ja": "次の角を左に曲がってください。"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's the elevator?",
+     "ja": "エレベーターはどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's on your left.",
+     "ja": "左手にございます。"
+    }
+   ]
+  }
+ ],
+ "en_095": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the bank on this street?",
+     "ja": "銀行はこの通りにありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's on the right.",
+     "ja": "はい、右側にあります。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is this answer right?",
+     "ja": "この答え、合ってる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, that's right!",
+     "ja": "うん、正解！"
+    }
+   ]
+  }
+ ],
+ "en_096": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's the station?",
+     "ja": "駅はどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Go straight for two blocks.",
+     "ja": "2ブロックまっすぐ行ってください。"
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Should I turn here?",
+     "ja": "ここで曲がりますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, go straight, please.",
+     "ja": "いいえ、まっすぐ行ってください。"
+    }
+   ]
+  }
+ ],
+ "en_097": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is there a convenience store near here?",
+     "ja": "この近くにコンビニはありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, just across the street.",
+     "ja": "はい、通りの向かいにあります。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you live near the station?",
+     "ja": "駅の近くに住んでるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's a three-minute walk.",
+     "ja": "うん、歩いて3分だよ。"
+    }
+   ]
+  }
+ ],
+ "en_098": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the airport far from here?",
+     "ja": "空港はここから遠いですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, about an hour by train.",
+     "ja": "はい、電車で1時間くらいです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you walk to work?",
+     "ja": "歩いて通勤してるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, my office is too far.",
+     "ja": "ううん、会社が遠すぎるんだ。"
+    }
+   ]
+  }
+ ],
+ "en_099": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Excuse me, how do I get to the station?",
+     "ja": "すみません、駅へはどう行けばいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Go straight and turn right.",
+     "ja": "まっすぐ行って右に曲がってください。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where should we meet?",
+     "ja": "どこで待ち合わせる？"
+    },
+    {
+     "speaker": "B",
+     "en": "In front of the station at six.",
+     "ja": "6時に駅前で。"
+    }
+   ]
+  }
+ ],
+ "en_100": [
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "To the airport, please.",
+     "ja": "空港までお願いします。"
+    },
+    {
+     "speaker": "B",
+     "en": "Which terminal?",
+     "ja": "どのターミナルですか？"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'll pick you up at the airport.",
+     "ja": "空港まで迎えに行くよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks! My flight lands at three.",
+     "ja": "ありがとう！3時に着く便だよ。"
+    }
+   ]
+  }
+ ],
+ "en_101": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's the nearest hospital?",
+     "ja": "一番近い病院はどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's about five minutes from here.",
+     "ja": "ここから5分くらいです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why was Ken in the hospital?",
+     "ja": "なんでケンは入院してたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "He broke his leg skiing.",
+     "ja": "スキーで足を折ったんだ。"
+    }
+   ]
+  }
+ ],
+ "en_102": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I need to go to the bank at lunch.",
+     "ja": "昼休みに銀行に行かなきゃ。"
+    },
+    {
+     "speaker": "B",
+     "en": "It closes at three, so hurry.",
+     "ja": "3時に閉まるから急いでね。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where can I change money?",
+     "ja": "どこで両替できますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "At the bank or the airport.",
+     "ja": "銀行か空港でできますよ。"
+    }
+   ]
+  }
+ ],
+ "en_103": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'd like to book a hotel room.",
+     "ja": "ホテルの部屋を予約したいのですが。"
+    },
+    {
+     "speaker": "B",
+     "en": "For which dates?",
+     "ja": "何日のご予定ですか？"
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where are you staying?",
+     "ja": "どちらにお泊まりですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "At the Grand Hotel, near the park.",
+     "ja": "公園の近くのグランドホテルです。"
+    }
+   ]
+  }
+ ],
+ "en_104": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's take the kids to the park.",
+     "ja": "子どもたちを公園に連れて行こう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good idea. It's a nice day.",
+     "ja": "いいね。いい天気だし。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where should I park my car?",
+     "ja": "車はどこに停めればいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "There's a parking lot behind the store.",
+     "ja": "店の裏に駐車場があるよ。"
+    }
+   ]
+  }
+ ],
+ "en_105": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is there a good shoe shop around here?",
+     "ja": "このあたりにいい靴屋さんある？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, on the main street.",
+     "ja": "うん、大通りにあるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where are you going?",
+     "ja": "どこ行くの？"
+    },
+    {
+     "speaker": "B",
+     "en": "To the shop. Do you need anything?",
+     "ja": "お店だよ。何か要る？"
+    }
+   ]
+  }
+ ],
+ "en_106": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which street is the restaurant on?",
+     "ja": "レストランはどの通りにありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's on Main Street.",
+     "ja": "メインストリートにあります。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Be careful when you cross the street.",
+     "ja": "道を渡るときは気をつけてね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I will.",
+     "ja": "うん。"
+    }
+   ]
+  }
+ ],
+ "en_107": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's the coffee shop?",
+     "ja": "コーヒーショップはどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's on the corner, next to the bank.",
+     "ja": "角にあります、銀行の隣です。"
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You can drop me off at the corner.",
+     "ja": "角で降ろしてください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure.",
+     "ja": "かしこまりました。"
+    }
+   ]
+  }
+ ],
+ "en_108": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I have a map of the city?",
+     "ja": "市内の地図をもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Here you are. It's free.",
+     "ja": "どうぞ。無料です。"
+    }
+   ]
+  },
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I think we're lost.",
+     "ja": "道に迷ったみたい。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let me check the map on my phone.",
+     "ja": "携帯の地図を見てみるね。"
+    }
+   ]
+  }
+ ],
+ "en_109": [
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's the address?",
+     "ja": "住所は？"
+    },
+    {
+     "speaker": "B",
+     "en": "Here, I'll show you on my phone.",
+     "ja": "携帯でお見せしますね。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Please write your address here.",
+     "ja": "こちらにご住所をお書きください。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK. Do you need my phone number too?",
+     "ja": "はい。電話番号も必要ですか？"
+    }
+   ]
+  }
+ ],
+ "en_110": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which way is north?",
+     "ja": "北はどっち？"
+    },
+    {
+     "speaker": "B",
+     "en": "Hmm, let me check the compass.",
+     "ja": "うーん、方位磁石を見てみる。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's your hometown?",
+     "ja": "地元はどこ？"
+    },
+    {
+     "speaker": "B",
+     "en": "In the north of Japan, in Aomori.",
+     "ja": "日本の北のほう、青森だよ。"
+    }
+   ]
+  }
+ ],
+ "en_111": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is it warm in the south of Japan?",
+     "ja": "日本の南のほうは暖かいの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, Okinawa is warm all year.",
+     "ja": "うん、沖縄は一年中暖かいよ。"
+    }
+   ]
+  },
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which exit should I use?",
+     "ja": "どの出口を使えばいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Use the south exit.",
+     "ja": "南口を使ってください。"
+    }
+   ]
+  }
+ ],
+ "en_112": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's the east exit?",
+     "ja": "東口はどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Go up those stairs.",
+     "ja": "あの階段を上がってください。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The sun rises in the east.",
+     "ja": "太陽は東から昇るね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's get up early and watch it.",
+     "ja": "早起きして見よう。"
+    }
+   ]
+  }
+ ],
+ "en_113": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the beach on the west side of the island?",
+     "ja": "ビーチは島の西側にあるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes. The sunsets there are amazing.",
+     "ja": "うん。そこの夕日は最高だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Take the west exit for the bus terminal.",
+     "ja": "バスターミナルへは西口から出てください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you.",
+     "ja": "ありがとうございます。"
+    }
+   ]
+  }
+ ],
+ "en_114": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time do you close?",
+     "ja": "何時に閉まりますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "We close at nine.",
+     "ja": "9時に閉店です。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is your house close to the station?",
+     "ja": "家は駅に近いの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, very close.",
+     "ja": "うん、すごく近いよ。"
+    }
+   ]
+  }
+ ],
+ "en_115": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you open on Sundays?",
+     "ja": "日曜日は開いていますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, we're open every day.",
+     "ja": "はい、毎日営業しています。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's hot. Can you open the window?",
+     "ja": "暑いね。窓を開けてくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure.",
+     "ja": "いいよ。"
+    }
+   ]
+  }
+ ],
+ "en_116": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How much is this T-shirt?",
+     "ja": "このTシャツはいくらですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's 2,000 yen.",
+     "ja": "2,000円です。"
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How much will it cost to the airport?",
+     "ja": "空港までいくらくらいかかりますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "About 5,000 yen.",
+     "ja": "5,000円くらいです。"
+    }
+   ]
+  }
+ ],
+ "en_117": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This bag is 50,000 yen.",
+     "ja": "このバッグは5万円です。"
+    },
+    {
+     "speaker": "B",
+     "en": "That's too expensive for me.",
+     "ja": "私には高すぎます。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Tokyo is so expensive!",
+     "ja": "東京って物価が高いね！"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, especially the rent.",
+     "ja": "うん、特に家賃がね。"
+    }
+   ]
+  }
+ ],
+ "en_118": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where did you buy that jacket?",
+     "ja": "そのジャケットどこで買ったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "At a used clothing store. It was really cheap.",
+     "ja": "古着屋さん。すごく安かったんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is there a cheap hotel near here?",
+     "ja": "この近くに安いホテルはありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Try the hostel by the station.",
+     "ja": "駅のそばのホステルはどうですか。"
+    }
+   ]
+  }
+ ],
+ "en_119": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you lend me some money?",
+     "ja": "お金を少し貸してくれない？"
+    },
+    {
+     "speaker": "B",
+     "en": "How much do you need?",
+     "ja": "いくら必要なの？"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where can I exchange money?",
+     "ja": "どこで両替できますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "There's an exchange counter at the airport.",
+     "ja": "空港に両替所があります。"
+    }
+   ]
+  }
+ ],
+ "en_120": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How much is this?",
+     "ja": "これはいくらですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Ten dollars.",
+     "ja": "10ドルです。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I pay in dollars?",
+     "ja": "ドルで払えますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, only yen.",
+     "ja": "すみません、円だけです。"
+    }
+   ]
+  }
+ ],
+ "en_121": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "That's 980 yen.",
+     "ja": "980円です。"
+    },
+    {
+     "speaker": "B",
+     "en": "Here's 1,000 yen.",
+     "ja": "1,000円でお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How many yen is one dollar?",
+     "ja": "1ドルは何円ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "About 150 yen today.",
+     "ja": "今日は約150円です。"
+    }
+   ]
+  }
+ ],
+ "en_122": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you take cards?",
+     "ja": "カードは使えますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, cash only.",
+     "ja": "すみません、現金のみです。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Should I bring cash to Japan?",
+     "ja": "日本には現金を持っていくべき？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, some small shops only take cash.",
+     "ja": "うん、現金しか使えない小さなお店もあるよ。"
+    }
+   ]
+  }
+ ],
+ "en_123": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I pay by credit card?",
+     "ja": "クレジットカードで払えますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course. Please insert your card.",
+     "ja": "もちろんです。カードを差し込んでください。"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We need a credit card for the deposit.",
+     "ja": "保証金のためにクレジットカードが必要です。"
+    },
+    {
+     "speaker": "B",
+     "en": "Here you go.",
+     "ja": "こちらです。"
+    }
+   ]
+  }
+ ],
+ "en_124": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like a receipt?",
+     "ja": "レシートはご入用ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, please.",
+     "ja": "はい、お願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Keep the receipt for your expenses.",
+     "ja": "経費のためにレシートを取っておいてね。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, I'll give it to you later.",
+     "ja": "わかりました、後で渡します。"
+    }
+   ]
+  }
+ ],
+ "en_125": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did you buy?",
+     "ja": "何を買ったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "A new pair of sneakers.",
+     "ja": "新しいスニーカーだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you buy some bread on the way home?",
+     "ja": "帰りにパンを買ってきてくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure.",
+     "ja": "いいよ。"
+    }
+   ]
+  }
+ ],
+ "en_126": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you sell batteries?",
+     "ja": "電池は売っていますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, they're near the register.",
+     "ja": "はい、レジの近くにあります。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I want to sell my old bike.",
+     "ja": "古い自転車を売りたいんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Try an online flea market app.",
+     "ja": "フリマアプリで売ってみたら。"
+    }
+   ]
+  }
+ ],
+ "en_127": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "There's a big sale at the department store.",
+     "ja": "デパートで大セールやってるよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's go this weekend!",
+     "ja": "今週末行こう！"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is this jacket on sale?",
+     "ja": "このジャケットはセール品ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's 30% off.",
+     "ja": "はい、30%引きです。"
+    }
+   ]
+  }
+ ],
+ "en_128": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's the price of this camera?",
+     "ja": "このカメラの値段はいくらですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's 45,000 yen.",
+     "ja": "45,000円です。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The price of vegetables keeps going up.",
+     "ja": "野菜の値段が上がり続けてるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I'm buying less.",
+     "ja": "そうなの。買う量を減らしてる。"
+    }
+   ]
+  }
+ ],
+ "en_129": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What size are you?",
+     "ja": "サイズはいくつですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm a medium.",
+     "ja": "Mサイズです。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have this in a bigger size?",
+     "ja": "これのもっと大きいサイズはありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Let me check.",
+     "ja": "確認してきます。"
+    }
+   ]
+  }
+ ],
+ "en_130": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have this in another color?",
+     "ja": "これの別の色はありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, we have it in black and white.",
+     "ja": "はい、黒と白がございます。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's your favorite color?",
+     "ja": "好きな色は何？"
+    },
+    {
+     "speaker": "B",
+     "en": "Blue.",
+     "ja": "青だよ。"
+    }
+   ]
+  }
+ ],
+ "en_131": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "These shoes are too big.",
+     "ja": "この靴は大きすぎます。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let me get you a smaller size.",
+     "ja": "小さいサイズをお持ちしますね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your new apartment is so big!",
+     "ja": "新しい部屋、すごく広いね！"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks! I finally have space for a sofa.",
+     "ja": "ありがとう！やっとソファを置けるよ。"
+    }
+   ]
+  }
+ ],
+ "en_132": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What size coffee would you like?",
+     "ja": "コーヒーのサイズはどれにしますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Small, please.",
+     "ja": "Sサイズでお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is your hometown big?",
+     "ja": "地元は大きい町なの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it's a small town by the sea.",
+     "ja": "ううん、海辺の小さな町だよ。"
+    }
+   ]
+  }
+ ],
+ "en_133": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'll take this, please.",
+     "ja": "これをください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Anything else?",
+     "ja": "かしこまりました。ほかには？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is this your bag?",
+     "ja": "これ、あなたのかばん？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, thanks!",
+     "ja": "うん、ありがとう！"
+    }
+   ]
+  }
+ ],
+ "en_134": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I see that watch?",
+     "ja": "あの時計を見せてもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "This one? Sure.",
+     "ja": "こちらですか？どうぞ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I passed the test!",
+     "ja": "テストに受かったよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "That's great!",
+     "ja": "それはすごい！"
+    }
+   ]
+  }
+ ],
+ "en_135": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What do you want for dinner?",
+     "ja": "夕飯は何がいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "I want sushi!",
+     "ja": "お寿司がいい！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you want to come with us?",
+     "ja": "一緒に来る？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I'd love to.",
+     "ja": "うん、ぜひ。"
+    }
+   ]
+  }
+ ],
+ "en_136": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you need a bag?",
+     "ja": "袋はいりますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I have one.",
+     "ja": "いいえ、持っています。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you need any help?",
+     "ja": "何か手伝おうか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I need someone to check this.",
+     "ja": "うん、これを確認してくれる人が必要なんだ。"
+    }
+   ]
+  }
+ ],
+ "en_137": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I get a discount if I buy two?",
+     "ja": "2つ買ったら割引してもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, 10% off.",
+     "ja": "はい、10%引きです。"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is there a discount for long stays?",
+     "ja": "長期滞在の割引はありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, for stays of a week or more.",
+     "ja": "はい、1週間以上のご滞在に適用されます。"
+    }
+   ]
+  }
+ ],
+ "en_138": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Here's your change.",
+     "ja": "おつりです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you.",
+     "ja": "ありがとう。"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I need to change trains at Shinjuku.",
+     "ja": "新宿で電車を乗り換えないと。"
+    },
+    {
+     "speaker": "B",
+     "en": "Take the Chuo Line from there.",
+     "ja": "そこから中央線に乗ってね。"
+    }
+   ]
+  }
+ ],
+ "en_139": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like a bag?",
+     "ja": "袋はご入用ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No thanks, I have my own bag.",
+     "ja": "いいえ、マイバッグがあります。"
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is this your bag?",
+     "ja": "これはあなたのかばんですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's mine. Thank you.",
+     "ja": "はい、私のです。ありがとうございます。"
+    }
+   ]
+  }
+ ],
+ "en_140": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I try this on?",
+     "ja": "これを試着してもいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. The fitting room is over there.",
+     "ja": "どうぞ。試着室はあちらです。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you tried the curry here?",
+     "ja": "ここのカレー食べたことある？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, but I want to try it.",
+     "ja": "ないけど、食べてみたい。"
+    }
+   ]
+  }
+ ],
+ "en_141": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What kind of food do you like?",
+     "ja": "どんな食べ物が好き？"
+    },
+    {
+     "speaker": "B",
+     "en": "I love Italian food.",
+     "ja": "イタリア料理が大好き。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The food in Osaka is amazing!",
+     "ja": "大阪の食べ物は最高だね！"
+    },
+    {
+     "speaker": "B",
+     "en": "Try the takoyaki!",
+     "ja": "たこ焼きを食べてみて！"
+    }
+   ]
+  }
+ ],
+ "en_142": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like something to drink?",
+     "ja": "何かお飲み物はいかがですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "An iced tea, please.",
+     "ja": "アイスティーをお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's go for a drink after work.",
+     "ja": "仕事の後に飲みに行こう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, where?",
+     "ja": "いいね、どこで？"
+    }
+   ]
+  }
+ ],
+ "en_143": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I have some water, please?",
+     "ja": "お水をいただけますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course. Still or sparkling?",
+     "ja": "もちろんです。普通の水と炭酸水、どちらにしますか？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's so hot. Drink lots of water.",
+     "ja": "すごく暑いね。水をたくさん飲んでね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I will. Thanks.",
+     "ja": "そうする。ありがとう。"
+    }
+   ]
+  }
+ ],
+ "en_144": [
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What would you like?",
+     "ja": "ご注文は？"
+    },
+    {
+     "speaker": "B",
+     "en": "A large coffee, please.",
+     "ja": "コーヒーのLサイズをお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you want to get a coffee?",
+     "ja": "コーヒー飲みに行かない？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, I need a break.",
+     "ja": "いいね、休憩したかったんだ。"
+    }
+   ]
+  }
+ ],
+ "en_145": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like some tea?",
+     "ja": "お茶はいかが？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, please. Green tea, if you have it.",
+     "ja": "うん、お願い。あれば緑茶で。"
+    }
+   ]
+  },
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you want milk in your tea?",
+     "ja": "紅茶にミルクは入れますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Just a little, please.",
+     "ja": "少しだけお願いします。"
+    }
+   ]
+  }
+ ],
+ "en_146": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What would you like to drink?",
+     "ja": "お飲み物は何にしますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Orange juice, please.",
+     "ja": "オレンジジュースをお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is there any juice in the fridge?",
+     "ja": "冷蔵庫にジュースある？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, apple juice.",
+     "ja": "うん、リンゴジュースがあるよ。"
+    }
+   ]
+  }
+ ],
+ "en_147": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is breakfast included?",
+     "ja": "朝食は含まれていますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's served from seven.",
+     "ja": "はい、7時からご用意しております。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What do you want for breakfast?",
+     "ja": "朝ごはん何がいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Toast and eggs, please.",
+     "ja": "トーストと卵がいいな。"
+    }
+   ]
+  }
+ ],
+ "en_148": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you want to have lunch together?",
+     "ja": "一緒にお昼食べない？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure! Where should we go?",
+     "ja": "いいね！どこ行く？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did you have for lunch?",
+     "ja": "お昼何食べた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Ramen. It was delicious.",
+     "ja": "ラーメン。おいしかったよ。"
+    }
+   ]
+  }
+ ],
+ "en_149": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's for dinner tonight?",
+     "ja": "今夜の夕飯は何？"
+    },
+    {
+     "speaker": "B",
+     "en": "Curry and rice.",
+     "ja": "カレーライスだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's have dinner together on Friday.",
+     "ja": "金曜日に一緒に夕食を食べよう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Great! I'll book a table.",
+     "ja": "いいね！席を予約しておくね。"
+    }
+   ]
+  }
+ ],
+ "en_150": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I see the menu, please?",
+     "ja": "メニューを見せてもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Here you are.",
+     "ja": "どうぞ。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have an English menu?",
+     "ja": "英語のメニューはありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, just a moment.",
+     "ja": "はい、少々お待ちください。"
+    }
+   ]
+  }
+ ],
+ "en_151": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you ready to order?",
+     "ja": "ご注文はお決まりですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I'll have the steak.",
+     "ja": "はい、ステーキをお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I ordered a new phone online.",
+     "ja": "ネットで新しい携帯を注文したよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "When will it arrive?",
+     "ja": "いつ届くの？"
+    }
+   ]
+  }
+ ],
+ "en_152": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How is your meal?",
+     "ja": "お食事はいかがですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's delicious, thank you!",
+     "ja": "とてもおいしいです、ありがとう！"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I made this cake myself.",
+     "ja": "このケーキ、自分で作ったんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Wow, it's delicious!",
+     "ja": "わあ、おいしい！"
+    }
+   ]
+  }
+ ],
+ "en_153": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm so hungry.",
+     "ja": "すごくお腹すいた。"
+    },
+    {
+     "speaker": "B",
+     "en": "Me too. Let's get something to eat.",
+     "ja": "私も。何か食べに行こう。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you hungry? Dinner is ready.",
+     "ja": "お腹すいてる？夕飯できたよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, starving!",
+     "ja": "うん、ぺこぺこ！"
+    }
+   ]
+  }
+ ],
+ "en_154": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm thirsty. Is there a vending machine?",
+     "ja": "のど渇いた。自販機ある？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, over there.",
+     "ja": "うん、あそこにあるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "スポーツ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "After running, I'm always so thirsty.",
+     "ja": "走った後はいつもすごくのどが渇くんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Make sure you drink enough water.",
+     "ja": "水を十分に飲んでね。"
+    }
+   ]
+  }
+ ],
+ "en_155": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like chicken or fish?",
+     "ja": "チキンとお魚、どちらになさいますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Chicken, please.",
+     "ja": "チキンでお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What should I make for dinner?",
+     "ja": "夕飯何を作ろうかな？"
+    },
+    {
+     "speaker": "B",
+     "en": "How about fried chicken?",
+     "ja": "唐揚げはどう？"
+    }
+   ]
+  }
+ ],
+ "en_156": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is this curry made with beef?",
+     "ja": "このカレーは牛肉ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's beef curry.",
+     "ja": "はい、ビーフカレーです。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How much is this beef?",
+     "ja": "この牛肉はいくらですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's 800 yen for 200 grams.",
+     "ja": "200グラムで800円です。"
+    }
+   ]
+  }
+ ],
+ "en_157": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's the fish of the day?",
+     "ja": "本日の魚料理は何ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Grilled salmon.",
+     "ja": "サーモンのグリルです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you eat fish?",
+     "ja": "魚は食べる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I love sushi.",
+     "ja": "うん、お寿司が大好き。"
+    }
+   ]
+  }
+ ],
+ "en_158": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Eat your vegetables!",
+     "ja": "野菜も食べなさい！"
+    },
+    {
+     "speaker": "B",
+     "en": "But I don't like carrots!",
+     "ja": "でもニンジン嫌いなんだもん！"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have any vegetable dishes?",
+     "ja": "野菜の料理はありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, we have a vegetable curry.",
+     "ja": "はい、野菜カレーがございます。"
+    }
+   ]
+  }
+ ],
+ "en_159": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where can I find fresh fruit?",
+     "ja": "新鮮な果物はどこにありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "In the next aisle.",
+     "ja": "隣の通路にあります。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like some fruit after dinner?",
+     "ja": "夕飯の後に果物はどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, some grapes would be nice.",
+     "ja": "うん、ブドウがあるといいな。"
+    }
+   ]
+  }
+ ],
+ "en_160": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like rice or bread?",
+     "ja": "ライスとパン、どちらにしますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Rice, please.",
+     "ja": "ライスでお願いします。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We're out of rice.",
+     "ja": "お米が切れちゃった。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll buy some on my way home.",
+     "ja": "帰りに買ってくるね。"
+    }
+   ]
+  }
+ ],
+ "en_161": [
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This bread is so soft!",
+     "ja": "このパン、すごく柔らかい！"
+    },
+    {
+     "speaker": "B",
+     "en": "It's freshly baked every morning.",
+     "ja": "毎朝焼きたてなんですよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you pick up some bread?",
+     "ja": "パンを買ってきてくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, white or whole wheat?",
+     "ja": "いいよ、白いのと全粒粉、どっち？"
+    }
+   ]
+  }
+ ],
+ "en_162": [
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This cake is too sweet for me.",
+     "ja": "このケーキ、私には甘すぎる。"
+    },
+    {
+     "speaker": "B",
+     "en": "Try the cheesecake instead.",
+     "ja": "代わりにチーズケーキを食べてみて。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I brought you flowers.",
+     "ja": "お花を持ってきたよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "That's so sweet of you!",
+     "ja": "なんて優しいの！"
+    }
+   ]
+  }
+ ],
+ "en_163": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is this dish spicy?",
+     "ja": "この料理は辛いですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "A little. We can make it mild.",
+     "ja": "少し辛いです。マイルドにもできますよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you eat spicy food?",
+     "ja": "辛い食べ物は大丈夫？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I love it!",
+     "ja": "うん、大好き！"
+    }
+   ]
+  }
+ ],
+ "en_164": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's the soup?",
+     "ja": "スープはどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's a little too salty.",
+     "ja": "ちょっとしょっぱすぎるかな。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Don't eat too many salty snacks.",
+     "ja": "しょっぱいお菓子を食べすぎないでね。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, just one more bag.",
+     "ja": "わかった、あと1袋だけ。"
+    }
+   ]
+  }
+ ],
+ "en_165": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like some dessert?",
+     "ja": "デザートはいかがですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, what do you have?",
+     "ja": "はい、何がありますか？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm full, but there's always room for dessert!",
+     "ja": "お腹いっぱいだけど、デザートは別腹！"
+    },
+    {
+     "speaker": "B",
+     "en": "Ha! Me too.",
+     "ja": "ハハ！私も。"
+    }
+   ]
+  }
+ ],
+ "en_166": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Could we have the bill, please?",
+     "ja": "お会計をお願いできますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, I'll bring it right away.",
+     "ja": "かしこまりました、すぐにお持ちします。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you pay the electricity bill?",
+     "ja": "電気代は払った？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I paid it online.",
+     "ja": "うん、ネットで払ったよ。"
+    }
+   ]
+  }
+ ],
+ "en_167": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do we need to leave a tip?",
+     "ja": "チップは置いたほうがいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "In America, yes. About 15 to 20 percent.",
+     "ja": "アメリカならね。15～20%くらい。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Any tips for learning English?",
+     "ja": "英語を学ぶコツはある？"
+    },
+    {
+     "speaker": "B",
+     "en": "Watch movies with English subtitles.",
+     "ja": "英語字幕で映画を見るといいよ。"
+    }
+   ]
+  }
+ ],
+ "en_168": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have a reservation?",
+     "ja": "ご予約はありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, for two at seven, under Suzuki.",
+     "ja": "はい、7時に2名で、鈴木で予約しています。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'd like to make a reservation for Friday.",
+     "ja": "金曜日の予約をしたいのですが。"
+    },
+    {
+     "speaker": "B",
+     "en": "Certainly. For how many people?",
+     "ja": "かしこまりました。何名様ですか？"
+    }
+   ]
+  }
+ ],
+ "en_169": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can we have a table by the window?",
+     "ja": "窓際の席にしてもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course. This way, please.",
+     "ja": "もちろんです。こちらへどうぞ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you set the table for dinner?",
+     "ja": "夕飯の食卓の準備をしてくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. How many plates?",
+     "ja": "いいよ。お皿は何枚？"
+    }
+   ]
+  }
+ ],
+ "en_170": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Excuse me! Waiter!",
+     "ja": "すみません！店員さん！"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, how can I help you?",
+     "ja": "はい、いかがなさいましたか？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What does your brother do?",
+     "ja": "お兄さんは何をしてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "He's a waiter at a French restaurant.",
+     "ja": "フランス料理店でウェイターをしてるよ。"
+    }
+   ]
+  }
+ ],
+ "en_171": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where do you want to go this weekend?",
+     "ja": "今週末はどこに行きたい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's go to the beach.",
+     "ja": "海に行こう。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I have to go now. See you tomorrow!",
+     "ja": "もう行かなきゃ。また明日！"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, bye!",
+     "ja": "うん、またね！"
+    }
+   ]
+  }
+ ],
+ "en_172": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you come to my party on Saturday?",
+     "ja": "土曜日のパーティーに来られる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I'd love to come!",
+     "ja": "うん、ぜひ行くよ！"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Dinner is ready! Come and eat!",
+     "ja": "夕飯できたよ！食べにおいで！"
+    },
+    {
+     "speaker": "B",
+     "en": "Coming!",
+     "ja": "今行く！"
+    }
+   ]
+  }
+ ],
+ "en_173": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time does the train leave?",
+     "ja": "電車は何時に出発しますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It leaves at 8:15.",
+     "ja": "8時15分発です。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time do you usually leave the office?",
+     "ja": "ふだん何時に会社を出るの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Around seven.",
+     "ja": "7時ごろかな。"
+    }
+   ]
+  }
+ ],
+ "en_174": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time will you arrive?",
+     "ja": "何時に着く？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll arrive at about six.",
+     "ja": "6時ごろに着くよ。"
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Has the flight from Seoul arrived yet?",
+     "ja": "ソウルからの便はもう着きましたか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it arrived ten minutes ago.",
+     "ja": "はい、10分前に到着しました。"
+    }
+   ]
+  }
+ ],
+ "en_175": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "One ticket to Kyoto, please.",
+     "ja": "京都まで切符を1枚ください。"
+    },
+    {
+     "speaker": "B",
+     "en": "One way or round trip?",
+     "ja": "片道ですか、往復ですか？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I got two tickets for the concert!",
+     "ja": "コンサートのチケット2枚取れたよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Amazing! Thank you!",
+     "ja": "すごい！ありがとう！"
+    }
+   ]
+  }
+ ],
+ "en_176": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which train goes to Osaka?",
+     "ja": "大阪行きの電車はどれですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Take the one on platform 3.",
+     "ja": "3番線の電車に乗ってください。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do you get to work?",
+     "ja": "どうやって通勤してるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I take the train.",
+     "ja": "電車で行ってるよ。"
+    }
+   ]
+  }
+ ],
+ "en_177": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Does this bus go to the airport?",
+     "ja": "このバスは空港に行きますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it takes about 40 minutes.",
+     "ja": "はい、40分くらいかかります。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's take the bus. It's cheaper.",
+     "ja": "バスで行こう。安いし。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK. Where's the bus stop?",
+     "ja": "いいよ。バス停はどこ？"
+    }
+   ]
+  }
+ ],
+ "en_178": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Could you call a taxi for me?",
+     "ja": "タクシーを呼んでもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course. It will be here in five minutes.",
+     "ja": "かしこまりました。5分で参ります。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "It's raining. Let's take a taxi.",
+     "ja": "雨だね。タクシーに乗ろう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good idea.",
+     "ja": "いいね。"
+    }
+   ]
+  }
+ ],
+ "en_179": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you going to Okinawa by plane?",
+     "ja": "沖縄には飛行機で行くの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's only two and a half hours.",
+     "ja": "うん、たった2時間半だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The plane is boarding now.",
+     "ja": "飛行機は搭乗が始まっています。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh no, we need to hurry!",
+     "ja": "大変、急がなきゃ！"
+    }
+   ]
+  }
+ ],
+ "en_180": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's the fastest way to Shibuya?",
+     "ja": "渋谷まで一番早い行き方は？"
+    },
+    {
+     "speaker": "B",
+     "en": "Take the subway. It's two stops.",
+     "ja": "地下鉄だね。2駅だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's the subway station?",
+     "ja": "地下鉄の駅はどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Go down those stairs.",
+     "ja": "あの階段を下りてください。"
+    }
+   ]
+  }
+ ],
+ "en_181": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have a car?",
+     "ja": "車持ってる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I can drive us there.",
+     "ja": "うん、そこまで乗せていけるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where did you park the car?",
+     "ja": "車はどこに停めたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "On the third floor of the parking lot.",
+     "ja": "駐車場の3階だよ。"
+    }
+   ]
+  }
+ ],
+ "en_182": [
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "May I see your passport, please?",
+     "ja": "パスポートを拝見できますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Here you are.",
+     "ja": "どうぞ。"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We need a copy of your passport.",
+     "ja": "パスポートのコピーが必要です。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, here it is.",
+     "ja": "はい、こちらです。"
+    }
+   ]
+  }
+ ],
+ "en_183": [
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How many pieces of luggage do you have?",
+     "ja": "荷物はいくつありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Just one suitcase.",
+     "ja": "スーツケース1つだけです。"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you keep my luggage until three?",
+     "ja": "3時まで荷物を預かってもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course.",
+     "ja": "もちろんです。"
+    }
+   ]
+  }
+ ],
+ "en_184": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was your business trip?",
+     "ja": "出張はどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Busy, but it went well.",
+     "ja": "忙しかったけど、うまくいったよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have a nice trip!",
+     "ja": "楽しい旅行を！"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks! I'll bring you a souvenir.",
+     "ja": "ありがとう！お土産持ってくるね。"
+    }
+   ]
+  }
+ ],
+ "en_185": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When are you taking your vacation?",
+     "ja": "休暇はいつ取るの？"
+    },
+    {
+     "speaker": "B",
+     "en": "In August. I'm going to Bali.",
+     "ja": "8月。バリに行くんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was your vacation?",
+     "ja": "休暇はどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Relaxing. I slept a lot!",
+     "ja": "のんびりしたよ。たくさん寝た！"
+    }
+   ]
+  }
+ ],
+ "en_186": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's your schedule like tomorrow?",
+     "ja": "明日の予定はどんな感じ？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm free in the afternoon.",
+     "ja": "午後は空いてるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the train on schedule?",
+     "ja": "電車は予定どおりですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's on time.",
+     "ja": "はい、定刻です。"
+    }
+   ]
+  }
+ ],
+ "en_187": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why is there a delay?",
+     "ja": "なぜ遅れているんですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "There was an accident on the line.",
+     "ja": "線路で事故がありました。"
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Our flight has a two-hour delay.",
+     "ja": "私たちの便は2時間遅れだって。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's get something to eat then.",
+     "ja": "じゃあ何か食べに行こう。"
+    }
+   ]
+  }
+ ],
+ "en_188": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Please be on time for the meeting.",
+     "ja": "会議には時間どおりに来てください。"
+    },
+    {
+     "speaker": "B",
+     "en": "I will.",
+     "ja": "わかりました。"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the train on time?",
+     "ja": "電車は時間どおりですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it'll arrive at 9:00.",
+     "ja": "はい、9時に着きます。"
+    }
+   ]
+  }
+ ],
+ "en_189": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which platform for Yokohama?",
+     "ja": "横浜行きは何番線ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Platform 2.",
+     "ja": "2番線です。"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The train is arriving at platform 5.",
+     "ja": "5番線に電車が到着します。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's hurry.",
+     "ja": "急ごう。"
+    }
+   ]
+  }
+ ],
+ "en_190": [
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which gate is our flight?",
+     "ja": "私たちの便は何番ゲート？"
+    },
+    {
+     "speaker": "B",
+     "en": "Gate 23. Boarding starts at 2:30.",
+     "ja": "23番ゲート。2時半に搭乗開始だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Excuse me, where is Gate 10?",
+     "ja": "すみません、10番ゲートはどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Go straight and turn left.",
+     "ja": "まっすぐ行って左です。"
+    }
+   ]
+  }
+ ],
+ "en_191": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'd like to check in, please.",
+     "ja": "チェックインをお願いします。"
+    },
+    {
+     "speaker": "B",
+     "en": "May I have your name?",
+     "ja": "お名前をいただけますか？"
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where can I check in for my flight?",
+     "ja": "搭乗手続きはどこでできますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "At counter B, over there.",
+     "ja": "あちらのBカウンターです。"
+    }
+   ]
+  }
+ ],
+ "en_192": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time is check-out?",
+     "ja": "チェックアウトは何時ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Eleven a.m.",
+     "ja": "午前11時です。"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'd like to check out, please.",
+     "ja": "チェックアウトをお願いします。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. How was your stay?",
+     "ja": "かしこまりました。ご滞在はいかがでしたか？"
+    }
+   ]
+  }
+ ],
+ "en_193": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have a room for tonight?",
+     "ja": "今夜、部屋は空いていますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, we have a double room.",
+     "ja": "はい、ダブルルームがございます。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Clean your room, please!",
+     "ja": "部屋を片付けなさい！"
+    },
+    {
+     "speaker": "B",
+     "en": "Later, I promise!",
+     "ja": "後でやるって、約束する！"
+    }
+   ]
+  }
+ ],
+ "en_194": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your room is on the eighth floor.",
+     "ja": "お部屋は8階です。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you. Where's the elevator?",
+     "ja": "ありがとう。エレベーターはどこですか？"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where are the shoes?",
+     "ja": "靴売り場はどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "On the third floor.",
+     "ja": "3階です。"
+    }
+   ]
+  }
+ ],
+ "en_195": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Here's your room key.",
+     "ja": "お部屋の鍵です。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you.",
+     "ja": "ありがとうございます。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I can't find my car key.",
+     "ja": "車の鍵が見つからない。"
+    },
+    {
+     "speaker": "B",
+     "en": "Did you check your jacket pocket?",
+     "ja": "ジャケットのポケットは見た？"
+    }
+   ]
+  }
+ ],
+ "en_196": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's Mike today?",
+     "ja": "今日マイクはどこ？"
+    },
+    {
+     "speaker": "B",
+     "en": "He called in sick.",
+     "ja": "病欠の連絡があったよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I feel sick.",
+     "ja": "気分が悪い。"
+    },
+    {
+     "speaker": "B",
+     "en": "Lie down. I'll get you some water.",
+     "ja": "横になって。水を持ってくるね。"
+    }
+   ]
+  }
+ ],
+ "en_197": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You look tired.",
+     "ja": "疲れてるみたいだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I am. I worked late last night.",
+     "ja": "うん。昨日遅くまで働いたんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you want to go out?",
+     "ja": "出かけたい？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I'm too tired. Let's stay home.",
+     "ja": "ううん、疲れすぎてる。家にいよう。"
+    }
+   ]
+  }
+ ],
+ "en_198": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I have a headache.",
+     "ja": "頭が痛いんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Do you want some medicine?",
+     "ja": "薬いる？"
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long have you had this headache?",
+     "ja": "この頭痛はいつからですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Since yesterday morning.",
+     "ja": "昨日の朝からです。"
+    }
+   ]
+  }
+ ],
+ "en_199": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have a fever?",
+     "ja": "熱はありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, 38 degrees.",
+     "ja": "はい、38度です。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You feel hot. I think you have a fever.",
+     "ja": "体が熱いね。熱があると思う。"
+    },
+    {
+     "speaker": "B",
+     "en": "I feel terrible.",
+     "ja": "気分が最悪。"
+    }
+   ]
+  }
+ ],
+ "en_200": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are your symptoms?",
+     "ja": "どんな症状ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "I have a bad cough and a sore throat.",
+     "ja": "ひどい咳とのどの痛みがあります。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You've had that cough for a week.",
+     "ja": "その咳、1週間続いてるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I'll see a doctor.",
+     "ja": "そうなの。医者に行くよ。"
+    }
+   ]
+  }
+ ],
+ "en_201": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Take this medicine three times a day.",
+     "ja": "この薬を1日3回飲んでください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Before or after meals?",
+     "ja": "食前ですか、食後ですか？"
+    }
+   ]
+  },
+  {
+   "scene": "薬局",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have any medicine for a cold?",
+     "ja": "風邪薬はありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, this one works well.",
+     "ja": "はい、こちらがよく効きますよ。"
+    }
+   ]
+  }
+ ],
+ "en_202": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What should I do?",
+     "ja": "どうすればいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Get plenty of rest and drink water.",
+     "ja": "十分に休んで、水を飲んでください。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's take a rest for ten minutes.",
+     "ja": "10分休憩しよう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good idea. I need a coffee.",
+     "ja": "いいね。コーヒーが飲みたい。"
+    }
+   ]
+  }
+ ],
+ "en_203": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How many hours do you sleep?",
+     "ja": "何時間寝てる？"
+    },
+    {
+     "speaker": "B",
+     "en": "About six. I need more!",
+     "ja": "6時間くらい。もっと寝なきゃ！"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you sleep well?",
+     "ja": "よく眠れた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, like a baby.",
+     "ja": "うん、ぐっすり。"
+    }
+   ]
+  }
+ ],
+ "en_204": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My eyes are red and itchy.",
+     "ja": "目が赤くてかゆいんです。"
+    },
+    {
+     "speaker": "B",
+     "en": "It might be hay fever.",
+     "ja": "花粉症かもしれませんね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "She has beautiful blue eyes.",
+     "ja": "彼女はきれいな青い目をしてるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Just like her mother.",
+     "ja": "お母さんそっくりだね。"
+    }
+   ]
+  }
+ ],
+ "en_205": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My ear hurts.",
+     "ja": "耳が痛いんです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let me take a look.",
+     "ja": "診てみましょう。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you hear that?",
+     "ja": "今の聞こえた？"
+    },
+    {
+     "speaker": "B",
+     "en": "No. I have my earphones in my ears.",
+     "ja": "ううん。イヤホンしてるから。"
+    }
+   ]
+  }
+ ],
+ "en_206": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I have a runny nose.",
+     "ja": "鼻水が出ます。"
+    },
+    {
+     "speaker": "B",
+     "en": "It's probably a cold.",
+     "ja": "たぶん風邪ですね。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your nose is red!",
+     "ja": "鼻が赤いよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "It's so cold outside.",
+     "ja": "外がすごく寒いんだ。"
+    }
+   ]
+  }
+ ],
+ "en_207": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Open your mouth, please.",
+     "ja": "口を開けてください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Ahh.",
+     "ja": "あー。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Don't talk with your mouth full!",
+     "ja": "口にものを入れたまましゃべらないの！"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry!",
+     "ja": "ごめん！"
+    }
+   ]
+  }
+ ],
+ "en_208": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Wash your hands before dinner.",
+     "ja": "夕飯の前に手を洗いなさい。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK!",
+     "ja": "はーい！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you give me a hand with this box?",
+     "ja": "この箱、ちょっと手伝ってくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure.",
+     "ja": "いいよ。"
+    }
+   ]
+  }
+ ],
+ "en_209": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I hurt my foot playing soccer.",
+     "ja": "サッカーで足をけがしました。"
+    },
+    {
+     "speaker": "B",
+     "en": "Can you walk on it?",
+     "ja": "歩けますか？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you come by car?",
+     "ja": "車で来たの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I came on foot.",
+     "ja": "ううん、歩いて来たよ。"
+    }
+   ]
+  }
+ ],
+ "en_210": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you hit your head?",
+     "ja": "頭を打ちましたか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, on the door.",
+     "ja": "はい、ドアにぶつけました。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's on your head?",
+     "ja": "頭に何かついてるよ？"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, a leaf! Thanks.",
+     "ja": "あ、葉っぱだ！ありがとう。"
+    }
+   ]
+  }
+ ],
+ "en_211": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where does it hurt?",
+     "ja": "どこが痛みますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "My stomach. I ate too much.",
+     "ja": "お腹です。食べすぎました。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I can't eat spicy food on an empty stomach.",
+     "ja": "空腹のときは辛いものが食べられないんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's order something mild first.",
+     "ja": "まずは辛くないものを頼もう。"
+    }
+   ]
+  }
+ ],
+ "en_212": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You look really healthy!",
+     "ja": "すごく健康そうだね！"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks! I eat well and exercise.",
+     "ja": "ありがとう！ちゃんと食べて運動してるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have any healthy options?",
+     "ja": "ヘルシーなメニューはありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, try our salad bowl.",
+     "ja": "はい、サラダボウルがおすすめです。"
+    }
+   ]
+  }
+ ],
+ "en_213": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You should get more exercise.",
+     "ja": "もっと運動したほうがいいですね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll try walking every day.",
+     "ja": "毎日歩くようにします。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What kind of exercise do you do?",
+     "ja": "どんな運動をしてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I do yoga and go swimming.",
+     "ja": "ヨガと水泳をしてるよ。"
+    }
+   ]
+  }
+ ],
+ "en_214": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is it OK to smoke here?",
+     "ja": "ここでたばこを吸ってもいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, this is a no-smoking area.",
+     "ja": "すみません、ここは禁煙です。"
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you smoke?",
+     "ja": "たばこは吸いますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I quit two years ago.",
+     "ja": "いいえ、2年前にやめました。"
+    }
+   ]
+  }
+ ],
+ "en_215": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This is an emergency! Please send an ambulance.",
+     "ja": "緊急事態です！救急車を送ってください。"
+    },
+    {
+     "speaker": "B",
+     "en": "What's your address?",
+     "ja": "ご住所は？"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's the emergency exit?",
+     "ja": "非常口はどこですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "At the end of the hall.",
+     "ja": "廊下の突き当たりです。"
+    }
+   ]
+  }
+ ],
+ "en_216": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where does it hurt?",
+     "ja": "どこが痛いですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "My back hurts.",
+     "ja": "腰が痛いです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you hurt?",
+     "ja": "けがしてない？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I'm OK. Just surprised.",
+     "ja": "ううん、大丈夫。びっくりしただけ。"
+    }
+   ]
+  }
+ ],
+ "en_217": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do you feel today?",
+     "ja": "今日は気分どう？"
+    },
+    {
+     "speaker": "B",
+     "en": "I feel much better, thanks.",
+     "ja": "だいぶよくなったよ、ありがとう。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I don't feel like cooking tonight.",
+     "ja": "今夜は料理する気分じゃないな。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's order pizza!",
+     "ja": "ピザを頼もう！"
+    }
+   ]
+  }
+ ],
+ "en_218": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you feeling better?",
+     "ja": "気分はよくなった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, much better.",
+     "ja": "うん、ずっとよくなったよ。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which one is better, the black or the white?",
+     "ja": "黒と白、どっちがいいかな？"
+    },
+    {
+     "speaker": "B",
+     "en": "I think the black one is better.",
+     "ja": "黒のほうがいいと思う。"
+    }
+   ]
+  }
+ ],
+ "en_219": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is your cough getting better?",
+     "ja": "咳はよくなっていますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it's getting worse.",
+     "ja": "いいえ、悪くなっています。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The traffic is bad today.",
+     "ja": "今日は渋滞がひどいね。"
+    },
+    {
+     "speaker": "B",
+     "en": "It'll be worse in the evening.",
+     "ja": "夕方はもっとひどくなるよ。"
+    }
+   ]
+  }
+ ],
+ "en_220": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have any pain?",
+     "ja": "痛みはありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, a sharp pain in my knee.",
+     "ja": "はい、ひざに鋭い痛みがあります。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Cleaning the whole house is such a pain.",
+     "ja": "家中の掃除って本当に面倒。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's do it together.",
+     "ja": "一緒にやろうよ。"
+    }
+   ]
+  }
+ ],
+ "en_221": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have a big family?",
+     "ja": "大家族なの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I have four brothers!",
+     "ja": "うん、兄弟が4人いるよ！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's your family?",
+     "ja": "ご家族はお元気？"
+    },
+    {
+     "speaker": "B",
+     "en": "Everyone's well, thanks.",
+     "ja": "みんな元気だよ、ありがとう。"
+    }
+   ]
+  }
+ ],
+ "en_222": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What does your father do?",
+     "ja": "お父さんは何の仕事をしてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "He's a chef.",
+     "ja": "シェフだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's Dad?",
+     "ja": "お父さんはどこ？"
+    },
+    {
+     "speaker": "B",
+     "en": "Your father is in the garden.",
+     "ja": "お父さんは庭にいるよ。"
+    }
+   ]
+  }
+ ],
+ "en_223": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your mother is a great cook!",
+     "ja": "お母さん、料理がすごく上手だね！"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll tell her you said that.",
+     "ja": "そう言ってたって伝えておくね。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you call your mother?",
+     "ja": "お母さんに電話した？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, she says hi.",
+     "ja": "うん、よろしくって。"
+    }
+   ]
+  }
+ ],
+ "en_224": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have any brothers or sisters?",
+     "ja": "兄弟はいる？"
+    },
+    {
+     "speaker": "B",
+     "en": "I have one older brother.",
+     "ja": "兄が1人いるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you help your little brother with his homework?",
+     "ja": "弟の宿題を手伝ってあげてくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "OK.",
+     "ja": "わかった。"
+    }
+   ]
+  }
+ ],
+ "en_225": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is that your sister?",
+     "ja": "あれはお姉さん？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, my younger sister, Mai.",
+     "ja": "うん、妹のマイだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My sister is getting married!",
+     "ja": "姉が結婚するんだ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Congratulations!",
+     "ja": "おめでとう！"
+    }
+   ]
+  }
+ ],
+ "en_226": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How old is your son?",
+     "ja": "息子さんは何歳？"
+    },
+    {
+     "speaker": "B",
+     "en": "He's eight.",
+     "ja": "8歳だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your son is doing very well in class.",
+     "ja": "息子さんは授業でとてもよくやっていますよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "That's good to hear.",
+     "ja": "それを聞いて安心しました。"
+    }
+   ]
+  }
+ ],
+ "en_227": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is this your daughter? She's so cute!",
+     "ja": "娘さん？すごくかわいいね！"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, she's three.",
+     "ja": "うん、3歳なんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My daughter starts university this spring.",
+     "ja": "娘がこの春大学に入るんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Congratulations!",
+     "ja": "おめでとう！"
+    }
+   ]
+  }
+ ],
+ "en_228": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What does your husband do?",
+     "ja": "旦那さんは何の仕事をしてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "He works at a bank.",
+     "ja": "銀行で働いてるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Table for one?",
+     "ja": "お一人様ですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, my husband is coming soon.",
+     "ja": "いいえ、夫がすぐ来ます。"
+    }
+   ]
+  }
+ ],
+ "en_229": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's your wife?",
+     "ja": "奥さんは元気？"
+    },
+    {
+     "speaker": "B",
+     "en": "She's great. She just started a new job.",
+     "ja": "元気だよ。新しい仕事を始めたところ。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm looking for a present for my wife.",
+     "ja": "妻へのプレゼントを探しています。"
+    },
+    {
+     "speaker": "B",
+     "en": "How about this scarf?",
+     "ja": "このスカーフはいかがですか？"
+    }
+   ]
+  }
+ ],
+ "en_230": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have any children?",
+     "ja": "お子さんはいる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, one child. A boy.",
+     "ja": "うん、1人。男の子だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is there a discount for children?",
+     "ja": "子ども料金はありますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, children under 12 are half price.",
+     "ja": "はい、12歳未満は半額です。"
+    }
+   ]
+  }
+ ],
+ "en_231": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We're having a baby!",
+     "ja": "赤ちゃんが生まれるんだ！"
+    },
+    {
+     "speaker": "B",
+     "en": "That's wonderful news!",
+     "ja": "すばらしい知らせだね！"
+    }
+   ]
+  },
+  {
+   "scene": "電車",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Please take my seat. You have a baby.",
+     "ja": "どうぞ座ってください。赤ちゃん連れですし。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, thank you so much.",
+     "ja": "まあ、本当にありがとうございます。"
+    }
+   ]
+  }
+ ],
+ "en_232": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who's that?",
+     "ja": "あれは誰？"
+    },
+    {
+     "speaker": "B",
+     "en": "That's my friend from university.",
+     "ja": "大学の友達だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you made any new friends?",
+     "ja": "新しい友達はできた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, two!",
+     "ja": "うん、2人！"
+    }
+   ]
+  }
+ ],
+ "en_233": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you live with your parents?",
+     "ja": "ご両親と住んでるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I live alone.",
+     "ja": "ううん、一人暮らし。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Please give this letter to your parents.",
+     "ja": "この手紙をご両親に渡してください。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, I will.",
+     "ja": "はい、渡します。"
+    }
+   ]
+  }
+ ],
+ "en_234": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My grandfather is 90 years old.",
+     "ja": "祖父は90歳なんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Wow, is he still healthy?",
+     "ja": "すごい、まだ元気なの？"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's visit grandfather this weekend.",
+     "ja": "今週末おじいちゃんに会いに行こう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes! I miss him.",
+     "ja": "うん！会いたいな。"
+    }
+   ]
+  }
+ ],
+ "en_235": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who taught you to cook?",
+     "ja": "誰に料理を教わったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "My grandmother.",
+     "ja": "祖母だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you call grandmother on her birthday?",
+     "ja": "おばあちゃんの誕生日に電話した？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, she was so happy.",
+     "ja": "うん、すごく喜んでたよ。"
+    }
+   ]
+  }
+ ],
+ "en_236": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where do you work?",
+     "ja": "どこで働いてるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I work at a travel company.",
+     "ja": "旅行会社で働いてるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The TV doesn't work.",
+     "ja": "テレビがつかない。"
+    },
+    {
+     "speaker": "B",
+     "en": "Did you check the plug?",
+     "ja": "コンセントは確認した？"
+    }
+   ]
+  }
+ ],
+ "en_237": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is Mr. Tanaka in the office today?",
+     "ja": "田中さんは今日オフィスにいますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, he's working from home.",
+     "ja": "いいえ、在宅勤務です。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's your office?",
+     "ja": "会社はどこにあるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Near Tokyo Station.",
+     "ja": "東京駅の近くだよ。"
+    }
+   ]
+  }
+ ],
+ "en_238": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time is the meeting?",
+     "ja": "会議は何時？"
+    },
+    {
+     "speaker": "B",
+     "en": "It starts at ten in Room B.",
+     "ja": "10時にB会議室で始まるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I call you back? I'm in a meeting.",
+     "ja": "折り返してもいい？会議中なんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, no problem.",
+     "ja": "もちろん、大丈夫。"
+    }
+   ]
+  }
+ ],
+ "en_239": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How's the new project going?",
+     "ja": "新しいプロジェクトはどう？"
+    },
+    {
+     "speaker": "B",
+     "en": "Very well. We're ahead of schedule.",
+     "ja": "順調だよ。予定より進んでる。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's your science project about?",
+     "ja": "理科の自由研究は何について？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's about plants and light.",
+     "ja": "植物と光についてだよ。"
+    }
+   ]
+  }
+ ],
+ "en_240": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When is the deadline?",
+     "ja": "締め切りはいつ？"
+    },
+    {
+     "speaker": "B",
+     "en": "Next Friday at noon.",
+     "ja": "来週の金曜日の正午だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I can't finish my essay by the deadline.",
+     "ja": "締め切りまでに作文が終わらない。"
+    },
+    {
+     "speaker": "B",
+     "en": "Ask the teacher for more time.",
+     "ja": "先生にもう少し時間をもらえるか聞いてみなよ。"
+    }
+   ]
+  }
+ ],
+ "en_241": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is your boss strict?",
+     "ja": "上司は厳しい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Not really. She's very fair.",
+     "ja": "そうでもない。すごく公平な人だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My boss asked me to work on Saturday.",
+     "ja": "上司に土曜日に出勤してって言われた。"
+    },
+    {
+     "speaker": "B",
+     "en": "Again? That's tough.",
+     "ja": "また？大変だね。"
+    }
+   ]
+  }
+ ],
+ "en_242": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This is my colleague, Mr. Lee.",
+     "ja": "こちらは同僚のリーさんです。"
+    },
+    {
+     "speaker": "B",
+     "en": "Nice to meet you.",
+     "ja": "はじめまして。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who did you go to lunch with?",
+     "ja": "誰とお昼に行ったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Some colleagues from my team.",
+     "ja": "チームの同僚たちと。"
+    }
+   ]
+  }
+ ],
+ "en_243": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you get my email?",
+     "ja": "私のメール届いた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I'll reply this afternoon.",
+     "ja": "うん、今日の午後に返信するね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's your email address?",
+     "ja": "メールアドレスは何？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll text it to you.",
+     "ja": "メッセージで送るね。"
+    }
+   ]
+  }
+ ],
+ "en_244": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I borrow your phone? Mine is dead.",
+     "ja": "携帯借りてもいい？私の電池切れちゃった。"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, here.",
+     "ja": "いいよ、はい。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Your phone is ringing.",
+     "ja": "電話が鳴ってるよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh, thanks!",
+     "ja": "あ、ありがとう！"
+    }
+   ]
+  }
+ ],
+ "en_245": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "My computer is so slow today.",
+     "ja": "今日はパソコンがすごく遅い。"
+    },
+    {
+     "speaker": "B",
+     "en": "Try restarting it.",
+     "ja": "再起動してみたら。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I use the computer?",
+     "ja": "パソコン使ってもいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "After you finish your homework.",
+     "ja": "宿題を終わらせてからね。"
+    }
+   ]
+  }
+ ],
+ "en_246": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What do you study at university?",
+     "ja": "大学で何を勉強してるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I study economics.",
+     "ja": "経済学を勉強してるよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you study for the test?",
+     "ja": "テスト勉強した？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, for three hours!",
+     "ja": "うん、3時間も！"
+    }
+   ]
+  }
+ ],
+ "en_247": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was school today?",
+     "ja": "今日の学校はどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Fun! We had a sports day.",
+     "ja": "楽しかった！運動会だったんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time does school start?",
+     "ja": "学校は何時に始まるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "At eight thirty.",
+     "ja": "8時半だよ。"
+    }
+   ]
+  }
+ ],
+ "en_248": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Which university do you go to?",
+     "ja": "どこの大学に通ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Osaka University.",
+     "ja": "大阪大学だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did you major in at university?",
+     "ja": "大学では何を専攻したの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Computer science.",
+     "ja": "コンピューターサイエンスだよ。"
+    }
+   ]
+  }
+ ],
+ "en_249": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What's your next class?",
+     "ja": "次の授業は何？"
+    },
+    {
+     "speaker": "B",
+     "en": "History, in Room 3.",
+     "ja": "歴史で、3号教室だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm taking a cooking class.",
+     "ja": "料理教室に通ってるんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "That sounds fun!",
+     "ja": "楽しそう！"
+    }
+   ]
+  }
+ ],
+ "en_250": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long have you been taking piano lessons?",
+     "ja": "ピアノのレッスンを受けてどれくらい？"
+    },
+    {
+     "speaker": "B",
+     "en": "About three years.",
+     "ja": "3年くらい。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Today's lesson is about the past tense.",
+     "ja": "今日の授業は過去形についてです。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, let's start.",
+     "ja": "はい、始めましょう。"
+    }
+   ]
+  }
+ ],
+ "en_251": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What book are you reading?",
+     "ja": "何の本を読んでるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "A mystery novel. It's great!",
+     "ja": "ミステリー小説。すごく面白いよ！"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'd like to book a table for tonight.",
+     "ja": "今夜の席を予約したいのですが。"
+    },
+    {
+     "speaker": "B",
+     "en": "For how many people?",
+     "ja": "何名様ですか？"
+    }
+   ]
+  }
+ ],
+ "en_252": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you done your homework?",
+     "ja": "宿題は終わった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Almost. Just math left.",
+     "ja": "ほとんど。あとは数学だけ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Don't forget your homework for tomorrow.",
+     "ja": "明日の宿題を忘れないでね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, teacher.",
+     "ja": "はい、先生。"
+    }
+   ]
+  }
+ ],
+ "en_253": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When is your exam?",
+     "ja": "試験はいつ？"
+    },
+    {
+     "speaker": "B",
+     "en": "Next Monday. I'm so nervous.",
+     "ja": "来週の月曜。すごく緊張してる。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was the exam?",
+     "ja": "試験はどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Easier than I expected!",
+     "ja": "思ったより簡単だった！"
+    }
+   ]
+  }
+ ],
+ "en_254": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why are you learning Spanish?",
+     "ja": "なんでスペイン語を習ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I want to travel in South America.",
+     "ja": "南米を旅行したいんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I learned a lot from this project.",
+     "ja": "このプロジェクトでたくさん学んだよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Me too.",
+     "ja": "私も。"
+    }
+   ]
+  }
+ ],
+ "en_255": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How did you get so good at English?",
+     "ja": "どうやってそんなに英語が上手になったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I practice speaking every day.",
+     "ja": "毎日話す練習をしてるんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "We have soccer practice after school.",
+     "ja": "放課後サッカーの練習があるんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good luck!",
+     "ja": "がんばって！"
+    }
+   ]
+  }
+ ],
+ "en_256": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I got the job!",
+     "ja": "仕事が決まったよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm so happy for you!",
+     "ja": "本当によかったね！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you happy with your new apartment?",
+     "ja": "新しい部屋には満足してる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, very happy.",
+     "ja": "うん、すごく満足してる。"
+    }
+   ]
+  }
+ ],
+ "en_257": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Why do you look sad?",
+     "ja": "どうして悲しそうなの？"
+    },
+    {
+     "speaker": "B",
+     "en": "My best friend is moving away.",
+     "ja": "親友が引っ越しちゃうんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "That movie was so sad.",
+     "ja": "あの映画、すごく悲しかった。"
+    },
+    {
+     "speaker": "B",
+     "en": "I know. I cried at the end.",
+     "ja": "わかる。最後に泣いちゃった。"
+    }
+   ]
+  }
+ ],
+ "en_258": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the client angry about the delay?",
+     "ja": "顧客は遅れのことで怒ってる？"
+    },
+    {
+     "speaker": "B",
+     "en": "A little. Let's call and apologize.",
+     "ja": "少しね。電話して謝ろう。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you angry with me?",
+     "ja": "私に怒ってる？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I'm just tired.",
+     "ja": "ううん、疲れてるだけ。"
+    }
+   ]
+  }
+ ],
+ "en_259": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You look worried. What's wrong?",
+     "ja": "心配そうだね。どうしたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "My cat is sick.",
+     "ja": "猫が病気なんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where were you? I was worried!",
+     "ja": "どこにいたの？心配したよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, my phone died.",
+     "ja": "ごめん、携帯の電池が切れてたんだ。"
+    }
+   ]
+  }
+ ],
+ "en_260": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you excited about your trip?",
+     "ja": "旅行楽しみ？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I can't wait!",
+     "ja": "うん、待ちきれない！"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The kids are so excited about Christmas.",
+     "ja": "子どもたち、クリスマスにすごくはしゃいでるね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Me too, honestly!",
+     "ja": "正直、私もだよ！"
+    }
+   ]
+  }
+ ],
+ "en_261": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Are you nervous about the presentation?",
+     "ja": "プレゼン、緊張してる？"
+    },
+    {
+     "speaker": "B",
+     "en": "A little. It's my first time.",
+     "ja": "少しね。初めてなんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm so nervous about the interview.",
+     "ja": "面接がすごく緊張する。"
+    },
+    {
+     "speaker": "B",
+     "en": "Just be yourself. You'll be fine.",
+     "ja": "自然体でいれば大丈夫だよ。"
+    }
+   ]
+  }
+ ],
+ "en_262": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Were you surprised by the party?",
+     "ja": "パーティー、驚いた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I had no idea!",
+     "ja": "うん、まったく知らなかった！"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I was surprised to see the CEO at the meeting.",
+     "ja": "会議に社長がいて驚いたよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Me too.",
+     "ja": "私も。"
+    }
+   ]
+  }
+ ],
+ "en_263": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'm bored. There's nothing to do.",
+     "ja": "退屈。することがない。"
+    },
+    {
+     "speaker": "B",
+     "en": "Why don't you read a book?",
+     "ja": "本でも読んだら？"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you like the lecture?",
+     "ja": "講義はよかった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Not really. I was so bored.",
+     "ja": "あんまり。すごく退屈だった。"
+    }
+   ]
+  }
+ ],
+ "en_264": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you feel lonely living alone?",
+     "ja": "一人暮らしで寂しくない？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sometimes, but I have a cat.",
+     "ja": "たまにね、でも猫がいるから。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I feel lonely in this new city.",
+     "ja": "この新しい街で寂しいんだ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's video chat every weekend.",
+     "ja": "毎週末ビデオ通話しよう。"
+    }
+   ]
+  }
+ ],
+ "en_265": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you like this song?",
+     "ja": "この曲好き？"
+    },
+    {
+     "speaker": "B",
+     "en": "I love it!",
+     "ja": "大好き！"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I love you, Mom.",
+     "ja": "大好きだよ、お母さん。"
+    },
+    {
+     "speaker": "B",
+     "en": "I love you too, sweetie.",
+     "ja": "私も大好きよ。"
+    }
+   ]
+  }
+ ],
+ "en_266": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you like coffee?",
+     "ja": "コーヒーは好き？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I like it a lot.",
+     "ja": "うん、すごく好き。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Would you like some more water?",
+     "ja": "お水をもう少しいかがですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, please.",
+     "ja": "はい、お願いします。"
+    }
+   ]
+  }
+ ],
+ "en_267": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you like horror movies?",
+     "ja": "ホラー映画は好き？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, I hate them! They're too scary.",
+     "ja": "ううん、大嫌い！怖すぎるもん。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I hate Monday mornings.",
+     "ja": "月曜の朝って本当に嫌だ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Coffee helps!",
+     "ja": "コーヒーがあれば何とかなるよ！"
+    }
+   ]
+  }
+ ],
+ "en_268": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I miss you! When are you coming home?",
+     "ja": "会いたいよ！いつ帰ってくるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Next month. I miss you too.",
+     "ja": "来月。私も会いたいよ。"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Hurry, or we'll miss the train!",
+     "ja": "急いで、電車に乗り遅れるよ！"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm running!",
+     "ja": "走ってるってば！"
+    }
+   ]
+  }
+ ],
+ "en_269": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was the party?",
+     "ja": "パーティーどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "It was so much fun!",
+     "ja": "すごく楽しかった！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have fun on your trip!",
+     "ja": "旅行楽しんでね！"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks, I will!",
+     "ja": "ありがとう、楽しんでくる！"
+    }
+   ]
+  }
+ ],
+ "en_270": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was the museum?",
+     "ja": "博物館はどうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Really interesting. I learned a lot.",
+     "ja": "すごく興味深かった。いろいろ学んだよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "That's an interesting idea.",
+     "ja": "それは面白いアイデアだね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks! Let's try it.",
+     "ja": "ありがとう！やってみよう。"
+    }
+   ]
+  }
+ ],
+ "en_271": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was the movie?",
+     "ja": "映画どうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Boring. I almost fell asleep.",
+     "ja": "退屈だった。寝そうになったよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "This meeting is so boring.",
+     "ja": "この会議、すごく退屈。"
+    },
+    {
+     "speaker": "B",
+     "en": "Shh! The boss will hear you.",
+     "ja": "しーっ！上司に聞こえるよ。"
+    }
+   ]
+  }
+ ],
+ "en_272": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Look at the view!",
+     "ja": "景色を見て！"
+    },
+    {
+     "speaker": "B",
+     "en": "Wow, it's beautiful!",
+     "ja": "わあ、きれい！"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "You look beautiful in that dress.",
+     "ja": "そのドレス、とてもきれいだよ。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thank you!",
+     "ja": "ありがとう！"
+    }
+   ]
+  }
+ ],
+ "en_273": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was your weekend?",
+     "ja": "週末どうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Good! I went hiking.",
+     "ja": "よかったよ！ハイキングに行ったんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is the pasta good here?",
+     "ja": "ここのパスタはおいしい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's really good.",
+     "ja": "うん、すごくおいしいよ。"
+    }
+   ]
+  }
+ ],
+ "en_274": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How was the interview?",
+     "ja": "面接どうだった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Not bad. I think it went OK.",
+     "ja": "悪くなかった。まあまあうまくいったと思う。"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "The weather is bad today.",
+     "ja": "今日は天気が悪いね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's stay in and watch movies.",
+     "ja": "家で映画を見よう。"
+    }
+   ]
+  }
+ ],
+ "en_275": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Was the test hard?",
+     "ja": "テスト難しかった？"
+    },
+    {
+     "speaker": "B",
+     "en": "No, it was easy.",
+     "ja": "ううん、簡単だった。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Is it easy to get to your house?",
+     "ja": "あなたの家まで行くのは簡単？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, it's right by the station.",
+     "ja": "うん、駅のすぐそばだよ。"
+    }
+   ]
+  }
+ ],
+ "en_276": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What do you do?",
+     "ja": "お仕事は何をしているの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm a nurse.",
+     "ja": "看護師だよ。"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you do the dishes?",
+     "ja": "お皿洗いしてくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, after this show.",
+     "ja": "いいよ、この番組が終わったらね。"
+    }
+   ]
+  }
+ ],
+ "en_277": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What are you making?",
+     "ja": "何作ってるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'm making pancakes for breakfast.",
+     "ja": "朝ごはんにパンケーキを作ってるの。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I made a mistake in the report.",
+     "ja": "報告書でミスをしちゃった。"
+    },
+    {
+     "speaker": "B",
+     "en": "Don't worry. We can fix it.",
+     "ja": "大丈夫。直せるよ。"
+    }
+   ]
+  }
+ ],
+ "en_278": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What will you have?",
+     "ja": "何にする？"
+    },
+    {
+     "speaker": "B",
+     "en": "I'll have the fish, please.",
+     "ja": "お魚にします。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you have time tomorrow?",
+     "ja": "明日時間ある？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, in the afternoon.",
+     "ja": "うん、午後ならね。"
+    }
+   ]
+  }
+ ],
+ "en_279": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where did you get that bag?",
+     "ja": "そのかばん、どこで買ったの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I got it in Paris.",
+     "ja": "パリで買ったんだ。"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you get my message?",
+     "ja": "メッセージ届いた？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I just got it.",
+     "ja": "うん、今受け取ったよ。"
+    }
+   ]
+  }
+ ],
+ "en_280": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long does it take to get to Kyoto?",
+     "ja": "京都までどれくらいかかりますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "It takes about two hours.",
+     "ja": "2時間くらいかかります。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'll take this one.",
+     "ja": "これにします。"
+    },
+    {
+     "speaker": "B",
+     "en": "Great choice!",
+     "ja": "いい選択ですね！"
+    }
+   ]
+  }
+ ],
+ "en_281": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did you give your mom for her birthday?",
+     "ja": "お母さんの誕生日に何をあげたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I gave her flowers.",
+     "ja": "花をあげたよ。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you give me a hand?",
+     "ja": "ちょっと手伝ってくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure, what do you need?",
+     "ja": "いいよ、何をすればいい？"
+    }
+   ]
+  }
+ ],
+ "en_282": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Did you see the new movie?",
+     "ja": "新しい映画見た？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I saw it last weekend.",
+     "ja": "うん、先週末に見たよ。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I come in?",
+     "ja": "入ってもいい？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. See, I told you the door was open.",
+     "ja": "いいよ。ほらね、ドアは開いてるって言ったでしょ。"
+    }
+   ]
+  }
+ ],
+ "en_283": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I help you?",
+     "ja": "何かお探しですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "No thanks, I'm just looking.",
+     "ja": "いえ、見ているだけです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Look at that rainbow!",
+     "ja": "あの虹を見て！"
+    },
+    {
+     "speaker": "B",
+     "en": "Wow, it's beautiful!",
+     "ja": "わあ、きれい！"
+    }
+   ]
+  }
+ ],
+ "en_284": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Please listen carefully.",
+     "ja": "よく聞いてください。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, teacher.",
+     "ja": "はい、先生。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What music do you listen to?",
+     "ja": "どんな音楽を聴くの？"
+    },
+    {
+     "speaker": "B",
+     "en": "Mostly jazz.",
+     "ja": "ほとんどジャズだよ。"
+    }
+   ]
+  }
+ ],
+ "en_285": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I speak to Ms. Kim, please?",
+     "ja": "キムさんとお話しできますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Speaking.",
+     "ja": "私です。"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you speak English?",
+     "ja": "英語は話せますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, a little.",
+     "ja": "はい、少しなら。"
+    }
+   ]
+  }
+ ],
+ "en_286": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can we talk later?",
+     "ja": "後で話せる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Call me tonight.",
+     "ja": "いいよ。今夜電話して。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who were you talking to?",
+     "ja": "誰と話してたの？"
+    },
+    {
+     "speaker": "B",
+     "en": "A customer from Canada.",
+     "ja": "カナダのお客さんだよ。"
+    }
+   ]
+  }
+ ],
+ "en_287": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What did he say?",
+     "ja": "彼、何て言ってた？"
+    },
+    {
+     "speaker": "B",
+     "en": "He said he'll be late.",
+     "ja": "遅れるって言ってたよ。"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How do you say \"arigato\" in English?",
+     "ja": "「ありがとう」は英語で何と言いますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "You say \"thank you.\"",
+     "ja": "「thank you」と言います。"
+    }
+   ]
+  }
+ ],
+ "en_288": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I ask you a question?",
+     "ja": "質問してもいいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course.",
+     "ja": "もちろん。"
+    }
+   ]
+  },
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Let's ask someone for directions.",
+     "ja": "誰かに道を聞こう。"
+    },
+    {
+     "speaker": "B",
+     "en": "Good idea.",
+     "ja": "いいね。"
+    }
+   ]
+  }
+ ],
+ "en_289": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can you answer the phone?",
+     "ja": "電話に出てくれる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Hello?",
+     "ja": "いいよ。もしもし？"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Who knows the answer?",
+     "ja": "答えがわかる人？"
+    },
+    {
+     "speaker": "B",
+     "en": "Me! It's 25.",
+     "ja": "はい！25です。"
+    }
+   ]
+  }
+ ],
+ "en_290": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you know where the bank is?",
+     "ja": "銀行がどこにあるか知っていますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sorry, I don't know.",
+     "ja": "すみません、わかりません。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you know Ken?",
+     "ja": "ケンを知ってる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, we went to school together.",
+     "ja": "うん、同じ学校だったよ。"
+    }
+   ]
+  }
+ ],
+ "en_291": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What do you think of this dress?",
+     "ja": "このドレスどう思う？"
+    },
+    {
+     "speaker": "B",
+     "en": "I think it looks great on you.",
+     "ja": "すごく似合ってると思う。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Will it rain tomorrow?",
+     "ja": "明日雨が降るかな？"
+    },
+    {
+     "speaker": "B",
+     "en": "I don't think so.",
+     "ja": "降らないと思うよ。"
+    }
+   ]
+  }
+ ],
+ "en_292": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you understand?",
+     "ja": "わかりましたか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, I understand now.",
+     "ja": "はい、今わかりました。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Sorry, I don't understand. Could you explain again?",
+     "ja": "すみません、わかりません。もう一度説明してもらえますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Sure. Let me show you.",
+     "ja": "もちろん。見せてあげるね。"
+    }
+   ]
+  }
+ ],
+ "en_293": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Do you remember me? We met in London.",
+     "ja": "私のこと覚えてる？ロンドンで会ったよね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Of course I remember you!",
+     "ja": "もちろん覚えてるよ！"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Remember to lock the door.",
+     "ja": "鍵をかけるのを忘れないでね。"
+    },
+    {
+     "speaker": "B",
+     "en": "I will.",
+     "ja": "うん。"
+    }
+   ]
+  }
+ ],
+ "en_294": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Don't forget the meeting at three.",
+     "ja": "3時の会議を忘れないで。"
+    },
+    {
+     "speaker": "B",
+     "en": "Thanks for reminding me.",
+     "ja": "思い出させてくれてありがとう。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where's your umbrella?",
+     "ja": "傘はどこ？"
+    },
+    {
+     "speaker": "B",
+     "en": "Oh no, I forgot it on the train!",
+     "ja": "しまった、電車に忘れてきた！"
+    }
+   ]
+  }
+ ],
+ "en_295": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "When do you start your new job?",
+     "ja": "新しい仕事はいつから始まるの？"
+    },
+    {
+     "speaker": "B",
+     "en": "I start next Monday.",
+     "ja": "来週の月曜日から。"
+    }
+   ]
+  },
+  {
+   "scene": "映画館",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What time does the movie start?",
+     "ja": "映画は何時に始まりますか？"
+    },
+    {
+     "speaker": "B",
+     "en": "At 7:30.",
+     "ja": "7時半です。"
+    }
+   ]
+  }
+ ],
+ "en_296": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you finished the report?",
+     "ja": "報告書は終わった？"
+    },
+    {
+     "speaker": "B",
+     "en": "Almost. Give me ten more minutes.",
+     "ja": "もうすぐ。あと10分ちょうだい。"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Have you finished with your plate?",
+     "ja": "お皿はお下げしてもよろしいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, thank you. It was delicious.",
+     "ja": "はい、ありがとう。おいしかったです。"
+    }
+   ]
+  }
+ ],
+ "en_297": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Can I help you? You look lost.",
+     "ja": "お手伝いしましょうか？迷っているようですね。"
+    },
+    {
+     "speaker": "B",
+     "en": "Yes, please. Where's the station?",
+     "ja": "はい、お願いします。駅はどこですか？"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Thanks for your help!",
+     "ja": "助けてくれてありがとう！"
+    },
+    {
+     "speaker": "B",
+     "en": "Anytime.",
+     "ja": "いつでもどうぞ。"
+    }
+   ]
+  }
+ ],
+ "en_298": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "How long is the wait?",
+     "ja": "待ち時間はどれくらいですか？"
+    },
+    {
+     "speaker": "B",
+     "en": "About twenty minutes.",
+     "ja": "20分くらいです。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Wait for me!",
+     "ja": "待って！"
+    },
+    {
+     "speaker": "B",
+     "en": "Hurry up!",
+     "ja": "急いで！"
+    }
+   ]
+  }
+ ],
+ "en_299": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Where should we meet?",
+     "ja": "どこで待ち合わせる？"
+    },
+    {
+     "speaker": "B",
+     "en": "Let's meet at the café at two.",
+     "ja": "2時にカフェで会おう。"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "Nice to meet you. I'm the new manager.",
+     "ja": "はじめまして。新しく来た部長です。"
+    },
+    {
+     "speaker": "B",
+     "en": "Nice to meet you too.",
+     "ja": "こちらこそ、はじめまして。"
+    }
+   ]
+  }
+ ],
+ "en_300": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "I'll call you tonight.",
+     "ja": "今夜電話するね。"
+    },
+    {
+     "speaker": "B",
+     "en": "OK, talk to you later.",
+     "ja": "わかった、また後でね。"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "en": "What do you call this in English?",
+     "ja": "これって英語で何て言うの？"
+    },
+    {
+     "speaker": "B",
+     "en": "It's called a \"chopstick rest.\"",
+     "ja": "「箸置き」っていうんだよ。"
+    }
+   ]
+  }
+ ]
+}
