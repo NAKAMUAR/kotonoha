@@ -3311,5 +3311,1783 @@
     "ja": "発表を一度通しでやってみよう。"
    }
   ]
+ },
+ {
+  "id": "phr_109",
+  "word": "have on",
+  "reading": "have ＋ on",
+  "meaning": "体にくっつけた状態で持っている",
+  "example": "She had on a red dress at the party.",
+  "exampleTranslation": "彼女はパーティーで赤いドレスを着ていた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "have",
+   "native-common"
+  ],
+  "verb": "have",
+  "particles": [
+   "on"
+  ],
+  "concept": "体にくっつけた状態で持っている",
+  "definitionEn": "to be wearing something; to have plans",
+  "uses": [
+   {
+    "image": "服を身につけている",
+    "example": "She had on a red dress at the party.",
+    "ja": "彼女はパーティーで赤いドレスを着ていた。"
+   },
+   {
+    "image": "予定が自分にくっついている",
+    "example": "Do you have anything on this weekend?",
+    "ja": "今週末、何か予定ある？"
+   }
+  ]
+ },
+ {
+  "id": "phr_110",
+  "word": "have over",
+  "reading": "have ＋ over",
+  "meaning": "人を（道や敷居を）越えさせて、自分の家に迎えている",
+  "example": "We're having some friends over tonight.",
+  "exampleTranslation": "今夜は友達を何人か家に呼ぶんだ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "have",
+   "native-common"
+  ],
+  "verb": "have",
+  "particles": [
+   "over"
+  ],
+  "concept": "人を（道や敷居を）越えさせて、自分の家に迎えている",
+  "definitionEn": "to invite someone to your home",
+  "uses": [
+   {
+    "image": "友達を家に招く",
+    "example": "We're having some friends over tonight.",
+    "ja": "今夜は友達を何人か家に呼ぶんだ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_111",
+  "word": "have back",
+  "reading": "have ＋ back",
+  "meaning": "手放した物を、元どおり自分の手に持つ",
+  "example": "Can I have my charger back?",
+  "exampleTranslation": "充電器を返してもらえる？",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "have",
+   "native-common"
+  ],
+  "verb": "have",
+  "particles": [
+   "back"
+  ],
+  "concept": "手放した物を、元どおり自分の手に持つ",
+  "definitionEn": "to receive something that you lent or lost",
+  "uses": [
+   {
+    "image": "貸した物を返してもらう",
+    "example": "Can I have my charger back?",
+    "ja": "充電器を返してもらえる？"
+   },
+   {
+    "image": "離れた人を元の場所に迎える",
+    "example": "It's great to have you back!",
+    "ja": "おかえり！戻ってきてくれてうれしいよ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_112",
+  "word": "have off",
+  "reading": "have ＋ off",
+  "meaning": "仕事から離れた時間を持っている",
+  "example": "I have Monday off this week.",
+  "exampleTranslation": "今週は月曜日が休みなんだ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "have",
+   "native-common"
+  ],
+  "verb": "have",
+  "particles": [
+   "off"
+  ],
+  "concept": "仕事から離れた時間を持っている",
+  "definitionEn": "to not be working on a particular day",
+  "uses": [
+   {
+    "image": "休みの日がある",
+    "example": "I have Monday off this week.",
+    "ja": "今週は月曜日が休みなんだ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_113",
+  "word": "have in",
+  "reading": "have ＋ in",
+  "meaning": "店や家の中に持っている・入れている",
+  "example": "Do you have this in a smaller size?",
+  "exampleTranslation": "これの小さいサイズはありますか？",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "have",
+   "native-common"
+  ],
+  "verb": "have",
+  "particles": [
+   "in"
+  ],
+  "concept": "店や家の中に持っている・入れている",
+  "definitionEn": "to have something in stock; to have someone come into your home to work",
+  "uses": [
+   {
+    "image": "店の在庫の中にある",
+    "example": "Do you have this in a smaller size?",
+    "ja": "これの小さいサイズはありますか？"
+   },
+   {
+    "image": "業者を家の中に入れる",
+    "example": "We had a plumber in to fix the sink.",
+    "ja": "シンクを直してもらうため配管工に来てもらった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_114",
+  "word": "have around",
+  "reading": "have ＋ around",
+  "meaning": "自分の周りに置いておく",
+  "example": "It's good to have a flashlight around in case of a blackout.",
+  "exampleTranslation": "停電に備えて懐中電灯を手元に置いておくといい。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "have",
+   "native-common"
+  ],
+  "verb": "have",
+  "particles": [
+   "around"
+  ],
+  "concept": "自分の周りに置いておく",
+  "definitionEn": "to keep something or someone nearby",
+  "uses": [
+   {
+    "image": "手の届く所に置いておく",
+    "example": "It's good to have a flashlight around in case of a blackout.",
+    "ja": "停電に備えて懐中電灯を手元に置いておくといい。"
+   },
+   {
+    "image": "そばにいてくれる",
+    "example": "He's a fun person to have around.",
+    "ja": "彼はそばにいると楽しい人だ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_115",
+  "word": "have out",
+  "reading": "have ＋ out",
+  "meaning": "中にあるものを外に出してしまう",
+  "example": "I had a tooth out yesterday.",
+  "exampleTranslation": "昨日歯を抜いてもらった。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "have",
+   "native-common"
+  ],
+  "verb": "have",
+  "particles": [
+   "out"
+  ],
+  "concept": "中にあるものを外に出してしまう",
+  "definitionEn": "to have something removed; to settle a disagreement openly",
+  "uses": [
+   {
+    "image": "体の中から取り出してもらう",
+    "example": "I had a tooth out yesterday.",
+    "ja": "昨日歯を抜いてもらった。"
+   },
+   {
+    "image": "たまった不満を外に出す",
+    "example": "I'm going to have it out with him.",
+    "ja": "彼とはっきり話をつけるつもりだ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_116",
+  "word": "go ahead",
+  "reading": "go ＋ ahead",
+  "meaning": "前へ、先へと進んでいく",
+  "example": "Can I use your pen? — Sure, go ahead.",
+  "exampleTranslation": "ペンを借りてもいい？ーどうぞ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "go",
+   "native-common"
+  ],
+  "verb": "go",
+  "particles": [
+   "ahead"
+  ],
+  "concept": "前へ、先へと進んでいく",
+  "definitionEn": "to start or continue doing something; to give permission",
+  "uses": [
+   {
+    "image": "どうぞ先へ進んで",
+    "example": "Can I use your pen? — Sure, go ahead.",
+    "ja": "ペンを借りてもいい？ーどうぞ。"
+   },
+   {
+    "image": "計画を前へ進める",
+    "example": "The concert will go ahead despite the rain.",
+    "ja": "雨でもコンサートは予定どおり行われる。"
+   }
+  ]
+ },
+ {
+  "id": "phr_117",
+  "word": "come on",
+  "reading": "come ＋ on",
+  "meaning": "こちらへ近づいて、くっついてくる",
+  "example": "Come on, we'll be late!",
+  "exampleTranslation": "早く、遅れちゃうよ！",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "come",
+   "native-common"
+  ],
+  "verb": "come",
+  "particles": [
+   "on"
+  ],
+  "concept": "こちらへ近づいて、くっついてくる",
+  "definitionEn": "used to encourage or hurry someone; to start working",
+  "uses": [
+   {
+    "image": "早くこっちへ・がんばれ",
+    "example": "Come on, we'll be late!",
+    "ja": "早く、遅れちゃうよ！"
+   },
+   {
+    "image": "明かりや機械が動き出してくる",
+    "example": "The lights came on automatically.",
+    "ja": "明かりが自動でついた。"
+   },
+   {
+    "image": "「ちょっと待ってよ」と相手を引き寄せる",
+    "example": "Oh, come on! That's not fair.",
+    "ja": "ちょっと、それはずるいよ！"
+   }
+  ]
+ },
+ {
+  "id": "phr_118",
+  "word": "come around",
+  "reading": "come ＋ around",
+  "meaning": "ぐるっと回って、こちらにやって来る",
+  "example": "Come around for coffee sometime.",
+  "exampleTranslation": "今度コーヒーを飲みに寄ってよ。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "come",
+   "native-common"
+  ],
+  "verb": "come",
+  "particles": [
+   "around"
+  ],
+  "concept": "ぐるっと回って、こちらにやって来る",
+  "definitionEn": "to visit; to change your opinion; to become conscious",
+  "uses": [
+   {
+    "image": "ぐるっと回って家に寄る",
+    "example": "Come around for coffee sometime.",
+    "ja": "今度コーヒーを飲みに寄ってよ。"
+   },
+   {
+    "image": "考えが回ってこちらの意見に来る",
+    "example": "She'll come around to our idea eventually.",
+    "ja": "彼女もそのうち私たちの案に賛成するよ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_119",
+  "word": "get together",
+  "reading": "get ＋ together",
+  "meaning": "動いて、ひとつの場所に集まる",
+  "example": "Let's get together for lunch next week.",
+  "exampleTranslation": "来週ランチに集まろう。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "get",
+   "native-common"
+  ],
+  "verb": "get",
+  "particles": [
+   "together"
+  ],
+  "concept": "動いて、ひとつの場所に集まる",
+  "definitionEn": "to meet socially",
+  "uses": [
+   {
+    "image": "人が集まる",
+    "example": "Let's get together for lunch next week.",
+    "ja": "来週ランチに集まろう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_120",
+  "word": "get rid of",
+  "reading": "get ＋ rid ＋ of",
+  "meaning": "持っているものから離れた状態にたどり着く",
+  "example": "I need to get rid of these old clothes.",
+  "exampleTranslation": "この古い服を処分しなきゃ。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "get",
+   "native-common"
+  ],
+  "verb": "get",
+  "particles": [
+   "rid",
+   "of"
+  ],
+  "concept": "持っているものから離れた状態にたどり着く",
+  "definitionEn": "to throw away or remove something unwanted",
+  "uses": [
+   {
+    "image": "いらない物を手放す",
+    "example": "I need to get rid of these old clothes.",
+    "ja": "この古い服を処分しなきゃ。"
+   },
+   {
+    "image": "嫌なものを取り除く",
+    "example": "How can I get rid of this headache?",
+    "ja": "この頭痛はどうしたら治るかな？"
+   }
+  ]
+ },
+ {
+  "id": "phr_121",
+  "word": "look around",
+  "reading": "look ＋ around",
+  "meaning": "周りをぐるっと見回す",
+  "example": "We have an hour to look around the town.",
+  "exampleTranslation": "町を見て回る時間が1時間ある。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "look",
+   "native-common"
+  ],
+  "verb": "look",
+  "particles": [
+   "around"
+  ],
+  "concept": "周りをぐるっと見回す",
+  "definitionEn": "to look at many things in a place",
+  "uses": [
+   {
+    "image": "あちこち見て回る",
+    "example": "We have an hour to look around the town.",
+    "ja": "町を見て回る時間が1時間ある。"
+   },
+   {
+    "image": "店の中をぶらっと見る",
+    "example": "I'm just looking around, thanks.",
+    "ja": "ちょっと見ているだけです。"
+   }
+  ]
+ },
+ {
+  "id": "phr_122",
+  "word": "take away",
+  "reading": "take ＋ away",
+  "meaning": "手に取って、遠くへ持っていく",
+  "example": "This medicine will take away the pain.",
+  "exampleTranslation": "この薬で痛みが消えるよ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "take",
+   "native-common"
+  ],
+  "verb": "take",
+  "particles": [
+   "away"
+  ],
+  "concept": "手に取って、遠くへ持っていく",
+  "definitionEn": "to remove something; to buy food to eat elsewhere",
+  "uses": [
+   {
+    "image": "ここから取り去る",
+    "example": "This medicine will take away the pain.",
+    "ja": "この薬で痛みが消えるよ。"
+   },
+   {
+    "image": "料理を店の外へ持っていく",
+    "example": "Is that for here or to take away?",
+    "ja": "店内でお召し上がりですか、お持ち帰りですか？"
+   }
+  ]
+ },
+ {
+  "id": "phr_123",
+  "word": "bring along",
+  "reading": "bring ＋ along",
+  "meaning": "一緒に連れて（持って）くる",
+  "example": "Feel free to bring along a friend.",
+  "exampleTranslation": "友達を連れてきてもいいよ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "bring",
+   "native-common"
+  ],
+  "verb": "bring",
+  "particles": [
+   "along"
+  ],
+  "concept": "一緒に連れて（持って）くる",
+  "definitionEn": "to bring someone or something with you",
+  "uses": [
+   {
+    "image": "人や物を連れてくる",
+    "example": "Feel free to bring along a friend.",
+    "ja": "友達を連れてきてもいいよ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_124",
+  "word": "turn back",
+  "reading": "turn ＋ back",
+  "meaning": "くるっと向きを変えて、元へ戻る",
+  "example": "The weather got worse, so we turned back.",
+  "exampleTranslation": "天気が悪くなったので引き返した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "turn",
+   "native-common"
+  ],
+  "verb": "turn",
+  "particles": [
+   "back"
+  ],
+  "concept": "くるっと向きを変えて、元へ戻る",
+  "definitionEn": "to return the way you came",
+  "uses": [
+   {
+    "image": "来た道を引き返す",
+    "example": "The weather got worse, so we turned back.",
+    "ja": "天気が悪くなったので引き返した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_125",
+  "word": "pick up",
+  "reading": "pick ＋ up",
+  "meaning": "指でつまんで、上へ持ち上げる",
+  "example": "Can you pick up that paper on the floor?",
+  "exampleTranslation": "床のその紙を拾ってくれる？",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "pick",
+   "native-common"
+  ],
+  "verb": "pick",
+  "particles": [
+   "up"
+  ],
+  "concept": "指でつまんで、上へ持ち上げる",
+  "definitionEn": "to lift something; to collect someone; to learn without trying",
+  "uses": [
+   {
+    "image": "落ちている物を拾い上げる",
+    "example": "Can you pick up that paper on the floor?",
+    "ja": "床のその紙を拾ってくれる？"
+   },
+   {
+    "image": "人を車に拾い上げる",
+    "example": "I'll pick you up at the station at five.",
+    "ja": "5時に駅まで迎えに行くね。"
+   },
+   {
+    "image": "言葉や技を自然に拾い上げる",
+    "example": "I picked up some Spanish while traveling.",
+    "ja": "旅行中にスペイン語を少し覚えた。"
+   },
+   {
+    "image": "電話を持ち上げる",
+    "example": "He didn't pick up when I called.",
+    "ja": "電話したけど彼は出なかった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_126",
+  "word": "pick out",
+  "reading": "pick ＋ out",
+  "meaning": "たくさんの中から、つまんで外へ出す",
+  "example": "Help me pick out a gift for my mom.",
+  "exampleTranslation": "母へのプレゼントを選ぶのを手伝って。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "pick",
+   "native-common"
+  ],
+  "verb": "pick",
+  "particles": [
+   "out"
+  ],
+  "concept": "たくさんの中から、つまんで外へ出す",
+  "definitionEn": "to choose something from a group",
+  "uses": [
+   {
+    "image": "選び出す",
+    "example": "Help me pick out a gift for my mom.",
+    "ja": "母へのプレゼントを選ぶのを手伝って。"
+   }
+  ]
+ },
+ {
+  "id": "phr_127",
+  "word": "pick on",
+  "reading": "pick ＋ on",
+  "meaning": "特定の人をつまんで、しつこくくっつく",
+  "example": "Stop picking on your little brother.",
+  "exampleTranslation": "弟をいじめるのはやめなさい。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "pick",
+   "native-common"
+  ],
+  "verb": "pick",
+  "particles": [
+   "on"
+  ],
+  "concept": "特定の人をつまんで、しつこくくっつく",
+  "definitionEn": "to treat someone unkindly again and again",
+  "uses": [
+   {
+    "image": "いじめる・からかう",
+    "example": "Stop picking on your little brother.",
+    "ja": "弟をいじめるのはやめなさい。"
+   }
+  ]
+ },
+ {
+  "id": "phr_128",
+  "word": "keep up",
+  "reading": "keep ＋ up",
+  "meaning": "上の状態を保ち続ける",
+  "example": "Great job! Keep it up!",
+  "exampleTranslation": "よくやった！その調子で！",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "keep",
+   "native-common"
+  ],
+  "verb": "keep",
+  "particles": [
+   "up"
+  ],
+  "concept": "上の状態を保ち続ける",
+  "definitionEn": "to continue at the same level; to stay awake",
+  "uses": [
+   {
+    "image": "良い状態を保つ",
+    "example": "Great job! Keep it up!",
+    "ja": "よくやった！その調子で！"
+   },
+   {
+    "image": "遅れずに同じ高さを保つ",
+    "example": "Slow down! I can't keep up.",
+    "ja": "ゆっくり！ついていけないよ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_129",
+  "word": "keep up with",
+  "reading": "keep ＋ up ＋ with",
+  "meaning": "相手と並んで、同じ高さを保ち続ける",
+  "example": "It's hard to keep up with the latest news.",
+  "exampleTranslation": "最新のニュースについていくのは大変だ。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "keep",
+   "native-common"
+  ],
+  "verb": "keep",
+  "particles": [
+   "up",
+   "with"
+  ],
+  "concept": "相手と並んで、同じ高さを保ち続ける",
+  "definitionEn": "to stay level with someone or something",
+  "uses": [
+   {
+    "image": "遅れずについていく",
+    "example": "It's hard to keep up with the latest news.",
+    "ja": "最新のニュースについていくのは大変だ。"
+   },
+   {
+    "image": "連絡を保つ",
+    "example": "I keep up with my old classmates on social media.",
+    "ja": "SNSで昔のクラスメートと連絡を取り合っている。"
+   }
+  ]
+ },
+ {
+  "id": "phr_130",
+  "word": "keep on",
+  "reading": "keep ＋ on",
+  "meaning": "くっついたまま、続けて保つ",
+  "example": "He kept on talking during the movie.",
+  "exampleTranslation": "彼は映画の間ずっとしゃべり続けた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "keep",
+   "native-common"
+  ],
+  "verb": "keep",
+  "particles": [
+   "on"
+  ],
+  "concept": "くっついたまま、続けて保つ",
+  "definitionEn": "to continue doing something",
+  "uses": [
+   {
+    "image": "〜し続ける",
+    "example": "He kept on talking during the movie.",
+    "ja": "彼は映画の間ずっとしゃべり続けた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_131",
+  "word": "keep away",
+  "reading": "keep ＋ away",
+  "meaning": "離れた状態を保つ",
+  "example": "Keep away from the edge!",
+  "exampleTranslation": "端に近づかないで！",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "keep",
+   "native-common"
+  ],
+  "verb": "keep",
+  "particles": [
+   "away"
+  ],
+  "concept": "離れた状態を保つ",
+  "definitionEn": "to stay at a distance or make something stay at a distance",
+  "uses": [
+   {
+    "image": "近づかない・近づけない",
+    "example": "Keep away from the edge!",
+    "ja": "端に近づかないで！"
+   },
+   {
+    "image": "寄せつけない",
+    "example": "An apple a day keeps the doctor away.",
+    "ja": "1日1個のリンゴで医者いらず。"
+   }
+  ]
+ },
+ {
+  "id": "phr_132",
+  "word": "keep out",
+  "reading": "keep ＋ out",
+  "meaning": "外にいる状態を保つ",
+  "example": "The sign said, \"Keep out.\"",
+  "exampleTranslation": "看板には「立入禁止」と書いてあった。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "keep",
+   "native-common"
+  ],
+  "verb": "keep",
+  "particles": [
+   "out"
+  ],
+  "concept": "外にいる状態を保つ",
+  "definitionEn": "to not enter; to prevent from entering",
+  "uses": [
+   {
+    "image": "中に入れない",
+    "example": "The sign said, \"Keep out.\"",
+    "ja": "看板には「立入禁止」と書いてあった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_133",
+  "word": "work out",
+  "reading": "work ＋ out",
+  "meaning": "力を加えて動かし、最後まで形にして外へ出す",
+  "example": "I work out at the gym three times a week.",
+  "exampleTranslation": "週3回ジムで運動している。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "work",
+   "native-common"
+  ],
+  "verb": "work",
+  "particles": [
+   "out"
+  ],
+  "concept": "力を加えて動かし、最後まで形にして外へ出す",
+  "definitionEn": "to exercise; to find a solution; to end successfully",
+  "uses": [
+   {
+    "image": "体を動かす",
+    "example": "I work out at the gym three times a week.",
+    "ja": "週3回ジムで運動している。"
+   },
+   {
+    "image": "答えを最後まで導き出す",
+    "example": "We need to work out a plan.",
+    "ja": "計画を練らないといけない。"
+   },
+   {
+    "image": "物事が最後にうまく形になる",
+    "example": "Don't worry. Everything will work out.",
+    "ja": "心配しないで。すべてうまくいくよ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_134",
+  "word": "work on",
+  "reading": "work ＋ on",
+  "meaning": "対象にくっついて、手を動かし続ける",
+  "example": "I'm working on a new project.",
+  "exampleTranslation": "新しいプロジェクトに取り組んでいる。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "work",
+   "native-common"
+  ],
+  "verb": "work",
+  "particles": [
+   "on"
+  ],
+  "concept": "対象にくっついて、手を動かし続ける",
+  "definitionEn": "to spend time improving or making something",
+  "uses": [
+   {
+    "image": "取り組む",
+    "example": "I'm working on a new project.",
+    "ja": "新しいプロジェクトに取り組んでいる。"
+   },
+   {
+    "image": "弱点に取り組む",
+    "example": "You need to work on your pronunciation.",
+    "ja": "発音を練習したほうがいいね。"
+   }
+  ]
+ },
+ {
+  "id": "phr_135",
+  "word": "figure out",
+  "reading": "figure ＋ out",
+  "meaning": "頭の中で形を描いて、答えを外に出す",
+  "example": "I can't figure out how this works.",
+  "exampleTranslation": "これがどう動くのかわからない。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "figure",
+   "native-common"
+  ],
+  "verb": "figure",
+  "particles": [
+   "out"
+  ],
+  "concept": "頭の中で形を描いて、答えを外に出す",
+  "definitionEn": "to understand or solve something by thinking",
+  "uses": [
+   {
+    "image": "考えて理解する",
+    "example": "I can't figure out how this works.",
+    "ja": "これがどう動くのかわからない。"
+   },
+   {
+    "image": "解決策を見つける",
+    "example": "We'll figure it out together.",
+    "ja": "一緒に何とか考えよう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_136",
+  "word": "find out",
+  "reading": "find ＋ out",
+  "meaning": "見つけて、隠れていたことを外に出す",
+  "example": "Let me find out what time the store opens.",
+  "exampleTranslation": "店が何時に開くか調べてみるね。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "find",
+   "native-common"
+  ],
+  "verb": "find",
+  "particles": [
+   "out"
+  ],
+  "concept": "見つけて、隠れていたことを外に出す",
+  "definitionEn": "to learn information you did not know",
+  "uses": [
+   {
+    "image": "調べて知る",
+    "example": "Let me find out what time the store opens.",
+    "ja": "店が何時に開くか調べてみるね。"
+   },
+   {
+    "image": "隠していたことがばれる",
+    "example": "What if your boss finds out?",
+    "ja": "上司にばれたらどうするの？"
+   }
+  ]
+ },
+ {
+  "id": "phr_137",
+  "word": "check out",
+  "reading": "check ＋ out",
+  "meaning": "確かめながら、外へ出る／外に出して確かめる",
+  "example": "We have to check out by eleven.",
+  "exampleTranslation": "11時までにチェックアウトしないといけない。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "check",
+   "native-common"
+  ],
+  "verb": "check",
+  "particles": [
+   "out"
+  ],
+  "concept": "確かめながら、外へ出る／外に出して確かめる",
+  "definitionEn": "to leave a hotel; to look at something interesting",
+  "uses": [
+   {
+    "image": "ホテルを出る",
+    "example": "We have to check out by eleven.",
+    "ja": "11時までにチェックアウトしないといけない。"
+   },
+   {
+    "image": "面白いものを見てみる",
+    "example": "Check out this video!",
+    "ja": "この動画見てみて！"
+   },
+   {
+    "image": "本を図書館の外へ出す",
+    "example": "I checked out three books from the library.",
+    "ja": "図書館で本を3冊借りた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_138",
+  "word": "check in",
+  "reading": "check ＋ in",
+  "meaning": "確かめてもらって、中に入る",
+  "example": "You can check in online.",
+  "exampleTranslation": "オンラインでチェックインできます。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "check",
+   "native-common"
+  ],
+  "verb": "check",
+  "particles": [
+   "in"
+  ],
+  "concept": "確かめてもらって、中に入る",
+  "definitionEn": "to arrive and register at a hotel or airport",
+  "uses": [
+   {
+    "image": "ホテルや空港で手続きをする",
+    "example": "You can check in online.",
+    "ja": "オンラインでチェックインできます。"
+   },
+   {
+    "image": "様子を確かめに連絡を入れる",
+    "example": "I'm just checking in to see how you're doing.",
+    "ja": "元気かなと思って連絡してみた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_139",
+  "word": "check on",
+  "reading": "check ＋ on",
+  "meaning": "対象にくっついて、様子を確かめる",
+  "example": "Can you check on the baby?",
+  "exampleTranslation": "赤ちゃんの様子を見てきてくれる？",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "check",
+   "native-common"
+  ],
+  "verb": "check",
+  "particles": [
+   "on"
+  ],
+  "concept": "対象にくっついて、様子を確かめる",
+  "definitionEn": "to make sure someone or something is OK",
+  "uses": [
+   {
+    "image": "様子を見に行く",
+    "example": "Can you check on the baby?",
+    "ja": "赤ちゃんの様子を見てきてくれる？"
+   }
+  ]
+ },
+ {
+  "id": "phr_140",
+  "word": "hang out",
+  "reading": "hang ＋ out",
+  "meaning": "外でぶらんとぶら下がっている（のんびり過ごす）",
+  "example": "We usually hang out at the park after school.",
+  "exampleTranslation": "放課後はたいてい公園でぶらぶらしている。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "hang",
+   "native-common"
+  ],
+  "verb": "hang",
+  "particles": [
+   "out"
+  ],
+  "concept": "外でぶらんとぶら下がっている（のんびり過ごす）",
+  "definitionEn": "to spend time relaxing with friends",
+  "uses": [
+   {
+    "image": "友達とぶらぶら過ごす",
+    "example": "We usually hang out at the park after school.",
+    "ja": "放課後はたいてい公園でぶらぶらしている。"
+   },
+   {
+    "image": "洗濯物を外につるす",
+    "example": "I hung out the laundry to dry.",
+    "ja": "洗濯物を外に干した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_141",
+  "word": "hang on",
+  "reading": "hang ＋ on",
+  "meaning": "ぶら下がって、しっかりくっついている",
+  "example": "Hang on a second, I'll get my bag.",
+  "exampleTranslation": "ちょっと待って、かばん取ってくる。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "hang",
+   "native-common"
+  ],
+  "verb": "hang",
+  "particles": [
+   "on"
+  ],
+  "concept": "ぶら下がって、しっかりくっついている",
+  "definitionEn": "to wait for a short time; to hold tightly",
+  "uses": [
+   {
+    "image": "その場にとどまって待つ",
+    "example": "Hang on a second, I'll get my bag.",
+    "ja": "ちょっと待って、かばん取ってくる。"
+   },
+   {
+    "image": "しがみつく・踏ん張る",
+    "example": "Hang on tight!",
+    "ja": "しっかりつかまって！"
+   }
+  ]
+ },
+ {
+  "id": "phr_142",
+  "word": "hang up",
+  "reading": "hang ＋ up",
+  "meaning": "受話器を上のフックにかける",
+  "example": "Don't hang up! I'm not finished.",
+  "exampleTranslation": "切らないで！まだ話は終わってないよ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "hang",
+   "native-common"
+  ],
+  "verb": "hang",
+  "particles": [
+   "up"
+  ],
+  "concept": "受話器を上のフックにかける",
+  "definitionEn": "to end a phone call",
+  "uses": [
+   {
+    "image": "電話を切る",
+    "example": "Don't hang up! I'm not finished.",
+    "ja": "切らないで！まだ話は終わってないよ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_143",
+  "word": "end up",
+  "reading": "end ＋ up",
+  "meaning": "流れの終わりで、ある所に（すっかり）たどり着く",
+  "example": "We got lost and ended up in the next town.",
+  "exampleTranslation": "道に迷って、結局隣町に行き着いた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "end",
+   "native-common"
+  ],
+  "verb": "end",
+  "particles": [
+   "up"
+  ],
+  "concept": "流れの終わりで、ある所に（すっかり）たどり着く",
+  "definitionEn": "to finally be in a place or situation, often unexpectedly",
+  "uses": [
+   {
+    "image": "結局〜になる",
+    "example": "We got lost and ended up in the next town.",
+    "ja": "道に迷って、結局隣町に行き着いた。"
+   },
+   {
+    "image": "最後には〜する羽目になる",
+    "example": "I ended up working all weekend.",
+    "ja": "結局、週末ずっと働くことになった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_144",
+  "word": "show up",
+  "reading": "show ＋ up",
+  "meaning": "姿を見せて、表面に浮かび上がる",
+  "example": "He didn't show up for the meeting.",
+  "exampleTranslation": "彼は会議に来なかった。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "show",
+   "native-common"
+  ],
+  "verb": "show",
+  "particles": [
+   "up"
+  ],
+  "concept": "姿を見せて、表面に浮かび上がる",
+  "definitionEn": "to arrive or appear",
+  "uses": [
+   {
+    "image": "約束の場所に現れる",
+    "example": "He didn't show up for the meeting.",
+    "ja": "彼は会議に来なかった。"
+   },
+   {
+    "image": "隠れていたものが見えてくる",
+    "example": "The stain didn't show up until later.",
+    "ja": "そのしみは後になって目立ってきた。"
+   }
+  ]
+ },
+ {
+  "id": "phr_145",
+  "word": "show off",
+  "reading": "show ＋ off",
+  "meaning": "見せて、自分から周りへ放つ",
+  "example": "He's always showing off his new car.",
+  "exampleTranslation": "彼はいつも新しい車を見せびらかしている。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "show",
+   "native-common"
+  ],
+  "verb": "show",
+  "particles": [
+   "off"
+  ],
+  "concept": "見せて、自分から周りへ放つ",
+  "definitionEn": "to try to impress people",
+  "uses": [
+   {
+    "image": "見せびらかす",
+    "example": "He's always showing off his new car.",
+    "ja": "彼はいつも新しい車を見せびらかしている。"
+   }
+  ]
+ },
+ {
+  "id": "phr_146",
+  "word": "call off",
+  "reading": "call ＋ off",
+  "meaning": "声をかけて、予定から切り離す",
+  "example": "The game was called off because of rain.",
+  "exampleTranslation": "試合は雨で中止になった。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "call",
+   "native-common"
+  ],
+  "verb": "call",
+  "particles": [
+   "off"
+  ],
+  "concept": "声をかけて、予定から切り離す",
+  "definitionEn": "to cancel something",
+  "uses": [
+   {
+    "image": "中止する",
+    "example": "The game was called off because of rain.",
+    "ja": "試合は雨で中止になった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_147",
+  "word": "call back",
+  "reading": "call ＋ back",
+  "meaning": "声（電話）を元の相手へ戻す",
+  "example": "Can I call you back in five minutes?",
+  "exampleTranslation": "5分後に折り返してもいい？",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "call",
+   "native-common"
+  ],
+  "verb": "call",
+  "particles": [
+   "back"
+  ],
+  "concept": "声（電話）を元の相手へ戻す",
+  "definitionEn": "to return a phone call",
+  "uses": [
+   {
+    "image": "折り返し電話する",
+    "example": "Can I call you back in five minutes?",
+    "ja": "5分後に折り返してもいい？"
+   }
+  ]
+ },
+ {
+  "id": "phr_148",
+  "word": "fill out",
+  "reading": "fill ＋ out",
+  "meaning": "空欄を満たして、最後まで仕上げる",
+  "example": "Please fill out this form.",
+  "exampleTranslation": "この用紙にご記入ください。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "fill",
+   "native-common"
+  ],
+  "verb": "fill",
+  "particles": [
+   "out"
+  ],
+  "concept": "空欄を満たして、最後まで仕上げる",
+  "definitionEn": "to complete a form",
+  "uses": [
+   {
+    "image": "書類に記入する",
+    "example": "Please fill out this form.",
+    "ja": "この用紙にご記入ください。"
+   }
+  ]
+ },
+ {
+  "id": "phr_149",
+  "word": "fill in",
+  "reading": "fill ＋ in",
+  "meaning": "すき間の中を満たす",
+  "example": "Fill in the blanks with the correct word.",
+  "exampleTranslation": "空欄に正しい語を入れなさい。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "fill",
+   "native-common"
+  ],
+  "verb": "fill",
+  "particles": [
+   "in"
+  ],
+  "concept": "すき間の中を満たす",
+  "definitionEn": "to write information in spaces; to do someone's job temporarily",
+  "uses": [
+   {
+    "image": "空欄に書き込む",
+    "example": "Fill in the blanks with the correct word.",
+    "ja": "空欄に正しい語を入れなさい。"
+   },
+   {
+    "image": "空いた席に入って埋める",
+    "example": "Can you fill in for me tomorrow?",
+    "ja": "明日、私の代わりに入ってくれる？"
+   },
+   {
+    "image": "知らない部分を埋める",
+    "example": "Let me fill you in on what happened.",
+    "ja": "何があったか教えてあげるね。"
+   }
+  ]
+ },
+ {
+  "id": "phr_150",
+  "word": "fill up",
+  "reading": "fill ＋ up",
+  "meaning": "上までいっぱいに満たす",
+  "example": "I need to fill up the car before the trip.",
+  "exampleTranslation": "旅行の前に車を満タンにしなきゃ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "fill",
+   "native-common"
+  ],
+  "verb": "fill",
+  "particles": [
+   "up"
+  ],
+  "concept": "上までいっぱいに満たす",
+  "definitionEn": "to make something completely full",
+  "uses": [
+   {
+    "image": "満タンにする",
+    "example": "I need to fill up the car before the trip.",
+    "ja": "旅行の前に車を満タンにしなきゃ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_151",
+  "word": "point out",
+  "reading": "point ＋ out",
+  "meaning": "指さして、外（みんなの目の前）に出す",
+  "example": "Thanks for pointing out my mistake.",
+  "exampleTranslation": "間違いを指摘してくれてありがとう。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "point",
+   "native-common"
+  ],
+  "verb": "point",
+  "particles": [
+   "out"
+  ],
+  "concept": "指さして、外（みんなの目の前）に出す",
+  "definitionEn": "to tell someone about something they had not noticed",
+  "uses": [
+   {
+    "image": "指摘する",
+    "example": "Thanks for pointing out my mistake.",
+    "ja": "間違いを指摘してくれてありがとう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_152",
+  "word": "catch up",
+  "reading": "catch ＋ up",
+  "meaning": "追いかけて捕まえ、同じ高さに上がる",
+  "example": "Go ahead. I'll catch up with you later.",
+  "exampleTranslation": "先に行って。後で追いつくから。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "catch",
+   "native-common"
+  ],
+  "verb": "catch",
+  "particles": [
+   "up"
+  ],
+  "concept": "追いかけて捕まえ、同じ高さに上がる",
+  "definitionEn": "to reach the same level as others",
+  "uses": [
+   {
+    "image": "先に行った人に追いつく",
+    "example": "Go ahead. I'll catch up with you later.",
+    "ja": "先に行って。後で追いつくから。"
+   },
+   {
+    "image": "近況の遅れを取り戻す",
+    "example": "Let's get coffee and catch up.",
+    "ja": "コーヒーでも飲みながら近況を話そう。"
+   }
+  ]
+ },
+ {
+  "id": "phr_153",
+  "word": "catch on",
+  "reading": "catch ＋ on",
+  "meaning": "（人の心を）捕まえて、くっつく",
+  "example": "The idea never really caught on.",
+  "exampleTranslation": "そのアイデアは結局流行らなかった。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "catch",
+   "native-common"
+  ],
+  "verb": "catch",
+  "particles": [
+   "on"
+  ],
+  "concept": "（人の心を）捕まえて、くっつく",
+  "definitionEn": "to become popular; to understand",
+  "uses": [
+   {
+    "image": "流行する",
+    "example": "The idea never really caught on.",
+    "ja": "そのアイデアは結局流行らなかった。"
+   },
+   {
+    "image": "意味をつかむ",
+    "example": "He's a fast learner. He catches on quickly.",
+    "ja": "彼は飲み込みが早い。"
+   }
+  ]
+ },
+ {
+  "id": "phr_154",
+  "word": "carry on",
+  "reading": "carry ＋ on",
+  "meaning": "抱えたまま、くっついて進み続ける",
+  "example": "Sorry for interrupting. Please carry on.",
+  "exampleTranslation": "話を遮ってごめん。続けて。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "carry",
+   "native-common"
+  ],
+  "verb": "carry",
+  "particles": [
+   "on"
+  ],
+  "concept": "抱えたまま、くっついて進み続ける",
+  "definitionEn": "to continue",
+  "uses": [
+   {
+    "image": "続ける",
+    "example": "Sorry for interrupting. Please carry on.",
+    "ja": "話を遮ってごめん。続けて。"
+   }
+  ]
+ },
+ {
+  "id": "phr_155",
+  "word": "carry out",
+  "reading": "carry ＋ out",
+  "meaning": "計画を運んで、最後まで外へ出す（実行する）",
+  "example": "The team carried out a survey of 500 customers.",
+  "exampleTranslation": "チームは顧客500人への調査を実施した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "carry",
+   "native-common"
+  ],
+  "verb": "carry",
+  "particles": [
+   "out"
+  ],
+  "concept": "計画を運んで、最後まで外へ出す（実行する）",
+  "definitionEn": "to do a planned task",
+  "uses": [
+   {
+    "image": "実行する",
+    "example": "The team carried out a survey of 500 customers.",
+    "ja": "チームは顧客500人への調査を実施した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_156",
+  "word": "cut down",
+  "reading": "cut ＋ down",
+  "meaning": "切って、量を下げる",
+  "example": "I'm trying to cut down on sugar.",
+  "exampleTranslation": "砂糖を控えるようにしている。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "cut",
+   "native-common"
+  ],
+  "verb": "cut",
+  "particles": [
+   "down"
+  ],
+  "concept": "切って、量を下げる",
+  "definitionEn": "to reduce the amount of something",
+  "uses": [
+   {
+    "image": "量を減らす",
+    "example": "I'm trying to cut down on sugar.",
+    "ja": "砂糖を控えるようにしている。"
+   },
+   {
+    "image": "木を切り倒す",
+    "example": "They cut down the old tree.",
+    "ja": "古い木を切り倒した。"
+   }
+  ]
+ },
+ {
+  "id": "phr_157",
+  "word": "cut off",
+  "reading": "cut ＋ off",
+  "meaning": "切って、つながりから離す",
+  "example": "Our water was cut off for an hour.",
+  "exampleTranslation": "1時間断水した。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "cut",
+   "native-common"
+  ],
+  "verb": "cut",
+  "particles": [
+   "off"
+  ],
+  "concept": "切って、つながりから離す",
+  "definitionEn": "to stop a supply; to interrupt",
+  "uses": [
+   {
+    "image": "供給を止める",
+    "example": "Our water was cut off for an hour.",
+    "ja": "1時間断水した。"
+   },
+   {
+    "image": "話や電話が途中で切れる",
+    "example": "Sorry, we got cut off.",
+    "ja": "ごめん、電話が切れちゃった。"
+   }
+  ]
+ },
+ {
+  "id": "phr_158",
+  "word": "cut in",
+  "reading": "cut ＋ in",
+  "meaning": "列や会話を切って、中に入る",
+  "example": "Sorry to cut in, but I have a question.",
+  "exampleTranslation": "割り込んでごめん、質問があるんだけど。",
+  "level": "B2",
+  "tags": [
+   "phrasal",
+   "cut",
+   "native-common"
+  ],
+  "verb": "cut",
+  "particles": [
+   "in"
+  ],
+  "concept": "列や会話を切って、中に入る",
+  "definitionEn": "to interrupt; to push into a line",
+  "uses": [
+   {
+    "image": "割り込む",
+    "example": "Sorry to cut in, but I have a question.",
+    "ja": "割り込んでごめん、質問があるんだけど。"
+   }
+  ]
+ },
+ {
+  "id": "phr_159",
+  "word": "hold on",
+  "reading": "hold ＋ on",
+  "meaning": "しっかり握って、くっついたままでいる",
+  "example": "Hold on, let me check.",
+  "exampleTranslation": "ちょっと待って、確認するね。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "hold",
+   "native-common"
+  ],
+  "verb": "hold",
+  "particles": [
+   "on"
+  ],
+  "concept": "しっかり握って、くっついたままでいる",
+  "definitionEn": "to wait; to hold tightly",
+  "uses": [
+   {
+    "image": "少し待つ",
+    "example": "Hold on, let me check.",
+    "ja": "ちょっと待って、確認するね。"
+   },
+   {
+    "image": "握って離さない",
+    "example": "Hold on to the rail.",
+    "ja": "手すりにつかまってください。"
+   }
+  ]
+ },
+ {
+  "id": "phr_160",
+  "word": "hold back",
+  "reading": "hold ＋ back",
+  "meaning": "しっかり握って、後ろに引き留める",
+  "example": "She held back her tears.",
+  "exampleTranslation": "彼女は涙をこらえた。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "hold",
+   "native-common"
+  ],
+  "verb": "hold",
+  "particles": [
+   "back"
+  ],
+  "concept": "しっかり握って、後ろに引き留める",
+  "definitionEn": "to stop yourself or someone from moving forward or showing feelings",
+  "uses": [
+   {
+    "image": "感情を抑える",
+    "example": "She held back her tears.",
+    "ja": "彼女は涙をこらえた。"
+   },
+   {
+    "image": "前へ進むのを妨げる",
+    "example": "Don't let fear hold you back.",
+    "ja": "恐れに足を引っ張られないで。"
+   }
+  ]
+ },
+ {
+  "id": "phr_161",
+  "word": "hold up",
+  "reading": "hold ＋ up",
+  "meaning": "持ち上げて支える／（流れを）止める",
+  "example": "Sorry I'm late. I got held up in traffic.",
+  "exampleTranslation": "遅れてごめん。渋滞につかまった。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "hold",
+   "native-common"
+  ],
+  "verb": "hold",
+  "particles": [
+   "up"
+  ],
+  "concept": "持ち上げて支える／（流れを）止める",
+  "definitionEn": "to support; to delay",
+  "uses": [
+   {
+    "image": "流れを止めて遅らせる",
+    "example": "Sorry I'm late. I got held up in traffic.",
+    "ja": "遅れてごめん。渋滞につかまった。"
+   },
+   {
+    "image": "持ちこたえる",
+    "example": "How are you holding up?",
+    "ja": "大丈夫？（つらい状況で）持ちこたえてる？"
+   }
+  ]
+ },
+ {
+  "id": "phr_162",
+  "word": "sort out",
+  "reading": "sort ＋ out",
+  "meaning": "仕分けて、ごちゃごちゃを外に出す（整理する）",
+  "example": "Don't worry, I'll sort it out.",
+  "exampleTranslation": "心配しないで、私が何とかするよ。",
+  "level": "B1",
+  "tags": [
+   "phrasal",
+   "sort",
+   "native-common"
+  ],
+  "verb": "sort",
+  "particles": [
+   "out"
+  ],
+  "concept": "仕分けて、ごちゃごちゃを外に出す（整理する）",
+  "definitionEn": "to solve a problem; to organize",
+  "uses": [
+   {
+    "image": "問題を解決する",
+    "example": "Don't worry, I'll sort it out.",
+    "ja": "心配しないで、私が何とかするよ。"
+   },
+   {
+    "image": "整理する",
+    "example": "I need to sort out my closet.",
+    "ja": "クローゼットを整理しなきゃ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_163",
+  "word": "wake up",
+  "reading": "wake ＋ up",
+  "meaning": "眠りから、意識が上がってくる",
+  "example": "I woke up at five this morning.",
+  "exampleTranslation": "今朝は5時に目が覚めた。",
+  "level": "A1",
+  "tags": [
+   "phrasal",
+   "wake",
+   "native-common"
+  ],
+  "verb": "wake",
+  "particles": [
+   "up"
+  ],
+  "concept": "眠りから、意識が上がってくる",
+  "definitionEn": "to stop sleeping",
+  "uses": [
+   {
+    "image": "目を覚ます",
+    "example": "I woke up at five this morning.",
+    "ja": "今朝は5時に目が覚めた。"
+   },
+   {
+    "image": "現実に気づく",
+    "example": "Wake up! This is serious.",
+    "ja": "目を覚まして！これは深刻なことだよ。"
+   }
+  ]
+ },
+ {
+  "id": "phr_164",
+  "word": "calm down",
+  "reading": "calm ＋ down",
+  "meaning": "高ぶった気持ちを、下へ静める",
+  "example": "Calm down and tell me what happened.",
+  "exampleTranslation": "落ち着いて、何があったか話して。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "calm",
+   "native-common"
+  ],
+  "verb": "calm",
+  "particles": [
+   "down"
+  ],
+  "concept": "高ぶった気持ちを、下へ静める",
+  "definitionEn": "to become less angry, excited or nervous",
+  "uses": [
+   {
+    "image": "落ち着く",
+    "example": "Calm down and tell me what happened.",
+    "ja": "落ち着いて、何があったか話して。"
+   }
+  ]
+ },
+ {
+  "id": "phr_165",
+  "word": "slow down",
+  "reading": "slow ＋ down",
+  "meaning": "速さを下げる",
+  "example": "Slow down! You're driving too fast.",
+  "exampleTranslation": "スピード落として！速すぎるよ。",
+  "level": "A2",
+  "tags": [
+   "phrasal",
+   "slow",
+   "native-common"
+  ],
+  "verb": "slow",
+  "particles": [
+   "down"
+  ],
+  "concept": "速さを下げる",
+  "definitionEn": "to move or happen more slowly",
+  "uses": [
+   {
+    "image": "スピードを落とす",
+    "example": "Slow down! You're driving too fast.",
+    "ja": "スピード落として！速すぎるよ。"
+   },
+   {
+    "image": "ペースを落とす",
+    "example": "You should slow down and get some rest.",
+    "ja": "少しペースを落として休んだほうがいい。"
+   }
+  ]
+ },
+ {
+  "id": "phr_166",
+  "word": "hurry up",
+  "reading": "hurry ＋ up",
+  "meaning": "急いで、ペースを上げる",
+  "example": "Hurry up! The train is leaving.",
+  "exampleTranslation": "急いで！電車が出ちゃう。",
+  "level": "A1",
+  "tags": [
+   "phrasal",
+   "hurry",
+   "native-common"
+  ],
+  "verb": "hurry",
+  "particles": [
+   "up"
+  ],
+  "concept": "急いで、ペースを上げる",
+  "definitionEn": "to do something more quickly",
+  "uses": [
+   {
+    "image": "急ぐ",
+    "example": "Hurry up! The train is leaving.",
+    "ja": "急いで！電車が出ちゃう。"
+   }
+  ]
  }
 ]

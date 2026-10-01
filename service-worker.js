@@ -10,7 +10,7 @@
 // バージョンを上げると古いキャッシュは activate 時に削除される。
 // =====================================================================
 
-const VERSION = 'kotonoha-v0.16.1';
+const VERSION = 'kotonoha-v0.16.2';
 const STATIC_CACHE = `${VERSION}-static`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
 
