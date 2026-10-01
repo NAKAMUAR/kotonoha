@@ -1593,7 +1593,7 @@ async function onLoginClick() {
     await signInWithGoogle();
   } catch (err) {
     console.error('sign-in error:', err);
-    showToast(authErrorMessage(err), 4000);
+    showToast(authErrorMessage(err), 8000);
   } finally {
     if (!state.isAuthenticated) {
       btn.disabled  = false;

@@ -8,7 +8,6 @@ import {
   getAuth,
   GoogleAuthProvider,
   signInWithPopup,
-  signInWithRedirect,
   getRedirectResult,
   signOut,
   onAuthStateChanged,
@@ -35,6 +34,10 @@ provider.setCustomParameters({ prompt: 'select_account' });
 
 // ---------- 認証 ----------
 
+// ログインはポップアップ方式のみ。
+// リダイレクト方式は、アプリ（localhost）と認証ドメイン（firebaseapp.com）が
+// 別サイトのため、最近のブラウザのストレージ分離により
+// 「missing initial state / sessionStorage is inaccessible」で失敗する。
 export async function signInWithGoogle() {
   try {
     const result = await signInWithPopup(auth, provider);
@@ -44,12 +47,7 @@ export async function signInWithGoogle() {
         err.code === 'auth/cancelled-popup-request') {
       return null; // ユーザーがキャンセル
     }
-    if (err.code === 'auth/popup-blocked') {
-      // ポップアップブロック時は redirect にフォールバック
-      await signInWithRedirect(auth, provider);
-      return null;
-    }
-    throw err;
+    throw err; // popup-blocked 等は呼び出し元でメッセージ表示
   }
 }
 
@@ -153,7 +151,10 @@ export function authErrorMessage(err) {
     case 'auth/network-request-failed':
       return 'ネットワークエラー — 接続を確認してください';
     case 'auth/popup-blocked':
-      return 'ポップアップがブロックされました';
+      return 'ログイン画面（ポップアップ）がブロックされました。アドレスバー右端のアイコンから、このサイトのポップアップを「許可」して、もう一度押してください';
+    case 'auth/missing-initial-state':
+    case 'auth/web-storage-unsupported':
+      return 'ブラウザの保存領域が使えないためログインできません。シークレット（プライベート）ウィンドウではなく、通常のウィンドウで http://localhost:8000 を開いてください';
     case 'permission-denied':
       return 'Firestore のセキュリティルールでアクセスが拒否されました';
     case 'unavailable':
