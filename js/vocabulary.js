@@ -94,7 +94,7 @@ async function idbBulkPut(storeName, values) {
 
 export const DECKS = Object.freeze({
   daily:  { id: 'daily',  label: '日常会話',         languages: ['en', 'vi'], file: (lang) => `./data/vocabulary-${lang}.json`,
-            situations: (lang) => (lang === 'en' ? './data/situations-en.json' : null) },
+            situations: (lang) => `./data/situations-${lang}.json` },
   toeic:  { id: 'toeic',  label: 'TOEIC',            languages: ['en'],       file: ()     => `./data/vocabulary-toeic.json` },
   ielts:  { id: 'ielts',  label: 'IELTS',            languages: ['en'],       file: ()     => `./data/vocabulary-ielts.json` },
   vi3kyu: { id: 'vi3kyu', label: 'ベトナム語検定3級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-3kyu.json` },

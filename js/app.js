@@ -492,15 +492,24 @@ function situationsFor(word) {
 }
 
 // 例文中の見出し語を強調（HTML エスケープ後の文字列に対して）
+// ベトナム語の声調記号付き文字にも対応するため、\b ではなく Unicode の文字クラスで境界を判定。
+// 「năm (年)」のような括弧書きの補足は除いて照合する。
 function highlightWord(escapedText, word) {
-  const target = escapeHtml(word).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return escapedText.replace(new RegExp(`\\b(${target})\\b`, 'gi'), '<mark>$1</mark>');
+  const base = word.replace(/\s*\(.*?\)/g, '').trim();
+  if (!base) return escapedText;
+  const target = escapeHtml(base).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return escapedText.replace(
+    new RegExp(`(?<![\\p{L}\\p{N}])(${target})(?![\\p{L}\\p{N}])`, 'giu'),
+    '<mark>$1</mark>'
+  );
 }
 
 function renderSituations(word) {
   const card = document.querySelector('.flashcard');
   const box  = document.getElementById('card-situations');
   const list = situationsFor(word);
+  const lang = word.lang ?? vocabState.lang;
+  const textOf = (l) => l[lang] ?? l.en ?? '';
   card?.classList.toggle('flashcard-rich', list.length > 0);
   box?.classList.toggle('hidden', list.length === 0);
   if (!box) return;
@@ -517,7 +526,7 @@ function renderSituations(word) {
         ${sit.lines.map((l) => `
           <div class="sit-line">
             <span class="sit-speaker">${escapeHtml(l.speaker)}</span>
-            <span>${highlightWord(escapeHtml(l.en), word.word)}</span>
+            <span>${highlightWord(escapeHtml(textOf(l)), word.word)}</span>
           </div>`).join('')}
         <details class="use-ja"><summary>訳を見る</summary>
           ${sit.lines.map((l) => `<div>${escapeHtml(l.speaker)}: ${escapeHtml(l.ja)}</div>`).join('')}
@@ -528,7 +537,7 @@ function renderSituations(word) {
     btn.addEventListener('click', (e) => {
       e.stopPropagation(); // カードを裏返さない
       const sit = list[parseInt(btn.dataset.sit, 10)];
-      if (sit) speakDialogue(sit.lines.map((l) => ({ en: l.en })), 'en', { gapMs: 400 });
+      if (sit) speakDialogue(sit.lines.map((l) => ({ [lang]: textOf(l) })), lang, { gapMs: 400 });
     });
   });
 }

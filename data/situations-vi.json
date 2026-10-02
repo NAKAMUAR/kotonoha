@@ -1,0 +1,9602 @@
+{
+ "vi_001": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "こんにちは、ABC社の佐藤です。",
+     "vi": "Xin chào, tôi là Sato của công ty ABC."
+    },
+    {
+     "speaker": "B",
+     "ja": "こんにちは、お会いできてうれしいです。",
+     "vi": "Xin chào anh, rất vui được gặp anh."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "いらっしゃいませ、何かお探しですか？",
+     "vi": "Xin chào chị, chị cần gì ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "こんにちは、この服を見たいです。",
+     "vi": "Xin chào, tôi muốn xem cái áo này."
+    }
+   ]
+  }
+ ],
+ "vi_002": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お先に失礼します。みなさん、さようなら！",
+     "vi": "Tôi về trước nhé. Tạm biệt mọi người!"
+    },
+    {
+     "speaker": "B",
+     "ja": "さようなら、また明日！",
+     "vi": "Tạm biệt, mai gặp lại!"
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "さようなら、すごく寂しくなるよ。",
+     "vi": "Tạm biệt, mình sẽ nhớ bạn lắm."
+    },
+    {
+     "speaker": "B",
+     "ja": "じゃあね！気をつけて行ってね。",
+     "vi": "Tạm biệt! Đi đường bình an nhé."
+    }
+   ]
+  }
+ ],
+ "vi_003": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お釣りです。",
+     "vi": "Tiền thừa của chị đây ạ."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう。",
+     "vi": "Cảm ơn em."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お菓子を買ってきたよ。",
+     "vi": "Mình mua bánh cho bạn này."
+    },
+    {
+     "speaker": "B",
+     "ja": "わあ、ありがとう！",
+     "vi": "Ôi, cảm ơn bạn!"
+    }
+   ]
+  }
+ ],
+ "vi_004": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "痛っ！足を踏みましたよ。",
+     "vi": "Ối! Anh giẫm lên chân tôi rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "すみません、わざとじゃないんです。",
+     "vi": "Xin lỗi chị, tôi không cố ý."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "遅れてすみません。電車が遅れまして。",
+     "vi": "Xin lỗi, tôi đến muộn. Tàu bị trễ."
+    },
+    {
+     "speaker": "B",
+     "ja": "大丈夫、今始めたところです。",
+     "vi": "Không sao, chúng ta vừa mới bắt đầu."
+    }
+   ]
+  }
+ ],
+ "vi_005": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お飲み物は何になさいますか？",
+     "vi": "Anh muốn uống gì ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "お水を1杯お願いします。",
+     "vi": "Làm ơn cho tôi một cốc nước."
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どちらまで？",
+     "vi": "Anh đi đâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ハノイホテルまでお願いします。",
+     "vi": "Làm ơn cho tôi đến khách sạn Hà Nội."
+    }
+   ]
+  }
+ ],
+ "vi_006": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "報告書はもう送った？",
+     "vi": "Em gửi báo cáo cho anh chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、もう送りました。",
+     "vi": "Vâng, em gửi rồi ạ."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ご飯食べた？",
+     "vi": "Con ăn cơm chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、もう食べたよ。",
+     "vi": "Vâng, con ăn rồi ạ."
+    }
+   ]
+  }
+ ],
+ "vi_007": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "袋はご入用ですか？",
+     "vi": "Chị có cần túi không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいえ、結構です。",
+     "vi": "Không, cảm ơn em."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ダナンに行ったことある？",
+     "vi": "Bạn đã đến Đà Nẵng chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ないよ、一度も。きれいなのかな？",
+     "vi": "Chưa, mình chưa đến bao giờ. Không biết có đẹp không?"
+    }
+   ]
+  }
+ ],
+ "vi_008": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "こんにちは、ユキと申します。新入社員です。",
+     "vi": "Xin chào, tôi tên là Yuki. Tôi là nhân viên mới."
+    },
+    {
+     "speaker": "B",
+     "ja": "ユキさん、ようこそ。",
+     "vi": "Chào Yuki, chào mừng em."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "私はミンです。あなたは？",
+     "vi": "Tôi tên là Minh. Còn bạn?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ケンです、日本から来ました。",
+     "vi": "Tôi tên là Ken, tôi đến từ Nhật Bản."
+    }
+   ]
+  }
+ ],
+ "vi_009": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "私はホア、1年生です。",
+     "vi": "Mình là Hoa, sinh viên năm nhất."
+    },
+    {
+     "speaker": "B",
+     "ja": "はじめまして、ケンです。",
+     "vi": "Rất vui được gặp bạn, mình là Ken."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "こちらは親友のランだよ。",
+     "vi": "Đây là Lan, bạn thân của mình."
+    },
+    {
+     "speaker": "B",
+     "ja": "ラン、はじめまして。",
+     "vi": "Chào Lan, rất vui được gặp bạn."
+    }
+   ]
+  }
+ ],
+ "vi_010": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "久しぶり！元気？",
+     "vi": "Lâu quá không gặp! Bạn khỏe không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "元気だよ、ありがとう。あなたは？",
+     "vi": "Mình khỏe, cảm ơn. Còn bạn?"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もしもし、ラン？元気？",
+     "vi": "Alô, Lan à? Bạn khỏe không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "元気だよ、しばらく話してなかったね！",
+     "vi": "Mình khỏe, lâu rồi không nói chuyện nhỉ!"
+    }
+   ]
+  }
+ ],
+ "vi_011": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "やあミン！どこ行くの？",
+     "vi": "Chào Minh! Đi đâu đấy?"
+    },
+    {
+     "speaker": "B",
+     "ja": "やあ！学校に行くんだ。",
+     "vi": "Chào bạn! Mình đi học."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ホアさん、こんにちは！",
+     "vi": "Chào chị Hoa!"
+    },
+    {
+     "speaker": "B",
+     "ja": "こんにちは、今日は早いのね。",
+     "vi": "Chào em, hôm nay em đến sớm thế."
+    }
+   ]
+  }
+ ],
+ "vi_012": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "おはよう！昨日はよく眠れた？",
+     "vi": "Chào buổi sáng! Hôm qua ngủ ngon không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "おはよう。あまり。",
+     "vi": "Chào buổi sáng. Không ngon lắm."
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "おはようございます、朝食は2階です。",
+     "vi": "Chào buổi sáng, bữa sáng ở tầng hai ạ."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう。",
+     "vi": "Cảm ơn em."
+    }
+   ]
+  }
+ ],
+ "vi_013": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "こんばんは、ご予約はございますか？",
+     "vi": "Chào buổi tối, anh chị đã đặt bàn chưa ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、田中です。",
+     "vi": "Rồi, tên Tanaka."
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "こんばんは、おかえりなさいませ。",
+     "vi": "Chào buổi tối, anh về rồi ạ."
+    },
+    {
+     "speaker": "B",
+     "ja": "部屋の鍵をお願いします。",
+     "vi": "Cho tôi chìa khóa phòng nhé."
+    }
+   ]
+  }
+ ],
+ "vi_014": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もう寝るね。お母さん、おやすみ！",
+     "vi": "Con đi ngủ đây. Chúc ngủ ngon mẹ nhé!"
+    },
+    {
+     "speaker": "B",
+     "ja": "おやすみ。",
+     "vi": "Chúc ngủ ngon."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もう遅いから切るね。おやすみ！",
+     "vi": "Muộn rồi, mình cúp máy nhé. Chúc ngủ ngon!"
+    },
+    {
+     "speaker": "B",
+     "ja": "おやすみ、また明日話そうね。",
+     "vi": "Chúc ngủ ngon, mai nói chuyện tiếp nhé."
+    }
+   ]
+  }
+ ],
+ "vi_015": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "また月曜日に！",
+     "vi": "Hẹn gặp lại vào thứ hai nhé!"
+    },
+    {
+     "speaker": "B",
+     "ja": "またね、よい週末を！",
+     "vi": "Hẹn gặp lại, cuối tuần vui vẻ!"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もう帰らなきゃ。",
+     "vi": "Mình phải về rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、また近いうちに会おうね。",
+     "vi": "Ừ, hẹn gặp lại bạn sớm nhé."
+    }
+   ]
+  }
+ ],
+ "vi_016": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日サイゴンに出張なんだ。",
+     "vi": "Mai mình đi Sài Gòn công tác."
+    },
+    {
+     "speaker": "B",
+     "ja": "気をつけてね！",
+     "vi": "Bảo trọng nhé!"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ちょっと風邪をひいたの。",
+     "vi": "Con bị cảm một chút."
+    },
+    {
+     "speaker": "B",
+     "ja": "体に気をつけてね。",
+     "vi": "Bảo trọng sức khỏe nhé con."
+    }
+   ]
+  }
+ ],
+ "vi_017": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "いらっしゃいませ！どうぞお入りください。",
+     "vi": "Chào mừng quý khách! Mời vào ạ."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう。",
+     "vi": "Cảm ơn."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "会社へようこそ！",
+     "vi": "Chào mừng em đến với công ty!"
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとうございます、うれしいです。",
+     "vi": "Em cảm ơn anh, em rất vui."
+    }
+   ]
+  }
+ ],
+ "vi_018": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "道を教えてくれてありがとう。",
+     "vi": "Cảm ơn anh đã chỉ đường."
+    },
+    {
+     "speaker": "B",
+     "ja": "どういたしまして。",
+     "vi": "Không có gì."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "手伝ってくれてありがとうございます。",
+     "vi": "Cảm ơn chị đã giúp em."
+    },
+    {
+     "speaker": "B",
+     "ja": "どういたしまして。",
+     "vi": "Không có gì đâu em."
+    }
+   ]
+  }
+ ],
+ "vi_019": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "これ、誕生日プレゼントだよ。",
+     "vi": "Đây là quà sinh nhật của bạn."
+    },
+    {
+     "speaker": "B",
+     "ja": "どうもありがとう！すごくうれしい。",
+     "vi": "Cảm ơn nhiều! Mình thích lắm."
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日のお料理はいかがでしたか？",
+     "vi": "Món ăn hôm nay thế nào ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "とてもおいしかったです、どうもありがとう！",
+     "vi": "Rất ngon, cảm ơn nhiều!"
+    }
+   ]
+  }
+ ],
+ "vi_020": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日お店が開いてるのは確か？",
+     "vi": "Bạn chắc chắn là cửa hàng mở cửa hôm nay không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "確かだよ、ネットで見たばかり。",
+     "vi": "Chắc chắn, mình vừa xem trên mạng."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "私の結婚式に来てくれる？",
+     "vi": "Bạn có đến đám cưới của mình không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "もちろん！",
+     "vi": "Chắc chắn rồi!"
+    }
+   ]
+  }
+ ],
+ "vi_021": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "3時に会議でいい？",
+     "vi": "Ba giờ họp nhé?"
+    },
+    {
+     "speaker": "B",
+     "ja": "オッケー、3時ね。",
+     "vi": "Được, ba giờ nhé."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "カードで払えますか？",
+     "vi": "Tôi trả bằng thẻ được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "大丈夫です。",
+     "vi": "Được ạ."
+    }
+   ]
+  }
+ ],
+ "vi_022": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今夜映画見に行く？",
+     "vi": "Tối nay bạn đi xem phim không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "たぶんね。ちょっと確認させて。",
+     "vi": "Có lẽ. Để mình xem đã."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は雨降るかな？",
+     "vi": "Hôm nay có mưa không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "降るかもね。傘を持っていきなさい。",
+     "vi": "Có lẽ có. Con mang ô đi nhé."
+    }
+   ]
+  }
+ ],
+ "vi_023": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あっ、すみません！",
+     "vi": "Ôi, xin lỗi chị!"
+    },
+    {
+     "speaker": "B",
+     "ja": "大丈夫ですよ。",
+     "vi": "Không sao đâu."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "資料を持ってくるのを忘れました。",
+     "vi": "Em quên mang tài liệu rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "大丈夫、別のがあるから。",
+     "vi": "Không sao, anh có bản khác."
+    }
+   ]
+  }
+ ],
+ "vi_024": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日試験だ、怖いよ。",
+     "vi": "Mai mình thi rồi, sợ quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "心配しないで、たくさん勉強したじゃない。",
+     "vi": "Đừng lo, bạn học nhiều rồi mà."
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "先生、うちの子は大丈夫ですか？",
+     "vi": "Bác sĩ ơi, con tôi có sao không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "心配いりません、ただの風邪です。",
+     "vi": "Đừng lo, cháu chỉ bị cảm thôi."
+    }
+   ]
+  }
+ ],
+ "vi_025": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お先に失礼いたします。",
+     "vi": "Em xin phép về trước ạ."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、お疲れさま。",
+     "vi": "Ừ, em về đi."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "失礼します、入ってもいいですか？",
+     "vi": "Xin phép, tôi vào được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "どうぞお入りください。",
+     "vi": "Mời anh vào."
+    }
+   ]
+  }
+ ],
+ "vi_026": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お名前は何ですか？",
+     "vi": "Chị tên là gì ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "田中ユキです。",
+     "vi": "Tôi tên là Tanaka Yuki."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あなたの犬の名前は？",
+     "vi": "Con chó của bạn tên gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ムックっていうの。",
+     "vi": "Nó tên là Mực."
+    }
+   ]
+  }
+ ],
+ "vi_027": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このプロジェクトの担当は誰ですか？",
+     "vi": "Ai phụ trách dự án này?"
+    },
+    {
+     "speaker": "B",
+     "ja": "私です。",
+     "vi": "Tôi ạ."
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "牛肉のフォーはどなたですか？",
+     "vi": "Ai gọi phở bò ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "私です。ありがとう。",
+     "vi": "Tôi. Cảm ơn em."
+    }
+   ]
+  }
+ ],
+ "vi_028": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あなたはどこの国の人？",
+     "vi": "Bạn là người nước nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "日本人だよ。",
+     "vi": "Mình là người Nhật."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今週末は空いてる？",
+     "vi": "Cuối tuần này bạn rảnh không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "空いてるよ、どうしたの？",
+     "vi": "Rảnh, sao thế?"
+    }
+   ]
+  }
+ ],
+ "vi_029": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこから来たの？",
+     "vi": "Bạn từ đâu đến?"
+    },
+    {
+     "speaker": "B",
+     "ja": "東京から来たよ。",
+     "vi": "Mình từ Tokyo đến."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "会議は何時から？",
+     "vi": "Cuộc họp từ mấy giờ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "2時から4時までです。",
+     "vi": "Từ hai giờ đến bốn giờ."
+    }
+   ]
+  }
+ ],
+ "vi_030": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何か国行ったことある？",
+     "vi": "Bạn đã đi bao nhiêu nước rồi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "10か国くらい。",
+     "vi": "Khoảng mười nước."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どの国に住みたい？",
+     "vi": "Bạn muốn sống ở nước nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "カナダに住みたいな。",
+     "vi": "Mình muốn sống ở Canada."
+    }
+   ]
+  }
+ ],
+ "vi_031": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "日本に来たことある？",
+     "vi": "Bạn đã đến Nhật Bản bao giờ chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、去年京都に行ったよ。",
+     "vi": "Rồi, mình đi Kyoto năm ngoái."
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "日本へは何をしに来ましたか？",
+     "vi": "Anh đến Nhật Bản để làm gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "観光です。",
+     "vi": "Tôi đi du lịch."
+    }
+   ]
+  }
+ ],
+ "vi_032": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナムに住んでどれくらい？",
+     "vi": "Bạn sống ở Việt Nam bao lâu rồi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "もう2年だよ。",
+     "vi": "Hai năm rồi."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナム料理で一番好きなのは？",
+     "vi": "Món ăn nào của Việt Nam bạn thích nhất?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ブンチャーが一番好き。",
+     "vi": "Mình thích bún chả nhất."
+    }
+   ]
+  }
+ ],
+ "vi_033": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "学割はありますか？",
+     "vi": "Có giảm giá cho sinh viên không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、学生証を見せてください。",
+     "vi": "Có, em cho chị xem thẻ sinh viên nhé."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もう働いてるの？",
+     "vi": "Bạn đi làm chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、まだ大学生だよ。",
+     "vi": "Chưa, mình vẫn là sinh viên."
+    }
+   ]
+  }
+ ],
+ "vi_034": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "英語の先生は誰？",
+     "vi": "Giáo viên tiếng Anh của bạn là ai?"
+    },
+    {
+     "speaker": "B",
+     "ja": "マイ先生。すごく楽しい先生だよ。",
+     "vi": "Cô Mai. Cô rất vui tính."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "将来何になりたい？",
+     "vi": "Sau này bạn muốn làm gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "先生になりたいな。",
+     "vi": "Mình muốn làm giáo viên."
+    }
+   ]
+  }
+ ],
+ "vi_035": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お兄さんは何の仕事をしてるの？",
+     "vi": "Anh trai bạn làm nghề gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ソフトウェアエンジニアだよ。",
+     "vi": "Anh ấy là kỹ sư phần mềm."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "プリンターがまた壊れた。",
+     "vi": "Máy in lại hỏng rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "技術者を呼んで直してもらおう。",
+     "vi": "Gọi kỹ sư đến sửa đi."
+    }
+   ]
+  }
+ ],
+ "vi_036": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "医者に診てもらいたいのですが。",
+     "vi": "Tôi muốn gặp bác sĩ."
+    },
+    {
+     "speaker": "B",
+     "ja": "こちらでお待ちください、すぐに先生が診察します。",
+     "vi": "Chị đợi ở đây, bác sĩ sẽ khám ngay."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "3日も熱が続いてるね。",
+     "vi": "Con sốt ba ngày rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "明日お医者さんに行ってね。",
+     "vi": "Mai con đi bác sĩ nhé."
+    }
+   ]
+  }
+ ],
+ "vi_037": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "新しい仕事はどう？",
+     "vi": "Công việc mới thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく忙しいけど、気に入ってる。",
+     "vi": "Bận lắm, nhưng mình thích."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は仕事が多すぎる。",
+     "vi": "Hôm nay nhiều công việc quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "手伝いますよ。",
+     "vi": "Để tôi giúp anh."
+    }
+   ]
+  }
+ ],
+ "vi_038": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "おいくつですか？",
+     "vi": "Chị bao nhiêu tuổi ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "35歳です。",
+     "vi": "Tôi ba mươi lăm tuổi."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お子さんは何歳になったの？",
+     "vi": "Con bạn mấy tuổi rồi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "もう5歳だよ。",
+     "vi": "Cháu năm tuổi rồi."
+    }
+   ]
+  }
+ ],
+ "vi_039": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこに住んでるの？",
+     "vi": "Bạn sống ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "バーディン区に住んでるよ。",
+     "vi": "Mình sống ở quận Ba Đình."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "一人暮らし？",
+     "vi": "Bạn sống một mình à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、家族と住んでる。",
+     "vi": "Không, mình sống với gia đình."
+    }
+   ]
+  }
+ ],
+ "vi_040": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "こちらはどなたですか？",
+     "vi": "Đây là ai?"
+    },
+    {
+     "speaker": "B",
+     "ja": "こちらは会社の経理のランさんです。",
+     "vi": "Đây là chị Lan, kế toán của công ty."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "韓国人なの？",
+     "vi": "Bạn là người Hàn Quốc à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、日本人だよ。",
+     "vi": "Không, mình là người Nhật."
+    }
+   ]
+  }
+ ],
+ "vi_041": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "いくつになさいますか？",
+     "vi": "Chị lấy mấy cái ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "1つだけです。",
+     "vi": "Một cái thôi."
+    }
+   ]
+  },
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "アイスミルクコーヒーを1つください。",
+     "vi": "Cho tôi một cà phê sữa đá."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、少々お待ちください。",
+     "vi": "Vâng, chị đợi một chút."
+    }
+   ]
+  }
+ ],
+ "vi_042": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何名様ですか？",
+     "vi": "Anh chị đi mấy người ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "2人です。",
+     "vi": "Hai người."
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ハイフォン行きの切符を2枚ください。",
+     "vi": "Cho tôi hai vé đi Hải Phòng."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、20万ドンです。",
+     "vi": "Vâng, hai trăm nghìn đồng ạ."
+    }
+   ]
+  }
+ ],
+ "vi_043": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何泊されますか？",
+     "vi": "Anh ở mấy đêm ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "3泊です。",
+     "vi": "Ba đêm."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "会議は何時？",
+     "vi": "Mấy giờ họp?"
+    },
+    {
+     "speaker": "B",
+     "ja": "午後3時だよ。",
+     "vi": "Ba giờ chiều."
+    }
+   ]
+  }
+ ],
+ "vi_044": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "4人用の席は空いてる？",
+     "vi": "Còn bàn cho bốn người không em?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ございます、こちらへどうぞ。",
+     "vi": "Còn ạ, mời anh chị đi lối này."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何人家族？",
+     "vi": "Nhà bạn có mấy người?"
+    },
+    {
+     "speaker": "B",
+     "ja": "4人。父、母、妹と私。",
+     "vi": "Bốn người: bố, mẹ, em gái và mình."
+    }
+   ]
+  }
+ ],
+ "vi_045": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お店は何時に閉まりますか？",
+     "vi": "Cửa hàng mấy giờ đóng cửa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "午後5時です。",
+     "vi": "Năm giờ chiều ạ."
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "空港までどれくらいかかりますか？",
+     "vi": "Đến sân bay mất bao lâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "5分くらいです。",
+     "vi": "Khoảng năm phút thôi."
+    }
+   ]
+  }
+ ],
+ "vi_046": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日の朝は何時に来ますか？",
+     "vi": "Sáng mai mấy giờ anh đến?"
+    },
+    {
+     "speaker": "B",
+     "ja": "6時。早い来客があるので。",
+     "vi": "Sáu giờ, vì có khách sớm."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナム語を勉強して何か月？",
+     "vi": "Bạn học tiếng Việt mấy tháng rồi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "6か月だよ。",
+     "vi": "Sáu tháng rồi."
+    }
+   ]
+  }
+ ],
+ "vi_047": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "1週間は7日あるのに、まだ足りない気がする！",
+     "vi": "Một tuần có bảy ngày, mà mình vẫn thấy không đủ!"
+    },
+    {
+     "speaker": "B",
+     "ja": "私も。",
+     "vi": "Mình cũng thế."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何時に起きるの？",
+     "vi": "Mấy giờ con dậy?"
+    },
+    {
+     "speaker": "B",
+     "ja": "7時だよ。",
+     "vi": "Bảy giờ ạ."
+    }
+   ]
+  }
+ ],
+ "vi_048": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何時から仕事が始まりますか？",
+     "vi": "Mấy giờ bắt đầu làm việc?"
+    },
+    {
+     "speaker": "B",
+     "ja": "朝8時です。",
+     "vi": "Tám giờ sáng."
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お部屋は8階です。",
+     "vi": "Phòng của anh ở tầng tám."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう。",
+     "vi": "Cảm ơn em."
+    }
+   ]
+  }
+ ],
+ "vi_049": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "スーパーは何時に開きますか？",
+     "vi": "Mấy giờ siêu thị mở cửa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "朝9時です。",
+     "vi": "Chín giờ sáng."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "娘さんは何歳？",
+     "vi": "Con gái bạn mấy tuổi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "9歳だよ。",
+     "vi": "Cháu chín tuổi."
+    }
+   ]
+  }
+ ],
+ "vi_050": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あと10分で着くよ。",
+     "vi": "Mười phút nữa mình đến."
+    },
+    {
+     "speaker": "B",
+     "ja": "わかった、門のところで待ってるね。",
+     "vi": "Ừ, mình đợi ở cổng."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "これはいくらですか？",
+     "vi": "Cái này bao nhiêu tiền?"
+    },
+    {
+     "speaker": "B",
+     "ja": "1万ドンです。",
+     "vi": "Mười nghìn đồng."
+    }
+   ]
+  }
+ ],
+ "vi_051": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここに住んでどれくらい？",
+     "vi": "Bạn sống ở đây bao lâu rồi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "20年だよ。",
+     "vi": "Hai mươi năm rồi."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "全部で2万ドンです。",
+     "vi": "Tất cả hai mươi nghìn ạ."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、どうぞ。",
+     "vi": "Đây ạ."
+    }
+   ]
+  }
+ ],
+ "vi_052": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここから湖までどのくらい？",
+     "vi": "Từ đây đến hồ bao xa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "500メートルくらいだよ。",
+     "vi": "Khoảng năm trăm mét thôi."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "コンサートには何人来たの？",
+     "vi": "Bao nhiêu người đến buổi hòa nhạc?"
+    },
+    {
+     "speaker": "B",
+     "ja": "300人くらい。",
+     "vi": "Khoảng ba trăm người."
+    }
+   ]
+  }
+ ],
+ "vi_053": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "合計5万ドンです。",
+     "vi": "Tổng cộng năm mươi nghìn đồng."
+    },
+    {
+     "speaker": "B",
+     "ja": "10万ドンで払いますね。",
+     "vi": "Tôi trả một trăm nghìn nhé."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は何歩歩いた？",
+     "vi": "Hôm nay bạn đi bao nhiêu bước?"
+    },
+    {
+     "speaker": "B",
+     "ja": "2万歩！足が疲れた。",
+     "vi": "Hai mươi nghìn bước! Mỏi chân quá."
+    }
+   ]
+  }
+ ],
+ "vi_054": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナムは初めて？",
+     "vi": "Đây là lần đầu tiên bạn đến Việt Nam à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、初めてです。",
+     "vi": "Vâng, lần đầu tiên."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "まず最初にすべきことは何？",
+     "vi": "Việc đầu tiên chúng ta cần làm là gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "最初にメールを確認しよう。",
+     "vi": "Đầu tiên, kiểm tra email."
+    }
+   ]
+  }
+ ],
+ "vi_055": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "最終電車は何時？",
+     "vi": "Chuyến tàu cuối mấy giờ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "夜11時だよ。",
+     "vi": "Mười một giờ đêm."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "先週末は何をしたの？",
+     "vi": "Cuối tuần trước bạn làm gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "家族とハロンに行ったよ。",
+     "vi": "Mình đi Hạ Long với gia đình."
+    }
+   ]
+  }
+ ],
+ "vi_056": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は忙しいですか？",
+     "vi": "Hôm nay anh có bận không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく忙しい、会議が3つあるんだ。",
+     "vi": "Bận lắm, có ba cuộc họp."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は何日？",
+     "vi": "Hôm nay là ngày mấy?"
+    },
+    {
+     "speaker": "B",
+     "ja": "今日は5月10日だよ。",
+     "vi": "Hôm nay là ngày mười tháng năm."
+    }
+   ]
+  }
+ ],
+ "vi_057": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日空いてる？",
+     "vi": "Ngày mai bạn rảnh không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "空いてるよ、どうしたの？",
+     "vi": "Rảnh, có chuyện gì thế?"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日までに終わらせられる？",
+     "vi": "Ngày mai em làm xong được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "がんばります。",
+     "vi": "Em sẽ cố gắng ạ."
+    }
+   ]
+  }
+ ],
+ "vi_058": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "昨日どこにいたの？",
+     "vi": "Hôm qua bạn ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "一日中家にいたよ。",
+     "vi": "Mình ở nhà cả ngày."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "昨日の私のメール、届きましたか？",
+     "vi": "Hôm qua chị nhận được email của em chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "届いたよ、今朝返信するね。",
+     "vi": "Nhận rồi, sáng nay chị trả lời nhé."
+    }
+   ]
+  }
+ ],
+ "vi_059": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "朝食は朝何時からですか？",
+     "vi": "Buổi sáng mấy giờ có bữa sáng?"
+    },
+    {
+     "speaker": "B",
+     "ja": "6時から10時までです。",
+     "vi": "Từ sáu giờ đến mười giờ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "朝に運動してる？",
+     "vi": "Bạn có tập thể dục buổi sáng không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、毎朝ジョギングしてるよ。",
+     "vi": "Có, mình chạy bộ mỗi buổi sáng."
+    }
+   ]
+  }
+ ],
+ "vi_060": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日の午後会えますか？",
+     "vi": "Buổi chiều nay mình gặp nhau được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいよ、2時でどう？",
+     "vi": "Được, hai giờ nhé."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "午後は何するの？",
+     "vi": "Buổi chiều con làm gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "図書館に行くよ。",
+     "vi": "Con đi thư viện."
+    }
+   ]
+  }
+ ],
+ "vi_061": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今晩空いてる？ご飯行こうよ！",
+     "vi": "Buổi tối nay bạn rảnh không? Đi ăn đi!"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、行こう。",
+     "vi": "Ừ, đi thôi."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ホアンキエム湖は夜がきれいだよ。",
+     "vi": "Hồ Gươm buổi tối đẹp lắm."
+    },
+    {
+     "speaker": "B",
+     "ja": "じゃあ今夜散歩しよう。",
+     "vi": "Vậy tối nay mình đi dạo đi."
+    }
+   ]
+  }
+ ],
+ "vi_062": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "1泊いくらですか？",
+     "vi": "Một đêm bao nhiêu tiền?"
+    },
+    {
+     "speaker": "B",
+     "ja": "1泊100万ドンです。",
+     "vi": "Một triệu đồng một đêm."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "昨夜眠れなかった。",
+     "vi": "Đêm qua mình không ngủ được."
+    },
+    {
+     "speaker": "B",
+     "ja": "私も、暑すぎて。",
+     "vi": "Mình cũng thế, nóng quá."
+    }
+   ]
+  }
+ ],
+ "vi_063": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "電車でフエまで何時間かかりますか？",
+     "vi": "Đi tàu đến Huế mất mấy giờ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "12時間くらいです。",
+     "vi": "Khoảng mười hai giờ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今何時？",
+     "vi": "Bây giờ là mấy giờ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "3時半だよ。",
+     "vi": "Ba giờ rưỡi."
+    }
+   ]
+  }
+ ],
+ "vi_064": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "準備できた？",
+     "vi": "Bạn xong chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "あと5分待って！",
+     "vi": "Đợi mình năm phút nữa!"
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "電車はあと何分で来ますか？",
+     "vi": "Mấy phút nữa tàu đến?"
+    },
+    {
+     "speaker": "B",
+     "ja": "あと10分です。",
+     "vi": "Mười phút nữa."
+    }
+   ]
+  }
+ ],
+ "vi_065": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "週に何日働いてるの？",
+     "vi": "Một tuần anh làm mấy ngày?"
+    },
+    {
+     "speaker": "B",
+     "ja": "週5日です。",
+     "vi": "Năm ngày một tuần."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "旅行はいつ？",
+     "vi": "Khi nào bạn đi du lịch?"
+    },
+    {
+     "speaker": "B",
+     "ja": "来週！すごく楽しみ。",
+     "vi": "Tuần sau! Mình háo hức quá."
+    }
+   ]
+  }
+ ],
+ "vi_066": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "家賃は月いくら？",
+     "vi": "Tiền nhà một tháng bao nhiêu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "500万ドンくらい。",
+     "vi": "Khoảng năm triệu đồng."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "プロジェクトはいつ始まるの？",
+     "vi": "Khi nào dự án bắt đầu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "来月だよ。",
+     "vi": "Tháng sau."
+    }
+   ]
+  }
+ ],
+ "vi_067": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナム語を勉強して何年？",
+     "vi": "Bạn học tiếng Việt mấy năm rồi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "2年だよ。",
+     "vi": "Hai năm rồi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あけましておめでとう！",
+     "vi": "Chúc mừng năm mới!"
+    },
+    {
+     "speaker": "B",
+     "ja": "あけましておめでとう！家族みんな健康でありますように。",
+     "vi": "Chúc mừng năm mới! Chúc cả nhà mạnh khỏe."
+    }
+   ]
+  }
+ ],
+ "vi_068": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今どこにいるの？",
+     "vi": "Bây giờ bạn đang ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "バスの中だよ。",
+     "vi": "Mình đang ở trên xe buýt."
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ご注文はお決まりですか？",
+     "vi": "Bây giờ anh gọi món chưa ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、フォーを1杯ください。",
+     "vi": "Rồi, cho tôi một bát phở."
+    }
+   ]
+  }
+ ],
+ "vi_069": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今話せる？",
+     "vi": "Bây giờ nói chuyện được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "今忙しいから、後でかけ直すね。",
+     "vi": "Mình đang bận, lát nữa mình gọi lại sau nhé."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "食べ終わったらどこ行く？",
+     "vi": "Ăn xong rồi đi đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "お昼の後、コーヒーを飲みに行こう。",
+     "vi": "Sau bữa trưa, mình đi uống cà phê nhé."
+    }
+   ]
+  }
+ ],
+ "vi_070": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "なんで今日はそんなに早起きなの？",
+     "vi": "Sao hôm nay con dậy sớm thế?"
+    },
+    {
+     "speaker": "B",
+     "ja": "8時のフライトがあるの。",
+     "vi": "Con có chuyến bay lúc tám giờ."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は早く帰っていいよ。",
+     "vi": "Hôm nay em có thể về sớm."
+    },
+    {
+     "speaker": "B",
+     "ja": "本当ですか？ありがとうございます！",
+     "vi": "Thật ạ? Em cảm ơn anh!"
+    }
+   ]
+  }
+ ],
+ "vi_071": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "遅れてすみません！",
+     "vi": "Xin lỗi, tôi đến muộn!"
+    },
+    {
+     "speaker": "B",
+     "ja": "大丈夫、今始めたところです。",
+     "vi": "Không sao, chúng ta vừa bắt đầu."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もう遅いよ、寝なさい。",
+     "vi": "Muộn rồi, con đi ngủ đi."
+    },
+    {
+     "speaker": "B",
+     "ja": "あと10分だけ、お母さん！",
+     "vi": "Thêm mười phút nữa thôi mẹ!"
+    }
+   ]
+  }
+ ],
+ "vi_072": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "会議はいつ？",
+     "vi": "Khi nào có cuộc họp?"
+    },
+    {
+     "speaker": "B",
+     "ja": "月曜日の朝10時です。",
+     "vi": "Thứ hai, mười giờ sáng."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "週末楽しかった？",
+     "vi": "Cuối tuần vui không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく楽しかったけど、月曜日が来てほしくない！",
+     "vi": "Vui lắm, nhưng mình không muốn đến thứ hai!"
+    }
+   ]
+  }
+ ],
+ "vi_073": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今度の金曜日、ビール飲みに行かない？",
+     "vi": "Thứ sáu này đi uống bia không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "行く行く！",
+     "vi": "Đi chứ!"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "金曜日までに報告書を送れる？",
+     "vi": "Em gửi báo cáo trước thứ sáu được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "大丈夫です。",
+     "vi": "Được ạ."
+    }
+   ]
+  }
+ ],
+ "vi_074": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "土曜日は何するの？",
+     "vi": "Thứ bảy bạn làm gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "旧市街に買い物に行くよ。",
+     "vi": "Mình đi mua sắm ở phố cổ."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "土曜日はお店開いていますか？",
+     "vi": "Thứ bảy cửa hàng có mở cửa không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、8時から夜9時までです。",
+     "vi": "Có, từ tám giờ đến chín giờ tối."
+    }
+   ]
+  }
+ ],
+ "vi_075": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今度の日曜日、公園に行こうね。",
+     "vi": "Chủ nhật này đi công viên nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "やった！ボールを持っていくね。",
+     "vi": "Hay quá! Con sẽ mang bóng."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "銀行は日曜日も開いていますか？",
+     "vi": "Ngân hàng có mở cửa chủ nhật không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいえ、日曜日は休みです。",
+     "vi": "Không, chủ nhật nghỉ."
+    }
+   ]
+  }
+ ],
+ "vi_076": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日の天気はどう？",
+     "vi": "Thời tiết hôm nay thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごくいいよ、晴れてる。",
+     "vi": "Đẹp lắm, trời nắng."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今サパの天気はどんな感じ？",
+     "vi": "Thời tiết ở Sa Pa bây giờ thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "寒くて霧が出てるよ。",
+     "vi": "Lạnh và có sương mù."
+    }
+   ]
+  }
+ ],
+ "vi_077": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は晴れてる、海に行こう！",
+     "vi": "Hôm nay trời nắng, đi biển đi!"
+    },
+    {
+     "speaker": "B",
+     "ja": "いい考えだね！",
+     "vi": "Ý hay đấy!"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "日差しが強いね、帽子をかぶってね。",
+     "vi": "Nắng quá, nhớ đội mũ nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、日焼け止めも持ってきたよ。",
+     "vi": "Ừ, mình mang kem chống nắng rồi."
+    }
+   ]
+  }
+ ],
+ "vi_078": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "雨が降ってきたよ、傘を持っていきなさい。",
+     "vi": "Trời mưa rồi, con mang ô đi."
+    },
+    {
+     "speaker": "B",
+     "ja": "はーい。",
+     "vi": "Vâng ạ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "雨の日はふだん何してる？",
+     "vi": "Ngày mưa bạn thường làm gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "家で映画を見てるよ。",
+     "vi": "Mình ở nhà xem phim."
+    }
+   ]
+  }
+ ],
+ "vi_079": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "曇ってるけど、山は見えるかな？",
+     "vi": "Trời có mây, có nhìn thấy núi không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "今日は見えないかもね。",
+     "vi": "Có lẽ hôm nay không thấy."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すごく曇ってるね。",
+     "vi": "Trời có mây nhiều quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "たぶん午後は雨だね。",
+     "vi": "Chắc chiều nay mưa."
+    }
+   ]
+  }
+ ],
+ "vi_080": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日はすごく暑い！",
+     "vi": "Hôm nay nóng quá!"
+    },
+    {
+     "speaker": "B",
+     "ja": "アイス食べに行こう。",
+     "vi": "Đi ăn kem đi."
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お気をつけください、器が熱いです。",
+     "vi": "Cẩn thận, bát nóng đấy ạ."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう。",
+     "vi": "Cảm ơn em."
+    }
+   ]
+  }
+ ],
+ "vi_081": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "部屋の中が寒すぎる。",
+     "vi": "Trong phòng lạnh quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "ヒーターをつけるね。",
+     "vi": "Để mình bật máy sưởi."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ハノイの冬は寒い？",
+     "vi": "Hà Nội mùa đông có lạnh không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく寒いよ、暖かい服を持ってきてね。",
+     "vi": "Lạnh lắm, nhớ mang áo ấm."
+    }
+   ]
+  }
+ ],
+ "vi_082": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は暖かいね。",
+     "vi": "Hôm nay trời ấm nhỉ."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、春が来たね。",
+     "vi": "Ừ, mùa xuân đến rồi."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このセーター、本当に暖かい。",
+     "vi": "Cái áo này ấm thật."
+    },
+    {
+     "speaker": "B",
+     "ja": "祖母が編んだんだ。",
+     "vi": "Bà mình đan đấy."
+    }
+   ]
+  }
+ ],
+ "vi_083": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ダラットはすごく涼しいね！",
+     "vi": "Đà Lạt mát quá!"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、サイゴンよりずっと快適。",
+     "vi": "Ừ, dễ chịu hơn Sài Gòn nhiều."
+    }
+   ]
+  },
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここに座ると風が涼しいね。",
+     "vi": "Ngồi đây gió mát quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、ここでしばらく座っていよう。",
+     "vi": "Ừ, mình ngồi đây lâu chút nhé."
+    }
+   ]
+  }
+ ],
+ "vi_084": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は風が強いね。",
+     "vi": "Hôm nay gió to quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "帽子をしっかり押さえて！",
+     "vi": "Giữ mũ cẩn thận nhé!"
+    }
+   ]
+  },
+  {
+   "scene": "ニュース",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "台風で強い風と大雨になるそうです。",
+     "vi": "Bão sẽ mang theo gió mạnh và mưa to."
+    },
+    {
+     "speaker": "B",
+     "ja": "明日は家にいよう。",
+     "vi": "Mai mình ở nhà thôi."
+    }
+   ]
+  }
+ ],
+ "vi_085": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナムって雪は降るの？",
+     "vi": "Việt Nam có tuyết không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、サパではたまに降るよ。",
+     "vi": "Có, thỉnh thoảng ở Sa Pa có tuyết."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "北海道は雪が多い？",
+     "vi": "Ở Hokkaido có nhiều tuyết không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく多いよ、特に1月は。",
+     "vi": "Nhiều lắm, nhất là tháng một."
+    }
+   ]
+  }
+ ],
+ "vi_086": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここで傘は売っていますか？",
+     "vi": "Ở đây có bán ô không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、出入口の近くにあります。",
+     "vi": "Có, ở gần cửa ra vào."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "傘を借りてもいい？",
+     "vi": "Cho mình mượn ô được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいよ、2本持ってるから。",
+     "vi": "Được, mình có hai cái."
+    }
+   ]
+  }
+ ],
+ "vi_087": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "一番好きな季節は？",
+     "vi": "Bạn thích mùa nào nhất?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ハノイの秋が一番好き。",
+     "vi": "Mình thích mùa thu Hà Nội nhất."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ホイアンにはどの季節に行くのがいい？",
+     "vi": "Mùa nào nên đi Hội An?"
+    },
+    {
+     "speaker": "B",
+     "ja": "2月から4月が一番いいよ。",
+     "vi": "Từ tháng hai đến tháng tư là đẹp nhất."
+    }
+   ]
+  }
+ ],
+ "vi_088": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この夏はどこに行くの？",
+     "vi": "Mùa hè này bạn đi đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "フーコックに行くんだ！",
+     "vi": "Mình đi Phú Quốc!"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ハノイの夏はすごく蒸し暑いね。",
+     "vi": "Mùa hè ở Hà Nội nóng và ẩm lắm."
+    },
+    {
+     "speaker": "B",
+     "ja": "エアコンなしじゃ眠れないよ。",
+     "vi": "Không có điều hòa thì không ngủ được."
+    }
+   ]
+  }
+ ],
+ "vi_089": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "冬は好き？",
+     "vi": "Bạn có thích mùa đông không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、冬に鍋を食べるのが好き。",
+     "vi": "Có, mình thích ăn lẩu vào mùa đông."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "冬用のコートを買いたいんです。",
+     "vi": "Tôi cần mua áo khoác mùa đông."
+    },
+    {
+     "speaker": "B",
+     "ja": "冬物はこちらです。",
+     "vi": "Đồ mùa đông ở bên này ạ."
+    }
+   ]
+  }
+ ],
+ "vi_090": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "春にはテトがあるから大好き。",
+     "vi": "Mùa xuân có Tết, con thích lắm."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、家族みんなが集まるね。",
+     "vi": "Ừ, cả nhà sum họp."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "日本の春には桜があるよ。",
+     "vi": "Mùa xuân ở Nhật có hoa anh đào."
+    },
+    {
+     "speaker": "B",
+     "ja": "ぜひ見に行きたい！",
+     "vi": "Mình rất muốn đi xem!"
+    }
+   ]
+  }
+ ],
+ "vi_091": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すみません、郵便局はどこですか？",
+     "vi": "Xin lỗi, bưu điện ở đâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "銀行の隣です。",
+     "vi": "Ở cạnh ngân hàng."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "私のメガネどこだっけ？",
+     "vi": "Kính của mình ở đâu nhỉ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "頭の上にあるよ！",
+     "vi": "Ở trên đầu bạn kìa!"
+    }
+   ]
+  }
+ ],
+ "vi_092": [
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここで止めてください。",
+     "vi": "Anh dừng ở đây nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、8万ドンです。",
+     "vi": "Vâng, tám mươi nghìn ạ."
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここに座ってもいい？",
+     "vi": "Mình ngồi ở đây được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいよ、どうぞ。",
+     "vi": "Được, mời ngồi."
+    }
+   ]
+  }
+ ],
+ "vi_093": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "駅は遠いですか？",
+     "vi": "Nhà ga có xa không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいえ、そこです、あの角ですよ。",
+     "vi": "Không, ở đó, ngay góc đường kia."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もう着いた？",
+     "vi": "Bạn đến chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "もうすぐ、あと5分でそこに着くよ。",
+     "vi": "Sắp rồi, năm phút nữa mình ở đó."
+    }
+   ]
+  }
+ ],
+ "vi_094": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "博物館へはどう行けばいいですか？",
+     "vi": "Đi bảo tàng thế nào ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "交差点で左に曲がってください。",
+     "vi": "Đến ngã tư thì rẽ trái."
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "エレベーターはどこですか？",
+     "vi": "Thang máy ở đâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "左手にございます。",
+     "vi": "Ở bên trái anh ạ."
+    }
+   ]
+  }
+ ],
+ "vi_095": [
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "信号のところで右に曲がってください。",
+     "vi": "Đến đèn đỏ thì rẽ phải nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい。",
+     "vi": "Vâng."
+    }
+   ]
+  },
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "銀行はどちら側ですか？",
+     "vi": "Ngân hàng ở bên nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "道の右側です。",
+     "vi": "Ở bên phải đường."
+    }
+   ]
+  }
+ ],
+ "vi_096": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ハノイ駅はどこですか？",
+     "vi": "Ga Hà Nội ở đâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "500メートルくらいまっすぐ行ってください。",
+     "vi": "Đi thẳng khoảng năm trăm mét."
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここで曲がりますか？",
+     "vi": "Ở đây rẽ không anh?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいえ、そのまままっすぐ。",
+     "vi": "Không, đi thẳng tiếp."
+    }
+   ]
+  }
+ ],
+ "vi_097": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この近くにコンビニはありますか？",
+     "vi": "Gần đây có cửa hàng tiện lợi không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、通りのすぐ向かいです。",
+     "vi": "Có, ngay bên kia đường."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "家は学校から近いの？",
+     "vi": "Nhà bạn có gần trường không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく近いよ、歩いて5分。",
+     "vi": "Gần lắm, đi bộ năm phút."
+    }
+   ]
+  }
+ ],
+ "vi_098": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "空港はここから遠いですか？",
+     "vi": "Sân bay có xa đây không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "けっこう遠いです、タクシーで30分かかります。",
+     "vi": "Khá xa, đi taxi mất ba mươi phút."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "歩いて通勤してるの？",
+     "vi": "Bạn đi bộ đi làm à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、会社がすごく遠いんだ。",
+     "vi": "Không, công ty xa lắm."
+    }
+   ]
+  }
+ ],
+ "vi_099": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すみません、ハノイ駅へはどの道ですか？",
+     "vi": "Xin lỗi, đi ga Hà Nội đường nào ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "まっすぐ行って右です。",
+     "vi": "Đi thẳng rồi rẽ phải."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこで待ち合わせる？",
+     "vi": "Mình gặp nhau ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "6時に駅の前でね。",
+     "vi": "Ở trước cửa ga lúc sáu giờ nhé."
+    }
+   ]
+  }
+ ],
+ "vi_100": [
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ノイバイ空港までお願いします。",
+     "vi": "Anh cho tôi ra sân bay Nội Bài."
+    },
+    {
+     "speaker": "B",
+     "ja": "国内線ですか、国際線ですか？",
+     "vi": "Ga quốc nội hay quốc tế ạ?"
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "空港まで迎えに行くね。",
+     "vi": "Mình sẽ ra sân bay đón bạn."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう！飛行機は3時に着くよ。",
+     "vi": "Cảm ơn! Máy bay hạ cánh lúc ba giờ."
+    }
+   ]
+  }
+ ],
+ "vi_101": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "一番近い病院はどこですか？",
+     "vi": "Bệnh viện gần nhất ở đâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "5分くらい行けば着きます。",
+     "vi": "Đi khoảng năm phút là đến."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "なんでナムさんは入院したの？",
+     "vi": "Sao anh Nam phải vào bệnh viện?"
+    },
+    {
+     "speaker": "B",
+     "ja": "足を骨折したんだ。",
+     "vi": "Anh ấy bị gãy chân."
+    }
+   ]
+  }
+ ],
+ "vi_102": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日のお昼、銀行に行かなきゃ。",
+     "vi": "Trưa nay mình phải ra ngân hàng."
+    },
+    {
+     "speaker": "B",
+     "ja": "銀行は4時に閉まるよ。",
+     "vi": "Ngân hàng đóng cửa lúc bốn giờ đấy."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこで両替できますか？",
+     "vi": "Đổi tiền ở đâu được ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "銀行か金の店でできますよ。",
+     "vi": "Ở ngân hàng hoặc tiệm vàng."
+    }
+   ]
+  }
+ ],
+ "vi_103": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ホテルの部屋を予約したいのですが。",
+     "vi": "Tôi muốn đặt phòng khách sạn."
+    },
+    {
+     "speaker": "B",
+     "ja": "何日のご予定ですか？",
+     "vi": "Anh đặt cho ngày nào ạ?"
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どちらのホテルにお泊まりですか？",
+     "vi": "Anh ở khách sạn nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ホアンキエム湖近くのセンホテルです。",
+     "vi": "Khách sạn Sen, gần Hồ Gươm."
+    }
+   ]
+  }
+ ],
+ "vi_104": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日の午後、子どもたちを公園に連れて行こう。",
+     "vi": "Chiều nay cho các con đi công viên nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、今日はいい天気だし。",
+     "vi": "Ừ, hôm nay trời đẹp."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "毎朝ジョギングしてるの？",
+     "vi": "Sáng nào bạn cũng chạy bộ à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、トンニャット公園でね。",
+     "vi": "Ừ, ở công viên Thống Nhất."
+    }
+   ]
+  }
+ ],
+ "vi_105": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この近くにいい靴屋さんある？",
+     "vi": "Gần đây có cửa hàng giày nào tốt không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "あるよ、ハンバック通りに。",
+     "vi": "Có, ở phố Hàng Bạc."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこ行くの？",
+     "vi": "Con đi đâu đấy?"
+    },
+    {
+     "speaker": "B",
+     "ja": "お店に行くよ。お母さん何か要る？",
+     "vi": "Con ra cửa hàng. Mẹ cần gì không?"
+    }
+   ]
+  }
+ ],
+ "vi_106": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "レストランはどの通りにありますか？",
+     "vi": "Nhà hàng ở đường nào ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "リートゥオンキエット通りです。",
+     "vi": "Ở đường Lý Thường Kiệt."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "道を渡るときは気をつけてね。",
+     "vi": "Qua đường phải cẩn thận nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、わかってる。",
+     "vi": "Vâng, con biết rồi."
+    }
+   ]
+  }
+ ],
+ "vi_107": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "カフェはどこですか？",
+     "vi": "Quán cà phê ở đâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "角の、薬局の隣です。",
+     "vi": "Ở góc đường, cạnh hiệu thuốc."
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あの角で降ろしてください。",
+     "vi": "Anh cho tôi xuống ở góc kia nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい。",
+     "vi": "Vâng."
+    }
+   ]
+  }
+ ],
+ "vi_108": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "市内の地図を1枚ください。",
+     "vi": "Cho tôi xin một bản đồ thành phố."
+    },
+    {
+     "speaker": "B",
+     "ja": "どうぞ、無料です。",
+     "vi": "Đây ạ, miễn phí."
+    }
+   ]
+  },
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "道に迷ったみたい。",
+     "vi": "Hình như mình bị lạc rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "携帯の地図を見てみるね。",
+     "vi": "Để mình xem bản đồ trên điện thoại."
+    }
+   ]
+  }
+ ],
+ "vi_109": [
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "住所はどこですか？",
+     "vi": "Địa chỉ ở đâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "これです、携帯でお見せします。",
+     "vi": "Đây, tôi cho anh xem trên điện thoại."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "こちらにご住所を書いてください。",
+     "vi": "Chị viết địa chỉ vào đây nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "電話番号も必要ですか？",
+     "vi": "Có cần số điện thoại không?"
+    }
+   ]
+  }
+ ],
+ "vi_110": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "地元はどこ？",
+     "vi": "Quê bạn ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "北のほう、ラオカイの近くだよ。",
+     "vi": "Ở phía bắc, gần Lào Cai."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナム北部は冬寒い？",
+     "vi": "Phía bắc Việt Nam mùa đông lạnh không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく寒いよ、10度を下回ることもある。",
+     "vi": "Lạnh lắm, có khi dưới mười độ."
+    }
+   ]
+  }
+ ],
+ "vi_111": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "南のほうは暖かい？",
+     "vi": "Phía nam có ấm không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "暖かいよ、サイゴンは一年中暑い。",
+     "vi": "Ấm, Sài Gòn nóng quanh năm."
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どの出口からバスターミナルに出られますか？",
+     "vi": "Đi cửa nào ra bến xe buýt?"
+    },
+    {
+     "speaker": "B",
+     "ja": "南口から出てください。",
+     "vi": "Đi cửa phía nam ạ."
+    }
+   ]
+  }
+ ],
+ "vi_112": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "太陽は東から昇るね。",
+     "vi": "Mặt trời mọc ở phía đông."
+    },
+    {
+     "speaker": "B",
+     "ja": "明日早起きして海で朝日を見よう。",
+     "vi": "Mai dậy sớm ra biển ngắm bình minh nhé."
+    }
+   ]
+  },
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "市場はどちらの方角ですか？",
+     "vi": "Chợ ở phía nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "東の方、ここから2キロです。",
+     "vi": "Ở phía đông, cách đây hai cây số."
+    }
+   ]
+  }
+ ],
+ "vi_113": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ビーチは島の西側にあるの？",
+     "vi": "Bãi biển ở phía tây đảo à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、そこの夕日はすごくきれいだよ。",
+     "vi": "Ừ, hoàng hôn ở đó đẹp lắm."
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "西口を出るとホテルです。",
+     "vi": "Ra cửa phía tây là đến khách sạn."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとうございます。",
+     "vi": "Cảm ơn anh."
+    }
+   ]
+  }
+ ],
+ "vi_114": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お店は何時に閉まりますか？",
+     "vi": "Mấy giờ cửa hàng đóng cửa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "夜9時です。",
+     "vi": "Chín giờ tối ạ."
+    }
+   ]
+  },
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "博物館は今日閉まってるの？",
+     "vi": "Bảo tàng hôm nay đóng cửa à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、月曜日は休館だよ。",
+     "vi": "Ừ, thứ hai đóng cửa."
+    }
+   ]
+  }
+ ],
+ "vi_115": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "日曜日は開いていますか？",
+     "vi": "Chủ nhật có mở cửa không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、毎日営業しています。",
+     "vi": "Có, chúng tôi mở cửa hàng ngày."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "暑いね、窓を開けて。",
+     "vi": "Nóng quá, mở cửa sổ ra đi."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん。",
+     "vi": "Ừ."
+    }
+   ]
+  }
+ ],
+ "vi_116": [
+  {
+   "scene": "市場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このシャツはいくらですか？",
+     "vi": "Cái áo này bao nhiêu tiền?"
+    },
+    {
+     "speaker": "B",
+     "ja": "20万ドンです。",
+     "vi": "Hai trăm nghìn đồng."
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "空港までいくらかかりますか？",
+     "vi": "Ra sân bay hết bao nhiêu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "30万ドンくらいです。",
+     "vi": "Khoảng ba trăm nghìn."
+    }
+   ]
+  }
+ ],
+ "vi_117": [
+  {
+   "scene": "市場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "50万ドン？高すぎる！",
+     "vi": "Năm trăm nghìn à? Đắt quá!"
+    },
+    {
+     "speaker": "B",
+     "ja": "じゃあ、40万ドンでどう。",
+     "vi": "Thôi, bốn trăm nghìn nhé."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "東京は何でも高いね。",
+     "vi": "Ở Tokyo cái gì cũng đắt."
+    },
+    {
+     "speaker": "B",
+     "ja": "そう、特に家賃がね。",
+     "vi": "Đúng, nhất là tiền nhà."
+    }
+   ]
+  }
+ ],
+ "vi_118": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "その服どこで買ったの？",
+     "vi": "Bạn mua áo này ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "市場だよ、すごく安かった。",
+     "vi": "Ở chợ, rẻ lắm."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この近くに安いホテルはありますか？",
+     "vi": "Gần đây có khách sạn nào rẻ không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "駅の横にゲストハウスがあります。",
+     "vi": "Có nhà nghỉ ở cạnh ga."
+    }
+   ]
+  }
+ ],
+ "vi_119": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "少しお金を貸してくれない？",
+     "vi": "Cho mình mượn ít tiền được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いくら必要なの？",
+     "vi": "Bạn cần bao nhiêu?"
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "財布をなくして、お金がなくなりました。",
+     "vi": "Tôi bị mất ví, hết tiền rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "警察に届けたほうがいいですよ。",
+     "vi": "Anh nên báo công an."
+    }
+   ]
+  }
+ ],
+ "vi_120": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "これは何ドンですか？",
+     "vi": "Cái này bao nhiêu đồng?"
+    },
+    {
+     "speaker": "B",
+     "ja": "5万ドンです。",
+     "vi": "Năm mươi nghìn đồng."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "1円は何ドンですか？",
+     "vi": "Một yên bằng bao nhiêu đồng?"
+    },
+    {
+     "speaker": "B",
+     "ja": "約170ドンです。",
+     "vi": "Khoảng một trăm bảy mươi đồng."
+    }
+   ]
+  }
+ ],
+ "vi_121": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ドルで払えますか？",
+     "vi": "Tôi trả bằng đô la được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すみません、ドンのみです。",
+     "vi": "Xin lỗi, chỉ nhận tiền đồng."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "100ドルでいくらになりますか？",
+     "vi": "Đổi một trăm đô la được bao nhiêu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "約250万ドンです。",
+     "vi": "Khoảng hai triệu rưỡi đồng."
+    }
+   ]
+  }
+ ],
+ "vi_122": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここはカードが使えますか？",
+     "vi": "Ở đây có nhận thẻ không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すみません、現金のみです。",
+     "vi": "Xin lỗi, chỉ nhận tiền mặt."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "市場に行くなら現金を持っていくといいよ。",
+     "vi": "Đi chợ nên mang tiền mặt."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、先にATMでお金をおろすね。",
+     "vi": "Ừ, mình rút tiền ở cây ATM trước."
+    }
+   ]
+  }
+ ],
+ "vi_123": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "クレジットカードで払えますか？",
+     "vi": "Tôi trả bằng thẻ tín dụng được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、大丈夫です。",
+     "vi": "Được ạ."
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "保証金のため、クレジットカードをお願いします。",
+     "vi": "Anh cho em xin thẻ tín dụng để đặt cọc."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、どうぞ。",
+     "vi": "Đây em."
+    }
+   ]
+  }
+ ],
+ "vi_124": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "レシートはご入用ですか？",
+     "vi": "Chị có lấy hóa đơn không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、ください。",
+     "vi": "Có, cho chị xin."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "精算のためにレシートを取っておいてね。",
+     "vi": "Nhớ giữ hóa đơn để thanh toán nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、午後に出します。",
+     "vi": "Vâng, chiều em nộp."
+    }
+   ]
+  }
+ ],
+ "vi_125": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何を買ったの？",
+     "vi": "Bạn mua gì thế?"
+    },
+    {
+     "speaker": "B",
+     "ja": "新しい靴を買ったんだ。",
+     "vi": "Mình mua một đôi giày mới."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "帰りにパンを買ってきてね。",
+     "vi": "Trên đường về con mua bánh mì nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はーい。",
+     "vi": "Vâng ạ."
+    }
+   ]
+  }
+ ],
+ "vi_126": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここで電池は売っていますか？",
+     "vi": "Ở đây có bán pin không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、レジの近くにあります。",
+     "vi": "Có, ở gần quầy thu ngân."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "古いバイクを売りたいんだ。",
+     "vi": "Mình muốn bán xe máy cũ."
+    },
+    {
+     "speaker": "B",
+     "ja": "ネットに載せてみたら。",
+     "vi": "Đăng lên mạng thử xem."
+    }
+   ]
+  }
+ ],
+ "vi_127": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ショッピングセンターで大セールをやってるよ。",
+     "vi": "Trung tâm thương mại đang giảm giá lớn."
+    },
+    {
+     "speaker": "B",
+     "ja": "週末に行こう！",
+     "vi": "Cuối tuần đi thôi!"
+    }
+   ]
+  },
+  {
+   "scene": "市場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "少し安くしてもらえませんか？",
+     "vi": "Chị giảm giá cho em một chút được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "まあいいわ、1万ドン引いてあげる。",
+     "vi": "Thôi được, giảm cho em mười nghìn."
+    }
+   ]
+  }
+ ],
+ "vi_128": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このカメラの値段はいくらですか？",
+     "vi": "Giá cái máy ảnh này là bao nhiêu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "1,200万ドンです。",
+     "vi": "Mười hai triệu đồng."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "最近野菜の値段がすごく上がったね。",
+     "vi": "Giá rau dạo này tăng nhiều quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、買う量を減らしたよ。",
+     "vi": "Ừ, mình mua ít hơn rồi."
+    }
+   ]
+  }
+ ],
+ "vi_129": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "サイズはいくつですか？",
+     "vi": "Chị mặc cỡ nào ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "Mサイズです。",
+     "vi": "Cỡ M."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もっと大きいサイズはある？",
+     "vi": "Có cỡ to hơn không em?"
+    },
+    {
+     "speaker": "B",
+     "ja": "倉庫を見てきますね。",
+     "vi": "Để em xem trong kho."
+    }
+   ]
+  }
+ ],
+ "vi_130": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "これの別の色はありますか？",
+     "vi": "Cái này có màu khác không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "黒と白がございます。",
+     "vi": "Có màu đen và màu trắng ạ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "一番好きな色は何？",
+     "vi": "Bạn thích màu gì nhất?"
+    },
+    {
+     "speaker": "B",
+     "ja": "青だよ。",
+     "vi": "Màu xanh dương."
+    }
+   ]
+  }
+ ],
+ "vi_131": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この靴は大きすぎます。",
+     "vi": "Đôi giày này to quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "小さいサイズをお持ちしますね。",
+     "vi": "Để em lấy cỡ nhỏ hơn."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "新しい家、すごく大きいね！",
+     "vi": "Nhà mới của bạn to quá!"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、庭もあるんだ。",
+     "vi": "Ừ, có cả vườn nữa."
+    }
+   ]
+  }
+ ],
+ "vi_132": [
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "大きいサイズと小さいサイズ、どちらにしますか？",
+     "vi": "Chị uống cốc to hay cốc nhỏ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "小さいので。",
+     "vi": "Cốc nhỏ thôi."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "地元は大きい町なの？",
+     "vi": "Quê bạn có lớn không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、小さな町だよ。",
+     "vi": "Không, chỉ là một thị trấn nhỏ."
+    }
+   ]
+  }
+ ],
+ "vi_133": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "これにします。",
+     "vi": "Tôi lấy cái này."
+    },
+    {
+     "speaker": "B",
+     "ja": "かしこまりました、ほかに何かございますか？",
+     "vi": "Vâng, chị cần gì nữa không ạ?"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このかばん、あなたの？",
+     "vi": "Cái túi này của bạn à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、ありがとう！",
+     "vi": "Ừ, cảm ơn nhé!"
+    }
+   ]
+  }
+ ],
+ "vi_134": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あの時計を見せてください。",
+     "vi": "Cho tôi xem cái đồng hồ đó."
+    },
+    {
+     "speaker": "B",
+     "ja": "こちらですか？どうぞ。",
+     "vi": "Cái này ạ? Mời chị."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あの人は誰？",
+     "vi": "Người đó là ai thế?"
+    },
+    {
+     "speaker": "B",
+     "ja": "新しい先生だよ。",
+     "vi": "Đó là thầy giáo mới."
+    }
+   ]
+  }
+ ],
+ "vi_135": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今夜は何が食べたい？",
+     "vi": "Tối nay bạn muốn ăn gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "鍋が食べたいな。",
+     "vi": "Mình muốn ăn lẩu."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "一緒に行きたい？",
+     "vi": "Bạn có muốn đi cùng không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、ぜひ。",
+     "vi": "Có, mình rất muốn."
+    }
+   ]
+  }
+ ],
+ "vi_136": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "袋は必要ですか？",
+     "vi": "Chị có cần túi không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いりません、持っています。",
+     "vi": "Không cần, chị có túi rồi."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何か手伝いましょうか？",
+     "vi": "Anh có cần giúp gì không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、これを確認してくれる人が必要なんです。",
+     "vi": "Có, tôi cần người kiểm tra cái này."
+    }
+   ]
+  }
+ ],
+ "vi_137": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "袋はいかがですか？",
+     "vi": "Chị có muốn lấy túi không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいえ、エコバッグがあるので。",
+     "vi": "Thôi, chị có túi vải rồi."
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このかばんはあなたのですか？",
+     "vi": "Cái túi này của anh phải không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "そうです、ありがとうございます。",
+     "vi": "Đúng rồi, cảm ơn chị."
+    }
+   ]
+  }
+ ],
+ "vi_138": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "試着してもいいですか？",
+     "vi": "Tôi mặc thử được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "どうぞ、試着室はあちらです。",
+     "vi": "Được ạ, phòng thử đồ ở kia."
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ブンチャーを食べてみた？",
+     "vi": "Bạn đã thử bún chả chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "まだ、今日食べてみる。",
+     "vi": "Chưa, hôm nay mình thử."
+    }
+   ]
+  }
+ ],
+ "vi_139": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お釣りです。",
+     "vi": "Tiền lẻ của chị đây ạ."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう。",
+     "vi": "Cảm ơn em."
+    }
+   ]
+  },
+  {
+   "scene": "タクシー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "細かいお金ありますか？50万ドン札しかなくて。",
+     "vi": "Anh có tiền lẻ không? Tôi chỉ có tờ năm trăm nghìn."
+    },
+    {
+     "speaker": "B",
+     "ja": "大丈夫、お釣りはありますよ。",
+     "vi": "Không sao, tôi có tiền lẻ."
+    }
+   ]
+  }
+ ],
+ "vi_140": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日の朝市場に行くけど、一緒に来る？",
+     "vi": "Sáng mai mẹ đi chợ, con có đi không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、果物が買いたい。",
+     "vi": "Có, con muốn mua hoa quả."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベンタイン市場は何時まで開いていますか？",
+     "vi": "Chợ Bến Thành mở cửa đến mấy giờ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "夕方6時までで、その後はナイトマーケットがあります。",
+     "vi": "Đến sáu giờ tối, sau đó có chợ đêm."
+    }
+   ]
+  }
+ ],
+ "vi_141": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナムの食べ物は好き？",
+     "vi": "Bạn thích đồ ăn Việt Nam không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "大好き、特にフォー。",
+     "vi": "Thích lắm, nhất là phở."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "フエの食べ物はすごく辛いよ。",
+     "vi": "Đồ ăn ở Huế cay lắm đấy."
+    },
+    {
+     "speaker": "B",
+     "ja": "大丈夫、辛いのは平気だよ。",
+     "vi": "Không sao, mình ăn cay được."
+    }
+   ]
+  }
+ ],
+ "vi_142": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お飲み物は何になさいますか？",
+     "vi": "Anh chị dùng đồ uống gì ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "アイスティーを2つください。",
+     "vi": "Cho tôi hai cốc trà đá."
+    }
+   ]
+  },
+  {
+   "scene": "パーティー",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "飲み物は冷蔵庫にあるよ。",
+     "vi": "Đồ uống ở trong tủ lạnh nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう、自分で取るね。",
+     "vi": "Cảm ơn, mình tự lấy."
+    }
+   ]
+  }
+ ],
+ "vi_143": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "水を1本ください。",
+     "vi": "Cho tôi xin một chai nước."
+    },
+    {
+     "speaker": "B",
+     "ja": "冷たいのと常温、どちらにしますか？",
+     "vi": "Nước lạnh hay nước thường ạ?"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "暑いね、水をたくさん飲んでね。",
+     "vi": "Nóng quá, uống nhiều nước vào nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、ありがとう。",
+     "vi": "Ừ, cảm ơn bạn."
+    }
+   ]
+  }
+ ],
+ "vi_144": [
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何を飲まれますか？",
+     "vi": "Chị uống gì ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "アイスミルクコーヒーを1つ。",
+     "vi": "Cho chị một cà phê sữa đá."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "コーヒー飲みに行かない？",
+     "vi": "Đi uống cà phê không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "行こう、ちょっと休みたかった。",
+     "vi": "Đi, mình cần nghỉ một chút."
+    }
+   ]
+  }
+ ],
+ "vi_145": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お茶飲む？",
+     "vi": "Bạn uống trà không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、緑茶を1杯ちょうだい。",
+     "vi": "Có, cho mình một chén trà xanh."
+    }
+   ]
+  },
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここのレモンティーはすごくおいしいよ。",
+     "vi": "Trà chanh ở đây ngon lắm."
+    },
+    {
+     "speaker": "B",
+     "ja": "じゃあレモンティーにする。",
+     "vi": "Vậy mình gọi trà chanh."
+    }
+   ]
+  }
+ ],
+ "vi_146": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お飲み物は？",
+     "vi": "Anh uống gì ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "オレンジジュースを1杯ください。",
+     "vi": "Cho tôi một cốc nước cam."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "冷蔵庫にまだオレンジジュースある？",
+     "vi": "Trong tủ lạnh còn nước cam không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "あるよ、今朝しぼったばかり。",
+     "vi": "Còn, mẹ mới vắt sáng nay."
+    }
+   ]
+  }
+ ],
+ "vi_147": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "部屋代に朝食は含まれていますか？",
+     "vi": "Giá phòng có bao gồm bữa sáng không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、朝食は6時半からです。",
+     "vi": "Có, bữa sáng từ sáu giờ rưỡi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "朝ごはん何がいい？",
+     "vi": "Bữa sáng con muốn ăn gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "おこわが食べたい。",
+     "vi": "Con muốn ăn xôi."
+    }
+   ]
+  }
+ ],
+ "vi_148": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日一緒にお昼食べに行かない？",
+     "vi": "Trưa nay đi ăn bữa trưa cùng nhau nhé?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいよ、会社の近くの食堂に行こう。",
+     "vi": "Được, đi quán cơm gần công ty đi."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日のお昼は何食べた？",
+     "vi": "Bữa trưa nay bạn ăn gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "バインミーを食べたよ。",
+     "vi": "Mình ăn bánh mì."
+    }
+   ]
+  }
+ ],
+ "vi_149": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今夜の夕飯は何、お母さん？",
+     "vi": "Bữa tối nay ăn gì hả mẹ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "魚の煮付けと野菜スープよ。",
+     "vi": "Cá kho và canh rau."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "金曜日に夕食に行こうね。",
+     "vi": "Thứ sáu đi ăn bữa tối nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、席を予約しておくね。",
+     "vi": "Ừ, mình sẽ đặt bàn."
+    }
+   ]
+  }
+ ],
+ "vi_150": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "メニューを見せてください。",
+     "vi": "Cho tôi xem thực đơn."
+    },
+    {
+     "speaker": "B",
+     "ja": "どうぞ。",
+     "vi": "Đây ạ."
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "英語のメニューはありますか？",
+     "vi": "Có thực đơn tiếng Anh không em?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ございます、少々お待ちください。",
+     "vi": "Có ạ, chị đợi một chút."
+    }
+   ]
+  }
+ ],
+ "vi_151": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ご注文はお決まりですか？",
+     "vi": "Anh chị gọi món chưa ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、チャーハンを1つください。",
+     "vi": "Rồi, cho tôi một phần cơm rang."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "注文して、私は何でもいいから。",
+     "vi": "Bạn gọi món đi, mình ăn gì cũng được."
+    },
+    {
+     "speaker": "B",
+     "ja": "じゃあ焼き鳥にしよう。",
+     "vi": "Vậy gọi gà nướng nhé."
+    }
+   ]
+  }
+ ],
+ "vi_152": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お料理はいかがですか？",
+     "vi": "Món ăn có ngon không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごくおいしいです！",
+     "vi": "Ngon lắm!"
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このスープ、自分で作ったんだ。",
+     "vi": "Mình tự nấu canh này đấy."
+    },
+    {
+     "speaker": "B",
+     "ja": "わあ、おいしい！",
+     "vi": "Ôi, ngon quá!"
+    }
+   ]
+  }
+ ],
+ "vi_153": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すごくお腹すいた。",
+     "vi": "Mình đói quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "私も、食べに行こう。",
+     "vi": "Mình cũng thế, đi ăn đi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お腹すいてる？ご飯できたよ。",
+     "vi": "Con có đói không? Cơm xong rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "ぺこぺこ！",
+     "vi": "Đói lắm ạ!"
+    }
+   ]
+  }
+ ],
+ "vi_154": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "のど渇いた、自販機ある？",
+     "vi": "Mình khát quá, có máy bán nước không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "あるよ、あそこに。",
+     "vi": "Có, ở đằng kia."
+    }
+   ]
+  },
+  {
+   "scene": "スポーツ",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "走った後はいつものどが渇く。",
+     "vi": "Chạy xong lúc nào cũng khát."
+    },
+    {
+     "speaker": "B",
+     "ja": "水を十分飲んでね。",
+     "vi": "Nhớ uống đủ nước nhé."
+    }
+   ]
+  }
+ ],
+ "vi_155": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "鶏肉と牛肉、どちらになさいますか？",
+     "vi": "Anh dùng thịt gà hay thịt bò?"
+    },
+    {
+     "speaker": "B",
+     "ja": "鶏肉でお願いします。",
+     "vi": "Cho tôi thịt gà."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今夜は何を作ろうかな？",
+     "vi": "Tối nay nấu gì nhỉ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "鶏肉を買ってきて、鶏肉のフォーにしようよ。",
+     "vi": "Mua thịt gà về làm phở gà đi."
+    }
+   ]
+  }
+ ],
+ "vi_156": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このフォーは牛肉ですか？",
+     "vi": "Phở này là thịt bò à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、レアの牛肉のフォーです。",
+     "vi": "Vâng, phở bò tái ạ."
+    }
+   ]
+  },
+  {
+   "scene": "市場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "牛肉は1キロいくらですか？",
+     "vi": "Thịt bò bao nhiêu một cân?"
+    },
+    {
+     "speaker": "B",
+     "ja": "25万ドンです。",
+     "vi": "Hai trăm năm mươi nghìn."
+    }
+   ]
+  }
+ ],
+ "vi_157": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日はどんな魚料理がありますか？",
+     "vi": "Hôm nay có món cá gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "魚の揚げ物です。",
+     "vi": "Cá chiên giòn ạ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "魚は食べる？",
+     "vi": "Bạn có ăn cá không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、お寿司が好き。",
+     "vi": "Có, mình thích sushi."
+    }
+   ]
+  }
+ ],
+ "vi_158": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "野菜も食べなさい！",
+     "vi": "Ăn rau đi con!"
+    },
+    {
+     "speaker": "B",
+     "ja": "でもニンジン嫌いなんだもん！",
+     "vi": "Nhưng con không thích cà rốt!"
+    }
+   ]
+  },
+  {
+   "scene": "市場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この野菜は新鮮ですか？",
+     "vi": "Rau này có tươi không chị?"
+    },
+    {
+     "speaker": "B",
+     "ja": "とても新鮮よ、今朝採ったばかり。",
+     "vi": "Tươi lắm, sáng nay mới hái."
+    }
+   ]
+  }
+ ],
+ "vi_159": [
+  {
+   "scene": "市場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここの果物はすごくおいしいよ。",
+     "vi": "Trái cây ở đây ngon lắm."
+    },
+    {
+     "speaker": "B",
+     "ja": "マンゴーを少し買おう。",
+     "vi": "Mua ít xoài đi."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "食後に果物ある？",
+     "vi": "Ăn xong có trái cây không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "あるよ、スイカがある。",
+     "vi": "Có, có dưa hấu."
+    }
+   ]
+  }
+ ],
+ "vi_160": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ご飯にしますか、ブン（米麺）にしますか？",
+     "vi": "Anh ăn cơm hay bún?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ご飯でお願いします。",
+     "vi": "Cho tôi cơm."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "うち、お米が切れちゃった。",
+     "vi": "Nhà hết gạo rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "買ってくるね、今夜もご飯を炊くから。",
+     "vi": "Để mình đi mua, tối nay còn nấu cơm."
+    }
+   ]
+  }
+ ],
+ "vi_161": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここのバインミーはハノイで一番おいしいよ。",
+     "vi": "Bánh mì ở đây ngon nhất Hà Nội."
+    },
+    {
+     "speaker": "B",
+     "ja": "じゃあ2つ買おう。",
+     "vi": "Vậy mua hai cái nhé."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日の朝はパンにしようね。",
+     "vi": "Sáng mai ăn bánh mì nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、目玉焼きと一緒に。",
+     "vi": "Vâng, với trứng ốp la."
+    }
+   ]
+  }
+ ],
+ "vi_162": [
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このケーキ、私には甘すぎる。",
+     "vi": "Bánh này ngọt quá với mình."
+    },
+    {
+     "speaker": "B",
+     "ja": "あっちのケーキ食べてみて、甘さ控えめだよ。",
+     "vi": "Thử bánh kia xem, ít ngọt hơn."
+    }
+   ]
+  },
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "甘めにしますか、甘さ控えめにしますか？",
+     "vi": "Chị uống ngọt hay ít ngọt?"
+    },
+    {
+     "speaker": "B",
+     "ja": "控えめでお願い。",
+     "vi": "Ít ngọt thôi em."
+    }
+   ]
+  }
+ ],
+ "vi_163": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この料理は辛いですか？",
+     "vi": "Món này có cay không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "少し辛いです。辛くなくもできますよ。",
+     "vi": "Hơi cay ạ. Em làm không cay được."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "辛いもの食べられる？",
+     "vi": "Bạn ăn cay được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、辛いの好きだよ。",
+     "vi": "Được, mình thích ăn cay."
+    }
+   ]
+  }
+ ],
+ "vi_164": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "スープはどう？",
+     "vi": "Canh thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ちょっとしょっぱいかな。",
+     "vi": "Hơi mặn một chút."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "しょっぱいものを食べすぎないでね。",
+     "vi": "Đừng ăn nhiều đồ mặn quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、わかってる。",
+     "vi": "Vâng, con biết rồi."
+    }
+   ]
+  }
+ ],
+ "vi_165": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "デザートはいかがですか？",
+     "vi": "Anh chị có dùng tráng miệng không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、どんなチェーがありますか？",
+     "vi": "Có, ở đây có chè gì?"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お腹いっぱいだけど、デザートは食べられる！",
+     "vi": "No rồi, nhưng tráng miệng thì vẫn ăn được!"
+    },
+    {
+     "speaker": "B",
+     "ja": "ハハ、私も。",
+     "vi": "Haha, mình cũng thế."
+    }
+   ]
+  }
+ ],
+ "vi_166": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すみません、お会計お願いします。",
+     "vi": "Em ơi, cho anh xin hóa đơn."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、少々お待ちください。",
+     "vi": "Vâng, anh đợi một chút."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日のお会計は私が払うよ。",
+     "vi": "Để mình trả hóa đơn hôm nay."
+    },
+    {
+     "speaker": "B",
+     "ja": "いや、割り勘にしよう。",
+     "vi": "Không, chia đôi đi."
+    }
+   ]
+  }
+ ],
+ "vi_167": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナムではチップを置く必要がありますか？",
+     "vi": "Ở Việt Nam có cần để tiền boa không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "必須ではないけど、ホテルでは置くといいよ。",
+     "vi": "Không bắt buộc, nhưng ở khách sạn thì nên."
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "サービスがすごくよかったから、チップを置いておこう。",
+     "vi": "Phục vụ tốt quá, mình để tiền boa nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、2万ドン置こう。",
+     "vi": "Ừ, để hai mươi nghìn."
+    }
+   ]
+  }
+ ],
+ "vi_168": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "金曜の夜の予約をしたいのですが。",
+     "vi": "Tôi muốn đặt chỗ cho tối thứ sáu."
+    },
+    {
+     "speaker": "B",
+     "ja": "かしこまりました、何名様ですか？",
+     "vi": "Vâng, anh đi mấy người ạ?"
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ご予約はありますか？",
+     "vi": "Anh chị có đặt chỗ trước không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、鈴木で7時です。",
+     "vi": "Có, tên Suzuki, bảy giờ."
+    }
+   ]
+  }
+ ],
+ "vi_169": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "窓際の席にしてもらえますか？",
+     "vi": "Cho tôi bàn gần cửa sổ được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、こちらへどうぞ。",
+     "vi": "Được ạ, mời anh đi lối này."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "食卓の準備を手伝ってね。",
+     "vi": "Con dọn bàn ăn giúp mẹ nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、お椀はいくつ？",
+     "vi": "Vâng, mấy cái bát ạ?"
+    }
+   ]
+  }
+ ],
+ "vi_170": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "店員さん、水をもう1本ください！",
+     "vi": "Phục vụ ơi, cho thêm một chai nước!"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、ただいま。",
+     "vi": "Vâng, có ngay ạ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここの店員さんはとても親切だね。",
+     "vi": "Nhân viên phục vụ ở đây rất thân thiện."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、だからよく来るんだ。",
+     "vi": "Ừ, nên mình hay đến đây."
+    }
+   ]
+  }
+ ],
+ "vi_171": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今週末はどこ行く？",
+     "vi": "Cuối tuần này đi đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ニンビンに行こうよ。",
+     "vi": "Đi Ninh Bình đi."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もう行かなきゃ、また明日。",
+     "vi": "Tôi phải đi bây giờ, mai gặp nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、気をつけて帰ってね。",
+     "vi": "Ừ, về cẩn thận."
+    }
+   ]
+  }
+ ],
+ "vi_172": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "土曜日にうちに遊びに来られる？",
+     "vi": "Thứ bảy bạn đến nhà mình chơi được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、行くよ。",
+     "vi": "Được, mình sẽ đến."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ご飯できたよ、みんな食べに来て！",
+     "vi": "Cơm xong rồi, cả nhà đến ăn đi!"
+    },
+    {
+     "speaker": "B",
+     "ja": "すぐ行く！",
+     "vi": "Con đến ngay!"
+    }
+   ]
+  }
+ ],
+ "vi_173": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "電車は何時に駅を出発しますか？",
+     "vi": "Mấy giờ tàu rời ga?"
+    },
+    {
+     "speaker": "B",
+     "ja": "8時15分です。",
+     "vi": "Tám giờ mười lăm."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ふだん何時に会社を出るんですか？",
+     "vi": "Anh thường rời văn phòng lúc mấy giờ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "6時ごろです。",
+     "vi": "Khoảng sáu giờ."
+    }
+   ]
+  }
+ ],
+ "vi_174": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何時に着くの？",
+     "vi": "Mấy giờ bạn tới?"
+    },
+    {
+     "speaker": "B",
+     "ja": "6時ごろに着くよ。",
+     "vi": "Khoảng sáu giờ mình tới."
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "東京からの便はもう着きましたか？",
+     "vi": "Chuyến bay từ Tokyo tới chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "着きました、10分前です。",
+     "vi": "Tới rồi, mười phút trước."
+    }
+   ]
+  }
+ ],
+ "vi_175": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "フエまで切符を1枚ください。",
+     "vi": "Cho tôi một vé đi Huế."
+    },
+    {
+     "speaker": "B",
+     "ja": "片道ですか、往復ですか？",
+     "vi": "Một chiều hay khứ hồi ạ?"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "コンサートのチケットが2枚取れたよ！",
+     "vi": "Mình mua được hai vé xem hòa nhạc!"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごい！",
+     "vi": "Tuyệt quá!"
+    }
+   ]
+  }
+ ],
+ "vi_176": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ハイフォン行きはどの電車ですか？",
+     "vi": "Tàu nào đi Hải Phòng ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "2番ホームの電車です。",
+     "vi": "Tàu ở sân ga số hai."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "サイゴンまで電車でどのくらい？",
+     "vi": "Đi Sài Gòn bằng tàu mất bao lâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "30時間くらいだよ。",
+     "vi": "Khoảng ba mươi tiếng."
+    }
+   ]
+  }
+ ],
+ "vi_177": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このバスは空港に行きますか？",
+     "vi": "Xe buýt này có đi sân bay không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "行きます、40分くらいです。",
+     "vi": "Có, mất khoảng bốn mươi phút."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "バスで行こう、安いし。",
+     "vi": "Đi xe buýt đi, rẻ hơn."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、バス停はどこ？",
+     "vi": "Ừ, bến xe buýt ở đâu?"
+    }
+   ]
+  }
+ ],
+ "vi_178": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "タクシーを呼んでもらえますか？",
+     "vi": "Em gọi taxi giúp tôi được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、5分で来ます。",
+     "vi": "Vâng, năm phút nữa xe đến."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "雨が降ってきた、タクシーで行こう。",
+     "vi": "Mưa rồi, đi taxi đi."
+    },
+    {
+     "speaker": "B",
+     "ja": "いいね。",
+     "vi": "Ý hay đấy."
+    }
+   ]
+  }
+ ],
+ "vi_179": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ダナンには飛行機で行くの？",
+     "vi": "Bạn đi Đà Nẵng bằng máy bay à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、1時間ちょっとだよ。",
+     "vi": "Ừ, chỉ mất hơn một tiếng."
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "飛行機がもうすぐ離陸するよ！",
+     "vi": "Máy bay sắp cất cánh rồi!"
+    },
+    {
+     "speaker": "B",
+     "ja": "急いで、走ろう！",
+     "vi": "Nhanh lên, chạy thôi!"
+    }
+   ]
+  }
+ ],
+ "vi_180": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ハノイに地下鉄はある？",
+     "vi": "Hà Nội có tàu điện ngầm không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "高架鉄道はあるよ、地下鉄は建設中。",
+     "vi": "Có tuyến tàu điện trên cao, tàu điện ngầm đang xây."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "東京は地下鉄がすごく便利だよ。",
+     "vi": "Ở Tokyo đi tàu điện ngầm tiện lắm."
+    },
+    {
+     "speaker": "B",
+     "ja": "でも路線が多すぎて迷いやすいな。",
+     "vi": "Nhưng nhiều tuyến quá, mình dễ bị lạc."
+    }
+   ]
+  }
+ ],
+ "vi_181": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "車持ってる？",
+     "vi": "Bạn có xe ô tô không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、乗せていくよ。",
+     "vi": "Có, mình chở bạn đi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お父さん、車どこに停めたの？",
+     "vi": "Bố đỗ xe ô tô ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "駐車場の3階だよ。",
+     "vi": "Ở tầng ba bãi đỗ xe."
+    }
+   ]
+  }
+ ],
+ "vi_182": [
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "パスポートを見せてください。",
+     "vi": "Cho tôi xem hộ chiếu."
+    },
+    {
+     "speaker": "B",
+     "ja": "どうぞ。",
+     "vi": "Đây ạ."
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "手続きのためにパスポートをお願いします。",
+     "vi": "Chị cho em xin hộ chiếu để làm thủ tục."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、こちらです。",
+     "vi": "Vâng, của tôi đây."
+    }
+   ]
+  }
+ ],
+ "vi_183": [
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お荷物はいくつですか？",
+     "vi": "Anh có bao nhiêu hành lý?"
+    },
+    {
+     "speaker": "B",
+     "ja": "スーツケース1つだけです。",
+     "vi": "Chỉ một vali thôi."
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "3時まで荷物を預けてもいいですか？",
+     "vi": "Tôi gửi hành lý đến ba giờ được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、大丈夫です。",
+     "vi": "Được ạ."
+    }
+   ]
+  }
+ ],
+ "vi_184": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "出張はどうだった？",
+     "vi": "Chuyến đi công tác thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "忙しかったけど成功したよ。",
+     "vi": "Bận nhưng thành công."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "楽しい旅行を！",
+     "vi": "Chúc bạn có chuyến đi vui vẻ!"
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう、お土産買ってくるね。",
+     "vi": "Cảm ơn, mình sẽ mua quà cho bạn."
+    }
+   ]
+  }
+ ],
+ "vi_185": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この夏の休暇はどこに行くんですか？",
+     "vi": "Kỳ nghỉ hè này chị đi đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "フーコックに行くの。",
+     "vi": "Chị đi Phú Quốc."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "休暇はどうだった？",
+     "vi": "Kỳ nghỉ của bạn thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごくのんびりした、たくさん寝たよ！",
+     "vi": "Thư giãn lắm, mình ngủ nhiều!"
+    }
+   ]
+  }
+ ],
+ "vi_186": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日のスケジュールはどう？",
+     "vi": "Lịch trình ngày mai thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "午後は空いてるよ。",
+     "vi": "Buổi chiều mình rảnh."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "旅行の日程、行く所が多すぎるね。",
+     "vi": "Lịch trình chuyến đi có nhiều chỗ quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、いくつか減らそう。",
+     "vi": "Ừ, bớt một vài chỗ đi."
+    }
+   ]
+  }
+ ],
+ "vi_187": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どうして電車が遅れているんですか？",
+     "vi": "Sao tàu bị trễ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "線路でトラブルがありました。",
+     "vi": "Có sự cố trên đường ray."
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "フライトが2時間遅れだって。",
+     "vi": "Chuyến bay bị trễ hai tiếng."
+    },
+    {
+     "speaker": "B",
+     "ja": "じゃあ何か食べに行こう。",
+     "vi": "Vậy mình đi ăn gì đi."
+    }
+   ]
+  }
+ ],
+ "vi_188": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "会議には時間どおりに来てね。",
+     "vi": "Họp nhớ đến đúng giờ nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい。",
+     "vi": "Vâng ạ."
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "電車は時間どおりですか？",
+     "vi": "Tàu có đúng giờ không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、9時に着きます。",
+     "vi": "Có, chín giờ tàu đến."
+    }
+   ]
+  }
+ ],
+ "vi_189": [
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ラオカイ行きは何番ホームですか？",
+     "vi": "Tàu đi Lào Cai ở sân ga nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "3番ホームです。",
+     "vi": "Sân ga số ba."
+    }
+   ]
+  },
+  {
+   "scene": "駅",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "1番ホームに電車が入ってきます。",
+     "vi": "Tàu đang vào sân ga số một."
+    },
+    {
+     "speaker": "B",
+     "ja": "急いで！",
+     "vi": "Nhanh lên!"
+    }
+   ]
+  }
+ ],
+ "vi_190": [
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "私たちの便は何番ゲート？",
+     "vi": "Chuyến bay của mình ở cổng nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "12番ゲート、2時に搭乗だよ。",
+     "vi": "Cổng mười hai, hai giờ lên máy bay."
+    }
+   ]
+  },
+  {
+   "scene": "空港",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すみません、5番ゲートはどこですか？",
+     "vi": "Xin lỗi, cổng số năm ở đâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "まっすぐ行って左です。",
+     "vi": "Đi thẳng rồi rẽ trái."
+    }
+   ]
+  }
+ ],
+ "vi_191": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "チェックインしたいのですが。",
+     "vi": "Tôi muốn nhận phòng."
+    },
+    {
+     "speaker": "B",
+     "ja": "お名前をお願いします。",
+     "vi": "Anh cho em xin tên ạ."
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何時からチェックインできますか？",
+     "vi": "Mấy giờ được nhận phòng?"
+    },
+    {
+     "speaker": "B",
+     "ja": "午後2時からです。",
+     "vi": "Từ hai giờ chiều ạ."
+    }
+   ]
+  }
+ ],
+ "vi_192": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "チェックアウトは何時ですか？",
+     "vi": "Mấy giờ phải trả phòng?"
+    },
+    {
+     "speaker": "B",
+     "ja": "昼の12時です。",
+     "vi": "Mười hai giờ trưa ạ."
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "チェックアウトをお願いします。",
+     "vi": "Tôi muốn trả phòng."
+    },
+    {
+     "speaker": "B",
+     "ja": "かしこまりました、ご滞在はいかがでしたか？",
+     "vi": "Vâng, anh ở có thoải mái không ạ?"
+    }
+   ]
+  }
+ ],
+ "vi_193": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今夜空いている部屋はありますか？",
+     "vi": "Tối nay còn phòng trống không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ダブルルームが1部屋ございます。",
+     "vi": "Còn một phòng đôi ạ."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "部屋を片付けなさい！",
+     "vi": "Con dọn phòng đi!"
+    },
+    {
+     "speaker": "B",
+     "ja": "後でやるよ！",
+     "vi": "Lát nữa con dọn!"
+    }
+   ]
+  }
+ ],
+ "vi_194": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お部屋は5階です。",
+     "vi": "Phòng của chị ở tầng năm."
+    },
+    {
+     "speaker": "B",
+     "ja": "エレベーターはどこ？",
+     "vi": "Thang máy ở đâu em?"
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "靴は何階ですか？",
+     "vi": "Giày ở tầng mấy ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "3階です。",
+     "vi": "Ở tầng ba ạ."
+    }
+   ]
+  }
+ ],
+ "vi_195": [
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お部屋の鍵です。",
+     "vi": "Đây là chìa khóa phòng của anh."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう。",
+     "vi": "Cảm ơn em."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "バイクの鍵が見つからない。",
+     "vi": "Mình không tìm thấy chìa khóa xe máy."
+    },
+    {
+     "speaker": "B",
+     "ja": "服のポケットは見た？",
+     "vi": "Bạn xem trong túi áo chưa?"
+    }
+   ]
+  }
+ ],
+ "vi_196": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日ミンさんは？",
+     "vi": "Hôm nay anh Minh đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "体調を崩して休みを取ったよ。",
+     "vi": "Anh ấy bị ốm, xin nghỉ rồi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ちょっと具合が悪い。",
+     "vi": "Con thấy hơi ốm."
+    },
+    {
+     "speaker": "B",
+     "ja": "横になって、水を持ってくるね。",
+     "vi": "Nằm nghỉ đi, mẹ lấy nước cho."
+    }
+   ]
+  }
+ ],
+ "vi_197": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すごく疲れてるみたいだね。",
+     "vi": "Trông bạn mệt quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、昨日遅くまで働いたんだ。",
+     "vi": "Ừ, hôm qua mình làm đến khuya."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "遊びに行く？",
+     "vi": "Đi chơi không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "やめとく、すごく疲れた。家にいる。",
+     "vi": "Thôi, con mệt lắm. Ở nhà thôi."
+    }
+   ]
+  }
+ ],
+ "vi_198": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "頭が痛いんです。",
+     "vi": "Tôi bị đau đầu."
+    },
+    {
+     "speaker": "B",
+     "ja": "薬飲みますか？",
+     "vi": "Anh uống thuốc không?"
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "頭痛はいつからですか？",
+     "vi": "Chị bị đau đầu từ khi nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "昨日の朝からです。",
+     "vi": "Từ sáng hôm qua ạ."
+    }
+   ]
+  }
+ ],
+ "vi_199": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "熱はありますか？",
+     "vi": "Chị có bị sốt không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、38度です。",
+     "vi": "Có, ba mươi tám độ."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "体が熱いね、熱があるみたい。",
+     "vi": "Người con nóng quá, chắc bị sốt rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "すごくしんどい。",
+     "vi": "Con thấy mệt lắm."
+    }
+   ]
+  }
+ ],
+ "vi_200": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どうされましたか？",
+     "vi": "Chị bị làm sao ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "咳が出て、のどが痛いです。",
+     "vi": "Tôi bị ho và đau họng."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "1週間ずっと咳してるね。",
+     "vi": "Anh ho cả tuần rồi đấy."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、明日病院に行くよ。",
+     "vi": "Ừ, mai tôi đi khám."
+    }
+   ]
+  }
+ ],
+ "vi_201": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この薬を1日3回飲んでください。",
+     "vi": "Chị uống thuốc này ngày ba lần."
+    },
+    {
+     "speaker": "B",
+     "ja": "食前ですか、食後ですか？",
+     "vi": "Uống trước hay sau bữa ăn ạ?"
+    }
+   ]
+  },
+  {
+   "scene": "薬局",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "風邪薬はありますか？",
+     "vi": "Có thuốc cảm không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、これがよく効きますよ。",
+     "vi": "Có, loại này tốt lắm."
+    }
+   ]
+  }
+ ],
+ "vi_202": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どうすればいいですか？",
+     "vi": "Tôi nên làm gì ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "休んで、水をたくさん飲んでください。",
+     "vi": "Chị nên nghỉ ngơi và uống nhiều nước."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "10分休憩しよう。",
+     "vi": "Mình nghỉ ngơi mười phút nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、コーヒー飲みに行こう。",
+     "vi": "Ừ, đi uống cà phê đi."
+    }
+   ]
+  }
+ ],
+ "vi_203": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "毎日何時間寝てる？",
+     "vi": "Mỗi ngày bạn ngủ mấy tiếng?"
+    },
+    {
+     "speaker": "B",
+     "ja": "6時間くらいだけ。",
+     "vi": "Khoảng sáu tiếng thôi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "昨夜はよく眠れた？",
+     "vi": "Tối qua con ngủ ngon không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ぐっすり眠れたよ。",
+     "vi": "Ngon lắm ạ."
+    }
+   ]
+  }
+ ],
+ "vi_204": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "目が赤くてかゆいんです。",
+     "vi": "Mắt tôi bị đỏ và ngứa."
+    },
+    {
+     "speaker": "B",
+     "ja": "アレルギーかもしれませんね。",
+     "vi": "Có lẽ chị bị dị ứng."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "赤ちゃん、目が大きいね！",
+     "vi": "Em bé có đôi mắt to quá!"
+    },
+    {
+     "speaker": "B",
+     "ja": "お母さん似なんだよ。",
+     "vi": "Giống mẹ đấy."
+    }
+   ]
+  }
+ ],
+ "vi_205": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "耳が痛いんです。",
+     "vi": "Tai tôi bị đau."
+    },
+    {
+     "speaker": "B",
+     "ja": "診てみましょう。",
+     "vi": "Để tôi khám xem."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "聞こえた？",
+     "vi": "Bạn có nghe thấy không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、耳にイヤホンしてるから。",
+     "vi": "Không, tai mình đang đeo tai nghe."
+    }
+   ]
+  }
+ ],
+ "vi_206": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "鼻水が出ます。",
+     "vi": "Tôi bị sổ mũi."
+    },
+    {
+     "speaker": "B",
+     "ja": "たぶん風邪ですね。",
+     "vi": "Chắc là bị cảm rồi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "鼻が真っ赤だよ！",
+     "vi": "Mũi con đỏ quá!"
+    },
+    {
+     "speaker": "B",
+     "ja": "外がすごく寒いんだ。",
+     "vi": "Ngoài trời lạnh lắm."
+    }
+   ]
+  }
+ ],
+ "vi_207": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "口を開けてください。",
+     "vi": "Chị há miệng ra nào."
+    },
+    {
+     "speaker": "B",
+     "ja": "あー…",
+     "vi": "A…"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "食べながらしゃべらないの、口がいっぱいでしょ！",
+     "vi": "Đừng vừa ăn vừa nói, miệng đầy thức ăn kìa!"
+    },
+    {
+     "speaker": "B",
+     "ja": "ごめんなさい！",
+     "vi": "Con xin lỗi!"
+    }
+   ]
+  }
+ ],
+ "vi_208": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ご飯の前に手を洗ってね。",
+     "vi": "Rửa tay trước khi ăn cơm nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はーい！",
+     "vi": "Vâng ạ!"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ちょっと手を貸してくれる？",
+     "vi": "Giúp tôi một tay được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "もちろん。",
+     "vi": "Được chứ."
+    }
+   ]
+  }
+ ],
+ "vi_209": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "サッカーで足を痛めました。",
+     "vi": "Tôi bị đau chân khi đá bóng."
+    },
+    {
+     "speaker": "B",
+     "ja": "歩けますか？",
+     "vi": "Anh đi lại được không?"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何でここまで来たの？",
+     "vi": "Bạn đi bằng gì đến đây?"
+    },
+    {
+     "speaker": "B",
+     "ja": "歩いてきた、足が疲れたよ。",
+     "vi": "Mình đi bộ, mỏi chân quá."
+    }
+   ]
+  }
+ ],
+ "vi_210": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "頭を打ちましたか？",
+     "vi": "Anh có bị đập đầu không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、ドアにぶつけました。",
+     "vi": "Có, vào cửa."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "頭に何かついてるよ。",
+     "vi": "Trên đầu bạn có gì kìa."
+    },
+    {
+     "speaker": "B",
+     "ja": "あ、葉っぱだ！ありがとう。",
+     "vi": "Ôi, chiếc lá! Cảm ơn."
+    }
+   ]
+  }
+ ],
+ "vi_211": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこが痛みますか？",
+     "vi": "Chị đau ở đâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "お腹が痛いです。食べすぎました。",
+     "vi": "Bụng tôi đau. Tôi ăn nhiều quá."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お腹が鳴ってる、すごくお腹すいた。",
+     "vi": "Bụng mình kêu rồi, đói quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "フォーを食べに行こう。",
+     "vi": "Đi ăn phở đi."
+    }
+   ]
+  }
+ ],
+ "vi_212": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "最近すごく元気そうだね！",
+     "vi": "Dạo này trông bạn khỏe quá!"
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう！健康的に食べてるんだ。",
+     "vi": "Cảm ơn! Mình ăn uống lành mạnh."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ご両親は元気？",
+     "vi": "Bố mẹ có khỏe không con?"
+    },
+    {
+     "speaker": "B",
+     "ja": "両親とも元気です。",
+     "vi": "Bố mẹ con đều khỏe ạ."
+    }
+   ]
+  }
+ ],
+ "vi_213": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "もっと運動したほうがいいですね。",
+     "vi": "Anh nên tập thể dục nhiều hơn."
+    },
+    {
+     "speaker": "B",
+     "ja": "毎日歩くようにします。",
+     "vi": "Tôi sẽ đi bộ mỗi ngày."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "毎朝運動してるの？",
+     "vi": "Sáng nào bạn cũng tập thể dục à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、湖のほとりでね。",
+     "vi": "Ừ, mình tập ở bờ hồ."
+    }
+   ]
+  }
+ ],
+ "vi_214": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここでたばこを吸ってもいいですか？",
+     "vi": "Ở đây có được hút thuốc không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すみません、ここは禁煙です。",
+     "vi": "Xin lỗi, ở đây cấm hút thuốc."
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "たばこは吸いますか？",
+     "vi": "Anh có hút thuốc không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいえ、2年前にやめました。",
+     "vi": "Không, tôi bỏ hai năm rồi."
+    }
+   ]
+  }
+ ],
+ "vi_215": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "緊急事態です！救急車を呼んでください！",
+     "vi": "Đây là trường hợp khẩn cấp! Gọi xe cứu thương giúp tôi!"
+    },
+    {
+     "speaker": "B",
+     "ja": "住所はどこですか？",
+     "vi": "Địa chỉ ở đâu ạ?"
+    }
+   ]
+  },
+  {
+   "scene": "ホテル",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "非常口はどこですか？",
+     "vi": "Lối thoát khẩn cấp ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "廊下の突き当たりです。",
+     "vi": "Ở cuối hành lang ạ."
+    }
+   ]
+  }
+ ],
+ "vi_216": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこが痛いですか？",
+     "vi": "Chị đau ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "腰がすごく痛いです。",
+     "vi": "Lưng tôi đau lắm."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "痛くない？けがしてない？",
+     "vi": "Bạn có bị đau không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "大丈夫、ちょっとびっくりしただけ。",
+     "vi": "Không sao, mình chỉ hơi giật mình."
+    }
+   ]
+  }
+ ],
+ "vi_217": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は気分どう？",
+     "vi": "Hôm nay bạn cảm thấy thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "だいぶよくなったよ。",
+     "vi": "Mình cảm thấy đỡ nhiều rồi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今夜は料理する気分じゃないな。",
+     "vi": "Tối nay con không cảm thấy muốn nấu ăn."
+    },
+    {
+     "speaker": "B",
+     "ja": "出前を頼もう！",
+     "vi": "Gọi đồ ăn về đi!"
+    }
+   ]
+  }
+ ],
+ "vi_218": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "気分はよくなった？",
+     "vi": "Bạn thấy tốt hơn chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ずっとよくなったよ、ありがとう。",
+     "vi": "Tốt hơn nhiều rồi, cảm ơn."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "黒と白、どっちがいい？",
+     "vi": "Cái đen hay cái trắng tốt hơn?"
+    },
+    {
+     "speaker": "B",
+     "ja": "黒のほうがいいと思う。",
+     "vi": "Mình nghĩ cái đen tốt hơn."
+    }
+   ]
+  }
+ ],
+ "vi_219": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "咳はよくなりましたか？",
+     "vi": "Ho có đỡ hơn không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいえ、悪くなりました。",
+     "vi": "Không, tệ hơn rồi ạ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は渋滞がひどいね。",
+     "vi": "Hôm nay tắc đường quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "夕方はもっとひどいよ。",
+     "vi": "Buổi chiều còn tệ hơn."
+    }
+   ]
+  }
+ ],
+ "vi_220": [
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこか痛みはありますか？",
+     "vi": "Chị có thấy cơn đau ở đâu không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、ひざに痛みがあります。",
+     "vi": "Có, cơn đau ở đầu gối."
+    }
+   ]
+  },
+  {
+   "scene": "病院",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この薬を飲めば痛みが和らぎます。",
+     "vi": "Uống thuốc này thì cơn đau sẽ giảm."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとうございます、先生。",
+     "vi": "Cảm ơn bác sĩ."
+    }
+   ]
+  }
+ ],
+ "vi_221": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "家族は大勢？",
+     "vi": "Gia đình bạn có đông không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "多いよ、兄弟が4人いるんだ。",
+     "vi": "Đông lắm, mình có bốn anh em."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "最近ご家族はいかがですか？",
+     "vi": "Gia đình anh dạo này thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "みんな元気だよ、ありがとう。",
+     "vi": "Mọi người đều khỏe, cảm ơn em."
+    }
+   ]
+  }
+ ],
+ "vi_222": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お父さんは何の仕事をしてるの？",
+     "vi": "Bố bạn làm nghề gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "父はコックだよ。",
+     "vi": "Bố mình là đầu bếp."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お父さんはどこ、お母さん？",
+     "vi": "Bố đâu rồi mẹ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "お父さんは庭にいるよ。",
+     "vi": "Bố đang ở ngoài vườn."
+    }
+   ]
+  }
+ ],
+ "vi_223": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お母さん、料理がすごく上手だね！",
+     "vi": "Mẹ bạn nấu ăn ngon quá!"
+    },
+    {
+     "speaker": "B",
+     "ja": "母に伝えておくね。",
+     "vi": "Mình sẽ nói với mẹ."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お母さんに電話した？",
+     "vi": "Con gọi cho mẹ chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、よろしくって言ってたよ。",
+     "vi": "Rồi, mẹ bảo gửi lời hỏi thăm."
+    }
+   ]
+  }
+ ],
+ "vi_224": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "兄弟はいる？",
+     "vi": "Bạn có anh chị em không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "兄が1人いるよ。",
+     "vi": "Mình có một anh trai."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すみません（年上の男性に）、ちょっと聞いてもいいですか？",
+     "vi": "Anh ơi, em hỏi một chút được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいよ、どうぞ。",
+     "vi": "Được, em hỏi đi."
+    }
+   ]
+  }
+ ],
+ "vi_225": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あれはお姉さん？",
+     "vi": "Đó là chị gái bạn à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、私より3歳上なんだ。",
+     "vi": "Ừ, chị ấy hơn mình ba tuổi."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すみません（年上の女性に）、これいくらですか？",
+     "vi": "Chị ơi, cái này bao nhiêu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "5万ドンよ。",
+     "vi": "Năm mươi nghìn em ạ."
+    }
+   ]
+  }
+ ],
+ "vi_226": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "弟さんは何歳？",
+     "vi": "Em trai bạn bao nhiêu tuổi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "15歳だよ。",
+     "vi": "Nó mười lăm tuổi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "弟の宿題を手伝ってあげてね。",
+     "vi": "Con giúp em trai làm bài tập nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はーい。",
+     "vi": "Vâng ạ."
+    }
+   ]
+  }
+ ],
+ "vi_227": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "妹のマイだよ。",
+     "vi": "Đây là em gái mình, tên là Mai."
+    },
+    {
+     "speaker": "B",
+     "ja": "こんにちは！",
+     "vi": "Chào em!"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "妹が結婚するんだ！",
+     "vi": "Em gái con sắp lấy chồng!"
+    },
+    {
+     "speaker": "B",
+     "ja": "おめでとう！",
+     "vi": "Chúc mừng!"
+    }
+   ]
+  }
+ ],
+ "vi_228": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "旦那さんは何の仕事をしてるの？",
+     "vi": "Chồng chị làm nghề gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "夫は銀行で働いてるの。",
+     "vi": "Chồng chị làm ở ngân hàng."
+    }
+   ]
+  },
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お一人様ですか？",
+     "vi": "Chị đi một người ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいえ、夫がすぐ来ます。",
+     "vi": "Không, chồng tôi đến ngay."
+    }
+   ]
+  }
+ ],
+ "vi_229": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "奥さんはお元気ですか？",
+     "vi": "Vợ anh khỏe không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "元気だよ、転職したばかりなんだ。",
+     "vi": "Khỏe, cô ấy vừa đổi việc mới."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "妻へのプレゼントを買いたいんです。",
+     "vi": "Tôi muốn mua quà cho vợ."
+    },
+    {
+     "speaker": "B",
+     "ja": "このシルクのスカーフはいかがですか。",
+     "vi": "Anh xem khăn lụa này nhé."
+    }
+   ]
+  }
+ ],
+ "vi_230": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お子さんはいる？",
+     "vi": "Bạn có con chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、男の子が1人。",
+     "vi": "Có, một con trai."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "子どもの切符は割引がありますか？",
+     "vi": "Vé cho con có giảm giá không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "10歳未満は半額です。",
+     "vi": "Trẻ em dưới mười tuổi giảm một nửa."
+    }
+   ]
+  }
+ ],
+ "vi_231": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "赤ちゃんが生まれるんだ！",
+     "vi": "Mình sắp có em bé rồi!"
+    },
+    {
+     "speaker": "B",
+     "ja": "おめでとう！",
+     "vi": "Chúc mừng bạn!"
+    }
+   ]
+  },
+  {
+   "scene": "バス",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どうぞ座ってください、赤ちゃんを抱っこしているし。",
+     "vi": "Chị ngồi đi, chị đang bế em bé mà."
+    },
+    {
+     "speaker": "B",
+     "ja": "どうもありがとう。",
+     "vi": "Cảm ơn em nhiều."
+    }
+   ]
+  }
+ ],
+ "vi_232": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あれ誰？",
+     "vi": "Ai thế?"
+    },
+    {
+     "speaker": "B",
+     "ja": "大学時代からの親友だよ。",
+     "vi": "Bạn thân của mình từ hồi đại học."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "新しい友達はできた？",
+     "vi": "Con có bạn mới chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、2人できたよ。",
+     "vi": "Có, con có hai bạn mới."
+    }
+   ]
+  }
+ ],
+ "vi_233": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ご両親と住んでるの？",
+     "vi": "Bạn sống với bố mẹ à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、一人暮らし。",
+     "vi": "Không, mình sống một mình."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この手紙をご両親に渡してね。",
+     "vi": "Em đưa thư này cho bố mẹ nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい。",
+     "vi": "Vâng ạ."
+    }
+   ]
+  }
+ ],
+ "vi_234": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "祖父はもう90歳なんだ。",
+     "vi": "Ông mình chín mươi tuổi rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "お元気なの？",
+     "vi": "Ông vẫn khỏe chứ?"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "週末、田舎におじいちゃんに会いに行こうね。",
+     "vi": "Cuối tuần về quê thăm ông nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、おじいちゃんに会いたいな。",
+     "vi": "Vâng, con nhớ ông lắm."
+    }
+   ]
+  }
+ ],
+ "vi_235": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "誰に料理を教わったの？",
+     "vi": "Ai dạy bạn nấu ăn?"
+    },
+    {
+     "speaker": "B",
+     "ja": "祖母だよ。",
+     "vi": "Bà mình."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "おばあちゃんに誕生日のお祝いの電話はした？",
+     "vi": "Con đã gọi điện chúc mừng sinh nhật bà chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、すごく喜んでたよ。",
+     "vi": "Rồi, bà vui lắm."
+    }
+   ]
+  }
+ ],
+ "vi_236": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこで働いてるの？",
+     "vi": "Bạn làm việc ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "旅行会社で働いてるよ。",
+     "vi": "Mình làm việc ở một công ty du lịch."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は在宅勤務ですか？",
+     "vi": "Hôm nay chị làm việc ở nhà à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、家で仕事してるの。",
+     "vi": "Ừ, chị làm việc ở nhà."
+    }
+   ]
+  }
+ ],
+ "vi_237": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日トゥアンさんはオフィスにいますか？",
+     "vi": "Hôm nay anh Tuấn có ở văn phòng không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいえ、顧客に会いに行っています。",
+     "vi": "Không, anh ấy đi gặp khách hàng."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "会社はどこにあるの？",
+     "vi": "Văn phòng bạn ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "タイ湖の近くだよ。",
+     "vi": "Ở gần hồ Tây."
+    }
+   ]
+  }
+ ],
+ "vi_238": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "会議は何時？",
+     "vi": "Mấy giờ có cuộc họp?"
+    },
+    {
+     "speaker": "B",
+     "ja": "10時、B会議室だよ。",
+     "vi": "Mười giờ, ở phòng họp B."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "後でかけ直すね、会議中なんだ。",
+     "vi": "Mình gọi lại sau nhé, đang trong cuộc họp."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、大丈夫。",
+     "vi": "Ừ, không sao."
+    }
+   ]
+  }
+ ],
+ "vi_239": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "新しいプロジェクトはどう？",
+     "vi": "Dự án mới thế nào rồi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく順調、予定より早いよ。",
+     "vi": "Rất tốt, nhanh hơn kế hoạch."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "みんなのグループ課題のテーマは何？",
+     "vi": "Dự án nhóm của các em về chủ đề gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "環境保護についてです。",
+     "vi": "Về bảo vệ môi trường ạ."
+    }
+   ]
+  }
+ ],
+ "vi_240": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "締め切りはいつ？",
+     "vi": "Hạn chót là khi nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "来週の金曜日の昼だよ。",
+     "vi": "Trưa thứ sáu tuần sau."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "課題の締め切りに間に合いません。",
+     "vi": "Em không kịp hạn chót nộp bài."
+    },
+    {
+     "speaker": "B",
+     "ja": "先生にもう少し時間をもらえるか聞いてみて。",
+     "vi": "Em hỏi cô xin thêm thời gian xem."
+    }
+   ]
+  }
+ ],
+ "vi_241": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あなたの上司は気難しい？",
+     "vi": "Sếp của bạn có khó tính không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、すごくいい人だよ。",
+     "vi": "Không, sếp mình rất tốt."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "上司に土曜日に出勤してって言われた。",
+     "vi": "Sếp bảo mình thứ bảy đi làm."
+    },
+    {
+     "speaker": "B",
+     "ja": "また？大変だね。",
+     "vi": "Lại thế à? Vất vả quá."
+    }
+   ]
+  }
+ ],
+ "vi_242": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "こちらは同僚のフンさんです。",
+     "vi": "Đây là đồng nghiệp của tôi, anh Hùng."
+    },
+    {
+     "speaker": "B",
+     "ja": "はじめまして。",
+     "vi": "Rất vui được gặp anh."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日のお昼は誰と食べたの？",
+     "vi": "Trưa nay bạn ăn với ai?"
+    },
+    {
+     "speaker": "B",
+     "ja": "部署の同僚たちとだよ。",
+     "vi": "Với mấy đồng nghiệp trong phòng."
+    }
+   ]
+  }
+ ],
+ "vi_243": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "私のメール届きましたか？",
+     "vi": "Anh nhận được email của em chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "届いたよ、今日の午後返信するね。",
+     "vi": "Rồi, chiều nay anh trả lời."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "メールアドレスは何？",
+     "vi": "Địa chỉ email của bạn là gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "メッセージで送るね。",
+     "vi": "Để mình nhắn tin cho bạn."
+    }
+   ]
+  }
+ ],
+ "vi_244": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "携帯借りてもいい？私の電池切れちゃった。",
+     "vi": "Cho mình mượn điện thoại được không? Máy mình hết pin."
+    },
+    {
+     "speaker": "B",
+     "ja": "いいよ、はい。",
+     "vi": "Được, đây."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "電話が鳴ってますよ。",
+     "vi": "Điện thoại của anh đang kêu kìa."
+    },
+    {
+     "speaker": "B",
+     "ja": "あ、ありがとう！",
+     "vi": "À, cảm ơn em!"
+    }
+   ]
+  }
+ ],
+ "vi_245": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日はパソコンがすごく遅い。",
+     "vi": "Máy tính của mình hôm nay chậm quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "再起動してみたら。",
+     "vi": "Thử khởi động lại xem."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "パソコン使ってもいい？",
+     "vi": "Con dùng máy tính được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "宿題を終わらせてからね。",
+     "vi": "Làm xong bài tập đã."
+    }
+   ]
+  }
+ ],
+ "vi_246": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "大学では何を専攻してるの？",
+     "vi": "Bạn học ngành gì ở đại học?"
+    },
+    {
+     "speaker": "B",
+     "ja": "経済を勉強してるよ。",
+     "vi": "Mình học kinh tế."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "試験勉強はした？",
+     "vi": "Con đã học bài để thi chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、3時間も勉強した！",
+     "vi": "Rồi, con học ba tiếng!"
+    }
+   ]
+  }
+ ],
+ "vi_247": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日学校はどうだった？",
+     "vi": "Hôm nay ở trường thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく楽しかった！",
+     "vi": "Vui lắm ạ!"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "学校は何時に始まるの？",
+     "vi": "Trường bạn mấy giờ vào học?"
+    },
+    {
+     "speaker": "B",
+     "ja": "朝7時だよ。",
+     "vi": "Bảy giờ sáng."
+    }
+   ]
+  }
+ ],
+ "vi_248": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこの大学に通ってるの？",
+     "vi": "Bạn học đại học nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ハノイ国家大学だよ。",
+     "vi": "Mình học Đại học Quốc gia Hà Nội."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "大学時代は何を勉強したんですか？",
+     "vi": "Hồi đại học anh học gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ITを勉強したよ。",
+     "vi": "Anh học công nghệ thông tin."
+    }
+   ]
+  }
+ ],
+ "vi_249": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "次の授業はどの教室？",
+     "vi": "Lớp học tiếp theo ở phòng nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "3号教室だよ。",
+     "vi": "Phòng ba."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "料理教室に通ってるんだ。",
+     "vi": "Mình đang đi lớp học nấu ăn."
+    },
+    {
+     "speaker": "B",
+     "ja": "楽しそう！",
+     "vi": "Nghe vui đấy!"
+    }
+   ]
+  }
+ ],
+ "vi_250": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日の授業は過去形についてです。",
+     "vi": "Bài học hôm nay về thì quá khứ."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、始めます。",
+     "vi": "Vâng, chúng em bắt đầu ạ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ピアノのレッスンを受けてどれくらい？",
+     "vi": "Bạn học đàn piano được bao lâu rồi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "3年、週に1回レッスンがあるよ。",
+     "vi": "Mình học được ba năm, mỗi tuần một bài học."
+    }
+   ]
+  }
+ ],
+ "vi_251": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何の本を読んでるの？",
+     "vi": "Bạn đang đọc sách gì thế?"
+    },
+    {
+     "speaker": "B",
+     "ja": "推理小説だよ。",
+     "vi": "Một cuốn tiểu thuyết trinh thám."
+    }
+   ]
+  },
+  {
+   "scene": "本屋",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "日本人向けのベトナム語の本はありますか？",
+     "vi": "Có sách học tiếng Việt cho người Nhật không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、左の棚にあります。",
+     "vi": "Có, ở kệ bên trái ạ."
+    }
+   ]
+  }
+ ],
+ "vi_252": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "宿題やった？",
+     "vi": "Con làm bài tập chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ほとんど終わった、あとは数学だけ。",
+     "vi": "Gần xong rồi, còn môn toán thôi."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "みんな、宿題を忘れないでね。",
+     "vi": "Các em nhớ làm bài tập về nhà nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はーい！",
+     "vi": "Vâng ạ!"
+    }
+   ]
+  }
+ ],
+ "vi_253": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "試験はいつ？",
+     "vi": "Khi nào bạn có bài thi?"
+    },
+    {
+     "speaker": "B",
+     "ja": "来週の月曜日、すごく緊張してる。",
+     "vi": "Thứ hai tuần sau, mình hồi hộp quá."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "試験はどうだった？",
+     "vi": "Bài thi thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "思ったより簡単だった！",
+     "vi": "Dễ hơn mình nghĩ!"
+    }
+   ]
+  }
+ ],
+ "vi_254": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このプロジェクトでたくさん学びました。",
+     "vi": "Qua dự án này em học hỏi được nhiều."
+    },
+    {
+     "speaker": "B",
+     "ja": "私もだよ。",
+     "vi": "Anh cũng vậy."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "いろんな国を旅して、多くのことを学んだよ。",
+     "vi": "Đi du lịch nhiều nước, mình học hỏi được nhiều điều."
+    },
+    {
+     "speaker": "B",
+     "ja": "私もあなたみたいに行ってみたい。",
+     "vi": "Mình cũng muốn đi như bạn."
+    }
+   ]
+  }
+ ],
+ "vi_255": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どうしてそんなにベトナム語が上手なの？",
+     "vi": "Sao tiếng Việt của bạn giỏi thế?"
+    },
+    {
+     "speaker": "B",
+     "ja": "毎日話す練習をしてるんだ。",
+     "vi": "Mình luyện tập nói mỗi ngày."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日の午後、サッカー部の練習はある？",
+     "vi": "Chiều nay đội bóng có luyện tập không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "あるよ、4時から。",
+     "vi": "Có, bốn giờ."
+    }
+   ]
+  }
+ ],
+ "vi_256": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "大学に受かったよ！",
+     "vi": "Mình đỗ đại học rồi!"
+    },
+    {
+     "speaker": "B",
+     "ja": "本当によかったね！",
+     "vi": "Mình vui cho bạn quá!"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ベトナムに戻ってきてうれしい？",
+     "vi": "Bạn có vui không khi về Việt Nam?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごくうれしい、ここの食べ物が恋しかった。",
+     "vi": "Vui lắm, mình nhớ đồ ăn ở đây."
+    }
+   ]
+  }
+ ],
+ "vi_257": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どうしてそんなに悲しそうなの？",
+     "vi": "Sao trông bạn buồn thế?"
+    },
+    {
+     "speaker": "B",
+     "ja": "親友が遠くに引っ越しちゃうんだ。",
+     "vi": "Bạn thân mình sắp chuyển đi xa."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あの映画すごく悲しかった。",
+     "vi": "Phim đó buồn quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、最後に泣いちゃった。",
+     "vi": "Ừ, cuối phim mình khóc."
+    }
+   ]
+  }
+ ],
+ "vi_258": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "顧客は怒ってる？",
+     "vi": "Khách hàng có giận không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "少しね。電話して謝ろう。",
+     "vi": "Hơi giận. Mình gọi điện xin lỗi đi."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お母さん、私に怒ってる？",
+     "vi": "Mẹ có giận con không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、疲れてるだけよ。",
+     "vi": "Không, mẹ chỉ mệt thôi."
+    }
+   ]
+  }
+ ],
+ "vi_259": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すごく心配そうだね。どうしたの？",
+     "vi": "Trông bạn lo lắng quá. Có chuyện gì thế?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うちの猫が病気なんだ。",
+     "vi": "Con mèo của mình bị ốm."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこに行ってたの？すごく心配したのよ！",
+     "vi": "Con đi đâu thế? Mẹ lo lắng lắm!"
+    },
+    {
+     "speaker": "B",
+     "ja": "ごめんなさい、携帯の電池が切れてたの。",
+     "vi": "Con xin lỗi, điện thoại hết pin."
+    }
+   ]
+  }
+ ],
+ "vi_260": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "旅行わくわくしてる？",
+     "vi": "Bạn có hứng thú với chuyến đi không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、もう待ちきれない！",
+     "vi": "Có, mình không đợi được nữa!"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "新しいプロジェクトに興味ある？",
+     "vi": "Em có hứng thú với dự án mới không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、参加したいです。",
+     "vi": "Có ạ, em muốn tham gia."
+    }
+   ]
+  }
+ ],
+ "vi_261": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "プレゼンの前、緊張してる？",
+     "vi": "Em có hồi hộp trước buổi thuyết trình không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "少し、初めてなので。",
+     "vi": "Có một chút, đây là lần đầu tiên."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すごく緊張する、もうすぐ面接なんだ。",
+     "vi": "Mình hồi hộp quá, sắp phỏng vấn rồi."
+    },
+    {
+     "speaker": "B",
+     "ja": "落ち着いて、きっとうまくいくよ。",
+     "vi": "Cứ bình tĩnh, bạn sẽ làm tốt."
+    }
+   ]
+  }
+ ],
+ "vi_262": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "パーティー、驚いた？",
+     "vi": "Bạn có bất ngờ với bữa tiệc không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく驚いた、何も知らなかった！",
+     "vi": "Bất ngờ lắm, mình không biết gì cả!"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "社長が会議に来ていて驚いたよ。",
+     "vi": "Tôi bất ngờ khi thấy giám đốc đến họp."
+    },
+    {
+     "speaker": "B",
+     "ja": "私も。",
+     "vi": "Tôi cũng vậy."
+    }
+   ]
+  }
+ ],
+ "vi_263": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "退屈、することがない。",
+     "vi": "Con chán quá, không có gì làm."
+    },
+    {
+     "speaker": "B",
+     "ja": "本でも読んだら。",
+     "vi": "Đọc sách đi con."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日の授業はどうだった？",
+     "vi": "Buổi học hôm nay thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく退屈、寝そうになった。",
+     "vi": "Chán lắm, mình suýt ngủ."
+    }
+   ]
+  }
+ ],
+ "vi_264": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "一人暮らしで寂しくない？",
+     "vi": "Sống một mình bạn có cô đơn không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "たまにね、でも猫がいるから。",
+     "vi": "Thỉnh thoảng, nhưng mình có con mèo."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "新しい街で寂しいんだ。",
+     "vi": "Ở thành phố mới mình thấy cô đơn quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "毎週末ビデオ通話しようね。",
+     "vi": "Cuối tuần nào mình cũng gọi video nhé."
+    }
+   ]
+  }
+ ],
+ "vi_265": [
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お母さん、大好き。",
+     "vi": "Con yêu mẹ."
+    },
+    {
+     "speaker": "B",
+     "ja": "お母さんも大好きよ。",
+     "vi": "Mẹ cũng yêu con."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "彼のこと好きなの？",
+     "vi": "Bạn yêu anh ấy à?"
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、すごく愛してる。",
+     "vi": "Ừ, mình yêu anh ấy lắm."
+    }
+   ]
+  }
+ ],
+ "vi_266": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "コーヒーは好き？",
+     "vi": "Bạn có thích cà phê không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "大好き、毎日飲んでるよ。",
+     "vi": "Thích lắm, ngày nào mình cũng uống."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どの色がお好きですか？",
+     "vi": "Chị thích màu nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "青が好きです。",
+     "vi": "Tôi thích màu xanh."
+    }
+   ]
+  }
+ ],
+ "vi_267": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ホラー映画は好き？",
+     "vi": "Bạn có thích phim kinh dị không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、大嫌い、怖すぎる！",
+     "vi": "Không, mình ghét lắm, sợ quá!"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "月曜の朝って嫌い。",
+     "vi": "Mình ghét sáng thứ hai."
+    },
+    {
+     "speaker": "B",
+     "ja": "コーヒーを飲めば大丈夫！",
+     "vi": "Uống cà phê vào là ổn!"
+    }
+   ]
+  }
+ ],
+ "vi_268": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すごく会いたいよ！いつ帰ってくるの？",
+     "vi": "Mình nhớ bạn quá! Khi nào bạn về?"
+    },
+    {
+     "speaker": "B",
+     "ja": "来月。私も会いたいよ。",
+     "vi": "Tháng sau. Mình cũng nhớ bạn."
+    }
+   ]
+  },
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "日本にいるとベトナム料理が恋しくならない？",
+     "vi": "Ở Nhật bạn có nhớ đồ ăn Việt không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく恋しい、特にフォー。",
+     "vi": "Nhớ lắm, nhất là phở."
+    }
+   ]
+  }
+ ],
+ "vi_269": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "パーティーはどうだった？",
+     "vi": "Bữa tiệc thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく楽しかった！",
+     "vi": "Vui vẻ lắm!"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "楽しんできてね！",
+     "vi": "Chúc bạn đi chơi vui vẻ!"
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう！",
+     "vi": "Cảm ơn bạn!"
+    }
+   ]
+  }
+ ],
+ "vi_270": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "博物館はどうだった？",
+     "vi": "Bảo tàng thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく面白かった、たくさん学べたよ。",
+     "vi": "Rất thú vị, mình học được nhiều điều."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "それは面白いアイデアだね。",
+     "vi": "Đó là một ý tưởng thú vị."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとうございます！やってみましょう。",
+     "vi": "Cảm ơn anh! Mình thử nhé."
+    }
+   ]
+  }
+ ],
+ "vi_271": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あの映画どうだった？",
+     "vi": "Phim đó thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごくつまらなかった、寝そうになった。",
+     "vi": "Nhàm chán lắm, mình suýt ngủ."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この会議、すごくつまらない。",
+     "vi": "Cuộc họp này nhàm chán quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "しーっ！上司に聞こえるよ。",
+     "vi": "Suỵt! Sếp nghe thấy đấy."
+    }
+   ]
+  }
+ ],
+ "vi_272": [
+  {
+   "scene": "旅行",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "景色を見て！",
+     "vi": "Nhìn cảnh kìa!"
+    },
+    {
+     "speaker": "B",
+     "ja": "わあ、きれい！",
+     "vi": "Ôi, đẹp quá!"
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日のアオザイ、すごくきれいだよ。",
+     "vi": "Hôm nay bạn mặc áo dài đẹp lắm."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとう！",
+     "vi": "Cảm ơn bạn!"
+    }
+   ]
+  }
+ ],
+ "vi_273": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "週末はどうだった？",
+     "vi": "Cuối tuần của bạn thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごくよかった、山登りに行ったよ。",
+     "vi": "Tốt lắm, mình đi leo núi."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あなたの報告書はとてもいいですね。",
+     "vi": "Báo cáo của em rất tốt."
+    },
+    {
+     "speaker": "B",
+     "ja": "ありがとうございます。",
+     "vi": "Em cảm ơn chị."
+    }
+   ]
+  }
+ ],
+ "vi_274": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今日は天気が悪いね。",
+     "vi": "Hôm nay thời tiết xấu quá."
+    },
+    {
+     "speaker": "B",
+     "ja": "家で映画を見よう。",
+     "vi": "Ở nhà xem phim đi."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "面接どうだった？",
+     "vi": "Phỏng vấn thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "悪くなかった、まあ大丈夫だと思う。",
+     "vi": "Không xấu lắm, mình nghĩ ổn."
+    }
+   ]
+  }
+ ],
+ "vi_275": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "テストは難しかった？",
+     "vi": "Bài kiểm tra có khó không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ううん、すごく簡単だった。",
+     "vi": "Không, dễ lắm."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あなたの家まで行くのは簡単？",
+     "vi": "Đến nhà bạn có dễ không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "簡単だよ、駅のすぐそば。",
+     "vi": "Dễ lắm, ngay cạnh ga."
+    }
+   ]
+  }
+ ],
+ "vi_276": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お仕事は何をしているの？",
+     "vi": "Bạn làm nghề gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "看護師だよ。",
+     "vi": "Mình là y tá."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お皿洗いを手伝ってね。",
+     "vi": "Con rửa bát giúp mẹ nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、すぐやるね。",
+     "vi": "Vâng, con làm ngay."
+    }
+   ]
+  }
+ ],
+ "vi_277": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "このウェブサイトは誰が作ったの？",
+     "vi": "Ai tạo ra trang web này?"
+    },
+    {
+     "speaker": "B",
+     "ja": "ナムさんのチームが作りました。",
+     "vi": "Đội của anh Nam tạo ra."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "みんな、短いプレゼンを作ってください。",
+     "vi": "Các em hãy tạo một bài thuyết trình ngắn."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、先生。",
+     "vi": "Vâng, cô ạ."
+    }
+   ]
+  }
+ ],
+ "vi_278": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ここに精進料理（ベジタリアン料理）はありますか？",
+     "vi": "Ở đây có món chay không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、豆腐のトマトソースがございます。",
+     "vi": "Có ạ, có đậu phụ sốt cà chua."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日時間ある？",
+     "vi": "Ngày mai bạn có thời gian không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "あるよ、午後なら。",
+     "vi": "Có, buổi chiều."
+    }
+   ]
+  }
+ ],
+ "vi_279": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "私のメッセージ届いた？",
+     "vi": "Bạn nhận được tin nhắn của mình chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "届いたよ、今読んだところ。",
+     "vi": "Nhận rồi, mình vừa đọc."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "商品はもう受け取られましたか？",
+     "vi": "Chị đã nhận được hàng chưa ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "受け取りました、ありがとう。",
+     "vi": "Nhận rồi, cảm ơn em."
+    }
+   ]
+  }
+ ],
+ "vi_280": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "氷を追加しますか？",
+     "vi": "Anh lấy thêm đá không ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、少しください。",
+     "vi": "Có, lấy cho tôi một ít."
+    }
+   ]
+  },
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "赤いのにします。",
+     "vi": "Tôi lấy cái màu đỏ."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、お包みしますね。",
+     "vi": "Vâng, để em gói lại."
+    }
+   ]
+  }
+ ],
+ "vi_281": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "パスポートを見せていただけますか。",
+     "vi": "Chị đưa em xem hộ chiếu ạ."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、どうぞ。",
+     "vi": "Đây em."
+    }
+   ]
+  },
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "リモコン取って。",
+     "vi": "Đưa mình cái điều khiển với."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい。",
+     "vi": "Đây."
+    }
+   ]
+  }
+ ],
+ "vi_282": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ランを見かけた？",
+     "vi": "Bạn có thấy Lan đâu không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "図書館で見かけたよ。",
+     "vi": "Mình thấy cô ấy ở thư viện."
+    }
+   ]
+  },
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "見て、虹が見える？",
+     "vi": "Nhìn kìa, bạn thấy cầu vồng không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "見えた、きれい！",
+     "vi": "Thấy rồi, đẹp quá!"
+    }
+   ]
+  }
+ ],
+ "vi_283": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何かお探しですか？",
+     "vi": "Chị cần gì ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いえ、見ているだけです。",
+     "vi": "Không, tôi chỉ nhìn thôi."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あのスカート見て、きれいじゃない？",
+     "vi": "Nhìn cái váy kia kìa, đẹp không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "きれい、入って試着してみよう。",
+     "vi": "Đẹp, vào thử đi."
+    }
+   ]
+  }
+ ],
+ "vi_284": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "みんな、よく聞いてね。",
+     "vi": "Các em nghe kỹ nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい。",
+     "vi": "Vâng ạ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ふだんどんな音楽を聴くの？",
+     "vi": "Bạn thường nghe nhạc gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "チン・コン・ソンの歌をよく聴くよ。",
+     "vi": "Mình hay nghe nhạc Trịnh."
+    }
+   ]
+  }
+ ],
+ "vi_285": [
+  {
+   "scene": "お店",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "英語は話せますか？",
+     "vi": "Anh có nói tiếng Anh không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、少しなら。",
+     "vi": "Có, một chút."
+    }
+   ]
+  },
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ホアさんとお話ししたいのですが。",
+     "vi": "Tôi muốn nói chuyện với chị Hoa."
+    },
+    {
+     "speaker": "B",
+     "ja": "私です。",
+     "vi": "Tôi đây ạ."
+    }
+   ]
+  }
+ ],
+ "vi_286": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今夜電話でおしゃべりしようね。",
+     "vi": "Tối nay mình trò chuyện qua điện thoại nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、9時に電話するね。",
+     "vi": "Ừ, mình gọi cho bạn lúc chín giờ."
+    }
+   ]
+  },
+  {
+   "scene": "カフェ",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "二人で何を楽しそうに話してるの？",
+     "vi": "Hai người trò chuyện gì vui thế?"
+    },
+    {
+     "speaker": "B",
+     "ja": "先週のダラット旅行のことだよ。",
+     "vi": "Về chuyến đi Đà Lạt tuần trước."
+    }
+   ]
+  }
+ ],
+ "vi_287": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "彼、何て言ってた？",
+     "vi": "Anh ấy bảo gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "遅れるって言ってたよ。",
+     "vi": "Anh ấy bảo sẽ đến muộn."
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "お母さんが早く帰ってきなさいって。",
+     "vi": "Mẹ bảo con về sớm."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、わかった。",
+     "vi": "Vâng, con biết rồi."
+    }
+   ]
+  }
+ ],
+ "vi_288": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "質問してもいいですか？",
+     "vi": "Em hỏi anh một câu được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいよ、どうぞ。",
+     "vi": "Được, em hỏi đi."
+    }
+   ]
+  },
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "あの人に道を聞こう。",
+     "vi": "Mình hỏi đường người kia đi."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、いいね。",
+     "vi": "Ừ, ý hay."
+    }
+   ]
+  }
+ ],
+ "vi_289": [
+  {
+   "scene": "家で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "電話に出てくれる？",
+     "vi": "Con trả lời điện thoại giúp mẹ nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん。もしもし？",
+     "vi": "Vâng. A lô?"
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この問題に答えられる人？",
+     "vi": "Ai trả lời được câu này?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい！答えは25です。",
+     "vi": "Em ạ! Đáp án là hai mươi lăm."
+    }
+   ]
+  }
+ ],
+ "vi_290": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "銀行がどこにあるか知っていますか？",
+     "vi": "Anh có biết ngân hàng ở đâu không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すみません、わかりません。",
+     "vi": "Xin lỗi, tôi không biết."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "ナムさんを知ってる？",
+     "vi": "Bạn có biết anh Nam không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "知ってるよ、同じ学校だったんだ。",
+     "vi": "Biết, bọn mình học cùng trường."
+    }
+   ]
+  }
+ ],
+ "vi_291": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "この服どう思う？",
+     "vi": "Bạn nghĩ cái áo này thế nào?"
+    },
+    {
+     "speaker": "B",
+     "ja": "すごく似合ってると思う。",
+     "vi": "Mình nghĩ nó rất hợp với bạn."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "明日雨降るかな？",
+     "vi": "Mai trời có mưa không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "降らないと思う。",
+     "vi": "Mình nghĩ là không."
+    }
+   ]
+  }
+ ],
+ "vi_292": [
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "みんなわかった？",
+     "vi": "Các em hiểu chưa?"
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、わかりました。",
+     "vi": "Dạ, em hiểu rồi ạ."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "すみません、わかりません。もう一度言ってもらえますか？",
+     "vi": "Xin lỗi, tôi không hiểu. Anh nói lại được không?"
+    },
+    {
+     "speaker": "B",
+     "ja": "いいですよ、もう一度説明しますね。",
+     "vi": "Được, để tôi giải thích lại."
+    }
+   ]
+  }
+ ],
+ "vi_293": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "私のこと覚えてる？ダナンで会ったよね。",
+     "vi": "Bạn còn nhớ mình không? Mình gặp nhau ở Đà Nẵng."
+    },
+    {
+     "speaker": "B",
+     "ja": "もちろん覚えてるよ！",
+     "vi": "Tất nhiên là nhớ chứ!"
+    }
+   ]
+  },
+  {
+   "scene": "家族と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "鍵をかけるのを忘れないでね。",
+     "vi": "Con nhớ khóa cửa nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、覚えてるよ。",
+     "vi": "Vâng, con nhớ rồi."
+    }
+   ]
+  }
+ ],
+ "vi_294": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "3時の会議を忘れないでね。",
+     "vi": "Đừng quên cuộc họp lúc ba giờ nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "言ってくれてありがとうございます。",
+     "vi": "Cảm ơn anh đã nhắc."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "傘はどこ？",
+     "vi": "Ô của bạn đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "しまった、バスに忘れてきた！",
+     "vi": "Chết, mình quên trên xe buýt rồi!"
+    }
+   ]
+  }
+ ],
+ "vi_295": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "新しい仕事はいつから始まるの？",
+     "vi": "Khi nào em bắt đầu công việc mới?"
+    },
+    {
+     "speaker": "B",
+     "ja": "来週の月曜日から始まります。",
+     "vi": "Thứ hai tuần sau em bắt đầu."
+    }
+   ]
+  },
+  {
+   "scene": "映画館",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "映画は何時に始まりますか？",
+     "vi": "Phim bắt đầu lúc mấy giờ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "7時半です。",
+     "vi": "Bảy giờ rưỡi ạ."
+    }
+   ]
+  }
+ ],
+ "vi_296": [
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "会議は何時に終わりますか？",
+     "vi": "Mấy giờ cuộc họp kết thúc?"
+    },
+    {
+     "speaker": "B",
+     "ja": "5時ごろに終わります。",
+     "vi": "Khoảng năm giờ kết thúc."
+    }
+   ]
+  },
+  {
+   "scene": "学校",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "授業は何時に終わるの？",
+     "vi": "Mấy giờ lớp học kết thúc?"
+    },
+    {
+     "speaker": "B",
+     "ja": "午後4時に終わるよ。",
+     "vi": "Bốn giờ chiều kết thúc."
+    }
+   ]
+  }
+ ],
+ "vi_297": [
+  {
+   "scene": "道で",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "何かお手伝いしましょうか？迷っているようですね。",
+     "vi": "Tôi giúp gì được chị không? Trông chị bị lạc."
+    },
+    {
+     "speaker": "B",
+     "ja": "はい、駅はどこですか？",
+     "vi": "Vâng, ga ở đâu ạ?"
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "手伝ってくれてありがとうございます！",
+     "vi": "Cảm ơn chị đã giúp em!"
+    },
+    {
+     "speaker": "B",
+     "ja": "どういたしまして、いつでもどうぞ。",
+     "vi": "Không có gì, lúc nào cũng được."
+    }
+   ]
+  }
+ ],
+ "vi_298": [
+  {
+   "scene": "レストラン",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どのくらい待ちますか？",
+     "vi": "Phải đợi bao lâu ạ?"
+    },
+    {
+     "speaker": "B",
+     "ja": "20分くらいです。",
+     "vi": "Khoảng hai mươi phút ạ."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "待って！",
+     "vi": "Đợi mình với!"
+    },
+    {
+     "speaker": "B",
+     "ja": "早く！",
+     "vi": "Nhanh lên!"
+    }
+   ]
+  }
+ ],
+ "vi_299": [
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "どこで会う？",
+     "vi": "Mình gặp nhau ở đâu?"
+    },
+    {
+     "speaker": "B",
+     "ja": "2時にカフェで会おう。",
+     "vi": "Gặp ở quán cà phê lúc hai giờ nhé."
+    }
+   ]
+  },
+  {
+   "scene": "職場",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "はじめまして、新しく来た部長です。",
+     "vi": "Rất vui được gặp anh, tôi là trưởng phòng mới."
+    },
+    {
+     "speaker": "B",
+     "ja": "こちらこそ、お会いできてうれしいです。",
+     "vi": "Tôi cũng rất vui được gặp anh."
+    }
+   ]
+  }
+ ],
+ "vi_300": [
+  {
+   "scene": "電話",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "今夜電話するね。",
+     "vi": "Tối nay mình gọi cho bạn nhé."
+    },
+    {
+     "speaker": "B",
+     "ja": "うん、また後でね。",
+     "vi": "Ừ, nói chuyện sau nhé."
+    }
+   ]
+  },
+  {
+   "scene": "友達と",
+   "lines": [
+    {
+     "speaker": "A",
+     "ja": "これはベトナム語で何て言うの？",
+     "vi": "Cái này tiếng Việt gọi là gì?"
+    },
+    {
+     "speaker": "B",
+     "ja": "「ドゥア（箸）」って言うんだよ。",
+     "vi": "Gọi là \"đũa\"."
+    }
+   ]
+  }
+ ]
+}
