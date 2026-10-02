@@ -97,7 +97,8 @@ export const DECKS = Object.freeze({
             situations: (lang) => `./data/situations-${lang}.json` },
   toeic:  { id: 'toeic',  label: 'TOEIC',            languages: ['en'],       file: ()     => `./data/vocabulary-toeic.json` },
   ielts:  { id: 'ielts',  label: 'IELTS',            languages: ['en'],       file: ()     => `./data/vocabulary-ielts.json` },
-  vi3kyu: { id: 'vi3kyu', label: 'ベトナム語検定3級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-3kyu.json` },
+  vi3kyu: { id: 'vi3kyu', label: 'ベトナム語検定3級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-3kyu.json`,
+            situations: () => './data/situations-vi3kyu.json' },
   phrasal: { id: 'phrasal', label: '句動詞（イメージ）', languages: ['en'],     file: ()     => `./data/vocabulary-phrasal.json`,
              situations: () => './data/situations-phrasal.json' },
 });
