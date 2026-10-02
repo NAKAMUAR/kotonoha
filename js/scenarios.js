@@ -46,6 +46,31 @@ const LANG_BCP47 = {
 
 let currentUtterance = null;
 
+// その言語の音声のうち、より自然に聞こえるものを優先して選ぶ
+// （Edge の「Natural / Online」音声、Chrome の「Google」音声 > 端末標準の音声）
+export function pickVoice(lang) {
+  if (!SpeechSupport.tts) return null;
+  const code = (LANG_BCP47[lang] ?? lang).toLowerCase();
+  const base = code.split('-')[0];
+  const voices = speechSynthesis.getVoices().filter((v) => v.lang.toLowerCase().replace('_', '-').startsWith(base));
+  if (voices.length === 0) return null;
+  const score = (v) =>
+    (/natural/i.test(v.name) ? 4 : 0) +
+    (/online|google/i.test(v.name) ? 2 : 0) +
+    (v.lang.toLowerCase().replace('_', '-') === code ? 1 : 0);
+  return voices.slice().sort((a, b) => score(b) - score(a))[0];
+}
+
+/**
+ * その言語の音声が端末にあるか。
+ * 音声一覧がまだ読み込まれていないときは判定できないので null を返す。
+ */
+export function hasVoiceFor(lang) {
+  if (!SpeechSupport.tts) return false;
+  if (speechSynthesis.getVoices().length === 0) return null;
+  return pickVoice(lang) !== null;
+}
+
 export function speak(text, lang = 'en', { rate = 0.9, pitch = 1.0 } = {}) {
   if (!SpeechSupport.tts) return false;
   if (!text) return false;
@@ -58,10 +83,8 @@ export function speak(text, lang = 'en', { rate = 0.9, pitch = 1.0 } = {}) {
   u.rate  = rate;
   u.pitch = pitch;
 
-  // 適合する音声があれば優先
-  const voices = speechSynthesis.getVoices();
-  const match  = voices.find((v) => v.lang.toLowerCase().startsWith(u.lang.toLowerCase().split('-')[0]));
-  if (match) u.voice = match;
+  const voice = pickVoice(lang);
+  if (voice) u.voice = voice;
 
   currentUtterance = u;
   speechSynthesis.speak(u);
@@ -93,9 +116,8 @@ export function speakDialogue(dialogue, lang, { rate = 0.9, gapMs = 500 } = {}) 
         u.rate  = rate;
         u.onend = () => setTimeout(resolve, gapMs);
         u.onerror = () => resolve();
-        const voices = speechSynthesis.getVoices();
-        const match  = voices.find((v) => v.lang.toLowerCase().startsWith(u.lang.toLowerCase().split('-')[0]));
-        if (match) u.voice = match;
+        const voice = pickVoice(lang);
+        if (voice) u.voice = voice;
         speechSynthesis.speak(u);
       });
     }

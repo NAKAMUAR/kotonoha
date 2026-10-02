@@ -218,6 +218,8 @@
 
       <div id="vocab-counter" class="text-center text-xs text-sumi-soft mb-4 font-cormorant tracking-wider">
         <span id="vocab-status-text">残り <span id="vocab-remaining">0</span> 語</span>
+        <label class="auto-speak-toggle"><input type="checkbox" id="vocab-autospeak"> カードを出したら自動で発音</label>
+        <p id="vocab-voice-note" class="voice-note hidden"></p>
       </div>
 
       <div id="flashcard-area" class="flashcard-area">
@@ -227,6 +229,10 @@
               <div class="text-xs text-sumi-soft tracking-widest mb-3 font-cormorant">WORD</div>
               <div id="card-word" class="text-4xl font-cormorant font-medium px-2 break-words">—</div>
               <div id="card-reading" class="text-sm text-sumi-soft mt-3 font-jetbrains"></div>
+              <div class="audio-row mt-4">
+                <button class="audio-btn" data-say="word" aria-label="単語を発音">🔊 発音</button>
+                <button class="audio-btn" data-say="word" data-slow="1" aria-label="単語をゆっくり発音">🐢 ゆっくり</button>
+              </div>
               <div id="card-hint" class="text-xs text-sumi-soft mt-auto pt-6">タップで裏返し</div>
             </div>
             <div class="flashcard-face flashcard-back">
@@ -234,6 +240,10 @@
               <div id="card-meaning" class="text-2xl font-mincho font-medium px-2 break-words">—</div>
               <div class="w-10 h-px bg-sumi/20 my-3"></div>
               <div id="card-example" class="text-sm font-cormorant italic text-sumi-light px-2"></div>
+              <div id="card-example-audio" class="audio-row mt-2 hidden">
+                <button class="audio-btn audio-btn-sm" data-say="example" aria-label="例文を読み上げ">🔊 例文</button>
+                <button class="audio-btn audio-btn-sm" data-say="example" data-slow="1" aria-label="例文をゆっくり読み上げ">🐢 ゆっくり</button>
+              </div>
               <div id="card-example-tr" class="text-xs text-sumi-soft mt-1 px-2"></div>
               <div id="card-concept" class="concept hidden"></div>
               <div id="card-situations" class="situations hidden"></div>
@@ -340,6 +350,13 @@
       <div class="card mb-4">
         <label class="label" for="grammar-input">添削する文章</label>
         <textarea id="grammar-input" rows="6" class="textarea" placeholder="ここに英文またはベトナム語の文章を入力..."></textarea>
+        <div class="audio-row audio-row-start mt-2">
+          <button class="audio-btn audio-btn-sm" id="btn-grammar-speak">🔊 読み上げ</button>
+          <button class="audio-btn audio-btn-sm" id="btn-grammar-speak-slow">🐢 ゆっくり</button>
+          <button class="audio-btn audio-btn-sm" id="btn-grammar-speak-stop">■ 停止</button>
+        </div>
+        <p class="text-[11px] text-sumi-soft mt-1">書いた文章や、AI が直してくれた文章を貼り付けて、耳でも確認できます。</p>
+        <p id="grammar-voice-note" class="voice-note hidden"></p>
         <div class="flex flex-wrap items-center gap-2 mt-3">
           <span class="text-xs text-sumi-soft mr-1">使う AI:</span>
           <button class="ai-chip ai-chip-active" data-ai="claude">Claude</button>

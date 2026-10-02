@@ -754,3 +754,23 @@ body {
   .phase-row { grid-template-columns: 1fr; gap: 0.25rem; }
   .phase-pct { text-align: left; }
 }
+
+/* ---------- 音声（発音・読み上げ）ボタン ---------- */
+.audio-row { display: flex; justify-content: center; gap: 0.5rem; flex-wrap: wrap; }
+.audio-row-start { justify-content: flex-start; }
+.audio-btn {
+  font-size: 0.8rem; color: var(--shu); border: 1px solid var(--shu); border-radius: 999px;
+  padding: 0.25rem 0.8rem; background: transparent; line-height: 1.2;
+}
+.audio-btn:hover, .audio-btn.speaking { background: var(--shu); color: var(--washi); }
+.audio-btn-sm { font-size: 0.7rem; padding: 0.1rem 0.6rem; }
+.use-say { margin-left: 0.3rem; font-size: 0.65rem; padding: 0 0.45rem; vertical-align: middle; }
+.auto-speak-toggle {
+  display: inline-flex; align-items: center; gap: 0.3rem; margin-left: 0.8rem;
+  font-family: "Shippori Mincho", serif; font-size: 0.7rem; letter-spacing: 0; cursor: pointer;
+}
+.auto-speak-toggle input { accent-color: var(--shu); }
+.voice-note {
+  margin-top: 0.4rem; font-size: 0.7rem; line-height: 1.5; color: var(--shu);
+  font-family: "Shippori Mincho", serif; letter-spacing: 0; text-align: left;
+}

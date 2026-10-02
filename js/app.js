@@ -53,6 +53,7 @@ import {
   stopSpeaking,
   speakDialogue,
   SpeechSupport,
+  hasVoiceFor,
 } from './scenarios.js';
 
 import {
@@ -89,6 +90,7 @@ const vocabState = {
   flipped:             false,
   loading:             false,
   pulledFromFirestore: false,
+  autoSpeak:           false,
 };
 
 const scenarioState = {
@@ -408,8 +410,51 @@ function showCurrentCard() {
   renderSituations(word);
   renderIntervalPreview(word.srs);
 
+  const lang = cardLang(word);
+  document.getElementById('card-example-audio')?.classList.toggle('hidden', !SpeechSupport.tts || !word.example);
+  updateVoiceNote('vocab-voice-note', lang);
+  if (vocabState.autoSpeak) sayCard('word', false);
+
   flashcardEl?.classList.remove('flipped');
   vocabState.flipped = false;
+}
+
+// ---------- 発音（単語・例文） ----------
+
+function cardLang(word) {
+  return word?.lang ?? vocabState.lang;
+}
+
+// 「năm (年)」のような括弧書きの補足は読み上げない
+function speakableText(text) {
+  return (text ?? '').replace(/\s*[(（].*?[)）]/g, '').trim();
+}
+
+function sayCard(what, slow) {
+  const word = vocabState.queue[vocabState.index];
+  if (!word) return;
+  const text = what === 'example' ? word.example : word.word;
+  speak(speakableText(text), cardLang(word), { rate: slow ? 0.55 : 0.9 });
+}
+
+const LANG_LABEL = { en: '英語', vi: 'ベトナム語' };
+
+// その言語の音声が端末に無いときだけ、案内を表示する
+function updateVoiceNote(elId, lang) {
+  const el = document.getElementById(elId);
+  if (!el) return;
+  const has = hasVoiceFor(lang);
+  if (!SpeechSupport.tts) {
+    el.textContent = 'このブラウザは音声の読み上げに対応していません。Microsoft Edge か Google Chrome でお使いください。';
+    el.classList.remove('hidden');
+    return;
+  }
+  if (has !== false) { el.classList.add('hidden'); return; }
+  const name = LANG_LABEL[lang] ?? lang;
+  el.textContent = `この端末には${name}の音声が入っていないため、発音されない（または不自然な発音になる）ことがあります。` +
+    'Microsoft Edge で開くと自然な音声が使えます。または Windows の「設定」→「時刻と言語」→「音声認識」→「音声を追加」から' +
+    `${name}を追加してください。`;
+  el.classList.remove('hidden');
 }
 
 // ---------- 句動詞: コアイメージで覚えるカード ----------
@@ -464,7 +509,7 @@ function renderConceptCard(word) {
       ${(word.uses ?? []).map((u) => `
         <li>
           <div class="use-image">${escapeHtml(u.image)}</div>
-          <div class="use-ex">${escapeHtml(u.example)}</div>
+          <div class="use-ex">${escapeHtml(u.example)}${SpeechSupport.tts ? `<button class="audio-btn use-say" data-say-text="${escapeHtml(u.example)}" aria-label="例文を読み上げ">🔊</button>` : ''}</div>
           <details class="use-ja"><summary>訳を見る</summary> ${escapeHtml(u.ja)}</details>
         </li>`).join('')}
     </ul>`;
@@ -1708,6 +1753,14 @@ function bindEvents() {
 
   // フラッシュカード裏返し
   document.querySelector('.flashcard')?.addEventListener('click', (e) => {
+    const audio = e.target.closest('.audio-btn');
+    if (audio) {
+      // 発音ボタンはカードを裏返さない
+      const slow = audio.dataset.slow === '1';
+      if (audio.dataset.sayText) speak(audio.dataset.sayText, cardLang(vocabState.queue[vocabState.index]), { rate: 0.9 });
+      else sayCard(audio.dataset.say, slow);
+      return;
+    }
     if (e.target.closest('.use-ja, .situation-play')) return; // 「訳を見る」「読み上げ」はカードを裏返さない
     e.currentTarget.classList.toggle('flipped');
     vocabState.flipped = e.currentTarget.classList.contains('flipped');
@@ -1895,6 +1948,40 @@ function bindEvents() {
   });
 
   document.getElementById('btn-grammar-check')?.addEventListener('click', onGrammarCheck);
+
+  // 文法添削: 入力した文章（または AI が直した文章）を読み上げ
+  const sayGrammar = (slow) => {
+    const text = document.getElementById('grammar-input')?.value.trim();
+    if (!text) { showToast('読み上げる文章を入力してください'); return; }
+    const lang = detectLanguage(text);
+    updateVoiceNote('grammar-voice-note', lang);
+    speak(text, lang, { rate: slow ? 0.6 : 0.9 });
+  };
+  document.getElementById('btn-grammar-speak')?.addEventListener('click', () => sayGrammar(false));
+  document.getElementById('btn-grammar-speak-slow')?.addEventListener('click', () => sayGrammar(true));
+  document.getElementById('btn-grammar-speak-stop')?.addEventListener('click', () => stopSpeaking());
+
+  // 単語カード: 自動発音の設定（この端末だけに保存）
+  const autoBox = document.getElementById('vocab-autospeak');
+  try { vocabState.autoSpeak = localStorage.getItem('kotonoha.autoSpeak') === '1'; } catch { vocabState.autoSpeak = false; }
+  if (autoBox) {
+    autoBox.checked = vocabState.autoSpeak;
+    autoBox.closest('label')?.classList.toggle('hidden', !SpeechSupport.tts);
+    autoBox.addEventListener('change', () => {
+      vocabState.autoSpeak = autoBox.checked;
+      try { localStorage.setItem('kotonoha.autoSpeak', autoBox.checked ? '1' : '0'); } catch { /* 保存できなくても動作は続ける */ }
+      if (autoBox.checked) sayCard('word', false);
+    });
+  }
+  if (!SpeechSupport.tts) document.querySelectorAll('.flashcard .audio-row').forEach((r) => r.classList.add('hidden'));
+
+  // 音声一覧は後から読み込まれることがあるので、そのときに案内を更新
+  if (SpeechSupport.tts) {
+    speechSynthesis.addEventListener?.('voiceschanged', () => {
+      const w = vocabState.queue[vocabState.index];
+      if (w) updateVoiceNote('vocab-voice-note', cardLang(w));
+    });
+  }
   document.getElementById('btn-copy-again')?.addEventListener('click', onCopyAgain);
 }
 
