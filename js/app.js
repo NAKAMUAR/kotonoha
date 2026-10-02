@@ -67,10 +67,11 @@ import {
 
 import { getReadingByPart } from './toeic-reading.js';
 import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.js';
+import { initLinking, activateLinkingScreen, leaveLinkingScreen } from './linking.js';
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
 
-const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
+const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'linking', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -148,6 +149,8 @@ function showScreen(name) {
   if (name === 'toeic-score')      activateScoreScreen();
   if (name === 'ielts-speaking')   activateIeltsSpeakingScreen();
   if (name === 'ielts-writing')    activateIeltsWritingScreen();
+  if (name === 'linking')          activateLinkingScreen();
+  else                             leaveLinkingScreen();
   if (name !== 'scenarios' && name !== 'toeic-listening') stopSpeaking();
   if (name !== 'toeic-listening')  stopListeningAudio();
 }
@@ -1948,6 +1951,8 @@ function bindEvents() {
   });
 
   document.getElementById('btn-grammar-check')?.addEventListener('click', onGrammarCheck);
+
+  initLinking({ showToast });
 
   // 文法添削: 入力した文章（または AI が直した文章）を読み上げ
   const sayGrammar = (slow) => {

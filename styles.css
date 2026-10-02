@@ -774,3 +774,39 @@ body {
   margin-top: 0.4rem; font-size: 0.7rem; line-height: 1.5; color: var(--shu);
   font-family: "Shippori Mincho", serif; letter-spacing: 0; text-align: left;
 }
+
+/* ---------- リンキング練習 ---------- */
+.lk-legend { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.4rem 1rem; font-size: 0.8rem; }
+.lk-arc {
+  display: inline-block; width: 0.7em; height: 0.35em; margin: 0 0.04em; vertical-align: -0.12em;
+  border-bottom: 2px solid var(--shu); border-radius: 0 0 0.7em 0.7em;
+}
+.lk-chg { color: var(--shu); background: rgba(197, 56, 43, 0.08); border-bottom: 2px solid var(--shu); border-radius: 2px; padding: 0 0.05em; }
+.lk-drop { color: var(--sumi-soft); opacity: 0.45; text-decoration: line-through; text-decoration-thickness: 1px; }
+.lk-ins { color: var(--shu); font-size: 0.65em; font-style: italic; margin: 0 0.05em; }
+.lk-chip-icon { display: inline-block; min-width: 1.1em; margin-right: 0.3rem; color: var(--shu); font-weight: 700; }
+.lk-item {
+  background: var(--washi-light); border: 1px solid rgba(26, 22, 18, 0.1); border-radius: 10px;
+  padding: 0.8rem 0.9rem; transition: box-shadow 0.2s, border-color 0.2s;
+}
+.lk-item-playing { border-color: var(--shu); box-shadow: 0 0 0 2px rgba(197, 56, 43, 0.15); }
+.lk-item-done { border-left: 3px solid var(--koke, #5a7a4a); }
+.lk-linked { font-family: "Cormorant Garamond", serif; font-size: 1.35rem; line-height: 1.5; font-weight: 600; }
+.lk-badge {
+  margin-left: 0.5rem; font-family: "Shippori Mincho", serif; font-size: 0.6rem; font-weight: 400; vertical-align: middle;
+  color: var(--washi); background: var(--koke, #5a7a4a); border-radius: 999px; padding: 0.05rem 0.45rem;
+}
+.lk-label {
+  display: inline-block; margin-right: 0.4rem; font-size: 0.6rem; color: var(--sumi-soft);
+  border: 1px solid rgba(26, 22, 18, 0.2); border-radius: 4px; padding: 0 0.3rem; vertical-align: middle;
+}
+.lk-sound { font-size: 0.9rem; margin-top: 0.25rem; }
+.lk-casual { font-family: "Cormorant Garamond", serif; font-size: 0.95rem; color: var(--sumi-light); margin-top: 0.2rem; }
+.lk-ja { font-size: 0.8rem; color: var(--sumi-light); margin-top: 0.3rem; }
+.lk-note { font-size: 0.75rem; color: var(--sumi-light); margin-top: 0.3rem; }
+.lk-note summary { cursor: pointer; color: var(--sumi-soft); }
+.lk-actions { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.6rem; }
+.lk-result { margin-top: 0.5rem; font-size: 0.8rem; line-height: 1.5; color: var(--sumi-light); }
+.lk-result-ok { color: var(--koke, #5a7a4a); font-weight: 600; }
+.lk-result-retry { color: var(--shu); }
+.lk-heard { display: block; font-weight: 400; color: var(--sumi-soft); font-size: 0.72rem; margin-top: 0.1rem; }

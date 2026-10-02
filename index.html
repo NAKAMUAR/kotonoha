@@ -123,7 +123,7 @@
 
       <div class="card mb-4">
         <h3 class="card-title">日常学習</h3>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-4">
           <button class="action-card" data-target="vocabulary">
             <div class="action-icon">学</div>
             <div class="action-label">単語復習</div>
@@ -138,6 +138,11 @@
             <div class="action-icon">筆</div>
             <div class="action-label">文法添削</div>
             <div class="action-sub">AI が文章を確認</div>
+          </button>
+          <button class="action-card" data-target="linking">
+            <div class="action-icon">繋</div>
+            <div class="action-label">リンキング</div>
+            <div class="action-sub">英語の音のつながり / 92 文</div>
           </button>
         </div>
       </div>
@@ -395,6 +400,44 @@
         </ol>
         <p class="text-xs text-sumi-soft mt-3">言語は自動判定されます（ベトナム語の声調記号があれば vi、なければ en）</p>
       </div>
+    </section>
+
+    <section id="screen-linking" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">リンキング練習</h2>
+        <p class="screen-sub">英語の「音のつながり」を聞いて、まねして言う</p>
+      </div>
+
+      <div class="card mb-4">
+        <h3 class="card-title">記号の見かた</h3>
+        <div class="lk-legend mt-3">
+          <div>go<span class="lk-arc"></span>on 音がつながる</div>
+          <div>mee<span class="lk-chg">t<span class="lk-arc"></span>y</span>ou 音が変わる</div>
+          <div>nex<span class="lk-drop">t</span> week ほとんど聞こえない</div>
+          <div>go<span class="lk-arc"></span><sup class="lk-ins">w</sup>out 間に軽い音が入る</div>
+        </div>
+        <p class="text-xs text-sumi-soft mt-3 leading-relaxed">
+          練習のしかた：①「🧩 1語ずつ」と「🔊 自然な速さ」を聞き比べる → ②「🐢 ゆっくり」でまねする → ③「🎙 言ってみる」で発音をチェック。
+          「聞こえ方」のカタカナはあくまで目安です。
+        </p>
+        <p id="lk-voice-note" class="voice-note hidden">このブラウザは音声の読み上げに対応していません。Microsoft Edge か Google Chrome でお使いください。</p>
+      </div>
+
+      <div id="lk-cat-row" class="filter-row mb-4"></div>
+
+      <div class="card mb-4">
+        <h3 id="lk-cat-title" class="card-title">—</h3>
+        <p id="lk-rule" class="text-sm text-sumi-light leading-relaxed mt-3"></p>
+        <p class="text-xs text-sumi-soft mt-2 leading-relaxed"><span class="lk-label">コツ</span><span id="lk-tip"></span></p>
+        <div class="flex flex-wrap items-center gap-2 mt-4">
+          <button id="lk-play-all" class="btn-secondary text-xs px-3 py-1.5">▶ 全部続けて聞く</button>
+          <button id="lk-shadow" class="btn-primary text-xs px-3 py-1.5">🗣 シャドーイング（聞いて→まねる）</button>
+          <button id="lk-stop" class="btn-secondary text-xs px-3 py-1.5 hidden">■ 停止</button>
+          <span id="lk-done" class="text-xs text-koke ml-auto"></span>
+        </div>
+      </div>
+
+      <div id="lk-list" class="space-y-3"></div>
     </section>
 
     <section id="screen-toeic-listening" class="screen hidden">

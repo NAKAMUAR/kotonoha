@@ -1,0 +1,828 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "id": "cv",
+   "title": "子音＋母音がつながる",
+   "icon": "‿",
+   "rule": "単語の最後の子音（k, t, n など）と、次の単語の最初の母音（a, i, o など）がくっついて、1つの単語のように聞こえます。",
+   "tip": "単語の切れ目で止まらず、最後の子音を次の単語に「渡す」つもりで言いましょう。",
+   "items": [
+    {
+     "text": "Check it out.",
+     "linked": "Check‿it‿out.",
+     "sound": "チェキラウ(ト)",
+     "ja": "見てみて。",
+     "note": "check の k が it に、it の t が out につながります。t は「ラ」に近い音に。",
+     "id": "cv-01"
+    },
+    {
+     "text": "Come on in.",
+     "linked": "Come‿on‿in.",
+     "sound": "カモニン",
+     "ja": "どうぞ入って。",
+     "note": "come の m と on の n が、それぞれ次の母音につながります。",
+     "id": "cv-02"
+    },
+    {
+     "text": "Pick it up.",
+     "linked": "Pick‿it‿up.",
+     "sound": "ピキラップ",
+     "ja": "拾って。",
+     "note": "pick + it + up が一続きに。最後の p はほぼ聞こえません。",
+     "id": "cv-03"
+    },
+    {
+     "text": "Take it easy.",
+     "linked": "Take‿it‿easy.",
+     "sound": "テイキリーズィー",
+     "ja": "気楽にね／無理しないで。",
+     "note": "take の k が it に、it の t が easy につながります。",
+     "id": "cv-04"
+    },
+    {
+     "text": "Hold on a second.",
+     "linked": "Hold‿on‿a second.",
+     "sound": "ホウルドナ セカン(ド)",
+     "ja": "ちょっと待って。",
+     "note": "hold の d が on に、on の n が a につながります。second の d はほぼ消えます。",
+     "id": "cv-05"
+    },
+    {
+     "text": "Is it okay?",
+     "linked": "Is‿it okay?",
+     "sound": "イズィッ(ト) オウケイ",
+     "ja": "大丈夫？",
+     "note": "is の s（ズの音）が it につながります。",
+     "id": "cv-06"
+    },
+    {
+     "text": "Thanks a lot.",
+     "linked": "Thanks‿a lot.",
+     "sound": "サンクサラッ(ト)",
+     "ja": "どうもありがとう。",
+     "note": "thanks の s が a につながって「サ」に。",
+     "id": "cv-07"
+    },
+    {
+     "text": "Turn it off.",
+     "linked": "Turn‿it‿off.",
+     "sound": "ターニロフ",
+     "ja": "消して。",
+     "note": "turn の n が it に、it の t が off につながります。",
+     "id": "cv-08"
+    },
+    {
+     "text": "Clean it up.",
+     "linked": "Clean‿it‿up.",
+     "sound": "クリーニラップ",
+     "ja": "片付けて。",
+     "note": "clean + it + up が1語のように。",
+     "id": "cv-09"
+    },
+    {
+     "text": "What's up?",
+     "linked": "What's‿up?",
+     "sound": "ワッツァップ",
+     "ja": "元気？／どうしたの？",
+     "note": "what's の s が up につながります。",
+     "id": "cv-10"
+    },
+    {
+     "text": "Keep in touch.",
+     "linked": "Keep‿in touch.",
+     "sound": "キーピン タッチ",
+     "ja": "連絡を取り合おうね。",
+     "note": "keep の p が in につながります。",
+     "id": "cv-11"
+    },
+    {
+     "text": "I'm an engineer.",
+     "linked": "I'm‿an‿engineer.",
+     "sound": "アイマネンジニア",
+     "ja": "私はエンジニアです。",
+     "note": "I'm の m が an に、an の n が engineer につながります。",
+     "id": "cv-12"
+    }
+   ]
+  },
+  {
+   "id": "assim",
+   "title": "音が混ざって変わる",
+   "icon": "≈",
+   "rule": "t・d・s・z の後に you や your（y の音）が来ると、2つの音が混ざって「チュ」「ジュ」「シュ」のように変わります。",
+   "tip": "「ト・ユー」と2つに分けず、最初から「チュー」と1つの音で言うのがコツです。",
+   "items": [
+    {
+     "text": "Nice to meet you.",
+     "linked": "Nice to mee[t‿y]ou.",
+     "sound": "ナイストゥ ミーチュー",
+     "ja": "はじめまして。",
+     "note": "meet の t + you の y →「チュ」。",
+     "id": "assim-01"
+    },
+    {
+     "text": "Did you eat?",
+     "linked": "Di[d‿y]ou eat?",
+     "sound": "ディジュ イー(ト)",
+     "ja": "食べた？",
+     "note": "did の d + you の y →「ジュ」。",
+     "id": "assim-02"
+    },
+    {
+     "text": "Would you like some coffee?",
+     "linked": "Woul[d‿y]ou like some coffee?",
+     "sound": "ウッジュ ライク サム カフィ",
+     "ja": "コーヒーはいかがですか？",
+     "note": "would の d + you →「ジュ」。",
+     "id": "assim-03"
+    },
+    {
+     "text": "Could you help me?",
+     "linked": "Coul[d‿y]ou help me?",
+     "sound": "クッジュ ヘルプミ",
+     "ja": "手伝ってもらえますか？",
+     "note": "could の d + you →「ジュ」。",
+     "id": "assim-04"
+    },
+    {
+     "text": "What's your name?",
+     "linked": "What'[s‿y]our name?",
+     "sound": "ワッチュア ネイム",
+     "ja": "お名前は？",
+     "note": "what's の ts + your →「チュ」に近い音。",
+     "id": "assim-05"
+    },
+    {
+     "text": "Bless you.",
+     "linked": "Bles[s‿y]ou.",
+     "sound": "ブレシュー",
+     "ja": "お大事に（くしゃみの後）。",
+     "note": "bless の s + you →「シュ」。",
+     "id": "assim-06"
+    },
+    {
+     "text": "I miss you.",
+     "linked": "I mis[s‿y]ou.",
+     "sound": "アイ ミシュー",
+     "ja": "会いたいよ。",
+     "note": "miss の s + you →「シュ」。",
+     "id": "assim-07"
+    },
+    {
+     "text": "Got you.",
+     "linked": "Go[t‿y]ou.",
+     "sound": "ガッチュ",
+     "ja": "わかった／捕まえた。",
+     "note": "got の t + you →「チュ」。会話ではよく gotcha と書かれます。",
+     "casual": "Gotcha.",
+     "id": "assim-08"
+    },
+    {
+     "text": "Can't you see?",
+     "linked": "Can'[t‿y]ou see?",
+     "sound": "キャンチュー スィー",
+     "ja": "わからないの？",
+     "note": "can't の t + you →「チュ」。",
+     "id": "assim-09"
+    },
+    {
+     "text": "How's your day?",
+     "linked": "How'[s‿y]our day?",
+     "sound": "ハウジュア デイ",
+     "ja": "今日はどう？",
+     "note": "how's の s（ズの音）+ your →「ジュ」。",
+     "id": "assim-10"
+    },
+    {
+     "text": "I'll let you know.",
+     "linked": "I'll le[t‿y]ou know.",
+     "sound": "アイル レッチュー ノウ",
+     "ja": "あとで知らせるね。",
+     "note": "let の t + you →「チュ」。",
+     "id": "assim-11"
+    },
+    {
+     "text": "Did you get it?",
+     "linked": "Di[d‿y]ou get it?",
+     "sound": "ディジュ ゲリッ(ト)",
+     "ja": "わかった？",
+     "note": "did you →「ディジュ」。get it は t が「ラ」に近くなります。",
+     "id": "assim-12"
+    }
+   ]
+  },
+  {
+   "id": "drop",
+   "title": "音が消える・弱くなる",
+   "icon": "( )",
+   "rule": "子音が続くとき、前の単語の最後の音（特に t・d）はほとんど発音されません。同じ音が2つ並ぶと1回だけ言います。",
+   "tip": "消える音は「言う準備（口の形）」だけして、息は出さないイメージです。",
+   "items": [
+    {
+     "text": "See you next week.",
+     "linked": "See you nex(t) week.",
+     "sound": "スィーユー ネクス ウィーク",
+     "ja": "また来週。",
+     "note": "next の t が消えます。",
+     "id": "drop-01"
+    },
+    {
+     "text": "Good night.",
+     "linked": "Goo(d) night.",
+     "sound": "グッナイ(ト)",
+     "ja": "おやすみ。",
+     "note": "good の d が消え、night の t も弱くなります。",
+     "id": "drop-02"
+    },
+    {
+     "text": "Last night was fun.",
+     "linked": "Las(t) night was fun.",
+     "sound": "ラスナイ ワズ ファン",
+     "ja": "昨夜は楽しかった。",
+     "note": "last の t が消えます。",
+     "id": "drop-03"
+    },
+    {
+     "text": "Just a moment, please.",
+     "linked": "Just‿a momen(t), please.",
+     "sound": "ジャスタ モウメン プリーズ",
+     "ja": "少々お待ちください。",
+     "note": "just a はつながり、moment の t は消えます。",
+     "id": "drop-04"
+    },
+    {
+     "text": "I don't know.",
+     "linked": "I don'(t) know.",
+     "sound": "アイ ドン ノウ",
+     "ja": "わからない。",
+     "note": "don't の t が消えます。もっとくだけると「アイダノ」にも。",
+     "id": "drop-05"
+    },
+    {
+     "text": "I want to go.",
+     "linked": "I wan(t) to go.",
+     "sound": "アイ ワントゥ ゴウ",
+     "ja": "行きたい。",
+     "note": "want の t と to の t が重なり、t は1回だけ。",
+     "id": "drop-06"
+    },
+    {
+     "text": "Hot dog, please.",
+     "linked": "Ho(t) dog, please.",
+     "sound": "ハッ ドッグ プリーズ",
+     "ja": "ホットドッグをください。",
+     "note": "hot の t が消え、「ホットドッグ」とは聞こえません。",
+     "id": "drop-07"
+    },
+    {
+     "text": "Bad day?",
+     "linked": "Ba(d) day?",
+     "sound": "バッ デイ",
+     "ja": "嫌な日だった？",
+     "note": "bad の d と day の d が重なり、1回だけ発音。",
+     "id": "drop-08"
+    },
+    {
+     "text": "Stop playing.",
+     "linked": "Sto(p) playing.",
+     "sound": "スタッ プレイイン",
+     "ja": "遊ぶのをやめて。",
+     "note": "stop の p が消え、playing の g もほぼ消えます。",
+     "id": "drop-09"
+    },
+    {
+     "text": "Wait a minute.",
+     "linked": "Wait‿a minu(te).",
+     "sound": "ウェイラ ミニッ",
+     "ja": "ちょっと待って。",
+     "note": "wait a はつながり（t が「ラ」に近い音）、minute の t は消えます。",
+     "id": "drop-10"
+    },
+    {
+     "text": "Don't worry.",
+     "linked": "Don'(t) worry.",
+     "sound": "ドン ウォーリー",
+     "ja": "心配しないで。",
+     "note": "don't の t が消えます。",
+     "id": "drop-11"
+    },
+    {
+     "text": "I asked them.",
+     "linked": "I ask(ed) them.",
+     "sound": "アイ アスクゼム",
+     "ja": "彼らに聞いた。",
+     "note": "asked の ed（t の音）はほとんど聞こえません。",
+     "id": "drop-12"
+    }
+   ]
+  },
+  {
+   "id": "flap",
+   "title": "T がラ行のような音になる",
+   "icon": "t→d",
+   "rule": "アメリカ英語では、母音にはさまれた t が、軽い「ラ」や「ダ」のような音になります（フラップT）。単語の間でも起こります。",
+   "tip": "舌先で上の歯ぐきを「軽く1回はじく」だけ。強く「ト」と言わないのがコツです。",
+   "items": [
+    {
+     "text": "Get up.",
+     "linked": "Ge[t‿u]p.",
+     "sound": "ゲラップ",
+     "ja": "起きて。",
+     "note": "get の t が「ラ」に近くなります。",
+     "id": "flap-01"
+    },
+    {
+     "text": "What about you?",
+     "linked": "Wha[t‿a]bou[t‿y]ou?",
+     "sound": "ワラバウチュー",
+     "ja": "あなたは？",
+     "note": "what about の t が「ラ」、about you は「チュ」に。",
+     "id": "flap-02"
+    },
+    {
+     "text": "A lot of people",
+     "linked": "A lo[t‿o]f people",
+     "sound": "アラロヴ ピープル",
+     "ja": "たくさんの人",
+     "note": "lot of の t が「ラ」に。of の f もほぼ聞こえず「アララ」とも。",
+     "id": "flap-03"
+    },
+    {
+     "text": "Let it go.",
+     "linked": "Le[t‿i](t) go.",
+     "sound": "レリゴー",
+     "ja": "放っておいて／忘れて。",
+     "note": "let it の t が「ラ」、it の t は消えます。",
+     "id": "flap-04"
+    },
+    {
+     "text": "Not at all.",
+     "linked": "No[t‿a][t‿a]ll.",
+     "sound": "ナラロー",
+     "ja": "どういたしまして／全然。",
+     "note": "not at all の t がどちらも「ラ」に近い音に。",
+     "id": "flap-05"
+    },
+    {
+     "text": "Put it on.",
+     "linked": "Pu[t‿i][t‿o]n.",
+     "sound": "プリロン",
+     "ja": "着て／つけて。",
+     "note": "put it on の t が両方「ラ」に近くなります。",
+     "id": "flap-06"
+    },
+    {
+     "text": "I'll get it.",
+     "linked": "I'll ge[t‿i](t).",
+     "sound": "アイル ゲリッ",
+     "ja": "私が出るね（電話・ドアなど）。",
+     "note": "get it →「ゲリッ」。",
+     "id": "flap-07"
+    },
+    {
+     "text": "Water, please.",
+     "linked": "Wa[t]er, please.",
+     "sound": "ワラー プリーズ",
+     "ja": "お水をください。",
+     "note": "water の t が「ラ」。「ウォーター」では通じにくいことも。",
+     "id": "flap-08"
+    },
+    {
+     "text": "It's getting better.",
+     "linked": "It's ge[tt]ing be[tt]er.",
+     "sound": "イッツ ゲリン ベラー",
+     "ja": "だんだん良くなってる。",
+     "note": "getting と better の tt が「ラ」に。",
+     "id": "flap-09"
+    },
+    {
+     "text": "Shut it down.",
+     "linked": "Shu[t‿i](t) down.",
+     "sound": "シャリッ ダウン",
+     "ja": "（電源を）切って。",
+     "note": "shut it の t が「ラ」に。",
+     "id": "flap-10"
+    },
+    {
+     "text": "Whatever you want.",
+     "linked": "Wha[t]ever you want.",
+     "sound": "ワレヴァー ユー ワン(ト)",
+     "ja": "好きなようにして。",
+     "note": "whatever の t が「ラ」に。",
+     "id": "flap-11"
+    },
+    {
+     "text": "Can I get a coffee?",
+     "linked": "Can‿I ge[t‿a] coffee?",
+     "sound": "キャナイ ゲラ カフィ",
+     "ja": "コーヒーをもらえますか？",
+     "note": "can I は「キャナイ」、get a は「ゲラ」。",
+     "id": "flap-12"
+    }
+   ]
+  },
+  {
+   "id": "weak",
+   "title": "くだけた短い言い方",
+   "icon": "→",
+   "rule": "よく使う組み合わせは、会話でとても短く発音されます。going to →「ガナ」、want to →「ワナ」などです。",
+   "tip": "まずは聞き取れるようになることが大事。自分で使うのは親しい人との会話で。",
+   "items": [
+    {
+     "text": "I'm going to call you.",
+     "linked": "I'm [going to] call you.",
+     "sound": "アイム ガナ コーリュー",
+     "ja": "電話するね。",
+     "note": "going to →「ガナ」（gonna）。",
+     "casual": "I'm gonna call you.",
+     "id": "weak-01"
+    },
+    {
+     "text": "I want to see it.",
+     "linked": "I [want to] see it.",
+     "sound": "アイ ワナ スィーイッ",
+     "ja": "それ見たい。",
+     "note": "want to →「ワナ」（wanna）。",
+     "casual": "I wanna see it.",
+     "id": "weak-02"
+    },
+    {
+     "text": "I've got to go.",
+     "linked": "I['ve got to] go.",
+     "sound": "アイ(ヴ) ガラ ゴウ",
+     "ja": "もう行かなきゃ。",
+     "note": "have got to →「ガラ」（gotta）。",
+     "casual": "I gotta go.",
+     "id": "weak-03"
+    },
+    {
+     "text": "Let me see.",
+     "linked": "Le[t me] see.",
+     "sound": "レミ スィー",
+     "ja": "えーと／見せて。",
+     "note": "let me →「レミ」（lemme）。",
+     "casual": "Lemme see.",
+     "id": "weak-04"
+    },
+    {
+     "text": "Give me a break.",
+     "linked": "Gi[ve me] a break.",
+     "sound": "ギミア ブレイク",
+     "ja": "勘弁してよ。",
+     "note": "give me →「ギミ」（gimme）。",
+     "casual": "Gimme a break.",
+     "id": "weak-05"
+    },
+    {
+     "text": "What do you want?",
+     "linked": "What [do you] want?",
+     "sound": "ワダヤ ワン(ト)",
+     "ja": "何がほしいの？",
+     "note": "what do you →「ワダヤ」（whaddaya）。",
+     "casual": "Whaddaya want?",
+     "id": "weak-06"
+    },
+    {
+     "text": "It's kind of hot.",
+     "linked": "It's [kind of] hot.",
+     "sound": "イッツ カインダ ハッ(ト)",
+     "ja": "ちょっと暑いね。",
+     "note": "kind of →「カインダ」（kinda）。",
+     "casual": "It's kinda hot.",
+     "id": "weak-07"
+    },
+    {
+     "text": "I don't know.",
+     "linked": "I [don't know].",
+     "sound": "アイ ダノウ",
+     "ja": "知らない。",
+     "note": "don't know →「ダノウ」（dunno）。",
+     "casual": "I dunno.",
+     "id": "weak-08"
+    },
+    {
+     "text": "Do you want to go?",
+     "linked": "[Do you want to] go?",
+     "sound": "ジュ ワナ ゴウ",
+     "ja": "行きたい？",
+     "note": "do you want to →「ジュワナ」。",
+     "casual": "D'you wanna go?",
+     "id": "weak-09"
+    },
+    {
+     "text": "You have to try it.",
+     "linked": "You [have to] try it.",
+     "sound": "ユー ハフタ トライ イッ",
+     "ja": "絶対やってみて。",
+     "note": "have to →「ハフタ」（hafta）。",
+     "casual": "You hafta try it.",
+     "id": "weak-10"
+    },
+    {
+     "text": "What are you doing?",
+     "linked": "What [are you] doing?",
+     "sound": "ワラユー ドゥーイン",
+     "ja": "何してるの？",
+     "note": "what are you →「ワラユ」。doing の g も消えます。",
+     "casual": "Whatcha doing?",
+     "id": "weak-11"
+    },
+    {
+     "text": "Did you eat yet?",
+     "linked": "[Did you] eat yet?",
+     "sound": "ジーチェッ(ト)",
+     "ja": "もう食べた？",
+     "note": "Did you eat →「ジーチ」。とても速い会話の形。",
+     "casual": "Djeet yet?",
+     "id": "weak-12"
+    }
+   ]
+  },
+  {
+   "id": "h",
+   "title": "h の音が消える",
+   "icon": "(h)",
+   "rule": "he・his・him・her・have などの h は、文の途中では弱くなって消えることがよくあります。残った母音が前の単語につながります。",
+   "tip": "h を消したら、前の単語の最後の子音とつなげます（tell him →「テリム」）。",
+   "items": [
+    {
+     "text": "Tell him I said hi.",
+     "linked": "Tell‿(h)im I said hi.",
+     "sound": "テリム アイ セッ ハイ",
+     "ja": "彼によろしく伝えて。",
+     "note": "him の h が消えて tell につながります。",
+     "id": "h-01"
+    },
+    {
+     "text": "Ask her.",
+     "linked": "Ask‿(h)er.",
+     "sound": "アスカー",
+     "ja": "彼女に聞いて。",
+     "note": "her の h が消えて ask につながります。",
+     "id": "h-02"
+    },
+    {
+     "text": "Did he call?",
+     "linked": "Did‿(h)e call?",
+     "sound": "ディディー コール",
+     "ja": "彼から電話あった？",
+     "note": "he の h が消えて did につながります。",
+     "id": "h-03"
+    },
+    {
+     "text": "I should have known.",
+     "linked": "I should‿(h)ave known.",
+     "sound": "アイ シュダヴ ノウン",
+     "ja": "気づくべきだった。",
+     "note": "have の h が消え「シュダヴ」。さらに弱まると「シュダ」（shoulda）に。",
+     "casual": "I shoulda known.",
+     "id": "h-04"
+    },
+    {
+     "text": "Where's his bag?",
+     "linked": "Where's‿(h)is bag?",
+     "sound": "ウェアズィズ バッグ",
+     "ja": "彼のかばんはどこ？",
+     "note": "his の h が消えて where's につながります。",
+     "id": "h-05"
+    },
+    {
+     "text": "Give her a hand.",
+     "linked": "Give‿(h)er‿a hand.",
+     "sound": "ギヴァラ ハンド",
+     "ja": "彼女を手伝ってあげて。",
+     "note": "her の h が消え、give her a が一続きに。",
+     "id": "h-06"
+    },
+    {
+     "text": "I could have done it.",
+     "linked": "I could‿(h)ave done it.",
+     "sound": "アイ クダ ダニッ",
+     "ja": "やろうと思えばできた。",
+     "note": "could have →「クダ」（coulda）。",
+     "casual": "I coulda done it.",
+     "id": "h-07"
+    },
+    {
+     "text": "What has he done?",
+     "linked": "What‿(h)as‿(h)e done?",
+     "sound": "ワラズィ ダン",
+     "ja": "彼は何をしたの？",
+     "note": "has と he の h がどちらも消えます。",
+     "id": "h-08"
+    },
+    {
+     "text": "Let him know.",
+     "linked": "Let‿(h)im know.",
+     "sound": "レリム ノウ",
+     "ja": "彼に知らせて。",
+     "note": "him の h が消え、let の t が「ラ」に近い音に。",
+     "id": "h-09"
+    },
+    {
+     "text": "Take her home.",
+     "linked": "Take‿(h)er home.",
+     "sound": "テイカー ホウム",
+     "ja": "彼女を家まで送って。",
+     "note": "her の h が消え「テイカー」。",
+     "id": "h-10"
+    }
+   ]
+  },
+  {
+   "id": "vv",
+   "title": "母音と母音をなめらかにつなぐ",
+   "icon": "w/y",
+   "rule": "母音で終わる単語の次に母音で始まる単語が来ると、間に軽い「ウ（w）」や「イ（y）」の音が入って、なめらかにつながります。",
+   "tip": "単語の間で息を止めず、口の形を流れるように変えると自然に w・y の音が入ります。",
+   "items": [
+    {
+     "text": "I agree.",
+     "linked": "I‿{y}agree.",
+     "sound": "アイヤグリー",
+     "ja": "賛成です。",
+     "note": "I と agree の間に軽い「ヤ」の音。",
+     "id": "vv-01"
+    },
+    {
+     "text": "Let's go out.",
+     "linked": "Let's go‿{w}out.",
+     "sound": "レッツ ゴウワウ(ト)",
+     "ja": "出かけよう。",
+     "note": "go と out の間に軽い「ワ」の音。",
+     "id": "vv-02"
+    },
+    {
+     "text": "Do it now.",
+     "linked": "Do‿{w}it now.",
+     "sound": "ドゥーウィッ ナウ",
+     "ja": "今やって。",
+     "note": "do と it の間に「ウィ」の音。",
+     "id": "vv-03"
+    },
+    {
+     "text": "How are you?",
+     "linked": "How‿{w}are you?",
+     "sound": "ハウワー ユー",
+     "ja": "元気？",
+     "note": "how と are の間に「ワ」の音。",
+     "id": "vv-04"
+    },
+    {
+     "text": "See you at the end.",
+     "linked": "See you‿{w}at the‿{y}end.",
+     "sound": "スィーユーワッ ズィエンド",
+     "ja": "最後に会おう。",
+     "note": "the end は「ズィエンド」。母音の前の the は「ズィ」。",
+     "id": "vv-05"
+    },
+    {
+     "text": "Who is it?",
+     "linked": "Who‿{w}is‿it?",
+     "sound": "フーウィズィッ",
+     "ja": "どなたですか？",
+     "note": "who と is の間に「ウ」の音。",
+     "id": "vv-06"
+    },
+    {
+     "text": "Say it again.",
+     "linked": "Say‿{y}i[t‿a]gain.",
+     "sound": "セイイッラゲン",
+     "ja": "もう一度言って。",
+     "note": "say と it の間に「イ」の音、it again は t が「ラ」に近く。",
+     "id": "vv-07"
+    },
+    {
+     "text": "Go ahead.",
+     "linked": "Go‿{w}ahead.",
+     "sound": "ゴウワヘッ(ド)",
+     "ja": "どうぞ（お先に）。",
+     "note": "go と ahead の間に「ワ」の音。",
+     "id": "vv-08"
+    },
+    {
+     "text": "Two or three",
+     "linked": "Two‿{w}or three",
+     "sound": "トゥーワー スリー",
+     "ja": "2つか3つ",
+     "note": "two と or の間に「ワ」の音。",
+     "id": "vv-09"
+    },
+    {
+     "text": "Why are you here?",
+     "linked": "Why‿{y}are you here?",
+     "sound": "ワイヤー ユー ヒア",
+     "ja": "どうしてここに？",
+     "note": "why と are の間に「ヤ」の音。",
+     "id": "vv-10"
+    }
+   ]
+  },
+  {
+   "id": "daily",
+   "title": "よく使う会話フレーズ",
+   "icon": "★",
+   "rule": "日常会話でよく聞くフレーズです。これまでのルールがいくつも組み合わさっています。",
+   "tip": "まず「1語ずつ」と「自然な速さ」を聞き比べ、どこがつながっているかを確かめてから、まねして言ってみましょう。",
+   "items": [
+    {
+     "text": "How have you been?",
+     "linked": "How‿{w}(h)ave you been?",
+     "sound": "ハウワヴュー ビン",
+     "ja": "元気にしてた？",
+     "note": "have の h が消え、how に「ワ」の音でつながります。",
+     "id": "daily-01"
+    },
+    {
+     "text": "What are you up to?",
+     "linked": "Wha[t‿a]re you‿{w}up to?",
+     "sound": "ワラユー アップトゥ",
+     "ja": "何してるの？／最近どう？",
+     "note": "what are の t が「ラ」、you up が「ユーワップ」に。",
+     "id": "daily-02"
+    },
+    {
+     "text": "I'll pick you up at eight.",
+     "linked": "I'll pick you‿{w}u[p‿a]t‿eight.",
+     "sound": "アイル ピキュー アッパッ(ト)エイ(ト)",
+     "ja": "8時に迎えに行くね。",
+     "note": "pick you up at が一続きに。",
+     "id": "daily-03"
+    },
+    {
+     "text": "Can I ask you a question?",
+     "linked": "Can‿I ask you‿{w}a question?",
+     "sound": "キャナイ アスキュー ア クエスチョン",
+     "ja": "質問してもいいですか？",
+     "note": "can I →「キャナイ」、ask you →「アスキュー」。",
+     "id": "daily-04"
+    },
+    {
+     "text": "Let's get together.",
+     "linked": "Let's ge(t) together.",
+     "sound": "レッツ ゲッ トゥゲザー",
+     "ja": "集まろう。",
+     "note": "get の t が消えて together につながります。",
+     "id": "daily-05"
+    },
+    {
+     "text": "Not bad at all.",
+     "linked": "No(t) ba[d‿a][t‿a]ll.",
+     "sound": "ナッ バダロー",
+     "ja": "全然悪くないよ。",
+     "note": "bad at all の d・t が「ダ」「ラ」に近くなります。",
+     "id": "daily-06"
+    },
+    {
+     "text": "I'm on my way.",
+     "linked": "I'm‿on my way.",
+     "sound": "アイモンマイ ウェイ",
+     "ja": "今向かってるよ。",
+     "note": "I'm on が「アイモン」とつながります。",
+     "id": "daily-07"
+    },
+    {
+     "text": "It's up to you.",
+     "linked": "It's‿up to you.",
+     "sound": "イッツァップ トゥ ユー",
+     "ja": "あなた次第だよ。",
+     "note": "it's up が「イッツァップ」とつながります。",
+     "id": "daily-08"
+    },
+    {
+     "text": "Did you have a good time?",
+     "linked": "Di[d‿y]ou‿(h)ave‿a goo(d) time?",
+     "sound": "ディジュ ハヴァ グッ タイム",
+     "ja": "楽しかった？",
+     "note": "did you →「ディジュ」、have a →「ハヴァ」、good の d は消えます。",
+     "id": "daily-09"
+    },
+    {
+     "text": "Could you say that again?",
+     "linked": "Coul[d‿y]ou say tha[t‿a]gain?",
+     "sound": "クッジュ セイ ザラゲン",
+     "ja": "もう一度言ってもらえますか？",
+     "note": "could you →「クッジュ」、that again →「ザラゲン」。",
+     "id": "daily-10"
+    },
+    {
+     "text": "Let me think about it.",
+     "linked": "Le[t me] think‿abou[t‿i](t).",
+     "sound": "レミ スィンカバウリッ",
+     "ja": "考えさせて。",
+     "note": "let me →「レミ」、think about it が一続きに。",
+     "id": "daily-11"
+    },
+    {
+     "text": "I'm looking forward to it.",
+     "linked": "I'm lookin(g) forwar(d) to‿{w}it.",
+     "sound": "アイム ルッキン フォーワートゥ イッ",
+     "ja": "楽しみにしてるね。",
+     "note": "looking の g、forward の d が消えます。",
+     "id": "daily-12"
+    }
+   ]
+  }
+ ]
+}

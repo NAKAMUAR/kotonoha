@@ -10,7 +10,7 @@
 // バージョンを上げると古いキャッシュは activate 時に削除される。
 // =====================================================================
 
-const VERSION = 'kotonoha-v0.18.8';
+const VERSION = 'kotonoha-v0.19.0';
 const STATIC_CACHE = `${VERSION}-static`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
 
@@ -33,6 +33,7 @@ const PRECACHE = [
   './js/toeic-score.js',
   './js/ielts-speaking.js',
   './js/ielts-writing.js',
+  './js/linking.js',
   './data/vocabulary-en.json',
   './data/vocabulary-vi.json',
   './data/vocabulary-toeic.json',
@@ -48,6 +49,7 @@ const PRECACHE = [
   './data/toeic-reading.json',
   './data/ielts-speaking.json',
   './data/ielts-writing.json',
+  './data/linking-en.json',
   './icons/icon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
