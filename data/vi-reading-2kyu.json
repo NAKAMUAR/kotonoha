@@ -1,0 +1,663 @@
+{
+ "level": 2,
+ "passages": [
+  {
+   "id": "r2-01",
+   "title": "Đồng bằng sông Cửu Long trước thách thức xâm nhập mặn",
+   "titleJa": "メコンデルタと塩害の脅威",
+   "text": "Đồng bằng sông Cửu Long được coi là vựa lúa lớn nhất của Việt Nam, cung cấp hơn một nửa sản lượng lúa gạo và phần lớn lượng trái cây xuất khẩu của cả nước. Tuy vậy, trong những năm gần đây, vùng đất màu mỡ này đang phải đối mặt với một mối đe dọa ngày càng nghiêm trọng: xâm nhập mặn.\nVào mùa khô, khi lượng nước từ thượng nguồn sông Mê Công giảm mạnh, nước biển theo các cửa sông tràn sâu vào đất liền. Năm 2020, nước mặn đã lấn sâu hơn 100 cây số ở một số tỉnh, khiến hàng chục nghìn héc-ta lúa bị thiệt hại và hàng trăm nghìn hộ dân thiếu nước sinh hoạt. Sở dĩ tình trạng này trở nên trầm trọng là do nhiều nguyên nhân cùng lúc: biến đổi khí hậu làm nước biển dâng, các đập thủy điện ở thượng nguồn giữ lại nước, và việc khai thác cát, nước ngầm quá mức khiến đất bị sụt lún.\nTrước tình hình đó, người dân và chính quyền địa phương đã tìm cách thích ứng thay vì chỉ chống chọi. Nhiều nơi chuyển từ trồng lúa sang mô hình \"lúa – tôm\": mùa mưa trồng lúa, mùa khô nuôi tôm nước lợ. Một số hộ gia đình đầu tư bể chứa nước mưa, còn các tỉnh xây dựng thêm cống ngăn mặn.\nCác chuyên gia cho rằng, về lâu dài, đồng bằng cần một chiến lược phát triển tổng thể, dựa trên việc \"sống chung\" với nước mặn chứ không phải tìm mọi cách ngăn chặn nó.",
+   "ja": "メコンデルタはベトナム最大の穀倉地帯とみなされ、国全体の米の生産量の半分以上と、輸出用果物の大部分を供給している。しかし近年、この肥沃な土地はますます深刻化する脅威、塩害に直面している。\n乾季に上流のメコン川からの水量が大きく減ると、海水が河口から内陸深くへ流れ込む。2020年には一部の省で塩水が100キロ以上内陸に入り込み、数万ヘクタールの稲が被害を受け、数十万世帯が生活用水不足に陥った。この状況が深刻化したのは、複数の原因が重なったからだ。気候変動による海面上昇、上流の水力発電ダムによる貯水、そして砂や地下水の過剰な採取による地盤沈下である。\nこうした状況を前に、住民と地方当局は、ただ抵抗するのではなく適応する方法を模索してきた。多くの地域で稲作から「稲とエビ」のモデルに転換した。雨季には稲を育て、乾季には汽水でエビを養殖するのだ。雨水をためるタンクに投資する世帯もあり、各省は塩水を防ぐ水門を増設している。\n専門家によると、長期的にはデルタには全体的な発展戦略が必要であり、それはあらゆる手段で塩水を食い止めることではなく、塩水と「共生」することに基づくべきだという。",
+   "vocab": [
+    {
+     "vi": "vựa lúa",
+     "ja": "穀倉地帯"
+    },
+    {
+     "vi": "xâm nhập mặn",
+     "ja": "塩水の侵入、塩害"
+    },
+    {
+     "vi": "thượng nguồn",
+     "ja": "上流"
+    },
+    {
+     "vi": "sụt lún",
+     "ja": "地盤沈下"
+    },
+    {
+     "vi": "nước lợ",
+     "ja": "汽水"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo bài, nguyên nhân nào KHÔNG làm xâm nhập mặn trầm trọng hơn?",
+     "choices": [
+      "Đập thủy điện ở thượng nguồn",
+      "Khai thác cát và nước ngầm",
+      "Nước biển dâng",
+      "Lượng mưa tăng vào mùa khô"
+     ],
+     "answer": 3,
+     "explain": "本文には「乾季に雨が増える」とは書かれていません。",
+     "qJa": "塩害を悪化させた原因でないものはどれですか。"
+    },
+    {
+     "q": "Mô hình \"lúa – tôm\" là gì?",
+     "choices": [
+      "Bỏ trồng lúa để chỉ nuôi tôm",
+      "Nuôi tôm trong nước ngọt quanh năm",
+      "Mùa mưa trồng lúa, mùa khô nuôi tôm",
+      "Trồng lúa và nuôi tôm cùng một lúc"
+     ],
+     "answer": 2,
+     "explain": "mùa mưa trồng lúa, mùa khô nuôi tôm nước lợ。",
+     "qJa": "「稲とエビ」モデルとは何ですか。"
+    },
+    {
+     "q": "Quan điểm của các chuyên gia ở đoạn cuối là gì?",
+     "choices": [
+      "Cần ngừng trồng lúa hoàn toàn",
+      "Nên học cách sống chung với nước mặn",
+      "Phải xây thật nhiều cống để ngăn mặn",
+      "Nên chuyển người dân lên thành phố"
+     ],
+     "answer": 1,
+     "explain": "\"sống chung\" với nước mặn chứ không phải tìm mọi cách ngăn chặn nó。",
+     "qJa": "最後の段落の専門家の見解は何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r2-02",
+   "title": "Già hóa dân số – bài toán không thể trì hoãn",
+   "titleJa": "人口高齢化：先送りできない課題",
+   "text": "Việt Nam đang bước vào giai đoạn già hóa dân số với tốc độ thuộc hàng nhanh nhất thế giới. Nếu nhiều nước châu Âu mất hơn một thế kỷ để chuyển từ dân số \"đang già hóa\" sang dân số \"già\", thì Việt Nam dự kiến chỉ mất khoảng hai mươi năm.\nĐiều đáng lo ngại là Việt Nam đang \"già trước khi giàu\". Thu nhập bình quân đầu người vẫn ở mức trung bình, trong khi hệ thống an sinh xã hội còn nhiều hạn chế. Hiện nay, chỉ khoảng một phần ba người cao tuổi có lương hưu hoặc trợ cấp thường xuyên; số còn lại phải dựa vào con cháu hoặc tiếp tục làm việc để tự nuôi sống bản thân.\nBên cạnh đó, mô hình gia đình cũng đang thay đổi. Ngày càng nhiều người trẻ rời quê lên thành phố làm việc, để lại cha mẹ già ở nông thôn. Truyền thống \"trẻ cậy cha, già cậy con\" vì thế không còn được đảm bảo như trước.\nĐể ứng phó, các chuyên gia đề xuất nhiều giải pháp: mở rộng diện bao phủ của bảo hiểm xã hội, phát triển mạng lưới chăm sóc người cao tuổi tại cộng đồng, và tạo điều kiện cho người cao tuổi có sức khỏe tiếp tục tham gia lao động. Nói cách khác, cần coi người cao tuổi không chỉ là đối tượng được chăm sóc mà còn là một nguồn lực của xã hội.",
+   "ja": "ベトナムは世界でも最速クラスの速度で人口高齢化の段階に入りつつある。多くのヨーロッパ諸国が「高齢化しつつある」人口から「高齢」人口へ移行するのに1世紀以上かかったのに対し、ベトナムはわずか約20年しかかからないと予測されている。\n懸念すべきは、ベトナムが「豊かになる前に老いている」ことだ。一人当たりの平均所得はまだ中程度で、社会保障制度にも多くの限界がある。現在、定期的な年金や手当を受けている高齢者は約3分の1にすぎず、残りは子や孫に頼るか、自活のために働き続けなければならない。\n加えて、家族のかたちも変わりつつある。ますます多くの若者が故郷を離れて都市で働き、年老いた親を農村に残している。そのため「子は親を頼り、老いては子を頼る」という伝統は、もはや以前のようには保証されない。\nこれに対応するため、専門家は多くの解決策を提案している。社会保険の対象範囲を広げること、地域での高齢者ケアのネットワークを発展させること、そして健康な高齢者が働き続けられる環境を整えることだ。言い換えれば、高齢者を世話される対象としてだけでなく、社会の資源としてもとらえる必要がある。",
+   "vocab": [
+    {
+     "vi": "già hóa dân số",
+     "ja": "人口高齢化"
+    },
+    {
+     "vi": "an sinh xã hội",
+     "ja": "社会保障"
+    },
+    {
+     "vi": "diện bao phủ",
+     "ja": "対象範囲、カバー率"
+    },
+    {
+     "vi": "nguồn lực",
+     "ja": "資源、リソース"
+    }
+   ],
+   "questions": [
+    {
+     "q": "\"Già trước khi giàu\" có nghĩa là gì?",
+     "choices": [
+      "Người trẻ giàu hơn người già",
+      "Người già ở Việt Nam rất giàu",
+      "Dân số già đi khi đất nước chưa giàu",
+      "Người giàu sống lâu hơn"
+     ],
+     "answer": 2,
+     "explain": "収入がまだ中程度なのに高齢化が進んでいる、という意味です。",
+     "qJa": "「豊かになる前に老いる」とはどういう意味ですか。"
+    },
+    {
+     "q": "Theo đoạn 2, khoảng bao nhiêu người cao tuổi có lương hưu hoặc trợ cấp thường xuyên?",
+     "choices": [
+      "Gần như tất cả",
+      "Rất ít, dưới 10%",
+      "Khoảng một phần ba",
+      "Khoảng một nửa"
+     ],
+     "answer": 2,
+     "explain": "chỉ khoảng một phần ba người cao tuổi ...。",
+     "qJa": "定期的な年金や手当を受けている高齢者はどのくらいですか。"
+    },
+    {
+     "q": "Giải pháp nào được đề xuất trong bài?",
+     "choices": [
+      "Giảm lương hưu để tiết kiệm ngân sách",
+      "Tạo điều kiện cho người cao tuổi khỏe mạnh tiếp tục làm việc",
+      "Khuyến khích người già sống một mình",
+      "Bắt buộc con cái sống cùng cha mẹ"
+     ],
+     "answer": 1,
+     "explain": "tạo điều kiện cho người cao tuổi có sức khỏe tiếp tục tham gia lao động。",
+     "qJa": "本文で提案されている解決策はどれですか。"
+    }
+   ]
+  },
+  {
+   "id": "r2-03",
+   "title": "Áp lực học thêm",
+   "titleJa": "塾通いのプレッシャー",
+   "text": "Ở các thành phố lớn của Việt Nam, cảnh học sinh ăn vội ổ bánh mì trên xe máy của bố mẹ để kịp đến lớp học thêm buổi tối đã trở nên quen thuộc. Không ít em học từ sáng sớm đến chín, mười giờ đêm, kể cả cuối tuần.\nHọc thêm vốn xuất phát từ nhu cầu chính đáng: giúp học sinh yếu theo kịp chương trình hoặc giúp học sinh giỏi nâng cao kiến thức. Tuy nhiên, theo thời gian, nó dần trở thành một \"cuộc đua\" mà ít ai dám đứng ngoài. Nhiều phụ huynh thừa nhận họ cho con đi học thêm không phải vì con học kém, mà vì \"con nhà người ta ai cũng học\". Áp lực thi vào lớp 10 các trường công lập danh tiếng và kỳ thi đại học khiến tâm lý này càng lan rộng.\nHậu quả là trẻ em thiếu thời gian vui chơi, nghỉ ngơi và vận động. Một số nghiên cứu cho thấy tỷ lệ học sinh có dấu hiệu căng thẳng, mất ngủ và trầm cảm đang tăng lên. Chưa kể, chi phí học thêm chiếm một phần không nhỏ trong thu nhập của nhiều gia đình.\nBộ Giáo dục đã ban hành quy định hạn chế dạy thêm, song hiệu quả còn hạn chế. Nhiều nhà giáo dục cho rằng, chừng nào cách đánh giá học sinh còn chủ yếu dựa vào điểm thi, chừng đó \"cơn sốt\" học thêm khó có thể hạ nhiệt.",
+   "ja": "ベトナムの大都市では、夜の補習授業に間に合うよう、親のバイクの上でバインミーを急いで食べる生徒の姿が見慣れた光景になった。早朝から夜9時、10時まで、週末も含めて勉強する子どもも少なくない。\n補習授業はもともと正当なニーズから始まった。勉強が苦手な生徒がカリキュラムについていけるようにしたり、優秀な生徒が知識を深めたりするためだ。しかし時がたつにつれ、それはほとんど誰も外れようとしない「競争」になっていった。多くの保護者は、子どもを補習に通わせるのは成績が悪いからではなく、「よその子はみんな通っているから」だと認めている。名門公立高校への入試や大学入試のプレッシャーが、この心理をさらに広げている。\nその結果、子どもたちは遊び、休み、体を動かす時間が不足している。いくつかの研究は、ストレスや不眠、うつの兆候を示す生徒の割合が増えていることを示している。さらに、補習の費用は多くの家庭の収入のかなりの部分を占めている。\n教育省は補習授業を制限する規定を出したが、効果は限られている。多くの教育者は、生徒の評価が主に試験の点数に基づいている限り、補習「熱」が冷めることは難しいと考えている。",
+   "vocab": [
+    {
+     "vi": "học thêm",
+     "ja": "補習を受ける、塾に通う"
+    },
+    {
+     "vi": "chính đáng",
+     "ja": "正当な"
+    },
+    {
+     "vi": "phụ huynh",
+     "ja": "保護者"
+    },
+    {
+     "vi": "hạ nhiệt",
+     "ja": "熱が冷める、沈静化する"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo bài, ban đầu học thêm có mục đích gì?",
+     "choices": [
+      "Thay thế giờ học chính",
+      "Giúp học sinh yếu theo kịp và học sinh giỏi nâng cao",
+      "Giúp phụ huynh có thời gian làm việc",
+      "Kiếm thêm thu nhập cho giáo viên"
+     ],
+     "answer": 1,
+     "explain": "giúp học sinh yếu theo kịp ... hoặc giúp học sinh giỏi nâng cao kiến thức。",
+     "qJa": "補習授業はもともと何のためでしたか。"
+    },
+    {
+     "q": "Vì sao nhiều phụ huynh cho con đi học thêm?",
+     "choices": [
+      "Vì giáo viên yêu cầu",
+      "Vì học phí rẻ",
+      "Vì con học kém",
+      "Vì con nhà khác ai cũng học"
+     ],
+     "answer": 3,
+     "explain": "\"con nhà người ta ai cũng học\"。",
+     "qJa": "多くの保護者が子どもを補習に通わせる理由は何ですか。"
+    },
+    {
+     "q": "Theo các nhà giáo dục, khi nào \"cơn sốt\" học thêm mới có thể giảm?",
+     "choices": [
+      "Khi học sinh được nghỉ hè dài hơn",
+      "Khi có nhiều trường tư hơn",
+      "Khi học phí tăng",
+      "Khi cách đánh giá không còn chủ yếu dựa vào điểm thi"
+     ],
+     "answer": 3,
+     "explain": "chừng nào ... còn chủ yếu dựa vào điểm thi, chừng đó ... khó có thể hạ nhiệt。",
+     "qJa": "教育者によると、補習熱が下がるのはどんなときですか。"
+    }
+   ]
+  },
+  {
+   "id": "r2-04",
+   "title": "Tin giả trên mạng xã hội",
+   "titleJa": "SNS上のフェイクニュース",
+   "text": "Với hơn 70 triệu người dùng, mạng xã hội đã trở thành kênh tiếp nhận thông tin chủ yếu của nhiều người Việt. Thế nhưng, cùng với sự tiện lợi, nó cũng tạo ra môi trường lý tưởng cho tin giả lan truyền.\nTin giả có nhiều dạng: từ những lời đồn vô căn cứ về một loại thực phẩm \"gây ung thư\", những bài quảng cáo thuốc \"chữa bách bệnh\", cho đến những thông tin bịa đặt nhằm bôi nhọ cá nhân hay tổ chức. Điều đáng nói là tin giả thường lan nhanh hơn tin thật, bởi nó đánh vào cảm xúc như sợ hãi, tức giận hay tò mò của người đọc.\nTrong đại dịch, nhiều người đã tin và làm theo những \"bài thuốc\" truyền miệng không được kiểm chứng, gây hậu quả nghiêm trọng cho sức khỏe. Một số doanh nghiệp cũng chịu thiệt hại nặng nề khi bị tung tin thất thiệt về sản phẩm.\nĐể đối phó, pháp luật đã quy định mức phạt đối với hành vi đăng tải, chia sẻ thông tin sai sự thật. Tuy vậy, biện pháp quan trọng nhất vẫn là nâng cao khả năng nhận biết của chính người dùng. Trước khi chia sẻ một thông tin, mỗi người nên tự hỏi: nguồn tin có đáng tin cậy không? Có báo chính thống nào đưa tin này không? Chỉ cần dừng lại vài giây để kiểm tra, chúng ta đã góp phần ngăn chặn tin giả.",
+   "ja": "7,000万人を超える利用者を抱えるSNSは、多くのベトナム人にとって主な情報入手の手段となった。しかし、便利さとともに、フェイクニュースが広がる理想的な環境も生み出している。\nフェイクニュースにはさまざまな形がある。ある食品が「がんを引き起こす」という根拠のないうわさや、「万病に効く」薬の広告記事から、個人や組織の名誉を傷つけるための作り話まである。注目すべきは、フェイクニュースは本当のニュースより早く広がることが多いという点だ。読者の恐怖や怒り、好奇心といった感情に訴えるからである。\nパンデミックの間、多くの人が検証されていない口コミの「治療法」を信じて実行し、健康に深刻な結果を招いた。製品についての根拠のない情報を流され、大きな損害を受けた企業もある。\nこれに対処するため、法律は虚偽の情報を投稿・共有する行為に対する罰金を定めている。とはいえ、最も重要な対策は、やはり利用者自身の見分ける力を高めることだ。情報を共有する前に、一人ひとりが自問すべきだ。情報源は信頼できるか。主要な新聞はこのニュースを報じているか。確認のためにほんの数秒立ち止まるだけで、私たちはフェイクニュースの阻止に貢献できるのだ。",
+   "vocab": [
+    {
+     "vi": "tin giả",
+     "ja": "フェイクニュース"
+    },
+    {
+     "vi": "vô căn cứ",
+     "ja": "根拠のない"
+    },
+    {
+     "vi": "bôi nhọ",
+     "ja": "名誉を傷つける"
+    },
+    {
+     "vi": "thất thiệt",
+     "ja": "事実無根の"
+    },
+    {
+     "vi": "chính thống",
+     "ja": "正統な、公式の"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo bài, vì sao tin giả lan nhanh hơn tin thật?",
+     "choices": [
+      "Vì nó có nhiều hình ảnh",
+      "Vì báo chí đăng nhiều",
+      "Vì nó đánh vào cảm xúc của người đọc",
+      "Vì nó ngắn hơn"
+     ],
+     "answer": 2,
+     "explain": "bởi nó đánh vào cảm xúc như sợ hãi, tức giận hay tò mò。",
+     "qJa": "フェイクニュースが早く広がるのはなぜですか。"
+    },
+    {
+     "q": "Đoạn 3 đưa ra ví dụ nào về tác hại của tin giả?",
+     "choices": [
+      "Báo chí bị đóng cửa",
+      "Giá điện thoại tăng",
+      "Người tin vào bài thuốc chưa kiểm chứng bị ảnh hưởng sức khỏe",
+      "Người dân bỏ dùng mạng xã hội"
+     ],
+     "answer": 2,
+     "explain": "nhiều người đã tin và làm theo những \"bài thuốc\" ... gây hậu quả nghiêm trọng cho sức khỏe。",
+     "qJa": "第3段落ではフェイクニュースの害としてどんな例が挙げられていますか。"
+    },
+    {
+     "q": "Theo tác giả, biện pháp quan trọng nhất là gì?",
+     "choices": [
+      "Tăng mức phạt thật cao",
+      "Nâng cao khả năng nhận biết của người dùng",
+      "Cấm mạng xã hội",
+      "Chỉ đọc báo giấy"
+     ],
+     "answer": 1,
+     "explain": "biện pháp quan trọng nhất vẫn là nâng cao khả năng nhận biết của chính người dùng。",
+     "qJa": "筆者によると最も重要な対策は何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r2-05",
+   "title": "Làng nghề trong thời hội nhập",
+   "titleJa": "グローバル化時代の伝統工芸村",
+   "text": "Việt Nam hiện có hơn năm nghìn làng nghề, trong đó nhiều làng đã tồn tại hàng trăm năm như làng gốm Bát Tràng, làng lụa Vạn Phúc hay làng tranh Đông Hồ. Các làng nghề không chỉ tạo việc làm cho hàng triệu lao động nông thôn mà còn lưu giữ những giá trị văn hóa độc đáo của dân tộc.\nTuy nhiên, trong bối cảnh hội nhập, nhiều làng nghề đang gặp khó khăn. Hàng công nghiệp sản xuất hàng loạt với giá rẻ đã chiếm lĩnh thị trường, trong khi sản phẩm thủ công đòi hỏi nhiều thời gian và công sức. Lớp trẻ ở các làng nghề phần lớn không muốn nối nghiệp cha ông vì thu nhập bấp bênh. Ở làng tranh Đông Hồ, chỉ còn vài gia đình giữ được nghề.\nMặt khác, hội nhập cũng mở ra những cơ hội mới. Một số làng nghề đã kết hợp sản xuất với du lịch, cho phép du khách tự tay làm gốm hay dệt lụa. Nhờ thương mại điện tử, các nghệ nhân có thể bán sản phẩm trực tiếp cho khách hàng ở nước ngoài. Không ít nhà thiết kế trẻ còn đưa họa tiết truyền thống vào các sản phẩm hiện đại như túi xách, đồ trang trí nội thất.\nCó thể nói, tương lai của làng nghề phụ thuộc vào khả năng vừa giữ gìn bản sắc, vừa đổi mới để đáp ứng nhu cầu của thị trường.",
+   "ja": "ベトナムには現在5,000を超える伝統工芸村があり、そのうちバッチャン陶器村、ヴァンフック絹村、ドンホー版画村など、多くは数百年続いている。工芸村は何百万人もの農村の労働者に仕事を生み出すだけでなく、民族独自の文化的価値も守っている。\nしかし、グローバル化の中で、多くの工芸村が困難に直面している。安価な大量生産の工業製品が市場を占め、一方で手工芸品には多くの時間と手間がかかる。工芸村の若い世代の多くは、収入が不安定なため親の家業を継ぎたがらない。ドンホー版画村では、技術を守っている家族はわずか数軒しか残っていない。\n一方で、グローバル化は新たな機会ももたらしている。生産と観光を組み合わせ、観光客が自分の手で陶器を作ったり絹を織ったりできるようにした工芸村もある。電子商取引のおかげで、職人は海外の顧客に直接製品を売ることができる。伝統的な文様をバッグやインテリア雑貨のような現代的な製品に取り入れる若いデザイナーも少なくない。\n工芸村の未来は、独自性を守りながら、市場のニーズに応えるため革新する力にかかっていると言えるだろう。",
+   "vocab": [
+    {
+     "vi": "làng nghề",
+     "ja": "伝統工芸村"
+    },
+    {
+     "vi": "nối nghiệp",
+     "ja": "家業を継ぐ"
+    },
+    {
+     "vi": "nghệ nhân",
+     "ja": "職人"
+    },
+    {
+     "vi": "họa tiết",
+     "ja": "文様、柄"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo đoạn 1, làng nghề có vai trò gì?",
+     "choices": [
+      "Chỉ để thu hút du khách",
+      "Tạo việc làm và lưu giữ giá trị văn hóa",
+      "Sản xuất hàng công nghiệp giá rẻ",
+      "Đào tạo nhà thiết kế"
+     ],
+     "answer": 1,
+     "explain": "không chỉ tạo việc làm ... mà còn lưu giữ những giá trị văn hóa。",
+     "qJa": "第1段落によると工芸村にはどんな役割がありますか。"
+    },
+    {
+     "q": "Vì sao lớp trẻ không muốn nối nghiệp?",
+     "choices": [
+      "Vì không có ai dạy",
+      "Vì sản phẩm bán quá chạy",
+      "Vì thu nhập không ổn định",
+      "Vì nghề quá dễ"
+     ],
+     "answer": 2,
+     "explain": "vì thu nhập bấp bênh。",
+     "qJa": "若い世代が家業を継ぎたがらないのはなぜですか。"
+    },
+    {
+     "q": "Cơ hội mới nào KHÔNG được nhắc đến trong đoạn 3?",
+     "choices": [
+      "Đưa họa tiết truyền thống vào sản phẩm hiện đại",
+      "Bán hàng qua thương mại điện tử",
+      "Nhận trợ cấp lớn từ nhà nước",
+      "Kết hợp với du lịch"
+     ],
+     "answer": 2,
+     "explain": "国の補助金については書かれていません。",
+     "qJa": "第3段落で触れられていない新たな機会はどれですか。"
+    }
+   ]
+  },
+  {
+   "id": "r2-06",
+   "title": "Du lịch bền vững – khi lợi nhuận và bảo tồn gặp nhau",
+   "titleJa": "持続可能な観光：利益と保全が出会うとき",
+   "text": "Ngành du lịch Việt Nam đã có những bước phát triển vượt bậc trong hai thập kỷ qua. Lượng khách quốc tế tăng gấp nhiều lần, mang lại nguồn thu lớn cho nền kinh tế và tạo ra hàng triệu việc làm. Thế nhưng, đằng sau những con số ấn tượng ấy là không ít hệ lụy.\nỞ nhiều điểm đến nổi tiếng, tình trạng quá tải đã trở nên phổ biến. Các khách sạn, nhà hàng mọc lên dày đặc, nhiều công trình xây dựng làm biến dạng cảnh quan thiên nhiên. Rác thải từ khách du lịch gây ô nhiễm bãi biển và rừng núi. Ở một số bản làng vùng cao, văn hóa truyền thống bị \"thương mại hóa\" để phục vụ khách, khiến những nét đẹp vốn có dần mai một.\nTrước thực trạng đó, khái niệm \"du lịch bền vững\" ngày càng được quan tâm. Đây là hình thức du lịch đáp ứng nhu cầu hiện tại mà không làm tổn hại đến khả năng đáp ứng nhu cầu của các thế hệ tương lai. Cụ thể, nó đòi hỏi bảo vệ môi trường, tôn trọng văn hóa địa phương và đảm bảo người dân bản địa được hưởng lợi từ du lịch.\nMột ví dụ thành công là mô hình du lịch cộng đồng ở một số bản làng Tây Bắc. Du khách ở trong nhà dân, ăn món ăn địa phương và tham gia vào sinh hoạt hằng ngày. Nhờ đó, người dân có thêm thu nhập, đồng thời có động lực gìn giữ văn hóa và môi trường của chính mình.",
+   "ja": "ベトナムの観光業はこの20年で飛躍的な発展を遂げた。外国人観光客数は何倍にも増え、経済に大きな収入をもたらし、何百万もの雇用を生み出した。しかし、その印象的な数字の裏には少なからぬ弊害がある。\n多くの有名観光地では、過密状態が当たり前になった。ホテルやレストランがびっしりと建ち並び、多くの建設工事が自然の景観をゆがめている。観光客が出すごみは海岸や山林を汚染している。高地の一部の村では、観光客向けに伝統文化が「商業化」され、本来の美しさが次第に失われつつある。\nこうした現状を受けて、「持続可能な観光」という概念がますます注目されている。これは、将来の世代がそのニーズを満たす能力を損なうことなく、現在のニーズを満たす観光の形である。具体的には、環境を保護し、地域の文化を尊重し、地元の住民が観光から利益を得られるようにすることが求められる。\n成功例の一つが、西北部のいくつかの村のコミュニティ・ツーリズムのモデルだ。観光客は民家に泊まり、地元の料理を食べ、日々の暮らしに参加する。そのおかげで、住民は収入が増えると同時に、自分たちの文化と環境を守る意欲を持つようになった。",
+   "vocab": [
+    {
+     "vi": "vượt bậc",
+     "ja": "飛躍的な"
+    },
+    {
+     "vi": "hệ lụy",
+     "ja": "弊害、悪影響"
+    },
+    {
+     "vi": "quá tải",
+     "ja": "過密、過負荷"
+    },
+    {
+     "vi": "mai một",
+     "ja": "失われる、廃れる"
+    },
+    {
+     "vi": "bản địa",
+     "ja": "地元の、土着の"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Đoạn 2 chủ yếu nói về điều gì?",
+     "choices": [
+      "Lợi ích kinh tế của du lịch",
+      "Những tác động tiêu cực của du lịch phát triển nóng",
+      "Cách đặt phòng khách sạn",
+      "Các món ăn địa phương"
+     ],
+     "answer": 1,
+     "explain": "quá tải、ô nhiễm、thương mại hóa など悪影響を述べています。",
+     "qJa": "第2段落は主に何について述べていますか。"
+    },
+    {
+     "q": "Theo bài, du lịch bền vững KHÔNG bao gồm yêu cầu nào?",
+     "choices": [
+      "Bảo vệ môi trường",
+      "Tôn trọng văn hóa địa phương",
+      "Tăng số lượng khách sạn càng nhiều càng tốt",
+      "Người dân bản địa được hưởng lợi"
+     ],
+     "answer": 2,
+     "explain": "ホテルを増やすことは持続可能な観光の条件ではありません。",
+     "qJa": "持続可能な観光に含まれない条件はどれですか。"
+    },
+    {
+     "q": "Mô hình du lịch cộng đồng mang lại lợi ích gì cho người dân?",
+     "choices": [
+      "Họ không cần làm nông nữa",
+      "Họ có thêm thu nhập và động lực gìn giữ văn hóa",
+      "Họ được miễn thuế",
+      "Họ được chuyển lên thành phố"
+     ],
+     "answer": 1,
+     "explain": "người dân có thêm thu nhập, đồng thời có động lực gìn giữ văn hóa và môi trường。",
+     "qJa": "コミュニティ・ツーリズムは住民にどんな利益をもたらしますか。"
+    }
+   ]
+  },
+  {
+   "id": "r2-07",
+   "title": "Thương mại điện tử và thói quen mua sắm",
+   "titleJa": "電子商取引と買い物の習慣",
+   "text": "Chỉ khoảng mười năm trước, phần lớn người Việt vẫn còn e ngại việc mua hàng qua mạng vì sợ hàng giả, hàng kém chất lượng. Ngày nay, mua sắm trực tuyến đã trở thành một phần không thể thiếu trong cuộc sống của hàng chục triệu người, đặc biệt là giới trẻ ở đô thị.\nSự bùng nổ này có nhiều nguyên nhân. Điện thoại thông minh và internet tốc độ cao ngày càng phổ biến. Các sàn thương mại điện tử liên tục tung ra chương trình khuyến mãi hấp dẫn, miễn phí vận chuyển. Hình thức thanh toán khi nhận hàng giúp người mua yên tâm hơn. Đại dịch càng thúc đẩy xu hướng này khi người dân hạn chế ra ngoài.\nTuy nhiên, mặt trái của thương mại điện tử cũng không nhỏ. Tình trạng hàng giả, hàng nhái vẫn tồn tại trên nhiều gian hàng. Không ít người tiêu dùng rơi vào tình trạng \"mua sắm bốc đồng\", mua những thứ không thực sự cần chỉ vì giá rẻ. Lượng bao bì nhựa khổng lồ từ các đơn hàng cũng trở thành gánh nặng cho môi trường.\nVề phía các cửa hàng truyền thống, nhiều chủ tiệm cho biết doanh thu đã sụt giảm đáng kể. Để tồn tại, họ buộc phải thích nghi, chẳng hạn như mở thêm kênh bán hàng trực tuyến hoặc nâng cao chất lượng phục vụ – điều mà mua sắm qua mạng khó thay thế được.",
+   "ja": "わずか10年ほど前まで、ベトナム人の大部分は偽物や粗悪品を恐れて、ネットで買い物をすることをためらっていた。今日では、オンラインショッピングは何千万もの人々、特に都市の若者にとって生活に欠かせないものになった。\nこのブームには多くの原因がある。スマートフォンや高速インターネットがますます普及した。ECサイトは魅力的なセールや送料無料を次々と打ち出している。代金引換という支払い方法は購入者を安心させている。パンデミックは人々が外出を控えたことで、この傾向をさらに後押しした。\nしかし、電子商取引の負の側面も小さくない。偽物やコピー商品は依然として多くの店舗に存在する。安いからというだけで本当に必要ではない物を買う「衝動買い」に陥る消費者も少なくない。注文から出る膨大なプラスチック包装も、環境にとって負担となっている。\n一方、従来の店舗では、多くの店主が売上が大幅に落ちたと話す。生き残るために、彼らは適応を迫られている。たとえば、オンラインの販売チャネルを追加したり、ネット通販では代わりのきかないサービスの質を高めたりすることだ。",
+   "vocab": [
+    {
+     "vi": "bùng nổ",
+     "ja": "急増、ブーム"
+    },
+    {
+     "vi": "sàn thương mại điện tử",
+     "ja": "ECサイト、ECモール"
+    },
+    {
+     "vi": "thanh toán khi nhận hàng",
+     "ja": "代金引換"
+    },
+    {
+     "vi": "bốc đồng",
+     "ja": "衝動的な"
+    },
+    {
+     "vi": "bao bì",
+     "ja": "包装"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Mười năm trước, vì sao người Việt e ngại mua hàng qua mạng?",
+     "choices": [
+      "Vì sợ hàng giả, hàng kém chất lượng",
+      "Vì không biết chữ",
+      "Vì không có điện thoại",
+      "Vì phí vận chuyển rất đắt"
+     ],
+     "answer": 0,
+     "explain": "vì sợ hàng giả, hàng kém chất lượng。",
+     "qJa": "10年前、ベトナム人がネット購入をためらったのはなぜですか。"
+    },
+    {
+     "q": "Yếu tố nào KHÔNG được nêu là nguyên nhân của sự bùng nổ thương mại điện tử?",
+     "choices": [
+      "Thanh toán khi nhận hàng",
+      "Khuyến mãi và miễn phí vận chuyển",
+      "Cửa hàng truyền thống đóng cửa hàng loạt",
+      "Điện thoại thông minh phổ biến"
+     ],
+     "answer": 2,
+     "explain": "従来の店舗の一斉閉店は原因として挙げられていません。",
+     "qJa": "ECブームの原因として挙げられていないものはどれですか。"
+    },
+    {
+     "q": "Theo đoạn cuối, cửa hàng truyền thống có thể làm gì để tồn tại?",
+     "choices": [
+      "Chỉ bán hàng giả",
+      "Tăng giá bán",
+      "Đóng cửa vào cuối tuần",
+      "Mở kênh bán hàng trực tuyến hoặc nâng cao chất lượng phục vụ"
+     ],
+     "answer": 3,
+     "explain": "mở thêm kênh bán hàng trực tuyến hoặc nâng cao chất lượng phục vụ。",
+     "qJa": "最後の段落によると、従来の店舗は生き残るために何ができますか。"
+    }
+   ]
+  },
+  {
+   "id": "r2-08",
+   "title": "Tết xưa và Tết nay",
+   "titleJa": "昔のテトと今のテト",
+   "text": "Đối với người Việt, Tết Nguyên đán là dịp quan trọng nhất trong năm. Tuy nhiên, cách đón Tết của người Việt đã có nhiều thay đổi so với vài chục năm trước.\nNgày xưa, chuẩn bị Tết là cả một quá trình kéo dài hàng tháng. Các gia đình cùng nhau gói bánh chưng, thức trắng đêm canh nồi bánh, muối dưa hành, làm mứt. Trẻ con háo hức chờ được mặc quần áo mới và nhận tiền mừng tuổi. Ba ngày Tết, mọi người đi chúc Tết họ hàng, làng xóm; không khí rộn ràng khắp nơi.\nNgày nay, nhịp sống hiện đại khiến nhiều thứ trở nên đơn giản hơn. Bánh chưng, giò chả có thể đặt mua sẵn. Lời chúc Tết được gửi qua tin nhắn, mạng xã hội. Không ít gia đình trẻ chọn đi du lịch trong dịp Tết thay vì ở nhà đón khách. Một số người cho rằng Tết đã \"nhạt\" đi, mất đi cái hồn vốn có.\nThế nhưng, cũng có ý kiến cho rằng sự thay đổi là điều tất yếu. Điều quan trọng không nằm ở hình thức mà ở ý nghĩa cốt lõi của Tết: sự đoàn tụ gia đình, lòng biết ơn tổ tiên và niềm hy vọng vào một năm mới tốt đẹp. Dù đón Tết ở nhà hay ở xa, chỉ cần giữ được những giá trị ấy, Tết vẫn mãi là Tết.",
+   "ja": "ベトナム人にとって、旧正月（テト）は一年で最も重要な行事だ。しかし、ベトナム人のテトの迎え方は数十年前と比べて大きく変わった。\n昔は、テトの準備は何か月も続く一大行事だった。家族みんなでバインチュンを包み、一晩中寝ずに鍋の番をし、ネギの漬物を漬け、砂糖漬けの菓子を作った。子どもたちは新しい服を着てお年玉をもらうのを心待ちにしていた。テトの3日間、人々は親戚や近所に新年のあいさつに回り、あちこちでにぎやかな雰囲気に包まれた。\n今日では、現代の生活のリズムによって多くのことが簡単になった。バインチュンやハムは出来合いのものを注文できる。新年のあいさつはメッセージやSNSで送られる。テトに家で客を迎える代わりに旅行に出かける若い家族も少なくない。テトは「味気なく」なり、本来の魂を失ったと考える人もいる。\nしかし、変化は必然だという意見もある。大切なのは形ではなく、テトの核心的な意味、すなわち家族の団らん、祖先への感謝、そして良い新年への希望にある。家でテトを迎えても遠くで迎えても、その価値さえ守ればテトはいつまでもテトなのだ。",
+   "vocab": [
+    {
+     "vi": "bánh chưng",
+     "ja": "バインチュン（テトのちまき）"
+    },
+    {
+     "vi": "tiền mừng tuổi",
+     "ja": "お年玉"
+    },
+    {
+     "vi": "rộn ràng",
+     "ja": "にぎやかな"
+    },
+    {
+     "vi": "tất yếu",
+     "ja": "必然的な"
+    },
+    {
+     "vi": "cốt lõi",
+     "ja": "核心"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo đoạn 2, điều gì KHÔNG phải là hoạt động chuẩn bị Tết ngày xưa?",
+     "choices": [
+      "Gói bánh chưng",
+      "Đặt mua bánh chưng qua mạng",
+      "Muối dưa hành",
+      "Làm mứt"
+     ],
+     "answer": 1,
+     "explain": "ネットで注文するのは現代の話です。",
+     "qJa": "昔のテトの準備でないものはどれですか。"
+    },
+    {
+     "q": "Một số người cho rằng Tết ngày nay như thế nào?",
+     "choices": [
+      "Tốn kém hơn trước",
+      "Vui hơn trước",
+      "Dài hơn trước",
+      "Đã \"nhạt\" đi, mất đi cái hồn"
+     ],
+     "answer": 3,
+     "explain": "Tết đã \"nhạt\" đi, mất đi cái hồn vốn có。",
+     "qJa": "今のテトについて一部の人はどう考えていますか。"
+    },
+    {
+     "q": "Theo đoạn cuối, điều quan trọng nhất của Tết là gì?",
+     "choices": [
+      "Hình thức tổ chức",
+      "Việc đi du lịch",
+      "Số tiền mừng tuổi",
+      "Ý nghĩa cốt lõi như đoàn tụ, biết ơn tổ tiên"
+     ],
+     "answer": 3,
+     "explain": "không nằm ở hình thức mà ở ý nghĩa cốt lõi của Tết。",
+     "qJa": "最後の段落によると、テトで最も大切なことは何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r2-09",
+   "title": "An toàn thực phẩm – nỗi lo thường trực",
+   "titleJa": "食の安全：常につきまとう不安",
+   "text": "Một khảo sát gần đây cho thấy an toàn thực phẩm nằm trong số những vấn đề khiến người dân đô thị lo lắng nhất, thậm chí còn hơn cả tắc đường hay ô nhiễm không khí. Nỗi lo này không phải là vô căn cứ.\nTrên thị trường, không khó để bắt gặp rau được phun thuốc trừ sâu quá liều lượng, thịt lợn có chất tăng trọng hay trái cây được ngâm hóa chất để giữ tươi lâu. Các vụ ngộ độc thực phẩm tập thể tại bếp ăn trường học, khu công nghiệp vẫn xảy ra hằng năm. Nguyên nhân sâu xa là do một bộ phận người sản xuất chạy theo lợi nhuận trước mắt, trong khi việc kiểm tra, giám sát còn lỏng lẻo.\nTrước tình hình đó, người tiêu dùng đã tìm cách tự bảo vệ mình. Nhiều gia đình ở thành phố thuê đất ở ngoại ô để tự trồng rau, hoặc mua thực phẩm từ người quen ở quê. Các cửa hàng thực phẩm sạch, thực phẩm hữu cơ mọc lên ngày càng nhiều, dù giá cao hơn đáng kể so với chợ truyền thống.\nTuy vậy, các chuyên gia cảnh báo rằng không phải sản phẩm nào gắn mác \"sạch\" cũng thực sự sạch. Để giải quyết tận gốc vấn đề, cần có hệ thống truy xuất nguồn gốc minh bạch, chế tài đủ mạnh đối với vi phạm, và trên hết là ý thức trách nhiệm của người sản xuất.",
+   "ja": "最近の調査によると、食の安全は都市住民が最も不安に感じている問題の一つで、渋滞や大気汚染以上だという。この不安は根拠のないものではない。\n市場では、農薬を過剰に散布された野菜、成長促進剤を使った豚肉、長持ちさせるために薬品に漬けた果物を見かけることは難しくない。学校の給食室や工業団地での集団食中毒も毎年起きている。根本的な原因は、一部の生産者が目先の利益を追い求める一方で、検査や監視がまだ甘いことにある。\nこうした状況を受けて、消費者は自衛の手段を探してきた。都市の多くの家庭は郊外に土地を借りて自分で野菜を育てたり、田舎の知人から食材を買ったりしている。従来の市場よりかなり高いにもかかわらず、安全な食品やオーガニック食品の店がますます増えている。\nとはいえ、専門家は「安全」と表示された製品がすべて本当に安全なわけではないと警告している。問題を根本から解決するには、透明なトレーサビリティの仕組み、違反に対する十分に強い制裁、そして何よりも生産者の責任感が必要だ。",
+   "vocab": [
+    {
+     "vi": "thuốc trừ sâu",
+     "ja": "農薬、殺虫剤"
+    },
+    {
+     "vi": "chất tăng trọng",
+     "ja": "成長促進剤"
+    },
+    {
+     "vi": "truy xuất nguồn gốc",
+     "ja": "トレーサビリティ、産地の追跡"
+    },
+    {
+     "vi": "chế tài",
+     "ja": "制裁、罰則"
+    },
+    {
+     "vi": "tận gốc",
+     "ja": "根本から"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo khảo sát, người dân đô thị lo lắng về an toàn thực phẩm như thế nào?",
+     "choices": [
+      "Ít hơn lo về tắc đường",
+      "Không hề lo lắng",
+      "Chỉ lo vào dịp Tết",
+      "Hơn cả lo về tắc đường hay ô nhiễm không khí"
+     ],
+     "answer": 3,
+     "explain": "thậm chí còn hơn cả tắc đường hay ô nhiễm không khí。",
+     "qJa": "都市住民は食の安全をどの程度心配していますか。"
+    },
+    {
+     "q": "Theo bài, nguyên nhân sâu xa của vấn đề là gì?",
+     "choices": [
+      "Người tiêu dùng không biết nấu ăn",
+      "Người sản xuất chạy theo lợi nhuận và giám sát lỏng lẻo",
+      "Thời tiết khắc nghiệt",
+      "Giá thực phẩm quá rẻ"
+     ],
+     "answer": 1,
+     "explain": "chạy theo lợi nhuận trước mắt, trong khi việc kiểm tra, giám sát còn lỏng lẻo。",
+     "qJa": "問題の根本的な原因は何ですか。"
+    },
+    {
+     "q": "Chuyên gia cảnh báo điều gì?",
+     "choices": [
+      "Thực phẩm hữu cơ luôn an toàn",
+      "Chợ truyền thống sẽ biến mất",
+      "Nên ngừng ăn rau",
+      "Không phải sản phẩm gắn mác \"sạch\" nào cũng thực sự sạch"
+     ],
+     "answer": 3,
+     "explain": "không phải sản phẩm nào gắn mác \"sạch\" cũng thực sự sạch。",
+     "qJa": "専門家は何を警告していますか。"
+    }
+   ]
+  },
+  {
+   "id": "r2-10",
+   "title": "Người trẻ và lựa chọn nghề nghiệp",
+   "titleJa": "若者と職業選択",
+   "text": "Nếu như thế hệ cha mẹ coi một công việc ổn định trong cơ quan nhà nước là mơ ước, thì nhiều bạn trẻ ngày nay lại có những lựa chọn rất khác. Họ sẵn sàng rời bỏ một vị trí \"an toàn\" để theo đuổi đam mê, khởi nghiệp hoặc làm việc tự do.\nSự thay đổi này một phần là nhờ công nghệ. Internet cho phép một người có thể làm việc cho khách hàng ở bất cứ đâu trên thế giới, từ thiết kế đồ họa, lập trình đến dịch thuật. Mạng xã hội cũng tạo ra nhiều nghề mới mà mười năm trước chưa ai nghĩ tới, chẳng hạn như sáng tạo nội dung hay bán hàng qua livestream.\nTuy nhiên, con đường này không hề trải hoa hồng. Thu nhập của người làm tự do thường bấp bênh, không có bảo hiểm hay lương hưu. Nhiều dự án khởi nghiệp thất bại chỉ sau một, hai năm. Không ít bạn trẻ nhảy việc liên tục mà không tích lũy được kinh nghiệm chuyên sâu, rốt cuộc rơi vào tình trạng \"biết nhiều nhưng không giỏi gì\".\nCác chuyên gia hướng nghiệp khuyên rằng, dù chọn con đường nào, người trẻ cũng nên hiểu rõ bản thân, xác định mục tiêu lâu dài và không ngừng học hỏi. Đam mê là cần thiết, song đam mê cần đi cùng với kế hoạch cụ thể và sự kiên trì thì mới có thể dẫn đến thành công.",
+   "ja": "親の世代が国家機関での安定した仕事を夢見ていたのに対し、今日の多くの若者はまったく違う選択をしている。彼らは情熱を追い求めたり、起業したり、フリーランスで働いたりするために、「安全な」地位を捨てることもいとわない。\nこの変化は、一部にはテクノロジーのおかげである。インターネットのおかげで、グラフィックデザインからプログラミング、翻訳まで、世界中のどこにいる顧客のためにも働くことができる。SNSはまた、コンテンツ制作やライブ配信での販売など、10年前には誰も考えなかった多くの新しい職業を生み出した。\nしかし、この道は決して平坦ではない。フリーランスの収入はたいてい不安定で、保険も年金もない。多くの起業プロジェクトはわずか1、2年で失敗する。専門的な経験を積まずに転職を繰り返し、結局「いろいろ知っているが何も得意ではない」状態に陥る若者も少なくない。\nキャリアの専門家は、どの道を選ぶにせよ、若者は自分自身をよく理解し、長期的な目標を定め、学び続けるべきだと助言している。情熱は必要だが、情熱は具体的な計画と粘り強さを伴ってこそ成功につながるのだ。",
+   "vocab": [
+    {
+     "vi": "theo đuổi",
+     "ja": "追い求める"
+    },
+    {
+     "vi": "đam mê",
+     "ja": "情熱"
+    },
+    {
+     "vi": "khởi nghiệp",
+     "ja": "起業する"
+    },
+    {
+     "vi": "trải hoa hồng",
+     "ja": "バラを敷いた（＝平坦な、楽な）"
+    },
+    {
+     "vi": "nhảy việc",
+     "ja": "転職を繰り返す"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Thế hệ cha mẹ thường mơ ước điều gì?",
+     "choices": [
+      "Làm việc ở nước ngoài",
+      "Làm việc tự do",
+      "Khởi nghiệp",
+      "Công việc ổn định trong cơ quan nhà nước"
+     ],
+     "answer": 3,
+     "explain": "coi một công việc ổn định trong cơ quan nhà nước là mơ ước。",
+     "qJa": "親の世代は何を夢見ていましたか。"
+    },
+    {
+     "q": "Câu \"con đường này không hề trải hoa hồng\" có nghĩa là gì?",
+     "choices": [
+      "Con đường này rất đẹp",
+      "Con đường này có nhiều hoa",
+      "Con đường này không hề dễ dàng",
+      "Con đường này rất ngắn"
+     ],
+     "answer": 2,
+     "explain": "「平坦ではない＝決して楽ではない」という比喩です。",
+     "qJa": "「この道はバラが敷かれていない」とはどういう意味ですか。"
+    },
+    {
+     "q": "Theo chuyên gia, điều gì cần đi cùng với đam mê?",
+     "choices": [
+      "Nhiều tiền",
+      "Kế hoạch cụ thể và sự kiên trì",
+      "Sự giúp đỡ của cha mẹ",
+      "Bằng cấp cao"
+     ],
+     "answer": 1,
+     "explain": "đam mê cần đi cùng với kế hoạch cụ thể và sự kiên trì。",
+     "qJa": "専門家によると、情熱には何が伴う必要がありますか。"
+    }
+   ]
+  }
+ ]
+}

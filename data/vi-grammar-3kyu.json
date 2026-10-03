@@ -21,9 +21,9 @@
      "q": "Dự án này ___ chính phủ hỗ trợ.",
      "choices": [
       "được",
-      "bị",
+      "cho",
       "đã bị là",
-      "cho"
+      "bị"
      ],
      "answer": 0,
      "ja": "このプロジェクトは政府に支援されています。",
@@ -32,12 +32,12 @@
     {
      "q": "Nhiều nhà ___ ngập vì lũ.",
      "choices": [
+      "cho",
       "bị",
       "được",
-      "đã được",
-      "cho"
+      "đã được"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "洪水で多くの家が浸水しました。",
      "explain": "被害なので bị。"
     }
@@ -64,8 +64,8 @@
      "choices": [
       "do",
       "vì nên",
-      "để",
-      "mà"
+      "mà",
+      "để"
      ],
      "answer": 0,
      "ja": "この本は有名な作家によって書かれました。",
@@ -74,12 +74,12 @@
     {
      "q": "___ tắc đường, nhiều người đến muộn.",
      "choices": [
-      "Do",
+      "Nếu",
       "Để",
       "Mà",
-      "Nếu"
+      "Do"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "渋滞のため、多くの人が遅れました。",
      "explain": "原因の「〜のため」は do。"
     }
@@ -104,12 +104,12 @@
     {
      "q": "___ có học bổng, tôi được đi du học.",
      "choices": [
-      "Nhờ",
       "Tại",
-      "Mặc dù",
-      "Để"
+      "Để",
+      "Nhờ",
+      "Mặc dù"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "奨学金のおかげで留学できました。",
      "explain": "良い原因は nhờ。"
     },
@@ -117,9 +117,9 @@
      "q": "___ ngủ quên nên tôi lỡ chuyến bay.",
      "choices": [
       "Tại",
-      "Nhờ",
+      "Dù",
       "Để",
-      "Dù"
+      "Nhờ"
      ],
      "answer": 0,
      "ja": "寝過ごしたせいで飛行機に乗り遅れました。",
@@ -147,9 +147,9 @@
      "q": "___ mà tôi có nhiều tiền, tôi sẽ đi vòng quanh thế giới.",
      "choices": [
       "Giá",
-      "Vì",
+      "Dù",
       "Để",
-      "Dù"
+      "Vì"
      ],
      "answer": 0,
      "ja": "お金がたくさんあったら世界一周するのに。",
@@ -158,12 +158,12 @@
     {
      "q": "Nếu anh không đến, ___ chúng tôi sẽ đi trước.",
      "choices": [
+      "để",
       "thì",
-      "mà",
       "nên là",
-      "để"
+      "mà"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "あなたが来なければ、私たちは先に行きます。",
      "explain": "nếu ... thì ...。"
     }
@@ -188,24 +188,24 @@
     {
      "q": "Dù bận, anh ấy ___ gọi điện cho mẹ mỗi tuần.",
      "choices": [
-      "vẫn",
-      "mới",
       "sẽ là",
+      "mới",
+      "vẫn",
       "bị"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "忙しくても、彼は毎週母に電話します。",
      "explain": "dù ... vẫn / cũng。"
     },
     {
      "q": "___ ai nói gì, tôi cũng tin bạn.",
      "choices": [
+      "Để",
       "Dù",
       "Vì",
-      "Để",
       "Nhờ"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "誰が何と言っても、あなたを信じます。",
      "explain": "「たとえ〜でも」は dù。"
     }
@@ -230,24 +230,24 @@
     {
      "q": "Hễ ăn hải sản ___ tôi bị dị ứng.",
      "choices": [
-      "là",
       "mà",
       "thì là",
+      "là",
       "nên mà"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "海産物を食べるといつもアレルギーが出ます。",
      "explain": "hễ ... là ...。"
     },
     {
      "q": "___ gặp nhau là họ cãi nhau.",
      "choices": [
-      "Hễ",
-      "Dù",
       "Để",
-      "Nhờ"
+      "Dù",
+      "Nhờ",
+      "Hễ"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "顔を合わせるといつもけんかする。",
      "explain": "「〜するといつも」は hễ。"
     }
@@ -272,24 +272,24 @@
     {
      "q": "Chỉ cần bấm nút này ___ máy chạy.",
      "choices": [
-      "là",
-      "nên",
+      "mà là",
       "để",
-      "mà là"
+      "nên",
+      "là"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "このボタンを押すだけで機械が動きます。",
      "explain": "chỉ cần ... là ...。"
     },
     {
      "q": "Bạn có thể mượn xe, ___ là trả đúng hẹn.",
      "choices": [
-      "miễn",
       "dù",
       "tuy",
+      "miễn",
       "hễ"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "期日に返しさえすれば、車を借りていいよ。",
      "explain": "「〜さえすれば」は miễn là。"
     }
@@ -314,24 +314,24 @@
     {
      "q": "Thà muộn ___ không bao giờ.",
      "choices": [
-      "còn hơn",
-      "hơn là nhất",
       "bằng",
-      "như"
+      "như",
+      "còn hơn",
+      "hơn là nhất"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "遅くてもやらないよりまし。",
      "explain": "thà ... còn hơn ...。"
     },
     {
      "q": "___ ăn ít còn hơn ăn đồ ăn không sạch.",
      "choices": [
-      "Thà",
-      "Dù",
       "Hễ",
-      "Miễn"
+      "Dù",
+      "Miễn",
+      "Thà"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "不衛生なものを食べるくらいなら少なく食べたほうがまし。",
      "explain": "thà で始めます。"
     }
@@ -357,8 +357,8 @@
      "q": "Cuộc họp không phải thứ hai ___ thứ ba.",
      "choices": [
       "mà là",
-      "nhưng mà là",
       "thì là",
+      "nhưng mà là",
       "để là"
      ],
      "answer": 0,
@@ -369,8 +369,8 @@
      "q": "Vấn đề ___ tiền mà là thời gian.",
      "choices": [
       "không phải là",
-      "không những",
       "chưa",
+      "không những",
       "chẳng lẽ"
      ],
      "answer": 0,
@@ -403,9 +403,9 @@
      "q": "Mai bạn đi học ___?",
      "choices": [
       "chứ",
-      "mà",
       "đâu là",
-      "nên"
+      "nên",
+      "mà"
      ],
      "answer": 0,
      "ja": "明日学校に行くでしょ？",
@@ -415,8 +415,8 @@
      "q": "Tôi nói tiếng Việt ___ không phải tiếng Thái.",
      "choices": [
       "chứ",
-      "nhưng mà",
       "để",
+      "nhưng mà",
       "vì"
      ],
      "answer": 0,
@@ -445,9 +445,9 @@
      "q": "Đừng lo, không sao ___.",
      "choices": [
       "đâu",
-      "chứ",
       "nhé là",
-      "ạ là"
+      "ạ là",
+      "chứ"
      ],
      "answer": 0,
      "ja": "心配しないで、全然大丈夫。",
@@ -457,9 +457,9 @@
      "q": "Tôi có biết gì ___!",
      "choices": [
       "đâu",
+      "thôi mà",
       "chứ là",
-      "mà là",
-      "thôi mà"
+      "mà là"
      ],
      "answer": 0,
      "ja": "何も知らないってば！",
@@ -486,24 +486,24 @@
     {
      "q": "___ bạn không nhận ra tôi?",
      "choices": [
-      "Chẳng lẽ",
       "Mặc dù",
+      "Hễ",
       "Để",
-      "Hễ"
+      "Chẳng lẽ"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "まさか私がわからないの？",
      "explain": "「まさか」は chẳng lẽ。"
     },
     {
      "q": "Lẽ nào anh ấy đã về nước ___?",
      "choices": [
-      "rồi sao",
+      "mà thôi",
       "chứ không",
-      "đi nhé",
-      "mà thôi"
+      "rồi sao",
+      "đi nhé"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "まさか彼はもう帰国してしまったの？",
      "explain": "文末に rồi sao が付きます。"
     }
@@ -528,24 +528,24 @@
     {
      "q": "Tôi uống một cốc ___.",
      "choices": [
-      "thôi",
       "nữa là",
-      "rồi mà",
-      "đâu là"
+      "thôi",
+      "đâu là",
+      "rồi mà"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "1杯だけ飲みます。",
      "explain": "限定の thôi。"
     },
     {
      "q": "Đói rồi, đi ăn ___!",
      "choices": [
-      "thôi",
+      "ạ",
       "đâu",
       "chứ là",
-      "ạ"
+      "thôi"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "お腹すいた、食べに行こう！",
      "explain": "促しの thôi。"
     }
@@ -571,9 +571,9 @@
      "q": "Học chăm ___ thi đỗ được.",
      "choices": [
       "mới",
-      "đã",
       "sắp",
-      "vừa là"
+      "vừa là",
+      "đã"
      ],
      "answer": 0,
      "ja": "よく勉強して初めて合格できる。",
@@ -582,12 +582,12 @@
     {
      "q": "Đến nửa đêm anh ấy ___ về.",
      "choices": [
-      "mới",
+      "đang",
       "đã từng",
-      "sắp",
-      "đang"
+      "mới",
+      "sắp"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "真夜中になってやっと彼は帰ってきた。",
      "explain": "「やっと」は mới。"
     }
@@ -612,24 +612,24 @@
     {
      "q": "Đã hứa ___ phải giữ lời.",
      "choices": [
-      "thì",
-      "mà là",
       "để",
-      "hễ"
+      "mà là",
+      "hễ",
+      "thì"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "約束したからには守らなければならない。",
      "explain": "đã ... thì ...。"
     },
     {
      "q": "Món này đã đắt ___ không ngon.",
      "choices": [
-      "lại",
-      "thì",
       "để",
+      "thì",
+      "lại",
       "nhờ"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "この料理は高い上においしくない。",
      "explain": "đã ... lại ...。"
     }
@@ -655,9 +655,9 @@
      "q": "Mang ô đi ___ mưa.",
      "choices": [
       "kẻo",
-      "để mà",
       "nhờ",
-      "miễn"
+      "miễn",
+      "để mà"
      ],
      "answer": 0,
      "ja": "雨が降るといけないから傘を持っていって。",
@@ -666,12 +666,12 @@
     {
      "q": "Học bài đi, ___ mai thi trượt.",
      "choices": [
-      "không thì",
-      "mặc dù",
       "nhờ",
-      "để"
+      "để",
+      "không thì",
+      "mặc dù"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "勉強しなさい、じゃないと明日試験に落ちるよ。",
      "explain": "「さもないと」は không thì。"
     }
@@ -696,24 +696,24 @@
     {
      "q": "___ lúc nào cần, cứ gọi tôi.",
      "choices": [
-      "Bất cứ",
-      "Hễ",
       "Dù là nên",
-      "Nhờ"
+      "Hễ",
+      "Nhờ",
+      "Bất cứ"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "必要なときはいつでも電話して。",
      "explain": "「いつでも」は bất cứ lúc nào。"
     },
     {
      "q": "Anh ấy có thể nấu ___ món gì.",
      "choices": [
-      "bất kỳ",
       "mỗi là",
-      "mọi là",
-      "từng là"
+      "từng là",
+      "bất kỳ",
+      "mọi là"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "彼はどんな料理でも作れます。",
      "explain": "「どんな〜でも」は bất kỳ。"
     }
@@ -739,9 +739,9 @@
      "q": "___ giáo viên cũng không trả lời được câu hỏi này.",
      "choices": [
       "Ngay cả",
-      "Hễ",
+      "Thà",
       "Miễn",
-      "Thà"
+      "Hễ"
      ],
      "answer": 0,
      "ja": "先生でさえこの質問に答えられない。",
@@ -750,12 +750,12 @@
     {
      "q": "Cô ấy bận đến mức ___ không có thời gian ăn trưa.",
      "choices": [
-      "thậm chí",
       "để mà",
-      "nhờ",
-      "nếu"
+      "nếu",
+      "thậm chí",
+      "nhờ"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "彼女は昼食をとる時間さえないほど忙しい。",
      "explain": "「さえ」は thậm chí。"
     }
@@ -781,8 +781,8 @@
      "q": "Cô ấy vui ___ khóc.",
      "choices": [
       "đến nỗi",
-      "để mà",
       "nhờ là",
+      "để mà",
       "hễ"
      ],
      "answer": 0,
@@ -792,12 +792,12 @@
     {
      "q": "Phòng bừa ___ không tìm thấy gì.",
      "choices": [
-      "đến mức",
       "để",
-      "nhờ",
-      "dù"
+      "dù",
+      "đến mức",
+      "nhờ"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "何も見つからないほど部屋が散らかっている。",
      "explain": "đến mức。"
     }
@@ -822,24 +822,24 @@
     {
      "q": "Giá quá cao ___ tôi không mua.",
      "choices": [
-      "nên",
-      "mà là",
       "để",
-      "dù"
+      "nên",
+      "dù",
+      "mà là"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "値段が高すぎるので買いません。",
      "explain": "quá ... nên ...。"
     },
     {
      "q": "Tôi ___ mệt nên đi ngủ sớm.",
      "choices": [
-      "quá",
-      "rất là nhất",
       "hơn",
-      "càng"
+      "càng",
+      "rất là nhất",
+      "quá"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "疲れすぎたので早く寝ました。",
      "explain": "quá + 形容詞。"
     }
@@ -865,9 +865,9 @@
      "q": "Hội thảo được tổ chức ___ trao đổi kinh nghiệm.",
      "choices": [
       "nhằm",
+      "tại",
       "hễ",
-      "dù",
-      "tại"
+      "dù"
      ],
      "answer": 0,
      "ja": "セミナーは経験交流のために開かれました。",
@@ -876,12 +876,12 @@
     {
      "q": "Công ty giảm giá ___ thu hút khách hàng.",
      "choices": [
-      "để",
+      "thà",
       "tại",
       "dù",
-      "thà"
+      "để"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "会社は顧客を引きつけるために値下げしました。",
      "explain": "目的は để。"
     }
@@ -906,24 +906,24 @@
     {
      "q": "___ báo chí, giá xăng sẽ tăng.",
      "choices": [
+      "Hễ",
       "Theo",
       "Nhờ",
-      "Để",
-      "Hễ"
+      "Để"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "新聞によるとガソリン代が上がるそうです。",
      "explain": "情報源は theo。"
     },
     {
      "q": "Anh cứ làm ___ ý mình.",
      "choices": [
-      "theo",
-      "bởi",
+      "tại",
       "nhằm",
-      "tại"
+      "bởi",
+      "theo"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "自分の思う通りにやってください。",
      "explain": "「〜に従って」は theo。"
     }
@@ -948,24 +948,24 @@
     {
      "q": "___ tôi, học ngoại ngữ rất thú vị.",
      "choices": [
-      "Đối với",
       "Về",
+      "Hễ",
       "Nhằm",
-      "Hễ"
+      "Đối với"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "私にとって外国語の勉強はとても面白い。",
      "explain": "「〜にとって」は đối với。"
     },
     {
      "q": "Bài báo viết ___ ẩm thực Huế.",
      "choices": [
-      "về",
       "đối với",
       "tại",
-      "thà"
+      "thà",
+      "về"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "記事はフエの料理について書いています。",
      "explain": "話題は về。"
     }
@@ -990,24 +990,24 @@
     {
      "q": "___ tháng trước, doanh thu tăng gấp đôi.",
      "choices": [
+      "Theo",
       "So với",
       "Đối với",
-      "Theo",
       "Về"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "先月と比べて売上が倍増しました。",
      "explain": "比較は so với。"
     },
     {
      "q": "So với tiếng Anh, tiếng Việt khó ___.",
      "choices": [
-      "hơn",
-      "nhất",
       "bằng",
-      "quá là"
+      "quá là",
+      "hơn",
+      "nhất"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "英語と比べるとベトナム語は難しい。",
      "explain": "so với ... hơn。"
     }
@@ -1033,9 +1033,9 @@
      "q": "Ngoài phở ra, Hà Nội ___ có bún chả.",
      "choices": [
       "còn",
-      "mà",
       "thì là",
-      "để"
+      "để",
+      "mà"
      ],
      "answer": 0,
      "ja": "フォーのほかに、ハノイにはブンチャーもあります。",
@@ -1044,12 +1044,12 @@
     {
      "q": "___ anh ra, mọi người đều đến rồi.",
      "choices": [
+      "Theo",
       "Ngoài",
       "Đối với",
-      "Theo",
       "Nhờ"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "あなた以外はみんなもう来ました。",
      "explain": "「〜以外」は ngoài ... ra。"
     }
@@ -1075,9 +1075,9 @@
      "q": "Tôi ăn được mọi thứ ___ sầu riêng.",
      "choices": [
       "trừ",
-      "kể cả",
       "về",
-      "theo"
+      "theo",
+      "kể cả"
      ],
      "answer": 0,
      "ja": "ドリアン以外は何でも食べられます。",
@@ -1116,12 +1116,12 @@
     {
      "q": "Tiếng Việt của chị ___ giỏi.",
      "choices": [
-      "càng ngày càng",
-      "càng hơn",
       "hơn càng",
-      "nhất càng"
+      "nhất càng",
+      "càng hơn",
+      "càng ngày càng"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "あなたのベトナム語はますます上手になっています。",
      "explain": "「ますます」は càng ngày càng。"
     },
@@ -1129,9 +1129,9 @@
      "q": "Mưa ___ một to.",
      "choices": [
       "mỗi lúc",
-      "càng lúc là",
+      "bất cứ",
       "từng lúc là",
-      "bất cứ"
+      "càng lúc là"
      ],
      "answer": 0,
      "ja": "雨がどんどん強くなる。",
@@ -1162,24 +1162,24 @@
     {
      "q": "Hàng bán ___ rồi.",
      "choices": [
-      "hết",
-      "đâu",
       "nữa",
-      "chưa"
+      "chưa",
+      "hết",
+      "đâu"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "商品は売り切れました。",
      "explain": "「全部〜し終わる」は hết。"
     },
     {
      "q": "Bao giờ anh làm ___ báo cáo?",
      "choices": [
-      "xong",
-      "hết là",
       "nữa",
+      "hết là",
+      "xong",
       "rồi là"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "報告書はいつ仕上がりますか？",
      "explain": "「し終える」は xong。"
     }
@@ -1206,8 +1206,8 @@
      "choices": [
       "ra",
       "lên",
-      "xuống",
-      "vào"
+      "vào",
+      "xuống"
      ],
      "answer": 0,
      "ja": "今日が母の誕生日だとふと思い出した。",
@@ -1217,9 +1217,9 @@
      "q": "Sau Tết tôi béo ___ ba cân.",
      "choices": [
       "lên",
+      "đi",
       "ra",
-      "xuống",
-      "đi"
+      "xuống"
      ],
      "answer": 0,
      "ja": "テトの後3キロ太りました。",
@@ -1246,12 +1246,12 @@
     {
      "q": "Có gì chưa hiểu thì ___ hỏi nhé.",
      "choices": [
-      "cứ",
       "mới",
+      "sắp",
       "đã",
-      "sắp"
+      "cứ"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "わからないことがあったら遠慮なく聞いてね。",
      "explain": "「遠慮なく」は cứ。"
     },
@@ -1259,9 +1259,9 @@
      "q": "Anh ấy ___ nói mãi không dừng.",
      "choices": [
       "cứ",
+      "đã từng",
       "vừa",
-      "sắp",
-      "đã từng"
+      "sắp"
      ],
      "answer": 0,
      "ja": "彼はしゃべり続けて止まらない。",
@@ -1288,24 +1288,24 @@
     {
      "q": "Hè này bạn ___ đi đâu?",
      "choices": [
-      "định",
+      "bị",
       "đã từng",
       "vừa",
-      "bị"
+      "định"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "この夏どこへ行くつもり？",
      "explain": "意図は định。"
     },
     {
      "q": "Chúng tôi ___ tổ chức hội thảo vào tháng mười.",
      "choices": [
+      "được là",
       "dự định",
       "bị",
-      "được là",
       "vừa mới là"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "10月にセミナーを開催する予定です。",
      "explain": "予定は dự định。"
     }
@@ -1342,12 +1342,12 @@
     {
      "q": "Suýt ___ thì tôi đánh rơi điện thoại.",
      "choices": [
-      "nữa",
-      "rồi",
       "chưa",
+      "rồi",
+      "nữa",
       "đâu"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "もう少しで携帯を落とすところだった。",
      "explain": "suýt nữa thì ...。"
     }
@@ -1373,9 +1373,9 @@
      "q": "Nhìn cảnh đẹp, tôi ___ ngạc nhiên.",
      "choices": [
       "không khỏi",
-      "không những",
       "chưa từng",
-      "chẳng lẽ"
+      "chẳng lẽ",
+      "không những"
      ],
      "answer": 0,
      "ja": "美しい景色を見て、驚かずにはいられなかった。",
@@ -1384,12 +1384,12 @@
     {
      "q": "Lời mời chân thành như vậy, tôi ___ nhận lời.",
      "choices": [
+      "chưa thể là",
       "không thể không",
       "không phải",
-      "chưa thể là",
       "đừng"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "そんな心からの招待を、受けないわけにはいかない。",
      "explain": "không thể không。"
     }
@@ -1414,24 +1414,24 @@
     {
      "q": "Cô ấy cho biết ___ cuộc họp bị hủy.",
      "choices": [
-      "rằng",
-      "mà là",
+      "hễ",
       "để",
-      "hễ"
+      "mà là",
+      "rằng"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "彼女は会議が中止になったと伝えました。",
      "explain": "引用は rằng。"
     },
     {
      "q": "Tôi biết ___ anh rất bận.",
      "choices": [
-      "là",
-      "mới",
       "đã",
-      "sẽ là"
+      "là",
+      "sẽ là",
+      "mới"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "あなたがとても忙しいことは知っています。",
      "explain": "話し言葉の引用は là。"
     }
@@ -1456,24 +1456,24 @@
     {
      "q": "Họ quen ___ ở trường đại học.",
      "choices": [
-      "nhau",
-      "mình",
       "lẫn",
-      "cả"
+      "nhau",
+      "cả",
+      "mình"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "彼らは大学で知り合いました。",
      "explain": "「お互い」は nhau。"
     },
     {
      "q": "Hai chị em rất giống ___.",
      "choices": [
-      "nhau",
       "cùng",
-      "lẫn là",
-      "chung"
+      "nhau",
+      "chung",
+      "lẫn là"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "姉妹はとてもよく似ています。",
      "explain": "giống nhau＝似ている。"
     }
@@ -1498,12 +1498,12 @@
     {
      "q": "Anh ấy nói được ___ tiếng Anh lẫn tiếng Pháp.",
      "choices": [
-      "cả",
       "mọi",
       "từng",
+      "cả",
       "các"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "彼は英語もフランス語も話せます。",
      "explain": "cả ... lẫn ...。"
     },
@@ -1540,24 +1540,24 @@
     {
      "q": "Chúng ta ___ đi xe buýt hoặc đi tắc xi.",
      "choices": [
-      "hoặc",
-      "và",
       "nhưng",
-      "để"
+      "để",
+      "và",
+      "hoặc"
      ],
-     "answer": 0,
+     "answer": 3,
      "ja": "バスかタクシーで行きましょう。",
      "explain": "hoặc ... hoặc ...。"
     },
     {
      "q": "Không sáng ___ chiều, tôi sẽ đến.",
      "choices": [
-      "thì",
-      "mà là",
       "để",
-      "nhưng"
+      "thì",
+      "nhưng",
+      "mà là"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "午前か午後かに行きます。",
      "explain": "không ... thì ...。"
     }
@@ -1582,24 +1582,24 @@
     {
      "q": "___ hôm nay là ngày nghỉ, thảo nào đường vắng.",
      "choices": [
-      "Hóa ra",
       "Dù",
+      "Hóa ra",
       "Để",
       "Hễ"
      ],
-     "answer": 0,
+     "answer": 1,
      "ja": "今日は休日だったのか、道理で道がすいているわけだ。",
      "explain": "気づきは hóa ra。"
     },
     {
      "q": "Thì ___ anh đã biết từ trước.",
      "choices": [
-      "ra",
-      "vào",
+      "xuống",
       "lên",
-      "xuống"
+      "ra",
+      "vào"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "なんだ、前から知っていたのか。",
      "explain": "thì ra の形。"
     }
@@ -1625,8 +1625,8 @@
      "q": "Chị ấy từng sống ở Nhật, ___ nói tiếng Nhật giỏi vậy.",
      "choices": [
       "thảo nào",
-      "mặc dù",
       "để",
+      "mặc dù",
       "nhờ là"
      ],
      "answer": 0,
@@ -1637,9 +1637,9 @@
      "q": "Trời mưa to, ___ đường tắc thế.",
      "choices": [
       "bảo sao",
+      "thà",
       "dù sao",
-      "hễ",
-      "thà"
+      "hễ"
      ],
      "answer": 0,
      "ja": "大雨だ、道理でこんなに渋滞しているわけだ。",
@@ -1667,9 +1667,9 @@
      "q": "Tìm ___ mới thấy chìa khóa.",
      "choices": [
       "mãi",
-      "đã",
+      "thà",
       "sắp",
-      "thà"
+      "đã"
      ],
      "answer": 0,
      "ja": "さんざん探してやっと鍵が見つかった。",
@@ -1678,12 +1678,12 @@
     {
      "q": "Mãi đến tối anh ấy ___ về nhà.",
      "choices": [
-      "mới",
+      "đang",
       "đã từng",
-      "sẽ",
-      "đang"
+      "mới",
+      "sẽ"
      ],
-     "answer": 0,
+     "answer": 2,
      "ja": "夜になってようやく彼は帰宅した。",
      "explain": "mãi đến ... mới ...。"
     }

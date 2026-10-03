@@ -25,10 +25,10 @@
     {
      "q": "Hana đến Hà Nội bao lâu rồi?",
      "choices": [
-      "Một tháng",
+      "Một năm",
       "Ba tháng",
-      "Ba năm",
-      "Một năm"
+      "Một tháng",
+      "Ba năm"
      ],
      "answer": 1,
      "explain": "Mình đến Hà Nội được ba tháng rồi とあります。",
@@ -37,10 +37,10 @@
     {
      "q": "Hana học tiếng Việt khi nào?",
      "choices": [
-      "Buổi sáng",
       "Buổi trưa",
+      "Cuối tuần",
       "Buổi tối",
-      "Cuối tuần"
+      "Buổi sáng"
      ],
      "answer": 2,
      "explain": "Mỗi tuần mình học ba buổi, buổi tối。",
@@ -49,24 +49,24 @@
     {
      "q": "Tết này Hana sẽ làm gì?",
      "choices": [
-      "Về Nhật",
       "Ở nhà một mình",
-      "Về quê bạn ở Nam Định",
-      "Đi du lịch Đà Nẵng"
+      "Về Nhật",
+      "Đi du lịch Đà Nẵng",
+      "Về quê bạn ở Nam Định"
      ],
-     "answer": 2,
+     "answer": 3,
      "explain": "友達がナムディンの故郷に招待してくれました。",
      "qJa": "今年のテトに花は何をしますか。"
     },
     {
      "q": "Câu nào đúng với nội dung lá thư?",
      "choices": [
+      "Yuki đang sống ở Việt Nam.",
       "Hana vẫn chưa quen với cuộc sống ở Hà Nội.",
       "Đồng nghiệp của Hana là người Nhật.",
-      "Hana làm việc ban ngày.",
-      "Yuki đang sống ở Việt Nam."
+      "Hana làm việc ban ngày."
      ],
-     "answer": 2,
+     "answer": 3,
      "explain": "Ban ngày mình làm việc ở một công ty Nhật。",
      "qJa": "手紙の内容に合うものはどれですか。"
     }
@@ -100,12 +100,12 @@
     {
      "q": "Vì sao chung cư ngừng cấp nước?",
      "choices": [
+      "Vì mất điện",
       "Vì thiếu nước",
       "Vì sửa đường ống",
-      "Vì mất điện",
       "Vì dọn vệ sinh"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "để sửa đường ống（配管修理のため）。",
      "qJa": "なぜ給水が止まりますか。"
     },
@@ -113,23 +113,23 @@
      "q": "Ngày 15, cư dân nên làm gì?",
      "choices": [
       "Dùng thang máy số 2",
+      "Ra khỏi chung cư",
       "Chuẩn bị nước trước",
-      "Đến văn phòng lúc 8 giờ",
-      "Ra khỏi chung cư"
+      "Đến văn phòng lúc 8 giờ"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "Đề nghị các gia đình chuẩn bị nước dùng trước。",
      "qJa": "15日に住民は何をすべきですか。"
     },
     {
      "q": "Văn phòng ban quản lý ở đâu?",
      "choices": [
-      "Tầng 1",
       "Tầng 2",
-      "Tầng 15",
-      "Bên ngoài chung cư"
+      "Tầng 1",
+      "Bên ngoài chung cư",
+      "Tầng 15"
      ],
-     "answer": 0,
+     "answer": 1,
      "explain": "văn phòng ban quản lý ở tầng 1。",
      "qJa": "管理事務所はどこですか。"
     }
@@ -163,21 +163,21 @@
     {
      "q": "Một bữa cơm Việt Nam thường KHÔNG có gì?",
      "choices": [
-      "Canh",
       "Món rau",
       "Bánh ngọt",
-      "Cơm"
+      "Cơm",
+      "Canh"
      ],
-     "answer": 2,
+     "answer": 1,
      "explain": "ご飯・おかず・野菜・スープが挙げられ、お菓子はありません。",
      "qJa": "ベトナムの食事にふつう含まれないものはどれですか。"
     },
     {
      "q": "Trước khi ăn, con cháu thường làm gì?",
      "choices": [
-      "Rửa bát",
-      "Mời người lớn ăn cơm",
       "Đi chợ",
+      "Mời người lớn ăn cơm",
+      "Rửa bát",
       "Xem tivi"
      ],
      "answer": 1,
@@ -187,10 +187,10 @@
     {
      "q": "Theo bài, tại sao nhiều gia đình ở thành phố ít khi ăn tối cùng nhau?",
      "choices": [
-      "Vì không thích nấu ăn",
+      "Vì ăn ở nhà hàng",
       "Vì bận rộn",
-      "Vì nhà chật",
-      "Vì ăn ở nhà hàng"
+      "Vì không thích nấu ăn",
+      "Vì nhà chật"
      ],
      "answer": 1,
      "explain": "bận rộn nên ít khi ăn tối cùng nhau。",
@@ -226,12 +226,12 @@
     {
      "q": "Lớp học mỗi tuần mấy buổi?",
      "choices": [
-      "Hai buổi",
       "Ba buổi",
+      "Sáu buổi",
       "Năm buổi",
-      "Sáu buổi"
+      "Hai buổi"
      ],
-     "answer": 1,
+     "answer": 0,
      "explain": "thứ hai, thứ tư, thứ sáu の3回。",
      "qJa": "クラスは週に何回ですか。"
     },
@@ -239,21 +239,21 @@
      "q": "Nếu đăng ký ngày 20 tháng 8, học phí là bao nhiêu?",
      "choices": [
       "3.600.000 đồng",
-      "3.240.000 đồng",
       "360.000 đồng",
-      "Miễn phí"
+      "Miễn phí",
+      "3.240.000 đồng"
      ],
-     "answer": 1,
+     "answer": 3,
      "explain": "25日までなら10％引き：360万×0.9＝324万ドン。",
      "qJa": "8月20日に申し込むと学費はいくらですか。"
     },
     {
      "q": "Câu nào đúng?",
      "choices": [
-      "Lớp học có 36 học viên.",
+      "Chỉ đăng ký được trên mạng.",
       "Học viên mới được học thử một buổi không mất tiền.",
       "Chỉ có giáo viên người Nhật.",
-      "Chỉ đăng ký được trên mạng."
+      "Lớp học có 36 học viên."
      ],
      "answer": 1,
      "explain": "Học viên mới được học thử miễn phí một buổi。",
@@ -289,10 +289,10 @@
     {
      "q": "Tết Trung thu vào ngày nào?",
      "choices": [
-      "Ngày 15 tháng 8 dương lịch",
+      "Ngày 8 tháng 3",
       "Ngày 15 tháng 8 âm lịch",
-      "Ngày 1 tháng 1 âm lịch",
-      "Ngày 8 tháng 3"
+      "Ngày 15 tháng 8 dương lịch",
+      "Ngày 1 tháng 1 âm lịch"
      ],
      "answer": 1,
      "explain": "ngày 15 tháng 8 âm lịch。",
@@ -301,24 +301,24 @@
     {
      "q": "Vào đêm Trung thu, trẻ em thường làm gì?",
      "choices": [
-      "Đi học",
       "Rước đèn và xem múa lân",
+      "Đi chùa",
       "Gói bánh chưng",
-      "Đi chùa"
+      "Đi học"
      ],
-     "answer": 1,
+     "answer": 0,
      "explain": "đi rước đèn quanh phố và xem múa lân。",
      "qJa": "中秋の夜、子どもたちは何をしますか。"
     },
     {
      "q": "Người lớn mua bánh trung thu để làm gì?",
      "choices": [
+      "Để học nấu ăn",
       "Để bán",
       "Để biếu người khác",
-      "Để ăn sáng",
-      "Để học nấu ăn"
+      "Để ăn sáng"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "để biếu họ hàng, bạn bè và đồng nghiệp。",
      "qJa": "大人は何のために月餅を買いますか。"
     }
@@ -352,48 +352,48 @@
     {
      "q": "Lúc đầu, người viết làm gì khi bị ốm?",
      "choices": [
-      "Đi bệnh viện ngay",
-      "Mua thuốc ở hiệu thuốc",
+      "Gọi điện cho bác sĩ",
       "Không làm gì",
-      "Gọi điện cho bác sĩ"
+      "Mua thuốc ở hiệu thuốc",
+      "Đi bệnh viện ngay"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "mua thuốc ở hiệu thuốc。",
      "qJa": "最初に筆者は何をしましたか。"
     },
     {
      "q": "Người viết phải chờ ở bệnh viện bao lâu?",
      "choices": [
-      "Ba ngày",
-      "Gần một tiếng",
       "Năm phút",
-      "Năm ngày"
+      "Ba ngày",
+      "Năm ngày",
+      "Gần một tiếng"
      ],
-     "answer": 1,
+     "answer": 3,
      "explain": "chờ gần một tiếng。",
      "qJa": "病院でどのくらい待ちましたか。"
     },
     {
      "q": "Bác sĩ KHÔNG dặn điều gì?",
      "choices": [
-      "Uống nhiều nước",
       "Nghỉ ngơi",
-      "Không ăn đồ lạnh",
-      "Tập thể dục nhiều"
+      "Uống nhiều nước",
+      "Tập thể dục nhiều",
+      "Không ăn đồ lạnh"
      ],
-     "answer": 3,
+     "answer": 2,
      "explain": "運動については言っていません。",
      "qJa": "医者が言わなかったことはどれですか。"
     },
     {
      "q": "Bài học người viết rút ra là gì?",
      "choices": [
-      "Không nên đi bệnh viện",
-      "Ốm lâu thì nên đi khám sớm",
       "Nên mua thuốc ở hiệu thuốc",
-      "Không nên uống thuốc"
+      "Không nên uống thuốc",
+      "Ốm lâu thì nên đi khám sớm",
+      "Không nên đi bệnh viện"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "khi ốm lâu không khỏi thì nên đi gặp bác sĩ sớm。",
      "qJa": "筆者が学んだことは何ですか。"
     }
@@ -424,21 +424,21 @@
      "q": "Bảo tàng cách đây khoảng bao xa?",
      "choices": [
       "Một trăm mét",
-      "Hai cây số",
+      "Bốn cây số",
       "Mười lăm cây số",
-      "Bốn cây số"
+      "Hai cây số"
      ],
-     "answer": 1,
+     "answer": 3,
      "explain": "khoảng hai cây số。",
      "qJa": "博物館はここからどのくらいの距離ですか。"
     },
     {
      "q": "Trạm xe buýt ở đâu?",
      "choices": [
-      "Trước bảo tàng",
+      "Sau siêu thị",
       "Trước siêu thị",
-      "Ở ngã tư",
-      "Sau siêu thị"
+      "Trước bảo tàng",
+      "Ở ngã tư"
      ],
      "answer": 1,
      "explain": "Trạm xe buýt ở trước siêu thị。",
@@ -447,12 +447,12 @@
     {
      "q": "Khách nên xuống xe ở đâu?",
      "choices": [
-      "Trạm thứ nhất",
-      "Trạm thứ ba",
       "Trạm thứ tư",
-      "Trạm cuối"
+      "Trạm cuối",
+      "Trạm thứ nhất",
+      "Trạm thứ ba"
      ],
-     "answer": 2,
+     "answer": 0,
      "explain": "xuống ở trạm thứ tư。",
      "qJa": "客はどこで降りるべきですか。"
     }
@@ -486,36 +486,36 @@
     {
      "q": "Theo bài, tại sao người Việt dùng xe máy?",
      "choices": [
-      "Vì xe máy rất đắt",
       "Vì xe máy tiện lợi",
+      "Vì xe máy rất đắt",
       "Vì không có đường",
       "Vì thích ô nhiễm"
      ],
-     "answer": 1,
+     "answer": 0,
      "explain": "Người Việt dùng xe máy vì nó tiện lợi。",
      "qJa": "なぜベトナム人はバイクを使いますか。"
     },
     {
      "q": "Vấn đề nào KHÔNG được nhắc đến trong bài?",
      "choices": [
-      "Tắc đường",
-      "Ô nhiễm không khí",
       "Tai nạn giao thông",
-      "Giá xăng tăng"
+      "Giá xăng tăng",
+      "Ô nhiễm không khí",
+      "Tắc đường"
      ],
-     "answer": 3,
+     "answer": 1,
      "explain": "ガソリン代については書かれていません。",
      "qJa": "本文で触れられていない問題はどれですか。"
     },
     {
      "q": "Chính phủ hy vọng điều gì?",
      "choices": [
-      "Người dân mua nhiều xe máy hơn",
       "Người dân dùng phương tiện công cộng nhiều hơn",
-      "Đóng cửa các ngõ nhỏ",
-      "Không xây tàu điện"
+      "Người dân mua nhiều xe máy hơn",
+      "Không xây tàu điện",
+      "Đóng cửa các ngõ nhỏ"
      ],
-     "answer": 1,
+     "answer": 0,
      "explain": "dùng phương tiện công cộng nhiều hơn。",
      "qJa": "政府は何を望んでいますか。"
     }
@@ -545,10 +545,10 @@
     {
      "q": "Tại sao Minh nghỉ làm?",
      "choices": [
-      "Vì đi du lịch",
-      "Vì bị sốt cao",
       "Vì có cuộc họp",
-      "Vì nhà có việc"
+      "Vì bị sốt cao",
+      "Vì nhà có việc",
+      "Vì đi du lịch"
      ],
      "answer": 1,
      "explain": "bị sốt cao。",
@@ -557,24 +557,24 @@
     {
      "q": "Ai sẽ đi họp với khách hàng?",
      "choices": [
-      "Chị Lan",
       "Minh",
-      "Anh Tuấn",
-      "Khách hàng"
+      "Chị Lan",
+      "Khách hàng",
+      "Anh Tuấn"
      ],
-     "answer": 2,
+     "answer": 3,
      "explain": "em đã nhờ anh Tuấn đi thay。",
      "qJa": "誰が顧客との会議に出ますか。"
     },
     {
      "q": "Minh sẽ gửi báo cáo tuần khi nào?",
      "choices": [
-      "Hôm nay",
       "Trước thứ sáu",
-      "Tối qua",
-      "Tuần sau"
+      "Hôm nay",
+      "Tuần sau",
+      "Tối qua"
      ],
-     "answer": 1,
+     "answer": 0,
      "explain": "gửi chị trước thứ sáu。",
      "qJa": "ミンはいつ週報を送りますか。"
     }
@@ -604,10 +604,10 @@
     {
      "q": "Tuấn chạy bộ khi nào?",
      "choices": [
-      "Mỗi tối",
+      "Chiều chủ nhật",
       "Sáng thứ bảy và chủ nhật",
       "Trưa các ngày trong tuần",
-      "Chiều chủ nhật"
+      "Mỗi tối"
      ],
      "answer": 1,
      "explain": "Sáng thứ bảy và chủ nhật。",
@@ -617,23 +617,23 @@
      "q": "Tuấn bắt đầu học nấu ăn từ khi nào?",
      "choices": [
       "Từ khi còn nhỏ",
-      "Từ khi sống một mình",
       "Từ khi làm ở ngân hàng",
+      "Từ khi sống một mình",
       "Từ năm sau"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "từ khi sống một mình。",
      "qJa": "トゥアンはいつから料理を習い始めましたか。"
     },
     {
      "q": "Câu nào đúng về Tuấn?",
      "choices": [
-      "Tuấn là giáo viên.",
-      "Tuấn chạy khoảng năm cây số.",
+      "Tuấn không thích nấu ăn.",
       "Tuấn đã chạy marathon ở Đà Nẵng.",
-      "Tuấn không thích nấu ăn."
+      "Tuấn chạy khoảng năm cây số.",
+      "Tuấn là giáo viên."
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "chạy quanh hồ Hoàn Kiếm khoảng năm cây số。",
      "qJa": "トゥアンについて正しいものはどれですか。"
     }

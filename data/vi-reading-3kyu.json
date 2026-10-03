@@ -31,8 +31,8 @@
      "choices": [
       "Pha rất nhanh",
       "Phải chờ vài phút",
-      "Không dùng nước sôi",
-      "Chỉ uống nóng"
+      "Chỉ uống nóng",
+      "Không dùng nước sôi"
      ],
      "answer": 1,
      "explain": "người uống phải kiên nhẫn chờ vài phút。",
@@ -41,12 +41,12 @@
     {
      "q": "Vì sao cà phê trứng ra đời?",
      "choices": [
+      "Vì đường rất đắt",
       "Vì trứng rất rẻ",
-      "Vì sữa rất hiếm",
       "Vì du khách thích",
-      "Vì đường rất đắt"
+      "Vì sữa rất hiếm"
      ],
-     "answer": 1,
+     "answer": 3,
      "explain": "khi sữa rất hiếm ... để thay sữa。",
      "qJa": "エッグコーヒーが生まれた理由は何ですか。"
     },
@@ -55,8 +55,8 @@
      "choices": [
       "Quán cà phê chỉ để uống nước",
       "Quán cà phê là nơi gặp gỡ và thư giãn",
-      "Người Hà Nội ít đi quán cà phê",
-      "Quán cà phê rất đắt"
+      "Quán cà phê rất đắt",
+      "Người Hà Nội ít đi quán cà phê"
      ],
      "answer": 1,
      "explain": "không chỉ là nơi uống nước mà còn là nơi gặp gỡ ...。",
@@ -92,10 +92,10 @@
     {
      "q": "Theo khảo sát, lý do chính nhân viên muốn làm việc ở nhà là gì?",
      "choices": [
-      "Lương cao hơn",
+      "Nhà rộng hơn văn phòng",
       "Tiết kiệm thời gian đi lại",
-      "Không thích đồng nghiệp",
-      "Nhà rộng hơn văn phòng"
+      "Lương cao hơn",
+      "Không thích đồng nghiệp"
      ],
      "answer": 1,
      "explain": "Lý do chính là tiết kiệm thời gian đi lại。",
@@ -104,10 +104,10 @@
     {
      "q": "Khó khăn nào KHÔNG được nhắc đến?",
      "choices": [
-      "Cảm thấy cô đơn",
+      "Ranh giới công việc và cuộc sống không rõ",
       "Khó tập trung khi có con nhỏ",
       "Mạng internet chậm",
-      "Ranh giới công việc và cuộc sống không rõ"
+      "Cảm thấy cô đơn"
      ],
      "answer": 2,
      "explain": "インターネットについては書かれていません。",
@@ -117,9 +117,9 @@
      "q": "\"Làm việc kết hợp\" nghĩa là gì?",
      "choices": [
       "Chỉ làm ở văn phòng",
-      "Chỉ làm ở nhà",
+      "Làm hai công việc",
       "Vừa đến văn phòng vừa làm ở nhà",
-      "Làm hai công việc"
+      "Chỉ làm ở nhà"
      ],
      "answer": 2,
      "explain": "vừa đến văn phòng, vừa làm việc ở nhà。",
@@ -155,10 +155,10 @@
     {
      "q": "Phố đi bộ hoạt động khi nào?",
      "choices": [
-      "Mỗi ngày",
+      "Sáng chủ nhật",
       "Tối thứ sáu, thứ bảy và chủ nhật",
-      "Chỉ ngày lễ",
-      "Sáng chủ nhật"
+      "Mỗi ngày",
+      "Chỉ ngày lễ"
      ],
      "answer": 1,
      "explain": "vào tối thứ sáu, thứ bảy và chủ nhật。",
@@ -167,12 +167,12 @@
     {
      "q": "Lợi ích nào của phố đi bộ được nêu trong bài?",
      "choices": [
-      "Giảm tiếng ồn và khói bụi",
       "Tăng giá nhà",
-      "Có nhiều chỗ đỗ xe",
-      "Giảm du khách"
+      "Giảm tiếng ồn và khói bụi",
+      "Giảm du khách",
+      "Có nhiều chỗ đỗ xe"
      ],
-     "answer": 0,
+     "answer": 1,
      "explain": "giúp giảm tiếng ồn và khói bụi。",
      "qJa": "本文で述べられている利点はどれですか。"
     },
@@ -180,11 +180,11 @@
      "q": "Vấn đề của phố đi bộ là gì?",
      "choices": [
       "Không có ai đến",
-      "Quá đông vào ngày lễ",
       "Cửa hàng bán ít hàng",
+      "Quá đông vào ngày lễ",
       "Không có biểu diễn"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "vào những ngày lễ, phố đi bộ đôi khi quá đông。",
      "qJa": "歩行者天国の問題は何ですか。"
     }
@@ -223,11 +223,11 @@
      "q": "Thu Hà ứng tuyển vào vị trí nào?",
      "choices": [
       "Nhân viên khách sạn",
-      "Hướng dẫn viên nói tiếng Nhật",
+      "Nhân viên nhân sự",
       "Giáo viên tiếng Nhật",
-      "Nhân viên nhân sự"
+      "Hướng dẫn viên nói tiếng Nhật"
      ],
-     "answer": 1,
+     "answer": 3,
      "explain": "tuyển hướng dẫn viên du lịch nói tiếng Nhật。",
      "qJa": "トゥー・ハーはどのポジションに応募していますか。"
     },
@@ -235,23 +235,23 @@
      "q": "Thu Hà đã làm thêm ở đâu?",
      "choices": [
       "Ở công ty du lịch",
-      "Ở khách sạn trong phố cổ",
+      "Ở Nhật Bản",
       "Ở trường đại học",
-      "Ở Nhật Bản"
+      "Ở khách sạn trong phố cổ"
      ],
-     "answer": 1,
+     "answer": 3,
      "explain": "làm thêm tại một khách sạn ở phố cổ。",
      "qJa": "どこでアルバイトをしていましたか。"
     },
     {
      "q": "Thu Hà gửi kèm những gì?",
      "choices": [
-      "Ảnh và hộ chiếu",
       "Sơ yếu lý lịch và bản sao chứng chỉ",
+      "Ảnh và hộ chiếu",
       "Bằng lái xe",
       "Thư giới thiệu của khách Nhật"
      ],
-     "answer": 1,
+     "answer": 0,
      "explain": "sơ yếu lý lịch và bản sao các chứng chỉ。",
      "qJa": "何を添付していますか。"
     }
@@ -302,23 +302,23 @@
      "q": "Siêu thị đã làm gì để giảm rác nhựa?",
      "choices": [
       "Tăng giá túi nilông",
+      "Đóng cửa sớm hơn",
       "Thay túi nilông bằng túi giấy hoặc túi vải",
-      "Không bán chai nhựa",
-      "Đóng cửa sớm hơn"
+      "Không bán chai nhựa"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "thay túi nilông bằng túi giấy hoặc túi vải。",
      "qJa": "スーパーは何をしましたか。"
     },
     {
      "q": "Theo các chuyên gia, yếu tố quan trọng nhất là gì?",
      "choices": [
-      "Chính sách của nhà nước",
-      "Ý thức của mỗi người dân",
+      "Giá túi vải",
       "Công nghệ tái chế",
-      "Giá túi vải"
+      "Ý thức của mỗi người dân",
+      "Chính sách của nhà nước"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "ý thức của mỗi người dân là yếu tố quan trọng nhất。",
      "qJa": "専門家によると最も重要な要素は何ですか。"
     }
@@ -356,36 +356,36 @@
     {
      "q": "Trong lễ ăn hỏi, nhà trai làm gì?",
      "choices": [
-      "Đón cô dâu về nhà",
-      "Mang các mâm lễ đến nhà gái",
       "Tổ chức tiệc ở nhà hàng",
-      "Mừng tiền cho khách"
+      "Đón cô dâu về nhà",
+      "Mừng tiền cho khách",
+      "Mang các mâm lễ đến nhà gái"
      ],
-     "answer": 1,
+     "answer": 3,
      "explain": "nhà trai mang các mâm lễ ... đến nhà gái。",
      "qJa": "アンホイで新郎側は何をしますか。"
     },
     {
      "q": "Vì sao cô dâu chú rể thắp hương trước bàn thờ tổ tiên?",
      "choices": [
-      "Để cầu mưa",
-      "Để xin phép và cảm ơn",
       "Để chụp ảnh",
-      "Để mời khách"
+      "Để mời khách",
+      "Để xin phép và cảm ơn",
+      "Để cầu mưa"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "để xin phép và cảm ơn。",
      "qJa": "なぜ祭壇の前で線香をあげますか。"
     },
     {
      "q": "Khách mời thường làm gì?",
      "choices": [
+      "Hát karaoke",
       "Tặng quà lớn",
       "Mừng tiền trong phong bì",
-      "Hát karaoke",
       "Nấu ăn giúp"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "mừng tiền cho cô dâu chú rể trong phong bì。",
      "qJa": "招待客はふつう何をしますか。"
     }
@@ -419,9 +419,9 @@
     {
      "q": "Nhóm bạn đi Sa Pa bằng phương tiện gì?",
      "choices": [
-      "Máy bay",
-      "Xe khách giường nằm",
       "Tàu hỏa",
+      "Xe khách giường nằm",
+      "Máy bay",
       "Xe máy"
      ],
      "answer": 1,
@@ -432,11 +432,11 @@
      "q": "Vì sao Sa Pa mát mẻ quanh năm?",
      "choices": [
       "Vì gần biển",
-      "Vì nằm ở độ cao khoảng 1.600 mét",
       "Vì có nhiều mưa",
+      "Vì nằm ở độ cao khoảng 1.600 mét",
       "Vì có nhiều rừng"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "nằm ở độ cao khoảng 1.600 mét nên khí hậu mát mẻ。",
      "qJa": "サパが一年中涼しい理由は何ですか。"
     },
@@ -444,11 +444,11 @@
      "q": "Người viết muốn quay lại Sa Pa vào mùa nào? Để làm gì?",
      "choices": [
       "Mùa hè, để bơi",
+      "Mùa đông, để xem tuyết",
       "Mùa xuân, để ngắm hoa đào",
-      "Mùa thu, để xem lúa chín",
-      "Mùa đông, để xem tuyết"
+      "Mùa thu, để xem lúa chín"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "vào mùa xuân để ngắm hoa đào。",
      "qJa": "筆者はいつ、何のためにまた行きたいですか。"
     }
@@ -483,35 +483,35 @@
      "q": "Phụ huynh và giáo viên lo lắng điều gì?",
      "choices": [
       "Học sinh không có điện thoại",
-      "Học sinh thiếu ngủ và kết quả học tập giảm",
       "Điện thoại quá đắt",
+      "Học sinh thiếu ngủ và kết quả học tập giảm",
       "Học sinh không biết dùng mạng"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "thiếu ngủ và kết quả học tập giảm sút。",
      "qJa": "保護者や教師は何を心配していますか。"
     },
     {
      "q": "Theo quy định mới của một số trường, học sinh phải làm gì?",
      "choices": [
-      "Không được mang điện thoại đến trường",
       "Nộp điện thoại cho giáo viên khi vào lớp",
+      "Không được mang điện thoại đến trường",
       "Chỉ dùng điện thoại để học",
       "Mua điện thoại mới"
      ],
-     "answer": 1,
+     "answer": 0,
      "explain": "phải nộp điện thoại cho giáo viên khi vào lớp。",
      "qJa": "新しい規則で生徒は何をしなければなりませんか。"
     },
     {
      "q": "Ý kiến ở đoạn cuối là gì?",
      "choices": [
+      "Nên cho học sinh dùng điện thoại cả ngày",
       "Nên cấm hoàn toàn điện thoại",
       "Nên dạy học sinh dùng điện thoại hợp lý",
-      "Nên cho học sinh dùng điện thoại cả ngày",
       "Không cần quan tâm"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "nên dạy học sinh cách sử dụng điện thoại một cách hợp lý。",
      "qJa": "最後の段落の意見は何ですか。"
     }
@@ -545,10 +545,10 @@
     {
      "q": "Lúc đầu, bánh mì là món ăn của ai?",
      "choices": [
-      "Nông dân",
+      "Người miền Trung",
       "Người Pháp và người giàu",
-      "Học sinh",
-      "Người miền Trung"
+      "Nông dân",
+      "Học sinh"
      ],
      "answer": 1,
      "explain": "là món ăn của người Pháp và những người giàu có。",
@@ -557,24 +557,24 @@
     {
      "q": "Bánh mì Việt Nam khác bánh mì Pháp ở điểm nào?",
      "choices": [
+      "Chỉ ăn với đường",
       "Nặng hơn",
-      "Nhẹ hơn",
       "Không có vỏ",
-      "Chỉ ăn với đường"
+      "Nhẹ hơn"
      ],
-     "answer": 1,
+     "answer": 3,
      "explain": "nhẹ hơn bánh mì Pháp。",
      "qJa": "フランスパンとどこが違いますか。"
     },
     {
      "q": "Sự kiện nào xảy ra năm 2011?",
      "choices": [
-      "Bánh mì xuất hiện ở Việt Nam",
       "Từ \"banh mi\" được đưa vào từ điển Oxford",
-      "Giá bánh mì tăng",
-      "Mở cửa hàng bánh mì đầu tiên"
+      "Bánh mì xuất hiện ở Việt Nam",
+      "Mở cửa hàng bánh mì đầu tiên",
+      "Giá bánh mì tăng"
      ],
-     "answer": 1,
+     "answer": 0,
      "explain": "được đưa vào Từ điển tiếng Anh Oxford。",
      "qJa": "2011年に何がありましたか。"
     }
@@ -608,22 +608,22 @@
     {
      "q": "Ai dạy ông Bình dùng điện thoại thông minh?",
      "choices": [
-      "Con trai",
-      "Cháu gái",
+      "Giáo viên",
       "Hàng xóm",
-      "Giáo viên"
+      "Cháu gái",
+      "Con trai"
      ],
-     "answer": 1,
+     "answer": 2,
      "explain": "cháu gái dạy ông dùng điện thoại thông minh。",
      "qJa": "誰がビンさんにスマートフォンの使い方を教えましたか。"
     },
     {
      "q": "Bây giờ ông Bình thường làm gì vào buổi tối?",
      "choices": [
-      "Xem tivi",
-      "Gọi video cho con cháu",
       "Đi dạo",
-      "Đọc báo giấy"
+      "Gọi video cho con cháu",
+      "Đọc báo giấy",
+      "Xem tivi"
      ],
      "answer": 1,
      "explain": "tối nào tôi cũng gọi video。",
@@ -632,12 +632,12 @@
     {
      "q": "Theo ông Bình, công nghệ giúp người già điều gì?",
      "choices": [
-      "Kiếm thêm tiền",
-      "Bớt cô đơn và thấy mình còn kết nối với cuộc sống",
       "Khỏe mạnh hơn",
-      "Ngủ ngon hơn"
+      "Kiếm thêm tiền",
+      "Ngủ ngon hơn",
+      "Bớt cô đơn và thấy mình còn kết nối với cuộc sống"
      ],
-     "answer": 1,
+     "answer": 3,
      "explain": "giúp người già bớt cô đơn và cảm thấy mình vẫn còn kết nối。",
      "qJa": "ビンさんによると、技術は高齢者に何をもたらしますか。"
     }
