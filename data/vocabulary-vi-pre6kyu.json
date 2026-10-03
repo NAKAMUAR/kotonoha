@@ -1,0 +1,3915 @@
+[
+ {
+  "id": "vi_pre6kyu_0001",
+  "word": "xin chào",
+  "reading": "シン チャオ",
+  "meaning": "こんにちは",
+  "example": "Xin chào, tôi là Ken.",
+  "exampleTranslation": "こんにちは、私はケンです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0002",
+  "word": "chào",
+  "reading": "チャオ",
+  "meaning": "やあ（あいさつ）",
+  "example": "Chào chị!",
+  "exampleTranslation": "（女性に）こんにちは！",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0003",
+  "word": "tạm biệt",
+  "reading": "タム ビエット",
+  "meaning": "さようなら",
+  "example": "Tạm biệt, hẹn gặp lại!",
+  "exampleTranslation": "さようなら、また会いましょう！",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0004",
+  "word": "hẹn gặp lại",
+  "reading": "ヘン ガップ ライ",
+  "meaning": "また会いましょう",
+  "example": "Hẹn gặp lại ngày mai.",
+  "exampleTranslation": "また明日。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0005",
+  "word": "cảm ơn",
+  "reading": "カム オン",
+  "meaning": "ありがとう",
+  "example": "Cảm ơn anh nhiều.",
+  "exampleTranslation": "（男性に）どうもありがとう。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0006",
+  "word": "không có gì",
+  "reading": "コン コー ジー",
+  "meaning": "どういたしまして",
+  "example": "Không có gì đâu.",
+  "exampleTranslation": "どういたしまして。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0007",
+  "word": "xin lỗi",
+  "reading": "シン ロイ",
+  "meaning": "すみません、ごめんなさい",
+  "example": "Xin lỗi, tôi đến muộn.",
+  "exampleTranslation": "すみません、遅れました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0008",
+  "word": "không sao",
+  "reading": "コン サオ",
+  "meaning": "大丈夫です",
+  "example": "Không sao, bạn đừng lo.",
+  "exampleTranslation": "大丈夫、心配しないで。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0009",
+  "word": "vâng",
+  "reading": "ヴァン",
+  "meaning": "はい（北部）",
+  "example": "Vâng, tôi hiểu rồi.",
+  "exampleTranslation": "はい、わかりました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0010",
+  "word": "dạ",
+  "reading": "ザー",
+  "meaning": "はい（丁寧）",
+  "example": "Dạ, em cảm ơn cô.",
+  "exampleTranslation": "はい、先生ありがとうございます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0011",
+  "word": "không",
+  "reading": "コン",
+  "meaning": "いいえ、〜ない",
+  "example": "Không, tôi không biết.",
+  "exampleTranslation": "いいえ、知りません。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0012",
+  "word": "khỏe",
+  "reading": "コエ",
+  "meaning": "元気な",
+  "example": "Tôi khỏe, cảm ơn.",
+  "exampleTranslation": "元気です、ありがとう。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0013",
+  "word": "rất vui được gặp",
+  "reading": "ザット ヴイ ドゥオック ガップ",
+  "meaning": "お会いできてうれしいです",
+  "example": "Rất vui được gặp anh.",
+  "exampleTranslation": "お会いできてうれしいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0014",
+  "word": "chúc ngủ ngon",
+  "reading": "チュック グー ゴン",
+  "meaning": "おやすみなさい",
+  "example": "Chúc ngủ ngon, con nhé.",
+  "exampleTranslation": "おやすみ、いい子ね。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0015",
+  "word": "xin mời",
+  "reading": "シン モイ",
+  "meaning": "どうぞ",
+  "example": "Xin mời vào.",
+  "exampleTranslation": "どうぞお入りください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0016",
+  "word": "làm ơn",
+  "reading": "ラム オン",
+  "meaning": "お願いします、どうか",
+  "example": "Làm ơn nói chậm.",
+  "exampleTranslation": "ゆっくり話してください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "greeting"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0017",
+  "word": "tên",
+  "reading": "テン",
+  "meaning": "名前",
+  "example": "Tên tôi là Mai.",
+  "exampleTranslation": "私の名前はマイです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0018",
+  "word": "tuổi",
+  "reading": "トゥオイ",
+  "meaning": "〜歳",
+  "example": "Em mười tuổi.",
+  "exampleTranslation": "私は10歳です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0019",
+  "word": "tôi",
+  "reading": "トイ",
+  "meaning": "私",
+  "example": "Tôi là sinh viên.",
+  "exampleTranslation": "私は学生です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0020",
+  "word": "bạn",
+  "reading": "バン",
+  "meaning": "あなた；友達",
+  "example": "Bạn tên là gì?",
+  "exampleTranslation": "あなたの名前は何ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0021",
+  "word": "anh",
+  "reading": "アイン",
+  "meaning": "あなた（年上の男性）、兄",
+  "example": "Anh là người Nhật à?",
+  "exampleTranslation": "あなたは日本人ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0022",
+  "word": "chị",
+  "reading": "チー",
+  "meaning": "あなた（年上の女性）、姉",
+  "example": "Chị có khỏe không?",
+  "exampleTranslation": "お元気ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0023",
+  "word": "em",
+  "reading": "エム",
+  "meaning": "年下の人、弟・妹",
+  "example": "Em là học sinh.",
+  "exampleTranslation": "私（年下）は生徒です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0024",
+  "word": "ông",
+  "reading": "オン",
+  "meaning": "おじいさん、（年配の男性）あなた",
+  "example": "Ông tôi bảy mươi tuổi.",
+  "exampleTranslation": "祖父は70歳です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0025",
+  "word": "bà",
+  "reading": "バー",
+  "meaning": "おばあさん、（年配の女性）あなた",
+  "example": "Bà tôi rất khỏe.",
+  "exampleTranslation": "祖母はとても元気です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0026",
+  "word": "cô",
+  "reading": "コー",
+  "meaning": "女性の先生、（若い女性）あなた",
+  "example": "Cô là giáo viên.",
+  "exampleTranslation": "先生は教師です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0027",
+  "word": "thầy",
+  "reading": "タイ",
+  "meaning": "男性の先生",
+  "example": "Thầy dạy tiếng Việt.",
+  "exampleTranslation": "先生はベトナム語を教えています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0028",
+  "word": "chúng tôi",
+  "reading": "チュン トイ",
+  "meaning": "私たち（聞き手を含まない）",
+  "example": "Chúng tôi là bạn.",
+  "exampleTranslation": "私たちは友達です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0029",
+  "word": "chúng ta",
+  "reading": "チュン ター",
+  "meaning": "私たち（聞き手を含む）",
+  "example": "Chúng ta đi thôi.",
+  "exampleTranslation": "さあ行きましょう。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0030",
+  "word": "họ",
+  "reading": "ホー",
+  "meaning": "彼ら",
+  "example": "Họ là người Việt.",
+  "exampleTranslation": "彼らはベトナム人です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0031",
+  "word": "người",
+  "reading": "グオイ",
+  "meaning": "人",
+  "example": "Người đó là ai?",
+  "exampleTranslation": "その人は誰ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0032",
+  "word": "bạn bè",
+  "reading": "バン ベー",
+  "meaning": "友達（総称）",
+  "example": "Tôi có nhiều bạn bè.",
+  "exampleTranslation": "私には友達がたくさんいます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0033",
+  "word": "học sinh",
+  "reading": "ホック シン",
+  "meaning": "生徒",
+  "example": "Em ấy là học sinh lớp năm.",
+  "exampleTranslation": "その子は5年生です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0034",
+  "word": "sinh viên",
+  "reading": "シン ヴィエン",
+  "meaning": "大学生",
+  "example": "Tôi là sinh viên năm nhất.",
+  "exampleTranslation": "私は大学1年生です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0035",
+  "word": "giáo viên",
+  "reading": "ザオ ヴィエン",
+  "meaning": "教師",
+  "example": "Mẹ tôi là giáo viên.",
+  "exampleTranslation": "母は教師です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0036",
+  "word": "bác sĩ",
+  "reading": "バック シー",
+  "meaning": "医者",
+  "example": "Bố tôi là bác sĩ.",
+  "exampleTranslation": "父は医者です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0037",
+  "word": "nhân viên",
+  "reading": "ニャン ヴィエン",
+  "meaning": "社員、職員",
+  "example": "Anh ấy là nhân viên công ty.",
+  "exampleTranslation": "彼は会社員です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0038",
+  "word": "con trai",
+  "reading": "コン チャイ",
+  "meaning": "息子、男の子",
+  "example": "Tôi có một con trai.",
+  "exampleTranslation": "私には息子が一人います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0039",
+  "word": "con gái",
+  "reading": "コン ガイ",
+  "meaning": "娘、女の子",
+  "example": "Con gái tôi ba tuổi.",
+  "exampleTranslation": "娘は3歳です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0040",
+  "word": "trẻ em",
+  "reading": "チェー エム",
+  "meaning": "子ども",
+  "example": "Trẻ em thích chơi.",
+  "exampleTranslation": "子どもは遊ぶのが好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "person"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0041",
+  "word": "gia đình",
+  "reading": "ザー ディン",
+  "meaning": "家族",
+  "example": "Gia đình tôi có năm người.",
+  "exampleTranslation": "私の家族は5人です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0042",
+  "word": "bố",
+  "reading": "ボー",
+  "meaning": "父",
+  "example": "Bố tôi đi làm.",
+  "exampleTranslation": "父は仕事に行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0043",
+  "word": "mẹ",
+  "reading": "メー",
+  "meaning": "母",
+  "example": "Mẹ tôi nấu cơm.",
+  "exampleTranslation": "母はご飯を作ります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0044",
+  "word": "anh trai",
+  "reading": "アイン チャイ",
+  "meaning": "兄",
+  "example": "Anh trai tôi cao.",
+  "exampleTranslation": "兄は背が高いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0045",
+  "word": "chị gái",
+  "reading": "チー ガイ",
+  "meaning": "姉",
+  "example": "Chị gái tôi đẹp.",
+  "exampleTranslation": "姉はきれいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0046",
+  "word": "em trai",
+  "reading": "エム チャイ",
+  "meaning": "弟",
+  "example": "Em trai tôi học lớp ba.",
+  "exampleTranslation": "弟は3年生です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0047",
+  "word": "em gái",
+  "reading": "エム ガイ",
+  "meaning": "妹",
+  "example": "Em gái tôi rất vui.",
+  "exampleTranslation": "妹はとても明るいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0048",
+  "word": "vợ",
+  "reading": "ヴォー",
+  "meaning": "妻",
+  "example": "Vợ tôi là người Việt.",
+  "exampleTranslation": "妻はベトナム人です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0049",
+  "word": "chồng",
+  "reading": "チョン",
+  "meaning": "夫",
+  "example": "Chồng chị ấy là bác sĩ.",
+  "exampleTranslation": "彼女の夫は医者です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0050",
+  "word": "con",
+  "reading": "コン",
+  "meaning": "子ども（自分の）",
+  "example": "Chị có mấy con?",
+  "exampleTranslation": "お子さんは何人ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0051",
+  "word": "ông bà",
+  "reading": "オン バー",
+  "meaning": "祖父母",
+  "example": "Ông bà tôi ở quê.",
+  "exampleTranslation": "祖父母は田舎に住んでいます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "family"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0052",
+  "word": "không (số)",
+  "reading": "コン",
+  "meaning": "ゼロ、0",
+  "example": "Số này là không.",
+  "exampleTranslation": "この数字はゼロです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0053",
+  "word": "một",
+  "reading": "モッ",
+  "meaning": "1",
+  "example": "Tôi có một quyển sách.",
+  "exampleTranslation": "本を1冊持っています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0054",
+  "word": "hai",
+  "reading": "ハイ",
+  "meaning": "2",
+  "example": "Tôi có hai em.",
+  "exampleTranslation": "私には弟妹が2人います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0055",
+  "word": "ba",
+  "reading": "バー",
+  "meaning": "3",
+  "example": "Ba người đi chợ.",
+  "exampleTranslation": "3人が市場に行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0056",
+  "word": "bốn",
+  "reading": "ボン",
+  "meaning": "4",
+  "example": "Nhà tôi có bốn người.",
+  "exampleTranslation": "私の家は4人家族です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0057",
+  "word": "năm (số)",
+  "reading": "ナム",
+  "meaning": "5",
+  "example": "Tôi có năm cái bút.",
+  "exampleTranslation": "ペンを5本持っています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0058",
+  "word": "sáu",
+  "reading": "サウ",
+  "meaning": "6",
+  "example": "Bây giờ là sáu giờ.",
+  "exampleTranslation": "今6時です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0059",
+  "word": "bảy",
+  "reading": "バイ",
+  "meaning": "7",
+  "example": "Một tuần có bảy ngày.",
+  "exampleTranslation": "1週間は7日です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0060",
+  "word": "tám",
+  "reading": "タム",
+  "meaning": "8",
+  "example": "Tôi đi học lúc tám giờ.",
+  "exampleTranslation": "8時に学校へ行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0061",
+  "word": "chín",
+  "reading": "チン",
+  "meaning": "9",
+  "example": "Em gái tôi chín tuổi.",
+  "exampleTranslation": "妹は9歳です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0062",
+  "word": "mười",
+  "reading": "ムオイ",
+  "meaning": "10",
+  "example": "Tôi có mười nghìn đồng.",
+  "exampleTranslation": "1万ドン持っています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0063",
+  "word": "mười một",
+  "reading": "ムオイ モッ",
+  "meaning": "11",
+  "example": "Anh ấy mười một tuổi.",
+  "exampleTranslation": "彼は11歳です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0064",
+  "word": "mười lăm",
+  "reading": "ムオイ ラム",
+  "meaning": "15",
+  "example": "Lớp có mười lăm học sinh.",
+  "exampleTranslation": "クラスには生徒が15人います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0065",
+  "word": "hai mươi",
+  "reading": "ハイ ムオイ",
+  "meaning": "20",
+  "example": "Tôi hai mươi tuổi.",
+  "exampleTranslation": "私は20歳です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0066",
+  "word": "hai mươi mốt",
+  "reading": "ハイ ムオイ モッ",
+  "meaning": "21",
+  "example": "Hôm nay là ngày hai mươi mốt.",
+  "exampleTranslation": "今日は21日です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0067",
+  "word": "một trăm",
+  "reading": "モッ チャム",
+  "meaning": "100",
+  "example": "Cái này một trăm nghìn đồng.",
+  "exampleTranslation": "これは10万ドンです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0068",
+  "word": "nghìn",
+  "reading": "ギン",
+  "meaning": "千",
+  "example": "Một cốc trà đá hai nghìn đồng.",
+  "exampleTranslation": "お茶1杯2千ドンです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0069",
+  "word": "số",
+  "reading": "ソー",
+  "meaning": "数、番号",
+  "example": "Số điện thoại của bạn là gì?",
+  "exampleTranslation": "あなたの電話番号は何ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0070",
+  "word": "bao nhiêu",
+  "reading": "バオ ニエウ",
+  "meaning": "いくつ、いくら",
+  "example": "Cái này bao nhiêu tiền?",
+  "exampleTranslation": "これはいくらですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0071",
+  "word": "mấy",
+  "reading": "マイ",
+  "meaning": "いくつ（10未満）",
+  "example": "Bây giờ là mấy giờ?",
+  "exampleTranslation": "今何時ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0072",
+  "word": "nhiều",
+  "reading": "ニエウ",
+  "meaning": "多い、たくさん",
+  "example": "Ở đây có nhiều người.",
+  "exampleTranslation": "ここには人がたくさんいます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0073",
+  "word": "ít",
+  "reading": "イット",
+  "meaning": "少ない",
+  "example": "Tôi ăn ít.",
+  "exampleTranslation": "私は少ししか食べません。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0074",
+  "word": "đồng",
+  "reading": "ドン",
+  "meaning": "ドン（通貨）",
+  "example": "Cái bút này năm nghìn đồng.",
+  "exampleTranslation": "このペンは5千ドンです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0075",
+  "word": "tiền",
+  "reading": "ティエン",
+  "meaning": "お金",
+  "example": "Tôi không có tiền.",
+  "exampleTranslation": "お金がありません。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "number"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0076",
+  "word": "Việt Nam",
+  "reading": "ヴィエット ナム",
+  "meaning": "ベトナム",
+  "example": "Tôi muốn đi Việt Nam.",
+  "exampleTranslation": "ベトナムに行きたいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "country"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0077",
+  "word": "Nhật Bản",
+  "reading": "ニャット バン",
+  "meaning": "日本",
+  "example": "Tôi đến từ Nhật Bản.",
+  "exampleTranslation": "日本から来ました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "country"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0078",
+  "word": "người Việt",
+  "reading": "グオイ ヴィエット",
+  "meaning": "ベトナム人",
+  "example": "Cô ấy là người Việt.",
+  "exampleTranslation": "彼女はベトナム人です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "country"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0079",
+  "word": "người Nhật",
+  "reading": "グオイ ニャット",
+  "meaning": "日本人",
+  "example": "Tôi là người Nhật.",
+  "exampleTranslation": "私は日本人です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "country"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0080",
+  "word": "tiếng Việt",
+  "reading": "ティエン ヴィエット",
+  "meaning": "ベトナム語",
+  "example": "Tôi học tiếng Việt.",
+  "exampleTranslation": "ベトナム語を勉強しています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "country"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0081",
+  "word": "tiếng Nhật",
+  "reading": "ティエン ニャット",
+  "meaning": "日本語",
+  "example": "Anh ấy nói tiếng Nhật.",
+  "exampleTranslation": "彼は日本語を話します。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "country"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0082",
+  "word": "tiếng Anh",
+  "reading": "ティエン アイン",
+  "meaning": "英語",
+  "example": "Chị có nói tiếng Anh không?",
+  "exampleTranslation": "英語を話しますか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "country"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0083",
+  "word": "nước (quốc gia)",
+  "reading": "ヌオック",
+  "meaning": "国",
+  "example": "Bạn là người nước nào?",
+  "exampleTranslation": "あなたはどこの国の人ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "country"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0084",
+  "word": "Hà Nội",
+  "reading": "ハー ノイ",
+  "meaning": "ハノイ",
+  "example": "Tôi sống ở Hà Nội.",
+  "exampleTranslation": "ハノイに住んでいます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "country"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0085",
+  "word": "đây",
+  "reading": "ダイ",
+  "meaning": "これ、ここ",
+  "example": "Đây là mẹ tôi.",
+  "exampleTranslation": "こちらは私の母です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0086",
+  "word": "đó",
+  "reading": "ドー",
+  "meaning": "それ、そこ",
+  "example": "Đó là cái gì?",
+  "exampleTranslation": "それは何ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0087",
+  "word": "kia",
+  "reading": "キア",
+  "meaning": "あれ、あそこ",
+  "example": "Kia là trường học.",
+  "exampleTranslation": "あれは学校です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0088",
+  "word": "này",
+  "reading": "ナイ",
+  "meaning": "この",
+  "example": "Quyển sách này hay.",
+  "exampleTranslation": "この本は面白いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0089",
+  "word": "ở đây",
+  "reading": "オー ダイ",
+  "meaning": "ここに、ここで",
+  "example": "Tôi sống ở đây.",
+  "exampleTranslation": "私はここに住んでいます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0090",
+  "word": "gì",
+  "reading": "ジー",
+  "meaning": "何",
+  "example": "Bạn ăn gì?",
+  "exampleTranslation": "何を食べますか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0091",
+  "word": "ai",
+  "reading": "アイ",
+  "meaning": "誰",
+  "example": "Người kia là ai?",
+  "exampleTranslation": "あの人は誰ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0092",
+  "word": "đâu",
+  "reading": "ダウ",
+  "meaning": "どこ",
+  "example": "Nhà vệ sinh ở đâu?",
+  "exampleTranslation": "トイレはどこですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0093",
+  "word": "nào",
+  "reading": "ナオ",
+  "meaning": "どの",
+  "example": "Bạn thích màu nào?",
+  "exampleTranslation": "どの色が好きですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0094",
+  "word": "khi nào",
+  "reading": "キー ナオ",
+  "meaning": "いつ",
+  "example": "Khi nào bạn về nước?",
+  "exampleTranslation": "いつ帰国しますか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0095",
+  "word": "tại sao",
+  "reading": "タイ サオ",
+  "meaning": "なぜ",
+  "example": "Tại sao bạn học tiếng Việt?",
+  "exampleTranslation": "なぜベトナム語を勉強するのですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0096",
+  "word": "thế nào",
+  "reading": "テー ナオ",
+  "meaning": "どう、どのように",
+  "example": "Món này thế nào?",
+  "exampleTranslation": "この料理はどうですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0097",
+  "word": "có",
+  "reading": "コー",
+  "meaning": "ある、持っている",
+  "example": "Tôi có một con mèo.",
+  "exampleTranslation": "猫を1匹飼っています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0098",
+  "word": "là",
+  "reading": "ラー",
+  "meaning": "〜である",
+  "example": "Tôi là Ken.",
+  "exampleTranslation": "私はケンです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0099",
+  "word": "và",
+  "reading": "ヴァー",
+  "meaning": "〜と、そして",
+  "example": "Tôi và bạn tôi đi chơi.",
+  "exampleTranslation": "私と友達は遊びに行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0100",
+  "word": "nhưng",
+  "reading": "ニュン",
+  "meaning": "しかし",
+  "example": "Tiếng Việt khó nhưng hay.",
+  "exampleTranslation": "ベトナム語は難しいけれど面白いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0101",
+  "word": "cũng",
+  "reading": "クン",
+  "meaning": "〜も",
+  "example": "Tôi cũng là người Nhật.",
+  "exampleTranslation": "私も日本人です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0102",
+  "word": "rất",
+  "reading": "ザット",
+  "meaning": "とても",
+  "example": "Hôm nay rất nóng.",
+  "exampleTranslation": "今日はとても暑いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "basic"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0103",
+  "word": "đi",
+  "reading": "ディー",
+  "meaning": "行く",
+  "example": "Tôi đi học.",
+  "exampleTranslation": "学校に行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0104",
+  "word": "đến",
+  "reading": "デン",
+  "meaning": "来る、着く",
+  "example": "Anh ấy đến lúc bảy giờ.",
+  "exampleTranslation": "彼は7時に来ます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0105",
+  "word": "về",
+  "reading": "ヴェー",
+  "meaning": "帰る",
+  "example": "Tôi về nhà.",
+  "exampleTranslation": "家に帰ります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0106",
+  "word": "ăn",
+  "reading": "アン",
+  "meaning": "食べる",
+  "example": "Tôi ăn phở.",
+  "exampleTranslation": "フォーを食べます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0107",
+  "word": "uống",
+  "reading": "ウオン",
+  "meaning": "飲む",
+  "example": "Tôi uống nước.",
+  "exampleTranslation": "水を飲みます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0108",
+  "word": "ngủ",
+  "reading": "グー",
+  "meaning": "寝る",
+  "example": "Em bé đang ngủ.",
+  "exampleTranslation": "赤ちゃんは寝ています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0109",
+  "word": "dậy",
+  "reading": "ザイ",
+  "meaning": "起きる",
+  "example": "Tôi dậy lúc sáu giờ.",
+  "exampleTranslation": "6時に起きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0110",
+  "word": "học",
+  "reading": "ホック",
+  "meaning": "勉強する",
+  "example": "Tôi học tiếng Việt.",
+  "exampleTranslation": "ベトナム語を勉強します。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0111",
+  "word": "làm",
+  "reading": "ラム",
+  "meaning": "する、働く",
+  "example": "Bạn làm gì?",
+  "exampleTranslation": "何をしていますか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0112",
+  "word": "nói",
+  "reading": "ノイ",
+  "meaning": "話す",
+  "example": "Tôi nói tiếng Nhật.",
+  "exampleTranslation": "日本語を話します。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0113",
+  "word": "nghe",
+  "reading": "ゲー",
+  "meaning": "聞く",
+  "example": "Tôi thích nghe nhạc.",
+  "exampleTranslation": "音楽を聞くのが好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0114",
+  "word": "xem",
+  "reading": "セム",
+  "meaning": "見る（テレビなど）",
+  "example": "Tôi xem tivi.",
+  "exampleTranslation": "テレビを見ます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0115",
+  "word": "nhìn",
+  "reading": "ニン",
+  "meaning": "見る、眺める",
+  "example": "Hãy nhìn bảng.",
+  "exampleTranslation": "黒板を見てください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0116",
+  "word": "đọc",
+  "reading": "ドック",
+  "meaning": "読む",
+  "example": "Tôi đọc sách.",
+  "exampleTranslation": "本を読みます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0117",
+  "word": "viết",
+  "reading": "ヴィエット",
+  "meaning": "書く",
+  "example": "Em viết tên vào đây.",
+  "exampleTranslation": "ここに名前を書いてね。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0118",
+  "word": "mua",
+  "reading": "ムア",
+  "meaning": "買う",
+  "example": "Tôi mua bánh mì.",
+  "exampleTranslation": "バインミーを買います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0119",
+  "word": "bán",
+  "reading": "バン",
+  "meaning": "売る",
+  "example": "Cửa hàng này bán hoa.",
+  "exampleTranslation": "この店は花を売っています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0120",
+  "word": "thích",
+  "reading": "ティック",
+  "meaning": "好きだ",
+  "example": "Tôi thích cà phê.",
+  "exampleTranslation": "コーヒーが好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0121",
+  "word": "muốn",
+  "reading": "ムオン",
+  "meaning": "〜したい",
+  "example": "Tôi muốn ăn cơm.",
+  "exampleTranslation": "ご飯が食べたいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0122",
+  "word": "biết",
+  "reading": "ビエット",
+  "meaning": "知っている、できる",
+  "example": "Tôi biết bơi.",
+  "exampleTranslation": "泳げます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0123",
+  "word": "hiểu",
+  "reading": "ヒエウ",
+  "meaning": "理解する",
+  "example": "Tôi không hiểu.",
+  "exampleTranslation": "わかりません。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0124",
+  "word": "gặp",
+  "reading": "ガップ",
+  "meaning": "会う",
+  "example": "Tôi gặp bạn ở trường.",
+  "exampleTranslation": "学校で友達に会います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0125",
+  "word": "chơi",
+  "reading": "チョイ",
+  "meaning": "遊ぶ",
+  "example": "Bọn trẻ chơi ở công viên.",
+  "exampleTranslation": "子どもたちは公園で遊びます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0126",
+  "word": "ngồi",
+  "reading": "ゴイ",
+  "meaning": "座る",
+  "example": "Mời anh ngồi.",
+  "exampleTranslation": "どうぞお座りください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0127",
+  "word": "đứng",
+  "reading": "ドゥン",
+  "meaning": "立つ",
+  "example": "Em đứng lên.",
+  "exampleTranslation": "立ってください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0128",
+  "word": "mở",
+  "reading": "モー",
+  "meaning": "開ける",
+  "example": "Mở cửa ra.",
+  "exampleTranslation": "ドアを開けて。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0129",
+  "word": "đóng",
+  "reading": "ドン",
+  "meaning": "閉める",
+  "example": "Đóng cửa sổ lại.",
+  "exampleTranslation": "窓を閉めて。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0130",
+  "word": "cho",
+  "reading": "チョー",
+  "meaning": "あげる、くれる",
+  "example": "Cho tôi một cốc trà.",
+  "exampleTranslation": "お茶を1杯ください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0131",
+  "word": "gọi",
+  "reading": "ゴイ",
+  "meaning": "呼ぶ、電話する",
+  "example": "Tôi gọi điện cho mẹ.",
+  "exampleTranslation": "母に電話します。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0132",
+  "word": "chờ",
+  "reading": "チョー",
+  "meaning": "待つ",
+  "example": "Chờ tôi một chút.",
+  "exampleTranslation": "少し待ってください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0133",
+  "word": "sống",
+  "reading": "ソン",
+  "meaning": "住む、生きる",
+  "example": "Tôi sống ở Tokyo.",
+  "exampleTranslation": "東京に住んでいます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0134",
+  "word": "ở",
+  "reading": "オー",
+  "meaning": "いる、住む、〜で",
+  "example": "Mẹ ở nhà.",
+  "exampleTranslation": "母は家にいます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0135",
+  "word": "yêu",
+  "reading": "イエウ",
+  "meaning": "愛する",
+  "example": "Tôi yêu gia đình.",
+  "exampleTranslation": "家族を愛しています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0136",
+  "word": "nấu",
+  "reading": "ナウ",
+  "meaning": "料理する",
+  "example": "Mẹ nấu cơm.",
+  "exampleTranslation": "母はご飯を作ります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0137",
+  "word": "chạy",
+  "reading": "チャイ",
+  "meaning": "走る",
+  "example": "Con chó chạy nhanh.",
+  "exampleTranslation": "犬は速く走ります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0138",
+  "word": "đi bộ",
+  "reading": "ディー ボー",
+  "meaning": "歩く",
+  "example": "Tôi đi bộ đến trường.",
+  "exampleTranslation": "歩いて学校に行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0139",
+  "word": "tắm",
+  "reading": "タム",
+  "meaning": "入浴する、シャワーを浴びる",
+  "example": "Tôi tắm buổi tối.",
+  "exampleTranslation": "夜にシャワーを浴びます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0140",
+  "word": "rửa",
+  "reading": "ズア",
+  "meaning": "洗う",
+  "example": "Rửa tay trước khi ăn.",
+  "exampleTranslation": "食べる前に手を洗って。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0141",
+  "word": "mặc",
+  "reading": "マック",
+  "meaning": "着る",
+  "example": "Hôm nay tôi mặc áo trắng.",
+  "exampleTranslation": "今日は白い服を着ています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0142",
+  "word": "giúp",
+  "reading": "ズップ",
+  "meaning": "手伝う",
+  "example": "Bạn giúp tôi được không?",
+  "exampleTranslation": "手伝ってくれますか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0143",
+  "word": "hỏi",
+  "reading": "ホイ",
+  "meaning": "尋ねる",
+  "example": "Tôi muốn hỏi đường.",
+  "exampleTranslation": "道を尋ねたいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0144",
+  "word": "trả lời",
+  "reading": "チャー ロイ",
+  "meaning": "答える",
+  "example": "Hãy trả lời câu hỏi.",
+  "exampleTranslation": "質問に答えてください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "verb"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0145",
+  "word": "to",
+  "reading": "トー",
+  "meaning": "大きい",
+  "example": "Con voi rất to.",
+  "exampleTranslation": "象はとても大きいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0146",
+  "word": "nhỏ",
+  "reading": "ニョー",
+  "meaning": "小さい",
+  "example": "Con mèo nhỏ.",
+  "exampleTranslation": "猫は小さいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0147",
+  "word": "cao",
+  "reading": "カオ",
+  "meaning": "高い、背が高い",
+  "example": "Anh ấy cao.",
+  "exampleTranslation": "彼は背が高いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0148",
+  "word": "thấp",
+  "reading": "タップ",
+  "meaning": "低い",
+  "example": "Cái bàn này thấp.",
+  "exampleTranslation": "このテーブルは低いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0149",
+  "word": "dài",
+  "reading": "ザイ",
+  "meaning": "長い",
+  "example": "Tóc cô ấy dài.",
+  "exampleTranslation": "彼女の髪は長いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0150",
+  "word": "ngắn",
+  "reading": "ガン",
+  "meaning": "短い",
+  "example": "Cái áo này ngắn.",
+  "exampleTranslation": "この服は短いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0151",
+  "word": "mới",
+  "reading": "モイ",
+  "meaning": "新しい",
+  "example": "Tôi có điện thoại mới.",
+  "exampleTranslation": "新しい携帯を持っています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0152",
+  "word": "cũ",
+  "reading": "クー",
+  "meaning": "古い",
+  "example": "Nhà tôi cũ.",
+  "exampleTranslation": "私の家は古いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0153",
+  "word": "đẹp",
+  "reading": "デップ",
+  "meaning": "きれいな、美しい",
+  "example": "Hoa này đẹp quá!",
+  "exampleTranslation": "この花はとてもきれい！",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0154",
+  "word": "xấu",
+  "reading": "サウ",
+  "meaning": "醜い、悪い",
+  "example": "Hôm nay trời xấu.",
+  "exampleTranslation": "今日は天気が悪いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0155",
+  "word": "tốt",
+  "reading": "トット",
+  "meaning": "良い",
+  "example": "Anh ấy là người tốt.",
+  "exampleTranslation": "彼は良い人です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0156",
+  "word": "ngon",
+  "reading": "ゴン",
+  "meaning": "おいしい",
+  "example": "Phở rất ngon.",
+  "exampleTranslation": "フォーはとてもおいしいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0157",
+  "word": "nóng",
+  "reading": "ノン",
+  "meaning": "暑い、熱い",
+  "example": "Mùa hè rất nóng.",
+  "exampleTranslation": "夏はとても暑いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0158",
+  "word": "lạnh",
+  "reading": "ライン",
+  "meaning": "寒い、冷たい",
+  "example": "Hôm nay lạnh.",
+  "exampleTranslation": "今日は寒いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0159",
+  "word": "vui",
+  "reading": "ヴイ",
+  "meaning": "楽しい、うれしい",
+  "example": "Tôi rất vui.",
+  "exampleTranslation": "とてもうれしいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0160",
+  "word": "buồn",
+  "reading": "ブオン",
+  "meaning": "悲しい",
+  "example": "Sao bạn buồn?",
+  "exampleTranslation": "どうして悲しいの？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0161",
+  "word": "mệt",
+  "reading": "メット",
+  "meaning": "疲れた",
+  "example": "Tôi mệt quá.",
+  "exampleTranslation": "とても疲れました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0162",
+  "word": "đói",
+  "reading": "ドイ",
+  "meaning": "お腹がすいた",
+  "example": "Tôi đói rồi.",
+  "exampleTranslation": "お腹がすきました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0163",
+  "word": "no",
+  "reading": "ノー",
+  "meaning": "満腹の",
+  "example": "Tôi no rồi, cảm ơn.",
+  "exampleTranslation": "もうお腹いっぱいです、ありがとう。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0164",
+  "word": "khát",
+  "reading": "カット",
+  "meaning": "のどが渇いた",
+  "example": "Tôi khát nước.",
+  "exampleTranslation": "のどが渇きました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0165",
+  "word": "đắt",
+  "reading": "ダット",
+  "meaning": "値段が高い",
+  "example": "Cái này đắt quá.",
+  "exampleTranslation": "これは高すぎます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0166",
+  "word": "rẻ",
+  "reading": "ゼー",
+  "meaning": "安い",
+  "example": "Ở chợ rau rẻ.",
+  "exampleTranslation": "市場では野菜が安いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0167",
+  "word": "nhanh",
+  "reading": "ニャイン",
+  "meaning": "速い",
+  "example": "Xe máy chạy nhanh.",
+  "exampleTranslation": "バイクは速く走ります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0168",
+  "word": "chậm",
+  "reading": "チャム",
+  "meaning": "遅い、ゆっくり",
+  "example": "Xin nói chậm.",
+  "exampleTranslation": "ゆっくり話してください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0169",
+  "word": "dễ",
+  "reading": "ゼー",
+  "meaning": "易しい",
+  "example": "Bài này dễ.",
+  "exampleTranslation": "この課は易しいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0170",
+  "word": "khó",
+  "reading": "コー",
+  "meaning": "難しい",
+  "example": "Tiếng Việt khó.",
+  "exampleTranslation": "ベトナム語は難しいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0171",
+  "word": "gần",
+  "reading": "ガン",
+  "meaning": "近い",
+  "example": "Nhà tôi gần trường.",
+  "exampleTranslation": "家は学校に近いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0172",
+  "word": "xa",
+  "reading": "サー",
+  "meaning": "遠い",
+  "example": "Hà Nội xa Tokyo.",
+  "exampleTranslation": "ハノイは東京から遠いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "adj"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0173",
+  "word": "màu",
+  "reading": "マウ",
+  "meaning": "色",
+  "example": "Bạn thích màu gì?",
+  "exampleTranslation": "何色が好きですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "color"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0174",
+  "word": "đỏ",
+  "reading": "ドー",
+  "meaning": "赤い",
+  "example": "Quả táo màu đỏ.",
+  "exampleTranslation": "リンゴは赤いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "color"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0175",
+  "word": "trắng",
+  "reading": "チャン",
+  "meaning": "白い",
+  "example": "Áo dài màu trắng.",
+  "exampleTranslation": "アオザイは白です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "color"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0176",
+  "word": "đen",
+  "reading": "デン",
+  "meaning": "黒い",
+  "example": "Con mèo đen.",
+  "exampleTranslation": "黒い猫です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "color"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0177",
+  "word": "xanh",
+  "reading": "サイン",
+  "meaning": "青い、緑の",
+  "example": "Bầu trời xanh.",
+  "exampleTranslation": "空は青いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "color"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0178",
+  "word": "vàng",
+  "reading": "ヴァン",
+  "meaning": "黄色い",
+  "example": "Hoa mai màu vàng.",
+  "exampleTranslation": "マイの花は黄色です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "color"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0179",
+  "word": "cơm",
+  "reading": "コム",
+  "meaning": "ご飯",
+  "example": "Tôi ăn cơm với cá.",
+  "exampleTranslation": "魚とご飯を食べます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0180",
+  "word": "phở",
+  "reading": "フォー",
+  "meaning": "フォー",
+  "example": "Phở bò rất ngon.",
+  "exampleTranslation": "牛肉のフォーはとてもおいしいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0181",
+  "word": "bánh mì",
+  "reading": "バイン ミー",
+  "meaning": "パン、バインミー",
+  "example": "Sáng nay tôi ăn bánh mì.",
+  "exampleTranslation": "今朝バインミーを食べました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0182",
+  "word": "nước (uống)",
+  "reading": "ヌオック",
+  "meaning": "水",
+  "example": "Cho tôi một chai nước.",
+  "exampleTranslation": "水を1本ください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0183",
+  "word": "trà",
+  "reading": "チャー",
+  "meaning": "お茶",
+  "example": "Ông tôi uống trà.",
+  "exampleTranslation": "祖父はお茶を飲みます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0184",
+  "word": "cà phê",
+  "reading": "カー フェー",
+  "meaning": "コーヒー",
+  "example": "Tôi uống cà phê sữa đá.",
+  "exampleTranslation": "アイスミルクコーヒーを飲みます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0185",
+  "word": "sữa",
+  "reading": "スア",
+  "meaning": "牛乳",
+  "example": "Em bé uống sữa.",
+  "exampleTranslation": "赤ちゃんは牛乳を飲みます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0186",
+  "word": "bia",
+  "reading": "ビア",
+  "meaning": "ビール",
+  "example": "Anh ấy uống bia.",
+  "exampleTranslation": "彼はビールを飲みます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0187",
+  "word": "thịt",
+  "reading": "ティット",
+  "meaning": "肉",
+  "example": "Tôi không ăn thịt.",
+  "exampleTranslation": "私は肉を食べません。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0188",
+  "word": "cá",
+  "reading": "カー",
+  "meaning": "魚",
+  "example": "Cá này tươi.",
+  "exampleTranslation": "この魚は新鮮です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0189",
+  "word": "gà",
+  "reading": "ガー",
+  "meaning": "鶏",
+  "example": "Tôi thích ăn gà.",
+  "exampleTranslation": "鶏肉が好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0190",
+  "word": "trứng",
+  "reading": "チュン",
+  "meaning": "卵",
+  "example": "Tôi ăn hai quả trứng.",
+  "exampleTranslation": "卵を2個食べます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0191",
+  "word": "rau",
+  "reading": "ザウ",
+  "meaning": "野菜",
+  "example": "Ăn nhiều rau tốt cho sức khỏe.",
+  "exampleTranslation": "野菜をたくさん食べるのは健康に良いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0192",
+  "word": "hoa quả",
+  "reading": "ホア クア",
+  "meaning": "果物",
+  "example": "Tôi thích hoa quả.",
+  "exampleTranslation": "果物が好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0193",
+  "word": "chuối",
+  "reading": "チュオイ",
+  "meaning": "バナナ",
+  "example": "Chuối rất rẻ.",
+  "exampleTranslation": "バナナはとても安いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0194",
+  "word": "táo",
+  "reading": "タオ",
+  "meaning": "リンゴ",
+  "example": "Tôi mua ba quả táo.",
+  "exampleTranslation": "リンゴを3個買います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0195",
+  "word": "xoài",
+  "reading": "ソアイ",
+  "meaning": "マンゴー",
+  "example": "Xoài Việt Nam rất ngọt.",
+  "exampleTranslation": "ベトナムのマンゴーはとても甘いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0196",
+  "word": "bánh",
+  "reading": "バイン",
+  "meaning": "お菓子、ケーキ",
+  "example": "Em thích ăn bánh.",
+  "exampleTranslation": "私はお菓子が好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0197",
+  "word": "kem",
+  "reading": "ケム",
+  "meaning": "アイスクリーム",
+  "example": "Trời nóng, ăn kem đi.",
+  "exampleTranslation": "暑いからアイスを食べよう。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0198",
+  "word": "ngọt",
+  "reading": "ゴット",
+  "meaning": "甘い",
+  "example": "Bánh này ngọt quá.",
+  "exampleTranslation": "このお菓子は甘すぎます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0199",
+  "word": "cay",
+  "reading": "カイ",
+  "meaning": "辛い",
+  "example": "Món này hơi cay.",
+  "exampleTranslation": "この料理は少し辛いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "food"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0200",
+  "word": "nhà",
+  "reading": "ニャー",
+  "meaning": "家",
+  "example": "Nhà tôi ở Hà Nội.",
+  "exampleTranslation": "私の家はハノイにあります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0201",
+  "word": "trường",
+  "reading": "チュオン",
+  "meaning": "学校",
+  "example": "Trường tôi rất to.",
+  "exampleTranslation": "私の学校はとても大きいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0202",
+  "word": "lớp",
+  "reading": "ロップ",
+  "meaning": "クラス、教室",
+  "example": "Lớp tôi có hai mươi người.",
+  "exampleTranslation": "私のクラスは20人です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0203",
+  "word": "công ty",
+  "reading": "コン ティー",
+  "meaning": "会社",
+  "example": "Tôi làm ở công ty Nhật.",
+  "exampleTranslation": "日本の会社で働いています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0204",
+  "word": "chợ",
+  "reading": "チョー",
+  "meaning": "市場",
+  "example": "Mẹ đi chợ.",
+  "exampleTranslation": "母は市場に行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0205",
+  "word": "cửa hàng",
+  "reading": "クア ハン",
+  "meaning": "店",
+  "example": "Cửa hàng này mở cửa lúc tám giờ.",
+  "exampleTranslation": "この店は8時に開きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0206",
+  "word": "nhà hàng",
+  "reading": "ニャー ハン",
+  "meaning": "レストラン",
+  "example": "Chúng tôi ăn ở nhà hàng.",
+  "exampleTranslation": "私たちはレストランで食べます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0207",
+  "word": "quán cà phê",
+  "reading": "クアン カー フェー",
+  "meaning": "カフェ",
+  "example": "Tôi gặp bạn ở quán cà phê.",
+  "exampleTranslation": "カフェで友達に会います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0208",
+  "word": "bệnh viện",
+  "reading": "ベン ヴィエン",
+  "meaning": "病院",
+  "example": "Bệnh viện ở gần đây.",
+  "exampleTranslation": "病院はこの近くにあります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0209",
+  "word": "ngân hàng",
+  "reading": "ガン ハン",
+  "meaning": "銀行",
+  "example": "Tôi đi ngân hàng.",
+  "exampleTranslation": "銀行に行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0210",
+  "word": "bưu điện",
+  "reading": "ブウ ディエン",
+  "meaning": "郵便局",
+  "example": "Bưu điện ở đâu?",
+  "exampleTranslation": "郵便局はどこですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0211",
+  "word": "công viên",
+  "reading": "コン ヴィエン",
+  "meaning": "公園",
+  "example": "Chúng tôi chơi ở công viên.",
+  "exampleTranslation": "私たちは公園で遊びます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0212",
+  "word": "sân bay",
+  "reading": "サン バイ",
+  "meaning": "空港",
+  "example": "Tôi đến sân bay lúc năm giờ.",
+  "exampleTranslation": "5時に空港に着きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0213",
+  "word": "khách sạn",
+  "reading": "カック サン",
+  "meaning": "ホテル",
+  "example": "Khách sạn này rất đẹp.",
+  "exampleTranslation": "このホテルはとてもきれいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0214",
+  "word": "nhà vệ sinh",
+  "reading": "ニャー ヴェー シン",
+  "meaning": "トイレ",
+  "example": "Nhà vệ sinh ở kia.",
+  "exampleTranslation": "トイレはあそこです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0215",
+  "word": "đường",
+  "reading": "ドゥオン",
+  "meaning": "道",
+  "example": "Đường này đông người.",
+  "exampleTranslation": "この道は人が多いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0216",
+  "word": "phòng",
+  "reading": "フォン",
+  "meaning": "部屋",
+  "example": "Phòng tôi nhỏ.",
+  "exampleTranslation": "私の部屋は小さいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0217",
+  "word": "thành phố",
+  "reading": "タイン フォー",
+  "meaning": "都市、市",
+  "example": "Đây là thành phố Hồ Chí Minh.",
+  "exampleTranslation": "ここはホーチミン市です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0218",
+  "word": "quê",
+  "reading": "クエー",
+  "meaning": "田舎、故郷",
+  "example": "Quê tôi ở Huế.",
+  "exampleTranslation": "私の故郷はフエです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "place"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0219",
+  "word": "sách",
+  "reading": "サック",
+  "meaning": "本",
+  "example": "Đây là sách tiếng Việt.",
+  "exampleTranslation": "これはベトナム語の本です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0220",
+  "word": "vở",
+  "reading": "ヴォー",
+  "meaning": "ノート",
+  "example": "Em mua một quyển vở.",
+  "exampleTranslation": "ノートを1冊買います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0221",
+  "word": "bút",
+  "reading": "ブット",
+  "meaning": "ペン",
+  "example": "Cho tôi mượn bút.",
+  "exampleTranslation": "ペンを貸してください。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0222",
+  "word": "bàn",
+  "reading": "バン",
+  "meaning": "机、テーブル",
+  "example": "Sách ở trên bàn.",
+  "exampleTranslation": "本は机の上にあります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0223",
+  "word": "ghế",
+  "reading": "ゲー",
+  "meaning": "いす",
+  "example": "Cái ghế này mới.",
+  "exampleTranslation": "このいすは新しいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0224",
+  "word": "cửa",
+  "reading": "クア",
+  "meaning": "ドア",
+  "example": "Cửa đang mở.",
+  "exampleTranslation": "ドアが開いています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0225",
+  "word": "cửa sổ",
+  "reading": "クア ソー",
+  "meaning": "窓",
+  "example": "Mở cửa sổ ra nhé.",
+  "exampleTranslation": "窓を開けてね。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0226",
+  "word": "điện thoại",
+  "reading": "ディエン トアイ",
+  "meaning": "電話、携帯電話",
+  "example": "Điện thoại của tôi màu đen.",
+  "exampleTranslation": "私の携帯は黒です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0227",
+  "word": "máy tính",
+  "reading": "マイ ティン",
+  "meaning": "パソコン",
+  "example": "Tôi dùng máy tính ở công ty.",
+  "exampleTranslation": "会社でパソコンを使います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0228",
+  "word": "tivi",
+  "reading": "ティヴィ",
+  "meaning": "テレビ",
+  "example": "Bố đang xem tivi.",
+  "exampleTranslation": "父はテレビを見ています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0229",
+  "word": "túi",
+  "reading": "トゥイ",
+  "meaning": "かばん、袋",
+  "example": "Túi của chị đẹp quá.",
+  "exampleTranslation": "あなたのかばんはとてもすてきです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0230",
+  "word": "áo",
+  "reading": "アオ",
+  "meaning": "上着、シャツ",
+  "example": "Tôi mua một cái áo.",
+  "exampleTranslation": "シャツを1枚買います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0231",
+  "word": "quần",
+  "reading": "クアン",
+  "meaning": "ズボン",
+  "example": "Quần này hơi dài.",
+  "exampleTranslation": "このズボンは少し長いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0232",
+  "word": "giày",
+  "reading": "ザイ",
+  "meaning": "靴",
+  "example": "Đôi giày này bao nhiêu tiền?",
+  "exampleTranslation": "この靴はいくらですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0233",
+  "word": "mũ",
+  "reading": "ムー",
+  "meaning": "帽子",
+  "example": "Em đội mũ đi học.",
+  "exampleTranslation": "帽子をかぶって学校に行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0234",
+  "word": "xe máy",
+  "reading": "セー マイ",
+  "meaning": "バイク",
+  "example": "Anh ấy đi xe máy.",
+  "exampleTranslation": "彼はバイクで行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0235",
+  "word": "xe đạp",
+  "reading": "セー ダップ",
+  "meaning": "自転車",
+  "example": "Tôi có một chiếc xe đạp.",
+  "exampleTranslation": "自転車を1台持っています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0236",
+  "word": "ô tô",
+  "reading": "オー トー",
+  "meaning": "自動車",
+  "example": "Ô tô này màu trắng.",
+  "exampleTranslation": "この車は白です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0237",
+  "word": "xe buýt",
+  "reading": "セー ブイット",
+  "meaning": "バス",
+  "example": "Tôi đi xe buýt.",
+  "exampleTranslation": "バスで行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0238",
+  "word": "cái",
+  "reading": "カイ",
+  "meaning": "〜個（物の類別詞）",
+  "example": "Tôi có hai cái bút.",
+  "exampleTranslation": "ペンを2本持っています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0239",
+  "word": "con (loại từ)",
+  "reading": "コン",
+  "meaning": "〜匹（動物の類別詞）",
+  "example": "Nhà tôi có ba con mèo.",
+  "exampleTranslation": "家には猫が3匹います。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0240",
+  "word": "quyển",
+  "reading": "クイエン",
+  "meaning": "〜冊",
+  "example": "Tôi đọc một quyển sách.",
+  "exampleTranslation": "本を1冊読みます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "thing"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0241",
+  "word": "chó",
+  "reading": "チョー",
+  "meaning": "犬",
+  "example": "Con chó này rất ngoan.",
+  "exampleTranslation": "この犬はとてもおとなしいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0242",
+  "word": "mèo",
+  "reading": "メオ",
+  "meaning": "猫",
+  "example": "Tôi thích mèo.",
+  "exampleTranslation": "猫が好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0243",
+  "word": "chim",
+  "reading": "チム",
+  "meaning": "鳥",
+  "example": "Con chim hót hay.",
+  "exampleTranslation": "鳥がきれいに鳴きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0244",
+  "word": "hoa",
+  "reading": "ホア",
+  "meaning": "花",
+  "example": "Mẹ thích hoa hồng.",
+  "exampleTranslation": "母はバラが好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0245",
+  "word": "cây",
+  "reading": "カイ",
+  "meaning": "木",
+  "example": "Trước nhà có một cây to.",
+  "exampleTranslation": "家の前に大きな木があります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0246",
+  "word": "trời",
+  "reading": "チョイ",
+  "meaning": "空、天気",
+  "example": "Hôm nay trời đẹp.",
+  "exampleTranslation": "今日は天気がいいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0247",
+  "word": "mưa",
+  "reading": "ムア",
+  "meaning": "雨、雨が降る",
+  "example": "Trời đang mưa.",
+  "exampleTranslation": "雨が降っています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0248",
+  "word": "nắng",
+  "reading": "ナン",
+  "meaning": "日差し、晴れる",
+  "example": "Hôm nay trời nắng.",
+  "exampleTranslation": "今日は晴れです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0249",
+  "word": "biển",
+  "reading": "ビエン",
+  "meaning": "海",
+  "example": "Tôi thích đi biển.",
+  "exampleTranslation": "海に行くのが好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0250",
+  "word": "núi",
+  "reading": "ヌイ",
+  "meaning": "山",
+  "example": "Núi Phú Sĩ rất đẹp.",
+  "exampleTranslation": "富士山はとてもきれいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0251",
+  "word": "sông",
+  "reading": "ソン",
+  "meaning": "川",
+  "example": "Sông này dài.",
+  "exampleTranslation": "この川は長いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "nature"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0252",
+  "word": "hôm nay",
+  "reading": "ホム ナイ",
+  "meaning": "今日",
+  "example": "Hôm nay là thứ hai.",
+  "exampleTranslation": "今日は月曜日です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0253",
+  "word": "ngày mai",
+  "reading": "ガイ マイ",
+  "meaning": "明日",
+  "example": "Ngày mai tôi đi Huế.",
+  "exampleTranslation": "明日フエに行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0254",
+  "word": "hôm qua",
+  "reading": "ホム クア",
+  "meaning": "昨日",
+  "example": "Hôm qua tôi ở nhà.",
+  "exampleTranslation": "昨日は家にいました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0255",
+  "word": "bây giờ",
+  "reading": "バイ ゾー",
+  "meaning": "今",
+  "example": "Bây giờ tôi bận.",
+  "exampleTranslation": "今忙しいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0256",
+  "word": "giờ",
+  "reading": "ゾー",
+  "meaning": "〜時",
+  "example": "Bây giờ là mấy giờ?",
+  "exampleTranslation": "今何時ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0257",
+  "word": "phút",
+  "reading": "フット",
+  "meaning": "〜分",
+  "example": "Chờ năm phút nhé.",
+  "exampleTranslation": "5分待ってね。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0258",
+  "word": "ngày",
+  "reading": "ガイ",
+  "meaning": "日",
+  "example": "Một ngày có hai mươi bốn giờ.",
+  "exampleTranslation": "1日は24時間です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0259",
+  "word": "tuần",
+  "reading": "トゥアン",
+  "meaning": "週",
+  "example": "Tuần sau tôi bận.",
+  "exampleTranslation": "来週は忙しいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0260",
+  "word": "tháng",
+  "reading": "ターン",
+  "meaning": "月",
+  "example": "Tháng này tôi đi Việt Nam.",
+  "exampleTranslation": "今月ベトナムに行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0261",
+  "word": "năm (thời gian)",
+  "reading": "ナム",
+  "meaning": "年",
+  "example": "Năm nay tôi hai mươi tuổi.",
+  "exampleTranslation": "今年20歳です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0262",
+  "word": "sáng",
+  "reading": "サン",
+  "meaning": "朝",
+  "example": "Buổi sáng tôi uống cà phê.",
+  "exampleTranslation": "朝はコーヒーを飲みます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0263",
+  "word": "trưa",
+  "reading": "チュア",
+  "meaning": "昼",
+  "example": "Buổi trưa tôi ăn cơm.",
+  "exampleTranslation": "昼はご飯を食べます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0264",
+  "word": "chiều",
+  "reading": "チエウ",
+  "meaning": "午後",
+  "example": "Chiều nay tôi đi chợ.",
+  "exampleTranslation": "今日の午後市場に行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0265",
+  "word": "tối",
+  "reading": "トイ",
+  "meaning": "夜（晩）",
+  "example": "Tối nay bạn làm gì?",
+  "exampleTranslation": "今晩何をしますか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0266",
+  "word": "thứ hai",
+  "reading": "トゥー ハイ",
+  "meaning": "月曜日",
+  "example": "Thứ hai tôi đi làm.",
+  "exampleTranslation": "月曜日は仕事に行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0267",
+  "word": "chủ nhật",
+  "reading": "チュー ニャット",
+  "meaning": "日曜日",
+  "example": "Chủ nhật tôi nghỉ.",
+  "exampleTranslation": "日曜日は休みです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "time"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0268",
+  "word": "đầu",
+  "reading": "ダウ",
+  "meaning": "頭",
+  "example": "Tôi đau đầu.",
+  "exampleTranslation": "頭が痛いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "body"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0269",
+  "word": "mắt",
+  "reading": "マット",
+  "meaning": "目",
+  "example": "Mắt cô ấy to.",
+  "exampleTranslation": "彼女は目が大きいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "body"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0270",
+  "word": "tay",
+  "reading": "タイ",
+  "meaning": "手",
+  "example": "Rửa tay đi con.",
+  "exampleTranslation": "手を洗いなさい。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "body"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0271",
+  "word": "chân",
+  "reading": "チャン",
+  "meaning": "足",
+  "example": "Chân tôi đau.",
+  "exampleTranslation": "足が痛いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "body"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0272",
+  "word": "miệng",
+  "reading": "ミエン",
+  "meaning": "口",
+  "example": "Mở miệng ra nào.",
+  "exampleTranslation": "口を開けてね。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "body"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0273",
+  "word": "tóc",
+  "reading": "トック",
+  "meaning": "髪",
+  "example": "Tóc em màu đen.",
+  "exampleTranslation": "私の髪は黒いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "body"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0274",
+  "word": "bụng",
+  "reading": "ブン",
+  "meaning": "お腹",
+  "example": "Tôi đau bụng.",
+  "exampleTranslation": "お腹が痛いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "body"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0275",
+  "word": "đau",
+  "reading": "ダウ",
+  "meaning": "痛い",
+  "example": "Răng tôi đau.",
+  "exampleTranslation": "歯が痛いです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "body"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0276",
+  "word": "ốm",
+  "reading": "オム",
+  "meaning": "病気の",
+  "example": "Hôm nay em bị ốm.",
+  "exampleTranslation": "今日私は病気です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "body"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0277",
+  "word": "được",
+  "reading": "ドゥオック",
+  "meaning": "〜できる、いいです",
+  "example": "Tôi nói được tiếng Việt.",
+  "exampleTranslation": "ベトナム語が話せます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0278",
+  "word": "đúng",
+  "reading": "ドゥン",
+  "meaning": "正しい",
+  "example": "Câu trả lời này đúng.",
+  "exampleTranslation": "この答えは正しいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0279",
+  "word": "sai",
+  "reading": "サイ",
+  "meaning": "間違った",
+  "example": "Tôi viết sai rồi.",
+  "exampleTranslation": "書き間違えました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0280",
+  "word": "thật",
+  "reading": "タット",
+  "meaning": "本当に",
+  "example": "Thật không?",
+  "exampleTranslation": "本当ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0281",
+  "word": "rồi",
+  "reading": "ゾイ",
+  "meaning": "もう〜した",
+  "example": "Tôi ăn rồi.",
+  "exampleTranslation": "もう食べました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0282",
+  "word": "chưa",
+  "reading": "チュア",
+  "meaning": "まだ〜ない",
+  "example": "Tôi chưa ăn.",
+  "exampleTranslation": "まだ食べていません。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0283",
+  "word": "đang",
+  "reading": "ダン",
+  "meaning": "〜している",
+  "example": "Tôi đang học.",
+  "exampleTranslation": "今勉強しています。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0284",
+  "word": "sẽ",
+  "reading": "セー",
+  "meaning": "〜するつもり（未来）",
+  "example": "Ngày mai tôi sẽ đi.",
+  "exampleTranslation": "明日行きます。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0285",
+  "word": "đã",
+  "reading": "ダー",
+  "meaning": "〜した（過去）",
+  "example": "Tôi đã đến Huế.",
+  "exampleTranslation": "フエに行きました。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0286",
+  "word": "nhé",
+  "reading": "ニェー",
+  "meaning": "〜ね",
+  "example": "Mai gặp nhé.",
+  "exampleTranslation": "また明日ね。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0287",
+  "word": "ạ",
+  "reading": "アー",
+  "meaning": "〜です（丁寧の文末詞）",
+  "example": "Em chào cô ạ.",
+  "exampleTranslation": "先生、こんにちは。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0288",
+  "word": "à",
+  "reading": "アー",
+  "meaning": "〜なの？",
+  "example": "Anh là người Việt à?",
+  "exampleTranslation": "あなたはベトナム人なの？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0289",
+  "word": "quá",
+  "reading": "クア",
+  "meaning": "すごく〜だ",
+  "example": "Đẹp quá!",
+  "exampleTranslation": "すごくきれい！",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0290",
+  "word": "lắm",
+  "reading": "ラム",
+  "meaning": "とても",
+  "example": "Ngon lắm.",
+  "exampleTranslation": "とてもおいしいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0291",
+  "word": "một chút",
+  "reading": "モッ チュット",
+  "meaning": "少し",
+  "example": "Tôi biết một chút tiếng Việt.",
+  "exampleTranslation": "ベトナム語が少しわかります。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0292",
+  "word": "ngày sinh nhật",
+  "reading": "ガイ シン ニャット",
+  "meaning": "誕生日",
+  "example": "Hôm nay là ngày sinh nhật của tôi.",
+  "exampleTranslation": "今日は私の誕生日です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0293",
+  "word": "chúc mừng",
+  "reading": "チュック ムン",
+  "meaning": "おめでとう",
+  "example": "Chúc mừng sinh nhật!",
+  "exampleTranslation": "お誕生日おめでとう！",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0294",
+  "word": "chúc mừng năm mới",
+  "reading": "チュック ムン ナム モイ",
+  "meaning": "明けましておめでとう",
+  "example": "Chúc mừng năm mới!",
+  "exampleTranslation": "明けましておめでとう！",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0295",
+  "word": "sở thích",
+  "reading": "ソー ティック",
+  "meaning": "趣味",
+  "example": "Sở thích của tôi là đọc sách.",
+  "exampleTranslation": "私の趣味は読書です。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0296",
+  "word": "bóng đá",
+  "reading": "ボン ダー",
+  "meaning": "サッカー",
+  "example": "Anh tôi thích bóng đá.",
+  "exampleTranslation": "兄はサッカーが好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0297",
+  "word": "âm nhạc",
+  "reading": "アム ニャック",
+  "meaning": "音楽",
+  "example": "Tôi thích âm nhạc Việt Nam.",
+  "exampleTranslation": "ベトナムの音楽が好きです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0298",
+  "word": "du lịch",
+  "reading": "ズー リック",
+  "meaning": "旅行する",
+  "example": "Tôi muốn đi du lịch.",
+  "exampleTranslation": "旅行に行きたいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0299",
+  "word": "nghỉ",
+  "reading": "ギー",
+  "meaning": "休む",
+  "example": "Hôm nay tôi nghỉ.",
+  "exampleTranslation": "今日は休みです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0300",
+  "word": "bận",
+  "reading": "バン",
+  "meaning": "忙しい",
+  "example": "Tôi rất bận.",
+  "exampleTranslation": "とても忙しいです。",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ },
+ {
+  "id": "vi_pre6kyu_0301",
+  "word": "rảnh",
+  "reading": "ザイン",
+  "meaning": "暇な",
+  "example": "Bạn có rảnh không?",
+  "exampleTranslation": "暇ですか？",
+  "level": "A1",
+  "tags": [
+   "kenteipre6kyu",
+   "phrase"
+  ]
+ }
+]

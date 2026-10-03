@@ -313,6 +313,7 @@ async function renderProgressRows() {
     deckRow('toeic', 'en'),
     { label: 'TOEIC 問題', total: toeicTotal, learned: toeicCorrect, started: toeicAnswered, unit: '問',
       detail: `正解 ${toeicCorrect} / 回答 ${toeicAnswered}` },
+    deckRow('vipre6kyu', 'vi'),
     deckRow('vi5kyu', 'vi'),
     deckRow('vi4kyu', 'vi'),
     deckRow('vi3kyu', 'vi'),

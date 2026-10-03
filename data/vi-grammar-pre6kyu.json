@@ -1,0 +1,845 @@
+{
+ "level": 6,
+ "points": [
+  {
+   "id": "gp6-01",
+   "title": "ベトナム語の文字（29字＋記号）",
+   "pattern": "a ă â b c d đ e ê g h i k l m n o ô ơ p q r s t u ư v x y",
+   "explain": "ベトナム語はアルファベットを使います。英語にない文字（ă・â・đ・ê・ô・ơ・ư）があり、đ は「ダ行」、d は北部では「ザ行」の音です。f・j・w・z は使いません。",
+   "examples": [
+    {
+     "vi": "đi",
+     "ja": "「行く」。đ は日本語の「ダ」に近い音。"
+    },
+    {
+     "vi": "da",
+     "ja": "「肌」。d は北部では「ザ」に近い音。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "「行く」は ___i と書きます。",
+     "choices": [
+      "đ",
+      "z",
+      "j",
+      "d"
+     ],
+     "answer": 0,
+     "ja": "đi＝行く",
+     "explain": "đ（横棒つき）が「ダ」の音です。"
+    },
+    {
+     "q": "ベトナム語で使わない文字はどれですか？",
+     "choices": [
+      "ư",
+      "ơ",
+      "đ",
+      "f"
+     ],
+     "answer": 3,
+     "ja": "",
+     "explain": "f・j・w・z はベトナム語では使いません。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-02",
+   "title": "6つの声調（ma で覚える）",
+   "pattern": "ma / mà / má / mả / mã / mạ",
+   "explain": "ベトナム語は音の上がり下がり（声調）で意味が変わります。記号なし（平ら）、`（下がる）、´（上がる）、?（下がって上がる）、~（揺れて上がる）、.（短く下がる）の6つです。",
+   "examples": [
+    {
+     "vi": "ma, mà, má",
+     "ja": "幽霊・しかし・母（南部）。同じ「マ」でも声調で意味が変わります。"
+    },
+    {
+     "vi": "mả, mã, mạ",
+     "ja": "墓・馬・苗。記号の形と音の動きをセットで覚えましょう。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "記号のない ma の声調はどれですか？",
+     "choices": [
+      "下がる音",
+      "短く切る音",
+      "上がる音",
+      "平らな音"
+     ],
+     "answer": 3,
+     "ja": "",
+     "explain": "記号なしは高めで平らな音です。"
+    },
+    {
+     "q": "´（右上がりの記号）がついた語はどれですか？",
+     "choices": [
+      "mạ",
+      "mả",
+      "má",
+      "mà"
+     ],
+     "answer": 2,
+     "ja": "",
+     "explain": "´ は音が上がる声調（sắc）です。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-03",
+   "title": "あいさつ Xin chào / Chào + 相手",
+   "pattern": "Xin chào. / Chào + anh・chị・em など",
+   "explain": "Xin chào は誰にでも使える丁寧なあいさつ。親しい人や相手が決まっているときは「Chào + 呼び方」が自然です。朝・昼・夜で言い方は変わりません。",
+   "examples": [
+    {
+     "vi": "Xin chào các bạn.",
+     "ja": "みなさん、こんにちは。"
+    },
+    {
+     "vi": "Chào chị!",
+     "ja": "（年上の女性に）こんにちは！"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ chào, tôi là Ken.",
+     "choices": [
+      "Không",
+      "Cảm",
+      "Xin",
+      "Tạm"
+     ],
+     "answer": 2,
+     "ja": "こんにちは、私はケンです。",
+     "explain": "Xin chào＝こんにちは。"
+    },
+    {
+     "q": "Chào ___! Thầy khỏe không ạ?",
+     "choices": [
+      "chúng tôi",
+      "ai",
+      "tôi",
+      "thầy"
+     ],
+     "answer": 3,
+     "ja": "先生、こんにちは！お元気ですか？",
+     "explain": "相手の呼び方（thầy＝男性の先生）をつけます。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-04",
+   "title": "人の呼び方（tôi / anh / chị / em）",
+   "pattern": "自分＝tôi・em など / 相手＝anh・chị・em・bạn など",
+   "explain": "ベトナム語では、相手との年齢や関係によって「あなた」の言い方が変わります。年上の男性は anh、年上の女性は chị、年下は em、同年代の友達は bạn。",
+   "examples": [
+    {
+     "vi": "Anh tên là gì?",
+     "ja": "（年上の男性に）お名前は何ですか？"
+    },
+    {
+     "vi": "Em là học sinh.",
+     "ja": "私（年下）は生徒です。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "（年上の女性に）___ có khỏe không?",
+     "choices": [
+      "Chị",
+      "Em",
+      "Tôi",
+      "Anh trai"
+     ],
+     "answer": 0,
+     "ja": "お元気ですか？",
+     "explain": "年上の女性は chị。"
+    },
+    {
+     "q": "（同年代の友達に）___ tên là gì?",
+     "choices": [
+      "Thầy",
+      "Bà",
+      "Ông",
+      "Bạn"
+     ],
+     "answer": 3,
+     "ja": "あなたの名前は何？",
+     "explain": "友達は bạn。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-05",
+   "title": "名前を言う・聞く（Tôi tên là ...）",
+   "pattern": "Tôi tên là + 名前. / Bạn tên là gì?",
+   "explain": "「私の名前は〜です」は Tôi tên là ...。聞くときは「あなた＋tên là gì?」。",
+   "examples": [
+    {
+     "vi": "Tôi tên là Hana.",
+     "ja": "私の名前は花です。"
+    },
+    {
+     "vi": "Chị tên là gì?",
+     "ja": "お名前は何ですか？"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Tôi ___ là Minh.",
+     "choices": [
+      "tuổi",
+      "tên",
+      "nước",
+      "người"
+     ],
+     "answer": 1,
+     "ja": "私の名前はミンです。",
+     "explain": "tên là＝名前は〜です。"
+    },
+    {
+     "q": "Bạn tên là ___?",
+     "choices": [
+      "ai",
+      "đâu",
+      "gì",
+      "mấy"
+     ],
+     "answer": 2,
+     "ja": "あなたの名前は何ですか？",
+     "explain": "「何」は gì。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-06",
+   "title": "国籍を言う（người + 国）",
+   "pattern": "Tôi là người + 国. / Bạn là người nước nào?",
+   "explain": "「〜人」は người ＋ 国名。どこの国の人か聞くときは người nước nào?。",
+   "examples": [
+    {
+     "vi": "Tôi là người Nhật.",
+     "ja": "私は日本人です。"
+    },
+    {
+     "vi": "Anh là người nước nào?",
+     "ja": "あなたはどこの国の人ですか？"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Tôi là ___ Nhật.",
+     "choices": [
+      "tên",
+      "nước",
+      "người",
+      "tiếng"
+     ],
+     "answer": 2,
+     "ja": "私は日本人です。",
+     "explain": "「〜人」は người。"
+    },
+    {
+     "q": "Chị là người nước ___?",
+     "choices": [
+      "ai",
+      "nào",
+      "mấy",
+      "gì"
+     ],
+     "answer": 1,
+     "ja": "あなたはどこの国の人ですか？",
+     "explain": "「どの国」は nước nào。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-07",
+   "title": "「〜語」の言い方（tiếng + 国）",
+   "pattern": "tiếng + Việt・Nhật・Anh",
+   "explain": "言語は tiếng ＋ 国名。「話す」は nói、「勉強する」は học。",
+   "examples": [
+    {
+     "vi": "Tôi học tiếng Việt.",
+     "ja": "ベトナム語を勉強しています。"
+    },
+    {
+     "vi": "Anh ấy nói tiếng Anh.",
+     "ja": "彼は英語を話します。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Tôi nói ___ Nhật.",
+     "choices": [
+      "người",
+      "nước",
+      "tiếng",
+      "tên"
+     ],
+     "answer": 2,
+     "ja": "日本語を話します。",
+     "explain": "言語は tiếng。"
+    },
+    {
+     "q": "Bạn có nói tiếng ___ không?",
+     "choices": [
+      "Anh",
+      "tên",
+      "nước",
+      "người Anh"
+     ],
+     "answer": 0,
+     "ja": "英語を話しますか？",
+     "explain": "英語は tiếng Anh。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-08",
+   "title": "元気ですか？（... có khỏe không?）",
+   "pattern": "相手 + có khỏe không? / Tôi khỏe, cảm ơn.",
+   "explain": "会ったときの決まり文句。答えは Tôi khỏe（元気です）、cảm ơn（ありがとう）をつけると丁寧です。",
+   "examples": [
+    {
+     "vi": "Anh có khỏe không?",
+     "ja": "お元気ですか？"
+    },
+    {
+     "vi": "Tôi khỏe, cảm ơn. Còn anh?",
+     "ja": "元気です、ありがとう。あなたは？"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chị có ___ không?",
+     "choices": [
+      "khỏe",
+      "tên",
+      "người",
+      "tuổi"
+     ],
+     "answer": 0,
+     "ja": "お元気ですか？",
+     "explain": "có khỏe không＝元気ですか。"
+    },
+    {
+     "q": "Tôi khỏe, ___ ơn.",
+     "choices": [
+      "xin",
+      "cảm",
+      "tạm",
+      "chúc"
+     ],
+     "answer": 1,
+     "ja": "元気です、ありがとう。",
+     "explain": "ありがとう＝cảm ơn。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-09",
+   "title": "ありがとう／どういたしまして",
+   "pattern": "Cảm ơn (+ 相手). / Không có gì.",
+   "explain": "お礼は Cảm ơn。相手の呼び方をつけると丁寧です（Cảm ơn chị）。返事は Không có gì（どういたしまして）。",
+   "examples": [
+    {
+     "vi": "Cảm ơn anh nhiều.",
+     "ja": "どうもありがとうございます。"
+    },
+    {
+     "vi": "Không có gì.",
+     "ja": "どういたしまして。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Cảm ___ chị!",
+     "choices": [
+      "chào",
+      "mời",
+      "lỗi",
+      "ơn"
+     ],
+     "answer": 3,
+     "ja": "ありがとうございます！",
+     "explain": "cảm ơn。"
+    },
+    {
+     "q": "「どういたしまして」は Không có ___.",
+     "choices": [
+      "ai",
+      "nào",
+      "đâu",
+      "gì"
+     ],
+     "answer": 3,
+     "ja": "どういたしまして。",
+     "explain": "Không có gì。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-10",
+   "title": "すみません／大丈夫です",
+   "pattern": "Xin lỗi. / Không sao.",
+   "explain": "Xin lỗi は「ごめんなさい」と、人に声をかける「すみません」の両方に使います。返事は Không sao（大丈夫）。",
+   "examples": [
+    {
+     "vi": "Xin lỗi, tôi đến muộn.",
+     "ja": "すみません、遅れました。"
+    },
+    {
+     "vi": "Không sao đâu.",
+     "ja": "大丈夫ですよ。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Xin ___, nhà vệ sinh ở đâu?",
+     "choices": [
+      "ơn",
+      "lỗi",
+      "chào",
+      "mời"
+     ],
+     "answer": 1,
+     "ja": "すみません、トイレはどこですか？",
+     "explain": "呼びかけの「すみません」も xin lỗi。"
+    },
+    {
+     "q": "Không ___, bạn đừng lo.",
+     "choices": [
+      "sao",
+      "ai",
+      "gì",
+      "nào"
+     ],
+     "answer": 0,
+     "ja": "大丈夫、心配しないで。",
+     "explain": "Không sao＝大丈夫。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-11",
+   "title": "はい・いいえ（Vâng / Dạ / Không）",
+   "pattern": "Vâng・Dạ（はい）/ Không（いいえ）",
+   "explain": "「はい」は Vâng（北部）や Dạ（丁寧・目上に）。「いいえ」は Không。",
+   "examples": [
+    {
+     "vi": "Dạ, em hiểu rồi.",
+     "ja": "はい、わかりました。"
+    },
+    {
+     "vi": "Không, tôi không phải là sinh viên.",
+     "ja": "いいえ、私は学生ではありません。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "（先生に）___, em cảm ơn cô.",
+     "choices": [
+      "Không",
+      "Xin",
+      "Chào",
+      "Dạ"
+     ],
+     "answer": 3,
+     "ja": "はい、先生ありがとうございます。",
+     "explain": "目上への「はい」は Dạ。"
+    },
+    {
+     "q": "___, tôi không biết.",
+     "choices": [
+      "Dạ",
+      "Cảm ơn",
+      "Vâng",
+      "Không"
+     ],
+     "answer": 3,
+     "ja": "いいえ、知りません。",
+     "explain": "「いいえ」は Không。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-12",
+   "title": "数字 0〜10",
+   "pattern": "không, một, hai, ba, bốn, năm, sáu, bảy, tám, chín, mười",
+   "explain": "まず0〜10を覚えましょう。電話番号などは数字を1つずつ読みます。",
+   "examples": [
+    {
+     "vi": "một, hai, ba",
+     "ja": "1、2、3"
+    },
+    {
+     "vi": "Số điện thoại của tôi là không chín không...",
+     "ja": "私の電話番号は090…です。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "3 は ___ と言います。",
+     "choices": [
+      "bốn",
+      "ba",
+      "tám",
+      "bảy"
+     ],
+     "answer": 1,
+     "ja": "3＝ba",
+     "explain": "1 một・2 hai・3 ba。"
+    },
+    {
+     "q": "10 は ___ と言います。",
+     "choices": [
+      "chín",
+      "mười",
+      "năm",
+      "một"
+     ],
+     "answer": 1,
+     "ja": "10＝mười",
+     "explain": "10 は mười。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-13",
+   "title": "数字 11〜100",
+   "pattern": "mười một（11）/ hai mươi（20）/ một trăm（100）",
+   "explain": "11〜19は mười＋数。20以上の十の位は「数＋mươi」（声調が変わります）。100は một trăm。",
+   "examples": [
+    {
+     "vi": "mười hai",
+     "ja": "12"
+    },
+    {
+     "vi": "ba mươi",
+     "ja": "30"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "12 は mười ___ と言います。",
+     "choices": [
+      "mốt",
+      "mươi",
+      "ba",
+      "hai"
+     ],
+     "answer": 3,
+     "ja": "12＝mười hai",
+     "explain": "mười＋hai。"
+    },
+    {
+     "q": "40 は bốn ___ と言います。",
+     "choices": [
+      "nghìn",
+      "mươi",
+      "mười",
+      "trăm"
+     ],
+     "answer": 1,
+     "ja": "40＝bốn mươi",
+     "explain": "20以上の十の位は mươi。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-14",
+   "title": "何歳ですか？（bao nhiêu tuổi）",
+   "pattern": "相手 + bao nhiêu tuổi? / Tôi + 数 + tuổi.",
+   "explain": "年齢は「数＋tuổi」。子どもには mấy tuổi?（いくつ？）も使います。",
+   "examples": [
+    {
+     "vi": "Anh bao nhiêu tuổi?",
+     "ja": "何歳ですか？"
+    },
+    {
+     "vi": "Tôi hai mươi lăm tuổi.",
+     "ja": "25歳です。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chị bao nhiêu ___?",
+     "choices": [
+      "tuổi",
+      "người",
+      "tiền",
+      "giờ"
+     ],
+     "answer": 0,
+     "ja": "何歳ですか？",
+     "explain": "年齢は tuổi。"
+    },
+    {
+     "q": "Em ___ tuổi?",
+     "choices": [
+      "ai",
+      "đâu",
+      "mấy",
+      "gì"
+     ],
+     "answer": 2,
+     "ja": "（子どもに）いくつ？",
+     "explain": "子どもには mấy tuổi。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-15",
+   "title": "これ・それ・あれ（đây / đó / kia）",
+   "pattern": "Đây là ... / Đó là ... / Kia là ...",
+   "explain": "近くの物や人は đây、少し離れたものは đó、遠くのものは kia。人を紹介するときにも使います。",
+   "examples": [
+    {
+     "vi": "Đây là bạn tôi.",
+     "ja": "こちらは私の友達です。"
+    },
+    {
+     "vi": "Kia là trường học.",
+     "ja": "あれは学校です。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ là mẹ tôi.",
+     "choices": [
+      "Đâu",
+      "Đây",
+      "Ai",
+      "Gì"
+     ],
+     "answer": 1,
+     "ja": "こちらは私の母です。",
+     "explain": "近くの人を紹介するときは đây。"
+    },
+    {
+     "q": "（遠くを指して）___ là núi Phú Sĩ.",
+     "choices": [
+      "Này",
+      "Kia",
+      "Nào",
+      "Đây"
+     ],
+     "answer": 1,
+     "ja": "あれは富士山です。",
+     "explain": "遠くのものは kia。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-16",
+   "title": "これは何ですか？（... là cái gì?）",
+   "pattern": "Đây là cái gì? / Đây là + 物.",
+   "explain": "物の名前を聞く表現。答えは「Đây là ＋物」。",
+   "examples": [
+    {
+     "vi": "Đây là cái gì?",
+     "ja": "これは何ですか？"
+    },
+    {
+     "vi": "Đây là cái bút.",
+     "ja": "これはペンです。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Đó là cái ___?",
+     "choices": [
+      "nào",
+      "ai",
+      "đâu",
+      "gì"
+     ],
+     "answer": 3,
+     "ja": "それは何ですか？",
+     "explain": "「何」は gì。"
+    },
+    {
+     "q": "Đây là ___ ghế.",
+     "choices": [
+      "quyển",
+      "người",
+      "cái",
+      "con"
+     ],
+     "answer": 2,
+     "ja": "これはいすです。",
+     "explain": "物には cái をつけます。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-17",
+   "title": "あります／ありません（có / không có）",
+   "pattern": "主語 + có + 名詞 / 主語 + không có + 名詞",
+   "explain": "「持っている・ある」は có、否定は không có。",
+   "examples": [
+    {
+     "vi": "Tôi có một con mèo.",
+     "ja": "猫を1匹飼っています。"
+    },
+    {
+     "vi": "Tôi không có xe máy.",
+     "ja": "バイクを持っていません。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Tôi ___ hai anh trai.",
+     "choices": [
+      "ở",
+      "có",
+      "là",
+      "đi"
+     ],
+     "answer": 1,
+     "ja": "兄が2人います。",
+     "explain": "「いる・持っている」は có。"
+    },
+    {
+     "q": "Tôi ___ có tiền.",
+     "choices": [
+      "chưa là",
+      "đừng",
+      "không",
+      "không phải"
+     ],
+     "answer": 2,
+     "ja": "お金がありません。",
+     "explain": "否定は không có。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-18",
+   "title": "どこですか？（... ở đâu?）",
+   "pattern": "物・場所 + ở đâu? / ... ở + 場所.",
+   "explain": "場所を聞くときは ở đâu?。答えは「ở＋場所」。",
+   "examples": [
+    {
+     "vi": "Nhà vệ sinh ở đâu?",
+     "ja": "トイレはどこですか？"
+    },
+    {
+     "vi": "Nhà tôi ở Hà Nội.",
+     "ja": "私の家はハノイにあります。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Bưu điện ở ___?",
+     "choices": [
+      "mấy",
+      "gì",
+      "ai",
+      "đâu"
+     ],
+     "answer": 3,
+     "ja": "郵便局はどこですか？",
+     "explain": "「どこ」は đâu。"
+    },
+    {
+     "q": "Tôi sống ___ Tokyo.",
+     "choices": [
+      "đi",
+      "có",
+      "là",
+      "ở"
+     ],
+     "answer": 3,
+     "ja": "東京に住んでいます。",
+     "explain": "場所の前は ở。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-19",
+   "title": "色の言い方（màu + 色）",
+   "pattern": "màu + đỏ・trắng・đen・xanh・vàng",
+   "explain": "色は màu ＋ 色の名前。「何色？」は màu gì?。",
+   "examples": [
+    {
+     "vi": "Áo này màu đỏ.",
+     "ja": "この服は赤です。"
+    },
+    {
+     "vi": "Bạn thích màu gì?",
+     "ja": "何色が好きですか？"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Quả chuối màu ___.",
+     "choices": [
+      "đen",
+      "vàng",
+      "đỏ",
+      "trắng"
+     ],
+     "answer": 1,
+     "ja": "バナナは黄色です。",
+     "explain": "黄色＝vàng。"
+    },
+    {
+     "q": "Bạn thích ___ gì?",
+     "choices": [
+      "màu",
+      "cái",
+      "người",
+      "tiếng"
+     ],
+     "answer": 0,
+     "ja": "何色が好きですか？",
+     "explain": "色は màu。"
+    }
+   ]
+  },
+  {
+   "id": "gp6-20",
+   "title": "どうぞ・お願いします（Xin mời / Làm ơn / Cho tôi）",
+   "pattern": "Xin mời + 動詞 / Làm ơn + 動詞 / Cho tôi + 物",
+   "explain": "Xin mời は「どうぞ〜してください」とすすめる言葉。Làm ơn は「どうか〜してください」とお願いする言葉。注文や買い物では Cho tôi ...（〜をください）。",
+   "examples": [
+    {
+     "vi": "Xin mời ngồi.",
+     "ja": "どうぞお座りください。"
+    },
+    {
+     "vi": "Cho tôi một cốc cà phê.",
+     "ja": "コーヒーを1杯ください。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Xin ___ vào.",
+     "choices": [
+      "lỗi",
+      "chào",
+      "ơn",
+      "mời"
+     ],
+     "answer": 3,
+     "ja": "どうぞお入りください。",
+     "explain": "すすめるときは xin mời。"
+    },
+    {
+     "q": "___ tôi một bát phở.",
+     "choices": [
+      "Có",
+      "Làm",
+      "Mời",
+      "Cho"
+     ],
+     "answer": 3,
+     "ja": "フォーを1杯ください。",
+     "explain": "「〜をください」は Cho tôi。"
+    }
+   ]
+  }
+ ]
+}

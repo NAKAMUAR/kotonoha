@@ -1,0 +1,325 @@
+{
+ "level": 6,
+ "passages": [
+  {
+   "id": "rp6-01",
+   "title": "Xin chào!",
+   "titleJa": "こんにちは！",
+   "text": "Xin chào. Tôi tên là Sato. Tôi là người Nhật.\nTôi là sinh viên. Tôi học tiếng Việt. Rất vui được gặp các bạn.",
+   "ja": "こんにちは。私の名前は佐藤です。私は日本人です。\n私は大学生です。ベトナム語を勉強しています。皆さんにお会いできてうれしいです。",
+   "vocab": [
+    {
+     "vi": "sinh viên",
+     "ja": "大学生"
+    },
+    {
+     "vi": "rất vui được gặp",
+     "ja": "お会いできてうれしい"
+    }
+   ],
+   "questions": [
+    {
+     "q": "佐藤さんはどこの国の人ですか。",
+     "choices": [
+      "韓国",
+      "日本",
+      "ベトナム",
+      "中国"
+     ],
+     "answer": 1,
+     "explain": "Tôi là người Nhật とあります。"
+    },
+    {
+     "q": "佐藤さんは何を勉強していますか。",
+     "choices": [
+      "ベトナム語",
+      "英語",
+      "数学",
+      "日本語"
+     ],
+     "answer": 0,
+     "explain": "Tôi học tiếng Việt とあります。"
+    },
+    {
+     "q": "佐藤さんの仕事・身分はどれですか。",
+     "choices": [
+      "会社員",
+      "先生",
+      "医者",
+      "大学生"
+     ],
+     "answer": 3,
+     "explain": "sinh viên は大学生です。"
+    }
+   ]
+  },
+  {
+   "id": "rp6-02",
+   "title": "Gia đình tôi",
+   "titleJa": "私の家族",
+   "text": "Gia đình tôi có bốn người: bố, mẹ, em gái và tôi.\nBố tôi là bác sĩ. Mẹ tôi là giáo viên. Em gái tôi mười tuổi.",
+   "ja": "私の家族は4人です。父、母、妹、そして私です。\n父は医者です。母は教師です。妹は10歳です。",
+   "vocab": [
+    {
+     "vi": "gia đình",
+     "ja": "家族"
+    },
+    {
+     "vi": "em gái",
+     "ja": "妹"
+    }
+   ],
+   "questions": [
+    {
+     "q": "家族は何人ですか。",
+     "choices": [
+      "5人",
+      "10人",
+      "4人",
+      "3人"
+     ],
+     "answer": 2,
+     "explain": "có bốn người とあります。"
+    },
+    {
+     "q": "お父さんの仕事は何ですか。",
+     "choices": [
+      "医者",
+      "会社員",
+      "学生",
+      "教師"
+     ],
+     "answer": 0,
+     "explain": "Bố tôi là bác sĩ とあります。"
+    },
+    {
+     "q": "妹は何歳ですか。",
+     "choices": [
+      "8歳",
+      "4歳",
+      "12歳",
+      "10歳"
+     ],
+     "answer": 3,
+     "explain": "Em gái tôi mười tuổi。mười＝10。"
+    }
+   ]
+  },
+  {
+   "id": "rp6-03",
+   "title": "Ở quán cà phê",
+   "titleJa": "カフェで",
+   "text": "A: Xin chào. Chị uống gì ạ?\nB: Cho tôi một cốc cà phê sữa đá.\nA: Dạ. Ba mươi nghìn đồng ạ.\nB: Đây. Cảm ơn em.",
+   "ja": "A：いらっしゃいませ。何を飲まれますか？\nB：アイスミルクコーヒーを1杯ください。\nA：はい。3万ドンです。\nB：はい、どうぞ。ありがとう。",
+   "vocab": [
+    {
+     "vi": "cốc",
+     "ja": "カップ、杯"
+    },
+    {
+     "vi": "sữa đá",
+     "ja": "練乳と氷"
+    }
+   ],
+   "questions": [
+    {
+     "q": "B さんは何を注文しましたか。",
+     "choices": [
+      "ビール",
+      "アイスミルクコーヒー",
+      "水",
+      "お茶"
+     ],
+     "answer": 1,
+     "explain": "cà phê sữa đá とあります。"
+    },
+    {
+     "q": "いくらですか。",
+     "choices": [
+      "3千ドン",
+      "1万3千ドン",
+      "3万ドン",
+      "30万ドン"
+     ],
+     "answer": 2,
+     "explain": "ba mươi nghìn＝3万。"
+    },
+    {
+     "q": "最後に B さんは何と言いましたか。",
+     "choices": [
+      "さようなら",
+      "ありがとう",
+      "どういたしまして",
+      "ごめんなさい"
+     ],
+     "answer": 1,
+     "explain": "Cảm ơn＝ありがとう。"
+    }
+   ]
+  },
+  {
+   "id": "rp6-04",
+   "title": "Cái này là cái gì?",
+   "titleJa": "これは何ですか？",
+   "text": "A: Đây là cái gì?\nB: Đây là cái bút. Bút của tôi.\nA: Bút màu gì?\nB: Bút màu đỏ.",
+   "ja": "A：これは何ですか？\nB：これはペンです。私のペンです。\nA：ペンは何色ですか？\nB：赤いペンです。",
+   "vocab": [
+    {
+     "vi": "cái bút",
+     "ja": "ペン"
+    },
+    {
+     "vi": "của tôi",
+     "ja": "私の"
+    }
+   ],
+   "questions": [
+    {
+     "q": "これは何ですか。",
+     "choices": [
+      "本",
+      "ペン",
+      "いす",
+      "かばん"
+     ],
+     "answer": 1,
+     "explain": "cái bút＝ペン。"
+    },
+    {
+     "q": "だれの物ですか。",
+     "choices": [
+      "A さん",
+      "先生",
+      "友達",
+      "B さん"
+     ],
+     "answer": 3,
+     "explain": "Bút của tôi（私のペン）と B さんが言っています。"
+    },
+    {
+     "q": "何色ですか。",
+     "choices": [
+      "黒",
+      "白",
+      "赤",
+      "黄色"
+     ],
+     "answer": 2,
+     "explain": "màu đỏ＝赤。"
+    }
+   ]
+  },
+  {
+   "id": "rp6-05",
+   "title": "Bạn sống ở đâu?",
+   "titleJa": "どこに住んでいますか？",
+   "text": "A: Bạn sống ở đâu?\nB: Tôi sống ở Hà Nội. Còn bạn?\nA: Tôi sống ở Tokyo. Tokyo xa Hà Nội lắm.\nB: Vâng. Nhưng đi máy bay chỉ sáu tiếng thôi.",
+   "ja": "A：どこに住んでいますか？\nB：ハノイに住んでいます。あなたは？\nA：東京に住んでいます。東京はハノイからとても遠いです。\nB：はい。でも飛行機ならたった6時間です。",
+   "vocab": [
+    {
+     "vi": "sống",
+     "ja": "住む"
+    },
+    {
+     "vi": "xa",
+     "ja": "遠い"
+    },
+    {
+     "vi": "tiếng",
+     "ja": "〜時間"
+    }
+   ],
+   "questions": [
+    {
+     "q": "B さんはどこに住んでいますか。",
+     "choices": [
+      "フエ",
+      "東京",
+      "大阪",
+      "ハノイ"
+     ],
+     "answer": 3,
+     "explain": "Tôi sống ở Hà Nội とあります。"
+    },
+    {
+     "q": "A さんは東京とハノイについて何と言っていますか。",
+     "choices": [
+      "近い",
+      "遠い",
+      "暑い",
+      "同じ"
+     ],
+     "answer": 1,
+     "explain": "xa＝遠い。"
+    },
+    {
+     "q": "飛行機で何時間かかりますか。",
+     "choices": [
+      "3時間",
+      "16時間",
+      "10時間",
+      "6時間"
+     ],
+     "answer": 3,
+     "explain": "sáu tiếng＝6時間。"
+    }
+   ]
+  },
+  {
+   "id": "rp6-06",
+   "title": "Hôm nay trời đẹp",
+   "titleJa": "今日はいい天気",
+   "text": "Hôm nay là chủ nhật. Trời nắng và đẹp.\nTôi và bạn tôi đi công viên. Chúng tôi ăn kem và chụp ảnh. Tôi rất vui.",
+   "ja": "今日は日曜日です。晴れていて、いい天気です。\n私と友達は公園に行きます。私たちはアイスクリームを食べて写真を撮ります。私はとても楽しいです。",
+   "vocab": [
+    {
+     "vi": "chủ nhật",
+     "ja": "日曜日"
+    },
+    {
+     "vi": "nắng",
+     "ja": "晴れる"
+    },
+    {
+     "vi": "chụp ảnh",
+     "ja": "写真を撮る"
+    }
+   ],
+   "questions": [
+    {
+     "q": "今日は何曜日ですか。",
+     "choices": [
+      "日曜日",
+      "土曜日",
+      "金曜日",
+      "月曜日"
+     ],
+     "answer": 0,
+     "explain": "chủ nhật＝日曜日。"
+    },
+    {
+     "q": "今日の天気はどうですか。",
+     "choices": [
+      "雨",
+      "晴れ",
+      "雪",
+      "寒い"
+     ],
+     "answer": 1,
+     "explain": "Trời nắng＝晴れている。"
+    },
+    {
+     "q": "公園で何をしましたか。",
+     "choices": [
+      "本を読んだ",
+      "サッカーをした",
+      "ご飯を作った",
+      "アイスを食べて写真を撮った"
+     ],
+     "answer": 3,
+     "explain": "ăn kem và chụp ảnh とあります。"
+    }
+   ]
+  }
+ ]
+}

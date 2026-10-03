@@ -3,20 +3,22 @@
 //
 // 級ごとに 3 つの練習:
 //   単語 … 単語帳（SRS）の各級デッキへ案内
-//   文法 … data/vi-grammar-{n}kyu.json  文型の説明・例文・確認問題
-//   長文 … data/vi-reading-{n}kyu.json  読解文・設問・全訳
+//   文法 … data/vi-grammar-{slug}.json  文型の説明・例文・確認問題（slug は 5kyu, pre6kyu など）
+//   長文 … data/vi-reading-{slug}.json  読解文・設問・全訳
 //
 // 文法・長文の練習記録はこの端末（localStorage）に保存する。
 // =====================================================================
 
 import { speak, speakDialogue, stopSpeaking, SpeechSupport } from './scenarios.js';
 
+// n は画面内の識別用の数値（準6級は 6）。slug はデータファイル名に使う。
 export const KENTEI_LEVELS = Object.freeze([
-  { n: 5, deck: 'vi5kyu', label: '5級', desc: '入門〜初級。あいさつ・数字・家族・買い物など、身の回りの簡単な表現。' },
-  { n: 4, deck: 'vi4kyu', label: '4級', desc: '初級。日常生活の基本的な会話と、短い文章の読み取り。問題文はベトナム語。' },
-  { n: 3, deck: 'vi3kyu', label: '3級', desc: '中級。仕事・旅行・社会生活の話題。新聞の易しい記事程度の文章。' },
-  { n: 2, deck: 'vi2kyu', label: '2級', desc: '中上級。社会・経済・文化の幅広い話題。論理的な文章の読解。' },
-  { n: 1, deck: 'vi1kyu', label: '1級', desc: '上級（通訳レベル）。専門的・抽象的な話題、成語や硬い書き言葉。' },
+  { n: 6, slug: 'pre6kyu', deck: 'vipre6kyu', label: '準6級', desc: 'はじめの一歩。文字と声調、あいさつ、数字、自己紹介など、ごく基本的な表現。' },
+  { n: 5, slug: '5kyu', deck: 'vi5kyu', label: '5級', desc: '入門〜初級。あいさつ・数字・家族・買い物など、身の回りの簡単な表現。' },
+  { n: 4, slug: '4kyu', deck: 'vi4kyu', label: '4級', desc: '初級。日常生活の基本的な会話と、短い文章の読み取り。問題文はベトナム語。' },
+  { n: 3, slug: '3kyu', deck: 'vi3kyu', label: '3級', desc: '中級。仕事・旅行・社会生活の話題。新聞の易しい記事程度の文章。' },
+  { n: 2, slug: '2kyu', deck: 'vi2kyu', label: '2級', desc: '中上級。社会・経済・文化の幅広い話題。論理的な文章の読解。' },
+  { n: 1, slug: '1kyu', deck: 'vi1kyu', label: '1級', desc: '上級（通訳レベル）。専門的・抽象的な話題、成語や硬い書き言葉。' },
 ]);
 
 const GRAMMAR_KEY = 'kotonoha.vik.grammar'; // { pointId: true }（確認問題を全問正解）
@@ -51,10 +53,10 @@ async function fetchLevel(kind, n) {
   if (cache.has(n)) return cache.get(n);
   let data = null;
   try {
-    const res = await fetch(`./data/vi-${kind}-${n}kyu.json`);
+    const res = await fetch(`./data/vi-${kind}-${levelInfo(n).slug}.json`);
     if (res.ok) data = await res.json();
   } catch (err) {
-    console.warn(`vi-kentei ${kind} ${n}kyu load failed:`, err);
+    console.warn(`vi-kentei ${kind} ${levelInfo(n).slug} load failed:`, err);
   }
   cache.set(n, data);
   return data;
@@ -170,8 +172,10 @@ function onGrammarChoice(btn) {
   const fb = quizEl.querySelector('.vk-feedback');
   fb.classList.remove('hidden');
   fb.innerHTML = `${ok ? '<b class="text-koke">◎ 正解</b>' : '<b class="text-shu">✕ 不正解</b>'}　${esc(q.explain ?? '')}`;
-  // 空欄（___）のある問題だけ、正解を入れた文を読み上げる
-  if (SpeechSupport.tts && /_{3}/.test(q.q)) speak(q.q.replace(/_{3,}/g, q.choices[q.answer]), 'vi');
+  // 正解を入れたベトナム語の文だけ読み上げる（日本語を含む問題文はベトナム語の声で読めないので除く）
+  if (SpeechSupport.tts && /_{3}/.test(q.q) && !/[\u3040-\u30ff\u4e00-\u9fff]/.test(q.q)) {
+    speak(q.q.replace(/_{3,}/g, q.choices[q.answer]), 'vi');
+  }
 
   const all = [...pointEl.querySelectorAll('.vk-quiz')];
   if (all.every((el) => el.dataset.answered)) {
@@ -325,7 +329,9 @@ export function initKentei(hooks = {}) {
     if (read) {
       const p = vk.reading.get(vk.level)?.passages.find((x) => x.id === vk.openPassage);
       // 長い文を一度に渡すと途中で止まるブラウザがあるので、1文ずつ読み上げる
-      const sentences = (p?.text ?? '').split(/(?<=[.!?…])\s+|\n+/).map((x) => x.trim()).filter(Boolean);
+      // 会話文の話者ラベル（「A:」など）は読み上げない
+      const sentences = (p?.text ?? '').split(/(?<=[.!?…])\s+|\n+/)
+        .map((x) => x.trim().replace(/^[A-Z]{1,2}\s*[:：]\s*/, '')).filter(Boolean);
       if (sentences.length) speakDialogue(sentences.map((x) => ({ vi: x })), 'vi', { rate: Number(read.dataset.vkRead) * 0.9, gapMs: 200 });
       return;
     }
