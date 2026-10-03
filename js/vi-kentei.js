@@ -30,7 +30,9 @@ const vk = {
   grammar: new Map(),  // n → data | null
   reading: new Map(),
   openPassage: null,
-  hooks: { showToast: () => {}, openDeck: () => {}, deckTotal: async () => 0 },
+  words:   new Map(),  // deck → 単語の配列（一覧表示用）
+  wl:      { q: '', cat: '', shown: 0 },  // 単語一覧の検索語・分類・表示件数
+  hooks: { showToast: () => {}, openDeck: () => {}, deckWords: async () => [] },
 };
 
 // ---------- 保存 ----------
@@ -102,17 +104,117 @@ async function render() {
 
 // ---------- 単語 ----------
 
+// 単語データの分類タグ → 日本語の表示名
+const TAG_LABELS = {
+  greeting: 'あいさつ', phrase: '決まり文句・表現', basic: '基本語', person: '人・呼び方', people: '人', pronoun: '代名詞',
+  family: '家族', number: '数', measure: '単位・数量', money: 'お金', color: '色', country: '国・言葉',
+  verb: '動詞', general_verbs: '動詞', action: '動作', adj: '形容詞', adjective: '形容詞', general_adjectives: '形容詞',
+  adverb: '副詞', general_adverbs: '副詞', connector: '接続の言葉', grammar: '文法語', classifier: '類別詞',
+  demonstrative: '指示語', question: '疑問詞', position: '位置', time: '時間', weather: '天気',
+  food: '食べ物', drink: '飲み物', fruit: '果物', vegetable: '野菜', cooking: '料理',
+  place: '場所', city: '都市', urban: '都市', house: 'すまい', household: '家庭用品', thing: '身の回りの物', tool: '道具',
+  clothes: '服', fashion: 'ファッション', beauty: '美容', body: '体', health: '健康・医療', mental: '心の健康',
+  school: '学校', education: '教育', academic: '学術', science: '科学', tech: 'IT・技術', it: 'IT', it_advanced: 'IT（上級）',
+  work: '仕事', job: '職業', occupation: '職業', office: 'オフィス', business: 'ビジネス', hr: '人事',
+  sales: '営業・販売', retail: '小売', service: 'サービス', shopping: '買い物', trade: '貿易', finance: '金融',
+  economy: '経済', industry: '産業', manufacturing: '製造', manufacturing_advanced: '製造（上級）', quality: '品質管理',
+  construction: '建設', construction_advanced: '建設（上級）', material: '素材', agriculture: '農業',
+  transport: '交通', traffic: '交通', travel: '旅行', travel_extended: '旅行（応用）',
+  hobby: '趣味', sports: 'スポーツ', sport: 'スポーツ', sports_hobbies: 'スポーツ・趣味', music: '音楽', entertainment: '娯楽',
+  art: '芸術', art_culture: '芸術・文化', craft: '工芸', culture: '文化', festival: '祭り・行事', literature: '文学', literary: '文学的表現',
+  nature: '自然', animal: '動物', plant: '植物', environment: '環境', disaster: '災害', geography: '地理',
+  feeling: '気持ち', emotion: '感情', character: '性格', describe: '様子・性質', perception: '感覚',
+  life: '生活', daily: '日常', personal: '個人', social: '人付き合い', relation: '人間関係', communication: 'コミュニケーション', gesture: 'しぐさ',
+  society: '社会', politics: '政治', government: '行政', law: '法律', legal: '法律', history: '歴史', belief: '信仰・価値観', value: '価値観',
+  media: '報道・メディア', formal: '書き言葉', abstract: '抽象語', idiom: '成語・ことわざ', trouble: 'トラブル', general: '一般',
+};
+const tagLabel = (t) => TAG_LABELS[t] ?? t;
+const WL_PAGE = 100;
+
+// 読み上げ用：（…）の補足や「...」を除く
+const speakable = (w) => String(w ?? '').replace(/\s*[（(][^）)]*[）)]/g, '').replace(/\.{3}|…/g, ' ').trim();
+
+async function levelWords(deck) {
+  if (!vk.words.has(deck)) vk.words.set(deck, await vk.hooks.deckWords(deck));
+  return vk.words.get(deck);
+}
+
 async function renderVocab(body) {
   const info  = levelInfo(vk.level);
-  const total = await vk.hooks.deckTotal(info.deck);
+  const words = await levelWords(info.deck);
+  if (!words.length) {
+    body.innerHTML = `<div class="card"><h3 class="card-title">${esc(info.label)}の単語</h3>
+      <p class="text-sm text-sumi-light mt-3">この級の単語は準備中です。</p></div>`;
+    return;
+  }
+  const cats = new Map();
+  for (const w of words) {
+    const t = w.tags?.[1];
+    if (t) cats.set(tagLabel(t), (cats.get(tagLabel(t)) ?? 0) + 1);
+  }
+  const catOpts = [...cats].sort((a, b) => b[1] - a[1])
+    .map(([label, n]) => `<option value="${esc(label)}">${esc(label)}（${n}）</option>`).join('');
+  vk.wl.shown = WL_PAGE;
   body.innerHTML = `
     <div class="card">
       <h3 class="card-title">${esc(info.label)}の単語</h3>
-      ${total > 0
-        ? `<p class="text-sm text-sumi-light mt-3">${total.toLocaleString()} 語。単語帳（間隔反復 SRS）で、忘れかけた頃に自動で復習できます。カードの🔊で発音も聞けます。</p>
-           <button class="btn-primary w-full mt-4" data-vk-open-deck="${esc(info.deck)}">単語帳で ${esc(info.label)} を学習する</button>`
-        : '<p class="text-sm text-sumi-light mt-3">この級の単語は準備中です。</p>'}
+      <p class="text-sm text-sumi-light mt-3">${words.length.toLocaleString()} 語。下の一覧で確認できます。単語帳（間隔反復 SRS）なら、忘れかけた頃に自動で復習できます。</p>
+      <button class="btn-primary w-full mt-4" data-vk-open-deck="${esc(info.deck)}">単語帳で ${esc(info.label)} を学習する</button>
+    </div>
+    <div class="card mt-4">
+      <div class="vk-wl-tools">
+        <input id="vk-wl-q" type="search" class="vk-wl-search" placeholder="検索（ベトナム語・日本語）" value="${esc(vk.wl.q)}">
+        <select id="vk-wl-cat" class="vk-wl-select">
+          <option value="">すべての分類（${words.length}）</option>${catOpts}
+        </select>
+      </div>
+      <div id="vk-wl-count" class="text-xs text-sumi-soft mt-2"></div>
+      <ul id="vk-wl-list" class="vk-wl"></ul>
+      <button id="vk-wl-more" class="btn-secondary w-full mt-3 hidden" data-vk-wl-more="1"></button>
     </div>`;
+  const sel = document.getElementById('vk-wl-cat');
+  if ([...sel.options].some((o) => o.value === vk.wl.cat)) sel.value = vk.wl.cat; else vk.wl.cat = '';
+  renderWordList();
+}
+
+// 声調記号を外して比べる（「pho」で「phở」も見つかるように）
+const fold = (t) => String(t ?? '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
+
+function renderWordList() {
+  const list = document.getElementById('vk-wl-list');
+  if (!list) return;
+  const words = vk.words.get(levelInfo(vk.level).deck) ?? [];
+  const q = fold(vk.wl.q.trim());
+  const hits = words.filter((w) =>
+    (!vk.wl.cat || tagLabel(w.tags?.[1]) === vk.wl.cat) &&
+    (!q || fold(w.word).includes(q) || fold(w.meaning).includes(q) || String(w.reading ?? '').includes(vk.wl.q.trim())));
+  // 検索中は「完全一致 → 前方一致 → その他」の順に並べる
+  if (q) {
+    const rank = (w) => { const f = fold(speakable(w.word)); return f === q ? 0 : f.startsWith(q) ? 1 : 2; };
+    hits.sort((x, y) => rank(x) - rank(y));
+  }
+  const shown = hits.slice(0, vk.wl.shown);
+  document.getElementById('vk-wl-count').textContent =
+    hits.length ? `${hits.length.toLocaleString()} 語${hits.length > shown.length ? `（うち ${shown.length} 語を表示）` : ''}・語をタップすると例文が見られます` : '該当する単語がありません';
+  list.innerHTML = shown.map((w) => `
+    <li class="vk-wl-row">
+      ${sayBtn(speakable(w.word))}
+      <details class="vk-wl-item">
+        <summary>
+          <span class="vk-wl-vi">${esc(w.word)}</span>
+          <span class="vk-wl-read">${esc(w.reading)}</span>
+          <span class="vk-wl-ja">${esc(w.meaning)}</span>
+        </summary>
+        ${w.example ? `<div class="vk-wl-ex">
+          <div class="vk-vi">${esc(w.example)} ${sayBtn(w.example)}</div>
+          <div class="vk-ja">${esc(w.exampleTranslation)}</div>
+        </div>` : ''}
+      </details>
+    </li>`).join('');
+  const more = document.getElementById('vk-wl-more');
+  const rest = hits.length - shown.length;
+  more.classList.toggle('hidden', rest <= 0);
+  more.textContent = `もっと見る（残り ${rest.toLocaleString()} 語）`;
 }
 
 // ---------- 文法 ----------
@@ -294,6 +396,7 @@ export function initKentei(hooks = {}) {
     if (!chip) return;
     vk.level = Number(chip.dataset.vkLevel);
     vk.openPassage = null;
+    vk.wl = { q: '', cat: '', shown: 0 };
     render();
   });
   document.getElementById('vk-mode-tabs')?.addEventListener('click', (e) => {
@@ -304,7 +407,16 @@ export function initKentei(hooks = {}) {
     render();
   });
 
-  document.getElementById('vk-body')?.addEventListener('click', (e) => {
+  const vkBody = document.getElementById('vk-body');
+  vkBody?.addEventListener('input', (e) => {
+    if (e.target.id !== 'vk-wl-q') return;
+    vk.wl.q = e.target.value; vk.wl.shown = WL_PAGE; renderWordList();
+  });
+  vkBody?.addEventListener('change', (e) => {
+    if (e.target.id !== 'vk-wl-cat') return;
+    vk.wl.cat = e.target.value; vk.wl.shown = WL_PAGE; renderWordList();
+  });
+  vkBody?.addEventListener('click', (e) => {
     const t = e.target;
     const say = t.closest('.vk-say');
     if (say) { e.preventDefault(); speak(say.dataset.say, 'vi'); return; }
@@ -320,6 +432,7 @@ export function initKentei(hooks = {}) {
       });
       return;
     }
+    if (t.closest('[data-vk-wl-more]')) { vk.wl.shown += WL_PAGE; renderWordList(); return; }
     const deckBtn = t.closest('[data-vk-open-deck]');
     if (deckBtn) { vk.hooks.openDeck(deckBtn.dataset.vkOpenDeck); return; }
     const item = t.closest('[data-vk-passage]');

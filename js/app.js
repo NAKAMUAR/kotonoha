@@ -1985,11 +1985,11 @@ function bindEvents() {
   initKentei({
     showToast,
     openDeck: (deck) => { vocabState.deck = deck; showScreen('vocabulary'); },
-    deckTotal: async (deck) => {
+    deckWords: async (deck) => {
       try {
         const res = await fetch(getDeck(deck).file('vi'));
-        return res.ok ? (await res.json()).length : 0;
-      } catch { return 0; }
+        return res.ok ? await res.json() : [];
+      } catch { return []; }
     },
   });
 
