@@ -1,0 +1,565 @@
+{
+ "level": 5,
+ "passages": [
+  {
+   "id": "r5-01",
+   "title": "Tự giới thiệu",
+   "titleJa": "自己紹介",
+   "text": "Xin chào. Tôi tên là Yamada Hana. Tôi là người Nhật. Năm nay tôi hai mươi hai tuổi.\nTôi là sinh viên năm thứ tư. Tôi học tiếng Việt ở trường đại học. Tiếng Việt khó nhưng rất thú vị.\nGia đình tôi có bốn người: bố, mẹ, em trai và tôi. Bố tôi là kỹ sư. Mẹ tôi là giáo viên.\nSở thích của tôi là nấu ăn và đi du lịch. Tôi muốn đến Việt Nam vào mùa hè.",
+   "ja": "こんにちは。私の名前は山田花です。私は日本人です。今年22歳です。\n私は大学4年生です。大学でベトナム語を勉強しています。ベトナム語は難しいけれど、とても面白いです。\n私の家族は4人です：父、母、弟、そして私です。父はエンジニアです。母は教師です。\n私の趣味は料理と旅行です。夏にベトナムへ行きたいです。",
+   "vocab": [
+    {
+     "vi": "sinh viên năm thứ tư",
+     "ja": "大学4年生"
+    },
+    {
+     "vi": "thú vị",
+     "ja": "面白い"
+    },
+    {
+     "vi": "sở thích",
+     "ja": "趣味"
+    }
+   ],
+   "questions": [
+    {
+     "q": "花さんは何歳ですか。",
+     "choices": [
+      "20歳",
+      "22歳",
+      "24歳",
+      "4歳"
+     ],
+     "answer": 1,
+     "explain": "Năm nay tôi hai mươi hai tuổi とあります。"
+    },
+    {
+     "q": "花さんの母の職業は何ですか。",
+     "choices": [
+      "エンジニア",
+      "医者",
+      "教師",
+      "学生"
+     ],
+     "answer": 2,
+     "explain": "Mẹ tôi là giáo viên. giáo viên は教師。"
+    },
+    {
+     "q": "花さんの家族について正しいものはどれですか。",
+     "choices": [
+      "兄がいる",
+      "4人家族である",
+      "姉がいる",
+      "一人っ子である"
+     ],
+     "answer": 1,
+     "explain": "Gia đình tôi có bốn người とあります。"
+    }
+   ]
+  },
+  {
+   "id": "r5-02",
+   "title": "Một ngày của tôi",
+   "titleJa": "私の一日",
+   "text": "Tôi thường dậy lúc sáu giờ sáng. Tôi đánh răng, rửa mặt rồi ăn sáng. Bữa sáng tôi thường ăn bánh mì và uống cà phê.\nBảy giờ rưỡi tôi đi làm bằng xe buýt. Công ty tôi ở gần hồ Hoàn Kiếm. Tôi làm việc từ tám giờ sáng đến năm giờ chiều.\nBuổi tối tôi về nhà, nấu cơm và xem tivi. Tôi đi ngủ lúc mười một giờ.",
+   "ja": "私はふだん朝6時に起きます。歯を磨き、顔を洗ってから朝ご飯を食べます。朝ご飯はふだんパンを食べてコーヒーを飲みます。\n7時半にバスで仕事に行きます。会社はホアンキエム湖の近くにあります。朝8時から午後5時まで働きます。\n夜は家に帰り、ご飯を作ってテレビを見ます。11時に寝ます。",
+   "vocab": [
+    {
+     "vi": "thường",
+     "ja": "ふだん"
+    },
+    {
+     "vi": "đánh răng",
+     "ja": "歯を磨く"
+    },
+    {
+     "vi": "từ ... đến ...",
+     "ja": "〜から〜まで"
+    }
+   ],
+   "questions": [
+    {
+     "q": "この人は何で会社に行きますか。",
+     "choices": [
+      "バイク",
+      "自転車",
+      "バス",
+      "徒歩"
+     ],
+     "answer": 2,
+     "explain": "đi làm bằng xe buýt とあります。"
+    },
+    {
+     "q": "この人は何時間働きますか。",
+     "choices": [
+      "8時間",
+      "9時間",
+      "5時間",
+      "7時間"
+     ],
+     "answer": 1,
+     "explain": "8時から5時（17時）までなので9時間です。"
+    },
+    {
+     "q": "夜にしないことはどれですか。",
+     "choices": [
+      "料理をする",
+      "テレビを見る",
+      "泳ぎに行く",
+      "寝る"
+     ],
+     "answer": 2,
+     "explain": "泳ぎに行くとは書かれていません。"
+    }
+   ]
+  },
+  {
+   "id": "r5-03",
+   "title": "Đi chợ",
+   "titleJa": "市場へ行く",
+   "text": "Chủ nhật tôi đi chợ với mẹ. Chợ rất đông và ồn.\nMẹ mua một cân thịt lợn, hai quả dưa hấu và nhiều rau. Tôi mua một cân xoài. Xoài giá năm mươi nghìn đồng một cân.\nỞ chợ, mẹ tôi mặc cả rất giỏi. Người bán bớt cho mẹ mười nghìn đồng. Tôi thích đi chợ hơn đi siêu thị vì ở chợ rẻ hơn.",
+   "ja": "日曜日、私は母と市場へ行きます。市場はとても混んでいてにぎやかです。\n母は豚肉を1キロ、スイカを2個、そして野菜をたくさん買います。私はマンゴーを1キロ買います。マンゴーは1キロ5万ドンです。\n市場で、母は値切るのがとても上手です。売り手は母に1万ドンまけてくれました。市場のほうが安いので、私はスーパーより市場に行くほうが好きです。",
+   "vocab": [
+    {
+     "vi": "cân",
+     "ja": "キロ（グラム）"
+    },
+    {
+     "vi": "mặc cả",
+     "ja": "値切る"
+    },
+    {
+     "vi": "bớt",
+     "ja": "まける"
+    }
+   ],
+   "questions": [
+    {
+     "q": "「私」は何を買いましたか。",
+     "choices": [
+      "豚肉",
+      "スイカ",
+      "マンゴー",
+      "野菜"
+     ],
+     "answer": 2,
+     "explain": "Tôi mua một cân xoài とあります。"
+    },
+    {
+     "q": "マンゴー1キロの値段はいくらですか。",
+     "choices": [
+      "1万ドン",
+      "5万ドン",
+      "15万ドン",
+      "50万ドン"
+     ],
+     "answer": 1,
+     "explain": "năm mươi nghìn は5万。"
+    },
+    {
+     "q": "「私」が市場を好きな理由は何ですか。",
+     "choices": [
+      "近いから",
+      "安いから",
+      "静かだから",
+      "母がいるから"
+     ],
+     "answer": 1,
+     "explain": "vì ở chợ rẻ hơn（市場のほうが安いから）。"
+    }
+   ]
+  },
+  {
+   "id": "r5-04",
+   "title": "Gia đình bạn Nam",
+   "titleJa": "ナムさんの家族",
+   "text": "Đây là gia đình bạn Nam. Nam sống ở Huế với bố mẹ và em gái.\nBố Nam năm mươi tuổi. Ông ấy làm việc ở bệnh viện. Mẹ Nam bán bánh ở chợ Đông Ba. Bánh của mẹ Nam rất ngon và nổi tiếng.\nEm gái Nam mười lăm tuổi, là học sinh lớp mười. Em ấy thích hát và vẽ. Nam là sinh viên, năm nay hai mươi tuổi.",
+   "ja": "これはナムさんの家族です。ナムはフエで両親と妹と一緒に住んでいます。\nナムのお父さんは50歳です。病院で働いています。ナムのお母さんはドンバー市場でお菓子を売っています。お母さんのお菓子はとてもおいしくて有名です。\nナムの妹は15歳で、10年生（高校1年）です。歌と絵が好きです。ナムは大学生で、今年20歳です。",
+   "vocab": [
+    {
+     "vi": "sống",
+     "ja": "住む"
+    },
+    {
+     "vi": "nổi tiếng",
+     "ja": "有名な"
+    },
+    {
+     "vi": "học sinh lớp mười",
+     "ja": "10年生"
+    }
+   ],
+   "questions": [
+    {
+     "q": "ナムさんはどこに住んでいますか。",
+     "choices": [
+      "ハノイ",
+      "フエ",
+      "ダナン",
+      "サイゴン"
+     ],
+     "answer": 1,
+     "explain": "Nam sống ở Huế とあります。"
+    },
+    {
+     "q": "ナムさんのお母さんは何をしていますか。",
+     "choices": [
+      "病院で働く",
+      "お菓子を売る",
+      "先生をしている",
+      "歌を歌う"
+     ],
+     "answer": 1,
+     "explain": "bán bánh ở chợ（市場でお菓子を売る）。"
+    },
+    {
+     "q": "ナムさんの妹について正しいものはどれですか。",
+     "choices": [
+      "20歳である",
+      "大学生である",
+      "絵を描くのが好き",
+      "病院で働く"
+     ],
+     "answer": 2,
+     "explain": "Em ấy thích hát và vẽ とあります。"
+    }
+   ]
+  },
+  {
+   "id": "r5-05",
+   "title": "Thời tiết Hà Nội",
+   "titleJa": "ハノイの天気",
+   "text": "Hà Nội có bốn mùa: mùa xuân, mùa hè, mùa thu và mùa đông.\nMùa hè ở Hà Nội rất nóng, có ngày ba mươi tám độ. Mùa hè cũng hay có mưa to.\nMùa thu trời mát và đẹp. Nhiều người nói mùa thu là mùa đẹp nhất ở Hà Nội.\nMùa đông khá lạnh, nhưng không có tuyết. Tôi thích mùa thu nhất.",
+   "ja": "ハノイには四季があります：春、夏、秋、冬です。\nハノイの夏はとても暑く、38度の日もあります。夏はよく大雨も降ります。\n秋は涼しくて天気がいいです。秋はハノイで一番美しい季節だと多くの人が言います。\n冬はかなり寒いですが、雪は降りません。私は秋が一番好きです。",
+   "vocab": [
+    {
+     "vi": "bốn mùa",
+     "ja": "四季"
+    },
+    {
+     "vi": "mưa to",
+     "ja": "大雨"
+    },
+    {
+     "vi": "khá",
+     "ja": "かなり"
+    }
+   ],
+   "questions": [
+    {
+     "q": "ハノイの夏について正しいものはどれですか。",
+     "choices": [
+      "涼しい",
+      "雪が降る",
+      "とても暑い",
+      "雨が降らない"
+     ],
+     "answer": 2,
+     "explain": "Mùa hè ở Hà Nội rất nóng。"
+    },
+    {
+     "q": "ハノイの冬について正しいものはどれですか。",
+     "choices": [
+      "雪が降る",
+      "かなり寒いが雪は降らない",
+      "とても暑い",
+      "雨が多い"
+     ],
+     "answer": 1,
+     "explain": "khá lạnh, nhưng không có tuyết。"
+    },
+    {
+     "q": "筆者が一番好きな季節はどれですか。",
+     "choices": [
+      "春",
+      "夏",
+      "秋",
+      "冬"
+     ],
+     "answer": 2,
+     "explain": "Tôi thích mùa thu nhất。"
+    }
+   ]
+  },
+  {
+   "id": "r5-06",
+   "title": "Ở nhà hàng",
+   "titleJa": "レストランで",
+   "text": "Tối thứ bảy, tôi và bạn đi ăn ở một nhà hàng Việt Nam.\nTôi gọi một bát phở bò và một cốc trà đá. Bạn tôi gọi bún chả và nước cam.\nPhở ở đây rất ngon nhưng hơi cay. Tất cả hết một trăm hai mươi nghìn đồng. Bạn tôi trả tiền.\nLần sau tôi sẽ trả tiền.",
+   "ja": "土曜日の夜、私と友達はベトナム料理のレストランへ食べに行きました。\n私は牛肉フォーを1杯とアイスティーを1杯注文しました。友達はブンチャーとオレンジジュースを注文しました。\nここのフォーはとてもおいしいけれど、少し辛かったです。全部で12万ドンでした。友達が払ってくれました。\n次は私が払います。",
+   "vocab": [
+    {
+     "vi": "gọi",
+     "ja": "注文する"
+    },
+    {
+     "vi": "hết",
+     "ja": "（合計で）かかる"
+    },
+    {
+     "vi": "lần sau",
+     "ja": "次回"
+    }
+   ],
+   "questions": [
+    {
+     "q": "「私」が飲んだものは何ですか。",
+     "choices": [
+      "オレンジジュース",
+      "アイスティー",
+      "コーヒー",
+      "ビール"
+     ],
+     "answer": 1,
+     "explain": "một cốc trà đá（アイスティー）。"
+    },
+    {
+     "q": "全部でいくらでしたか。",
+     "choices": [
+      "2万ドン",
+      "10万ドン",
+      "12万ドン",
+      "120万ドン"
+     ],
+     "answer": 2,
+     "explain": "một trăm hai mươi nghìn は12万。"
+    },
+    {
+     "q": "誰がお金を払いましたか。",
+     "choices": [
+      "私",
+      "友達",
+      "2人で半分ずつ",
+      "店主"
+     ],
+     "answer": 1,
+     "explain": "Bạn tôi trả tiền。"
+    }
+   ]
+  },
+  {
+   "id": "r5-07",
+   "title": "Nhà của tôi",
+   "titleJa": "私の家",
+   "text": "Nhà tôi ở gần trường học. Nhà có hai tầng.\nTầng một có phòng khách và nhà bếp. Tầng hai có hai phòng ngủ và một phòng tắm.\nTrước nhà có một cây xoài to. Sau nhà có vườn nhỏ. Mẹ tôi trồng rau ở đó.\nNhà tôi không to nhưng rất sạch và đẹp. Tôi rất thích nhà của tôi.",
+   "ja": "私の家は学校の近くにあります。家は2階建てです。\n1階には居間と台所があります。2階には寝室が2つと浴室が1つあります。\n家の前には大きなマンゴーの木があります。家の裏には小さな庭があります。母はそこで野菜を育てています。\n私の家は大きくはありませんが、とても清潔できれいです。私は自分の家が大好きです。",
+   "vocab": [
+    {
+     "vi": "tầng",
+     "ja": "階"
+    },
+    {
+     "vi": "trồng",
+     "ja": "植える、育てる"
+    },
+    {
+     "vi": "vườn",
+     "ja": "庭"
+    }
+   ],
+   "questions": [
+    {
+     "q": "寝室はどこにありますか。",
+     "choices": [
+      "1階",
+      "2階",
+      "庭",
+      "台所の隣"
+     ],
+     "answer": 1,
+     "explain": "Tầng hai có hai phòng ngủ。"
+    },
+    {
+     "q": "家の前には何がありますか。",
+     "choices": [
+      "庭",
+      "マンゴーの木",
+      "学校",
+      "市場"
+     ],
+     "answer": 1,
+     "explain": "Trước nhà có một cây xoài to。"
+    },
+    {
+     "q": "筆者の家について正しいものはどれですか。",
+     "choices": [
+      "とても大きい",
+      "3階建て",
+      "清潔できれい",
+      "学校から遠い"
+     ],
+     "answer": 2,
+     "explain": "không to nhưng rất sạch và đẹp。"
+    }
+   ]
+  },
+  {
+   "id": "r5-08",
+   "title": "Tin nhắn",
+   "titleJa": "メッセージ",
+   "text": "Lan ơi, tối nay bạn có rảnh không? Mình muốn đi xem phim với bạn.\nPhim bắt đầu lúc bảy giờ tối ở rạp gần hồ Tây. Mình đã mua hai vé rồi.\nChúng ta gặp nhau ở quán cà phê cạnh rạp lúc sáu giờ rưỡi nhé.\nNếu bạn bận thì nhắn tin cho mình nhé. — Mai",
+   "ja": "ランちゃん、今夜ひま？あなたと映画を見に行きたいな。\n映画は夜7時にタイ湖の近くの映画館で始まるよ。もうチケットを2枚買ったよ。\n6時半に映画館の隣のカフェで会おうね。\nもし忙しかったらメッセージしてね。—マイ",
+   "vocab": [
+    {
+     "vi": "rạp",
+     "ja": "映画館"
+    },
+    {
+     "vi": "vé",
+     "ja": "チケット"
+    },
+    {
+     "vi": "gặp nhau",
+     "ja": "会う（お互いに）"
+    }
+   ],
+   "questions": [
+    {
+     "q": "マイさんはランさんと何をしたいですか。",
+     "choices": [
+      "食事",
+      "映画を見る",
+      "買い物",
+      "勉強"
+     ],
+     "answer": 1,
+     "explain": "đi xem phim（映画を見に行く）。"
+    },
+    {
+     "q": "2人は何時にどこで会いますか。",
+     "choices": [
+      "7時に映画館で",
+      "6時半にカフェで",
+      "6時に湖で",
+      "7時半にカフェで"
+     ],
+     "answer": 1,
+     "explain": "quán cà phê cạnh rạp lúc sáu giờ rưỡi。"
+    },
+    {
+     "q": "正しいものはどれですか。",
+     "choices": [
+      "マイはまだチケットを買っていない",
+      "チケットはもう2枚ある",
+      "映画は6時に始まる",
+      "ランが忙しいとわかっている"
+     ],
+     "answer": 1,
+     "explain": "Mình đã mua hai vé rồi。"
+    }
+   ]
+  },
+  {
+   "id": "r5-09",
+   "title": "Đi du lịch Đà Nẵng",
+   "titleJa": "ダナン旅行",
+   "text": "Tháng trước tôi đi du lịch Đà Nẵng ba ngày. Tôi đi bằng máy bay từ Hà Nội. Máy bay chỉ mất một tiếng rưỡi.\nĐà Nẵng có biển rất đẹp. Buổi sáng tôi đi bơi, buổi chiều tôi đi chơi ở phố cổ Hội An.\nHải sản ở Đà Nẵng rất tươi và rẻ. Tôi ăn tôm và cá mỗi ngày.\nNăm sau tôi muốn đến Đà Nẵng một lần nữa.",
+   "ja": "先月、私はダナンへ3日間旅行に行きました。ハノイから飛行機で行きました。飛行機はたった1時間半しかかかりませんでした。\nダナンにはとてもきれいな海があります。朝は泳ぎに行き、午後はホイアンの旧市街へ遊びに行きました。\nダナンの海産物はとても新鮮で安いです。毎日エビと魚を食べました。\n来年もう一度ダナンへ行きたいです。",
+   "vocab": [
+    {
+     "vi": "mất",
+     "ja": "（時間が）かかる"
+    },
+    {
+     "vi": "hải sản",
+     "ja": "海産物"
+    },
+    {
+     "vi": "một lần nữa",
+     "ja": "もう一度"
+    }
+   ],
+   "questions": [
+    {
+     "q": "ハノイからダナンまで飛行機で何時間かかりましたか。",
+     "choices": [
+      "1時間",
+      "1時間半",
+      "3時間",
+      "3日"
+     ],
+     "answer": 1,
+     "explain": "một tiếng rưỡi は1時間半。"
+    },
+    {
+     "q": "午後は何をしましたか。",
+     "choices": [
+      "泳いだ",
+      "ホイアンの旧市街に行った",
+      "寝た",
+      "買い物をした"
+     ],
+     "answer": 1,
+     "explain": "buổi chiều tôi đi chơi ở phố cổ Hội An。"
+    },
+    {
+     "q": "ダナンの海産物について正しいものはどれですか。",
+     "choices": [
+      "高い",
+      "新鮮で安い",
+      "おいしくない",
+      "少ない"
+     ],
+     "answer": 1,
+     "explain": "rất tươi và rẻ。"
+    }
+   ]
+  },
+  {
+   "id": "r5-10",
+   "title": "Lớp học tiếng Việt",
+   "titleJa": "ベトナム語の授業",
+   "text": "Lớp tiếng Việt của tôi có mười hai học sinh. Chúng tôi học vào thứ ba và thứ năm, từ bảy giờ đến chín giờ tối.\nCô giáo của chúng tôi là người Hà Nội. Cô nói chậm và rõ, nên chúng tôi dễ hiểu.\nTrong lớp, chúng tôi học từ mới, nghe và nói. Phát âm tiếng Việt khó vì có sáu thanh điệu.\nTôi muốn nói tiếng Việt giỏi để nói chuyện với bạn bè Việt Nam.",
+   "ja": "私のベトナム語のクラスには12人の生徒がいます。私たちは火曜日と木曜日の夜7時から9時まで勉強します。\n私たちの先生はハノイの人です。先生はゆっくりはっきり話すので、私たちはわかりやすいです。\n授業では新しい単語を学び、聞いたり話したりします。ベトナム語には6つの声調があるので、発音が難しいです。\nベトナムの友達と話せるように、ベトナム語が上手に話せるようになりたいです。",
+   "vocab": [
+    {
+     "vi": "rõ",
+     "ja": "はっきりした"
+    },
+    {
+     "vi": "phát âm",
+     "ja": "発音"
+    },
+    {
+     "vi": "thanh điệu",
+     "ja": "声調"
+    }
+   ],
+   "questions": [
+    {
+     "q": "授業は週に何回ありますか。",
+     "choices": [
+      "1回",
+      "2回",
+      "3回",
+      "12回"
+     ],
+     "answer": 1,
+     "explain": "thứ ba và thứ năm（火曜と木曜）。"
+    },
+    {
+     "q": "先生の話がわかりやすい理由は何ですか。",
+     "choices": [
+      "日本語で話すから",
+      "ゆっくりはっきり話すから",
+      "若いから",
+      "生徒が少ないから"
+     ],
+     "answer": 1,
+     "explain": "Cô nói chậm và rõ, nên ... dễ hiểu。"
+    },
+    {
+     "q": "ベトナム語の発音が難しい理由として書かれているものはどれですか。",
+     "choices": [
+      "単語が長いから",
+      "声調が6つあるから",
+      "文字が多いから",
+      "速く話すから"
+     ],
+     "answer": 1,
+     "explain": "vì có sáu thanh điệu。"
+    }
+   ]
+  }
+ ]
+}

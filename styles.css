@@ -810,3 +810,50 @@ body {
 .lk-result-ok { color: var(--koke, #5a7a4a); font-weight: 600; }
 .lk-result-retry { color: var(--shu); }
 .lk-heard { display: block; font-weight: 400; color: var(--sumi-soft); font-size: 0.72rem; margin-top: 0.1rem; }
+
+/* ---------- ベトナム語検定 対策 ---------- */
+.vk-point { padding: 0.9rem 1rem; }
+.vk-point[open] { padding-bottom: 1rem; }
+.vk-point-head { display: flex; align-items: baseline; gap: 0.5rem; cursor: pointer; list-style: none; }
+.vk-point-head::-webkit-details-marker { display: none; }
+.vk-num {
+  flex: none; min-width: 1.5rem; text-align: center; font-family: "Cormorant Garamond", serif;
+  font-size: 0.8rem; color: var(--washi); background: var(--sumi-light); border-radius: 999px; padding: 0 0.35rem;
+}
+.vk-point-title { font-family: "Shippori Mincho", serif; font-weight: 600; font-size: 0.95rem; }
+.vk-done .vk-num { background: var(--koke); }
+.vk-pattern {
+  margin-top: 0.7rem; padding: 0.4rem 0.6rem; border-left: 3px solid var(--shu); background: rgba(197, 56, 43, 0.06);
+  font-family: "Cormorant Garamond", serif; font-size: 1.05rem; font-weight: 600;
+}
+.vk-explain { margin-top: 0.5rem; font-size: 0.85rem; line-height: 1.7; color: var(--sumi-light); white-space: pre-line; }
+.vk-examples { margin-top: 0.5rem; }
+.vk-example { padding: 0.35rem 0; border-bottom: 1px dashed rgba(26, 22, 18, 0.12); }
+.vk-vi { font-family: "Cormorant Garamond", serif; font-size: 1.05rem; }
+.vk-ja { font-size: 0.75rem; color: var(--sumi-soft); }
+.vk-say { margin-left: 0.3rem; font-size: 0.65rem; padding: 0 0.45rem; vertical-align: middle; }
+.vk-quiz-title { margin-top: 0.8rem; font-size: 0.75rem; color: var(--sumi-soft); letter-spacing: 0.1em; }
+.vk-quiz { margin-top: 0.6rem; padding: 0.6rem 0.7rem; border: 1px solid rgba(26, 22, 18, 0.1); border-radius: 8px; background: var(--washi-light); }
+.vk-q { font-family: "Cormorant Garamond", serif; font-size: 1.05rem; line-height: 1.5; }
+.vk-qja { font-size: 0.72rem; color: var(--sumi-soft); margin-top: 0.1rem; }
+.vk-qja-d { font-size: 0.72rem; color: var(--sumi-soft); margin-top: 0.2rem; }
+.vk-qja-d summary { cursor: pointer; }
+.vk-choices { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
+.vk-choices-col { flex-direction: column; gap: 0.3rem; }
+.vk-choice {
+  font-family: "Cormorant Garamond", serif; font-size: 0.95rem; padding: 0.2rem 0.8rem;
+  border: 1px solid rgba(26, 22, 18, 0.25); border-radius: 999px; background: #fff;
+}
+.vk-choice:not(:disabled):hover { border-color: var(--shu); color: var(--shu); }
+.vk-opt { display: block; font-family: "Cormorant Garamond", serif; font-size: 1rem; padding: 0.3rem 0.5rem; border-radius: 6px; border: 1px solid transparent; cursor: pointer; }
+.vk-opt input { accent-color: var(--shu); margin-right: 0.3rem; }
+.vk-correct { border-color: var(--koke) !important; background: rgba(90, 112, 72, 0.12) !important; color: var(--koke-dark) !important; }
+.vk-wrong { border-color: var(--shu) !important; background: rgba(197, 56, 43, 0.08) !important; color: var(--shu) !important; }
+.vk-feedback { margin-top: 0.45rem; font-size: 0.8rem; line-height: 1.6; color: var(--sumi-light); }
+.vk-passage-item:hover { border-color: var(--shu); }
+.vk-text p { font-family: "Cormorant Garamond", serif; font-size: 1.12rem; line-height: 1.8; margin-bottom: 0.6rem; }
+.vk-text-ja p { font-size: 0.85rem; line-height: 1.8; color: var(--sumi-light); margin-bottom: 0.5rem; }
+.vk-vocab { font-size: 0.8rem; color: var(--sumi-light); }
+.vk-vocab summary { cursor: pointer; color: var(--sumi-soft); }
+.vk-vocab ul { margin-top: 0.4rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr)); gap: 0.2rem 1rem; }
+.vk-vocab b { font-family: "Cormorant Garamond", serif; font-size: 0.95rem; }

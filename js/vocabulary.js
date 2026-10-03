@@ -97,8 +97,12 @@ export const DECKS = Object.freeze({
             situations: (lang) => `./data/situations-${lang}.json` },
   toeic:  { id: 'toeic',  label: 'TOEIC',            languages: ['en'],       file: ()     => `./data/vocabulary-toeic.json` },
   ielts:  { id: 'ielts',  label: 'IELTS',            languages: ['en'],       file: ()     => `./data/vocabulary-ielts.json` },
+  vi5kyu: { id: 'vi5kyu', label: 'ベトナム語検定5級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-5kyu.json` },
+  vi4kyu: { id: 'vi4kyu', label: 'ベトナム語検定4級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-4kyu.json` },
   vi3kyu: { id: 'vi3kyu', label: 'ベトナム語検定3級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-3kyu.json`,
             situations: () => './data/situations-vi3kyu.json' },
+  vi2kyu: { id: 'vi2kyu', label: 'ベトナム語検定2級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-2kyu.json` },
+  vi1kyu: { id: 'vi1kyu', label: 'ベトナム語検定1級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-1kyu.json` },
   phrasal: { id: 'phrasal', label: '句動詞（イメージ）', languages: ['en'],     file: ()     => `./data/vocabulary-phrasal.json`,
              situations: () => './data/situations-phrasal.json' },
 });
@@ -278,7 +282,11 @@ export const PROGRESS_DECKS = Object.freeze([
   { deck: 'phrasal', lang: 'en', label: '句動詞（イメージで覚える）' },
   { deck: 'daily',  lang: 'vi', label: '日常会話 単語（ベトナム語）' },
   { deck: 'toeic',  lang: 'en', label: 'TOEIC 単語' },
+  { deck: 'vi5kyu', lang: 'vi', label: 'ベトナム語検定5級 単語' },
+  { deck: 'vi4kyu', lang: 'vi', label: 'ベトナム語検定4級 単語' },
   { deck: 'vi3kyu', lang: 'vi', label: 'ベトナム語検定3級 単語' },
+  { deck: 'vi2kyu', lang: 'vi', label: 'ベトナム語検定2級 単語' },
+  { deck: 'vi1kyu', lang: 'vi', label: 'ベトナム語検定1級 単語' },
 ]);
 
 /**

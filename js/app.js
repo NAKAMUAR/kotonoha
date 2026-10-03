@@ -68,10 +68,11 @@ import {
 import { getReadingByPart } from './toeic-reading.js';
 import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.js';
 import { initLinking, activateLinkingScreen, leaveLinkingScreen } from './linking.js';
+import { initKentei, activateKenteiScreen, kenteiCounts, kenteiProgress } from './vi-kentei.js';
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
 
-const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'linking', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
+const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'linking', 'vi-kentei', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -123,6 +124,8 @@ const trState = {
 
 // ---------- 画面切替 ----------
 
+let kenteiNext = null; // ホームのカードから開くときの { mode }
+
 function showScreen(name) {
   if (!SCREENS.includes(name)) return;
   if (!state.isAuthenticated && name !== 'login') {
@@ -149,6 +152,7 @@ function showScreen(name) {
   if (name === 'toeic-score')      activateScoreScreen();
   if (name === 'ielts-speaking')   activateIeltsSpeakingScreen();
   if (name === 'ielts-writing')    activateIeltsWritingScreen();
+  if (name === 'vi-kentei')        { activateKenteiScreen(kenteiNext ?? {}); kenteiNext = null; }
   if (name === 'linking')          activateLinkingScreen();
   else                             leaveLinkingScreen();
   if (name !== 'scenarios' && name !== 'toeic-listening') stopSpeaking();
@@ -262,6 +266,23 @@ function markScenarioDone(scenarioId) {
   setText('stat-scenarios', `${partial.completedScenarios}`);
 }
 
+async function kenteiRows() {
+  const counts = await kenteiCounts();
+  const prog   = kenteiProgress();
+  const levels = Object.keys(counts).map(Number).sort((a, b) => b - a);
+  const gTotal = levels.reduce((n, l) => n + counts[l].grammar, 0);
+  const rTotal = levels.reduce((n, l) => n + counts[l].reading, 0);
+  const gDone  = Object.values(prog.grammar).filter(Boolean).length;
+  const rTried = Object.keys(prog.reading).length;
+  const rGood  = Object.values(prog.reading).filter((v) => v >= 80).length;
+  return [
+    { label: 'ベトナム語検定 文法', total: gTotal, learned: Math.min(gDone, gTotal), started: Math.min(gDone, gTotal), unit: '項目',
+      detail: `確認問題に全問正解 ${gDone}` },
+    { label: 'ベトナム語検定 長文', total: rTotal, learned: Math.min(rGood, rTotal), started: Math.min(rTried, rTotal), unit: '本',
+      detail: `8割以上正解 ${rGood} / 挑戦 ${rTried}` },
+  ];
+}
+
 async function renderProgressRows() {
   const box = document.getElementById('progress-rows');
   if (!box) return;
@@ -292,8 +313,13 @@ async function renderProgressRows() {
     deckRow('toeic', 'en'),
     { label: 'TOEIC 問題', total: toeicTotal, learned: toeicCorrect, started: toeicAnswered, unit: '問',
       detail: `正解 ${toeicCorrect} / 回答 ${toeicAnswered}` },
+    deckRow('vi5kyu', 'vi'),
+    deckRow('vi4kyu', 'vi'),
     deckRow('vi3kyu', 'vi'),
-  ];
+    deckRow('vi2kyu', 'vi'),
+    deckRow('vi1kyu', 'vi'),
+    ...(await kenteiRows()),
+  ].filter((r) => r.total > 0);
 
   const pct = (n, t) => (t > 0 ? Math.min(100, Math.round((n / t) * 100)) : 0);
   box.innerHTML = rows.map((r) => `
@@ -374,7 +400,7 @@ function syncDeckUi() {
   }
 
   // デッキチップの選択状態
-  document.querySelectorAll('#vocab-deck-row .chip').forEach((c) => {
+  document.querySelectorAll('#vocab-deck-row .chip, #vocab-kentei-row .chip').forEach((c) => {
     c.classList.toggle('chip-active', c.dataset.deck === vocabState.deck);
   });
 
@@ -1750,6 +1776,7 @@ function bindEvents() {
   document.querySelectorAll('.action-card').forEach((btn) => {
     btn.addEventListener('click', () => {
       const target = btn.dataset.target;
+      if (btn.dataset.vkMode) kenteiNext = { mode: btn.dataset.vkMode };
       if (target) showScreen(target);
     });
   });
@@ -1778,7 +1805,7 @@ function bindEvents() {
   });
 
   // デッキチップ（日常会話 / TOEIC / VI 検定3級）
-  document.querySelectorAll('#vocab-deck-row .chip').forEach((chip) => {
+  document.querySelectorAll('#vocab-deck-row .chip, #vocab-kentei-row .chip').forEach((chip) => {
     chip.addEventListener('click', async () => {
       const newDeck = chip.dataset.deck;
       if (!newDeck || newDeck === vocabState.deck) return;
@@ -1953,6 +1980,25 @@ function bindEvents() {
   document.getElementById('btn-grammar-check')?.addEventListener('click', onGrammarCheck);
 
   initLinking({ showToast });
+
+  initKentei({
+    showToast,
+    openDeck: (deck) => { vocabState.deck = deck; showScreen('vocabulary'); },
+    deckTotal: async (deck) => {
+      try {
+        const res = await fetch(getDeck(deck).file('vi'));
+        return res.ok ? (await res.json()).length : 0;
+      } catch { return 0; }
+    },
+  });
+
+  // まだ単語データが無い級のチップは隠す
+  document.querySelectorAll('#vocab-kentei-row .chip').forEach(async (chip) => {
+    try {
+      const res = await fetch(getDeck(chip.dataset.deck).file('vi'), { method: 'HEAD' });
+      chip.classList.toggle('hidden', !res.ok);
+    } catch { /* オフライン時はそのまま表示 */ }
+  });
 
   // 文法添削: 入力した文章（または AI が直した文章）を読み上げ
   const sayGrammar = (slow) => {

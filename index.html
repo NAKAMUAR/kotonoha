@@ -168,6 +168,27 @@
         </div>
       </div>
 
+      <div class="card mb-4">
+        <h3 class="card-title">ベトナム語検定 対策（5〜1級）</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mt-4">
+          <button class="action-card" data-target="vi-kentei" data-vk-mode="vocab">
+            <div class="action-icon">語</div>
+            <div class="action-label">単語</div>
+            <div class="action-sub">級別の単語帳（SRS）</div>
+          </button>
+          <button class="action-card" data-target="vi-kentei" data-vk-mode="grammar">
+            <div class="action-icon">法</div>
+            <div class="action-label">文法</div>
+            <div class="action-sub">文型の解説と確認問題</div>
+          </button>
+          <button class="action-card" data-target="vi-kentei" data-vk-mode="reading">
+            <div class="action-icon">文</div>
+            <div class="action-label">長文読解</div>
+            <div class="action-sub">本文・設問・全訳・音声</div>
+          </button>
+        </div>
+      </div>
+
       <div class="card mb-6">
         <h3 class="card-title">IELTS 対策</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
@@ -206,7 +227,14 @@
         <button class="chip chip-active" data-deck="daily">日常会話</button>
         <button class="chip" data-deck="phrasal">句動詞</button>
         <button class="chip" data-deck="toeic">TOEIC</button>
-        <button class="chip" data-deck="vi3kyu">VI 検定3級</button>
+      </div>
+      <div id="vocab-kentei-row" class="filter-row mb-3 items-center">
+        <span class="text-xs text-sumi-soft mr-1">ベトナム語検定:</span>
+        <button class="chip" data-deck="vi5kyu">5級</button>
+        <button class="chip" data-deck="vi4kyu">4級</button>
+        <button class="chip" data-deck="vi3kyu">3級</button>
+        <button class="chip" data-deck="vi2kyu">2級</button>
+        <button class="chip" data-deck="vi1kyu">1級</button>
       </div>
 
       <div id="vocab-lang-tabs" class="tab-bar mb-6">
@@ -400,6 +428,30 @@
         </ol>
         <p class="text-xs text-sumi-soft mt-3">言語は自動判定されます（ベトナム語の声調記号があれば vi、なければ en）</p>
       </div>
+    </section>
+
+    <section id="screen-vi-kentei" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">ベトナム語検定 対策</h2>
+        <p class="screen-sub">実用ベトナム語技能検定 5〜1級の単語・文法・長文</p>
+      </div>
+
+      <div id="vk-level-row" class="filter-row mb-2">
+        <button class="chip chip-active" data-vk-level="5">5級</button>
+        <button class="chip" data-vk-level="4">4級</button>
+        <button class="chip" data-vk-level="3">3級</button>
+        <button class="chip" data-vk-level="2">2級</button>
+        <button class="chip" data-vk-level="1">1級</button>
+      </div>
+      <p id="vk-level-desc" class="text-xs text-sumi-soft mb-4"></p>
+
+      <div id="vk-mode-tabs" class="tab-bar mb-4">
+        <button class="tab" data-vk-mode="vocab">単語</button>
+        <button class="tab tab-active" data-vk-mode="grammar">文法</button>
+        <button class="tab" data-vk-mode="reading">長文</button>
+      </div>
+
+      <div id="vk-body"></div>
     </section>
 
     <section id="screen-linking" class="screen hidden">
