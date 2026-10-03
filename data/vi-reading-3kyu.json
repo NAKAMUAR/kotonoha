@@ -1,0 +1,647 @@
+{
+ "level": 3,
+ "passages": [
+  {
+   "id": "r3-01",
+   "title": "Cà phê – thói quen của người Hà Nội",
+   "titleJa": "コーヒー：ハノイの人々の習慣",
+   "text": "Đối với nhiều người Hà Nội, một ngày mới chỉ thực sự bắt đầu sau ly cà phê buổi sáng. Từ những quán nhỏ trên vỉa hè đến các quán sang trọng trong trung tâm, quán cà phê có mặt ở khắp mọi nơi.\nCà phê Việt Nam thường được pha bằng phin – một dụng cụ nhỏ bằng kim loại đặt trên cốc. Nước sôi chảy chậm qua lớp cà phê, nên người uống phải kiên nhẫn chờ vài phút. Cà phê sữa đá và cà phê đen là hai loại phổ biến nhất.\nHà Nội còn nổi tiếng với cà phê trứng. Món này ra đời vào những năm 1940, khi sữa rất hiếm. Một người pha chế đã dùng lòng đỏ trứng đánh với đường để thay sữa. Ngày nay, cà phê trứng trở thành món đặc sản mà du khách nhất định phải thử.\nVới người Hà Nội, quán cà phê không chỉ là nơi uống nước mà còn là nơi gặp gỡ bạn bè, bàn công việc hay đơn giản là ngồi ngắm phố phường.",
+   "ja": "多くのハノイの人にとって、新しい一日は朝のコーヒーの後に本当に始まります。歩道の小さな店から中心部の高級店まで、カフェはいたるところにあります。\nベトナムのコーヒーはふつう「フィン」で淹れます。フィンはカップの上に置く小さな金属の道具です。お湯がコーヒーの層をゆっくり通るので、飲む人は数分間辛抱強く待たなければなりません。アイス練乳コーヒーとブラックコーヒーが最も一般的な2種類です。\nハノイはエッグコーヒーでも有名です。この飲み物は牛乳がとても手に入りにくかった1940年代に生まれました。あるバリスタが牛乳の代わりに卵黄を砂糖と泡立てて使ったのです。今日、エッグコーヒーは観光客が必ず試すべき名物になっています。\nハノイの人にとって、カフェは飲み物を飲む場所だけでなく、友人と会ったり、仕事の話をしたり、ただ座って街並みを眺めたりする場所でもあります。",
+   "vocab": [
+    {
+     "vi": "phin",
+     "ja": "フィン（コーヒードリッパー）"
+    },
+    {
+     "vi": "kiên nhẫn",
+     "ja": "辛抱強い"
+    },
+    {
+     "vi": "lòng đỏ trứng",
+     "ja": "卵黄"
+    },
+    {
+     "vi": "pha chế",
+     "ja": "（飲み物を）調合する"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo bài, cà phê phin có đặc điểm gì?",
+     "choices": [
+      "Pha rất nhanh",
+      "Phải chờ vài phút",
+      "Không dùng nước sôi",
+      "Chỉ uống nóng"
+     ],
+     "answer": 1,
+     "explain": "người uống phải kiên nhẫn chờ vài phút。",
+     "qJa": "フィンコーヒーの特徴は何ですか。"
+    },
+    {
+     "q": "Vì sao cà phê trứng ra đời?",
+     "choices": [
+      "Vì trứng rất rẻ",
+      "Vì sữa rất hiếm",
+      "Vì du khách thích",
+      "Vì đường rất đắt"
+     ],
+     "answer": 1,
+     "explain": "khi sữa rất hiếm ... để thay sữa。",
+     "qJa": "エッグコーヒーが生まれた理由は何ですか。"
+    },
+    {
+     "q": "Đoạn cuối muốn nói điều gì?",
+     "choices": [
+      "Quán cà phê chỉ để uống nước",
+      "Quán cà phê là nơi gặp gỡ và thư giãn",
+      "Người Hà Nội ít đi quán cà phê",
+      "Quán cà phê rất đắt"
+     ],
+     "answer": 1,
+     "explain": "không chỉ là nơi uống nước mà còn là nơi gặp gỡ ...。",
+     "qJa": "最後の段落が言いたいことは何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r3-02",
+   "title": "Làm việc từ xa",
+   "titleJa": "リモートワーク",
+   "text": "Sau đại dịch, làm việc từ xa đã trở thành một hình thức phổ biến ở nhiều công ty Việt Nam, đặc biệt trong ngành công nghệ thông tin.\nTheo một khảo sát gần đây, khoảng 60% nhân viên văn phòng muốn được làm việc ở nhà ít nhất hai ngày mỗi tuần. Lý do chính là tiết kiệm thời gian đi lại. Ở Hà Nội và Thành phố Hồ Chí Minh, nhiều người mất hơn một tiếng mỗi ngày trên đường vì tắc đường.\nTuy nhiên, làm việc ở nhà cũng có những khó khăn. Một số người cảm thấy cô đơn vì ít gặp đồng nghiệp. Những người có con nhỏ thì khó tập trung. Ngoài ra, ranh giới giữa công việc và cuộc sống riêng trở nên không rõ ràng.\nVì vậy, nhiều công ty chọn cách làm việc kết hợp: nhân viên vừa đến văn phòng, vừa làm việc ở nhà. Theo các chuyên gia, đây có thể là xu hướng chính trong tương lai.",
+   "ja": "パンデミックの後、リモートワークはベトナムの多くの会社、特にIT業界で一般的な働き方になりました。\n最近の調査によると、事務職の約60％が週に少なくとも2日は在宅勤務をしたいと考えています。主な理由は通勤時間の節約です。ハノイとホーチミン市では、渋滞のために毎日1時間以上を移動に費やす人が多くいます。\nしかし、在宅勤務には難しさもあります。同僚とあまり会わないので孤独を感じる人もいます。小さい子どもがいる人は集中しにくいです。さらに、仕事と私生活の境界があいまいになります。\nそのため、多くの会社がハイブリッドな働き方を選んでいます。社員はオフィスに出勤もし、在宅でも働きます。専門家によると、これが将来の主流になるかもしれません。",
+   "vocab": [
+    {
+     "vi": "đại dịch",
+     "ja": "パンデミック"
+    },
+    {
+     "vi": "khảo sát",
+     "ja": "調査"
+    },
+    {
+     "vi": "ranh giới",
+     "ja": "境界"
+    },
+    {
+     "vi": "kết hợp",
+     "ja": "組み合わせる"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo khảo sát, lý do chính nhân viên muốn làm việc ở nhà là gì?",
+     "choices": [
+      "Lương cao hơn",
+      "Tiết kiệm thời gian đi lại",
+      "Không thích đồng nghiệp",
+      "Nhà rộng hơn văn phòng"
+     ],
+     "answer": 1,
+     "explain": "Lý do chính là tiết kiệm thời gian đi lại。",
+     "qJa": "在宅勤務をしたい主な理由は何ですか。"
+    },
+    {
+     "q": "Khó khăn nào KHÔNG được nhắc đến?",
+     "choices": [
+      "Cảm thấy cô đơn",
+      "Khó tập trung khi có con nhỏ",
+      "Mạng internet chậm",
+      "Ranh giới công việc và cuộc sống không rõ"
+     ],
+     "answer": 2,
+     "explain": "インターネットについては書かれていません。",
+     "qJa": "触れられていない困難はどれですか。"
+    },
+    {
+     "q": "\"Làm việc kết hợp\" nghĩa là gì?",
+     "choices": [
+      "Chỉ làm ở văn phòng",
+      "Chỉ làm ở nhà",
+      "Vừa đến văn phòng vừa làm ở nhà",
+      "Làm hai công việc"
+     ],
+     "answer": 2,
+     "explain": "vừa đến văn phòng, vừa làm việc ở nhà。",
+     "qJa": "「ハイブリッドな働き方」とはどういう意味ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r3-03",
+   "title": "Phố đi bộ Hồ Gươm",
+   "titleJa": "ホアンキエム湖の歩行者天国",
+   "text": "Từ năm 2016, các tuyến phố quanh hồ Hoàn Kiếm (hồ Gươm) trở thành phố đi bộ vào tối thứ sáu, thứ bảy và chủ nhật. Trong thời gian này, xe máy và ô tô không được đi vào khu vực xung quanh hồ.\nPhố đi bộ nhanh chóng thu hút đông đảo người dân và du khách. Các gia đình đưa con đến chơi các trò chơi dân gian như kéo co, nhảy dây. Thanh niên tụ tập hát, nhảy hoặc xem biểu diễn đường phố. Nhiều nghệ sĩ cũng đến đây để biểu diễn âm nhạc truyền thống.\nPhố đi bộ không chỉ mang lại không gian vui chơi miễn phí mà còn giúp giảm tiếng ồn và khói bụi ở trung tâm thành phố. Các cửa hàng và quán ăn trong khu vực cũng bán được nhiều hàng hơn.\nTuy vậy, vào những ngày lễ, phố đi bộ đôi khi quá đông, gây khó khăn cho việc đi lại của người dân sống ở đây. Thành phố đang tìm cách để cân bằng giữa du lịch và cuộc sống của cư dân.",
+   "ja": "2016年から、ホアンキエム湖（ホーグオム湖）周辺の通りは、金・土・日の夜に歩行者天国になります。この時間中、バイクや車は湖周辺の地域に入ることができません。\n歩行者天国はすぐに大勢の市民と観光客を引きつけました。家族連れは子どもを連れてきて綱引きや縄跳びなどの昔遊びをします。若者は集まって歌ったり踊ったり、大道芸を見たりします。多くの芸術家もここに来て伝統音楽を演奏します。\n歩行者天国は無料で遊べる空間をもたらすだけでなく、市の中心部の騒音や排気ガスを減らすのにも役立っています。地域の店や飲食店もより多く売れるようになりました。\nしかし、祝日には歩行者天国が混雑しすぎることがあり、ここに住む人々の移動に支障をきたしています。市は観光と住民の生活のバランスをとる方法を探しています。",
+   "vocab": [
+    {
+     "vi": "tuyến phố",
+     "ja": "通り（路線）"
+    },
+    {
+     "vi": "trò chơi dân gian",
+     "ja": "昔遊び、伝統的な遊び"
+    },
+    {
+     "vi": "tụ tập",
+     "ja": "集まる"
+    },
+    {
+     "vi": "cân bằng",
+     "ja": "バランスをとる"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Phố đi bộ hoạt động khi nào?",
+     "choices": [
+      "Mỗi ngày",
+      "Tối thứ sáu, thứ bảy và chủ nhật",
+      "Chỉ ngày lễ",
+      "Sáng chủ nhật"
+     ],
+     "answer": 1,
+     "explain": "vào tối thứ sáu, thứ bảy và chủ nhật。",
+     "qJa": "歩行者天国はいつ実施されますか。"
+    },
+    {
+     "q": "Lợi ích nào của phố đi bộ được nêu trong bài?",
+     "choices": [
+      "Giảm tiếng ồn và khói bụi",
+      "Tăng giá nhà",
+      "Có nhiều chỗ đỗ xe",
+      "Giảm du khách"
+     ],
+     "answer": 0,
+     "explain": "giúp giảm tiếng ồn và khói bụi。",
+     "qJa": "本文で述べられている利点はどれですか。"
+    },
+    {
+     "q": "Vấn đề của phố đi bộ là gì?",
+     "choices": [
+      "Không có ai đến",
+      "Quá đông vào ngày lễ",
+      "Cửa hàng bán ít hàng",
+      "Không có biểu diễn"
+     ],
+     "answer": 1,
+     "explain": "vào những ngày lễ, phố đi bộ đôi khi quá đông。",
+     "qJa": "歩行者天国の問題は何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r3-04",
+   "title": "Email xin việc",
+   "titleJa": "求職のメール",
+   "text": "Kính gửi Phòng Nhân sự Công ty Du lịch Sen Vàng,\nTôi tên là Nguyễn Thu Hà, vừa tốt nghiệp chuyên ngành Du lịch tại Trường Đại học Văn hóa Hà Nội. Qua trang web của công ty, tôi được biết quý công ty đang tuyển hướng dẫn viên du lịch nói tiếng Nhật. Tôi xin gửi hồ sơ ứng tuyển vào vị trí này.\nTrong thời gian học đại học, tôi đã có hai năm làm thêm tại một khách sạn ở phố cổ, thường xuyên tiếp xúc với khách Nhật. Tôi có chứng chỉ tiếng Nhật N2 và có thể giao tiếp tốt bằng tiếng Anh. Ngoài ra, tôi rất yêu thích lịch sử và văn hóa Việt Nam.\nTôi tin rằng kinh nghiệm và khả năng ngoại ngữ của mình sẽ giúp ích cho công việc. Tôi gửi kèm theo đây sơ yếu lý lịch và bản sao các chứng chỉ.\nRất mong nhận được phản hồi từ quý công ty.\nTrân trọng,\nNguyễn Thu Hà",
+   "ja": "ゴールデンロータス旅行会社 人事部御中\n私はグエン・トゥー・ハーと申します。ハノイ文化大学の観光専攻を卒業したばかりです。御社のウェブサイトで、日本語を話す観光ガイドを募集されていることを知りました。このポジションに応募書類をお送りいたします。\n大学在学中、旧市街のホテルで2年間アルバイトをし、日本人のお客様と頻繁に接してきました。日本語能力試験N2の資格を持ち、英語でも十分にコミュニケーションがとれます。また、ベトナムの歴史と文化が大好きです。\n私の経験と語学力は業務に役立つと信じております。履歴書と各資格証明書の写しを添付いたします。\n御社からのお返事を心よりお待ちしております。\n敬具\nグエン・トゥー・ハー",
+   "vocab": [
+    {
+     "vi": "tuyển",
+     "ja": "募集する、採用する"
+    },
+    {
+     "vi": "ứng tuyển",
+     "ja": "応募する"
+    },
+    {
+     "vi": "tiếp xúc",
+     "ja": "接する"
+    },
+    {
+     "vi": "sơ yếu lý lịch",
+     "ja": "履歴書"
+    },
+    {
+     "vi": "phản hồi",
+     "ja": "返事"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Thu Hà ứng tuyển vào vị trí nào?",
+     "choices": [
+      "Nhân viên khách sạn",
+      "Hướng dẫn viên nói tiếng Nhật",
+      "Giáo viên tiếng Nhật",
+      "Nhân viên nhân sự"
+     ],
+     "answer": 1,
+     "explain": "tuyển hướng dẫn viên du lịch nói tiếng Nhật。",
+     "qJa": "トゥー・ハーはどのポジションに応募していますか。"
+    },
+    {
+     "q": "Thu Hà đã làm thêm ở đâu?",
+     "choices": [
+      "Ở công ty du lịch",
+      "Ở khách sạn trong phố cổ",
+      "Ở trường đại học",
+      "Ở Nhật Bản"
+     ],
+     "answer": 1,
+     "explain": "làm thêm tại một khách sạn ở phố cổ。",
+     "qJa": "どこでアルバイトをしていましたか。"
+    },
+    {
+     "q": "Thu Hà gửi kèm những gì?",
+     "choices": [
+      "Ảnh và hộ chiếu",
+      "Sơ yếu lý lịch và bản sao chứng chỉ",
+      "Bằng lái xe",
+      "Thư giới thiệu của khách Nhật"
+     ],
+     "answer": 1,
+     "explain": "sơ yếu lý lịch và bản sao các chứng chỉ。",
+     "qJa": "何を添付していますか。"
+    }
+   ]
+  },
+  {
+   "id": "r3-05",
+   "title": "Rác thải nhựa",
+   "titleJa": "プラスチックごみ",
+   "text": "Mỗi ngày, Việt Nam thải ra hàng nghìn tấn rác thải nhựa. Túi nilông, chai nhựa và ống hút là những loại rác phổ biến nhất. Phần lớn số rác này không được tái chế mà bị chôn lấp hoặc trôi ra biển.\nRác thải nhựa gây hại nghiêm trọng cho môi trường. Nhựa cần hàng trăm năm mới phân hủy. Nhiều loài động vật biển chết vì ăn phải rác nhựa. Các hạt vi nhựa còn có thể đi vào cơ thể con người qua thức ăn và nước uống.\nĐể giải quyết vấn đề này, nhiều siêu thị đã thay túi nilông bằng túi giấy hoặc túi vải. Một số quán cà phê dùng ống hút bằng tre, cỏ hoặc gạo. Các trường học tổ chức phong trào \"Nói không với túi nilông\" cho học sinh.\nCác chuyên gia cho rằng, ngoài chính sách của nhà nước, ý thức của mỗi người dân là yếu tố quan trọng nhất. Những việc nhỏ như mang theo túi vải khi đi chợ hay dùng bình nước cá nhân có thể tạo ra thay đổi lớn.",
+   "ja": "ベトナムでは毎日何千トンものプラスチックごみが出ています。レジ袋、ペットボトル、ストローが最も一般的なごみです。このごみの大部分はリサイクルされず、埋め立てられるか海に流れ出ています。\nプラスチックごみは環境に深刻な害を与えます。プラスチックは分解されるまでに何百年もかかります。多くの海の生き物がプラスチックごみを食べて死んでいます。マイクロプラスチックは食べ物や飲み水を通じて人の体に入る可能性もあります。\nこの問題を解決するために、多くのスーパーがレジ袋を紙袋や布袋に替えました。竹や草、米で作ったストローを使うカフェもあります。学校は生徒向けに「レジ袋にノーと言おう」運動を行っています。\n専門家は、国の政策のほかに、一人ひとりの意識が最も重要な要素だと考えています。市場に布袋を持っていく、マイボトルを使うといった小さなことが、大きな変化を生み出すことができます。",
+   "vocab": [
+    {
+     "vi": "thải ra",
+     "ja": "排出する"
+    },
+    {
+     "vi": "tái chế",
+     "ja": "リサイクルする"
+    },
+    {
+     "vi": "phân hủy",
+     "ja": "分解する"
+    },
+    {
+     "vi": "vi nhựa",
+     "ja": "マイクロプラスチック"
+    },
+    {
+     "vi": "ý thức",
+     "ja": "意識"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo bài, phần lớn rác nhựa ở Việt Nam bị xử lý thế nào?",
+     "choices": [
+      "Được tái chế",
+      "Bị chôn lấp hoặc trôi ra biển",
+      "Được đốt để làm điện",
+      "Được xuất khẩu"
+     ],
+     "answer": 1,
+     "explain": "bị chôn lấp hoặc trôi ra biển。",
+     "qJa": "プラスチックごみの大部分はどう処理されていますか。"
+    },
+    {
+     "q": "Siêu thị đã làm gì để giảm rác nhựa?",
+     "choices": [
+      "Tăng giá túi nilông",
+      "Thay túi nilông bằng túi giấy hoặc túi vải",
+      "Không bán chai nhựa",
+      "Đóng cửa sớm hơn"
+     ],
+     "answer": 1,
+     "explain": "thay túi nilông bằng túi giấy hoặc túi vải。",
+     "qJa": "スーパーは何をしましたか。"
+    },
+    {
+     "q": "Theo các chuyên gia, yếu tố quan trọng nhất là gì?",
+     "choices": [
+      "Chính sách của nhà nước",
+      "Ý thức của mỗi người dân",
+      "Công nghệ tái chế",
+      "Giá túi vải"
+     ],
+     "answer": 1,
+     "explain": "ý thức của mỗi người dân là yếu tố quan trọng nhất。",
+     "qJa": "専門家によると最も重要な要素は何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r3-06",
+   "title": "Lễ cưới ở Việt Nam",
+   "titleJa": "ベトナムの結婚式",
+   "text": "Đám cưới truyền thống ở Việt Nam thường có nhiều nghi lễ. Trước tiên là lễ dạm ngõ, khi gia đình nhà trai đến gặp nhà gái để chính thức làm quen. Sau đó là lễ ăn hỏi, nhà trai mang các mâm lễ như trầu cau, bánh cốm, hoa quả đến nhà gái.\nNgày cưới, nhà trai đến đón cô dâu về nhà mình. Trước khi đi, cô dâu chú rể thắp hương trước bàn thờ tổ tiên để xin phép và cảm ơn. Đây là nét văn hóa thể hiện lòng biết ơn đối với ông bà, cha mẹ.\nTiệc cưới thường được tổ chức ở nhà hàng hoặc ngay tại nhà, có khi mời đến vài trăm khách. Khách mời thường mừng tiền cho cô dâu chú rể trong phong bì thay vì tặng quà.\nNgày nay, nhiều cặp đôi trẻ ở thành phố tổ chức đám cưới đơn giản hơn, nhưng các nghi lễ chính như ăn hỏi và đón dâu vẫn được giữ gìn.",
+   "ja": "ベトナムの伝統的な結婚式には、多くの儀式があります。まずは「ザムゴー（申し入れの儀）」で、新郎側の家族が新婦の家を訪ね、正式に顔合わせをします。その後「アンホイ（婚約の儀）」があり、新郎側がキンマとビンロウ、コム菓子、果物などの供え物のお盆を新婦の家に持っていきます。\n結婚式の日、新郎側は新婦を自分の家に迎えに行きます。出発の前に、新郎新婦は先祖の祭壇の前で線香をあげ、許しを請い、感謝を伝えます。これは祖父母や両親への感謝の気持ちを表す文化です。\n披露宴はふつうレストランや自宅で行われ、数百人の客を招くこともあります。招待客はプレゼントを贈る代わりに、封筒に入れたお祝い金を新郎新婦に渡すのが一般的です。\n今日では、都市の若いカップルの多くがより簡素な結婚式を挙げますが、アンホイや新婦の迎えなど主要な儀式は今も守られています。",
+   "vocab": [
+    {
+     "vi": "nghi lễ",
+     "ja": "儀式"
+    },
+    {
+     "vi": "nhà trai / nhà gái",
+     "ja": "新郎側／新婦側"
+    },
+    {
+     "vi": "trầu cau",
+     "ja": "キンマとビンロウ"
+    },
+    {
+     "vi": "thắp hương",
+     "ja": "線香をあげる"
+    },
+    {
+     "vi": "mừng tiền",
+     "ja": "お祝い金を渡す"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Trong lễ ăn hỏi, nhà trai làm gì?",
+     "choices": [
+      "Đón cô dâu về nhà",
+      "Mang các mâm lễ đến nhà gái",
+      "Tổ chức tiệc ở nhà hàng",
+      "Mừng tiền cho khách"
+     ],
+     "answer": 1,
+     "explain": "nhà trai mang các mâm lễ ... đến nhà gái。",
+     "qJa": "アンホイで新郎側は何をしますか。"
+    },
+    {
+     "q": "Vì sao cô dâu chú rể thắp hương trước bàn thờ tổ tiên?",
+     "choices": [
+      "Để cầu mưa",
+      "Để xin phép và cảm ơn",
+      "Để chụp ảnh",
+      "Để mời khách"
+     ],
+     "answer": 1,
+     "explain": "để xin phép và cảm ơn。",
+     "qJa": "なぜ祭壇の前で線香をあげますか。"
+    },
+    {
+     "q": "Khách mời thường làm gì?",
+     "choices": [
+      "Tặng quà lớn",
+      "Mừng tiền trong phong bì",
+      "Hát karaoke",
+      "Nấu ăn giúp"
+     ],
+     "answer": 1,
+     "explain": "mừng tiền cho cô dâu chú rể trong phong bì。",
+     "qJa": "招待客はふつう何をしますか。"
+    }
+   ]
+  },
+  {
+   "id": "r3-07",
+   "title": "Một chuyến đi Sa Pa",
+   "titleJa": "サパへの旅",
+   "text": "Tháng chín năm ngoái, tôi cùng hai người bạn đi Sa Pa. Chúng tôi đi xe khách giường nằm từ Hà Nội lúc mười giờ tối và đến nơi lúc năm giờ sáng.\nSa Pa nằm ở độ cao khoảng 1.600 mét nên khí hậu mát mẻ quanh năm. Tháng chín là mùa lúa chín, những thửa ruộng bậc thang chuyển sang màu vàng óng, đẹp như tranh. Chúng tôi thuê một hướng dẫn viên người H'Mông dẫn đi bộ qua các bản làng.\nBuổi tối, chúng tôi ở homestay của một gia đình người Dao. Chủ nhà nấu cho chúng tôi những món ăn địa phương như cá suối nướng và rau cải mèo. Sau bữa tối, chúng tôi được ngâm chân bằng nước lá thuốc của người Dao, rất dễ chịu.\nChuyến đi chỉ có ba ngày nhưng để lại cho tôi nhiều kỷ niệm đẹp. Tôi nhất định sẽ quay lại Sa Pa vào mùa xuân để ngắm hoa đào.",
+   "ja": "昨年の9月、私は友人2人とサパへ行きました。夜10時にハノイから寝台バスに乗り、朝5時に到着しました。\nサパは標高約1,600メートルにあるので、一年中涼しい気候です。9月は稲が実る季節で、棚田は黄金色に変わり、絵のように美しくなります。私たちはモン族のガイドを雇い、村々を歩いて回りました。\n夜はザオ族の家族のホームステイに泊まりました。家の主人が、川魚の焼き物やからし菜など地元の料理を作ってくれました。夕食の後、ザオ族の薬草湯で足湯をさせてもらい、とても気持ちがよかったです。\n旅はたった3日でしたが、素敵な思い出をたくさん残してくれました。春には桃の花を見に、必ずまたサパへ行きます。",
+   "vocab": [
+    {
+     "vi": "độ cao",
+     "ja": "標高"
+    },
+    {
+     "vi": "ruộng bậc thang",
+     "ja": "棚田"
+    },
+    {
+     "vi": "bản làng",
+     "ja": "村々"
+    },
+    {
+     "vi": "ngâm chân",
+     "ja": "足湯をする"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Nhóm bạn đi Sa Pa bằng phương tiện gì?",
+     "choices": [
+      "Máy bay",
+      "Xe khách giường nằm",
+      "Tàu hỏa",
+      "Xe máy"
+     ],
+     "answer": 1,
+     "explain": "đi xe khách giường nằm。",
+     "qJa": "何でサパに行きましたか。"
+    },
+    {
+     "q": "Vì sao Sa Pa mát mẻ quanh năm?",
+     "choices": [
+      "Vì gần biển",
+      "Vì nằm ở độ cao khoảng 1.600 mét",
+      "Vì có nhiều mưa",
+      "Vì có nhiều rừng"
+     ],
+     "answer": 1,
+     "explain": "nằm ở độ cao khoảng 1.600 mét nên khí hậu mát mẻ。",
+     "qJa": "サパが一年中涼しい理由は何ですか。"
+    },
+    {
+     "q": "Người viết muốn quay lại Sa Pa vào mùa nào? Để làm gì?",
+     "choices": [
+      "Mùa hè, để bơi",
+      "Mùa xuân, để ngắm hoa đào",
+      "Mùa thu, để xem lúa chín",
+      "Mùa đông, để xem tuyết"
+     ],
+     "answer": 1,
+     "explain": "vào mùa xuân để ngắm hoa đào。",
+     "qJa": "筆者はいつ、何のためにまた行きたいですか。"
+    }
+   ]
+  },
+  {
+   "id": "r3-08",
+   "title": "Học sinh và điện thoại thông minh",
+   "titleJa": "生徒とスマートフォン",
+   "text": "Ngày nay, hầu hết học sinh trung học ở các thành phố lớn đều có điện thoại thông minh. Điện thoại giúp các em tra cứu thông tin, học trực tuyến và liên lạc với gia đình.\nTuy nhiên, nhiều phụ huynh và giáo viên lo lắng. Một số em dùng điện thoại đến khuya để chơi game hoặc lướt mạng xã hội, dẫn đến thiếu ngủ và kết quả học tập giảm sút. Ngoài ra, việc nhìn màn hình quá lâu cũng ảnh hưởng đến mắt.\nTừ năm học mới, một số trường đã ra quy định: học sinh phải nộp điện thoại cho giáo viên khi vào lớp và chỉ được nhận lại sau giờ học. Nhà trường cho biết sau một học kỳ, học sinh tập trung hơn và nói chuyện với nhau nhiều hơn trong giờ ra chơi.\nDù vậy, cũng có ý kiến cho rằng thay vì cấm, nên dạy học sinh cách sử dụng điện thoại một cách hợp lý và có trách nhiệm.",
+   "ja": "今日、大都市の中高生のほとんどがスマートフォンを持っています。携帯は情報を調べたり、オンラインで学んだり、家族と連絡をとったりするのに役立ちます。\nしかし、多くの保護者や教師は心配しています。深夜まで携帯でゲームをしたりSNSを見たりして、睡眠不足になり成績が下がる生徒もいます。また、画面を長時間見ることは目にも影響します。\n新学年から、いくつかの学校が規則を設けました。生徒は授業に入るときに携帯を先生に預け、授業後にしか返してもらえません。学校によると、1学期後、生徒はより集中し、休み時間にお互いによく話すようになったそうです。\nそれでも、禁止するのではなく、生徒に携帯を合理的かつ責任を持って使う方法を教えるべきだという意見もあります。",
+   "vocab": [
+    {
+     "vi": "tra cứu",
+     "ja": "調べる"
+    },
+    {
+     "vi": "lướt mạng xã hội",
+     "ja": "SNSを見る"
+    },
+    {
+     "vi": "giảm sút",
+     "ja": "低下する"
+    },
+    {
+     "vi": "hợp lý",
+     "ja": "合理的な"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Phụ huynh và giáo viên lo lắng điều gì?",
+     "choices": [
+      "Học sinh không có điện thoại",
+      "Học sinh thiếu ngủ và kết quả học tập giảm",
+      "Điện thoại quá đắt",
+      "Học sinh không biết dùng mạng"
+     ],
+     "answer": 1,
+     "explain": "thiếu ngủ và kết quả học tập giảm sút。",
+     "qJa": "保護者や教師は何を心配していますか。"
+    },
+    {
+     "q": "Theo quy định mới của một số trường, học sinh phải làm gì?",
+     "choices": [
+      "Không được mang điện thoại đến trường",
+      "Nộp điện thoại cho giáo viên khi vào lớp",
+      "Chỉ dùng điện thoại để học",
+      "Mua điện thoại mới"
+     ],
+     "answer": 1,
+     "explain": "phải nộp điện thoại cho giáo viên khi vào lớp。",
+     "qJa": "新しい規則で生徒は何をしなければなりませんか。"
+    },
+    {
+     "q": "Ý kiến ở đoạn cuối là gì?",
+     "choices": [
+      "Nên cấm hoàn toàn điện thoại",
+      "Nên dạy học sinh dùng điện thoại hợp lý",
+      "Nên cho học sinh dùng điện thoại cả ngày",
+      "Không cần quan tâm"
+     ],
+     "answer": 1,
+     "explain": "nên dạy học sinh cách sử dụng điện thoại một cách hợp lý。",
+     "qJa": "最後の段落の意見は何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r3-09",
+   "title": "Bánh mì Việt Nam",
+   "titleJa": "ベトナムのバインミー",
+   "text": "Bánh mì xuất hiện ở Việt Nam vào thời Pháp thuộc. Ban đầu, đây là món ăn của người Pháp và những người giàu có. Dần dần, người Việt đã thay đổi cách làm để phù hợp với khẩu vị và túi tiền của mình.\nBánh mì Việt Nam có vỏ giòn, ruột xốp và nhẹ hơn bánh mì Pháp. Bên trong thường có pa-tê, chả lụa, thịt nguội, dưa góp, rau thơm và nước sốt. Mỗi vùng lại có cách làm riêng: bánh mì Hội An nổi tiếng với nước sốt đặc biệt, còn bánh mì Sài Gòn thường có nhiều loại nhân hơn.\nNăm 2011, từ \"banh mi\" được đưa vào Từ điển tiếng Anh Oxford. Nhiều trang báo quốc tế xếp bánh mì vào danh sách những món ăn đường phố ngon nhất thế giới.\nVới giá chỉ từ hai mươi đến ba mươi nghìn đồng, bánh mì là bữa sáng nhanh, rẻ và ngon của hàng triệu người Việt mỗi ngày.",
+   "ja": "バインミーはフランス統治時代にベトナムに登場しました。最初はフランス人やお金持ちの食べ物でした。だんだんと、ベトナム人は自分たちの味覚と財布に合うように作り方を変えていきました。\nベトナムのバインミーは、皮がパリッとして中はふんわりしており、フランスパンより軽いです。中にはふつう、パテ、ベトナムハム、ハム、なますの漬物、ハーブ、ソースが入っています。地域ごとに独自の作り方があり、ホイアンのバインミーは特製ソースで有名で、サイゴンのバインミーはたいてい具の種類が多いです。\n2011年、「banh mi」という言葉がオックスフォード英語辞典に収録されました。多くの海外メディアがバインミーを世界で最もおいしい屋台料理のリストに入れています。\n値段はたった2万〜3万ドンで、バインミーは毎日何百万人ものベトナム人にとって、速くて安くておいしい朝ごはんです。",
+   "vocab": [
+    {
+     "vi": "thời Pháp thuộc",
+     "ja": "フランス統治時代"
+    },
+    {
+     "vi": "khẩu vị",
+     "ja": "味覚、好み"
+    },
+    {
+     "vi": "ruột xốp",
+     "ja": "ふんわりした中身"
+    },
+    {
+     "vi": "dưa góp",
+     "ja": "なます風の漬物"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Lúc đầu, bánh mì là món ăn của ai?",
+     "choices": [
+      "Nông dân",
+      "Người Pháp và người giàu",
+      "Học sinh",
+      "Người miền Trung"
+     ],
+     "answer": 1,
+     "explain": "là món ăn của người Pháp và những người giàu có。",
+     "qJa": "最初、バインミーは誰の食べ物でしたか。"
+    },
+    {
+     "q": "Bánh mì Việt Nam khác bánh mì Pháp ở điểm nào?",
+     "choices": [
+      "Nặng hơn",
+      "Nhẹ hơn",
+      "Không có vỏ",
+      "Chỉ ăn với đường"
+     ],
+     "answer": 1,
+     "explain": "nhẹ hơn bánh mì Pháp。",
+     "qJa": "フランスパンとどこが違いますか。"
+    },
+    {
+     "q": "Sự kiện nào xảy ra năm 2011?",
+     "choices": [
+      "Bánh mì xuất hiện ở Việt Nam",
+      "Từ \"banh mi\" được đưa vào từ điển Oxford",
+      "Giá bánh mì tăng",
+      "Mở cửa hàng bánh mì đầu tiên"
+     ],
+     "answer": 1,
+     "explain": "được đưa vào Từ điển tiếng Anh Oxford。",
+     "qJa": "2011年に何がありましたか。"
+    }
+   ]
+  },
+  {
+   "id": "r3-10",
+   "title": "Người cao tuổi và mạng xã hội",
+   "titleJa": "高齢者とSNS",
+   "text": "Ông Trần Văn Bình năm nay bảy mươi hai tuổi, sống ở Nam Định. Các con của ông đều làm việc ở Hà Nội và nước ngoài, nên ông bà thường chỉ gặp con cháu vào dịp Tết.\nHai năm trước, cháu gái dạy ông dùng điện thoại thông minh. Lúc đầu ông thấy rất khó, bấm nhầm liên tục. Nhưng nhờ kiên trì, giờ đây ông đã biết gọi video, gửi tin nhắn và xem tin tức trên mạng.\n\"Trước kia, muốn nói chuyện với con trai ở Đức, tôi phải chờ nó gọi về. Bây giờ, tối nào tôi cũng gọi video, nhìn thấy các cháu lớn từng ngày,\" ông Bình vui vẻ kể.\nÔng còn tham gia một nhóm những người yêu thơ trên mạng xã hội. Mỗi tuần ông đăng một bài thơ và nhận được nhiều bình luận. Theo ông, công nghệ giúp người già bớt cô đơn và cảm thấy mình vẫn còn kết nối với cuộc sống.",
+   "ja": "チャン・ヴァン・ビンさんは今年72歳で、ナムディンに住んでいます。子どもたちはみなハノイや外国で働いているので、夫婦は子や孫にテトのときしか会えないことが多いです。\n2年前、孫娘がビンさんにスマートフォンの使い方を教えました。最初はとても難しく感じ、何度も押し間違えました。しかし根気よく続けたおかげで、今ではビデオ通話やメッセージの送信、ネットでニュースを見ることができるようになりました。\n「以前は、ドイツにいる息子と話したいとき、息子が電話してくるのを待たなければなりませんでした。今は毎晩ビデオ通話をして、孫たちが日に日に大きくなるのを見ています」とビンさんはうれしそうに話します。\nビンさんはSNSの詩を愛する人々のグループにも参加しています。毎週詩を1編投稿し、たくさんのコメントをもらっています。ビンさんによると、技術は高齢者の孤独を和らげ、自分がまだ社会とつながっていると感じさせてくれるそうです。",
+   "vocab": [
+    {
+     "vi": "kiên trì",
+     "ja": "根気よく続ける"
+    },
+    {
+     "vi": "kết nối",
+     "ja": "つながる"
+    },
+    {
+     "vi": "bình luận",
+     "ja": "コメント"
+    },
+    {
+     "vi": "đăng",
+     "ja": "投稿する"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ai dạy ông Bình dùng điện thoại thông minh?",
+     "choices": [
+      "Con trai",
+      "Cháu gái",
+      "Hàng xóm",
+      "Giáo viên"
+     ],
+     "answer": 1,
+     "explain": "cháu gái dạy ông dùng điện thoại thông minh。",
+     "qJa": "誰がビンさんにスマートフォンの使い方を教えましたか。"
+    },
+    {
+     "q": "Bây giờ ông Bình thường làm gì vào buổi tối?",
+     "choices": [
+      "Xem tivi",
+      "Gọi video cho con cháu",
+      "Đi dạo",
+      "Đọc báo giấy"
+     ],
+     "answer": 1,
+     "explain": "tối nào tôi cũng gọi video。",
+     "qJa": "今ビンさんは夜に何をしていますか。"
+    },
+    {
+     "q": "Theo ông Bình, công nghệ giúp người già điều gì?",
+     "choices": [
+      "Kiếm thêm tiền",
+      "Bớt cô đơn và thấy mình còn kết nối với cuộc sống",
+      "Khỏe mạnh hơn",
+      "Ngủ ngon hơn"
+     ],
+     "answer": 1,
+     "explain": "giúp người già bớt cô đơn và cảm thấy mình vẫn còn kết nối。",
+     "qJa": "ビンさんによると、技術は高齢者に何をもたらしますか。"
+    }
+   ]
+  }
+ ]
+}
