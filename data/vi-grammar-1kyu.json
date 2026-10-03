@@ -1,0 +1,1693 @@
+{
+ "level": 1,
+ "points": [
+  {
+   "id": "g1-01",
+   "title": "trên cơ sở / trên tinh thần（〜を基礎として・〜の精神で）",
+   "pattern": "Trên cơ sở + 名詞, ... / Trên tinh thần + 名詞, ...",
+   "explain": "公文書・外交文書でよく使われる硬い表現。判断や行動のよりどころを示します。",
+   "examples": [
+    {
+     "vi": "Trên cơ sở kết quả khảo sát, công ty điều chỉnh chiến lược.",
+     "ja": "調査結果に基づいて、会社は戦略を調整した。"
+    },
+    {
+     "vi": "Hai bên trao đổi trên tinh thần hữu nghị và thẳng thắn.",
+     "ja": "双方は友好的かつ率直な精神で意見を交わした。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ cơ sở đề xuất của các bộ, Chính phủ đã ban hành nghị định.",
+     "choices": [
+      "Dưới",
+      "Trong",
+      "Trên",
+      "Ngoài"
+     ],
+     "answer": 2,
+     "ja": "各省の提案に基づき、政府は政令を公布した。",
+     "explain": "trên cơ sở＝〜に基づいて。"
+    },
+    {
+     "q": "Hai nước hợp tác trên ___ thần tôn trọng lẫn nhau.",
+     "choices": [
+      "tâm",
+      "thể",
+      "tinh",
+      "tư"
+     ],
+     "answer": 2,
+     "ja": "両国は相互尊重の精神で協力している。",
+     "explain": "trên tinh thần＝〜の精神で。"
+    }
+   ]
+  },
+  {
+   "id": "g1-02",
+   "title": "xét về (mặt) / về mặt（〜の面から見ると）",
+   "pattern": "Xét về (mặt) + 観点, ... / Về mặt + 観点, ...",
+   "explain": "評価の観点を限定する表現。論説文で比較・評価をするときに使います。",
+   "examples": [
+    {
+     "vi": "Xét về mặt kinh tế, dự án này rất có lợi.",
+     "ja": "経済の面から見ると、このプロジェクトは非常に有益だ。"
+    },
+    {
+     "vi": "Về mặt pháp lý, hợp đồng này không có giá trị.",
+     "ja": "法的な面では、この契約には効力がない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ về chất lượng, sản phẩm này không thua kém hàng ngoại.",
+     "choices": [
+      "Kể",
+      "Nhân",
+      "Tùy",
+      "Xét"
+     ],
+     "answer": 3,
+     "ja": "品質の面から見ると、この製品は外国製に劣らない。",
+     "explain": "xét về＝〜の面から見ると。"
+    },
+    {
+     "q": "Về ___ kỹ thuật, kế hoạch này hoàn toàn khả thi.",
+     "choices": [
+      "lượt",
+      "phần",
+      "bên trong",
+      "mặt"
+     ],
+     "answer": 3,
+     "ja": "技術面では、この計画は完全に実現可能だ。",
+     "explain": "về mặt＝〜の面では。"
+    }
+   ]
+  },
+  {
+   "id": "g1-03",
+   "title": "riêng / về phần（〜については・〜に関して言えば）",
+   "pattern": "Riêng + 名詞 + thì ... / Về phần + 人, ...",
+   "explain": "全体の中から一部を取り出して述べる表現。前の内容との対比を含むことが多いです。",
+   "examples": [
+    {
+     "vi": "Mọi người đều đồng ý, riêng anh ấy thì phản đối.",
+     "ja": "皆賛成したが、彼だけは反対した。"
+    },
+    {
+     "vi": "Về phần tôi, tôi sẽ cố gắng hết sức.",
+     "ja": "私に関して言えば、全力を尽くします。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Cả lớp đều đi tham quan, ___ Nam thì ở nhà vì ốm.",
+     "choices": [
+      "riêng",
+      "trên cơ sở",
+      "tùy",
+      "về mặt"
+     ],
+     "answer": 0,
+     "ja": "クラス全員見学に行ったが、ナムだけは病気で家にいた。",
+     "explain": "一部を取り出すのは riêng。"
+    },
+    {
+     "q": "Về ___ mình, chị ấy chưa đưa ra ý kiến.",
+     "choices": [
+      "phía mà",
+      "phần",
+      "cơ sở",
+      "mặt"
+     ],
+     "answer": 1,
+     "ja": "彼女自身はまだ意見を述べていない。",
+     "explain": "về phần＋人＝〜に関して言えば。"
+    }
+   ]
+  },
+  {
+   "id": "g1-04",
+   "title": "một mặt ... mặt khác ...（一方では…他方では…）",
+   "pattern": "Một mặt + A, mặt khác + B",
+   "explain": "物事の二つの側面を並べて述べる表現です。",
+   "examples": [
+    {
+     "vi": "Một mặt, chúng ta phải phát triển kinh tế; mặt khác, phải bảo vệ môi trường.",
+     "ja": "一方では経済を発展させ、他方では環境を守らなければならない。"
+    },
+    {
+     "vi": "Một mặt anh ấy muốn đi du học, mặt khác lại không muốn xa gia đình.",
+     "ja": "彼は留学したい一方で、家族と離れたくもない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Một mặt công ty cắt giảm chi phí, ___ khác tăng cường đầu tư công nghệ.",
+     "choices": [
+      "bên",
+      "mặt",
+      "phía",
+      "phần"
+     ],
+     "answer": 1,
+     "ja": "会社はコストを削減する一方で、技術投資を強化している。",
+     "explain": "một mặt ... mặt khác ...。"
+    },
+    {
+     "q": "___ mặt, mạng xã hội giúp kết nối; mặt khác, nó gây nghiện.",
+     "choices": [
+      "Mọi",
+      "Từng",
+      "Một",
+      "Mỗi"
+     ],
+     "answer": 2,
+     "ja": "一方でSNSはつながりを助けるが、他方で依存を招く。",
+     "explain": "một mặt で始めます。"
+    }
+   ]
+  },
+  {
+   "id": "g1-05",
+   "title": "không những không ... mà còn ...（〜しないどころか、逆に…）",
+   "pattern": "Không những không + A + mà còn + B",
+   "explain": "期待とは反対の結果になったことを強く表します。",
+   "examples": [
+    {
+     "vi": "Anh ta không những không xin lỗi mà còn đổ lỗi cho người khác.",
+     "ja": "彼は謝らないどころか、逆に他人のせいにした。"
+    },
+    {
+     "vi": "Thuốc không những không khỏi mà còn làm bệnh nặng thêm.",
+     "ja": "薬は効かないどころか、病気をさらに悪化させた。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Giá không những không giảm ___ còn tăng mạnh.",
+     "choices": [
+      "mà",
+      "để",
+      "nên",
+      "thì"
+     ],
+     "answer": 0,
+     "ja": "価格は下がらないどころか、逆に大きく上がった。",
+     "explain": "không những không ... mà còn ...。"
+    },
+    {
+     "q": "Cậu ấy không ___ không giúp mà còn cản trở.",
+     "choices": [
+      "phải là",
+      "hề là",
+      "những",
+      "chỉ là"
+     ],
+     "answer": 2,
+     "ja": "彼は手伝わないどころか、邪魔をした。",
+     "explain": "không những không。"
+    }
+   ]
+  },
+  {
+   "id": "g1-06",
+   "title": "càng ... bao nhiêu thì càng ... bấy nhiêu（〜すればするほど、それだけ…）",
+   "pattern": "A + càng ... bao nhiêu, (thì) B + càng ... bấy nhiêu",
+   "explain": "càng ... càng の強調形で、比例関係を書き言葉的に表します。",
+   "examples": [
+    {
+     "vi": "Anh càng cố gắng bao nhiêu thì kết quả càng tốt bấy nhiêu.",
+     "ja": "努力すればするほど、それだけ結果は良くなる。"
+    },
+    {
+     "vi": "Lên càng cao bao nhiêu, không khí càng loãng bấy nhiêu.",
+     "ja": "高く登れば登るほど、それだけ空気は薄くなる。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Càng đọc nhiều bao nhiêu, hiểu biết càng rộng ___.",
+     "choices": [
+      "bao nhiêu",
+      "đến đâu",
+      "thế nào",
+      "bấy nhiêu"
+     ],
+     "answer": 3,
+     "ja": "たくさん読めば読むほど、それだけ見識が広がる。",
+     "explain": "bao nhiêu と呼応するのは bấy nhiêu。"
+    },
+    {
+     "q": "Càng gần ngày thi ___ nhiêu, cô ấy càng lo lắng bấy nhiêu.",
+     "choices": [
+      "bấy",
+      "mấy",
+      "chừng",
+      "bao"
+     ],
+     "answer": 3,
+     "ja": "試験日が近づくほど、彼女はそれだけ不安になる。",
+     "explain": "前半は bao nhiêu。"
+    }
+   ]
+  },
+  {
+   "id": "g1-07",
+   "title": "疑問詞の呼応（đâu ... đấy / nào ... nấy / sao ... vậy）",
+   "pattern": "疑問詞 + ... + 対応する指示詞",
+   "explain": "前半の疑問詞を後半の指示詞で受けて「〜する所（物・ように）はそのまま」を表します。",
+   "examples": [
+    {
+     "vi": "Anh đi đâu, tôi theo đấy.",
+     "ja": "あなたが行く所に私はついて行く。"
+    },
+    {
+     "vi": "Cha nào con nấy.",
+     "ja": "この親にしてこの子あり。"
+    },
+    {
+     "vi": "Anh bảo sao, tôi làm vậy.",
+     "ja": "あなたが言うとおりに私はする。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Anh làm thế nào, tôi làm ___.",
+     "choices": [
+      "bao nhiêu",
+      "nào nấy",
+      "thế ấy",
+      "đâu đấy"
+     ],
+     "answer": 2,
+     "ja": "あなたがするとおりに私もする。",
+     "explain": "thế nào ... thế ấy。"
+    },
+    {
+     "q": "Mẹ nào con ___.",
+     "choices": [
+      "ấy là",
+      "nấy",
+      "đấy",
+      "vậy"
+     ],
+     "answer": 1,
+     "ja": "この母にしてこの子あり。",
+     "explain": "nào ... nấy。"
+    }
+   ]
+  },
+  {
+   "id": "g1-08",
+   "title": "ai nấy / ai ai（誰もが）",
+   "pattern": "Ai nấy (đều) + 動詞 / Ai ai cũng + 動詞",
+   "explain": "「全員が例外なく」を表す強調表現です。",
+   "examples": [
+    {
+     "vi": "Nghe tin thắng trận, ai nấy đều vui mừng.",
+     "ja": "勝利の知らせを聞いて、誰もが喜んだ。"
+    },
+    {
+     "vi": "Ai ai cũng biết câu chuyện ấy.",
+     "ja": "誰もがその話を知っている。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Ai ___ đều chăm chú lắng nghe.",
+     "choices": [
+      "đấy",
+      "vậy",
+      "cả",
+      "nấy"
+     ],
+     "answer": 3,
+     "ja": "誰もが熱心に耳を傾けた。",
+     "explain": "ai nấy＝誰もが。"
+    },
+    {
+     "q": "Ai ___ cũng mong hòa bình.",
+     "choices": [
+      "mọi",
+      "người",
+      "đấy",
+      "ai"
+     ],
+     "answer": 3,
+     "ja": "誰もが平和を願っている。",
+     "explain": "ai ai cũng。"
+    }
+   ]
+  },
+  {
+   "id": "g1-09",
+   "title": "疑問詞の重ね（đâu đâu / gì gì / ai ai）",
+   "pattern": "đâu đâu cũng / gì gì cũng / nhà nhà, người người",
+   "explain": "疑問詞や名詞を重ねて「どこもかしこも」「家々・人々みな」を表します。",
+   "examples": [
+    {
+     "vi": "Đâu đâu cũng thấy cờ hoa rực rỡ.",
+     "ja": "どこもかしこも旗や花で彩られている。"
+    },
+    {
+     "vi": "Nhà nhà, người người hưởng ứng phong trào.",
+     "ja": "家々、人々みながその運動に参加した。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Tết đến, ___ đâu cũng rộn ràng.",
+     "choices": [
+      "nào",
+      "sao",
+      "đâu",
+      "ai"
+     ],
+     "answer": 2,
+     "ja": "テトになると、どこもかしこもにぎやかだ。",
+     "explain": "đâu đâu cũng。"
+    },
+    {
+     "q": "Nhà nhà, người ___ đều chuẩn bị đón năm mới.",
+     "choices": [
+      "người",
+      "nấy",
+      "ai",
+      "mọi"
+     ],
+     "answer": 0,
+     "ja": "家々、人々みな新年を迎える準備をしている。",
+     "explain": "nhà nhà, người người。"
+    }
+   ]
+  },
+  {
+   "id": "g1-10",
+   "title": "không ít thì nhiều（多かれ少なかれ）",
+   "pattern": "..., không ít thì nhiều",
+   "explain": "程度の差はあっても必ずある、という慣用表現です。",
+   "examples": [
+    {
+     "vi": "Ai cũng không ít thì nhiều chịu ảnh hưởng của gia đình.",
+     "ja": "誰もが多かれ少なかれ家族の影響を受けている。"
+    },
+    {
+     "vi": "Dịch bệnh ảnh hưởng không ít thì nhiều đến mọi ngành.",
+     "ja": "感染症は多かれ少なかれすべての業界に影響した。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Không ít thì ___, mỗi người đều có lỗi.",
+     "choices": [
+      "đủ",
+      "nhiều",
+      "ít",
+      "thêm"
+     ],
+     "answer": 1,
+     "ja": "多かれ少なかれ、誰にでも非がある。",
+     "explain": "không ít thì nhiều。"
+    },
+    {
+     "q": "Sự kiện này không ___ thì nhiều đã thay đổi suy nghĩ của tôi.",
+     "choices": [
+      "nhiều",
+      "đủ",
+      "mấy",
+      "ít"
+     ],
+     "answer": 3,
+     "ja": "この出来事は多かれ少なかれ私の考えを変えた。",
+     "explain": "không ít thì nhiều。"
+    }
+   ]
+  },
+  {
+   "id": "g1-11",
+   "title": "chưa ... đã ...（〜しないうちにもう）",
+   "pattern": "Chưa + A + đã + B",
+   "explain": "ある事が終わる前に次の事が起きることを表し、驚きや非難を含みます。",
+   "examples": [
+    {
+     "vi": "Chưa nghe hết câu, anh ta đã phản đối.",
+     "ja": "話を最後まで聞かないうちに、彼はもう反対した。"
+    },
+    {
+     "vi": "Chưa đến trưa, hàng đã bán hết.",
+     "ja": "昼にもならないうちに、商品は売り切れた。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chưa làm gì cả ___ kêu mệt.",
+     "choices": [
+      "đang",
+      "vẫn",
+      "đã",
+      "sẽ"
+     ],
+     "answer": 2,
+     "ja": "何もしないうちからもう疲れたと言う。",
+     "explain": "chưa ... đã ...。"
+    },
+    {
+     "q": "___ học xong, cậu ấy đã đi chơi.",
+     "choices": [
+      "Mới",
+      "Đã",
+      "Chưa",
+      "Vừa"
+     ],
+     "answer": 2,
+     "ja": "勉強を終えないうちに、彼はもう遊びに行った。",
+     "explain": "「〜しないうちに」は chưa。"
+    }
+   ]
+  },
+  {
+   "id": "g1-12",
+   "title": "há / há chẳng（どうして〜であろうか：文語の反語）",
+   "pattern": "Há + 文 + sao / ư? / Há chẳng phải ... sao?",
+   "explain": "文学的・論説的な反語表現。「どうして〜なことがあろうか（いや、ない）」。",
+   "examples": [
+    {
+     "vi": "Người xưa có câu: bậc trượng phu há sợ gian nan?",
+     "ja": "昔の言葉に「大丈夫たる者、どうして困難を恐れようか」とある。"
+    },
+    {
+     "vi": "Há chẳng phải đó là điều ai cũng biết sao?",
+     "ja": "それは誰もが知っていることではないか。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ chẳng phải chính anh đã hứa sao?",
+     "choices": [
+      "Hãy",
+      "Hòng",
+      "Há",
+      "Hễ"
+     ],
+     "answer": 2,
+     "ja": "約束したのはほかならぬあなたではないか。",
+     "explain": "文語の反語は há。"
+    },
+    {
+     "q": "Việc lớn như vậy, há có thể làm qua loa ___?",
+     "choices": [
+      "đâu mà",
+      "sao",
+      "chứ lị",
+      "thôi"
+     ],
+     "answer": 1,
+     "ja": "このような大事を、どうしていい加減にできようか。",
+     "explain": "há ... sao? の形。"
+    }
+   ]
+  },
+  {
+   "id": "g1-13",
+   "title": "chăng（〜だろうか・〜ではあるまいか：文語の疑問）",
+   "pattern": "文 + chăng? / Phải chăng + 文?",
+   "explain": "書き言葉で推測を含む疑問を表します。phải chăng は「〜ではないだろうか」。",
+   "examples": [
+    {
+     "vi": "Phải chăng chúng ta đã quá vội vàng?",
+     "ja": "私たちは急ぎすぎたのではないだろうか。"
+    },
+    {
+     "vi": "Có lẽ anh ấy đã quên chăng?",
+     "ja": "もしかすると彼は忘れたのだろうか。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Phải ___ đây là nguyên nhân thực sự của khủng hoảng?",
+     "choices": [
+      "nhé",
+      "chăng",
+      "chứ",
+      "ạ"
+     ],
+     "answer": 1,
+     "ja": "これこそが危機の本当の原因ではないだろうか。",
+     "explain": "phải chăng。"
+    },
+    {
+     "q": "Hay là cô ấy giận ta ___?",
+     "choices": [
+      "chăng",
+      "bấy",
+      "nấy",
+      "vậy thì"
+     ],
+     "answer": 0,
+     "ja": "もしかして彼女は私たちに怒っているのだろうか。",
+     "explain": "文末の chăng。"
+    }
+   ]
+  },
+  {
+   "id": "g1-14",
+   "title": "cùng lắm / bất quá / là cùng（せいぜい・最悪でも）",
+   "pattern": "Cùng lắm (là) + 数量・状況 / ... là cùng",
+   "explain": "上限や最悪の場合を示し、「大したことはない」という気持ちを含みます。",
+   "examples": [
+    {
+     "vi": "Cùng lắm thì mình làm lại từ đầu.",
+     "ja": "最悪でも、最初からやり直せばいい。"
+    },
+    {
+     "vi": "Đi bộ đến đó mất mười phút là cùng.",
+     "ja": "歩いてそこまでせいぜい10分だ。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Cái áo này ___ lắm cũng chỉ hai trăm nghìn.",
+     "choices": [
+      "hơn",
+      "ít",
+      "cùng",
+      "dĩ"
+     ],
+     "answer": 2,
+     "ja": "この服はせいぜい20万ドンだ。",
+     "explain": "cùng lắm＝せいぜい。"
+    },
+    {
+     "q": "Anh ấy bất ___ chỉ là một nhân viên mới.",
+     "choices": [
+      "quá",
+      "đắc dĩ",
+      "luận",
+      "kể"
+     ],
+     "answer": 0,
+     "ja": "彼はせいぜい新入社員にすぎない。",
+     "explain": "bất quá＝せいぜい。"
+    }
+   ]
+  },
+  {
+   "id": "g1-15",
+   "title": "kỳ thực / thực ra / thật ra（実は）",
+   "pattern": "Kỳ thực / Thực ra + 真相",
+   "explain": "表面と違う本当のことを述べる表現。kỳ thực は書き言葉的です。",
+   "examples": [
+    {
+     "vi": "Trông cô ấy lạnh lùng, kỳ thực rất tốt bụng.",
+     "ja": "彼女は冷たく見えるが、実はとても親切だ。"
+    },
+    {
+     "vi": "Thực ra tôi không muốn đi lắm.",
+     "ja": "実はあまり行きたくないんだ。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Anh ta nói là bận, ___ thực là không muốn gặp.",
+     "choices": [
+      "thật",
+      "kỳ",
+      "đúng",
+      "vô"
+     ],
+     "answer": 1,
+     "ja": "彼は忙しいと言ったが、実は会いたくないのだ。",
+     "explain": "kỳ thực＝実は。"
+    },
+    {
+     "q": "Thực ___, kế hoạch đó đã thất bại từ lâu.",
+     "choices": [
+      "đơn",
+      "hành",
+      "ra",
+      "phẩm"
+     ],
+     "answer": 2,
+     "ja": "実は、その計画はとっくに失敗していた。",
+     "explain": "thực ra＝実は。"
+    }
+   ]
+  },
+  {
+   "id": "g1-16",
+   "title": "những / có mỗi（数量の強調：〜も／たった〜だけ）",
+   "pattern": "những + 数量（多さの強調）/ có mỗi + 数量（少なさの強調）",
+   "explain": "数の前の những は「〜も」と多さを、có mỗi / chỉ có mỗi は「たった〜だけ」と少なさを強調します。",
+   "examples": [
+    {
+     "vi": "Nó ăn những ba bát cơm.",
+     "ja": "あの子はご飯を3杯も食べた。"
+    },
+    {
+     "vi": "Cả nhà chỉ có mỗi một chiếc xe máy.",
+     "ja": "家全体でバイクがたった1台しかない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Anh ấy đợi ___ hai tiếng đồng hồ.",
+     "choices": [
+      "những",
+      "mọi",
+      "các",
+      "từng"
+     ],
+     "answer": 0,
+     "ja": "彼は2時間も待った。",
+     "explain": "多さの強調は những。"
+    },
+    {
+     "q": "Trong ví chỉ còn có ___ mười nghìn đồng.",
+     "choices": [
+      "những",
+      "các",
+      "mỗi",
+      "mọi"
+     ],
+     "answer": 2,
+     "ja": "財布にはたった1万ドンしか残っていない。",
+     "explain": "少なさの強調は có mỗi。"
+    }
+   ]
+  },
+  {
+   "id": "g1-17",
+   "title": "thì đã sao / thì sao（〜だからどうだというのか）",
+   "pattern": "A + thì đã sao? / A + thì sao?",
+   "explain": "相手の指摘を「それがどうした」と退ける表現。強い口調になります。",
+   "examples": [
+    {
+     "vi": "Nghèo thì đã sao? Miễn là sống lương thiện.",
+     "ja": "貧しいからどうだというのか。正直に生きればいい。"
+    },
+    {
+     "vi": "Tôi đến muộn một chút thì sao?",
+     "ja": "少し遅れたからってそれが何？"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Thất bại một lần thì đã ___? Làm lại thôi.",
+     "choices": [
+      "nào",
+      "sao",
+      "gì mà",
+      "đâu"
+     ],
+     "answer": 1,
+     "ja": "一度失敗したからどうだというのか。やり直せばいい。",
+     "explain": "thì đã sao。"
+    },
+    {
+     "q": "Người ta nói ra nói vào ___ đã sao?",
+     "choices": [
+      "để",
+      "mà",
+      "nên",
+      "thì"
+     ],
+     "answer": 3,
+     "ja": "人があれこれ言ったからといってそれが何だ。",
+     "explain": "A thì đã sao。"
+    }
+   ]
+  },
+  {
+   "id": "g1-18",
+   "title": "không phải là không（〜でないわけではない：二重否定）",
+   "pattern": "Không phải là không + 動詞・形容詞",
+   "explain": "二重否定で控えめに肯定します。「全く〜ないわけではない」。",
+   "examples": [
+    {
+     "vi": "Tôi không phải là không muốn giúp, nhưng thật sự không có thời gian.",
+     "ja": "手伝いたくないわけではないが、本当に時間がない。"
+    },
+    {
+     "vi": "Việc này không phải là không có cách giải quyết.",
+     "ja": "この件に解決策がないわけではない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Anh ấy không phải là ___ có năng lực, chỉ là thiếu kinh nghiệm.",
+     "choices": [
+      "chưa hề",
+      "chẳng phải",
+      "đâu",
+      "không"
+     ],
+     "answer": 3,
+     "ja": "彼に能力がないわけではない、ただ経験が足りないだけだ。",
+     "explain": "không phải là không。"
+    },
+    {
+     "q": "Không phải là không có ___, nhưng rủi ro rất cao.",
+     "choices": [
+      "lợi ích",
+      "sao",
+      "nấy",
+      "đâu"
+     ],
+     "answer": 0,
+     "ja": "利益がないわけではないが、リスクがとても高い。",
+     "explain": "không phải là không có lợi ích＝利益がないわけではない。"
+    }
+   ]
+  },
+  {
+   "id": "g1-19",
+   "title": "không ai là không / không ... nào là không（〜しない者はいない）",
+   "pattern": "Không ai là không + 動詞 / Không + 名詞 + nào là không + ...",
+   "explain": "全員・全部がそうであることを二重否定で強調します。",
+   "examples": [
+    {
+     "vi": "Không ai là không biết đến món phở.",
+     "ja": "フォーを知らない人はいない。"
+    },
+    {
+     "vi": "Không nơi nào là không có dấu ấn của ông.",
+     "ja": "彼の足跡が残っていない場所はない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Không ai là ___ xúc động khi nghe câu chuyện ấy.",
+     "choices": [
+      "chẳng ai",
+      "không",
+      "hề",
+      "có"
+     ],
+     "answer": 1,
+     "ja": "その話を聞いて感動しない者はいなかった。",
+     "explain": "không ai là không。"
+    },
+    {
+     "q": "Không ngày nào là không ___ mưa.",
+     "choices": [
+      "không",
+      "có",
+      "đã",
+      "chẳng"
+     ],
+     "answer": 1,
+     "ja": "雨が降らない日はない（毎日雨だ）。",
+     "explain": "không ... nào là không có。"
+    }
+   ]
+  },
+  {
+   "id": "g1-20",
+   "title": "được cái / mỗi tội（取り柄は〜だ／ただ難点は〜だ）",
+   "pattern": "A, được cái + 長所 / A, mỗi tội + 短所",
+   "explain": "口語でよく使う評価表現。được cái は欠点を補う長所、mỗi tội はただ一つの難点。",
+   "examples": [
+    {
+     "vi": "Căn nhà hơi nhỏ, được cái gần chợ.",
+     "ja": "家は少し狭いが、市場に近いのが取り柄だ。"
+    },
+    {
+     "vi": "Anh ấy tốt bụng, mỗi tội hay quên.",
+     "ja": "彼は親切だが、ただ忘れっぽいのが難点だ。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Món này hơi đắt, ___ cái rất ngon.",
+     "choices": [
+      "vì",
+      "có",
+      "được",
+      "mỗi"
+     ],
+     "answer": 2,
+     "ja": "この料理は少し高いが、とてもおいしいのが取り柄だ。",
+     "explain": "長所は được cái。"
+    },
+    {
+     "q": "Cô ấy học giỏi, ___ tội hơi nhút nhát.",
+     "choices": [
+      "từng",
+      "mỗi",
+      "những",
+      "được"
+     ],
+     "answer": 1,
+     "ja": "彼女は成績が良いが、少し内気なのが難点だ。",
+     "explain": "難点は mỗi tội。"
+    }
+   ]
+  },
+  {
+   "id": "g1-21",
+   "title": "khổ nỗi / ngặt nỗi（困ったことに）",
+   "pattern": "A, khổ nỗi / ngặt (một) nỗi + 障害",
+   "explain": "望みを妨げる事情を嘆く気持ちで述べます。",
+   "examples": [
+    {
+     "vi": "Tôi muốn đi lắm, khổ nỗi không xin nghỉ được.",
+     "ja": "とても行きたいのだが、困ったことに休みが取れない。"
+    },
+    {
+     "vi": "Nhà đẹp, ngặt một nỗi giá quá cao.",
+     "ja": "家はきれいだが、困ったことに値段が高すぎる。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Muốn học thêm, ___ nỗi không có tiền.",
+     "choices": [
+      "đáng",
+      "khổ",
+      "may",
+      "mỗi"
+     ],
+     "answer": 1,
+     "ja": "もっと勉強したいが、困ったことにお金がない。",
+     "explain": "khổ nỗi＝困ったことに。"
+    },
+    {
+     "q": "Đề án rất hay, ngặt một ___ thiếu nhân lực.",
+     "choices": [
+      "nỗi",
+      "mặt",
+      "phần",
+      "niềm"
+     ],
+     "answer": 0,
+     "ja": "企画はとても良いが、困ったことに人手が足りない。",
+     "explain": "ngặt một nỗi。"
+    }
+   ]
+  },
+  {
+   "id": "g1-22",
+   "title": "may mà / may sao / nhỡ / lỡ（幸い／万一）",
+   "pattern": "May mà + 好ましい事実 / Nhỡ (mà) + 好ましくない仮定 (thì sao)",
+   "explain": "may mà は「幸い〜だったから助かった」、nhỡ・lỡ は「万一〜したら」という心配。",
+   "examples": [
+    {
+     "vi": "May mà có anh giúp, không thì tôi không biết làm sao.",
+     "ja": "幸いあなたが手伝ってくれた。でなければどうしていいかわからなかった。"
+    },
+    {
+     "vi": "Nhỡ trời mưa thì sao?",
+     "ja": "万一雨が降ったらどうする？"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ mà xe cấp cứu đến kịp.",
+     "choices": [
+      "Khổ",
+      "Nhỡ",
+      "May",
+      "Lỡ"
+     ],
+     "answer": 2,
+     "ja": "幸い救急車が間に合った。",
+     "explain": "好ましい事実は may mà。"
+    },
+    {
+     "q": "Mang ô theo đi, ___ trời mưa.",
+     "choices": [
+      "may mà",
+      "kỳ thực",
+      "được cái",
+      "nhỡ"
+     ],
+     "answer": 3,
+     "ja": "傘を持っていきなよ、万一雨が降ったら困るから。",
+     "explain": "万一は nhỡ。"
+    }
+   ]
+  },
+  {
+   "id": "g1-23",
+   "title": "phải（望まないことに遭う：ăn phải・mua phải など）",
+   "pattern": "動詞 + phải + 目的語",
+   "explain": "動詞の後の phải は「（望まないのに）〜してしまう」という被害を表します。",
+   "examples": [
+    {
+     "vi": "Tôi mua phải hàng giả.",
+     "ja": "偽物をつかまされた。"
+    },
+    {
+     "vi": "Cậu bé ăn phải thức ăn ôi thiu nên bị đau bụng.",
+     "ja": "男の子は腐った物を食べてしまい、お腹を壊した。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Đi đường cẩn thận kẻo giẫm ___ đinh.",
+     "choices": [
+      "được",
+      "ra",
+      "phải",
+      "lấy"
+     ],
+     "answer": 2,
+     "ja": "釘を踏まないよう道に気をつけて。",
+     "explain": "被害の phải。"
+    },
+    {
+     "q": "Anh ấy gặp ___ một tên lừa đảo.",
+     "choices": [
+      "phải",
+      "lấy",
+      "nhau",
+      "ra"
+     ],
+     "answer": 0,
+     "ja": "彼は詐欺師に出くわしてしまった。",
+     "explain": "gặp phải＝（悪いものに）出くわす。"
+    }
+   ]
+  },
+  {
+   "id": "g1-24",
+   "title": "lấy ... làm ...（〜を…とする）",
+   "pattern": "lấy + A + làm + B",
+   "explain": "Aを基準・根本・目標などとする、という書き言葉の表現です。",
+   "examples": [
+    {
+     "vi": "Chính phủ lấy dân làm gốc.",
+     "ja": "政府は民を根本とする。"
+    },
+    {
+     "vi": "Công ty lấy chất lượng làm hàng đầu.",
+     "ja": "会社は品質を第一とする。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chúng tôi lấy sự hài lòng của khách hàng ___ mục tiêu.",
+     "choices": [
+      "là",
+      "thành",
+      "cho",
+      "làm"
+     ],
+     "answer": 3,
+     "ja": "私たちは顧客満足を目標とする。",
+     "explain": "lấy ... làm ...。"
+    },
+    {
+     "q": "___ bạo lực làm phương tiện là không thể chấp nhận.",
+     "choices": [
+      "Lấy",
+      "Đem lại",
+      "Cho",
+      "Bởi"
+     ],
+     "answer": 0,
+     "ja": "暴力を手段とすることは受け入れられない。",
+     "explain": "lấy で始めます。"
+    }
+   ]
+  },
+  {
+   "id": "g1-25",
+   "title": "dĩ nhiên / hiển nhiên / tất nhiên（当然・言うまでもなく）",
+   "pattern": "Dĩ nhiên / Hiển nhiên là + 文",
+   "explain": "当然であることを示します。hiển nhiên は「明白な」というニュアンスが強い書き言葉。",
+   "examples": [
+    {
+     "vi": "Dĩ nhiên là tôi sẽ đến.",
+     "ja": "もちろん行きます。"
+    },
+    {
+     "vi": "Đó là sự thật hiển nhiên, không ai chối cãi được.",
+     "ja": "それは明白な事実で、誰も否定できない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Muốn thành công, ___ nhiên phải nỗ lực.",
+     "choices": [
+      "ngẫu",
+      "dĩ",
+      "đột",
+      "thiên"
+     ],
+     "answer": 1,
+     "ja": "成功したいなら、当然努力しなければならない。",
+     "explain": "dĩ nhiên＝当然。"
+    },
+    {
+     "q": "Đây là điều ___ nhiên, cần gì phải chứng minh.",
+     "choices": [
+      "thiên",
+      "đột",
+      "hiển",
+      "ngẫu"
+     ],
+     "answer": 2,
+     "ja": "これは明白なことで、証明するまでもない。",
+     "explain": "hiển nhiên＝明白な。"
+    }
+   ]
+  },
+  {
+   "id": "g1-26",
+   "title": "không nhất thiết / chưa chắc / không hẳn（必ずしも〜ない）",
+   "pattern": "không nhất thiết phải + 動詞 / chưa chắc (đã) + 文 / không hẳn là",
+   "explain": "部分否定。全面的に否定せず「〜とは限らない」と述べます。",
+   "examples": [
+    {
+     "vi": "Đắt chưa chắc đã tốt.",
+     "ja": "高いから良いとは限らない。"
+    },
+    {
+     "vi": "Bạn không nhất thiết phải đến sớm.",
+     "ja": "必ずしも早く来る必要はない。"
+    },
+    {
+     "vi": "Điều đó không hẳn là sai.",
+     "ja": "それは必ずしも間違いではない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Học giỏi ___ chắc đã thành công.",
+     "choices": [
+      "đã",
+      "chưa",
+      "không hề",
+      "chẳng ai"
+     ],
+     "answer": 1,
+     "ja": "勉強ができるからといって成功するとは限らない。",
+     "explain": "chưa chắc＝〜とは限らない。"
+    },
+    {
+     "q": "Không ___ thiết phải mặc vest khi đi phỏng vấn.",
+     "choices": [
+      "hẳn",
+      "chắc",
+      "nhất",
+      "tất"
+     ],
+     "answer": 2,
+     "ja": "面接にスーツを着ていく必要は必ずしもない。",
+     "explain": "không nhất thiết＝必ずしも〜ない。"
+    }
+   ]
+  },
+  {
+   "id": "g1-27",
+   "title": "âu cũng là（〜というのもまた…であろう：文語）",
+   "pattern": "Âu cũng là + 名詞・文",
+   "explain": "結果を運命や道理として静かに受け入れる、文学的な表現です。",
+   "examples": [
+    {
+     "vi": "Gặp được nhau âu cũng là duyên số.",
+     "ja": "出会えたのもまた縁というものだろう。"
+    },
+    {
+     "vi": "Thất bại lần này âu cũng là bài học quý.",
+     "ja": "今回の失敗もまた貴重な教訓であろう。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Mọi chuyện đã qua, ___ cũng là số phận.",
+     "choices": [
+      "dĩ",
+      "hẳn",
+      "âu",
+      "kỳ"
+     ],
+     "answer": 2,
+     "ja": "すべて過ぎたこと、それもまた運命であろう。",
+     "explain": "âu cũng là。"
+    },
+    {
+     "q": "Âu ___ là cái giá phải trả cho sự chủ quan.",
+     "choices": [
+      "cũng",
+      "vẫn",
+      "đã",
+      "mới"
+     ],
+     "answer": 0,
+     "ja": "それもまた油断の代償というものだろう。",
+     "explain": "âu cũng là の形。"
+    }
+   ]
+  },
+  {
+   "id": "g1-28",
+   "title": "vả lại / vả chăng（それに・その上：理由の追加）",
+   "pattern": "A. Vả lại / Vả chăng, B",
+   "explain": "すでに述べた理由に、さらに理由を付け加えるときに使います。",
+   "examples": [
+    {
+     "vi": "Tôi không đi đâu, trời mưa, vả lại tôi cũng mệt.",
+     "ja": "行かないよ。雨だし、それに疲れてもいる。"
+    },
+    {
+     "vi": "Việc ấy khó, vả chăng cũng không cấp bách.",
+     "ja": "その件は難しいし、それに急ぎでもない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Muộn rồi, ___ lại mai còn phải dậy sớm.",
+     "choices": [
+      "vả",
+      "mà",
+      "thêm",
+      "hơn"
+     ],
+     "answer": 0,
+     "ja": "もう遅いし、それに明日は早起きしなければならない。",
+     "explain": "vả lại＝それに。"
+    },
+    {
+     "q": "Tôi không mua, giá đắt, vả ___ cũng không cần lắm.",
+     "choices": [
+      "thêm",
+      "lại mà",
+      "nữa",
+      "chăng"
+     ],
+     "answer": 3,
+     "ja": "買わないよ。高いし、それにそれほど必要でもない。",
+     "explain": "vả chăng。"
+    }
+   ]
+  },
+  {
+   "id": "g1-29",
+   "title": "để rồi（〜した挙句・その結果…することになる）",
+   "pattern": "A, để rồi + 結果",
+   "explain": "前の行為が思わぬ（多くは残念な）結果につながったことを表します。",
+   "examples": [
+    {
+     "vi": "Anh ta tiêu xài hoang phí, để rồi trắng tay.",
+     "ja": "彼は浪費を重ね、挙句に無一文になった。"
+    },
+    {
+     "vi": "Cô ấy chờ đợi suốt mười năm, để rồi nhận lại sự thất vọng.",
+     "ja": "彼女は10年待ち続けた挙句、失望を味わうことになった。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Họ cãi nhau mãi, ___ rồi chia tay.",
+     "choices": [
+      "nên",
+      "để",
+      "vì",
+      "mà"
+     ],
+     "answer": 1,
+     "ja": "二人は延々と喧嘩した挙句、別れた。",
+     "explain": "để rồi＝挙句に。"
+    },
+    {
+     "q": "Chủ quan khinh địch, để ___ thua đậm.",
+     "choices": [
+      "mà",
+      "rồi",
+      "nữa",
+      "thì"
+     ],
+     "answer": 1,
+     "ja": "敵を侮って油断した挙句、大敗した。",
+     "explain": "để rồi。"
+    }
+   ]
+  },
+  {
+   "id": "g1-30",
+   "title": "rồi ra / rồi đây（いずれ・やがて）",
+   "pattern": "Rồi ra / Rồi đây + 未来の文",
+   "explain": "将来を見通す表現で、励ましや予言の気持ちを込めて使います。",
+   "examples": [
+    {
+     "vi": "Rồi ra mọi chuyện sẽ ổn thôi.",
+     "ja": "いずれすべてうまくいくよ。"
+    },
+    {
+     "vi": "Rồi đây, thành phố này sẽ thay đổi rất nhiều.",
+     "ja": "やがてこの街は大きく変わるだろう。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Cứ kiên trì, ___ ra con sẽ hiểu.",
+     "choices": [
+      "đã",
+      "rồi",
+      "mới",
+      "sắp"
+     ],
+     "answer": 1,
+     "ja": "根気よく続けなさい、いずれわかるようになる。",
+     "explain": "rồi ra＝いずれ。"
+    },
+    {
+     "q": "Rồi ___, công nghệ sẽ thay thế nhiều nghề.",
+     "choices": [
+      "đó",
+      "đây",
+      "nào",
+      "kia"
+     ],
+     "answer": 1,
+     "ja": "やがて技術が多くの職業に取って代わるだろう。",
+     "explain": "rồi đây＝やがて。"
+    }
+   ]
+  },
+  {
+   "id": "g1-31",
+   "title": "kể ra / kể cũng（考えてみれば〜だ）",
+   "pattern": "Kể ra + 評価 / Kể cũng + 形容詞",
+   "explain": "改めて振り返って評価する口語表現です。",
+   "examples": [
+    {
+     "vi": "Kể ra anh ấy cũng có lý.",
+     "ja": "考えてみれば彼にも一理ある。"
+    },
+    {
+     "vi": "Làm việc ở đây kể cũng vui.",
+     "ja": "ここで働くのも考えてみれば楽しい。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ ra thì giá này cũng không đắt lắm.",
+     "choices": [
+      "Đành",
+      "Xét",
+      "Coi",
+      "Kể"
+     ],
+     "answer": 3,
+     "ja": "考えてみれば、この値段はそれほど高くない。",
+     "explain": "kể ra＝考えてみれば。"
+    },
+    {
+     "q": "Sống một mình kể ___ buồn.",
+     "choices": [
+      "thì là",
+      "ra là",
+      "cũng",
+      "lại"
+     ],
+     "answer": 2,
+     "ja": "一人暮らしも考えてみれば寂しい。",
+     "explain": "kể cũng＋形容詞。"
+    }
+   ]
+  },
+  {
+   "id": "g1-32",
+   "title": "畳語による程度の調整（đo đỏ・xanh xanh など）",
+   "pattern": "形容詞の重ね（声調・音の変化を伴う）",
+   "explain": "形容詞を重ねると「やや〜」と程度が弱まります（đỏ→đo đỏ、trắng→trăng trắng）。",
+   "examples": [
+    {
+     "vi": "Má cô bé đo đỏ vì lạnh.",
+     "ja": "寒さで少女の頬がほんのり赤い。"
+    },
+    {
+     "vi": "Trời hơi xanh xanh sau cơn mưa.",
+     "ja": "雨上がりの空はやや青みがかっている。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chiếc áo màu ___ trắng, không trắng hẳn.",
+     "choices": [
+      "trăng",
+      "trắng",
+      "tráng",
+      "trang"
+     ],
+     "answer": 0,
+     "ja": "その服は白っぽい色で、真っ白ではない。",
+     "explain": "trắng の畳語は trăng trắng。"
+    },
+    {
+     "q": "Quả xoài còn ___ chua.",
+     "choices": [
+      "chua",
+      "chúa",
+      "chưa",
+      "chùa"
+     ],
+     "answer": 0,
+     "ja": "マンゴーはまだ少し酸っぱい。",
+     "explain": "chua の畳語は chua chua。"
+    }
+   ]
+  },
+  {
+   "id": "g1-33",
+   "title": "形容詞 + ơi là + 形容詞（なんて〜なんだ）",
+   "pattern": "形容詞 + ơi là + 形容詞",
+   "explain": "口語で強い感嘆を表します。",
+   "examples": [
+    {
+     "vi": "Cảnh ở đây đẹp ơi là đẹp!",
+     "ja": "ここの景色はなんて美しいんだ！"
+    },
+    {
+     "vi": "Món này cay ơi là cay.",
+     "ja": "この料理はとにかく辛い。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Con mèo nhà bạn dễ thương ___ là dễ thương!",
+     "choices": [
+      "nhé",
+      "à",
+      "đấy",
+      "ơi"
+     ],
+     "answer": 3,
+     "ja": "あなたの家の猫はなんてかわいいの！",
+     "explain": "A ơi là A。"
+    },
+    {
+     "q": "Hôm nay nóng ơi là ___!",
+     "choices": [
+      "mát",
+      "lạnh",
+      "ấm",
+      "nóng"
+     ],
+     "answer": 3,
+     "ja": "今日はなんて暑いんだ！",
+     "explain": "同じ形容詞を繰り返します。"
+    }
+   ]
+  },
+  {
+   "id": "g1-34",
+   "title": "bằng mọi giá / bằng mọi cách（何としても）",
+   "pattern": "主語 + 動詞 + bằng mọi giá / bằng mọi cách",
+   "explain": "どんな代償を払っても目的を達成する強い決意を表します。",
+   "examples": [
+    {
+     "vi": "Chúng ta phải hoàn thành dự án bằng mọi giá.",
+     "ja": "何としてもプロジェクトを完成させなければならない。"
+    },
+    {
+     "vi": "Bố mẹ tìm bằng mọi cách để chữa bệnh cho con.",
+     "ja": "両親はあらゆる手を尽くして子どもの病気を治そうとした。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Đội bóng quyết thắng bằng mọi ___.",
+     "choices": [
+      "nơi",
+      "giá",
+      "lúc",
+      "tiền"
+     ],
+     "answer": 1,
+     "ja": "チームは何としても勝つ決意だ。",
+     "explain": "bằng mọi giá。"
+    },
+    {
+     "q": "Hắn tìm ___ mọi cách để trốn thoát.",
+     "choices": [
+      "bằng",
+      "từ",
+      "với",
+      "do"
+     ],
+     "answer": 0,
+     "ja": "彼はあらゆる手段で逃げようとした。",
+     "explain": "bằng mọi cách。"
+    }
+   ]
+  },
+  {
+   "id": "g1-35",
+   "title": "ngót / xấp xỉ / trên dưới / chừng（約・おおよそ）",
+   "pattern": "ngót + 数（〜近く）/ xấp xỉ・trên dưới・chừng + 数",
+   "explain": "おおよその数量を表します。ngót は「〜にわずかに足りない」、trên dưới は「前後」。",
+   "examples": [
+    {
+     "vi": "Ông ấy đã làm nghề này ngót ba mươi năm.",
+     "ja": "彼はこの仕事を30年近く続けてきた。"
+    },
+    {
+     "vi": "Dân số thành phố xấp xỉ hai triệu người.",
+     "ja": "市の人口はおよそ200万人だ。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Buổi lễ có trên ___ năm trăm người tham dự.",
+     "choices": [
+      "sau",
+      "trước",
+      "dưới",
+      "giữa"
+     ],
+     "answer": 2,
+     "ja": "式には500人前後が参加した。",
+     "explain": "trên dưới＝前後。"
+    },
+    {
+     "q": "Từ đây đến đó ___ mười cây số.",
+     "choices": [
+      "từng",
+      "các",
+      "chừng",
+      "mỗi"
+     ],
+     "answer": 2,
+     "ja": "ここからそこまで約10キロだ。",
+     "explain": "chừng＝約。"
+    }
+   ]
+  },
+  {
+   "id": "g1-36",
+   "title": "đến lượt / tới phiên（〜の番になる）",
+   "pattern": "Đến lượt + 人 + 動詞",
+   "explain": "順番が回ってくることを表し、立場の逆転を述べるときにも使います。",
+   "examples": [
+    {
+     "vi": "Đến lượt tôi phát biểu thì hết giờ.",
+     "ja": "私が発言する番になったら時間切れになった。"
+    },
+    {
+     "vi": "Ngày xưa bố chăm con, giờ đến lượt con chăm bố.",
+     "ja": "昔は父が子を世話した。今度は子が父を世話する番だ。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chờ mãi mới ___ lượt tôi.",
+     "choices": [
+      "ra",
+      "về",
+      "vào",
+      "đến"
+     ],
+     "answer": 3,
+     "ja": "ずっと待ってやっと私の番になった。",
+     "explain": "đến lượt。"
+    },
+    {
+     "q": "Đến ___ anh ấy thì không còn vé.",
+     "choices": [
+      "khi nào",
+      "phần nào",
+      "lúc nào",
+      "lượt"
+     ],
+     "answer": 3,
+     "ja": "彼の番になったら切符がもうなかった。",
+     "explain": "đến lượt＋人。"
+    }
+   ]
+  },
+  {
+   "id": "g1-37",
+   "title": "những tưởng（〜とばかり思っていたが）",
+   "pattern": "Những tưởng + 予想, (nào ngờ / ai ngờ) + 現実",
+   "explain": "予想が外れたことを表す文学的な表現。nào ngờ / ai ngờ（まさか）と組むことが多い。",
+   "examples": [
+    {
+     "vi": "Những tưởng mọi việc đã xong, nào ngờ lại phát sinh vấn đề mới.",
+     "ja": "すべて終わったとばかり思っていたが、まさか新たな問題が起こるとは。"
+    },
+    {
+     "vi": "Những tưởng anh ấy sẽ từ chối, ai ngờ lại đồng ý ngay.",
+     "ja": "彼は断るとばかり思っていたが、なんとすぐに同意した。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ tưởng trời sẽ nắng, ai ngờ mưa to.",
+     "choices": [
+      "Từng",
+      "Những",
+      "Mỗi",
+      "Các"
+     ],
+     "answer": 1,
+     "ja": "晴れるとばかり思っていたが、まさかの大雨だった。",
+     "explain": "những tưởng＝〜とばかり思っていた。"
+    },
+    {
+     "q": "Những tưởng đã quên, ___ ngờ vẫn nhớ như in.",
+     "choices": [
+      "gì",
+      "nào",
+      "thế",
+      "sao"
+     ],
+     "answer": 1,
+     "ja": "忘れたとばかり思っていたが、まさか今も鮮明に覚えているとは。",
+     "explain": "nào ngờ＝まさか。"
+    }
+   ]
+  },
+  {
+   "id": "g1-38",
+   "title": "chẳng mấy chốc / chẳng bao lâu（間もなく）",
+   "pattern": "Chẳng mấy chốc / Chẳng bao lâu (sau), ...",
+   "explain": "時間がたたないうちに次の出来事が起こったことを表します。",
+   "examples": [
+    {
+     "vi": "Chẳng mấy chốc trời đã tối.",
+     "ja": "間もなく日が暮れた。"
+    },
+    {
+     "vi": "Chẳng bao lâu sau, tin đồn lan khắp làng.",
+     "ja": "ほどなくして、うわさが村中に広まった。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chẳng ___ chốc mà đã hết năm.",
+     "choices": [
+      "bao",
+      "nào",
+      "đâu",
+      "mấy"
+     ],
+     "answer": 3,
+     "ja": "あっという間に一年が終わった。",
+     "explain": "chẳng mấy chốc。"
+    },
+    {
+     "q": "Chẳng ___ lâu sau, họ cưới nhau.",
+     "choices": [
+      "nào",
+      "khi",
+      "bao",
+      "đâu"
+     ],
+     "answer": 2,
+     "ja": "ほどなくして、二人は結婚した。",
+     "explain": "chẳng bao lâu。"
+    }
+   ]
+  },
+  {
+   "id": "g1-39",
+   "title": "vô hình trung（知らず知らずのうちに・結果的に）",
+   "pattern": "Vô hình trung + 結果",
+   "explain": "意図せずに結果としてそうなってしまったことを表す書き言葉です。",
+   "examples": [
+    {
+     "vi": "Sự im lặng của anh vô hình trung đã tiếp tay cho cái sai.",
+     "ja": "あなたの沈黙は、知らず知らずのうちに過ちに加担してしまった。"
+    },
+    {
+     "vi": "Quy định này vô hình trung gây khó cho người dân.",
+     "ja": "この規定は結果的に住民を困らせている。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Cha mẹ quá nuông chiều, ___ hình trung làm hư con.",
+     "choices": [
+      "vô",
+      "phi",
+      "hữu",
+      "bất"
+     ],
+     "answer": 0,
+     "ja": "親が甘やかしすぎ、結果的に子どもをだめにしてしまう。",
+     "explain": "vô hình trung。"
+    },
+    {
+     "q": "Lời khen quá mức vô ___ trung tạo áp lực cho trẻ.",
+     "choices": [
+      "cớ",
+      "hình",
+      "tình",
+      "ý"
+     ],
+     "answer": 1,
+     "ja": "過度な褒め言葉は知らず知らずのうちに子どもに重圧をかける。",
+     "explain": "vô hình trung。"
+    }
+   ]
+  },
+  {
+   "id": "g1-40",
+   "title": "chứ chẳng / chứ không（〜であって…ではない：強い対比）",
+   "pattern": "A + chứ chẳng / chứ không + B",
+   "explain": "後半を強く否定して、前半を強調します。chứ chẳng はより強い否定。",
+   "examples": [
+    {
+     "vi": "Tôi làm vì đam mê chứ chẳng vì tiền.",
+     "ja": "私は情熱でやっているのであって、お金のためではない。"
+    },
+    {
+     "vi": "Phải nói thật chứ không được giấu.",
+     "ja": "本当のことを言わなければならず、隠してはいけない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Anh ấy giúp vì thương ___ chẳng mong báo đáp.",
+     "choices": [
+      "mà còn",
+      "để",
+      "nên",
+      "chứ"
+     ],
+     "answer": 3,
+     "ja": "彼は思いやりから助けたのであって、見返りを求めてではない。",
+     "explain": "chứ chẳng。"
+    },
+    {
+     "q": "Đây là lỗi hệ thống chứ ___ phải lỗi cá nhân.",
+     "choices": [
+      "hãy",
+      "đừng",
+      "không",
+      "nên"
+     ],
+     "answer": 2,
+     "ja": "これはシステムの誤りであって、個人の誤りではない。",
+     "explain": "chứ không phải。"
+    }
+   ]
+  }
+ ]
+}

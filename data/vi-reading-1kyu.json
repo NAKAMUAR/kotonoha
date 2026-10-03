@@ -1,0 +1,675 @@
+{
+ "level": 1,
+ "passages": [
+  {
+   "id": "r1-01",
+   "title": "Giữ gìn sự trong sáng của tiếng Việt",
+   "titleJa": "ベトナム語の純正さを守る",
+   "text": "Trên các biển hiệu, thực đơn, thậm chí trong lời ăn tiếng nói hằng ngày của giới trẻ thành thị, không khó để bắt gặp những câu nói \"nửa Tây nửa ta\" như \"deadline gấp quá\", \"chốt đơn nhé\" hay \"hôm nay mood không tốt\". Hiện tượng này khiến không ít người lo ngại rằng tiếng Việt đang bị \"pha tạp\", đánh mất sự trong sáng vốn có.\nThực ra, vay mượn từ ngữ là quy luật tất yếu của mọi ngôn ngữ. Kho từ vựng tiếng Việt hôm nay có tới hơn sáu mươi phần trăm là từ Hán Việt; những từ như \"cà phê\", \"xà phòng\", \"ga\" đều có gốc từ tiếng Pháp. Chính nhờ tiếp thu có chọn lọc mà tiếng Việt ngày càng phong phú, đủ sức diễn đạt những khái niệm mới của khoa học và đời sống. Vấn đề, vì thế, không nằm ở việc vay mượn, mà ở chỗ vay mượn như thế nào.\nViệc dùng từ nước ngoài trở nên đáng bàn khi tiếng Việt đã có từ tương đương rõ nghĩa mà người nói vẫn cố tình chêm tiếng nước ngoài, đôi khi chỉ để tỏ ra \"sành điệu\". Lối nói ấy, nếu trở thành thói quen, vô hình trung làm nghèo đi khả năng diễn đạt bằng tiếng mẹ đẻ, đồng thời tạo ra khoảng cách giữa các thế hệ, giữa thành thị và nông thôn.\nGiữ gìn sự trong sáng của tiếng Việt, suy cho cùng, không có nghĩa là bài ngoại hay đóng cửa trước cái mới. Đó là thái độ trân trọng tiếng mẹ đẻ: hiểu rõ nghĩa của từ mình dùng, chỉ vay mượn khi thật sự cần thiết, và không ngừng làm giàu cho tiếng nói của dân tộc. Như nhà văn Tô Hoài từng nói, mỗi người cầm bút trước hết phải là người \"giữ của\" cho tiếng Việt.",
+   "ja": "看板やメニュー、さらには都会の若者の日常会話でも、「deadline gấp quá（締め切りがきつすぎる）」「chốt đơn nhé（注文確定ね）」「hôm nay mood không tốt（今日は気分が良くない）」のような「半分洋風、半分ベトナム風」の言い回しを目にするのは難しくない。この現象に対して、ベトナム語が「混ぜ物」になり、本来の純正さを失いつつあると懸念する人は少なくない。\n実は、語の借用はあらゆる言語の必然的な法則である。今日のベトナム語の語彙の60%以上は漢越語であり、「cà phê（コーヒー）」「xà phòng（石けん）」「ga（駅）」などの語はどれもフランス語に由来する。選択的に取り入れてきたからこそ、ベトナム語はますます豊かになり、科学や生活の新しい概念を表現する力を備えたのだ。したがって問題は借用すること自体ではなく、どのように借用するかにある。\n外国語の使用が議論の的になるのは、ベトナム語にはっきりした意味の同義語があるのに、話し手がわざと外国語を差し挟む場合であり、それは時に単に「おしゃれ」に見せるためだけである。そうした話し方が習慣になれば、知らず知らずのうちに母語での表現力を貧しくし、同時に世代間や都市と農村の間に溝を生む。\nベトナム語の純正さを守るということは、突き詰めれば、排外的になることや新しいものに門を閉ざすことを意味しない。それは母語を大切にする態度である。自分が使う語の意味をよく理解し、本当に必要なときにだけ借用し、民族の言葉を絶えず豊かにすることだ。作家トー・ホアイがかつて言ったように、筆を執る者は皆、何よりもまずベトナム語の「財産の番人」でなければならない。",
+   "vocab": [
+    {
+     "vi": "pha tạp",
+     "ja": "混ざり物の、不純な"
+    },
+    {
+     "vi": "trong sáng",
+     "ja": "（言葉が）純正な、明晰な"
+    },
+    {
+     "vi": "chêm",
+     "ja": "差し挟む"
+    },
+    {
+     "vi": "sành điệu",
+     "ja": "おしゃれな、通な"
+    },
+    {
+     "vi": "giữ của",
+     "ja": "財産を守る"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo tác giả, việc vay mượn từ ngữ nước ngoài là gì?",
+     "choices": [
+      "Chỉ xảy ra ở tiếng Việt",
+      "Một hiện tượng hoàn toàn có hại",
+      "Quy luật tất yếu của mọi ngôn ngữ",
+      "Điều cần bị cấm"
+     ],
+     "answer": 2,
+     "explain": "vay mượn từ ngữ là quy luật tất yếu của mọi ngôn ngữ。",
+     "qJa": "筆者によると、外国語の借用とは何ですか。"
+    },
+    {
+     "q": "Khi nào việc dùng từ nước ngoài trở nên \"đáng bàn\"?",
+     "choices": [
+      "Khi nói chuyện với người nước ngoài",
+      "Khi nói về khoa học",
+      "Khi viết báo",
+      "Khi tiếng Việt đã có từ tương đương nhưng vẫn cố tình chêm"
+     ],
+     "answer": 3,
+     "explain": "khi tiếng Việt đã có từ tương đương rõ nghĩa mà người nói vẫn cố tình chêm。",
+     "qJa": "外国語の使用が「議論の的」になるのはどんなときですか。"
+    },
+    {
+     "q": "Câu nào thể hiện đúng quan điểm của tác giả ở đoạn cuối?",
+     "choices": [
+      "Nên thay toàn bộ từ Hán Việt bằng từ thuần Việt",
+      "Chỉ nhà văn mới cần giữ gìn tiếng Việt",
+      "Giữ gìn tiếng Việt là trân trọng tiếng mẹ đẻ chứ không phải bài ngoại",
+      "Nên tránh tuyệt đối mọi từ ngoại lai"
+     ],
+     "answer": 2,
+     "explain": "không có nghĩa là bài ngoại ... Đó là thái độ trân trọng tiếng mẹ đẻ。",
+     "qJa": "最後の段落の筆者の考えを正しく表しているのはどれですか。"
+    }
+   ]
+  },
+  {
+   "id": "r1-02",
+   "title": "Trí tuệ nhân tạo và tương lai của lao động",
+   "titleJa": "人工知能と労働の未来",
+   "text": "Chỉ trong vài năm, trí tuệ nhân tạo tạo sinh đã đi từ phòng thí nghiệm vào đời sống thường nhật. Những công việc từng được coi là \"đặc quyền\" của con người như viết lách, dịch thuật, thiết kế hay lập trình nay đều có thể được máy móc thực hiện với tốc độ đáng kinh ngạc. Không ít người vì thế lo sợ một tương lai mà ở đó con người bị máy thay thế hàng loạt.\nLịch sử cho thấy nỗi lo này không mới. Cuộc cách mạng công nghiệp từng khiến những người thợ dệt đập phá máy móc vì sợ mất kế sinh nhai. Thế nhưng, rốt cục, công nghệ không xóa bỏ lao động mà làm thay đổi cơ cấu của nó: nhiều nghề cũ mất đi, song nhiều nghề mới ra đời mà trước đó không ai hình dung nổi.\nĐiểm khác biệt lần này nằm ở tốc độ và phạm vi. Nếu như các làn sóng tự động hóa trước đây chủ yếu tác động đến lao động chân tay, thì trí tuệ nhân tạo lại nhắm thẳng vào lao động trí óc. Người lao động có rất ít thời gian để thích ứng, trong khi hệ thống giáo dục và an sinh xã hội ở nhiều nước, trong đó có Việt Nam, chưa kịp chuyển mình.\nBởi lẽ đó, câu hỏi then chốt không phải là \"máy có thay thế người hay không\", mà là \"con người sẽ làm gì cùng với máy\". Những năng lực mà máy khó lòng sao chép – tư duy phản biện, khả năng thấu cảm, óc sáng tạo và năng lực ra quyết định có trách nhiệm – sẽ ngày càng trở nên quý giá. Đầu tư vào việc học suốt đời, xét cho cùng, là tấm \"bảo hiểm\" tốt nhất cho mỗi cá nhân trước một tương lai vốn dĩ khó đoán định.",
+   "ja": "わずか数年で、生成AIは研究室から日常生活へと入り込んだ。執筆、翻訳、デザイン、プログラミングなど、かつて人間の「特権」とみなされていた仕事は、今や機械が驚くべき速さでこなせるようになった。そのため、人間が機械に大量に置き換えられる未来を恐れる人も少なくない。\n歴史を見れば、この不安は新しいものではない。産業革命の際には、織物職人たちが生計を失うことを恐れて機械を打ち壊した。しかし結局のところ、技術は労働をなくしたのではなく、その構造を変えた。多くの古い職業が消えた一方で、それまで誰も想像できなかった多くの新しい職業が生まれたのだ。\n今回の違いは、速度と範囲にある。これまでの自動化の波が主に肉体労働に影響したのに対し、人工知能はまっすぐに頭脳労働を狙っている。労働者が適応する時間はほとんどなく、一方でベトナムを含む多くの国の教育や社会保障の制度はまだ変わりきれていない。\nそれゆえ、鍵となる問いは「機械が人に取って代わるかどうか」ではなく、「人間が機械とともに何をするのか」である。批判的思考、共感する力、創造性、そして責任ある意思決定の能力といった、機械が容易には模倣できない力は、ますます貴重になるだろう。生涯学習に投資することは、突き詰めれば、本来予測しがたい未来に対する、各個人にとって最良の「保険」なのである。",
+   "vocab": [
+    {
+     "vi": "đặc quyền",
+     "ja": "特権"
+    },
+    {
+     "vi": "kế sinh nhai",
+     "ja": "生計"
+    },
+    {
+     "vi": "then chốt",
+     "ja": "鍵となる、要の"
+    },
+    {
+     "vi": "thấu cảm",
+     "ja": "共感"
+    },
+    {
+     "vi": "đoán định",
+     "ja": "予測・判断する"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo đoạn 2, cuộc cách mạng công nghiệp đã tác động đến lao động như thế nào?",
+     "choices": [
+      "Thay đổi cơ cấu lao động: nghề cũ mất đi, nghề mới ra đời",
+      "Không tạo ra nghề mới nào",
+      "Xóa bỏ hoàn toàn lao động",
+      "Chỉ làm tăng lương cho thợ dệt"
+     ],
+     "answer": 0,
+     "explain": "không xóa bỏ lao động mà làm thay đổi cơ cấu của nó。",
+     "qJa": "第2段落によると、産業革命は労働にどう影響しましたか。"
+    },
+    {
+     "q": "Điểm khác biệt của làn sóng trí tuệ nhân tạo là gì?",
+     "choices": [
+      "Chỉ tác động đến nông nghiệp",
+      "Tác động nhanh, rộng và nhắm vào lao động trí óc",
+      "Chỉ xảy ra ở các nước giàu",
+      "Diễn ra rất chậm"
+     ],
+     "answer": 1,
+     "explain": "tốc độ và phạm vi ... nhắm thẳng vào lao động trí óc。",
+     "qJa": "人工知能の波の違いは何ですか。"
+    },
+    {
+     "q": "Có thể suy ra tác giả khuyên điều gì?",
+     "choices": [
+      "Nên chống lại công nghệ",
+      "Nên học suốt đời và phát triển những năng lực máy khó sao chép",
+      "Nên chờ chính phủ giải quyết",
+      "Nên chọn nghề lao động chân tay"
+     ],
+     "answer": 1,
+     "explain": "đầu tư vào việc học suốt đời ... những năng lực mà máy khó lòng sao chép。",
+     "qJa": "筆者は何を勧めていると推測できますか。"
+    }
+   ]
+  },
+  {
+   "id": "r1-03",
+   "title": "Giá trị nhân văn trong Truyện Kiều",
+   "titleJa": "『キエウ物語』の人間的価値",
+   "text": "Hơn hai trăm năm qua, Truyện Kiều của Nguyễn Du vẫn được người Việt nâng niu như một báu vật. Người ta đọc Kiều, ngâm Kiều, bói Kiều, lẩy Kiều; nhiều câu thơ đã đi vào lời ăn tiếng nói hằng ngày đến mức người dùng không còn nhớ xuất xứ. Vậy điều gì đã làm nên sức sống trường tồn của tác phẩm?\nTrước hết, đó là tấm lòng nhân đạo bao la của tác giả. Nguyễn Du viết về số phận của Thúy Kiều – một người con gái \"tài sắc vẹn toàn\" nhưng phải trải qua mười lăm năm lưu lạc, bị vùi dập bởi đồng tiền và cường quyền. Ông không chỉ cảm thương cho nỗi đau của nàng mà còn lên tiếng tố cáo một xã hội trong đó phẩm giá con người có thể bị đem ra mua bán. Những câu thơ như \"Đau đớn thay phận đàn bà / Lời rằng bạc mệnh cũng là lời chung\" là tiếng nói cảm thông cho cả một kiếp người.\nBên cạnh đó, Truyện Kiều còn trân trọng khát vọng sống, khát vọng tình yêu và công lý của con người. Mối tình Kim – Kiều, hình tượng người anh hùng Từ Hải hay màn báo ân báo oán đều thể hiện ước mơ về một cuộc đời mà cái thiện được đền đáp, cái ác bị trừng trị.\nCuối cùng, không thể không nhắc tới nghệ thuật ngôn từ điêu luyện. Bằng thể thơ lục bát giản dị mà uyển chuyển, Nguyễn Du đã nâng tiếng Việt lên một tầm cao mới, chứng minh rằng tiếng mẹ đẻ hoàn toàn có thể chuyên chở những tư tưởng và cảm xúc sâu sắc nhất. Có lẽ vì thế mà người ta vẫn nói: \"Truyện Kiều còn, tiếng ta còn; tiếng ta còn, nước ta còn\".",
+   "ja": "200年以上にわたり、グエン・ズーの『キエウ物語』はベトナム人に宝物のように大切にされてきた。人々はキエウを読み、吟じ、キエウで占い、キエウの詩句を引用して語る。多くの詩句は日常の言葉に入り込み、使う人がその出典を覚えていないほどだ。では、何がこの作品に不朽の生命力を与えたのだろうか。\nまず第一に、それは作者の広大な人道的精神である。グエン・ズーは、「才色兼備」でありながら15年にわたる流浪を強いられ、金と権力に踏みにじられた娘、トゥイ・キエウの運命を描いた。彼は彼女の苦しみに同情しただけでなく、人間の尊厳が売り買いされうる社会を告発する声を上げた。「なんと痛ましいことか、女の身の上は／薄命とは皆に共通の言葉」といった詩句は、ある人生全体への共感の声である。\n加えて、『キエウ物語』は人間の生きる渇望、愛と正義への渇望を大切にしている。キムとキエウの恋、英雄トゥー・ハイの姿、恩には恩で、仇には仇で報いる場面は、いずれも善が報われ悪が罰せられる人生への夢を表している。\n最後に、熟練の言葉の芸術に触れないわけにはいかない。素朴でありながらしなやかな六八体の詩形によって、グエン・ズーはベトナム語を新たな高みへと引き上げ、母語が最も深い思想や感情を十分に運びうることを証明した。だからこそ人々は今も「キエウが残れば言葉が残り、言葉が残れば国が残る」と言うのだろう。",
+   "vocab": [
+    {
+     "vi": "báu vật",
+     "ja": "宝物"
+    },
+    {
+     "vi": "tài sắc vẹn toàn",
+     "ja": "才色兼備"
+    },
+    {
+     "vi": "vùi dập",
+     "ja": "踏みにじる"
+    },
+    {
+     "vi": "cường quyền",
+     "ja": "権力、強権"
+    },
+    {
+     "vi": "điêu luyện",
+     "ja": "熟練した、巧みな"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo đoạn 1, điều nào cho thấy Truyện Kiều gắn bó với đời sống người Việt?",
+     "choices": [
+      "Tác phẩm được dịch ra nhiều thứ tiếng",
+      "Tác phẩm được dựng thành phim",
+      "Nhiều câu thơ đi vào lời ăn tiếng nói hằng ngày",
+      "Tác phẩm chỉ được đọc trong trường học"
+     ],
+     "answer": 2,
+     "explain": "nhiều câu thơ đã đi vào lời ăn tiếng nói hằng ngày。",
+     "qJa": "第1段落で、『キエウ物語』がベトナム人の生活と結びついていることを示すのはどれですか。"
+    },
+    {
+     "q": "Nguyễn Du tố cáo điều gì trong tác phẩm?",
+     "choices": [
+      "Một xã hội mà phẩm giá con người bị đem ra mua bán",
+      "Sự lười biếng của con người",
+      "Sự lạc hậu của nông thôn",
+      "Chiến tranh giữa các nước"
+     ],
+     "answer": 0,
+     "explain": "tố cáo một xã hội trong đó phẩm giá con người có thể bị đem ra mua bán。",
+     "qJa": "グエン・ズーは作品の中で何を告発していますか。"
+    },
+    {
+     "q": "Câu \"Truyện Kiều còn, tiếng ta còn\" nhấn mạnh điều gì?",
+     "choices": [
+      "Truyện Kiều rất dài",
+      "Truyện Kiều khó hiểu",
+      "Cần dịch Truyện Kiều sang tiếng nước ngoài",
+      "Vai trò của Truyện Kiều đối với sự tồn tại của tiếng Việt và dân tộc"
+     ],
+     "answer": 3,
+     "explain": "母語の力と民族の存続を結びつけた言葉です。",
+     "qJa": "「キエウが残れば言葉が残る」は何を強調していますか。"
+    }
+   ]
+  },
+  {
+   "id": "r1-04",
+   "title": "Phố cổ: bảo tồn hay phát triển?",
+   "titleJa": "旧市街：保存か開発か",
+   "text": "Mỗi buổi sáng, bà cụ Lan vẫn ngồi bên bậu cửa căn nhà ống ở phố Hàng Bạc, nơi gia đình bà đã sống qua bốn thế hệ. Nhưng xung quanh bà, khu phố đã đổi khác đến mức khó nhận ra: những ngôi nhà cổ mái ngói rêu phong lần lượt nhường chỗ cho khách sạn mini, quán bar và cửa hàng lưu niệm. \"Phố vẫn tên cũ, mà người cũ chẳng còn mấy ai,\" bà nói.\nCâu chuyện của phố cổ Hà Nội là một lát cắt điển hình của bài toán bảo tồn và phát triển mà nhiều đô thị châu Á đang phải đối mặt. Một mặt, du lịch mang lại nguồn thu dồi dào, tạo việc làm và giúp khu phố trở nên sôi động. Mặt khác, chính áp lực thương mại hóa lại đang bào mòn những giá trị làm nên sức hấp dẫn của phố cổ: không gian kiến trúc độc đáo, nếp sống thị dân thanh lịch và mối quan hệ láng giềng gắn bó.\nCó ý kiến cho rằng nên \"đóng băng\" phố cổ, giữ nguyên hiện trạng như một bảo tàng sống. Song, một khu phố không có cư dân thì cũng chỉ là cái vỏ rỗng. Ngược lại, để thị trường tự do quyết định thì chẳng mấy chốc, phố cổ sẽ chỉ còn là một khu du lịch na ná bao khu du lịch khác.\nKinh nghiệm từ Hội An hay Kyoto cho thấy lời giải nằm ở sự dung hòa: quy định chặt chẽ về kiến trúc, hỗ trợ tài chính để người dân bản địa có thể tiếp tục sinh sống và duy trì nghề truyền thống, đồng thời kiểm soát số lượng du khách. Bảo tồn, xét cho cùng, không phải là níu giữ quá khứ, mà là giữ lấy cái hồn để quá khứ có thể tiếp tục sống trong hiện tại.",
+   "ja": "毎朝、ランおばあさんはハンバック通りの細長い家の戸口に腰掛けている。そこは彼女の家族が4世代にわたって暮らしてきた場所だ。しかし彼女の周りで、街並みは見分けがつかないほど変わってしまった。苔むした瓦屋根の古い家々が次々とミニホテル、バー、土産物店に取って代わられている。「通りの名前は昔のままだけど、昔からの人はほとんど残っていないよ」と彼女は言う。\nハノイ旧市街の物語は、多くのアジアの都市が直面している保存と開発という課題の典型的な一断面である。一方では、観光は豊富な収入をもたらし、雇用を生み、街を活気づける。他方では、まさにその商業化の圧力が、旧市街の魅力を生み出している価値をむしばんでいる。独特の建築空間、上品な都市住民の暮らしぶり、そして固い近所付き合いである。\n旧市街を「凍結」し、生きた博物館として現状のまま保つべきだという意見もある。しかし、住民のいない街は空っぽの殻にすぎない。逆に市場に自由に任せれば、間もなく旧市街は他の多くの観光地と似たり寄ったりの観光エリアになってしまうだろう。\nホイアンや京都の経験は、答えが調和にあることを示している。建築に関する厳格な規制、地元住民が住み続け伝統的な仕事を維持できるような財政支援、そして同時に観光客数の管理である。保存とは、突き詰めれば、過去にしがみつくことではなく、過去が現在の中で生き続けられるよう、その魂を守ることなのだ。",
+   "vocab": [
+    {
+     "vi": "rêu phong",
+     "ja": "苔むした"
+    },
+    {
+     "vi": "lát cắt",
+     "ja": "断面"
+    },
+    {
+     "vi": "bào mòn",
+     "ja": "すり減らす、むしばむ"
+    },
+    {
+     "vi": "na ná",
+     "ja": "似たり寄ったりの"
+    },
+    {
+     "vi": "níu giữ",
+     "ja": "引き留める、しがみつく"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Câu nói của bà Lan \"Phố vẫn tên cũ, mà người cũ chẳng còn mấy ai\" phản ánh điều gì?",
+     "choices": [
+      "Bà Lan sắp chuyển nhà",
+      "Phố đã được đổi tên",
+      "Phố ngày càng đông dân bản địa",
+      "Cư dân lâu đời đã rời đi nhiều"
+     ],
+     "answer": 3,
+     "explain": "昔からの住民がほとんどいなくなったことを表しています。",
+     "qJa": "ランおばあさんの言葉は何を反映していますか。"
+    },
+    {
+     "q": "Theo tác giả, vì sao không nên \"đóng băng\" phố cổ?",
+     "choices": [
+      "Vì luật pháp không cho phép",
+      "Vì du khách không thích",
+      "Vì quá tốn kém",
+      "Vì một khu phố không có cư dân chỉ là cái vỏ rỗng"
+     ],
+     "answer": 3,
+     "explain": "một khu phố không có cư dân thì cũng chỉ là cái vỏ rỗng。",
+     "qJa": "筆者によると、旧市街を「凍結」すべきでないのはなぜですか。"
+    },
+    {
+     "q": "Giải pháp tác giả đề xuất có đặc điểm gì?",
+     "choices": [
+      "Dung hòa giữa bảo tồn và phát triển, hỗ trợ người dân bản địa",
+      "Cấm hoàn toàn du lịch",
+      "Phá bỏ nhà cổ để xây mới",
+      "Để thị trường tự quyết định"
+     ],
+     "answer": 0,
+     "explain": "lời giải nằm ở sự dung hòa ... hỗ trợ tài chính để người dân bản địa ...。",
+     "qJa": "筆者が提案する解決策の特徴は何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r1-05",
+   "title": "Chảy máu chất xám – mất hay được?",
+   "titleJa": "頭脳流出：損失か利益か",
+   "text": "Mỗi năm, hàng chục nghìn sinh viên Việt Nam ra nước ngoài du học, và một tỷ lệ không nhỏ trong số đó chọn ở lại làm việc sau khi tốt nghiệp. Hiện tượng \"chảy máu chất xám\" từ lâu đã được xem là một tổn thất đối với các nước đang phát triển: nhà nước và gia đình bỏ ra bao công sức đào tạo, để rồi thành quả lại phục vụ cho nền kinh tế khác.\nLý do khiến người tài không trở về không khó để lý giải. Bên cạnh chênh lệch về thu nhập, điều khiến nhiều người đắn đo là môi trường làm việc: thiếu cơ sở vật chất cho nghiên cứu, cơ chế tuyển dụng và đề bạt chưa thực sự dựa trên năng lực, thủ tục hành chính rườm rà. Không ít trí thức về nước với nhiệt huyết lớn, để rồi lặng lẽ ra đi sau vài năm vì cảm thấy không được trọng dụng.\nTuy vậy, gần đây xuất hiện một cách nhìn khác: thay vì \"chảy máu\", hãy coi đó là \"tuần hoàn chất xám\". Cộng đồng trí thức ở nước ngoài, dù không về nước, vẫn có thể đóng góp bằng nhiều cách – chuyển giao công nghệ, kết nối mạng lưới hợp tác quốc tế, đầu tư khởi nghiệp hay tham gia giảng dạy từ xa. Kinh nghiệm của Hàn Quốc, Ấn Độ hay Trung Quốc cho thấy, khi đất nước phát triển đến một mức độ nhất định, chính lực lượng này sẽ quay về và trở thành động lực quan trọng.\nNhư vậy, bài toán không chỉ nằm ở việc \"giữ chân\" người tài bằng mọi giá, mà quan trọng hơn là kiến tạo một môi trường đủ hấp dẫn, nơi tài năng được tôn trọng và có đất dụng võ. Khi đó, dù ở đâu, người Việt tài năng cũng sẽ tìm thấy lý do để gắn bó với quê hương.",
+   "ja": "毎年何万人ものベトナム人学生が海外へ留学し、そのうち少なくない割合が卒業後も現地に残って働くことを選んでいる。「頭脳流出」の現象は、長い間、発展途上国にとっての損失とみなされてきた。国家と家族が多大な労力をかけて育てたのに、その成果が他国の経済に奉仕することになるのだ。\n優秀な人材が戻らない理由を説明するのは難しくない。収入の格差に加え、多くの人をためらわせているのは労働環境である。研究のための設備の不足、本当に能力に基づいているとは言えない採用・昇進の仕組み、煩雑な行政手続き。大きな情熱を持って帰国したものの、重用されていないと感じて数年後に静かに去っていく知識人も少なくない。\nしかし最近、別の見方が現れている。「流出」ではなく「頭脳循環」ととらえよう、というものだ。海外の知識人コミュニティは、帰国しなくても、技術移転、国際協力ネットワークの構築、スタートアップへの投資、遠隔での教育参加など、さまざまな方法で貢献できる。韓国、インド、中国の経験は、国がある程度発展すると、まさにこの人々が戻ってきて重要な原動力になることを示している。\nこのように、課題は何としても人材を「引き留める」ことだけにあるのではない。より重要なのは、才能が尊重され、腕を振るう場がある、十分に魅力的な環境を築くことである。そうなれば、どこにいようとも、優秀なベトナム人は故郷と結びつく理由を見いだすだろう。",
+   "vocab": [
+    {
+     "vi": "chất xám",
+     "ja": "頭脳、知性"
+    },
+    {
+     "vi": "rườm rà",
+     "ja": "煩雑な"
+    },
+    {
+     "vi": "nhiệt huyết",
+     "ja": "情熱、熱意"
+    },
+    {
+     "vi": "trọng dụng",
+     "ja": "重用する"
+    },
+    {
+     "vi": "đất dụng võ",
+     "ja": "腕を振るう場"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo đoạn 2, lý do nào KHÔNG được nêu khiến người tài không về nước?",
+     "choices": [
+      "Thủ tục hành chính rườm rà",
+      "Khí hậu Việt Nam quá nóng",
+      "Thiếu cơ sở vật chất cho nghiên cứu",
+      "Chênh lệch thu nhập"
+     ],
+     "answer": 1,
+     "explain": "気候については書かれていません。",
+     "qJa": "優秀な人材が帰国しない理由として挙げられていないものはどれですか。"
+    },
+    {
+     "q": "\"Tuần hoàn chất xám\" có nghĩa là gì?",
+     "choices": [
+      "Trí thức ở nước ngoài vẫn đóng góp cho đất nước bằng nhiều cách",
+      "Trí thức chỉ làm việc ở trong nước",
+      "Đưa chuyên gia nước ngoài vào Việt Nam",
+      "Cấm sinh viên đi du học"
+     ],
+     "answer": 0,
+     "explain": "dù không về nước, vẫn có thể đóng góp bằng nhiều cách。",
+     "qJa": "「頭脳循環」とはどういう意味ですか。"
+    },
+    {
+     "q": "Theo tác giả, điều quan trọng nhất là gì?",
+     "choices": [
+      "Kiến tạo môi trường mà tài năng được tôn trọng và có đất dụng võ",
+      "Tăng lương thật cao cho mọi người",
+      "Hạn chế du học",
+      "Giữ chân người tài bằng mọi giá"
+     ],
+     "answer": 0,
+     "explain": "quan trọng hơn là kiến tạo một môi trường đủ hấp dẫn ...。",
+     "qJa": "筆者によると最も重要なことは何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r1-06",
+   "title": "Hà Nội mùa thu",
+   "titleJa": "ハノイの秋",
+   "text": "Người ta thường nói, nếu chỉ được đến Hà Nội một lần, hãy đến vào mùa thu. Thu Hà Nội không rực rỡ như mùa hè, cũng chẳng thâm trầm như mùa đông, mà mang một vẻ đẹp dịu dàng, man mác, khiến lòng người bâng khuâng khó tả.\nThu về khi những cơn gió heo may đầu tiên khẽ lùa qua phố. Cái nắng gay gắt của tháng bảy dịu dần, nhường chỗ cho thứ nắng vàng hanh trải nhẹ trên những mái ngói cũ. Trên con đường Phan Đình Phùng, lá vàng rơi xào xạc dưới chân người qua lại. Đâu đó, hương hoa sữa nồng nàn phảng phất trong không khí, lúc đậm lúc nhạt, như một lời nhắc khẽ rằng mùa thu đã thực sự về.\nThu Hà Nội còn là mùa của cốm. Từ làng Vòng, những hạt cốm xanh non được gói cẩn thận trong lá sen, mang theo cả hương lúa đồng quê vào lòng phố. Nhà văn Thạch Lam từng viết rằng cốm là \"thức quà riêng biệt của đất cỏ\", phải ăn từng chút, chậm rãi, mới thấy hết cái thanh, cái dịu của hương vị.\nCó lẽ điều làm nên sức quyến rũ của mùa thu Hà Nội không chỉ nằm ở cảnh sắc, mà ở nhịp sống như chậm lại. Giữa thành phố ngày càng ồn ã, mùa thu như một khoảng lặng hiếm hoi để con người dừng chân, ngắm nhìn và lắng nghe chính mình. Để rồi khi đi xa, ai cũng mang theo trong tim một nỗi nhớ khôn nguôi về những chiều thu ấy.",
+   "ja": "ハノイに一度しか行けないなら秋に行け、とよく言われる。ハノイの秋は夏のように鮮やかでもなく、冬のように沈鬱でもない。優しく、ほのかな哀しみを帯びた美しさをまとい、人の心を言いようのない物思いに誘う。\n秋は、最初の秋風がそっと街を吹き抜けるとともにやってくる。7月の強い日差しは次第に和らぎ、古い瓦屋根の上にやわらかく広がる乾いた黄金色の日差しへと場所を譲る。ファンディンフン通りでは、行き交う人々の足元で黄色い葉がかさかさと散る。どこからか、ミルクフラワーの濃厚な香りが空気中にほのかに漂い、濃くなったり薄くなったりしながら、秋が本当にやってきたのだとそっと告げている。\nハノイの秋はまた、コムの季節でもある。ヴォン村から、青く若い米の粒が蓮の葉に丁寧に包まれ、田舎の稲の香りを街の真ん中へと運んでくる。作家タック・ラムはかつて、コムは「この地の草木ならではの贈り物」であり、少しずつゆっくり食べてこそ、その味わいの清らかさと優しさがわかると書いた。\nハノイの秋の魅力は、おそらく景色だけにあるのではなく、生活のリズムがゆっくりになるかのようなところにある。ますます騒がしくなる街の中で、秋は人々が立ち止まり、眺め、自分自身に耳を傾けるための貴重な静寂のひとときのようだ。だからこそ、遠く離れたとき、誰もがあの秋の夕暮れへの尽きない郷愁を胸に抱いていくのだ。",
+   "vocab": [
+    {
+     "vi": "gió heo may",
+     "ja": "（北部の）秋風"
+    },
+    {
+     "vi": "hanh",
+     "ja": "（日差し・空気が）乾いた"
+    },
+    {
+     "vi": "nồng nàn",
+     "ja": "濃厚な、熱烈な"
+    },
+    {
+     "vi": "cốm",
+     "ja": "コム（若い米を炒って潰した菓子）"
+    },
+    {
+     "vi": "khôn nguôi",
+     "ja": "尽きない、癒えない"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo tác giả, vẻ đẹp của mùa thu Hà Nội như thế nào?",
+     "choices": [
+      "Rực rỡ và sôi động",
+      "Ồn ào và náo nhiệt",
+      "Lạnh lẽo và u buồn",
+      "Dịu dàng, man mác"
+     ],
+     "answer": 3,
+     "explain": "mang một vẻ đẹp dịu dàng, man mác。",
+     "qJa": "筆者によると、ハノイの秋の美しさはどのようなものですか。"
+    },
+    {
+     "q": "Dấu hiệu nào KHÔNG được nhắc đến khi thu về?",
+     "choices": [
+      "Nắng vàng hanh",
+      "Hương hoa sữa",
+      "Gió heo may",
+      "Tuyết rơi"
+     ],
+     "answer": 3,
+     "explain": "雪については書かれていません。",
+     "qJa": "秋の訪れのしるしとして触れられていないものはどれですか。"
+    },
+    {
+     "q": "Theo đoạn cuối, sức quyến rũ của mùa thu Hà Nội nằm chủ yếu ở đâu?",
+     "choices": [
+      "Ở giá cả rẻ",
+      "Ở các trung tâm mua sắm",
+      "Ở cảnh sắc và nhịp sống như chậm lại, khoảng lặng cho con người",
+      "Ở các lễ hội lớn"
+     ],
+     "answer": 2,
+     "explain": "không chỉ nằm ở cảnh sắc, mà ở nhịp sống như chậm lại。",
+     "qJa": "最後の段落によると、ハノイの秋の魅力は主にどこにありますか。"
+    }
+   ]
+  },
+  {
+   "id": "r1-07",
+   "title": "Chữ Quốc ngữ – một hành trình lịch sử",
+   "titleJa": "クオックグー：ある歴史の旅路",
+   "text": "Ngày nay, mỗi đứa trẻ Việt Nam chỉ cần vài tháng là có thể đọc thông viết thạo. Ít ai nghĩ rằng hệ chữ viết dùng mẫu tự La-tinh quen thuộc này đã trải qua một hành trình kéo dài hơn ba thế kỷ, đầy những thăng trầm.\nVào thế kỷ 17, các giáo sĩ phương Tây đến Việt Nam truyền đạo đã tìm cách ghi lại tiếng Việt bằng mẫu tự La-tinh để thuận tiện cho việc học tiếng và truyền giáo. Với sự giúp sức của nhiều người Việt, hệ thống chữ viết này dần được hoàn thiện, mà dấu mốc quan trọng là cuốn từ điển Việt – Bồ – La xuất bản năm 1651. Tuy nhiên, suốt một thời gian dài, chữ Quốc ngữ chỉ được dùng trong phạm vi hẹp; chữ Hán và chữ Nôm vẫn giữ vị trí độc tôn trong đời sống văn hóa và hành chính.\nBước ngoặt đến vào đầu thế kỷ 20. Thoạt đầu, chính quyền thực dân khuyến khích chữ Quốc ngữ nhằm cắt đứt ảnh hưởng của văn hóa Hán học. Thế nhưng, chính các sĩ phu yêu nước trong phong trào Đông Kinh Nghĩa Thục lại nhận ra ở thứ chữ dễ học này một công cụ hữu hiệu để nâng cao dân trí, truyền bá tư tưởng mới và khơi dậy tinh thần dân tộc. Sau Cách mạng tháng Tám năm 1945, phong trào Bình dân học vụ đã giúp hàng triệu người thoát nạn mù chữ chỉ trong thời gian ngắn.\nLịch sử chữ Quốc ngữ, vì thế, là một minh chứng thú vị cho sự tiếp biến văn hóa: một sản phẩm khởi nguồn từ bên ngoài, đã được người Việt tiếp nhận, cải biến và biến thành tài sản của chính mình, phục vụ cho công cuộc khai sáng và độc lập dân tộc.",
+   "ja": "今日、ベトナムの子どもは数か月で読み書きができるようになる。このなじみ深いラテン文字を使った文字体系が、浮き沈みに満ちた3世紀以上にわたる旅路を経てきたことを考える人はほとんどいない。\n17世紀、布教のためにベトナムを訪れた西洋の宣教師たちは、言葉の学習と布教の便宜のため、ベトナム語をラテン文字で書き表す方法を模索した。多くのベトナム人の助力を得て、この文字体系は徐々に整えられていき、その重要な節目となったのが1651年に出版された『越葡羅辞典』である。しかし長い間、クオックグーは狭い範囲でしか使われず、漢字とチューノムが文化と行政の生活において独占的な地位を保っていた。\n転機は20世紀初頭に訪れた。当初、植民地政府は漢学文化の影響を断ち切るためにクオックグーを奨励した。しかし、まさに東京義塾運動の愛国的な知識人たちが、この学びやすい文字の中に、民衆の知識を高め、新しい思想を広め、民族精神を呼び覚ますための有効な道具を見いだしたのである。1945年の八月革命の後、平民学務運動はわずかな期間で数百万人を非識字から救い出した。\nしたがって、クオックグーの歴史は文化の受容と変容の興味深い証である。外部から生まれた産物が、ベトナム人によって受け入れられ、作り変えられ、自らの財産へと変わり、啓蒙と民族独立の事業に役立てられたのだ。",
+   "vocab": [
+    {
+     "vi": "mẫu tự",
+     "ja": "アルファベット、字母"
+    },
+    {
+     "vi": "độc tôn",
+     "ja": "唯一尊ばれる、独占的な"
+    },
+    {
+     "vi": "bước ngoặt",
+     "ja": "転機"
+    },
+    {
+     "vi": "dân trí",
+     "ja": "民衆の知的水準"
+    },
+    {
+     "vi": "khai sáng",
+     "ja": "啓蒙"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Ban đầu, chữ Quốc ngữ được tạo ra nhằm mục đích gì?",
+     "choices": [
+      "Thuận tiện cho việc học tiếng và truyền giáo",
+      "Thay thế chữ Hán trong hành chính",
+      "Viết văn học dân gian",
+      "Dạy trẻ em đọc"
+     ],
+     "answer": 0,
+     "explain": "để thuận tiện cho việc học tiếng và truyền giáo。",
+     "qJa": "クオックグーはもともと何のために作られましたか。"
+    },
+    {
+     "q": "Các sĩ phu yêu nước nhìn nhận chữ Quốc ngữ như thế nào?",
+     "choices": [
+      "Là thứ chữ quá khó học",
+      "Là chữ chỉ dùng cho tôn giáo",
+      "Là công cụ hữu hiệu để nâng cao dân trí, khơi dậy tinh thần dân tộc",
+      "Là công cụ của thực dân cần loại bỏ"
+     ],
+     "answer": 2,
+     "explain": "một công cụ hữu hiệu để nâng cao dân trí ... khơi dậy tinh thần dân tộc。",
+     "qJa": "愛国的知識人はクオックグーをどう見ましたか。"
+    },
+    {
+     "q": "Đoạn cuối muốn khẳng định điều gì?",
+     "choices": [
+      "Chữ Quốc ngữ là sản phẩm thuần túy của người Việt",
+      "Chữ Quốc ngữ nên được thay bằng chữ Nôm",
+      "Chữ Quốc ngữ cho thấy người Việt đã tiếp nhận, cải biến cái bên ngoài thành tài sản của mình",
+      "Chữ Quốc ngữ không còn quan trọng"
+     ],
+     "answer": 2,
+     "explain": "tiếp nhận, cải biến và biến thành tài sản của chính mình。",
+     "qJa": "最後の段落は何を主張していますか。"
+    }
+   ]
+  },
+  {
+   "id": "r1-08",
+   "title": "Tư duy phản biện – năng lực thiết yếu của công dân thế kỷ 21",
+   "titleJa": "批判的思考：21世紀の市民に不可欠な力",
+   "text": "Trong nhiều thập kỷ, nền giáo dục ở không ít nước châu Á, trong đó có Việt Nam, đề cao lối học thuộc lòng và \"thầy đọc, trò chép\". Học sinh giỏi thường được hiểu là người nhớ nhiều, làm bài đúng theo đáp án mẫu. Phương pháp ấy có ưu điểm nhất định trong việc truyền thụ kiến thức nền tảng, song lại bộc lộ hạn chế rõ rệt trong một thế giới biến động không ngừng.\nTư duy phản biện, hiểu một cách đơn giản, là khả năng xem xét thông tin một cách độc lập và có căn cứ: đặt câu hỏi, tìm bằng chứng, nhận diện những lập luận thiếu logic và đưa ra kết luận của riêng mình. Cần phân biệt phản biện với \"cãi\" hay phủ nhận mọi thứ; người có tư duy phản biện sẵn sàng thay đổi quan điểm khi gặp lập luận thuyết phục hơn.\nTrong thời đại mà thông tin tràn ngập, thật giả lẫn lộn, năng lực này không còn là thứ \"xa xỉ\" của giới học thuật, mà trở thành kỹ năng sinh tồn của mỗi công dân. Thiếu nó, con người dễ bị dắt mũi bởi tin giả, bởi những lời quảng cáo mật ngọt, hay bởi đám đông trên mạng xã hội.\nRèn luyện tư duy phản biện, tuy nhiên, không thể một sớm một chiều. Nó đòi hỏi một môi trường giáo dục nơi học sinh được khuyến khích đặt câu hỏi mà không sợ bị coi là \"hỗn\", nơi thầy cô đóng vai trò người dẫn dắt thay vì người nắm giữ chân lý tuyệt đối. Quan trọng hơn cả, nó cần sự thay đổi trong chính quan niệm của người lớn: coi việc trẻ em nói \"Con nghĩ khác\" không phải là thiếu lễ phép, mà là dấu hiệu của một trí tuệ đang trưởng thành.",
+   "ja": "何十年もの間、ベトナムを含む多くのアジアの国の教育は、丸暗記と「先生が読み上げ、生徒が書き写す」学び方を重んじてきた。優秀な生徒とは、たくさん覚え、模範解答どおりに答えられる人と理解されがちだった。その方法は基礎知識の伝達には一定の利点があるが、絶えず変動する世界ではっきりとした限界を露呈している。\n批判的思考とは、簡単に言えば、情報を自立的かつ根拠をもって検討する力である。問いを立て、証拠を探し、論理に欠ける議論を見抜き、自分なりの結論を出すことだ。批判的思考を「口答え」やすべてを否定することと区別する必要がある。批判的思考を持つ人は、より説得力のある議論に出会えば、喜んで見解を変える。\n情報があふれ、真偽が入り混じる時代において、この力はもはや学術界の「ぜいたく品」ではなく、すべての市民の生存技能となっている。それがなければ、人はフェイクニュースや甘い宣伝文句、あるいはSNS上の群衆に簡単に鼻面を引き回されてしまう。\nしかし、批判的思考を鍛えるのは一朝一夕にはいかない。それには、生徒が「生意気だ」と思われることを恐れずに問いを立てるよう励まされ、教師が絶対的な真理の保持者ではなく導き手の役割を担う教育環境が必要だ。何よりも重要なのは、大人自身の考え方の変化である。子どもが「私は違うと思う」と言うことを、礼儀知らずではなく、成長しつつある知性のしるしととらえることだ。",
+   "vocab": [
+    {
+     "vi": "học thuộc lòng",
+     "ja": "丸暗記する"
+    },
+    {
+     "vi": "truyền thụ",
+     "ja": "伝授する"
+    },
+    {
+     "vi": "dắt mũi",
+     "ja": "鼻面を引き回す、操る"
+    },
+    {
+     "vi": "một sớm một chiều",
+     "ja": "一朝一夕"
+    },
+    {
+     "vi": "hỗn",
+     "ja": "生意気な、無礼な"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo tác giả, lối học \"thầy đọc, trò chép\" có đặc điểm gì?",
+     "choices": [
+      "Giúp phát triển tư duy phản biện",
+      "Có ích cho kiến thức nền tảng nhưng hạn chế trong thế giới biến động",
+      "Hoàn toàn vô ích",
+      "Chỉ dùng ở đại học"
+     ],
+     "answer": 1,
+     "explain": "có ưu điểm nhất định ... song lại bộc lộ hạn chế rõ rệt。",
+     "qJa": "筆者によると、「先生が読み、生徒が写す」学び方の特徴は何ですか。"
+    },
+    {
+     "q": "Theo đoạn 2, người có tư duy phản biện là người như thế nào?",
+     "choices": [
+      "Sẵn sàng thay đổi quan điểm khi gặp lập luận thuyết phục hơn",
+      "Luôn phủ nhận mọi ý kiến",
+      "Chỉ tin vào sách vở",
+      "Hay cãi lại người lớn"
+     ],
+     "answer": 0,
+     "explain": "sẵn sàng thay đổi quan điểm khi gặp lập luận thuyết phục hơn。",
+     "qJa": "第2段落によると、批判的思考を持つ人とはどんな人ですか。"
+    },
+    {
+     "q": "Theo đoạn cuối, điều quan trọng hơn cả là gì?",
+     "choices": [
+      "Thay toàn bộ giáo viên",
+      "Thay đổi quan niệm của người lớn về việc trẻ em nêu ý kiến khác",
+      "Tăng số giờ học",
+      "Cấm trẻ dùng mạng xã hội"
+     ],
+     "answer": 1,
+     "explain": "nó cần sự thay đổi trong chính quan niệm của người lớn。",
+     "qJa": "最後の段落によると、何よりも重要なことは何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r1-09",
+   "title": "Lối sống tối giản giữa xã hội tiêu dùng",
+   "titleJa": "消費社会の中のミニマリズム",
+   "text": "Chưa bao giờ việc mua sắm lại dễ dàng như hiện nay. Chỉ với vài thao tác trên điện thoại, mọi món hàng từ khắp nơi trên thế giới có thể được giao tận cửa. Các đợt \"siêu khuyến mãi\" liên tiếp cùng những lời quảng cáo khéo léo không ngừng gieo vào tâm trí người tiêu dùng cảm giác rằng mình luôn còn thiếu một thứ gì đó.\nThế nhưng, nghịch lý là sở hữu nhiều hơn chưa chắc đã khiến con người hạnh phúc hơn. Nhiều nghiên cứu tâm lý học chỉ ra rằng niềm vui từ việc mua sắm thường rất ngắn ngủi, trong khi gánh nặng nợ nần, áp lực so bì và cảm giác ngột ngạt trong không gian chất đầy đồ đạc lại kéo dài. Chưa kể, chủ nghĩa tiêu dùng còn để lại hệ lụy nặng nề cho môi trường: núi rác thải ngày một cao, tài nguyên ngày một cạn kiệt.\nTrong bối cảnh đó, lối sống tối giản đang thu hút ngày càng nhiều người trẻ. Những người theo đuổi lối sống này chủ động giảm bớt đồ đạc, chỉ giữ lại những gì thực sự cần thiết hoặc mang lại giá trị tinh thần. Họ cho rằng khi bớt bận tâm đến vật chất, con người sẽ có thêm thời gian, tiền bạc và năng lượng cho những điều quan trọng hơn: các mối quan hệ, sức khỏe và sự phát triển bản thân.\nDẫu vậy, cũng cần tỉnh táo trước nguy cơ biến tối giản thành một \"trào lưu\" hình thức – khi người ta vứt bỏ đồ cũ chỉ để mua những món đồ \"tối giản\" đắt tiền mới. Tối giản, suy cho cùng, không phải là sống khổ hạnh hay chạy theo một phong cách thẩm mỹ, mà là học cách tự hỏi: \"Mình có thực sự cần điều này không?\"",
+   "ja": "今ほど買い物が簡単だった時代はない。スマートフォンを数回操作するだけで、世界中のあらゆる品物が玄関まで届けられる。次々と続く「超セール」や巧みな広告は、消費者の心に、自分にはいつも何かが足りないという感覚を絶えず植えつけている。\nしかし逆説的に、より多く所有しても、人がより幸せになるとは限らない。多くの心理学研究は、買い物による喜びはたいていとても短い一方、借金の重荷、比較のプレッシャー、物があふれた空間の息苦しさは長く続くことを示している。そればかりか、消費主義は環境にも深刻な弊害を残している。ごみの山は日に日に高くなり、資源は日に日に枯渇している。\nこうした背景の中で、ミニマリズムはますます多くの若者を惹きつけている。この生き方を追求する人々は、自ら物を減らし、本当に必要な物や精神的な価値をもたらす物だけを残す。彼らは、物質への関心を減らせば、人間関係、健康、自己成長といった、より大切なことのための時間、お金、エネルギーが増えると考えている。\nとはいえ、ミニマリズムを形だけの「ブーム」にしてしまう危険にも冷静であるべきだ。古い物を捨てて、ただ高価な「ミニマル」な新しい物を買うような場合である。ミニマリズムとは、つまるところ、禁欲的に暮らすことでも、ある美的スタイルを追いかけることでもなく、「自分は本当にこれが必要なのか」と自問することを学ぶことなのだ。",
+   "vocab": [
+    {
+     "vi": "thao tác",
+     "ja": "操作"
+    },
+    {
+     "vi": "nghịch lý",
+     "ja": "逆説、パラドックス"
+    },
+    {
+     "vi": "so bì",
+     "ja": "比べてねたむ"
+    },
+    {
+     "vi": "ngột ngạt",
+     "ja": "息苦しい"
+    },
+    {
+     "vi": "khổ hạnh",
+     "ja": "禁欲的な、苦行の"
+    }
+   ],
+   "questions": [
+    {
+     "q": "\"Nghịch lý\" mà tác giả nêu ở đoạn 2 là gì?",
+     "choices": [
+      "Người trẻ không thích mua sắm",
+      "Mua sắm ngày càng khó khăn",
+      "Hàng hóa ngày càng đắt",
+      "Sở hữu nhiều hơn chưa chắc đã hạnh phúc hơn"
+     ],
+     "answer": 3,
+     "explain": "sở hữu nhiều hơn chưa chắc đã khiến con người hạnh phúc hơn。",
+     "qJa": "第2段落で筆者が述べる「逆説」とは何ですか。"
+    },
+    {
+     "q": "Người theo lối sống tối giản tin rằng điều gì?",
+     "choices": [
+      "Phải sống khổ hạnh",
+      "Chỉ nên mua đồ đắt tiền",
+      "Bớt bận tâm đến vật chất sẽ có thêm thời gian, tiền bạc cho điều quan trọng hơn",
+      "Càng nhiều đồ càng tốt"
+     ],
+     "answer": 2,
+     "explain": "khi bớt bận tâm đến vật chất, con người sẽ có thêm thời gian, tiền bạc và năng lượng ...。",
+     "qJa": "ミニマリズムを実践する人は何を信じていますか。"
+    },
+    {
+     "q": "Tác giả cảnh báo nguy cơ gì ở đoạn cuối?",
+     "choices": [
+      "Môi trường được cải thiện quá nhanh",
+      "Tối giản trở thành trào lưu hình thức, vứt đồ cũ để mua đồ mới đắt tiền",
+      "Người trẻ không còn mua sắm",
+      "Các cửa hàng phá sản"
+     ],
+     "answer": 1,
+     "explain": "biến tối giản thành một \"trào lưu\" hình thức ... mua những món đồ \"tối giản\" đắt tiền mới。",
+     "qJa": "最後の段落で筆者はどんな危険を警告していますか。"
+    }
+   ]
+  },
+  {
+   "id": "r1-10",
+   "title": "Hướng tới phát thải ròng bằng 0: thách thức và cơ hội",
+   "titleJa": "ネットゼロに向けて：課題と機会",
+   "text": "Tại Hội nghị COP26 năm 2021, Việt Nam đưa ra cam kết đạt mức phát thải ròng bằng 0 vào năm 2050. Đây là một cam kết đầy tham vọng đối với một nền kinh tế đang phát triển, mà than đá vẫn chiếm tỷ trọng lớn trong cơ cấu nguồn điện và nhu cầu năng lượng tăng hơn 10% mỗi năm.\nThách thức trước hết nằm ở nguồn lực tài chính. Theo ước tính của các tổ chức quốc tế, quá trình chuyển đổi năng lượng đòi hỏi hàng trăm tỷ đô la đầu tư trong vài thập kỷ tới – một con số vượt xa khả năng của ngân sách nhà nước. Bên cạnh đó là bài toán kỹ thuật: điện mặt trời và điện gió phụ thuộc vào thời tiết, trong khi hệ thống lưu trữ và lưới điện truyền tải còn nhiều bất cập. Không ít dự án năng lượng tái tạo đã phải cắt giảm công suất vì lưới điện quá tải.\nTuy nhiên, nếu nhìn từ một góc độ khác, chuyển đổi xanh cũng mở ra những cơ hội lớn. Việt Nam sở hữu tiềm năng điện gió ngoài khơi thuộc hàng tốt nhất khu vực. Các thị trường xuất khẩu chủ lực như Liên minh châu Âu đang áp dụng cơ chế điều chỉnh carbon biên giới, buộc doanh nghiệp phải \"xanh hóa\" sản xuất nếu không muốn mất thị phần. Doanh nghiệp đi trước trong cuộc đua này sẽ có lợi thế cạnh tranh đáng kể.\nĐể biến cam kết thành hiện thực, cần một khung chính sách rõ ràng, ổn định và đủ sức hấp dẫn đầu tư tư nhân; đồng thời cần đảm bảo một quá trình chuyển đổi công bằng, không để người lao động trong ngành than hay các cộng đồng dễ bị tổn thương bị bỏ lại phía sau. Phát thải ròng bằng 0, xét cho cùng, không chỉ là mục tiêu môi trường, mà là phép thử cho năng lực hoạch định và thực thi chính sách của cả một quốc gia.",
+   "ja": "2021年のCOP26で、ベトナムは2050年までに正味排出量をゼロにすると約束した。石炭がいまだに電源構成の大きな割合を占め、エネルギー需要が毎年10%以上伸びている発展途上の経済にとって、これは野心的な約束である。\n課題はまず財源にある。国際機関の試算によると、エネルギー転換には今後数十年で数千億ドルの投資が必要であり、国家予算の能力をはるかに超える数字だ。それに加えて技術的な課題もある。太陽光発電と風力発電は天候に左右されるが、蓄電システムや送電網にはまだ多くの不備がある。送電網が過負荷のため出力を抑制しなければならなかった再生可能エネルギー事業も少なくない。\nしかし、別の角度から見れば、グリーン転換は大きな機会も開く。ベトナムは地域でも屈指の洋上風力発電の潜在力を持っている。欧州連合のような主要輸出市場は炭素国境調整メカニズムを導入しつつあり、市場シェアを失いたくなければ企業は生産を「グリーン化」せざるを得ない。この競争で先行する企業は、大きな競争優位を得るだろう。\n約束を現実にするためには、明確で安定し、民間投資を十分に惹きつける政策の枠組みが必要だ。同時に、石炭産業の労働者や脆弱なコミュニティを置き去りにしない、公正な転換を確保する必要がある。正味排出量ゼロは、突き詰めれば、単なる環境目標ではなく、一国全体の政策立案と実行の能力を試す試金石なのである。",
+   "vocab": [
+    {
+     "vi": "tỷ trọng",
+     "ja": "比率、割合"
+    },
+    {
+     "vi": "bất cập",
+     "ja": "不備、不十分な点"
+    },
+    {
+     "vi": "ngoài khơi",
+     "ja": "沖合の、洋上の"
+    },
+    {
+     "vi": "điều chỉnh carbon biên giới",
+     "ja": "炭素国境調整"
+    },
+    {
+     "vi": "phép thử",
+     "ja": "試金石"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Vì sao cam kết của Việt Nam được coi là \"đầy tham vọng\"?",
+     "choices": [
+      "Vì Việt Nam không có gió và nắng",
+      "Vì kinh tế đang phát triển, than chiếm tỷ trọng lớn và nhu cầu năng lượng tăng nhanh",
+      "Vì Việt Nam đã không còn dùng than",
+      "Vì Việt Nam là nước giàu nhất khu vực"
+     ],
+     "answer": 1,
+     "explain": "than đá vẫn chiếm tỷ trọng lớn ... nhu cầu năng lượng tăng hơn 10% mỗi năm。",
+     "qJa": "ベトナムの約束が「野心的」とされるのはなぜですか。"
+    },
+    {
+     "q": "Theo đoạn 3, vì sao doanh nghiệp xuất khẩu buộc phải \"xanh hóa\"?",
+     "choices": [
+      "Vì người lao động yêu cầu",
+      "Vì chính phủ cấm xuất khẩu",
+      "Vì thị trường như EU áp dụng cơ chế điều chỉnh carbon biên giới",
+      "Vì giá điện giảm"
+     ],
+     "answer": 2,
+     "explain": "Liên minh châu Âu đang áp dụng cơ chế điều chỉnh carbon biên giới。",
+     "qJa": "第3段落によると、輸出企業が「グリーン化」せざるを得ないのはなぜですか。"
+    },
+    {
+     "q": "Câu kết của bài muốn nói điều gì?",
+     "choices": [
+      "Chỉ doanh nghiệp tư nhân phải chịu trách nhiệm",
+      "Phát thải ròng bằng 0 chỉ là mục tiêu môi trường",
+      "Mục tiêu này không thể đạt được",
+      "Đây là phép thử năng lực hoạch định và thực thi chính sách của quốc gia"
+     ],
+     "answer": 3,
+     "explain": "không chỉ là mục tiêu môi trường, mà là phép thử ...。",
+     "qJa": "この文章の結びの文は何を言おうとしていますか。"
+    }
+   ]
+  }
+ ]
+}
