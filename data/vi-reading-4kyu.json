@@ -1,0 +1,643 @@
+{
+ "level": 4,
+ "passages": [
+  {
+   "id": "r4-01",
+   "title": "Lá thư gửi bạn",
+   "titleJa": "友達への手紙",
+   "text": "Yuki thân mến,\nMình đến Hà Nội được ba tháng rồi. Lúc đầu mình chưa quen với giao thông và thời tiết ở đây. Xe máy rất nhiều, mùa hè lại nóng và ẩm. Nhưng bây giờ mình đã quen rồi.\nMình đang học tiếng Việt ở một trung tâm gần hồ Tây. Mỗi tuần mình học ba buổi, buổi tối. Ban ngày mình làm việc ở một công ty Nhật. Đồng nghiệp người Việt rất nhiệt tình, họ hay rủ mình đi ăn trưa.\nTháng sau là Tết. Một người bạn Việt mời mình về quê bạn ấy ở Nam Định ăn Tết. Mình rất mong đến ngày đó.\nBạn có khỏe không? Khi nào rảnh, sang Việt Nam chơi nhé!\nThân,\nHana",
+   "ja": "親愛なるユキへ\nハノイに来てもう3か月になります。最初はここの交通と天気に慣れませんでした。バイクがとても多く、夏は暑くて湿気が多いです。でも今はもう慣れました。\n私はタイ湖の近くのセンターでベトナム語を勉強しています。毎週3回、夜に勉強しています。昼間は日本の会社で働いています。ベトナム人の同僚はとても親切で、よく昼食に誘ってくれます。\n来月はテトです。ベトナム人の友達が、ナムディンにある彼女の故郷でテトを過ごそうと誘ってくれました。その日がとても楽しみです。\n元気ですか？暇なときにベトナムへ遊びに来てね！\nじゃあね、\n花より",
+   "vocab": [
+    {
+     "vi": "thân mến",
+     "ja": "親愛なる"
+    },
+    {
+     "vi": "quen với",
+     "ja": "〜に慣れる"
+    },
+    {
+     "vi": "rủ",
+     "ja": "誘う"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Hana đến Hà Nội bao lâu rồi?",
+     "choices": [
+      "Một tháng",
+      "Ba tháng",
+      "Ba năm",
+      "Một năm"
+     ],
+     "answer": 1,
+     "explain": "Mình đến Hà Nội được ba tháng rồi とあります。",
+     "qJa": "花はハノイに来てどのくらいですか。"
+    },
+    {
+     "q": "Hana học tiếng Việt khi nào?",
+     "choices": [
+      "Buổi sáng",
+      "Buổi trưa",
+      "Buổi tối",
+      "Cuối tuần"
+     ],
+     "answer": 2,
+     "explain": "Mỗi tuần mình học ba buổi, buổi tối。",
+     "qJa": "花はいつベトナム語を勉強していますか。"
+    },
+    {
+     "q": "Tết này Hana sẽ làm gì?",
+     "choices": [
+      "Về Nhật",
+      "Ở nhà một mình",
+      "Về quê bạn ở Nam Định",
+      "Đi du lịch Đà Nẵng"
+     ],
+     "answer": 2,
+     "explain": "友達がナムディンの故郷に招待してくれました。",
+     "qJa": "今年のテトに花は何をしますか。"
+    },
+    {
+     "q": "Câu nào đúng với nội dung lá thư?",
+     "choices": [
+      "Hana vẫn chưa quen với cuộc sống ở Hà Nội.",
+      "Đồng nghiệp của Hana là người Nhật.",
+      "Hana làm việc ban ngày.",
+      "Yuki đang sống ở Việt Nam."
+     ],
+     "answer": 2,
+     "explain": "Ban ngày mình làm việc ở một công ty Nhật。",
+     "qJa": "手紙の内容に合うものはどれですか。"
+    }
+   ]
+  },
+  {
+   "id": "r4-02",
+   "title": "Thông báo của chung cư",
+   "titleJa": "マンションのお知らせ",
+   "text": "THÔNG BÁO\nKính gửi các hộ gia đình trong chung cư Hoa Sen.\nBan quản lý xin thông báo: từ 8 giờ sáng đến 5 giờ chiều thứ bảy ngày 15 tháng này, chung cư sẽ tạm ngừng cấp nước để sửa đường ống.\nĐề nghị các gia đình chuẩn bị nước dùng trước. Trong thời gian này, thang máy số 2 cũng sẽ dừng hoạt động để bảo trì. Mọi người vui lòng sử dụng thang máy số 1 hoặc cầu thang bộ.\nNếu có câu hỏi, xin liên hệ văn phòng ban quản lý ở tầng 1, số điện thoại 024 3826 1234.\nXin cảm ơn.",
+   "ja": "お知らせ\nホアセン・マンションの各ご家庭の皆様へ\n管理組合よりお知らせします。今月15日の土曜日、朝8時から午後5時まで、配管修理のためマンションの給水を一時停止します。\n各ご家庭は使用する水を事前にご準備ください。この時間中、2号エレベーターも保守点検のため停止します。1号エレベーターか階段をご利用ください。\nご質問がありましたら、1階の管理事務所（電話 024 3826 1234）までご連絡ください。\nよろしくお願いいたします。",
+   "vocab": [
+    {
+     "vi": "ban quản lý",
+     "ja": "管理組合、管理者"
+    },
+    {
+     "vi": "tạm ngừng",
+     "ja": "一時停止する"
+    },
+    {
+     "vi": "bảo trì",
+     "ja": "保守点検"
+    },
+    {
+     "vi": "vui lòng",
+     "ja": "〜してください（丁寧）"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Vì sao chung cư ngừng cấp nước?",
+     "choices": [
+      "Vì thiếu nước",
+      "Vì sửa đường ống",
+      "Vì mất điện",
+      "Vì dọn vệ sinh"
+     ],
+     "answer": 1,
+     "explain": "để sửa đường ống（配管修理のため）。",
+     "qJa": "なぜ給水が止まりますか。"
+    },
+    {
+     "q": "Ngày 15, cư dân nên làm gì?",
+     "choices": [
+      "Dùng thang máy số 2",
+      "Chuẩn bị nước trước",
+      "Đến văn phòng lúc 8 giờ",
+      "Ra khỏi chung cư"
+     ],
+     "answer": 1,
+     "explain": "Đề nghị các gia đình chuẩn bị nước dùng trước。",
+     "qJa": "15日に住民は何をすべきですか。"
+    },
+    {
+     "q": "Văn phòng ban quản lý ở đâu?",
+     "choices": [
+      "Tầng 1",
+      "Tầng 2",
+      "Tầng 15",
+      "Bên ngoài chung cư"
+     ],
+     "answer": 0,
+     "explain": "văn phòng ban quản lý ở tầng 1。",
+     "qJa": "管理事務所はどこですか。"
+    }
+   ]
+  },
+  {
+   "id": "r4-03",
+   "title": "Bữa cơm gia đình",
+   "titleJa": "家族の食事",
+   "text": "Ở Việt Nam, bữa cơm tối là thời gian quan trọng của gia đình. Sau một ngày làm việc và học tập, mọi người cùng ngồi ăn và nói chuyện với nhau.\nMột bữa cơm thường có cơm, một món mặn như thịt hoặc cá, một món rau và một bát canh. Mọi người không lấy riêng mà ăn chung các món ở giữa mâm.\nTrước khi ăn, con cháu thường mời ông bà, bố mẹ: \"Cháu mời ông bà ăn cơm, con mời bố mẹ ăn cơm.\" Đây là cách thể hiện sự lễ phép.\nNgày nay, nhiều gia đình ở thành phố bận rộn nên ít khi ăn tối cùng nhau. Nhưng nhiều người vẫn cố gắng giữ thói quen tốt đẹp này.",
+   "ja": "ベトナムでは、夕食は家族にとって大切な時間です。一日の仕事や勉強の後、みんなで一緒に座って食べ、話をします。\n食事にはふつう、ご飯、肉や魚などのおかず、野菜料理、そしてスープがあります。みんな個別に取り分けず、お膳の真ん中の料理を一緒に食べます。\n食べる前に、子や孫はよく祖父母や両親に「おじいちゃんおばあちゃん、どうぞ召し上がってください。お父さんお母さん、どうぞ召し上がってください」と声をかけます。これは礼儀正しさを示す方法です。\n今日では、都市の多くの家庭は忙しいため、一緒に夕食をとることが少なくなりました。しかし多くの人が、このよい習慣を守ろうと努力しています。",
+   "vocab": [
+    {
+     "vi": "món mặn",
+     "ja": "おかず（肉・魚など）"
+    },
+    {
+     "vi": "mâm",
+     "ja": "お膳"
+    },
+    {
+     "vi": "lễ phép",
+     "ja": "礼儀正しい"
+    },
+    {
+     "vi": "thể hiện",
+     "ja": "表す"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Một bữa cơm Việt Nam thường KHÔNG có gì?",
+     "choices": [
+      "Canh",
+      "Món rau",
+      "Bánh ngọt",
+      "Cơm"
+     ],
+     "answer": 2,
+     "explain": "ご飯・おかず・野菜・スープが挙げられ、お菓子はありません。",
+     "qJa": "ベトナムの食事にふつう含まれないものはどれですか。"
+    },
+    {
+     "q": "Trước khi ăn, con cháu thường làm gì?",
+     "choices": [
+      "Rửa bát",
+      "Mời người lớn ăn cơm",
+      "Đi chợ",
+      "Xem tivi"
+     ],
+     "answer": 1,
+     "explain": "con cháu thường mời ông bà, bố mẹ。",
+     "qJa": "食事の前に子や孫は何をしますか。"
+    },
+    {
+     "q": "Theo bài, tại sao nhiều gia đình ở thành phố ít khi ăn tối cùng nhau?",
+     "choices": [
+      "Vì không thích nấu ăn",
+      "Vì bận rộn",
+      "Vì nhà chật",
+      "Vì ăn ở nhà hàng"
+     ],
+     "answer": 1,
+     "explain": "bận rộn nên ít khi ăn tối cùng nhau。",
+     "qJa": "都市の家庭が一緒に夕食をとらない理由は何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r4-04",
+   "title": "Quảng cáo lớp học",
+   "titleJa": "教室の広告",
+   "text": "TRUNG TÂM NGOẠI NGỮ ÁNH SAO\nKhai giảng lớp tiếng Nhật sơ cấp ngày 3 tháng 9.\n- Thời gian: tối thứ hai, thứ tư, thứ sáu, từ 18 giờ 30 đến 20 giờ.\n- Thời lượng: 3 tháng (36 buổi).\n- Học phí: 3.600.000 đồng. Đăng ký trước ngày 25 tháng 8 được giảm 10%.\n- Giáo viên: người Nhật và người Việt có nhiều kinh nghiệm.\n- Mỗi lớp tối đa 15 học viên.\nHọc viên mới được học thử miễn phí một buổi. Đăng ký tại văn phòng trung tâm hoặc trên trang web anhsao.edu.vn.",
+   "ja": "アインサオ外国語センター\n初級日本語クラス、9月3日開講。\n・時間：月・水・金の夜、18時30分から20時まで。\n・期間：3か月（36回）。\n・学費：360万ドン。8月25日までに申し込むと10％割引。\n・講師：経験豊富な日本人とベトナム人。\n・1クラス最大15名。\n新しい受講生は1回無料で体験受講できます。センター事務所またはウェブサイト anhsao.edu.vn で申し込めます。",
+   "vocab": [
+    {
+     "vi": "khai giảng",
+     "ja": "開講する"
+    },
+    {
+     "vi": "thời lượng",
+     "ja": "期間、時間数"
+    },
+    {
+     "vi": "tối đa",
+     "ja": "最大"
+    },
+    {
+     "vi": "học thử",
+     "ja": "体験受講する"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Lớp học mỗi tuần mấy buổi?",
+     "choices": [
+      "Hai buổi",
+      "Ba buổi",
+      "Năm buổi",
+      "Sáu buổi"
+     ],
+     "answer": 1,
+     "explain": "thứ hai, thứ tư, thứ sáu の3回。",
+     "qJa": "クラスは週に何回ですか。"
+    },
+    {
+     "q": "Nếu đăng ký ngày 20 tháng 8, học phí là bao nhiêu?",
+     "choices": [
+      "3.600.000 đồng",
+      "3.240.000 đồng",
+      "360.000 đồng",
+      "Miễn phí"
+     ],
+     "answer": 1,
+     "explain": "25日までなら10％引き：360万×0.9＝324万ドン。",
+     "qJa": "8月20日に申し込むと学費はいくらですか。"
+    },
+    {
+     "q": "Câu nào đúng?",
+     "choices": [
+      "Lớp học có 36 học viên.",
+      "Học viên mới được học thử một buổi không mất tiền.",
+      "Chỉ có giáo viên người Nhật.",
+      "Chỉ đăng ký được trên mạng."
+     ],
+     "answer": 1,
+     "explain": "Học viên mới được học thử miễn phí một buổi。",
+     "qJa": "正しいものはどれですか。"
+    }
+   ]
+  },
+  {
+   "id": "r4-05",
+   "title": "Tết Trung thu",
+   "titleJa": "中秋節",
+   "text": "Tết Trung thu là ngày 15 tháng 8 âm lịch. Vào đêm này, trăng tròn và sáng nhất trong năm.\nTrung thu là Tết của trẻ em. Trẻ em được bố mẹ mua đèn lồng, đồ chơi và bánh trung thu. Buổi tối, các em cầm đèn ông sao đi rước đèn quanh phố và xem múa lân.\nBánh trung thu có hai loại chính: bánh nướng và bánh dẻo. Bánh thường có hình tròn hoặc hình vuông, bên trong có nhân đậu xanh, thịt, trứng hoặc hạt sen.\nNgười lớn cũng mua bánh trung thu để biếu họ hàng, bạn bè và đồng nghiệp. Ở Hà Nội, phố Hàng Mã rất đông vui vào dịp này.",
+   "ja": "中秋節は旧暦8月15日です。この夜、月は一年で一番丸く明るくなります。\n中秋節は子どもたちのお祭りです。子どもたちは両親に提灯やおもちゃ、月餅を買ってもらいます。夜には、星形の提灯を持って町を練り歩き、獅子舞を見ます。\n月餅には主に2種類あります：焼き月餅ともち月餅です。月餅はたいてい丸か四角い形で、中には緑豆、肉、卵、蓮の実などの餡が入っています。\n大人も親戚や友人、同僚に贈るために月餅を買います。ハノイでは、この時期ハンマー通りがとてもにぎわいます。",
+   "vocab": [
+    {
+     "vi": "trăng",
+     "ja": "月"
+    },
+    {
+     "vi": "rước đèn",
+     "ja": "提灯行列をする"
+    },
+    {
+     "vi": "nhân",
+     "ja": "餡"
+    },
+    {
+     "vi": "biếu",
+     "ja": "（目上に）贈る"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Tết Trung thu vào ngày nào?",
+     "choices": [
+      "Ngày 15 tháng 8 dương lịch",
+      "Ngày 15 tháng 8 âm lịch",
+      "Ngày 1 tháng 1 âm lịch",
+      "Ngày 8 tháng 3"
+     ],
+     "answer": 1,
+     "explain": "ngày 15 tháng 8 âm lịch。",
+     "qJa": "中秋節はいつですか。"
+    },
+    {
+     "q": "Vào đêm Trung thu, trẻ em thường làm gì?",
+     "choices": [
+      "Đi học",
+      "Rước đèn và xem múa lân",
+      "Gói bánh chưng",
+      "Đi chùa"
+     ],
+     "answer": 1,
+     "explain": "đi rước đèn quanh phố và xem múa lân。",
+     "qJa": "中秋の夜、子どもたちは何をしますか。"
+    },
+    {
+     "q": "Người lớn mua bánh trung thu để làm gì?",
+     "choices": [
+      "Để bán",
+      "Để biếu người khác",
+      "Để ăn sáng",
+      "Để học nấu ăn"
+     ],
+     "answer": 1,
+     "explain": "để biếu họ hàng, bạn bè và đồng nghiệp。",
+     "qJa": "大人は何のために月餅を買いますか。"
+    }
+   ]
+  },
+  {
+   "id": "r4-06",
+   "title": "Đi khám bệnh",
+   "titleJa": "病院で診てもらう",
+   "text": "Tuần trước, tôi bị sốt và ho nhiều. Lúc đầu tôi nghĩ chỉ bị cảm nên mua thuốc ở hiệu thuốc. Nhưng sau ba ngày, tôi vẫn chưa khỏi, nên tôi đi khám ở bệnh viện.\nỞ bệnh viện có rất nhiều người. Tôi phải lấy số và chờ gần một tiếng. Bác sĩ hỏi tôi bị từ bao giờ, có đau họng không, rồi cho tôi đi xét nghiệm máu và chụp phim phổi.\nKết quả cho thấy tôi bị viêm họng, không nguy hiểm. Bác sĩ kê đơn thuốc cho năm ngày và dặn tôi uống nhiều nước, nghỉ ngơi và không ăn đồ lạnh.\nBây giờ tôi đã khỏe lại. Tôi rút ra kinh nghiệm: khi ốm lâu không khỏi thì nên đi gặp bác sĩ sớm.",
+   "ja": "先週、私は熱が出て、咳がひどく出ました。最初はただの風邪だと思って薬局で薬を買いました。でも3日たってもまだ治らなかったので、病院へ診察を受けに行きました。\n病院にはとてもたくさんの人がいました。番号札を取って1時間近く待たなければなりませんでした。医者はいつからか、喉が痛いかを聞いてから、血液検査と肺のレントゲンを受けさせました。\n結果は咽頭炎で、危険なものではありませんでした。医者は5日分の薬を処方し、水をたくさん飲み、休んで、冷たいものを食べないようにと言いました。\n今はもう元気になりました。経験から学びました：病気が長く治らないときは、早めに医者に診てもらうべきです。",
+   "vocab": [
+    {
+     "vi": "viêm họng",
+     "ja": "咽頭炎"
+    },
+    {
+     "vi": "chụp phim",
+     "ja": "レントゲンを撮る"
+    },
+    {
+     "vi": "dặn",
+     "ja": "言いつける"
+    },
+    {
+     "vi": "rút ra kinh nghiệm",
+     "ja": "経験から学ぶ"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Lúc đầu, người viết làm gì khi bị ốm?",
+     "choices": [
+      "Đi bệnh viện ngay",
+      "Mua thuốc ở hiệu thuốc",
+      "Không làm gì",
+      "Gọi điện cho bác sĩ"
+     ],
+     "answer": 1,
+     "explain": "mua thuốc ở hiệu thuốc。",
+     "qJa": "最初に筆者は何をしましたか。"
+    },
+    {
+     "q": "Người viết phải chờ ở bệnh viện bao lâu?",
+     "choices": [
+      "Ba ngày",
+      "Gần một tiếng",
+      "Năm phút",
+      "Năm ngày"
+     ],
+     "answer": 1,
+     "explain": "chờ gần một tiếng。",
+     "qJa": "病院でどのくらい待ちましたか。"
+    },
+    {
+     "q": "Bác sĩ KHÔNG dặn điều gì?",
+     "choices": [
+      "Uống nhiều nước",
+      "Nghỉ ngơi",
+      "Không ăn đồ lạnh",
+      "Tập thể dục nhiều"
+     ],
+     "answer": 3,
+     "explain": "運動については言っていません。",
+     "qJa": "医者が言わなかったことはどれですか。"
+    },
+    {
+     "q": "Bài học người viết rút ra là gì?",
+     "choices": [
+      "Không nên đi bệnh viện",
+      "Ốm lâu thì nên đi khám sớm",
+      "Nên mua thuốc ở hiệu thuốc",
+      "Không nên uống thuốc"
+     ],
+     "answer": 1,
+     "explain": "khi ốm lâu không khỏi thì nên đi gặp bác sĩ sớm。",
+     "qJa": "筆者が学んだことは何ですか。"
+    }
+   ]
+  },
+  {
+   "id": "r4-07",
+   "title": "Hỏi đường",
+   "titleJa": "道を尋ねる",
+   "text": "Khách: Xin lỗi chị, cho tôi hỏi bảo tàng Dân tộc học ở đâu ạ?\nNgười bán hàng: Bảo tàng ở đường Nguyễn Văn Huyên. Từ đây đi bộ hơi xa, khoảng hai cây số.\nKhách: Đi xe buýt có được không ạ?\nNgười bán hàng: Được. Anh đi thẳng khoảng một trăm mét, đến ngã tư thì rẽ phải. Trạm xe buýt ở trước siêu thị. Anh đi xe số 38, xuống ở trạm thứ tư.\nKhách: Đi mất bao lâu ạ?\nNgười bán hàng: Khoảng mười lăm phút, nếu không tắc đường.\nKhách: Cảm ơn chị nhiều.\nNgười bán hàng: Không có gì. Chúc anh đi vui vẻ.",
+   "ja": "客：すみません、民族学博物館はどこか教えていただけますか。\n店員：博物館はグエン・ヴァン・フエン通りにあります。ここから歩くと少し遠く、約2キロです。\n客：バスで行けますか。\n店員：行けますよ。まっすぐ100メートルほど行って、交差点に着いたら右に曲がってください。バス停はスーパーの前です。38番のバスに乗って、4つ目の停留所で降りてください。\n客：どのくらいかかりますか。\n店員：渋滞がなければ15分くらいです。\n客：どうもありがとうございます。\n店員：どういたしまして。楽しんでください。",
+   "vocab": [
+    {
+     "vi": "bảo tàng Dân tộc học",
+     "ja": "民族学博物館"
+    },
+    {
+     "vi": "rẽ phải",
+     "ja": "右に曲がる"
+    },
+    {
+     "vi": "trạm thứ tư",
+     "ja": "4つ目の停留所"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Bảo tàng cách đây khoảng bao xa?",
+     "choices": [
+      "Một trăm mét",
+      "Hai cây số",
+      "Mười lăm cây số",
+      "Bốn cây số"
+     ],
+     "answer": 1,
+     "explain": "khoảng hai cây số。",
+     "qJa": "博物館はここからどのくらいの距離ですか。"
+    },
+    {
+     "q": "Trạm xe buýt ở đâu?",
+     "choices": [
+      "Trước bảo tàng",
+      "Trước siêu thị",
+      "Ở ngã tư",
+      "Sau siêu thị"
+     ],
+     "answer": 1,
+     "explain": "Trạm xe buýt ở trước siêu thị。",
+     "qJa": "バス停はどこですか。"
+    },
+    {
+     "q": "Khách nên xuống xe ở đâu?",
+     "choices": [
+      "Trạm thứ nhất",
+      "Trạm thứ ba",
+      "Trạm thứ tư",
+      "Trạm cuối"
+     ],
+     "answer": 2,
+     "explain": "xuống ở trạm thứ tư。",
+     "qJa": "客はどこで降りるべきですか。"
+    }
+   ]
+  },
+  {
+   "id": "r4-08",
+   "title": "Xe máy ở Việt Nam",
+   "titleJa": "ベトナムのバイク",
+   "text": "Việt Nam có khoảng 70 triệu chiếc xe máy. Ở các thành phố lớn như Hà Nội và Thành phố Hồ Chí Minh, gần như mỗi người lớn đều có một chiếc xe máy.\nNgười Việt dùng xe máy vì nó tiện lợi. Xe máy có thể đi vào các ngõ nhỏ, dễ đỗ và không đắt như ô tô. Ngoài ra, xe buýt ở nhiều nơi chưa nhiều và chưa thuận tiện.\nTuy nhiên, xe máy cũng gây ra nhiều vấn đề. Vào giờ cao điểm, đường phố thường bị tắc. Không khí ô nhiễm vì khói xe. Tai nạn giao thông cũng xảy ra nhiều.\nHiện nay, Hà Nội và Thành phố Hồ Chí Minh đang xây tàu điện và phát triển xe buýt. Chính phủ hy vọng trong tương lai người dân sẽ dùng phương tiện công cộng nhiều hơn.",
+   "ja": "ベトナムには約7000万台のバイクがあります。ハノイやホーチミン市などの大都市では、ほぼすべての大人がバイクを1台持っています。\nベトナム人がバイクを使うのは便利だからです。バイクは細い路地にも入れ、停めやすく、車ほど高くありません。それに、多くの場所でバスはまだ少なく、便利ではありません。\nしかし、バイクは多くの問題も引き起こしています。ラッシュアワーには道路がよく渋滞します。排気ガスで空気が汚れます。交通事故も多く起こります。\n現在、ハノイとホーチミン市は鉄道を建設し、バスを発展させています。政府は将来、人々がもっと公共交通機関を使うようになることを望んでいます。",
+   "vocab": [
+    {
+     "vi": "khói xe",
+     "ja": "排気ガス"
+    },
+    {
+     "vi": "tuy nhiên",
+     "ja": "しかしながら"
+    },
+    {
+     "vi": "phương tiện công cộng",
+     "ja": "公共交通機関"
+    },
+    {
+     "vi": "tàu điện",
+     "ja": "電車"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Theo bài, tại sao người Việt dùng xe máy?",
+     "choices": [
+      "Vì xe máy rất đắt",
+      "Vì xe máy tiện lợi",
+      "Vì không có đường",
+      "Vì thích ô nhiễm"
+     ],
+     "answer": 1,
+     "explain": "Người Việt dùng xe máy vì nó tiện lợi。",
+     "qJa": "なぜベトナム人はバイクを使いますか。"
+    },
+    {
+     "q": "Vấn đề nào KHÔNG được nhắc đến trong bài?",
+     "choices": [
+      "Tắc đường",
+      "Ô nhiễm không khí",
+      "Tai nạn giao thông",
+      "Giá xăng tăng"
+     ],
+     "answer": 3,
+     "explain": "ガソリン代については書かれていません。",
+     "qJa": "本文で触れられていない問題はどれですか。"
+    },
+    {
+     "q": "Chính phủ hy vọng điều gì?",
+     "choices": [
+      "Người dân mua nhiều xe máy hơn",
+      "Người dân dùng phương tiện công cộng nhiều hơn",
+      "Đóng cửa các ngõ nhỏ",
+      "Không xây tàu điện"
+     ],
+     "answer": 1,
+     "explain": "dùng phương tiện công cộng nhiều hơn。",
+     "qJa": "政府は何を望んでいますか。"
+    }
+   ]
+  },
+  {
+   "id": "r4-09",
+   "title": "Tin nhắn xin nghỉ",
+   "titleJa": "欠席の連絡",
+   "text": "Chào chị Lan,\nEm là Minh, nhân viên phòng kinh doanh. Sáng nay em bị sốt cao từ lúc 4 giờ nên không thể đi làm được. Em xin phép nghỉ hôm nay ạ.\nCuộc họp với khách hàng lúc 10 giờ, em đã nhờ anh Tuấn đi thay. Tài liệu cho cuộc họp em đã gửi vào email của anh Tuấn tối qua rồi.\nBáo cáo tuần em sẽ cố gắng hoàn thành và gửi chị trước thứ sáu. Nếu có việc gấp, chị cứ gọi điện cho em.\nEm xin lỗi vì đã làm phiền chị.\nMinh",
+   "ja": "ランさん、おはようございます。\n営業部のミンです。今朝4時から高熱が出ていて、出勤できません。今日はお休みをいただきたいです。\n10時のお客様との会議は、トゥアンさんに代わりに出てもらうようお願いしました。会議の資料は昨夜トゥアンさんのメールに送ってあります。\n週報はなんとか仕上げて、金曜日までにお送りします。急ぎの用があれば、遠慮なくお電話ください。\nご迷惑をおかけしてすみません。\nミン",
+   "vocab": [
+    {
+     "vi": "phòng kinh doanh",
+     "ja": "営業部"
+    },
+    {
+     "vi": "đi thay",
+     "ja": "代わりに行く"
+    },
+    {
+     "vi": "việc gấp",
+     "ja": "急ぎの用"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Tại sao Minh nghỉ làm?",
+     "choices": [
+      "Vì đi du lịch",
+      "Vì bị sốt cao",
+      "Vì có cuộc họp",
+      "Vì nhà có việc"
+     ],
+     "answer": 1,
+     "explain": "bị sốt cao。",
+     "qJa": "ミンはなぜ休みますか。"
+    },
+    {
+     "q": "Ai sẽ đi họp với khách hàng?",
+     "choices": [
+      "Chị Lan",
+      "Minh",
+      "Anh Tuấn",
+      "Khách hàng"
+     ],
+     "answer": 2,
+     "explain": "em đã nhờ anh Tuấn đi thay。",
+     "qJa": "誰が顧客との会議に出ますか。"
+    },
+    {
+     "q": "Minh sẽ gửi báo cáo tuần khi nào?",
+     "choices": [
+      "Hôm nay",
+      "Trước thứ sáu",
+      "Tối qua",
+      "Tuần sau"
+     ],
+     "answer": 1,
+     "explain": "gửi chị trước thứ sáu。",
+     "qJa": "ミンはいつ週報を送りますか。"
+    }
+   ]
+  },
+  {
+   "id": "r4-10",
+   "title": "Sở thích của tôi",
+   "titleJa": "私の趣味",
+   "text": "Tôi tên là Tuấn, năm nay hai mươi lăm tuổi. Tôi là nhân viên ngân hàng. Công việc của tôi khá bận, nên cuối tuần tôi thích làm những việc giúp mình thư giãn.\nSở thích lớn nhất của tôi là chạy bộ. Sáng thứ bảy và chủ nhật, tôi dậy lúc năm giờ rưỡi và chạy quanh hồ Hoàn Kiếm khoảng năm cây số. Buổi sáng sớm không khí mát mẻ và đường phố vắng, chạy rất thích.\nNgoài ra, tôi còn thích nấu ăn. Trước đây tôi không biết nấu gì cả, nhưng từ khi sống một mình, tôi bắt đầu học nấu ăn trên mạng. Bây giờ tôi có thể nấu được nhiều món, như canh chua và thịt kho.\nNăm sau, tôi muốn tham gia một cuộc thi chạy marathon ở Đà Nẵng.",
+   "ja": "私の名前はトゥアン、今年25歳です。銀行員です。仕事がかなり忙しいので、週末はリラックスできることをするのが好きです。\n一番の趣味はジョギングです。土曜日と日曜日の朝、5時半に起きて、ホアンキエム湖の周りを約5キロ走ります。早朝は空気が涼しく、通りもすいていて、走るととても気持ちがいいです。\nそれに、料理も好きです。以前は何も作れませんでしたが、一人暮らしを始めてから、ネットで料理を習い始めました。今では、酸っぱいスープや豚肉の煮込みなど、たくさんの料理が作れます。\n来年、ダナンのマラソン大会に出たいと思っています。",
+   "vocab": [
+    {
+     "vi": "thư giãn",
+     "ja": "リラックスする"
+    },
+    {
+     "vi": "ngoài ra",
+     "ja": "そのほかに"
+    },
+    {
+     "vi": "cuộc thi",
+     "ja": "大会、コンテスト"
+    }
+   ],
+   "questions": [
+    {
+     "q": "Tuấn chạy bộ khi nào?",
+     "choices": [
+      "Mỗi tối",
+      "Sáng thứ bảy và chủ nhật",
+      "Trưa các ngày trong tuần",
+      "Chiều chủ nhật"
+     ],
+     "answer": 1,
+     "explain": "Sáng thứ bảy và chủ nhật。",
+     "qJa": "トゥアンはいつジョギングしますか。"
+    },
+    {
+     "q": "Tuấn bắt đầu học nấu ăn từ khi nào?",
+     "choices": [
+      "Từ khi còn nhỏ",
+      "Từ khi sống một mình",
+      "Từ khi làm ở ngân hàng",
+      "Từ năm sau"
+     ],
+     "answer": 1,
+     "explain": "từ khi sống một mình。",
+     "qJa": "トゥアンはいつから料理を習い始めましたか。"
+    },
+    {
+     "q": "Câu nào đúng về Tuấn?",
+     "choices": [
+      "Tuấn là giáo viên.",
+      "Tuấn chạy khoảng năm cây số.",
+      "Tuấn đã chạy marathon ở Đà Nẵng.",
+      "Tuấn không thích nấu ăn."
+     ],
+     "answer": 1,
+     "explain": "chạy quanh hồ Hoàn Kiếm khoảng năm cây số。",
+     "qJa": "トゥアンについて正しいものはどれですか。"
+    }
+   ]
+  }
+ ]
+}

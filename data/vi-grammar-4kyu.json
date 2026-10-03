@@ -1,0 +1,1557 @@
+{
+ "level": 4,
+ "points": [
+  {
+   "id": "g4-01",
+   "title": "đã từng ... (chưa)（〜したことがある）",
+   "pattern": "主語 + đã từng + 動詞 / đã + 動詞 + bao giờ chưa?",
+   "explain": "経験は đã từng。質問は「đã ... bao giờ chưa?」、答えは「Rồi, tôi đã ... rồi」か「Chưa, tôi chưa ... bao giờ」。",
+   "examples": [
+    {
+     "vi": "Tôi đã từng sống ở Huế.",
+     "ja": "フエに住んだことがあります。"
+    },
+    {
+     "vi": "Bạn đã ăn sầu riêng bao giờ chưa?",
+     "ja": "ドリアンを食べたことがありますか？"
+    },
+    {
+     "vi": "Chưa, tôi chưa ăn bao giờ.",
+     "ja": "いいえ、一度も食べたことがありません。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Anh ___ đến Đà Lạt chưa?",
+     "choices": [
+      "đã từng",
+      "sẽ",
+      "đang",
+      "sắp"
+     ],
+     "answer": 0,
+     "ja": "ダラットに行ったことがありますか？",
+     "explain": "経験を聞くときは đã từng ... chưa。"
+    },
+    {
+     "q": "Tôi chưa đi máy bay ___.",
+     "choices": [
+      "bao giờ",
+      "khi nào",
+      "lúc nào",
+      "bây giờ"
+     ],
+     "answer": 0,
+     "ja": "飛行機に乗ったことが一度もありません。",
+     "explain": "「一度も〜ない」は chưa ... bao giờ。"
+    }
+   ]
+  },
+  {
+   "id": "g4-02",
+   "title": "vẫn / còn（まだ〜している）",
+   "pattern": "主語 + vẫn / vẫn còn + 動詞・形容詞",
+   "explain": "状態が続いていることを表します。vẫn は「（変わらず）まだ」、còn は「まだ残っている」。",
+   "examples": [
+    {
+     "vi": "Anh ấy vẫn làm ở công ty cũ.",
+     "ja": "彼はまだ前の会社で働いています。"
+    },
+    {
+     "vi": "Trời vẫn còn mưa.",
+     "ja": "まだ雨が降っています。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Đã mười giờ rồi mà em ___ ngủ.",
+     "choices": [
+      "vẫn",
+      "đã",
+      "sắp",
+      "vừa"
+     ],
+     "answer": 0,
+     "ja": "もう10時なのに、まだ寝ている。",
+     "explain": "「（それでも）まだ」は vẫn。"
+    },
+    {
+     "q": "Tôi ___ hai trăm nghìn trong ví.",
+     "choices": [
+      "còn",
+      "vẫn là",
+      "đã",
+      "sẽ"
+     ],
+     "answer": 0,
+     "ja": "財布にまだ20万ドン残っています。",
+     "explain": "「残っている」は còn。"
+    }
+   ]
+  },
+  {
+   "id": "g4-03",
+   "title": "vừa / mới（〜したばかり）",
+   "pattern": "主語 + vừa / mới / vừa mới + 動詞",
+   "explain": "ついさっき起きたことを表します。",
+   "examples": [
+    {
+     "vi": "Tôi vừa ăn cơm xong.",
+     "ja": "ちょうどご飯を食べ終わったところです。"
+    },
+    {
+     "vi": "Anh ấy mới về nước.",
+     "ja": "彼は帰国したばかりです。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Xe buýt ___ đi được năm phút.",
+     "choices": [
+      "vừa",
+      "sẽ",
+      "đang",
+      "sắp"
+     ],
+     "answer": 0,
+     "ja": "バスは5分前に出たばかりです。",
+     "explain": "「〜したばかり」は vừa。"
+    },
+    {
+     "q": "Tôi ___ chuyển đến Hà Nội tuần trước.",
+     "choices": [
+      "mới",
+      "sắp",
+      "sẽ",
+      "đang"
+     ],
+     "answer": 0,
+     "ja": "先週ハノイに引っ越してきたばかりです。",
+     "explain": "「〜したばかり」は mới。"
+    }
+   ]
+  },
+  {
+   "id": "g4-04",
+   "title": "sắp ... (rồi)（もうすぐ〜する）",
+   "pattern": "主語 + sắp + 動詞 (+ rồi)",
+   "explain": "近い未来を表します。文末に rồi を付けると「もうすぐだ」という気持ちが強まります。",
+   "examples": [
+    {
+     "vi": "Sắp đến Tết rồi.",
+     "ja": "もうすぐテトです。"
+    },
+    {
+     "vi": "Phim sắp bắt đầu.",
+     "ja": "映画がもうすぐ始まります。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Trời ___ mưa, mang ô đi.",
+     "choices": [
+      "sắp",
+      "đã",
+      "vừa",
+      "từng"
+     ],
+     "answer": 0,
+     "ja": "もうすぐ雨が降るから傘を持っていって。",
+     "explain": "近い未来は sắp。"
+    },
+    {
+     "q": "Tôi sắp tốt nghiệp ___.",
+     "choices": [
+      "rồi",
+      "chưa",
+      "không",
+      "đâu"
+     ],
+     "answer": 0,
+     "ja": "もうすぐ卒業です。",
+     "explain": "sắp ... rồi の形。"
+    }
+   ]
+  },
+  {
+   "id": "g4-05",
+   "title": "đang + 動詞（〜しているところ）と時間の副詞",
+   "pattern": "đang + 動詞 / lúc đó + đang",
+   "explain": "進行中の動作。過去の一時点で進行中のことにも使えます（「そのとき〜していた」）。",
+   "examples": [
+    {
+     "vi": "Lúc anh gọi, tôi đang tắm.",
+     "ja": "あなたが電話したとき、私はシャワーを浴びていました。"
+    },
+    {
+     "vi": "Mẹ đang nấu cơm trong bếp.",
+     "ja": "母は台所でご飯を作っています。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Hôm qua lúc bảy giờ, tôi ___ xem phim.",
+     "choices": [
+      "đang",
+      "sẽ",
+      "sắp",
+      "chưa"
+     ],
+     "answer": 0,
+     "ja": "昨日の7時、私は映画を見ていました。",
+     "explain": "過去の一時点での進行も đang。"
+    },
+    {
+     "q": "Đừng nói to, em bé ___ ngủ.",
+     "choices": [
+      "đang",
+      "đã từng",
+      "sắp",
+      "vừa mới"
+     ],
+     "answer": 0,
+     "ja": "大声を出さないで、赤ちゃんが寝ているから。",
+     "explain": "今進行中なので đang。"
+    }
+   ]
+  },
+  {
+   "id": "g4-06",
+   "title": "比較 bằng・như（同じくらい）",
+   "pattern": "A + 形容詞 + bằng + B / A + 形容詞 + như + B",
+   "explain": "同等比較。bằng は数量的に同じ、như は「〜のように」。否定は「không + 形容詞 + bằng」で「〜ほど…ない」。",
+   "examples": [
+    {
+     "vi": "Em tôi cao bằng tôi.",
+     "ja": "弟は私と同じくらい背が高い。"
+    },
+    {
+     "vi": "Hà Nội không nóng bằng Sài Gòn.",
+     "ja": "ハノイはサイゴンほど暑くない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Phòng này rộng ___ phòng kia.",
+     "choices": [
+      "bằng",
+      "hơn nhất",
+      "nhất",
+      "quá"
+     ],
+     "answer": 0,
+     "ja": "この部屋はあの部屋と同じくらい広い。",
+     "explain": "同等比較は bằng。"
+    },
+    {
+     "q": "Tiếng Việt không khó ___ tiếng Trung.",
+     "choices": [
+      "bằng",
+      "hơn",
+      "nhất",
+      "rất"
+     ],
+     "answer": 0,
+     "ja": "ベトナム語は中国語ほど難しくない。",
+     "explain": "「〜ほど…ない」は không ... bằng。"
+    }
+   ]
+  },
+  {
+   "id": "g4-07",
+   "title": "càng ... càng ...（〜すればするほど）",
+   "pattern": "càng + A + càng + B",
+   "explain": "一方が増えるともう一方も増えることを表します。「ngày càng」は「日に日に、ますます」。",
+   "examples": [
+    {
+     "vi": "Càng học càng thấy hay.",
+     "ja": "学べば学ぶほど面白くなる。"
+    },
+    {
+     "vi": "Thành phố ngày càng đông.",
+     "ja": "街はますます人が多くなっている。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ ăn càng béo.",
+     "choices": [
+      "Càng",
+      "Rất",
+      "Hơn",
+      "Nhất"
+     ],
+     "answer": 0,
+     "ja": "食べれば食べるほど太る。",
+     "explain": "càng ... càng ... の形。"
+    },
+    {
+     "q": "Tiếng Việt của bạn ___ giỏi.",
+     "choices": [
+      "ngày càng",
+      "càng càng",
+      "hơn nữa là",
+      "nhất là"
+     ],
+     "answer": 0,
+     "ja": "あなたのベトナム語はますます上手になっている。",
+     "explain": "「ますます」は ngày càng。"
+    }
+   ]
+  },
+  {
+   "id": "g4-08",
+   "title": "vừa ... vừa ...（〜しながら〜／〜でもあり〜でもある）",
+   "pattern": "vừa + A + vừa + B",
+   "explain": "2つの動作を同時にする、または2つの性質を併せ持つことを表します。",
+   "examples": [
+    {
+     "vi": "Anh ấy vừa ăn vừa xem tivi.",
+     "ja": "彼は食べながらテレビを見ています。"
+    },
+    {
+     "vi": "Quán này vừa ngon vừa rẻ.",
+     "ja": "この店はおいしくて安い。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Cô ấy ___ đẹp vừa thông minh.",
+     "choices": [
+      "vừa",
+      "càng",
+      "rất",
+      "cũng"
+     ],
+     "answer": 0,
+     "ja": "彼女はきれいで頭もいい。",
+     "explain": "vừa ... vừa ... の形。"
+    },
+    {
+     "q": "Đừng vừa lái xe ___ dùng điện thoại.",
+     "choices": [
+      "vừa",
+      "càng",
+      "và là",
+      "cũng"
+     ],
+     "answer": 0,
+     "ja": "運転しながら携帯を使わないで。",
+     "explain": "同時の動作は vừa ... vừa ...。"
+    }
+   ]
+  },
+  {
+   "id": "g4-09",
+   "title": "không những ... mà còn ...（〜だけでなく〜も）",
+   "pattern": "không những / không chỉ + A + mà còn + B",
+   "explain": "情報を付け加える表現。",
+   "examples": [
+    {
+     "vi": "Anh ấy không những hát hay mà còn nhảy giỏi.",
+     "ja": "彼は歌がうまいだけでなく、ダンスも上手です。"
+    },
+    {
+     "vi": "Phòng này không chỉ rộng mà còn sạch.",
+     "ja": "この部屋は広いだけでなく清潔です。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Món này không những ngon ___ còn rẻ.",
+     "choices": [
+      "mà",
+      "nên",
+      "thì",
+      "vì"
+     ],
+     "answer": 0,
+     "ja": "この料理はおいしいだけでなく安い。",
+     "explain": "không những ... mà còn ...。"
+    },
+    {
+     "q": "Chị ấy ___ biết tiếng Anh mà còn biết tiếng Pháp.",
+     "choices": [
+      "không chỉ",
+      "không phải là",
+      "chưa",
+      "càng"
+     ],
+     "answer": 0,
+     "ja": "彼女は英語だけでなくフランス語もできます。",
+     "explain": "không chỉ ... mà còn ...。"
+    }
+   ]
+  },
+  {
+   "id": "g4-10",
+   "title": "tuy ... nhưng ... / mặc dù ...（〜だけれども）",
+   "pattern": "Tuy / Mặc dù + A, (nhưng) + B",
+   "explain": "逆接の譲歩。後半によく vẫn（それでも）が入ります。",
+   "examples": [
+    {
+     "vi": "Tuy mệt nhưng tôi vẫn đi làm.",
+     "ja": "疲れているけれど、それでも仕事に行きます。"
+    },
+    {
+     "vi": "Mặc dù trời mưa, họ vẫn chơi bóng.",
+     "ja": "雨にもかかわらず、彼らはボール遊びをしています。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ nhà xa nhưng anh ấy không bao giờ đi muộn.",
+     "choices": [
+      "Tuy",
+      "Vì",
+      "Nếu",
+      "Để"
+     ],
+     "answer": 0,
+     "ja": "家は遠いけれど、彼は決して遅刻しない。",
+     "explain": "tuy ... nhưng ... の形。"
+    },
+    {
+     "q": "Mặc dù đắt, tôi ___ mua.",
+     "choices": [
+      "vẫn",
+      "sắp",
+      "chưa",
+      "đừng"
+     ],
+     "answer": 0,
+     "ja": "高いけれど、それでも買います。",
+     "explain": "「それでも」は vẫn。"
+    }
+   ]
+  },
+  {
+   "id": "g4-11",
+   "title": "để（〜するために）",
+   "pattern": "動詞句 + để + 動詞（目的）",
+   "explain": "目的を表します。「Để làm gì?」は「何のために？」。",
+   "examples": [
+    {
+     "vi": "Tôi học tiếng Việt để làm việc ở Việt Nam.",
+     "ja": "ベトナムで働くためにベトナム語を学んでいます。"
+    },
+    {
+     "vi": "Tiết kiệm tiền để đi du lịch.",
+     "ja": "旅行するためにお金を貯めます。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Tôi dậy sớm ___ tập thể dục.",
+     "choices": [
+      "để",
+      "vì",
+      "nên",
+      "mà"
+     ],
+     "answer": 0,
+     "ja": "運動するために早起きします。",
+     "explain": "目的は để。"
+    },
+    {
+     "q": "Bạn học tiếng Nhật ___ làm gì?",
+     "choices": [
+      "để",
+      "vì",
+      "bằng",
+      "cho nên"
+     ],
+     "answer": 0,
+     "ja": "何のために日本語を勉強しているの？",
+     "explain": "「何のために」は để làm gì。"
+    }
+   ]
+  },
+  {
+   "id": "g4-12",
+   "title": "trước khi / sau khi / trong khi（〜する前に／後で／間に）",
+   "pattern": "trước khi / sau khi / trong khi + 動詞・文",
+   "explain": "時間の前後関係を表します。",
+   "examples": [
+    {
+     "vi": "Rửa tay trước khi ăn.",
+     "ja": "食べる前に手を洗って。"
+    },
+    {
+     "vi": "Sau khi tốt nghiệp, tôi sẽ về nước.",
+     "ja": "卒業した後、帰国します。"
+    },
+    {
+     "vi": "Trong khi chờ xe, tôi đọc báo.",
+     "ja": "車を待っている間、新聞を読みます。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ khi đi ngủ, tôi đánh răng.",
+     "choices": [
+      "Trước",
+      "Sau",
+      "Trong",
+      "Từ"
+     ],
+     "answer": 0,
+     "ja": "寝る前に歯を磨きます。",
+     "explain": "「〜する前に」は trước khi。"
+    },
+    {
+     "q": "___ khi ăn xong, chúng tôi đi dạo.",
+     "choices": [
+      "Sau",
+      "Trước",
+      "Trong",
+      "Cho đến"
+     ],
+     "answer": 0,
+     "ja": "食べ終わった後、散歩しました。",
+     "explain": "「〜した後」は sau khi。"
+    }
+   ]
+  },
+  {
+   "id": "g4-13",
+   "title": "khi / lúc（〜するとき）",
+   "pattern": "Khi + 文, 文",
+   "explain": "時を表す従属節。khi は文頭にも後ろにも置けます。",
+   "examples": [
+    {
+     "vi": "Khi rảnh, tôi thường đọc sách.",
+     "ja": "暇なとき、よく本を読みます。"
+    },
+    {
+     "vi": "Tôi gặp anh ấy khi đi du lịch.",
+     "ja": "旅行中に彼に会いました。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ còn nhỏ, tôi sống ở quê.",
+     "choices": [
+      "Khi",
+      "Để",
+      "Mà",
+      "Nên"
+     ],
+     "answer": 0,
+     "ja": "小さいとき、田舎に住んでいました。",
+     "explain": "「〜のとき」は khi。"
+    },
+    {
+     "q": "Gọi cho tôi ___ bạn đến nơi nhé.",
+     "choices": [
+      "khi",
+      "để",
+      "vì",
+      "nhưng"
+     ],
+     "answer": 0,
+     "ja": "着いたら電話してね。",
+     "explain": "「〜したとき」は khi。"
+    }
+   ]
+  },
+  {
+   "id": "g4-14",
+   "title": "từ ... đến ...（〜から〜まで）",
+   "pattern": "từ + A + đến + B",
+   "explain": "時間・場所の範囲を表します。",
+   "examples": [
+    {
+     "vi": "Tôi làm việc từ thứ hai đến thứ sáu.",
+     "ja": "月曜日から金曜日まで働きます。"
+    },
+    {
+     "vi": "Từ đây đến ga mất mười phút.",
+     "ja": "ここから駅まで10分かかります。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Cửa hàng mở cửa ___ tám giờ sáng đến mười giờ tối.",
+     "choices": [
+      "từ",
+      "ở",
+      "lúc",
+      "cho"
+     ],
+     "answer": 0,
+     "ja": "店は朝8時から夜10時まで開いています。",
+     "explain": "範囲は từ ... đến ...。"
+    },
+    {
+     "q": "Từ Hà Nội ___ Huế bao xa?",
+     "choices": [
+      "đến",
+      "từ",
+      "ở",
+      "với"
+     ],
+     "answer": 0,
+     "ja": "ハノイからフエまでどのくらいの距離ですか？",
+     "explain": "từ ... đến ...。"
+    }
+   ]
+  },
+  {
+   "id": "g4-15",
+   "title": "mất（時間・お金がかかる）",
+   "pattern": "(主語) + mất + 時間・金額",
+   "explain": "所要時間や費用を表します。「何時間かかる？」は「mất bao lâu?」。",
+   "examples": [
+    {
+     "vi": "Đi xe buýt mất ba mươi phút.",
+     "ja": "バスで30分かかります。"
+    },
+    {
+     "vi": "Sửa xe mất hai trăm nghìn.",
+     "ja": "バイクの修理に20万ドンかかりました。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Từ nhà bạn đến trường ___ bao lâu?",
+     "choices": [
+      "mất",
+      "có",
+      "là",
+      "được"
+     ],
+     "answer": 0,
+     "ja": "家から学校までどのくらいかかりますか？",
+     "explain": "時間がかかるは mất。"
+    },
+    {
+     "q": "Làm bài này ___ hai tiếng.",
+     "choices": [
+      "mất",
+      "bằng",
+      "cần là",
+      "đến"
+     ],
+     "answer": 0,
+     "ja": "この課題をするのに2時間かかりました。",
+     "explain": "mất + 時間。"
+    }
+   ]
+  },
+  {
+   "id": "g4-16",
+   "title": "受け身 bị / được（〜される）",
+   "pattern": "主語 + bị（悪いこと）/ được（良いこと）+ (人) + 動詞",
+   "explain": "受け身は2種類。迷惑・被害は bị、恩恵・うれしいことは được。",
+   "examples": [
+    {
+     "vi": "Tôi bị mất ví.",
+     "ja": "財布をなくしました（盗まれました）。"
+    },
+    {
+     "vi": "Em được cô giáo khen.",
+     "ja": "先生にほめられました。"
+    },
+    {
+     "vi": "Anh ấy bị ốm.",
+     "ja": "彼は病気になりました。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Hôm qua tôi ___ mẹ mắng.",
+     "choices": [
+      "bị",
+      "được",
+      "đã",
+      "cho"
+     ],
+     "answer": 0,
+     "ja": "昨日母に叱られました。",
+     "explain": "嫌なことは bị。"
+    },
+    {
+     "q": "Tôi ___ tặng một bó hoa.",
+     "choices": [
+      "được",
+      "bị",
+      "sẽ là",
+      "đang bị"
+     ],
+     "answer": 0,
+     "ja": "花束をもらいました。",
+     "explain": "うれしいことは được。"
+    }
+   ]
+  },
+  {
+   "id": "g4-17",
+   "title": "使役 cho / bắt / để（〜させる）",
+   "pattern": "cho + 人 + 動詞（許可）/ bắt + 人 + 動詞（強制）/ để + 人 + 動詞（放任）",
+   "explain": "「させる」の意味の違い：cho は許可、bắt は無理やり、để は〜させておく。",
+   "examples": [
+    {
+     "vi": "Bố mẹ cho tôi đi du lịch.",
+     "ja": "両親は私に旅行に行かせてくれました。"
+    },
+    {
+     "vi": "Sếp bắt tôi làm thêm giờ.",
+     "ja": "上司に残業させられました。"
+    },
+    {
+     "vi": "Để tôi giúp bạn.",
+     "ja": "私に手伝わせて。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Mẹ không ___ tôi chơi game.",
+     "choices": [
+      "cho",
+      "bị",
+      "được",
+      "bằng"
+     ],
+     "answer": 0,
+     "ja": "母は私にゲームをさせてくれない。",
+     "explain": "許可の「させる」は cho。"
+    },
+    {
+     "q": "___ tôi trả tiền nhé.",
+     "choices": [
+      "Để",
+      "Bị",
+      "Được",
+      "Bắt"
+     ],
+     "answer": 0,
+     "ja": "私に払わせてね。",
+     "explain": "「〜させて」は để。"
+    }
+   ]
+  },
+  {
+   "id": "g4-18",
+   "title": "cho + 人（〜に…してあげる）",
+   "pattern": "動詞 + 物 + cho + 人",
+   "explain": "誰かのために何かをすることを表します。",
+   "examples": [
+    {
+     "vi": "Tôi mua quà cho mẹ.",
+     "ja": "母にプレゼントを買いました。"
+    },
+    {
+     "vi": "Anh ấy nấu cơm cho cả nhà.",
+     "ja": "彼は家族みんなにご飯を作りました。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chị gửi email ___ tôi nhé.",
+     "choices": [
+      "cho",
+      "của",
+      "với",
+      "bằng"
+     ],
+     "answer": 0,
+     "ja": "私にメールを送ってくださいね。",
+     "explain": "「〜に」は cho。"
+    },
+    {
+     "q": "Tôi đọc truyện ___ con nghe.",
+     "choices": [
+      "cho",
+      "của",
+      "bằng",
+      "từ"
+     ],
+     "answer": 0,
+     "ja": "子どもに物語を読んであげます。",
+     "explain": "cho + 人 + 動詞。"
+    }
+   ]
+  },
+  {
+   "id": "g4-19",
+   "title": "giúp / hộ（〜してくれる・代わりに）",
+   "pattern": "動詞 + giúp / hộ + (人)",
+   "explain": "頼みごとをするときに使います。giúp は「手伝って」、hộ は「代わりに」。",
+   "examples": [
+    {
+     "vi": "Anh mở cửa giúp tôi được không?",
+     "ja": "ドアを開けてもらえますか？"
+    },
+    {
+     "vi": "Mua hộ tôi một chai nước nhé.",
+     "ja": "水を1本代わりに買ってきてね。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chị chụp ảnh ___ tôi được không?",
+     "choices": [
+      "giúp",
+      "bị",
+      "cho phép",
+      "được"
+     ],
+     "answer": 0,
+     "ja": "写真を撮ってもらえますか？",
+     "explain": "頼みごとは giúp。"
+    },
+    {
+     "q": "Cầm ___ tôi cái túi này.",
+     "choices": [
+      "hộ",
+      "bị",
+      "mà",
+      "nên"
+     ],
+     "answer": 0,
+     "ja": "このかばんを持っていて。",
+     "explain": "「代わりに」は hộ。"
+    }
+   ]
+  },
+  {
+   "id": "g4-20",
+   "title": "được không?（〜してもいいですか／できますか）",
+   "pattern": "文 + được không?",
+   "explain": "許可・依頼・可能を聞きます。答えは「Được（いいですよ）」「Không được（だめです）」。",
+   "examples": [
+    {
+     "vi": "Tôi ngồi đây được không?",
+     "ja": "ここに座ってもいいですか？"
+    },
+    {
+     "vi": "Anh nói chậm hơn được không?",
+     "ja": "もう少しゆっくり話してもらえますか？"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Tôi chụp ảnh ở đây ___?",
+     "choices": [
+      "được không",
+      "chưa",
+      "à",
+      "hả là"
+     ],
+     "answer": 0,
+     "ja": "ここで写真を撮ってもいいですか？",
+     "explain": "許可は được không。"
+    },
+    {
+     "q": "Ở đây hút thuốc được không? — Không ___.",
+     "choices": [
+      "được",
+      "có",
+      "phải",
+      "rồi"
+     ],
+     "answer": 0,
+     "ja": "ここでタバコを吸ってもいいですか？—だめです。",
+     "explain": "「だめ」は không được。"
+    }
+   ]
+  },
+  {
+   "id": "g4-21",
+   "title": "phải không? / à?（〜ですよね？）",
+   "pattern": "文 + phải không? / à?",
+   "explain": "確認の質問。phải không は「〜ですよね」、à は意外さを含む「〜なの？」。",
+   "examples": [
+    {
+     "vi": "Anh là người Nhật, phải không?",
+     "ja": "あなたは日本人ですよね？"
+    },
+    {
+     "vi": "Bạn về rồi à?",
+     "ja": "もう帰ってきたの？"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Mai là thứ bảy, ___?",
+     "choices": [
+      "phải không",
+      "bao giờ",
+      "đâu",
+      "mấy"
+     ],
+     "answer": 0,
+     "ja": "明日は土曜日ですよね？",
+     "explain": "確認は phải không。"
+    },
+    {
+     "q": "Chị không ăn cay ___?",
+     "choices": [
+      "à",
+      "nhé",
+      "đi",
+      "ạ là"
+     ],
+     "answer": 0,
+     "ja": "辛いもの食べないの？",
+     "explain": "意外さを込めた確認は à。"
+    }
+   ]
+  },
+  {
+   "id": "g4-22",
+   "title": "疑問詞 + cũng（何でも・誰でも・どこでも）",
+   "pattern": "ai / gì / đâu / nào / lúc nào + cũng + 動詞",
+   "explain": "疑問詞と cũng を組み合わせると「すべて」の意味になります。否定にすると「誰も〜ない」など。",
+   "examples": [
+    {
+     "vi": "Ai cũng thích anh ấy.",
+     "ja": "誰もが彼を好きです。"
+    },
+    {
+     "vi": "Tôi ăn gì cũng được.",
+     "ja": "何でも食べられます。"
+    },
+    {
+     "vi": "Ở đâu cũng có quán cà phê.",
+     "ja": "どこにでもカフェがあります。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Món nào ___ ngon.",
+     "choices": [
+      "cũng",
+      "đều là",
+      "rất là",
+      "mà"
+     ],
+     "answer": 0,
+     "ja": "どの料理もおいしい。",
+     "explain": "疑問詞 + cũng で「どれも」。"
+    },
+    {
+     "q": "Tôi đi đâu ___ được.",
+     "choices": [
+      "cũng",
+      "đã",
+      "sẽ",
+      "đang"
+     ],
+     "answer": 0,
+     "ja": "どこへ行ってもいいです。",
+     "explain": "đâu + cũng。"
+    }
+   ]
+  },
+  {
+   "id": "g4-23",
+   "title": "không ... gì cả / chẳng ... đâu（全然〜ない）",
+   "pattern": "không + 動詞 + gì cả / chẳng + 動詞 + đâu",
+   "explain": "否定を強めます。",
+   "examples": [
+    {
+     "vi": "Tôi không hiểu gì cả.",
+     "ja": "全然わかりません。"
+    },
+    {
+     "vi": "Không có ai cả.",
+     "ja": "誰もいません。"
+    },
+    {
+     "vi": "Tôi chẳng đi đâu.",
+     "ja": "どこにも行きません。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Sáng nay tôi không ăn ___ cả.",
+     "choices": [
+      "gì",
+      "ai",
+      "đâu",
+      "nào là"
+     ],
+     "answer": 0,
+     "ja": "今朝は何も食べていません。",
+     "explain": "「何も〜ない」は không ... gì cả。"
+    },
+    {
+     "q": "Trong phòng không có ai ___.",
+     "choices": [
+      "cả",
+      "rồi",
+      "chưa",
+      "nữa là"
+     ],
+     "answer": 0,
+     "ja": "部屋には誰もいません。",
+     "explain": "否定の強調は cả。"
+    }
+   ]
+  },
+  {
+   "id": "g4-24",
+   "title": "hãy / đừng / chớ（命令・禁止）",
+   "pattern": "Hãy + 動詞 / Đừng + 動詞 / 動詞 + đi",
+   "explain": "hãy は丁寧な命令・呼びかけ、đừng は禁止、文末の đi はくだけた促し。",
+   "examples": [
+    {
+     "vi": "Hãy giữ gìn sức khỏe.",
+     "ja": "体に気をつけてください。"
+    },
+    {
+     "vi": "Đừng quên mang hộ chiếu.",
+     "ja": "パスポートを忘れないで。"
+    },
+    {
+     "vi": "Ăn đi, kẻo nguội.",
+     "ja": "冷めないうちに食べて。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ nói chuyện trong thư viện.",
+     "choices": [
+      "Đừng",
+      "Hãy là",
+      "Nên là",
+      "Được"
+     ],
+     "answer": 0,
+     "ja": "図書館でおしゃべりしないで。",
+     "explain": "禁止は đừng。"
+    },
+    {
+     "q": "___ cố gắng lên!",
+     "choices": [
+      "Hãy",
+      "Đừng",
+      "Chưa",
+      "Bị"
+     ],
+     "answer": 0,
+     "ja": "頑張って！",
+     "explain": "励ましは hãy。"
+    }
+   ]
+  },
+  {
+   "id": "g4-25",
+   "title": "nên / không nên / cần / phải（助言・必要・義務）",
+   "pattern": "nên / không nên / cần / phải + 動詞",
+   "explain": "nên＝したほうがいい、không nên＝しないほうがいい、cần＝必要がある、phải＝しなければならない。",
+   "examples": [
+    {
+     "vi": "Bạn nên đi ngủ sớm.",
+     "ja": "早く寝たほうがいい。"
+    },
+    {
+     "vi": "Không nên uống nhiều rượu.",
+     "ja": "お酒を飲みすぎないほうがいい。"
+    },
+    {
+     "vi": "Tôi cần mua vé trước.",
+     "ja": "前もって切符を買う必要があります。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Trời nắng, bạn ___ đội mũ.",
+     "choices": [
+      "nên",
+      "đừng nên",
+      "chưa",
+      "bị"
+     ],
+     "answer": 0,
+     "ja": "日差しが強いから帽子をかぶったほうがいい。",
+     "explain": "助言は nên。"
+    },
+    {
+     "q": "Đi xe máy ___ đội mũ bảo hiểm.",
+     "choices": [
+      "phải",
+      "không nên",
+      "đừng",
+      "chưa"
+     ],
+     "answer": 0,
+     "ja": "バイクに乗るときはヘルメットをかぶらなければならない。",
+     "explain": "法律上の義務は phải。"
+    }
+   ]
+  },
+  {
+   "id": "g4-26",
+   "title": "có thể（〜できる・〜かもしれない）",
+   "pattern": "có thể + 動詞",
+   "explain": "能力・可能性・許可を表す丁寧な言い方。",
+   "examples": [
+    {
+     "vi": "Tôi có thể nói ba thứ tiếng.",
+     "ja": "3か国語が話せます。"
+    },
+    {
+     "vi": "Ngày mai có thể có mưa.",
+     "ja": "明日は雨が降るかもしれません。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Anh ___ giúp tôi một chút không?",
+     "choices": [
+      "có thể",
+      "phải",
+      "nên",
+      "bị"
+     ],
+     "answer": 0,
+     "ja": "少し手伝っていただけますか？",
+     "explain": "丁寧な依頼は có thể。"
+    },
+    {
+     "q": "Chiều nay tôi ___ đến muộn.",
+     "choices": [
+      "có thể",
+      "đã từng",
+      "vừa",
+      "bị"
+     ],
+     "answer": 0,
+     "ja": "今日の午後は遅れるかもしれません。",
+     "explain": "可能性は có thể。"
+    }
+   ]
+  },
+  {
+   "id": "g4-27",
+   "title": "hình như / chắc / có lẽ（推量）",
+   "pattern": "hình như / chắc (là) / có lẽ + 文",
+   "explain": "hình như＝どうやら〜らしい（見た感じ）、chắc＝きっと、có lẽ＝たぶん。",
+   "examples": [
+    {
+     "vi": "Hình như anh ấy bị ốm.",
+     "ja": "どうやら彼は病気のようです。"
+    },
+    {
+     "vi": "Chắc cô ấy quên rồi.",
+     "ja": "きっと彼女は忘れたのでしょう。"
+    },
+    {
+     "vi": "Có lẽ mai tôi không đến được.",
+     "ja": "たぶん明日は行けません。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ trời sắp mưa, mây đen quá.",
+     "choices": [
+      "Hình như",
+      "Để",
+      "Mà",
+      "Vì vậy"
+     ],
+     "answer": 0,
+     "ja": "どうやら雨が降りそうだ、雲が真っ黒だ。",
+     "explain": "見た感じの推量は hình như。"
+    },
+    {
+     "q": "Anh ấy chưa đến, ___ là bị tắc đường.",
+     "choices": [
+      "chắc",
+      "nên",
+      "để",
+      "từng"
+     ],
+     "answer": 0,
+     "ja": "彼はまだ来ない、きっと渋滞だろう。",
+     "explain": "「きっと」は chắc。"
+    }
+   ]
+  },
+  {
+   "id": "g4-28",
+   "title": "nghe nói（〜だそうだ）",
+   "pattern": "Nghe nói + 文",
+   "explain": "伝聞を表します。",
+   "examples": [
+    {
+     "vi": "Nghe nói quán này ngon lắm.",
+     "ja": "この店はとてもおいしいそうです。"
+    },
+    {
+     "vi": "Nghe nói anh ấy sắp lấy vợ.",
+     "ja": "彼はもうすぐ結婚するそうです。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ ngày mai có bão.",
+     "choices": [
+      "Nghe nói",
+      "Hãy",
+      "Đừng",
+      "Để"
+     ],
+     "answer": 0,
+     "ja": "明日台風が来るそうです。",
+     "explain": "伝聞は nghe nói。"
+    },
+    {
+     "q": "「彼女は日本に留学するそうだ」はどれ？",
+     "choices": [
+      "Nghe nói cô ấy sẽ đi du học Nhật.",
+      "Hãy nói cô ấy đi du học Nhật.",
+      "Cô ấy nói nghe du học Nhật.",
+      "Đừng nói cô ấy du học Nhật."
+     ],
+     "answer": 0,
+     "ja": "彼女は日本に留学するそうだ。",
+     "explain": "Nghe nói + 文。"
+    }
+   ]
+  },
+  {
+   "id": "g4-29",
+   "title": "thì（話題の提示・条件の結果）",
+   "pattern": "A + thì + B",
+   "explain": "thì は「〜は」（対比・話題）や「〜なら」（条件の結果）を表します。",
+   "examples": [
+    {
+     "vi": "Tôi thì thích trà, còn anh ấy thì thích cà phê.",
+     "ja": "私はお茶が好きで、彼はコーヒーが好きです。"
+    },
+    {
+     "vi": "Mệt thì nghỉ đi.",
+     "ja": "疲れたなら休んで。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Nếu mưa ___ ở nhà.",
+     "choices": [
+      "thì",
+      "mà",
+      "để",
+      "cho"
+     ],
+     "answer": 0,
+     "ja": "雨なら家にいる。",
+     "explain": "条件の結果は thì。"
+    },
+    {
+     "q": "Món này ___ ngon, món kia thì hơi mặn.",
+     "choices": [
+      "thì",
+      "bị",
+      "được",
+      "nên"
+     ],
+     "answer": 0,
+     "ja": "この料理はおいしいけど、あの料理は少ししょっぱい。",
+     "explain": "対比の「〜は」は thì。"
+    }
+   ]
+  },
+  {
+   "id": "g4-30",
+   "title": "mà（〜のに・関係詞）",
+   "pattern": "名詞 + mà + 文 / A + mà + B",
+   "explain": "mà は「〜する（名詞）」をつなぐ関係詞や、「〜なのに」という逆接に使います。",
+   "examples": [
+    {
+     "vi": "Đây là quyển sách mà tôi thích nhất.",
+     "ja": "これは私が一番好きな本です。"
+    },
+    {
+     "vi": "Đắt mà không ngon.",
+     "ja": "高いのにおいしくない。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Người ___ tôi gặp hôm qua là giáo viên.",
+     "choices": [
+      "mà",
+      "thì",
+      "để",
+      "nên"
+     ],
+     "answer": 0,
+     "ja": "昨日会った人は先生です。",
+     "explain": "関係詞の mà。"
+    },
+    {
+     "q": "Đã mười giờ rồi ___ anh ấy chưa đến.",
+     "choices": [
+      "mà",
+      "để",
+      "thì",
+      "cho"
+     ],
+     "answer": 0,
+     "ja": "もう10時なのに彼はまだ来ない。",
+     "explain": "逆接の mà。"
+    }
+   ]
+  },
+  {
+   "id": "g4-31",
+   "title": "những / các（複数）",
+   "pattern": "những / các + 名詞",
+   "explain": "複数を表します。các は「すべての〜たち（全体）」、những は「いくつかの〜」。",
+   "examples": [
+    {
+     "vi": "Các bạn ơi, chú ý nhé.",
+     "ja": "みなさん、注意してね。"
+    },
+    {
+     "vi": "Tôi có những người bạn rất tốt.",
+     "ja": "とてもいい友達が何人かいます。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Chào ___ em học sinh!",
+     "choices": [
+      "các",
+      "mọi",
+      "từng",
+      "một"
+     ],
+     "answer": 0,
+     "ja": "生徒のみなさん、こんにちは！",
+     "explain": "呼びかけの全体は các。"
+    },
+    {
+     "q": "Đây là ___ món ăn tôi thích.",
+     "choices": [
+      "những",
+      "từng",
+      "mỗi",
+      "một vài là"
+     ],
+     "answer": 0,
+     "ja": "これらは私が好きな料理です。",
+     "explain": "複数の一部は những。"
+    }
+   ]
+  },
+  {
+   "id": "g4-32",
+   "title": "mỗi / từng / mọi（毎・各・すべて）",
+   "pattern": "mỗi + 名詞 / từng + 名詞 / mọi + 名詞",
+   "explain": "mỗi＝毎〜、各〜、từng＝一つ一つ、mọi＝すべての。",
+   "examples": [
+    {
+     "vi": "Mỗi ngày tôi học hai tiếng.",
+     "ja": "毎日2時間勉強します。"
+    },
+    {
+     "vi": "Cô giáo hỏi từng người.",
+     "ja": "先生は一人ひとりに質問しました。"
+    },
+    {
+     "vi": "Mọi người đều đến.",
+     "ja": "みんな来ました。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ tuần tôi gọi điện về nhà một lần.",
+     "choices": [
+      "Mỗi",
+      "Mọi",
+      "Các",
+      "Những"
+     ],
+     "answer": 0,
+     "ja": "毎週1回家に電話します。",
+     "explain": "「毎〜」は mỗi。"
+    },
+    {
+     "q": "___ người đều thích món này.",
+     "choices": [
+      "Mọi",
+      "Mỗi",
+      "Từng",
+      "Một"
+     ],
+     "answer": 0,
+     "ja": "みんなこの料理が好きです。",
+     "explain": "「すべての人」は mọi người。"
+    }
+   ]
+  },
+  {
+   "id": "g4-33",
+   "title": "lại（再び／〜し直す）",
+   "pattern": "動詞 + lại / lại + 動詞",
+   "explain": "lại は「もう一度」、また動詞の後ろで「やり直す・元に戻る」。",
+   "examples": [
+    {
+     "vi": "Anh nói lại được không?",
+     "ja": "もう一度言ってもらえますか？"
+    },
+    {
+     "vi": "Hôm nay lại mưa.",
+     "ja": "今日もまた雨だ。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Bài này sai rồi, làm ___ đi.",
+     "choices": [
+      "lại",
+      "nữa là",
+      "thôi",
+      "rồi"
+     ],
+     "answer": 0,
+     "ja": "これは間違っているから、やり直して。",
+     "explain": "「やり直す」は 動詞 + lại。"
+    },
+    {
+     "q": "Tôi sẽ gọi ___ sau.",
+     "choices": [
+      "lại",
+      "đi",
+      "nhé là",
+      "cả"
+     ],
+     "answer": 0,
+     "ja": "後でかけ直します。",
+     "explain": "gọi lại＝かけ直す。"
+    }
+   ]
+  },
+  {
+   "id": "g4-34",
+   "title": "thêm / nữa（追加）",
+   "pattern": "動詞 + thêm + 名詞 / 動詞 + 名詞 + nữa",
+   "explain": "量や回数を追加します。",
+   "examples": [
+    {
+     "vi": "Cho tôi thêm một bát cơm.",
+     "ja": "ご飯をもう1杯ください。"
+    },
+    {
+     "vi": "Ở lại thêm vài ngày nữa nhé.",
+     "ja": "もう何日か滞在してね。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Em ăn ___ đi, còn nhiều lắm.",
+     "choices": [
+      "thêm",
+      "lại",
+      "cả",
+      "rồi"
+     ],
+     "answer": 0,
+     "ja": "もっと食べて、まだたくさんあるから。",
+     "explain": "追加は thêm。"
+    },
+    {
+     "q": "Đợi tôi năm phút ___.",
+     "choices": [
+      "nữa",
+      "thêm là",
+      "lại",
+      "cả"
+     ],
+     "answer": 0,
+     "ja": "あと5分待って。",
+     "explain": "文末の nữa。"
+    }
+   ]
+  },
+  {
+   "id": "g4-35",
+   "title": "cả（〜も・全部）",
+   "pattern": "cả + 名詞 / 動詞 + cả + 名詞",
+   "explain": "cả は「〜全部」「〜までも」。",
+   "examples": [
+    {
+     "vi": "Cả nhà đi du lịch.",
+     "ja": "家族全員で旅行に行きます。"
+    },
+    {
+     "vi": "Tôi mất cả ví lẫn điện thoại.",
+     "ja": "財布も携帯もなくしました。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "___ lớp đều đi tham quan.",
+     "choices": [
+      "Cả",
+      "Các",
+      "Mỗi",
+      "Từng"
+     ],
+     "answer": 0,
+     "ja": "クラス全員が見学に行きます。",
+     "explain": "「〜全体」は cả。"
+    },
+    {
+     "q": "Tôi làm việc ___ ngày.",
+     "choices": [
+      "cả",
+      "mọi là",
+      "những",
+      "các"
+     ],
+     "answer": 0,
+     "ja": "一日中働きました。",
+     "explain": "cả ngày＝一日中。"
+    }
+   ]
+  },
+  {
+   "id": "g4-36",
+   "title": "vì thế / vì vậy / cho nên（だから）",
+   "pattern": "文 + Vì vậy / Cho nên + 文",
+   "explain": "前の文の結果を表す接続詞。",
+   "examples": [
+    {
+     "vi": "Hôm nay tôi bị ốm, vì vậy tôi nghỉ học.",
+     "ja": "今日は病気なので学校を休みます。"
+    },
+    {
+     "vi": "Đường tắc, cho nên tôi đến muộn.",
+     "ja": "渋滞していたので遅れました。"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Tôi quên mang ô, ___ bị ướt hết.",
+     "choices": [
+      "vì vậy",
+      "mặc dù",
+      "tuy",
+      "để"
+     ],
+     "answer": 0,
+     "ja": "傘を忘れたので、全身ずぶ濡れになりました。",
+     "explain": "結果は vì vậy。"
+    },
+    {
+     "q": "Anh ấy học chăm, ___ thi đỗ.",
+     "choices": [
+      "cho nên",
+      "nhưng",
+      "dù",
+      "để"
+     ],
+     "answer": 0,
+     "ja": "彼はよく勉強したので合格しました。",
+     "explain": "「だから」は cho nên。"
+    }
+   ]
+  }
+ ]
+}
