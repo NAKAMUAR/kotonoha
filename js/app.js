@@ -14,6 +14,11 @@ import {
   ensureUserDoc,
   authErrorMessage,
   updateUserProgress,
+  isIosStandalone,
+  signInWithEmail,
+  hasPasswordLogin,
+  setAccountPassword,
+  sendPasswordReset,
 } from './firebase-init.js';
 
 import {
@@ -177,8 +182,9 @@ async function handleAuthChange(user) {
     profileBtn?.classList.remove('hidden');
     bottomNav?.classList.remove('hidden');
 
-    const displayName = user.displayName ?? '名無し';
+    const displayName = user.displayName ?? user.email?.split('@')[0] ?? '名無し';
     setText('greeting-name',   `${displayName} さん`);
+    renderAccountCard(user);
     setText('profile-initial', displayName.charAt(0) || 'U');
 
     try {
@@ -1737,9 +1743,86 @@ function setText(id, value) {
 
 // ---------- ログイン UI ----------
 
+// ---------- アカウント（メールアドレスでのログイン・パスワード設定） ----------
+
+function renderAccountCard(user) {
+  setText('acct-email', user?.email ?? '（メールアドレスなし）');
+  const username = document.getElementById('acct-username');
+  if (username) username.value = user?.email ?? '';
+  const has = hasPasswordLogin(user);
+  const status = document.getElementById('acct-password-status');
+  if (status) {
+    status.innerHTML = has
+      ? '<span class="text-koke">✓ パスワード設定済み</span>：iPhone のホーム画面アプリでは「メールアドレスでログイン」から入れます。'
+      : '<span class="text-shu">パスワード未設定</span>';
+  }
+  setText('btn-set-password', has ? 'パスワードを変更する' : 'パスワードを設定する');
+}
+
+async function onEmailLogin(e) {
+  e.preventDefault();
+  const btn   = document.getElementById('btn-email-login');
+  const email = document.getElementById('email-login-email')?.value ?? '';
+  const pw    = document.getElementById('email-login-password')?.value ?? '';
+  if (!btn || btn.disabled) return;
+  btn.disabled = true;
+  btn.textContent = 'ログイン中...';
+  try {
+    await signInWithEmail(email, pw);
+  } catch (err) {
+    console.error('email sign-in error:', err);
+    showToast(authErrorMessage(err), 9000);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'ログイン';
+  }
+}
+
+async function onPasswordReset() {
+  const email = document.getElementById('email-login-email')?.value.trim() ?? '';
+  if (!email) { showToast('上の欄にメールアドレスを入力してから押してください'); return; }
+  try {
+    await sendPasswordReset(email);
+    showToast('パスワード再設定のメールを送りました（届かない場合は迷惑メールフォルダも確認してください）', 8000);
+  } catch (err) {
+    console.error('password reset error:', err);
+    showToast(authErrorMessage(err), 8000);
+  }
+}
+
+async function onSetPassword(e) {
+  e.preventDefault();
+  const pw  = document.getElementById('acct-password')?.value ?? '';
+  const pw2 = document.getElementById('acct-password2')?.value ?? '';
+  const btn = document.getElementById('btn-set-password');
+  if (pw.length < 6) { showToast('パスワードは6文字以上にしてください'); return; }
+  if (pw !== pw2)    { showToast('確認用のパスワードが一致しません'); return; }
+  if (!btn || btn.disabled) return;
+  btn.disabled = true;
+  try {
+    const user = await setAccountPassword(pw);
+    document.getElementById('acct-password-form')?.reset();
+    renderAccountCard(user);
+    showToast('パスワードを設定しました。iPhone のホーム画面アプリでは「メールアドレスでログイン」から入れます', 8000);
+  } catch (err) {
+    console.error('set password error:', err);
+    showToast(authErrorMessage(err), 9000);
+  } finally {
+    btn.disabled = false;
+  }
+}
+
 async function onLoginClick() {
   const btn = document.getElementById('btn-google-login');
   if (!btn || btn.disabled) return;
+
+  // ホーム画面アプリ（iPhone）では Google のポップアップログインが必ず失敗するので試さない
+  if (isIosStandalone()) {
+    const box = document.getElementById('email-login');
+    if (box) { box.open = true; box.scrollIntoView({ block: 'center' }); }
+    showToast('ホーム画面のアプリでは Google ログインが使えません。「メールアドレスでログイン」を使ってください', 8000);
+    return;
+  }
 
   const originalHTML = btn.innerHTML;
   btn.disabled  = true;
@@ -1763,7 +1846,22 @@ async function onLoginClick() {
 function bindEvents() {
   document.getElementById('btn-google-login')?.addEventListener('click', onLoginClick);
 
-  document.getElementById('profile-btn')?.addEventListener('click', async () => {
+  document.getElementById('email-login-form')?.addEventListener('submit', onEmailLogin);
+  document.getElementById('btn-password-reset')?.addEventListener('click', onPasswordReset);
+  document.getElementById('acct-password-form')?.addEventListener('submit', onSetPassword);
+  if (isIosStandalone()) {
+    document.getElementById('ios-standalone-note')?.classList.remove('hidden');
+    const box = document.getElementById('email-login');
+    if (box) box.open = true;
+  }
+
+  // 右上の丸ボタン → ホームの「アカウント」欄へ
+  document.getElementById('profile-btn')?.addEventListener('click', () => {
+    showScreen('home');
+    setTimeout(() => document.getElementById('home-account')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+  });
+
+  document.getElementById('btn-logout')?.addEventListener('click', async () => {
     if (!confirm('ログアウトしますか？')) return;
     try {
       await signOutUser();

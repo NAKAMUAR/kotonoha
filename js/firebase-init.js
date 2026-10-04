@@ -9,6 +9,11 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
   getRedirectResult,
+  signInWithEmailAndPassword,
+  sendPasswordResetEmail,
+  EmailAuthProvider,
+  linkWithCredential,
+  updatePassword,
   signOut,
   onAuthStateChanged,
 } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
@@ -49,6 +54,47 @@ export async function signInWithGoogle() {
     }
     throw err; // popup-blocked 等は呼び出し元でメッセージ表示
   }
+}
+
+// iPhone / iPad の「ホーム画面に追加」したアプリとして起動しているか。
+// この状態ではログイン用のポップアップが別の画面で開かれ、Google ログインの途中経過
+// （sessionStorage）が引き継がれないため「missing initial state」で失敗する。
+export function isIosStandalone() {
+  const ios = /iPhone|iPad|iPod/.test(navigator.userAgent) ||
+              (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const standalone = navigator.standalone === true ||
+                     window.matchMedia?.('(display-mode: standalone)').matches;
+  return ios && standalone;
+}
+
+// ---------- メールアドレス＋パスワード（ホーム画面アプリ用） ----------
+// Google でログインしたアカウントにパスワードを追加しておくと、同じアカウント（同じ学習記録）に
+// メールアドレスとパスワードでもログインできる。
+
+export async function signInWithEmail(email, password) {
+  const result = await signInWithEmailAndPassword(auth, email.trim(), password);
+  return result.user;
+}
+
+export function hasPasswordLogin(user = auth.currentUser) {
+  return !!user?.providerData?.some((p) => p.providerId === 'password');
+}
+
+/** ログイン中のアカウントにパスワードを設定（既にあれば変更） */
+export async function setAccountPassword(password) {
+  const user = auth.currentUser;
+  if (!user?.email) throw Object.assign(new Error('no email'), { code: 'kotonoha/no-email' });
+  if (hasPasswordLogin(user)) {
+    await updatePassword(user, password);
+  } else {
+    await linkWithCredential(user, EmailAuthProvider.credential(user.email, password));
+  }
+  await user.reload();
+  return user;
+}
+
+export function sendPasswordReset(email) {
+  return sendPasswordResetEmail(auth, email.trim());
 }
 
 export async function handleRedirectResult() {
@@ -147,14 +193,34 @@ export function authErrorMessage(err) {
     case 'auth/unauthorized-domain':
       return 'このドメインは Firebase で許可されていません（Authorized domains に追加してください）';
     case 'auth/operation-not-allowed':
-      return 'Firebase コンソールで Google ログインを有効にしてください';
+      return 'Firebase コンソールでこのログイン方法が有効になっていません（Authentication → Sign-in method で「メール / パスワード」または「Google」を有効にしてください）';
     case 'auth/network-request-failed':
       return 'ネットワークエラー — 接続を確認してください';
     case 'auth/popup-blocked':
       return 'ログイン画面（ポップアップ）がブロックされました。アドレスバー右端のアイコンから、このサイトのポップアップを「許可」して、もう一度押してください';
     case 'auth/missing-initial-state':
     case 'auth/web-storage-unsupported':
-      return 'ブラウザの保存領域が使えないためログインできません。シークレット（プライベート）ウィンドウではなく、通常のウィンドウで http://localhost:8000 を開いてください';
+      return 'ブラウザの保存領域が使えないためログインできません。シークレット（プライベート）ウィンドウではなく、通常のウィンドウで開いてください。iPhone のホーム画面アプリでは「メールアドレスでログイン」を使ってください';
+    case 'auth/invalid-credential':
+    case 'auth/wrong-password':
+    case 'auth/user-not-found':
+    case 'auth/invalid-login-credentials':
+      return 'メールアドレスかパスワードが違います。パスワードをまだ設定していない場合は、先にパソコンか Safari で Google ログインし、ホーム画面いちばん下の「アカウント」で設定してください';
+    case 'auth/invalid-email':
+      return 'メールアドレスの形式が正しくありません';
+    case 'auth/missing-password':
+      return 'パスワードを入力してください';
+    case 'auth/weak-password':
+      return 'パスワードは6文字以上にしてください';
+    case 'auth/too-many-requests':
+      return '試行回数が多すぎます。しばらく待ってからもう一度お試しください';
+    case 'auth/requires-recent-login':
+      return '安全のため、いったんログアウトして Google でログインし直してから、もう一度設定してください';
+    case 'auth/email-already-in-use':
+    case 'auth/credential-already-in-use':
+      return 'このメールアドレスは別のアカウントで使われています';
+    case 'kotonoha/no-email':
+      return 'このアカウントにはメールアドレスが無いため、パスワードを設定できません';
     case 'permission-denied':
       return 'Firestore のセキュリティルールでアクセスが拒否されました';
     case 'unavailable':

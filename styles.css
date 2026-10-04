@@ -954,3 +954,15 @@ body {
   .pl-item-actions { padding-left: 0; }
   .pl-tl-when { width: 4.5rem; }
 }
+
+/* ---------- アカウント（メールアドレスでのログイン・パスワード設定） ---------- */
+.acct-note { font-size: 0.82rem; line-height: 1.7; padding: 0.7rem 0.9rem; border-radius: 8px; background: rgba(197, 56, 43, 0.07); border-left: 3px solid var(--shu); color: var(--sumi-light); }
+.acct-details summary { cursor: pointer; font-size: 0.85rem; color: var(--sumi-light); text-align: center; }
+.acct-form { display: flex; flex-direction: column; gap: 0.7rem; }
+.acct-label { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.78rem; color: var(--sumi-soft); }
+.acct-input {
+  width: 100%; padding: 0.6rem 0.75rem; font-size: 1rem; /* 16px 以上で iPhone の自動ズームを防ぐ */
+  border: 1px solid rgba(26, 22, 18, 0.2); border-radius: 8px; background: var(--washi-light); color: var(--sumi);
+}
+.acct-input:focus { outline: 2px solid var(--shu); outline-offset: 1px; }
+.acct-link { font-size: 0.78rem; color: var(--sumi-soft); text-decoration: underline; background: none; border: 0; padding: 0.2rem 0; }

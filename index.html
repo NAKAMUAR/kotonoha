@@ -57,7 +57,7 @@
         <span class="text-shu">言</span><span class="text-sumi">の</span><span class="text-shu">葉</span>
         <span class="text-[10px] text-sumi-soft font-cormorant tracking-widest ml-2 align-middle">KOTONOHA</span>
       </h1>
-      <button id="profile-btn" class="hidden w-9 h-9 rounded-full bg-koke text-washi items-center justify-center text-sm font-cormorant" aria-label="プロフィール">
+      <button id="profile-btn" class="hidden w-9 h-9 rounded-full bg-koke text-washi items-center justify-center text-sm font-cormorant" aria-label="アカウント">
         <span id="profile-initial">U</span>
       </button>
     </div>
@@ -81,6 +81,11 @@
 
       <div class="card max-w-md mx-auto">
         <h2 class="text-lg font-semibold mb-4 text-center">はじめる</h2>
+        <div id="ios-standalone-note" class="acct-note hidden mb-4">
+          ホーム画面のアプリでは Google ログインが使えません（iPhone の仕組み上、ログインの途中で情報が失われるため）。
+          下の<b>「メールアドレスでログイン」</b>を使ってください。<br>
+          パスワードは、パソコンか Safari で一度 Google ログインし、ホーム画面いちばん下の「アカウント」で設定できます。
+        </div>
         <button id="btn-google-login" class="btn-primary w-full flex items-center justify-center gap-3">
           <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M21.35 11.1h-9.17v2.73h6.51c-.33 3.81-3.5 5.44-6.5 5.44C8.36 19.27 5 16.25 5 12c0-4.1 3.2-7.27 7.2-7.27 3.09 0 4.9 1.97 4.9 1.97L19 4.72S16.56 2 12.1 2C6.42 2 2.03 6.8 2.03 12c0 5.05 4.13 10 10.22 10 5.35 0 9.25-3.67 9.25-9.09 0-1.15-.15-1.81-.15-1.81z"/></svg>
           <span>Google でログイン</span>
@@ -89,6 +94,20 @@
           ログインすると iPhone と PC で<br>
           学習進捗が自動同期されます
         </p>
+
+        <details id="email-login" class="acct-details mt-5">
+          <summary>メールアドレスでログイン（iPhone のホーム画面アプリ用）</summary>
+          <form id="email-login-form" class="acct-form mt-3" autocomplete="on">
+            <label class="acct-label">メールアドレス（Google アカウントと同じもの）
+              <input id="email-login-email" type="email" class="acct-input" autocomplete="username" inputmode="email" required>
+            </label>
+            <label class="acct-label">パスワード
+              <input id="email-login-password" type="password" class="acct-input" autocomplete="current-password" required>
+            </label>
+            <button type="submit" id="btn-email-login" class="btn-primary w-full">ログイン</button>
+            <button type="button" id="btn-password-reset" class="acct-link">パスワードを忘れた／再設定のメールを送る</button>
+          </form>
+        </details>
       </div>
 
       <div class="mt-8 text-center text-xs text-sumi-soft">
@@ -220,6 +239,25 @@
           <span><span class="legend-dot legend-learned"></span>定着</span>
           <span><span class="legend-dot legend-started"></span>学習中</span>
         </div>
+      </div>
+
+      <div id="home-account" class="card mt-4">
+        <h3 class="card-title">アカウント</h3>
+        <p class="text-sm text-sumi-light mt-3">ログイン中：<span id="acct-email">—</span></p>
+        <div id="acct-password-status" class="text-sm mt-2"></div>
+        <form id="acct-password-form" class="acct-form mt-3" autocomplete="on">
+          <p class="text-xs text-sumi-soft leading-relaxed">iPhone のホーム画面アプリでは Google ログインが使えないため、
+            このアカウントにパスワードを設定しておくと、メールアドレスとパスワードで<b>同じ学習記録</b>にログインできます。</p>
+          <input type="email" id="acct-username" class="hidden" autocomplete="username" readonly>
+          <label class="acct-label">新しいパスワード（6文字以上）
+            <input id="acct-password" type="password" class="acct-input" autocomplete="new-password" minlength="6" required>
+          </label>
+          <label class="acct-label">確認のためもう一度
+            <input id="acct-password2" type="password" class="acct-input" autocomplete="new-password" minlength="6" required>
+          </label>
+          <button type="submit" id="btn-set-password" class="btn-primary w-full">パスワードを設定する</button>
+        </form>
+        <button id="btn-logout" class="btn-secondary w-full mt-4">ログアウト</button>
       </div>
     </section>
 
