@@ -111,7 +111,7 @@
       </div>
 
       <div class="mt-8 text-center text-xs text-sumi-soft">
-        <span class="font-cormorant tracking-widest">v0.1 · Step 1 (Skeleton)</span>
+        <span class="font-cormorant tracking-widest" id="login-version"></span>
       </div>
     </section>
 
@@ -257,6 +257,10 @@
           </label>
           <button type="submit" id="btn-set-password" class="btn-primary w-full">パスワードを設定する</button>
         </form>
+        <div class="acct-version mt-4">
+          <span>アプリのバージョン：<span id="app-version">確認中...</span></span>
+          <button id="btn-check-update" class="acct-link" type="button">最新版に更新</button>
+        </div>
         <button id="btn-logout" class="btn-secondary w-full mt-4">ログアウト</button>
       </div>
     </section>
@@ -931,18 +935,23 @@
   <script>
     // Service Worker 登録 — http://localhost や https:// でのみ動作
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+      // 新しい版が使えるようになったら自動で読み込み直す（iPhone のホーム画面アプリ対策）
+      const hadController = !!navigator.serviceWorker.controller;
+      let reloading = false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if (!hadController || reloading) return;   // 初回インストール時は読み込み直さない
+        reloading = true;
+        location.reload();
+      });
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./service-worker.js').then((reg) => {
+        navigator.serviceWorker.register('./service-worker.js', { updateViaCache: 'none' }).then((reg) => {
           console.log('[SW] registered:', reg.scope);
-          reg.addEventListener('updatefound', () => {
-            const nw = reg.installing;
-            if (!nw) return;
-            nw.addEventListener('statechange', () => {
-              if (nw.state === 'installed' && navigator.serviceWorker.controller) {
-                console.log('[SW] update available — reload to apply');
-              }
-            });
+          window.__swReg = reg;
+          // アプリを前面に戻したとき・1 時間ごとに更新を確認（ホーム画面アプリは再起動されにくいため）
+          document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible') reg.update().catch(() => {});
           });
+          setInterval(() => reg.update().catch(() => {}), 60 * 60 * 1000);
         }).catch((err) => console.error('[SW] register failed:', err));
       });
     }

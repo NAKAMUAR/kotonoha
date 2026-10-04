@@ -3,14 +3,16 @@
 // Step 7: PWA オフラインキャッシュ
 //
 // 戦略:
-//   ・同一オリジンの静的アセット → cache-first（オフライン継続可）
+//   ・画面とプログラム（HTML / JS / CSS / manifest）→ network-first
+//     （オンラインなら常に最新版。iPhone のホーム画面アプリでも更新が反映される）
+//   ・単語などのデータ（JSON）・アイコン → cache-first（バージョンごとに取り直す）
 //   ・Google Fonts (gstatic) → stale-while-revalidate
 //   ・Firebase / Firestore / Ollama 等の動的 API → バイパス（SW 介入なし）
 //
 // バージョンを上げると古いキャッシュは activate 時に削除される。
 // =====================================================================
 
-const VERSION = 'kotonoha-v0.21.2';
+const VERSION = 'kotonoha-v0.21.3';
 const STATIC_CACHE = `${VERSION}-static`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
 
@@ -97,7 +99,8 @@ self.addEventListener('install', (event) => {
     // 個別に try/catch — 1 ファイル失敗でも全体を止めない
     await Promise.all(
       PRECACHE.map(async (url) => {
-        try { await cache.add(url); }
+        // ブラウザの HTTP キャッシュを通さずに取り直す（古いファイルを新しい版に混ぜない）
+        try { await cache.add(new Request(url, { cache: 'reload' })); }
         catch (err) { console.warn('[SW] precache failed:', url, err); }
       })
     );
@@ -132,9 +135,11 @@ self.addEventListener('fetch', (event) => {
   // 動的 API（Firebase 等）はバイパス
   if (BYPASS_HOSTS.some((h) => url.hostname.endsWith(h))) return;
 
-  // 同一オリジン → cache-first
+  // 同一オリジン：画面・プログラムは network-first、データ・アイコンは cache-first
   if (url.origin === self.location.origin) {
-    event.respondWith(cacheFirst(request));
+    const isCode = request.mode === 'navigate' || /\.(html|js|css|webmanifest)$/.test(url.pathname) ||
+                   url.pathname.endsWith('/') || url.pathname.endsWith('manifest.json');
+    event.respondWith(isCode ? networkFirst(request) : cacheFirst(request));
     return;
   }
 
@@ -171,6 +176,27 @@ async function cacheFirst(request) {
   }
 }
 
+// オンラインなら最新を取得してキャッシュも更新。オフライン・応答なし（4 秒）ならキャッシュ
+async function networkFirst(request) {
+  const cache = await caches.open(STATIC_CACHE);
+  try {
+    const response = await Promise.race([
+      fetch(request, { cache: 'no-cache' }),
+      new Promise((_, reject) => setTimeout(() => reject(new Error('timeout')), 4000)),
+    ]);
+    if (response.ok && response.type === 'basic') cache.put(request, response.clone()).catch(() => {});
+    return response;
+  } catch (err) {
+    const cached = await caches.match(request, { ignoreSearch: request.mode === 'navigate' });
+    if (cached) return cached;
+    if (request.mode === 'navigate') {
+      const fallback = await caches.match('./index.html');
+      if (fallback) return fallback;
+    }
+    throw err;
+  }
+}
+
 async function staleWhileRevalidate(request) {
   const cached = await caches.match(request);
   const fetchPromise = fetch(request).then((response) => {
@@ -186,4 +212,6 @@ async function staleWhileRevalidate(request) {
 
 self.addEventListener('message', (event) => {
   if (event.data === 'SKIP_WAITING') self.skipWaiting();
+  // 画面に今のバージョンを伝える（アカウント欄に表示）
+  if (event.data === 'GET_VERSION') event.ports?.[0]?.postMessage(VERSION);
 });

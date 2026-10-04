@@ -1745,6 +1745,43 @@ function setText(id, value) {
 
 // ---------- ログイン UI ----------
 
+// ---------- アプリのバージョン表示と更新 ----------
+
+async function getAppVersion() {
+  const sw = navigator.serviceWorker?.controller;
+  if (!sw) return null;
+  return new Promise((resolve) => {
+    const ch = new MessageChannel();
+    const timer = setTimeout(() => resolve(null), 1500);
+    ch.port1.onmessage = (e) => { clearTimeout(timer); resolve(e.data); };
+    sw.postMessage('GET_VERSION', [ch.port2]);
+  });
+}
+
+async function showAppVersion() {
+  const v = await getAppVersion();
+  const label = v ? v.replace('kotonoha-', '') : '（オフライン用の保存なし）';
+  setText('app-version', label);
+  setText('login-version', v ? label : '');
+}
+
+// 「最新版に更新」：更新を確認し、新しい版があれば入れ替えて読み込み直す
+async function onCheckUpdate() {
+  const reg = window.__swReg ?? (await navigator.serviceWorker?.getRegistration());
+  const before = await getAppVersion();
+  showToast('最新版を確認しています...');
+  try {
+    await reg?.update();
+  } catch { /* オフラインなど */ }
+  // 新しい版が入ると controllerchange で自動的に読み込み直される。
+  // 少し待っても変わらなければ、そのまま読み込み直して最新の画面を取得する。
+  setTimeout(async () => {
+    const after = await getAppVersion();
+    if (after && after === before) showToast(`最新版（${after.replace('kotonoha-', '')}）です。画面を読み込み直します`);
+    setTimeout(() => location.reload(), 900);
+  }, 2500);
+}
+
 // ---------- アカウント（メールアドレスでのログイン・パスワード設定） ----------
 
 function renderAccountCard(user) {
@@ -1851,6 +1888,9 @@ function bindEvents() {
   document.getElementById('email-login-form')?.addEventListener('submit', onEmailLogin);
   document.getElementById('btn-password-reset')?.addEventListener('click', onPasswordReset);
   document.getElementById('acct-password-form')?.addEventListener('submit', onSetPassword);
+  document.getElementById('btn-check-update')?.addEventListener('click', onCheckUpdate);
+  showAppVersion();
+  navigator.serviceWorker?.addEventListener('controllerchange', () => showAppVersion());
   if (isIosStandalone()) {
     document.getElementById('ios-standalone-note')?.classList.remove('hidden');
     const box = document.getElementById('email-login');

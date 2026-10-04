@@ -1007,3 +1007,4 @@ body.wp-open { overflow: hidden; }
 .wp-check { font-size: 0.82rem; color: var(--sumi-light); display: inline-flex; align-items: center; gap: 0.3rem; margin-right: 0.6rem; }
 .wp-check input { accent-color: var(--shu); width: 1rem; height: 1rem; }
 .wp-hint { font-size: 0.7rem; color: var(--sumi-soft); line-height: 1.6; margin-top: 0.8rem; }
+.acct-version { display: flex; justify-content: space-between; align-items: center; gap: 0.5rem; flex-wrap: wrap; font-size: 0.78rem; color: var(--sumi-soft); }
