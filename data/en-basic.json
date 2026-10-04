@@ -1,0 +1,534 @@
+{
+ "grammar": [
+  {
+   "id": "enb_g01",
+   "level": "A1",
+   "tag": "be",
+   "q": "I ___ a student.",
+   "choices": [
+    "are",
+    "is",
+    "am",
+    "be"
+   ],
+   "answer": 2,
+   "ja": "私は学生です。",
+   "explain": "I には am。"
+  },
+  {
+   "id": "enb_g02",
+   "level": "A1",
+   "tag": "be",
+   "q": "They ___ from Japan.",
+   "choices": [
+    "be",
+    "is",
+    "am",
+    "are"
+   ],
+   "answer": 3,
+   "ja": "彼らは日本出身です。",
+   "explain": "複数の主語には are。"
+  },
+  {
+   "id": "enb_g03",
+   "level": "A1",
+   "tag": "present",
+   "q": "She ___ tennis every Sunday.",
+   "choices": [
+    "is play",
+    "plays",
+    "playing",
+    "play"
+   ],
+   "answer": 1,
+   "ja": "彼女は毎週日曜にテニスをします。",
+   "explain": "主語が三人称単数なので -s がつく。"
+  },
+  {
+   "id": "enb_g04",
+   "level": "A1",
+   "tag": "present",
+   "q": "My father ___ coffee in the morning.",
+   "choices": [
+    "drinking",
+    "drank to",
+    "drinks",
+    "drink"
+   ],
+   "answer": 2,
+   "ja": "父は朝コーヒーを飲みます。",
+   "explain": "三人称単数現在形。"
+  },
+  {
+   "id": "enb_g05",
+   "level": "A1",
+   "tag": "question",
+   "q": "___ you like sushi?",
+   "choices": [
+    "Does",
+    "Do",
+    "Are",
+    "Is"
+   ],
+   "answer": 1,
+   "ja": "寿司は好きですか？",
+   "explain": "一般動詞の疑問文、主語 you なので Do。"
+  },
+  {
+   "id": "enb_g06",
+   "level": "A1",
+   "tag": "question",
+   "q": "He ___ speak French.",
+   "choices": [
+    "isn't",
+    "don't",
+    "not",
+    "doesn't"
+   ],
+   "answer": 3,
+   "ja": "彼はフランス語を話しません。",
+   "explain": "三人称単数の否定は doesn't。"
+  },
+  {
+   "id": "enb_g07",
+   "level": "A1",
+   "tag": "prep",
+   "q": "The meeting is ___ Monday.",
+   "choices": [
+    "in",
+    "to",
+    "on",
+    "at"
+   ],
+   "answer": 2,
+   "ja": "会議は月曜日です。",
+   "explain": "曜日には on。"
+  },
+  {
+   "id": "enb_g08",
+   "level": "A1",
+   "tag": "prep",
+   "q": "I get up ___ seven o'clock.",
+   "choices": [
+    "for",
+    "on",
+    "at",
+    "in"
+   ],
+   "answer": 2,
+   "ja": "7時に起きます。",
+   "explain": "時刻には at。"
+  },
+  {
+   "id": "enb_g09",
+   "level": "A1",
+   "tag": "pronoun",
+   "q": "This is my sister. ___ name is Yuki.",
+   "choices": [
+    "Hers",
+    "She",
+    "Her",
+    "His"
+   ],
+   "answer": 2,
+   "ja": "これは私の姉です。彼女の名前はユキです。",
+   "explain": "「彼女の」は her。"
+  },
+  {
+   "id": "enb_g10",
+   "level": "A1",
+   "tag": "plural",
+   "q": "I have two ___.",
+   "choices": [
+    "brotheres",
+    "a brother",
+    "brother",
+    "brothers"
+   ],
+   "answer": 3,
+   "ja": "兄弟が2人います。",
+   "explain": "2人以上なので複数形。"
+  },
+  {
+   "id": "enb_g11",
+   "level": "A1",
+   "tag": "article",
+   "q": "She is ___ engineer.",
+   "choices": [
+    "an",
+    "a",
+    "the",
+    "―（何も入れない）"
+   ],
+   "answer": 0,
+   "ja": "彼女はエンジニアです。",
+   "explain": "母音で始まる語の前は an。"
+  },
+  {
+   "id": "enb_g12",
+   "level": "A1",
+   "tag": "modal",
+   "q": "___ I use your pen?",
+   "choices": [
+    "Do",
+    "Have",
+    "Am",
+    "Can"
+   ],
+   "answer": 3,
+   "ja": "ペンを使ってもいいですか？",
+   "explain": "許可を求める Can I ...?"
+  },
+  {
+   "id": "enb_g13",
+   "level": "A2",
+   "tag": "past",
+   "q": "I ___ to Kyoto last weekend.",
+   "choices": [
+    "goes",
+    "went",
+    "have gone",
+    "go"
+   ],
+   "answer": 1,
+   "ja": "先週末、京都に行きました。",
+   "explain": "last weekend があるので過去形。"
+  },
+  {
+   "id": "enb_g14",
+   "level": "A2",
+   "tag": "past",
+   "q": "___ you see the movie yesterday?",
+   "choices": [
+    "Did",
+    "Were",
+    "Do",
+    "Have"
+   ],
+   "answer": 0,
+   "ja": "昨日その映画を見ましたか？",
+   "explain": "過去の疑問文は Did。"
+  },
+  {
+   "id": "enb_g15",
+   "level": "A2",
+   "tag": "progressive",
+   "q": "Be quiet. The baby ___.",
+   "choices": [
+    "slept",
+    "sleeps",
+    "sleeping",
+    "is sleeping"
+   ],
+   "answer": 3,
+   "ja": "静かに。赤ちゃんが寝ています。",
+   "explain": "今まさに起きていることは現在進行形。"
+  },
+  {
+   "id": "enb_g16",
+   "level": "A2",
+   "tag": "progressive",
+   "q": "What ___ you doing when I called?",
+   "choices": [
+    "was",
+    "are",
+    "did",
+    "were"
+   ],
+   "answer": 3,
+   "ja": "電話したとき何をしていましたか？",
+   "explain": "過去進行形 were + -ing。"
+  },
+  {
+   "id": "enb_g17",
+   "level": "A2",
+   "tag": "compare",
+   "q": "This bag is ___ than that one.",
+   "choices": [
+    "cheaper",
+    "more cheap",
+    "cheap",
+    "cheapest"
+   ],
+   "answer": 0,
+   "ja": "このかばんはあれより安い。",
+   "explain": "短い形容詞の比較級は -er。"
+  },
+  {
+   "id": "enb_g18",
+   "level": "A2",
+   "tag": "compare",
+   "q": "Mt. Fuji is the ___ mountain in Japan.",
+   "choices": [
+    "high",
+    "most high",
+    "highest",
+    "higher"
+   ],
+   "answer": 2,
+   "ja": "富士山は日本で一番高い山です。",
+   "explain": "最上級 the -est。"
+  },
+  {
+   "id": "enb_g19",
+   "level": "A2",
+   "tag": "modal",
+   "q": "You ___ wear a seatbelt in a car.",
+   "choices": [
+    "can't",
+    "aren't",
+    "don't",
+    "must"
+   ],
+   "answer": 3,
+   "ja": "車ではシートベルトをしなければならない。",
+   "explain": "義務は must。"
+  },
+  {
+   "id": "enb_g20",
+   "level": "A2",
+   "tag": "future",
+   "q": "It ___ rain tomorrow.",
+   "choices": [
+    "will",
+    "is",
+    "does",
+    "was"
+   ],
+   "answer": 0,
+   "ja": "明日は雨が降るでしょう。",
+   "explain": "未来の予測は will。"
+  },
+  {
+   "id": "enb_g21",
+   "level": "A2",
+   "tag": "perfect",
+   "q": "I ___ never been to Hawaii.",
+   "choices": [
+    "have",
+    "has",
+    "am",
+    "did"
+   ],
+   "answer": 0,
+   "ja": "ハワイに行ったことがありません。",
+   "explain": "経験は現在完了 have + 過去分詞。"
+  },
+  {
+   "id": "enb_g22",
+   "level": "A2",
+   "tag": "perfect",
+   "q": "She ___ lived here since 2020.",
+   "choices": [
+    "have",
+    "is",
+    "was",
+    "has"
+   ],
+   "answer": 3,
+   "ja": "彼女は2020年からここに住んでいます。",
+   "explain": "since とともに継続の現在完了。三人称単数なので has。"
+  },
+  {
+   "id": "enb_g23",
+   "level": "A2",
+   "tag": "gerund",
+   "q": "I enjoy ___ to music.",
+   "choices": [
+    "listening",
+    "listen",
+    "to listen",
+    "listened"
+   ],
+   "answer": 0,
+   "ja": "音楽を聞くのを楽しみます。",
+   "explain": "enjoy の後は -ing。"
+  },
+  {
+   "id": "enb_g24",
+   "level": "A2",
+   "tag": "conj",
+   "q": "I was tired, ___ I went to bed early.",
+   "choices": [
+    "but",
+    "or",
+    "so",
+    "because"
+   ],
+   "answer": 2,
+   "ja": "疲れていたので早く寝た。",
+   "explain": "結果をつなぐのは so。"
+  }
+ ],
+ "reading": [
+  {
+   "id": "enb_r01",
+   "level": "A1",
+   "title": "My Day",
+   "text": "I get up at six thirty. I eat bread and drink milk for breakfast. I go to school by bus. School starts at eight thirty. After school, I play soccer with my friends. I go to bed at ten.",
+   "ja": "私は6時半に起きます。朝食にパンを食べ、牛乳を飲みます。バスで学校に行きます。学校は8時半に始まります。放課後は友達とサッカーをします。10時に寝ます。",
+   "questions": [
+    {
+     "q": "How does the writer go to school?",
+     "choices": [
+      "By bus",
+      "By bike",
+      "By train",
+      "On foot"
+     ],
+     "answer": 0,
+     "explain": "I go to school by bus."
+    },
+    {
+     "q": "What does the writer do after school?",
+     "choices": [
+      "Studies English",
+      "Watches TV",
+      "Eats dinner",
+      "Plays soccer"
+     ],
+     "answer": 3,
+     "explain": "I play soccer with my friends."
+    },
+    {
+     "q": "What time does school start?",
+     "choices": [
+      "8:00",
+      "8:30",
+      "10:00",
+      "6:30"
+     ],
+     "answer": 1,
+     "explain": "School starts at eight thirty."
+    }
+   ]
+  },
+  {
+   "id": "enb_r02",
+   "level": "A1",
+   "title": "A Note from Mom",
+   "text": "Ken, I am at the supermarket. Please wash the dishes and feed the cat. Your sandwich is in the fridge. I will be home at five. Love, Mom",
+   "ja": "ケンへ。お母さんはスーパーにいます。お皿を洗って、猫にえさをあげてね。サンドイッチは冷蔵庫に入っています。5時に帰ります。母より",
+   "questions": [
+    {
+     "q": "Where is Mom now?",
+     "choices": [
+      "At work",
+      "At home",
+      "At the supermarket",
+      "At school"
+     ],
+     "answer": 2,
+     "explain": "I am at the supermarket."
+    },
+    {
+     "q": "Where is Ken's sandwich?",
+     "choices": [
+      "In the fridge",
+      "At the store",
+      "In his bag",
+      "On the table"
+     ],
+     "answer": 0,
+     "explain": "Your sandwich is in the fridge."
+    },
+    {
+     "q": "What does Mom ask Ken to do?",
+     "choices": [
+      "Make dinner",
+      "Wash the dishes and feed the cat",
+      "Clean his room",
+      "Go shopping"
+     ],
+     "answer": 1,
+     "explain": "Please wash the dishes and feed the cat."
+    }
+   ]
+  },
+  {
+   "id": "enb_r03",
+   "level": "A2",
+   "title": "A New Café",
+   "text": "A new café opened near the station last month. It is open from 7 a.m. to 9 p.m. every day except Tuesday. The café is famous for its homemade cakes, and on weekends there is often a long line. If you bring your own cup, you get 50 yen off any drink.",
+   "ja": "先月、駅の近くに新しいカフェが開店しました。火曜日を除いて毎日、朝7時から夜9時まで営業しています。手作りケーキで有名で、週末にはよく長い行列ができます。自分のカップを持って行くと、どの飲み物も50円引きになります。",
+   "questions": [
+    {
+     "q": "When is the café closed?",
+     "choices": [
+      "On Tuesdays",
+      "On Mondays",
+      "On weekends",
+      "Every evening"
+     ],
+     "answer": 0,
+     "explain": "every day except Tuesday とあります。"
+    },
+    {
+     "q": "What is the café famous for?",
+     "choices": [
+      "Its large size",
+      "Cheap coffee",
+      "Homemade cakes",
+      "Its long opening hours"
+     ],
+     "answer": 2,
+     "explain": "famous for its homemade cakes."
+    },
+    {
+     "q": "How can customers get a discount?",
+     "choices": [
+      "By bringing their own cup",
+      "By coming before 7 a.m.",
+      "By coming on weekends",
+      "By buying two cakes"
+     ],
+     "answer": 0,
+     "explain": "If you bring your own cup, you get 50 yen off."
+    }
+   ]
+  },
+  {
+   "id": "enb_r04",
+   "level": "A2",
+   "title": "Email from a Friend",
+   "text": "Hi Aya, thank you for your email. I'm sorry I couldn't come to your party last Saturday. I had a bad cold and stayed in bed all weekend. I'm feeling much better now. Are you free next Friday? I'd like to take you to dinner to say sorry. Best, Tom",
+   "ja": "アヤへ。メールをありがとう。先週の土曜日はパーティーに行けなくてごめんね。ひどい風邪をひいて、週末ずっと寝ていたんだ。今はだいぶ良くなったよ。来週の金曜日は空いてる？おわびに夕食をごちそうしたいな。トムより",
+   "questions": [
+    {
+     "q": "Why didn't Tom go to the party?",
+     "choices": [
+      "He was busy at work",
+      "He was traveling",
+      "He was sick",
+      "He forgot about it"
+     ],
+     "answer": 2,
+     "explain": "I had a bad cold とあります。"
+    },
+    {
+     "q": "How is Tom now?",
+     "choices": [
+      "Very busy",
+      "Still in bed",
+      "Angry",
+      "Much better"
+     ],
+     "answer": 3,
+     "explain": "I'm feeling much better now."
+    },
+    {
+     "q": "What does Tom want to do next Friday?",
+     "choices": [
+      "Have a party",
+      "Stay at home",
+      "Take Aya to dinner",
+      "Go to the doctor"
+     ],
+     "answer": 2,
+     "explain": "I'd like to take you to dinner."
+    }
+   ]
+  }
+ ]
+}

@@ -383,9 +383,14 @@ function gradePassage() {
 // ---------- 初期化 ----------
 
 export async function activateKenteiScreen(opts = {}) {
-  if (opts.level) vk.level = opts.level;
+  if (opts.level && opts.level !== vk.level) { vk.level = opts.level; vk.wl = { q: '', cat: '', shown: 0 }; }
   if (opts.mode)  { vk.mode = opts.mode; vk.openPassage = null; }
+  if (opts.passage) vk.openPassage = opts.passage;   // 学習プランから長文を直接開く
   await render();
+  if (opts.point) {                                   // 学習プランから文法の項目を直接開く
+    const el = [...document.querySelectorAll('[data-vk-point]')].find((x) => x.dataset.vkPoint === opts.point);
+    if (el) { el.open = true; el.scrollIntoView({ block: 'start' }); }
+  }
 }
 
 export function initKentei(hooks = {}) {

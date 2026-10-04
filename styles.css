@@ -876,3 +876,81 @@ body {
 .vk-wl-ja { flex-basis: 100%; font-size: 0.82rem; color: var(--sumi-light); }
 .vk-wl-item[open] summary .vk-wl-vi { color: var(--shu); }
 .vk-wl-ex { margin-top: 0.35rem; padding: 0.4rem 0.6rem; border-left: 2px solid var(--shu); background: var(--washi-light); border-radius: 0 6px 6px 0; }
+
+/* ---------- 学習プラン ---------- */
+.pl-settings { display: flex; flex-wrap: wrap; gap: 0.6rem 1rem; align-items: center; justify-content: space-between; }
+#plan-tabs { overflow-x: auto; scrollbar-width: none; }
+#plan-tabs .tab { padding: 0.5rem 0.7rem; white-space: nowrap; flex: none; }
+.pl-home { border-left: 3px solid var(--shu); }
+.pl-progress { height: 6px; border-radius: 999px; background: rgba(26, 22, 18, 0.08); overflow: hidden; }
+.pl-progress-fill { height: 100%; background: var(--koke); border-radius: 999px; transition: width 0.3s; }
+.pl-menu { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.75rem; }
+.pl-item { padding: 0.9rem 1rem; }
+.pl-done { opacity: 0.72; }
+.pl-item-head { display: flex; gap: 0.7rem; align-items: flex-start; }
+.pl-icon {
+  flex: none; width: 2rem; height: 2rem; border-radius: 50%; display: grid; place-items: center;
+  font-family: "Shippori Mincho", serif; font-weight: 700; color: var(--washi); background: var(--shu);
+}
+.pl-done .pl-icon { background: var(--koke); }
+.pl-item-main { flex: 1; min-width: 0; }
+.pl-item-meta { font-size: 0.7rem; color: var(--sumi-soft); letter-spacing: 0.05em; }
+.pl-item-title { font-family: "Shippori Mincho", serif; font-weight: 600; font-size: 0.98rem; }
+.pl-item-desc { font-size: 0.82rem; color: var(--sumi-light); line-height: 1.6; margin-top: 0.15rem; }
+.pl-item-prog { font-size: 0.78rem; color: var(--shu); margin-top: 0.2rem; }
+.pl-check { margin-left: 0.5rem; font-size: 0.72rem; color: var(--koke-dark); font-family: inherit; font-weight: 600; }
+.pl-sci { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.35rem; }
+.pl-sci span { font-size: 0.65rem; padding: 0.05rem 0.45rem; border-radius: 999px; background: rgba(90, 112, 72, 0.12); color: var(--koke-dark); }
+.pl-item-actions { display: flex; align-items: center; gap: 0.75rem; margin-top: 0.7rem; padding-left: 2.7rem; }
+.pl-item-actions .btn-primary { padding: 0.4rem 1rem; }
+.pl-manual { font-size: 0.8rem; color: var(--sumi-light); display: inline-flex; align-items: center; gap: 0.3rem; cursor: pointer; }
+.pl-manual input { accent-color: var(--koke); width: 1rem; height: 1rem; }
+.pl-skill-name { font-size: 0.85rem; font-weight: 600; display: flex; justify-content: space-between; gap: 0.5rem; }
+.pl-skill-lv { font-weight: 400; color: var(--shu); font-size: 0.8rem; }
+.pl-ladder { display: flex; gap: 2px; margin-top: 0.25rem; }
+.pl-step { flex: 1; min-width: 0; text-align: center; font-size: 0.6rem; padding: 0.15rem 0; color: var(--sumi-soft); background: rgba(26, 22, 18, 0.06); white-space: nowrap; overflow: hidden; }
+.pl-step:first-child { border-radius: 4px 0 0 4px; }
+.pl-step:last-child { border-radius: 0 4px 4px 0; }
+.pl-step-on { background: var(--koke); color: var(--washi); }
+.pl-start { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.pl-hist { display: flex; flex-direction: column; }
+.pl-hist-row { display: flex; gap: 0.6rem; align-items: baseline; padding: 0.4rem 0; border-bottom: 1px dashed rgba(26, 22, 18, 0.12); font-size: 0.82rem; }
+.pl-hist-date { flex: none; width: 2.8rem; color: var(--sumi-soft); }
+.pl-hist-kind { flex: none; font-size: 0.68rem; padding: 0 0.4rem; border-radius: 999px; border: 1px solid rgba(26, 22, 18, 0.2); }
+.pl-hist-body { color: var(--sumi-light); }
+.pl-session { padding: 1rem; }
+.pl-sess-title { font-family: "Shippori Mincho", serif; font-weight: 700; }
+.pl-sess-skill { margin-left: 0.5rem; font-size: 0.72rem; color: var(--washi); background: var(--sumi-light); border-radius: 999px; padding: 0.05rem 0.5rem; }
+.pl-q-label { font-size: 0.75rem; color: var(--sumi-soft); }
+.pl-q { margin-top: 0.3rem; font-size: 1.15rem; line-height: 1.55; }
+.pl-q-vi { font-family: "Cormorant Garamond", serif; font-size: 1.3rem; font-weight: 600; }
+.pl-audio { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+.pl-passage { margin-top: 0.3rem; margin-bottom: 0.6rem; border: 1px solid rgba(26, 22, 18, 0.12); border-radius: 8px; padding: 0.5rem 0.7rem; background: var(--washi-light); }
+.pl-passage summary { cursor: pointer; font-size: 0.8rem; color: var(--sumi-soft); }
+.pl-passage-text p { font-family: "Cormorant Garamond", serif; font-size: 1.05rem; line-height: 1.7; margin-top: 0.4rem; white-space: pre-line; }
+.pl-choices { display: flex; flex-direction: column; gap: 0.45rem; }
+.pl-choice {
+  text-align: left; padding: 0.6rem 0.8rem; border-radius: 8px; border: 1px solid rgba(26, 22, 18, 0.18);
+  background: var(--washi-light); font-size: 0.95rem; line-height: 1.5; color: inherit;
+}
+.pl-choice:not(:disabled):hover { border-color: var(--shu); }
+.pl-dontknow { color: var(--sumi-soft); font-size: 0.85rem; border-style: dashed; }
+.pl-advice { padding: 0.7rem 0.9rem; border-radius: 8px; background: rgba(197, 56, 43, 0.06); border-left: 3px solid var(--shu); font-size: 0.88rem; line-height: 1.7; }
+.pl-timeline { list-style: none; padding: 0; }
+.pl-tl { display: flex; gap: 0.8rem; padding: 0.6rem 0; border-bottom: 1px dashed rgba(26, 22, 18, 0.12); }
+.pl-tl-when { flex: none; width: 5.5rem; font-size: 0.8rem; font-weight: 600; color: var(--shu); }
+.pl-tl-when span { display: block; font-weight: 400; color: var(--sumi-soft); font-size: 0.72rem; }
+.pl-tl-body { flex: 1; min-width: 0; }
+.pl-sci-d { border-bottom: 1px dashed rgba(26, 22, 18, 0.12); padding: 0.4rem 0; }
+.pl-sci-d summary { cursor: pointer; font-size: 0.9rem; font-weight: 600; }
+.pl-sci-d p { font-size: 0.83rem; color: var(--sumi-light); line-height: 1.7; margin-top: 0.3rem; }
+.pl-ref { font-size: 0.7rem !important; color: var(--sumi-soft) !important; }
+.pl-media { list-style: none; padding: 0; }
+.pl-media-item { padding: 0.6rem 0; border-bottom: 1px dashed rgba(26, 22, 18, 0.12); }
+.pl-media-head { display: flex; justify-content: space-between; gap: 0.5rem; align-items: baseline; }
+.pl-media-lv { flex: none; font-size: 0.7rem; padding: 0.05rem 0.5rem; border-radius: 999px; background: rgba(197, 56, 43, 0.08); color: var(--shu); }
+.pl-steps { padding-left: 1.2rem; list-style: decimal; font-size: 0.85rem; line-height: 1.8; color: var(--sumi-light); }
+@media (max-width: 420px) {
+  .pl-item-actions { padding-left: 0; }
+  .pl-tl-when { width: 4.5rem; }
+}

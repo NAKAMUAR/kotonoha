@@ -21,6 +21,7 @@ import {
   buildQueue,
   rateWord,
   getStudyStats,
+  getTodayActivity,
   pullSrsFromFirestore,
   clearLocalSrs,
   getDeck,
@@ -69,10 +70,11 @@ import { getReadingByPart } from './toeic-reading.js';
 import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.js';
 import { initLinking, activateLinkingScreen, leaveLinkingScreen } from './linking.js';
 import { initKentei, activateKenteiScreen, kenteiCounts, kenteiProgress } from './vi-kentei.js';
+import { initStudyPlan, activatePlanScreen, leavePlanScreen, refreshHomePlan } from './study-plan.js';
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
 
-const SCREENS = ['login', 'home', 'vocabulary', 'scenarios', 'grammar', 'linking', 'vi-kentei', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
+const SCREENS = ['login', 'home', 'plan', 'vocabulary', 'scenarios', 'grammar', 'linking', 'vi-kentei', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -124,7 +126,8 @@ const trState = {
 
 // ---------- 画面切替 ----------
 
-let kenteiNext = null; // ホームのカードから開くときの { mode }
+let kenteiNext = null; // ホームのカードや学習プランから開くときの { mode, level, point, passage }
+let planNext   = null; // 学習プランを開くときの { tab }
 
 function showScreen(name) {
   if (!SCREENS.includes(name)) return;
@@ -155,6 +158,8 @@ function showScreen(name) {
   if (name === 'vi-kentei')        { activateKenteiScreen(kenteiNext ?? {}); kenteiNext = null; }
   if (name === 'linking')          activateLinkingScreen();
   else                             leaveLinkingScreen();
+  if (name === 'plan')             { activatePlanScreen(planNext ?? {}); planNext = null; }
+  else                             leavePlanScreen();
   if (name !== 'scenarios' && name !== 'toeic-listening') stopSpeaking();
   if (name !== 'toeic-listening')  stopListeningAudio();
 }
@@ -233,6 +238,7 @@ async function refreshHomeStats() {
     console.warn('home stats refresh failed:', err);
   }
   renderProgressRows().catch((err) => console.warn('progress rows failed:', err));
+  refreshHomePlan().catch((err) => console.warn('home plan failed:', err));
 }
 
 // ---------- 学習進捗（連続学習日数・完了シナリオ・進捗バー） ----------
@@ -1991,6 +1997,17 @@ function bindEvents() {
         return res.ok ? await res.json() : [];
       } catch { return []; }
     },
+  });
+
+  initStudyPlan({
+    showToast,
+    showScreen: (name, opts) => { if (name === 'plan') planNext = opts ?? null; showScreen(name); },
+    openDeck: (deck, lang) => { vocabState.deck = deck; vocabState.lang = lang; showScreen('vocabulary'); },
+    openKentei: (opts) => { kenteiNext = opts; showScreen('vi-kentei'); },
+    todayActivity: (lang, deck) => getTodayActivity(lang, deck),
+    markStudied: () => markStudied(),
+    persist: (plan) => saveProgress({ studyPlan: plan }),
+    remoteState: () => state.userData?.progress?.studyPlan ?? null,
   });
 
   // まだ単語データが無い級のチップは隠す

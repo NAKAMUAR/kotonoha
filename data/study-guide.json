@@ -1,0 +1,390 @@
+{
+ "schedules": {
+  "15": [
+   {
+    "when": "朝",
+    "minutes": 5,
+    "kind": "srs",
+    "title": "単語の復習",
+    "what": "期限が来た単語を思い出す。新しい単語は1日5語まで。",
+    "science": [
+     "spacing",
+     "retrieval"
+    ]
+   },
+   {
+    "when": "通勤・すきま時間",
+    "minutes": 5,
+    "kind": "drill",
+    "title": "弱点ドリル",
+    "what": "テストで間違えた所を中心に、種類を混ぜた問題を解く。",
+    "science": [
+     "retrieval",
+     "interleave",
+     "feedback"
+    ]
+   },
+   {
+    "when": "夜",
+    "minutes": 5,
+    "kind": "listen",
+    "title": "聞いてまねる",
+    "what": "短い文を聞いて、すぐ後について声に出す（シャドーイング）。",
+    "science": [
+     "shadowing",
+     "output"
+    ]
+   }
+  ],
+  "30": [
+   {
+    "when": "朝",
+    "minutes": 8,
+    "kind": "srs",
+    "title": "単語の復習＋新しい単語",
+    "what": "まず期限の来た復習、次に新しい単語を10語。例文の音声も聞く。",
+    "science": [
+     "spacing",
+     "retrieval"
+    ]
+   },
+   {
+    "when": "通勤・すきま時間",
+    "minutes": 5,
+    "kind": "drill",
+    "title": "弱点ドリル",
+    "what": "間違えた問題・苦手な分野を混ぜて解く。",
+    "science": [
+     "retrieval",
+     "interleave",
+     "feedback"
+    ]
+   },
+   {
+    "when": "夜",
+    "minutes": 7,
+    "kind": "grammar",
+    "title": "今日の文法（英語は文法・語法の問題）",
+    "what": "解説を読む→例文を聞く→確認問題で思い出す。",
+    "science": [
+     "retrieval",
+     "feedback"
+    ]
+   },
+   {
+    "when": "夜",
+    "minutes": 7,
+    "kind": "reading",
+    "title": "読む・聞く",
+    "what": "自分のレベルより少しだけ上の文章を読み、音声でも聞く。",
+    "science": [
+     "input",
+     "fourstrands"
+    ]
+   },
+   {
+    "when": "寝る前",
+    "minutes": 3,
+    "kind": "night",
+    "title": "今日の間違いの見直し",
+    "what": "今日間違えた問題だけを2〜3分で見直して寝る。",
+    "science": [
+     "sleep",
+     "retrieval"
+    ]
+   }
+  ],
+  "60": [
+   {
+    "when": "朝",
+    "minutes": 10,
+    "kind": "srs",
+    "title": "単語の復習＋新しい単語",
+    "what": "期限の来た復習→新しい単語15語。例文を声に出して読む。",
+    "science": [
+     "spacing",
+     "retrieval"
+    ]
+   },
+   {
+    "when": "通勤・すきま時間",
+    "minutes": 8,
+    "kind": "drill",
+    "title": "弱点ドリル",
+    "what": "間違えた問題・苦手な分野を混ぜて解く。",
+    "science": [
+     "retrieval",
+     "interleave",
+     "feedback"
+    ]
+   },
+   {
+    "when": "昼休み",
+    "minutes": 10,
+    "kind": "grammar",
+    "title": "今日の文法（英語は文法・語法の問題）",
+    "what": "解説→例文→確認問題。間違えたら理由を確認。",
+    "science": [
+     "retrieval",
+     "feedback"
+    ]
+   },
+   {
+    "when": "夜",
+    "minutes": 12,
+    "kind": "reading",
+    "title": "読む・聞く",
+    "what": "少し上のレベルの文章を読む→聞く→音読する。",
+    "science": [
+     "input",
+     "shadowing"
+    ]
+   },
+   {
+    "when": "夜",
+    "minutes": 10,
+    "kind": "output",
+    "title": "話す・書く",
+    "what": "AI との会話練習や作文添削で、自分の言葉で使ってみる。",
+    "science": [
+     "output",
+     "fourstrands"
+    ]
+   },
+   {
+    "when": "夜",
+    "minutes": 5,
+    "kind": "listen",
+    "title": "シャドーイング",
+    "what": "今日読んだ文章の音声を1文ずつまねる。",
+    "science": [
+     "shadowing"
+    ]
+   },
+   {
+    "when": "寝る前",
+    "minutes": 5,
+    "kind": "night",
+    "title": "今日の間違いの見直し",
+    "what": "今日間違えた問題を見直して、すぐ寝る。",
+    "science": [
+     "sleep",
+     "retrieval"
+    ]
+   }
+  ]
+ },
+ "science": [
+  {
+   "id": "spacing",
+   "title": "間隔をあけて復習する（分散学習）",
+   "body": "一度にまとめて覚えるより、日をあけて何度か復習するほうが長く覚えていられます。単語帳の「復習の期限」はこの仕組みで自動的に決まります。",
+   "ref": "Cepeda, N. J. et al. (2006). Distributed practice in verbal recall tasks. Psychological Bulletin, 132(3)."
+  },
+  {
+   "id": "retrieval",
+   "title": "思い出す練習（テスト効果）",
+   "body": "教科書を読み返すより、問題を解いて「思い出す」ほうが記憶に残ります。毎日のドリルや確認テストはこのためです。",
+   "ref": "Roediger, H. L. & Karpicke, J. D. (2006). Test-enhanced learning. Psychological Science, 17(3)."
+  },
+  {
+   "id": "interleave",
+   "title": "種類を混ぜて練習する（交互練習）",
+   "body": "同じ種類の問題を続けて解くより、似た問題を混ぜて解くほうが「どれを使うか」を見分ける力がつきます（語学での研究はまだ途中ですが、取り入れやすい方法です）。",
+   "ref": "Kornell, N. & Bjork, R. A. (2008). Learning concepts and categories. Psychological Science, 19(6)."
+  },
+  {
+   "id": "feedback",
+   "title": "間違えたらすぐに確認する（フィードバック）",
+   "body": "答えた直後に正解と理由を知ると、間違いが定着しにくくなります。このアプリのテストやドリルは、その場で正解と解説を表示します。",
+   "ref": "Hattie, J. & Timperley, H. (2007). The power of feedback. Review of Educational Research, 77(1)."
+  },
+  {
+   "id": "input",
+   "title": "少しだけ難しい内容をたくさん（理解可能なインプット）",
+   "body": "今の実力より少しだけ上の内容を、意味を楽しみながら大量に聞いたり読んだりすると力が伸びるとされます。辞書なしで楽しむには、知らない語が2〜5％程度までが目安です。",
+   "ref": "Krashen, S. (1985). The Input Hypothesis. / Hu, M. & Nation, P. (2000). Reading in a Foreign Language, 13(1)."
+  },
+  {
+   "id": "output",
+   "title": "話す・書く（アウトプット）",
+   "body": "自分で言おう・書こうとして初めて「言えない部分」に気づき、そこを補おうとすることで力がつきます。",
+   "ref": "Swain, M. (1985). Communicative competence: some roles of comprehensible input and comprehensible output."
+  },
+  {
+   "id": "fourstrands",
+   "title": "4つの柱をバランスよく",
+   "body": "①意味を楽しむインプット ②話す・書くアウトプット ③単語・文法そのものの学習 ④すらすら使う練習 を、それぞれ約4分の1ずつ行うのがよいとされます。毎日のメニューはこの配分を目安にしています。",
+   "ref": "Nation, P. (2007). The four strands. Innovation in Language Learning and Teaching, 1(1)."
+  },
+  {
+   "id": "sleep",
+   "title": "寝る前の見直しと十分な睡眠",
+   "body": "眠っている間に、その日に学んだことが整理されて記憶に残りやすくなります。寝る前に短く見直し、睡眠時間はしっかり確保しましょう（夜ふかしで勉強時間を増やすのは逆効果です）。",
+   "ref": "Diekelmann, S. & Born, J. (2010). The memory function of sleep. Nature Reviews Neuroscience, 11."
+  },
+  {
+   "id": "shadowing",
+   "title": "聞いてすぐまねる（シャドーイング・音読）",
+   "body": "聞いた音をすぐ後についてまねると、音を聞き取って意味をつかむ処理が速くなるとされます。",
+   "ref": "門田修平 (2007)『シャドーイングと音読の科学』コスモピア"
+  }
+ ],
+ "media": {
+  "vi": [
+   {
+    "title": "Hai Phượng",
+    "en": "Furie",
+    "year": 2019,
+    "kind": "映画（アクション）",
+    "level": "準6〜5級",
+    "note": "せりふが少なく映像で話が分かるので、ベトナム語の響きに慣れる最初の1本に。南部が舞台。"
+   },
+   {
+    "title": "Tôi thấy hoa vàng trên cỏ xanh",
+    "en": "Yellow Flowers on the Green Grass",
+    "year": 2015,
+    "kind": "映画（家族・青春）",
+    "level": "5〜3級",
+    "note": "子ども同士の短い会話が中心で聞き取りやすい。中部の農村が舞台。"
+   },
+   {
+    "title": "Về nhà đi con",
+    "en": "",
+    "year": 2019,
+    "kind": "テレビドラマ（家族）",
+    "level": "3〜2級",
+    "note": "ハノイの家族の日常会話がたっぷり。北部の発音で、検定の標準的な発音に近い。"
+   },
+   {
+    "title": "Hương vị tình thân",
+    "en": "",
+    "year": 2021,
+    "kind": "テレビドラマ（家族）",
+    "level": "3〜2級",
+    "note": "北部が舞台の家族ドラマ。家族の呼び方や日常表現の勉強に。"
+   },
+   {
+    "title": "Bố già",
+    "en": "Dad, I'm Sorry",
+    "year": 2021,
+    "kind": "映画（家族・コメディ）",
+    "level": "3級〜",
+    "note": "ホーチミン市の下町の家族。南部の発音で早口な場面も多い。"
+   },
+   {
+    "title": "Cô Ba Sài Gòn",
+    "en": "The Tailor",
+    "year": 2017,
+    "kind": "映画（ファッション）",
+    "level": "2級〜",
+    "note": "アオザイ店が舞台。南部の発音と、伝統文化の語彙に触れられる。"
+   },
+   {
+    "title": "Mắt biếc",
+    "en": "Dreamy Eyes",
+    "year": 2019,
+    "kind": "映画（恋愛・文芸）",
+    "level": "2〜1級",
+    "note": "グエン・ニャット・アインの小説が原作。文学的なせりふが多く、原作と読み比べるのもおすすめ。"
+   },
+   {
+    "title": "Nhà bà Nữ",
+    "en": "The House of No Man",
+    "year": 2023,
+    "kind": "映画（家族）",
+    "level": "2級〜",
+    "note": "南部の家族の口げんかなど、自然で速い会話が多い上級者向け。"
+   }
+  ],
+  "en": [
+   {
+    "title": "Peppa Pig",
+    "en": "",
+    "year": 2004,
+    "kind": "アニメ（子ども向け）",
+    "level": "A1",
+    "note": "1話約5分。ゆっくりめのイギリス英語で、短い文の聞き取りに。"
+   },
+   {
+    "title": "Toy Story / Zootopia",
+    "en": "トイ・ストーリー／ズートピア",
+    "year": 1995,
+    "kind": "映画（アニメ）",
+    "level": "A2",
+    "note": "発音がはっきりしていて、家族で見ても楽しい。"
+   },
+   {
+    "title": "Friends",
+    "en": "フレンズ",
+    "year": 1994,
+    "kind": "テレビドラマ（コメディ）",
+    "level": "A2〜B1",
+    "note": "1話約20分の日常会話。言い回しの宝庫。"
+   },
+   {
+    "title": "The Devil Wears Prada",
+    "en": "プラダを着た悪魔",
+    "year": 2006,
+    "kind": "映画（職場）",
+    "level": "B1",
+    "note": "職場でのやりとりが多く、仕事の英語に慣れる。"
+   },
+   {
+    "title": "The Intern",
+    "en": "マイ・インターン",
+    "year": 2015,
+    "kind": "映画（職場）",
+    "level": "B1〜B2",
+    "note": "オフィスの会話・メール・会議の英語。TOEIC 対策と相性がよい。"
+   },
+   {
+    "title": "Paddington",
+    "en": "パディントン",
+    "year": 2014,
+    "kind": "映画（家族）",
+    "level": "B1",
+    "note": "丁寧なイギリス英語。IELTS を受ける人におすすめ。"
+   },
+   {
+    "title": "Ted Lasso",
+    "en": "テッド・ラッソ",
+    "year": 2020,
+    "kind": "テレビドラマ（コメディ）",
+    "level": "B2",
+    "note": "アメリカ英語とイギリス英語の両方が聞ける。"
+   },
+   {
+    "title": "Downton Abbey",
+    "en": "ダウントン・アビー",
+    "year": 2010,
+    "kind": "テレビドラマ（歴史）",
+    "level": "B2",
+    "note": "上品なイギリス英語。やや古風な言い回しも。"
+   },
+   {
+    "title": "Suits",
+    "en": "SUITS／スーツ",
+    "year": 2011,
+    "kind": "テレビドラマ（法律・ビジネス）",
+    "level": "B2〜C1",
+    "note": "交渉・契約などビジネスの語彙。早口なので上級者向け。"
+   },
+   {
+    "title": "The Social Network",
+    "en": "ソーシャル・ネットワーク",
+    "year": 2010,
+    "kind": "映画",
+    "level": "C1",
+    "note": "非常に早口で専門的な会話。字幕なしに挑戦したい人に。"
+   }
+  ]
+ },
+ "watch": [
+  "まず日本語字幕で、話の内容を楽しむ。",
+  "気に入った2〜3分の場面を選び、学ぶ言語の字幕で見て、分からない語を確かめる。",
+  "同じ場面を字幕なしで聞き、1文ずつ一時停止してまねる（シャドーイング）。",
+  "使ってみたいせりふをノートに書き、声に出して言ってみる。"
+ ],
+ "mediaNote": "配信サービスでの取り扱いは時期や地域によって変わります。知らない語が多すぎて楽しめない作品は、無理せずやさしい作品に替えましょう。"
+}

@@ -275,6 +275,28 @@ export async function getStudyStats(lang, deck = 'daily') {
   return stats;
 }
 
+/**
+ * 学習プラン用：今日そのデッキで何語学習したか。
+ *   reviewedToday ... 今日 1 回以上評価した語数（新しい語・復習の両方）
+ *   reviewDue     ... 一度学習済みで、復習の期限が来ている語数
+ *   newLeft       ... まだ一度も学習していない語数
+ */
+export async function getTodayActivity(lang, deck = 'daily') {
+  const vocab  = await getVocabulary(lang, deck);
+  const states = await getAllSrsStates();
+  const map    = new Map(states.map((s) => [s.wordId, s]));
+  const now    = Date.now();
+  const start  = new Date(); start.setHours(0, 0, 0, 0);
+  const out = { total: vocab.length, reviewedToday: 0, reviewDue: 0, newLeft: 0 };
+  for (const w of vocab) {
+    const s = map.get(w.id);
+    if ((s?.lastReviewedAt ?? 0) >= start.getTime()) out.reviewedToday += 1;
+    if (statusOf(s) === 'new') out.newLeft += 1;
+    else if (isDue(s, now)) out.reviewDue += 1;
+  }
+  return out;
+}
+
 // ---------- ホーム画面の進捗 ----------
 
 // ホームに表示するデッキ（deck, lang）

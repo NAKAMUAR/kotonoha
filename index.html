@@ -121,6 +121,12 @@
         </div>
       </div>
 
+      <!-- 学習プラン（実力テスト → 今日のメニュー → 定期テスト） -->
+      <div id="home-plan" class="card mb-4 pl-home">
+        <h3 class="card-title">学習プラン</h3>
+        <div class="text-xs text-sumi-soft mt-3">読み込み中...</div>
+      </div>
+
       <div class="card mb-4">
         <h3 class="card-title">日常学習</h3>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-4">
@@ -429,6 +435,35 @@
         </ol>
         <p class="text-xs text-sumi-soft mt-3">言語は自動判定されます（ベトナム語の声調記号があれば vi、なければ en）</p>
       </div>
+    </section>
+
+    <section id="screen-plan" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">学習プラン</h2>
+        <p class="screen-sub">実力テスト → 弱点に合わせた毎日のメニュー → 定期的な確認テスト</p>
+      </div>
+
+      <div id="plan-settings" class="pl-settings mb-3">
+        <div id="plan-lang" class="tab-bar">
+          <button class="tab tab-active" data-plan-lang="vi">ベトナム語</button>
+          <button class="tab" data-plan-lang="en">英語</button>
+        </div>
+        <div id="plan-min" class="filter-row items-center">
+          <span class="text-xs text-sumi-soft mr-1">1日の学習時間:</span>
+          <button class="chip" data-plan-min="15">15分</button>
+          <button class="chip chip-active" data-plan-min="30">30分</button>
+          <button class="chip" data-plan-min="60">60分</button>
+        </div>
+      </div>
+
+      <div id="plan-tabs" class="tab-bar mb-4">
+        <button class="tab tab-active" data-plan-tab="menu">今日のメニュー</button>
+        <button class="tab" data-plan-tab="test">実力テスト</button>
+        <button class="tab" data-plan-tab="curriculum">1日のカリキュラム</button>
+        <button class="tab" data-plan-tab="media">映画・ドラマ</button>
+      </div>
+
+      <div id="plan-body"></div>
     </section>
 
     <section id="screen-vi-kentei" class="screen hidden">
