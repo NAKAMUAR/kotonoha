@@ -112,6 +112,8 @@ function blankState() {
     v: 1, updatedAt: 0, lang: 'vi', minutes: 30,
     results: { vi: [], en: [] },
     weak: { vi: { items: [], points: [], tags: [] }, en: { items: [], points: [], tags: [] } },
+    steps: { vi: null, en: null },     // 段階テストの進み具合
+    partial: { vi: null, en: null },   // 途中まで受けた実力テスト
     days: {},
   };
 }
@@ -124,6 +126,8 @@ function normalize(s) {
     en: { ...b.weak.en, ...(s.weak?.en ?? {}) },
   };
   out.days = s.days ?? {};
+  out.steps = { ...b.steps, ...(s.steps ?? {}) };
+  out.partial = { ...b.partial, ...(s.partial ?? {}) };
   if (!MINUTES.includes(out.minutes)) out.minutes = 30;
   if (!LANG[out.lang]) out.lang = 'vi';
   return out;
@@ -339,35 +343,53 @@ const stairEst = (s) => (s.passed.length ? Math.max(...s.passed) : -1);
 
 // ---------- テスト・ドリルのセッション ----------
 
-async function startFullTest(lang, startIdx) {
+const PARTIAL_DAYS = 7;   // 途中まで受けた実力テストを続きから受けられる日数
+
+function validPartial(lang) {
+  const pt = st.partial[lang];
+  return pt && daysSince(pt.date) < PARTIAL_DAYS && Object.keys(pt.est ?? {}).length ? pt : null;
+}
+
+async function startFullTest(lang, startIdx, resume = false) {
   const B = await bank(lang);
   const max = B.length - 1;
-  const sections = [
-    { skill: 'vocab', stair: newStair('vocab', 4, 3, startIdx, max) },
-    { skill: 'grammar', stair: null },
-    ...(SpeechSupport.tts ? [{ skill: 'listening', stair: null }] : []),
-    { skill: 'reading', stair: null, passages: 0 },
-  ];
-  ui.sess = { kind: 'full', lang, B, sections, si: 0, queue: [], used: new Set(), log: [], item: null, picked: null, startIdx };
+  const pt = resume ? validPartial(lang) : null;
+  const est = { ...(pt?.est ?? {}) };
+  const all = ['vocab', 'grammar', ...(SpeechSupport.tts ? ['listening'] : []), 'reading'];
+  const first = pt ? pt.startIdx : startIdx;
+  const sections = all.filter((sk) => !(sk in est)).map((sk) => ({
+    skill: sk,
+    stair: sk === 'vocab' ? newStair('vocab', 4, 3, first, max) : null,
+    passages: 0,
+  }));
+  if (!pt) st.partial[lang] = null;
+  ui.sess = { kind: 'full', lang, B, sections, allSkills: all, si: 0, queue: [], used: new Set(), log: [], est,
+              carry: { ...(pt?.score ?? { asked: 0, correct: 0 }) },   // 前回までに答えた問題数
+              item: null, picked: null, startIdx: first, inBreak: null };
   nextItem();
 }
 
-async function startFixed(kind, lang, keys) {
+async function startFixed(kind, lang, keys, opts = {}) {
   const B = await bank(lang);
   const items = keys.map((k) => itemFromKey(B, lang, k)).filter(Boolean);
   if (!items.length) { hooks.showToast(kind === 'night' ? '今日の間違いはありません' : '出題できる問題がありませんでした'); return false; }
-  ui.sess = { kind, lang, B, fixed: items, total: items.length, log: [], item: null, picked: null };
+  ui.sess = { kind, lang, B, fixed: items, total: items.length, log: [], item: null, picked: null,
+              breaks: !!opts.breaks, allSkills: [...new Set(items.map((x) => x.skill))], inBreak: null, est: {}, ...opts };
   nextItem();
   return true;
 }
 
 function sectionStart(sess) {
-  const est = (skill) => {
-    const e = sess.log.length ? sess.sections.find((s) => s.skill === skill)?.stair : null;
-    return e ? stairEst(e) : -1;
-  };
-  const v = est('vocab'), g = est('grammar');
+  const e = (skill) => sess.est[skill] ?? -1;
+  const v = e('vocab'), g = e('grammar');
   return { grammar: Math.max(0, v), listening: Math.max(0, Math.min(v, g)), reading: Math.max(0, Math.min(v, g)) };
+}
+
+// パートの区切り（語彙 → 文法 → …）。区切りの画面を出して止まる
+function enterBreak(sess, done, next) {
+  sess.inBreak = { done, next };
+  sess.item = null;
+  renderPlan();
 }
 
 function nextItem() {
@@ -375,19 +397,25 @@ function nextItem() {
   if (!sess) return;
   sess.picked = null;
   if (sess.fixed) {
+    const prev = sess.item;
+    const peek = sess.fixed[0];
+    if (sess.breaks && !sess.inBreak && prev && peek && peek.skill !== prev.skill) {
+      enterBreak(sess, prev.skill, peek.skill);
+      return;
+    }
+    sess.inBreak = null;
     sess.item = sess.fixed.shift() ?? null;
     if (!sess.item) { finishSession(); return; }
     renderPlan();
     return;
   }
+  sess.inBreak = null;
   const max = sess.B.length - 1;
   while (sess.si < sess.sections.length) {
     const sec = sess.sections[sess.si];
     if (!sec.stair) {
       const st0 = sectionStart(sess)[sec.skill] ?? 0;
-      sec.stair = sec.skill === 'reading'
-        ? newStair('reading', 3, 2, st0, max)
-        : newStair(sec.skill, 3, 2, st0, max);
+      sec.stair = newStair(sec.skill, 3, 2, st0, max);
     }
     const s = sec.stair;
     if (!s.done) {
@@ -414,8 +442,17 @@ function nextItem() {
       }
       s.done = true;   // そのレベルに問題が無い
     }
+    // このパートはおわり：結果を記録して、途中経過として保存
+    sess.est[sec.skill] = stairEst(s);
     sess.queue = [];
     sess.si += 1;
+    st.partial[sess.lang] = { date: Date.now(), startIdx: sess.startIdx, est: { ...sess.est },
+      score: { asked: sess.carry.asked + sess.log.length, correct: sess.carry.correct + sess.log.filter((e) => e.correct).length } };
+    save();
+    if (sess.si < sess.sections.length) {
+      enterBreak(sess, sec.skill, sess.sections[sess.si].skill);
+      return;
+    }
   }
   finishSession();
 }
@@ -438,6 +475,8 @@ function answer(ci) {
     if (text && SpeechSupport.tts && !/[぀-ヿ一-鿿]/.test(text)) speak(text, LANG[sess.lang].speech);
   }
   renderPlan();
+  // 解説の下の「次へ」ボタンが画面内に見えるようにする
+  document.querySelector('[data-pl-next]')?.scrollIntoView({ block: 'center', behavior: 'smooth' });
 }
 
 function applyLog(lang, log) {
@@ -458,20 +497,25 @@ function applyLog(lang, log) {
   w.tags = w.tags.filter((t) => !(log.some((e) => e.tag === t && e.correct) && !log.some((e) => e.tag === t && !e.correct)));
 }
 
-function finishSession() {
+function finishSession({ partialOnly = false } = {}) {
   const sess = ui.sess;
   if (!sess) return;
   stopSpeaking();
-  const { lang, log, kind } = sess;
+  const { lang, log } = sess;
+  let kind = sess.kind;
   applyLog(lang, log);
-  const score = { asked: log.length, correct: log.filter((e) => e.correct).length };
+  const carry = sess.carry ?? { asked: 0, correct: 0 };
+  const score = { asked: carry.asked + log.length, correct: carry.correct + log.filter((e) => e.correct).length };
   let result = null;
-  if (kind === 'full') {
+  let stage = null;
+  if (kind === 'full' && partialOnly) {
+    kind = 'partial';                     // 途中まで：終わったパートだけ保存して、続きは後で
+  } else if (kind === 'full') {
     const levels = {};
     const detail = {};
+    st.partial[lang] = null;
     for (const sk of SKILLS) {
-      const sec = sess.sections.find((s) => s.skill === sk.id);
-      levels[sk.id] = sec?.stair ? stairEst(sec.stair) : null;
+      levels[sk.id] = sk.id in sess.est ? sess.est[sk.id] : null;
       const part = log.filter((e) => e.skill === sk.id);
       detail[sk.id] = { asked: part.length, correct: part.filter((e) => e.correct).length };
     }
@@ -483,7 +527,9 @@ function finishSession() {
                  return [sk.id, { asked: part.length, correct: part.filter((e) => e.correct).length }];
                })) };
   }
+  if (kind === 'stage') stage = finishStage(lang, log);
   if (result) st.results[lang].push(result);
+  if (kind === 'full') syncSteps(lang);   // 実力テストの結果をステップにも反映
   const day = dayRec(lang);
   if (kind === 'drill') day.done.drill = true;
   if (kind === 'grammar-drill') day.done.grammar = true;
@@ -491,7 +537,7 @@ function finishSession() {
   if (kind === 'full' || kind === 'check') day.done.test = true;
   save();
   hooks.markStudied();
-  ui.lastResult = { kind, lang, score, result, missed: log.filter((e) => !e.correct) };
+  ui.lastResult = { kind, lang, score, result, stage, est: { ...sess.est }, missed: log.filter((e) => !e.correct) };
   ui.sess = null;
   renderPlan();
   refreshHomePlan();
@@ -501,7 +547,7 @@ function finishSession() {
 
 const fullResults = (lang) => st.results[lang].filter((r) => r.kind === 'full');
 const latestFull  = (lang) => fullResults(lang).at(-1) ?? null;
-const latestAny   = (lang) => st.results[lang].at(-1) ?? null;
+const latestAny   = (lang) => st.results[lang].filter((r) => r.kind === 'full' || r.kind === 'check').at(-1) ?? null;
 
 function targets(lang, r) {
   const max = LANG[lang].levels.length - 1;
@@ -510,7 +556,96 @@ function targets(lang, r) {
     const e = r?.levels?.[sk.id];
     t[sk.id] = Math.min(max, (e == null ? (r?.levels?.vocab ?? -1) : e) + 1);
   }
+  // 段階テストで進んだステップより下のレベルは練習しない
+  const sp = st.steps[lang];
+  if (sp) for (const sk of SKILLS) t[sk.id] = Math.max(t[sk.id], Math.min(max, sp.idx));
   return t;
+}
+
+// ---------- ステップ（段階テスト） ----------
+//   各レベルの段階テスト（約20問）に全問正解すると合格し、次のステップへ進む。
+//   間違えた問題だけが再テストに残り、正解すると消える。
+//   実力テストで合格したレベルより下は「合格扱い」。
+
+const STAGE_COUNTS = { vocab: 8, grammar: 6, listening: 3 };
+
+function syncSteps(lang, create = false) {
+  const max = LANG[lang].levels.length - 1;
+  const r = latestFull(lang);
+  if (!st.steps[lang]) {
+    if (!r && !create) return null;
+    st.steps[lang] = { idx: 0, placed: 0, passed: [], stage: null };
+  }
+  const sp = st.steps[lang];
+  if (r) {
+    const lv = SKILLS.map((sk) => r.levels?.[sk.id]).filter((x) => x != null);
+    const placed = Math.min(max + 1, Math.max(0, Math.min(...lv) + 1));   // いちばん低い技能の次のレベルから
+    if (placed > sp.placed) {
+      sp.placed = placed;
+      if (sp.idx < placed) { sp.idx = placed; sp.stage = null; }
+    }
+  }
+  return sp;
+}
+
+async function buildStageKeys(lang, li) {
+  const B = await bank(lang);
+  const L = B[li];
+  const used = new Set();
+  const keys = [];
+  for (const skill of ['vocab', 'grammar', ...(SpeechSupport.tts ? ['listening'] : [])]) {
+    let n = STAGE_COUNTS[skill];
+    if (skill === 'grammar' && lang === 'vi') {
+      // できるだけ別々の文法項目から出す
+      for (const p of shuffle(L.points)) {
+        if (!n) break;
+        if (!p.quiz?.length) continue;
+        keys.push(`g|${li}|${p.id}|${Math.floor(Math.random() * p.quiz.length)}`); n -= 1;
+      }
+      continue;
+    }
+    for (let i = 0; n > 0 && i < 60; i++) {
+      const k = randomKey(B, lang, skill, li, used);
+      if (!k) break;
+      used.add(k); keys.push(k); n -= 1;
+    }
+  }
+  const p = pick(L.passages);
+  if (p) p.questions.forEach((_, qi) => keys.push(`r|${li}|${p.id}|${qi}`));
+  return keys;
+}
+
+async function startStage(lang) {
+  const sp = syncSteps(lang, true);
+  const max = LANG[lang].levels.length - 1;
+  if (sp.idx > max) { hooks.showToast('すべてのステップに合格しています'); return false; }
+  if (!sp.stage || sp.stage.idx !== sp.idx) {
+    const keys = await buildStageKeys(lang, sp.idx);
+    sp.stage = { idx: sp.idx, keys, remaining: [...keys], attempts: 0, first: null, started: Date.now() };
+    save();
+  }
+  // 出題は「語彙 → 文法 → 聴解 → 読解」のパートごと（元の並び順のまま）
+  return startFixed('stage', lang, sp.stage.keys.filter((k) => sp.stage.remaining.includes(k)), { breaks: true, level: sp.idx });
+}
+
+function finishStage(lang, log) {
+  const sp = st.steps[lang];
+  const stg = sp?.stage;
+  if (!stg) return null;
+  const right = new Set(log.filter((e) => e.correct).map((e) => e.key));
+  const before = stg.remaining.length;
+  stg.remaining = stg.remaining.filter((k) => !right.has(k));
+  stg.attempts += 1;
+  if (!stg.first) stg.first = { asked: log.length, correct: right.size };
+  const info = { level: stg.idx, total: stg.keys.length, before, remaining: stg.remaining.length, attempts: stg.attempts, passed: false };
+  if (!stg.remaining.length && log.length) {
+    if (!sp.passed.includes(stg.idx)) sp.passed.push(stg.idx);
+    sp.idx = stg.idx + 1;
+    sp.stage = null;
+    info.passed = true;
+    st.results[lang].push({ date: Date.now(), kind: 'stage', level: info.level, score: { asked: info.total, correct: info.total } });
+  }
+  return info;
 }
 
 function testDue(lang) {
@@ -651,6 +786,23 @@ async function menuItems(lang) {
       done: !!day.done.test, action: { type: due === 'full' ? 'full-test' : 'check' },
     });
   }
+  const sp = syncSteps(lang);
+  const stg = sp?.stage;
+  if (stg?.attempts && stg.remaining.length) {
+    items.push({
+      kind: 'test', when: 'いつでも', minutes: Math.max(2, Math.ceil(stg.remaining.length / 2)), optional: true,
+      title: `ステップ再テスト（${LANG[lang].levels[stg.idx]}）`,
+      desc: `前回間違えた ${stg.remaining.length} 問だけを出題。全部正解すると合格して次のステップへ進めます。`,
+      done: false, action: { type: 'stage' },
+    });
+  } else if (sp && sp.idx < LANG[lang].levels.length) {
+    items.push({
+      kind: 'test', when: 'いつでも', minutes: 10, optional: true,
+      title: `ステップの段階テスト（${LANG[lang].levels[sp.idx]}）`,
+      desc: '約20問。合格すると次のレベルへ進み、毎日のメニューもレベルアップします。準備ができたら挑戦してください。',
+      done: false, action: { type: 'stage' },
+    });
+  }
   const levelOf = (sk) => LANG[lang].levels[t[sk]];
   for (const b of blocks) {
     const base = { kind: b.kind, when: b.when, minutes: b.minutes, title: b.title, science: b.science };
@@ -748,8 +900,11 @@ export async function renderPlan() {
   const tabsHidden = !!ui.sess;
   document.getElementById('plan-tabs')?.classList.toggle('hidden', tabsHidden);
   document.getElementById('plan-settings')?.classList.toggle('hidden', tabsHidden);
+  // テスト中は下のメニューを隠す（「次へ」と重なって押し間違えないように）
+  document.body.classList.toggle('pl-testing', !!ui.sess);
   if (ui.sess) return renderSession(body);
   if (ui.lastResult) return renderResult(body);
+  if (ui.tab === 'steps') return renderSteps(body);
   if (ui.tab === 'test') return renderTestTab(body);
   if (ui.tab === 'curriculum') return renderCurriculum(body);
   if (ui.tab === 'media') return renderMedia(body);
@@ -791,7 +946,8 @@ async function renderMenu(body) {
   body.innerHTML = '<div class="text-xs text-sumi-soft">メニューを作成中...</div>';
   const m = await menuItems(lang);
   if (!m || st.lang !== lang || ui.tab !== 'menu' || ui.sess) return;
-  const doneN = m.items.filter((x) => x.done).length;
+  const req = m.items.filter((x) => !x.optional);
+  const doneN = req.filter((x) => x.done).length;
   const next = nextTestInfo(lang);
   const g = await guide();
   const sciTitle = (id) => g.science.find((s) => s.id === id)?.title ?? '';
@@ -799,18 +955,18 @@ async function renderMenu(body) {
     <div class="card">
       <div class="flex items-baseline justify-between gap-2 flex-wrap">
         <h3 class="card-title">今日のメニュー（${esc(LANG[lang].label)}・${st.minutes}分）</h3>
-        <span class="text-sm ${doneN === m.items.length ? 'text-koke' : 'text-sumi-soft'}">${doneN} / ${m.items.length} 完了</span>
+        <span class="text-sm ${doneN === req.length ? 'text-koke' : 'text-sumi-soft'}">${doneN} / ${req.length} 完了</span>
       </div>
-      <div class="pl-progress mt-2"><div class="pl-progress-fill" style="width:${Math.round(doneN / Math.max(1, m.items.length) * 100)}%"></div></div>
+      <div class="pl-progress mt-2"><div class="pl-progress-fill" style="width:${Math.round(doneN / Math.max(1, req.length) * 100)}%"></div></div>
       <p class="text-xs text-sumi-soft mt-2">時間帯は目安です。一度にまとめるより、1日の中で分けて行うほうが記憶に残ります。</p>
     </div>
     <ul class="pl-menu mt-4">
       ${m.items.map((it, i) => `
-        <li class="card pl-item ${it.done ? 'pl-done' : ''}">
+        <li class="card pl-item ${it.done ? 'pl-done' : ''} ${it.optional ? 'pl-optional' : ''}">
           <div class="pl-item-head">
             <span class="pl-icon">${KIND_ICON[it.kind] ?? '・'}</span>
             <div class="pl-item-main">
-              <div class="pl-item-meta">${esc(it.when)}・約${it.minutes}分</div>
+              <div class="pl-item-meta">${esc(it.when)}・約${it.minutes}分${it.optional ? '・<span class="pl-opt-tag">ステップ</span>' : ''}</div>
               <div class="pl-item-title">${esc(it.title)}${it.done ? '<span class="pl-check">✓ 完了</span>' : ''}</div>
               <div class="pl-item-desc">${esc(it.desc)}</div>
               ${it.progress ? `<div class="pl-item-prog">${esc(it.progress)}</div>` : ''}
@@ -858,7 +1014,10 @@ async function renderTestTab(body) {
       <h3 class="card-title">実力テスト（${esc(LANG[lang].label)}）</h3>
       <p class="text-sm text-sumi-light mt-3 leading-relaxed">語彙 → 文法 → 聴解 → 読解の順に、やさしいレベルから出題します。約10〜15分。
         正解が続くと上のレベルへ、間違いが続くとそこで終わります。4週ごとに受けると伸びが分かります。</p>
-      <div class="text-sm mt-4 mb-2">今の自分に近いものを選んでください（出題を始めるレベルの目安です）</div>
+      ${validPartial(lang) ? `
+        <div class="pl-advice mt-3">途中まで受けたテストがあります（${fmtDate(validPartial(lang).date)}・終わったパート：${Object.keys(validPartial(lang).est).map((k) => esc(skillLabel(k))).join('・')}）。
+          <button class="btn-primary w-full mt-2" data-pl-resume="1">続きから受ける</button></div>` : ''}
+      <div class="text-sm mt-4 mb-2">${validPartial(lang) ? '最初から受け直す場合は、' : ''}今の自分に近いものを選んでください（出題を始めるレベルの目安です）</div>
       <div class="pl-start">${LANG[lang].start.map((s) => `<button class="btn-secondary text-sm" data-pl-full="${s.idx}">${esc(s.label)}</button>`).join('')}</div>
       ${SpeechSupport.tts ? '' : '<p class="text-xs text-shu mt-3">この端末では音声が使えないため、聴解は省略されます。</p>'}
     </div>
@@ -873,19 +1032,56 @@ async function renderTestTab(body) {
       ${hist.length ? `<div class="pl-hist mt-3">${[...hist].reverse().map((r) => `
         <div class="pl-hist-row">
           <span class="pl-hist-date">${fmtDate(r.date)}</span>
-          <span class="pl-hist-kind">${r.kind === 'full' ? '実力' : '確認'}</span>
-          <span class="pl-hist-body">${r.kind === 'full'
+          <span class="pl-hist-kind">${r.kind === 'full' ? '実力' : r.kind === 'stage' ? '段階' : '確認'}</span>
+          <span class="pl-hist-body">${r.kind === 'stage' ? `${esc(LANG[lang].levels[r.level])} のステップに合格`
+            : r.kind === 'full'
             ? SKILLS.map((sk) => r.levels[sk.id] == null ? '' : `${sk.label} ${esc(levelName(lang, r.levels[sk.id]))}`).filter(Boolean).join('・')
             : `${r.score.correct} / ${r.score.asked} 問正解（${Math.round(r.score.correct / Math.max(1, r.score.asked) * 100)}%）`}</span>
         </div>`).join('')}</div>` : '<p class="text-sm text-sumi-soft mt-3">まだ記録がありません。</p>'}
     </div>`;
 }
 
+const SESSION_TITLE = { full: '実力テスト', check: '確認テスト', drill: '弱点ドリル', 'grammar-drill': '基礎文法ドリル',
+                        night: '今日の間違いの見直し', stage: 'ステップの段階テスト' };
+
+// 語彙・文法・聴解・読解のどこまで進んだか
+function partsBar(s, current) {
+  if (s.kind !== 'full' && !s.breaks) return '';
+  const done = (sk) => (s.kind === 'full' ? sk in s.est : s.log.some((e) => e.skill === sk) && sk !== current);
+  return `<ol class="pl-parts">${s.allSkills.map((sk, i) => {
+    const cls = sk === current ? 'pl-part-now' : done(sk) ? 'pl-part-done' : '';
+    return `<li class="${cls}"><span>${done(sk) && sk !== current ? '✓' : i + 1}</span>${esc(skillLabel(sk))}</li>`;
+  }).join('')}</ol>`;
+}
+
+function renderBreak(body, s) {
+  const { done, next } = s.inBreak;
+  const part = s.log.filter((e) => e.skill === done);
+  const ok = part.filter((e) => e.correct).length;
+  const est = s.kind === 'full' ? s.est[done] : null;
+  const remainParts = s.allSkills.length - s.allSkills.indexOf(next);
+  body.innerHTML = `
+    <div class="card pl-session">
+      <div class="pl-sess-title">${esc(SESSION_TITLE[s.kind])}${s.kind === 'stage' ? `（${esc(LANG[s.lang].levels[s.level])}）` : ''}</div>
+      ${partsBar(s, next)}
+      <div class="pl-break">
+        <div class="pl-break-mark">✓</div>
+        <div class="pl-break-title">「${esc(skillLabel(done))}」のパートおわり</div>
+        <div class="text-sm mt-1">${ok} / ${part.length} 問正解${est != null ? `・推定レベル <b>${esc(levelName(s.lang, est))}${est >= 0 ? ' 合格' : ''}</b>` : ''}</div>
+        <p class="text-xs text-sumi-soft mt-2">${s.kind === 'full' ? 'ここまでの結果は保存しました。' : '正解した問題は合格済みとして記録します。'}
+          次は「${esc(skillLabel(next))}」です（残り ${remainParts} パート）。</p>
+      </div>
+      <button class="btn-primary w-full mt-4" data-pl-cont="1">「${esc(skillLabel(next))}」へ進む</button>
+      <button class="btn-secondary w-full mt-2" data-pl-stop="1">ここで終える（続きは後で）</button>
+    </div>`;
+}
+
 function renderSession(body) {
   const s = ui.sess;
+  if (s.inBreak) { renderBreak(body, s); return; }
   const it = s.item;
   if (!it) { body.innerHTML = ''; return; }
-  const title = { full: '実力テスト', check: '確認テスト', drill: '弱点ドリル', 'grammar-drill': '基礎文法ドリル', night: '今日の間違いの見直し' }[s.kind];
+  const title = SESSION_TITLE[s.kind] + (s.kind === 'stage' ? `（${LANG[s.lang].levels[s.level]}）` : '');
   const count = s.fixed ? `${s.total - s.fixed.length} / ${s.total}` : `${s.log.length + (s.picked === null ? 1 : 0)} 問目`;
   const answered = s.picked !== null;
   const prompt = it.skill === 'listening'
@@ -911,6 +1107,7 @@ function renderSession(body) {
           <span class="pl-sess-skill">${esc(skillLabel(it.skill))}・${esc(LANG[s.lang].levels[it.level] ?? '')}</span></div>
         <span class="text-xs text-sumi-soft">${count}</span>
       </div>
+      ${partsBar(s, it.skill)}
       <div class="mt-3">${prompt}</div>
       <div class="pl-choices mt-3">
         ${it.choices.map((c, ci) => {
@@ -925,14 +1122,48 @@ function renderSession(body) {
           ${it.point ? `<div class="mt-1 text-xs text-sumi-soft">文法項目：${esc(LANG.vi.levels[it.point.level])}「${esc(it.point.title)}」</div>` : ''}
         </div>
         <button class="btn-primary w-full mt-4" data-pl-next="1">次へ</button>` : ''}
-      <button class="btn-secondary text-xs mt-4" data-pl-quit="1">中断する</button>
+      <button class="btn-secondary text-xs mt-4" data-pl-quit="1">${s.kind === 'full' ? '中断する（終わったパートは保存）' : '中断する'}</button>
     </div>`;
   if (!answered && it.autoSay && SpeechSupport.tts) speak(it.say, LANG[s.lang].speech, { rate: 0.85 });
 }
 
 function renderResult(body) {
-  const { kind, lang, score, result, missed } = ui.lastResult;
+  const { kind, lang, score, result, missed, stage, est } = ui.lastResult;
   const pct = Math.round(score.correct / Math.max(1, score.asked) * 100);
+  if (kind === 'partial') {
+    const done = SKILLS.filter((sk) => sk.id in (est ?? {}));
+    body.innerHTML = `
+      <div class="card">
+        <h3 class="card-title">実力テスト（途中まで保存しました）</h3>
+        <div class="mt-3 space-y-1 text-sm">${done.map((sk) => `<div>✓ ${esc(sk.label)}：${esc(levelName(lang, est[sk.id]))}${est[sk.id] >= 0 ? ' 合格' : ''}</div>`).join('') || '<div>まだ終わったパートはありません</div>'}</div>
+        <p class="text-sm text-sumi-light mt-3">続きは「実力テスト」タブの<b>「続きから受ける」</b>で、残りのパートから再開できます（${PARTIAL_DAYS}日以内）。</p>
+        <button class="btn-primary w-full mt-4" data-pl-done="1">メニューへ</button>
+      </div>`;
+    return;
+  }
+  if (kind === 'stage' && stage) {
+    const lv = LANG[lang].levels[stage.level];
+    const nextLv = LANG[lang].levels[stage.level + 1];
+    body.innerHTML = `
+      <div class="card">
+        <h3 class="card-title">ステップ ${esc(lv)} の段階テスト</h3>
+        ${stage.passed ? `
+          <div class="pl-pass mt-3">
+            <div class="pl-pass-mark">合格</div>
+            <div class="mt-1">${esc(lv)}のステップをクリアしました！</div>
+            ${nextLv ? `<div class="text-sm mt-1">次は <b>${esc(nextLv)}</b> のステップです。毎日のメニューも ${esc(nextLv)} に切り替わります。</div>` : '<div class="text-sm mt-1">すべてのステップをクリアしました。</div>'}
+          </div>` : `
+          <p class="text-sm mt-3">今回：${score.correct} / ${score.asked} 問正解</p>
+          <div class="pl-advice mt-3">
+            残り <b>${stage.remaining} 問</b>（全 ${stage.total} 問中）。<br>
+            間違えた問題だけが再テストに残ります。すべて正解するとステップ合格です。
+          </div>
+          <p class="text-xs text-sumi-soft mt-2">間違えた問題の文法・単語を見直してから再テストすると効果的です。</p>`}
+        ${stage.passed || !stage.remaining ? '' : '<button class="btn-primary w-full mt-4" data-pl-stage="1">続けて再テストする</button>'}
+        <button class="${stage.passed ? 'btn-primary' : 'btn-secondary'} w-full mt-2" data-pl-done="1" data-pl-to="steps">ステップ一覧へ</button>
+      </div>`;
+    return;
+  }
   let main = '';
   if (kind === 'full' && result) {
     const t = targets(lang, result);
@@ -965,7 +1196,64 @@ function renderResult(body) {
       ${kind === 'full' ? `<p class="text-sm text-sumi-soft mt-2">${score.asked} 問中 ${score.correct} 問正解</p>` : ''}
       ${main}
       ${missed.length ? `<p class="text-sm mt-4">間違えた ${missed.length} 問は「弱点」として記録し、明日からのドリルで出題します。</p>` : '<p class="text-sm mt-4 text-koke">全問正解です！</p>'}
+      ${kind === 'full' ? stepAfterFull(lang) : ''}
       <button class="btn-primary w-full mt-4" data-pl-done="1">今日のメニューへ</button>
+    </div>`;
+}
+
+function stepAfterFull(lang) {
+  const sp = st.steps[lang];
+  if (!sp) return '';
+  const max = LANG[lang].levels.length - 1;
+  return sp.idx > max
+    ? '<p class="text-sm mt-3">ステップはすべて合格扱いです。</p>'
+    : `<p class="text-sm mt-3">ステップは <b>${esc(LANG[lang].levels[sp.idx])}</b> から始まります（それより下は合格扱い）。「ステップ」タブの段階テストに合格すると、次のレベルへ進めます。</p>`;
+}
+
+// ---------- ステップ一覧 ----------
+
+function renderSteps(body) {
+  const lang = st.lang;
+  const sp = syncSteps(lang);
+  const levels = LANG[lang].levels;
+  if (!sp) {
+    body.innerHTML = `
+      <div class="card">
+        <h3 class="card-title">ステップ（段階テスト）</h3>
+        <p class="text-sm text-sumi-light mt-3 leading-relaxed">レベルごとの段階テスト（約20問）に合格すると、次のステップへ進めます。
+          間違えた問題だけが再テストに残り、すべて正解すると合格です。</p>
+        <p class="text-sm text-sumi-light mt-2">まず実力テストを受けると、今のレベルより下のステップは合格扱いになり、ちょうどよい所から始められます。</p>
+        <button class="btn-primary w-full mt-4" data-pl-tab-go="test">実力テストを受ける</button>
+        <button class="btn-secondary w-full mt-2" data-pl-stage-init="1">${esc(levels[0])}から順番に始める</button>
+      </div>`;
+    return;
+  }
+  const stg = sp.stage;
+  body.innerHTML = `
+    <div class="card">
+      <h3 class="card-title">ステップ（${esc(LANG[lang].label)}）</h3>
+      <p class="text-xs text-sumi-soft mt-2 leading-relaxed">各ステップの段階テスト（語彙・文法・聴解・読解 約20問）に全問正解すると合格です。
+        間違えた問題だけが再テストに残ります。合格すると、毎日のメニューも次のレベルに切り替わります。</p>
+      <ol class="pl-steplist mt-4">
+        ${levels.map((lv, i) => {
+          const placed = i < sp.placed && !sp.passed.includes(i);
+          const passed = sp.passed.includes(i) || placed;
+          const now = i === sp.idx;
+          const status = passed ? (placed ? '実力テストで合格扱い' : '段階テスト合格')
+            : now ? (stg?.attempts ? `挑戦中：残り ${stg.remaining.length} / ${stg.keys.length} 問（${stg.attempts}回目まで受験）` : '挑戦中：まだ受けていません')
+            : 'ロック中（前のステップに合格すると挑戦できます）';
+          return `
+            <li class="pl-step-row ${passed ? 'is-passed' : now ? 'is-now' : 'is-locked'}">
+              <span class="pl-step-badge">${passed ? '✓' : now ? '▶' : '🔒'}</span>
+              <div class="pl-step-main">
+                <div class="pl-item-title">${esc(lv)}</div>
+                <div class="pl-item-desc">${esc(status)}</div>
+                ${now ? `<button class="btn-primary text-sm mt-2" data-pl-stage="1">${stg?.attempts ? `再テスト（${stg.remaining.length}問）` : '段階テストを受ける'}</button>` : ''}
+              </div>
+            </li>`;
+        }).join('')}
+      </ol>
+      ${sp.idx > levels.length - 1 ? '<p class="pl-pass mt-4">すべてのステップに合格しました！</p>' : ''}
     </div>`;
 }
 
@@ -1055,21 +1343,32 @@ export async function refreshHomePlan() {
   }
   try {
     const m = await menuItems(lang);
-    const doneN = m.items.filter((x) => x.done).length;
-    const nextItemTodo = m.items.find((x) => !x.done);
+    const req = m.items.filter((x) => !x.optional);
+    const doneN = req.filter((x) => x.done).length;
+    const nextItemTodo = req.find((x) => !x.done);
     const due = testDue(lang);
     el.innerHTML = `
       <div class="flex items-baseline justify-between gap-2 flex-wrap">
         <h3 class="card-title">今日の学習メニュー</h3>
         <span class="text-xs text-sumi-soft">${esc(LANG[lang].label)}・${st.minutes}分</span>
       </div>
-      <div class="pl-progress mt-3"><div class="pl-progress-fill" style="width:${Math.round(doneN / Math.max(1, m.items.length) * 100)}%"></div></div>
-      <p class="text-sm mt-2">${doneN} / ${m.items.length} 完了${nextItemTodo ? `・次は「${esc(nextItemTodo.title)}」` : '・今日のメニューはすべて完了です！'}</p>
+      <div class="pl-progress mt-3"><div class="pl-progress-fill" style="width:${Math.round(doneN / Math.max(1, req.length) * 100)}%"></div></div>
+      <p class="text-sm mt-2">${doneN} / ${req.length} 完了${nextItemTodo ? `・次は「${esc(nextItemTodo.title)}」` : '・今日のメニューはすべて完了です！'}</p>
+      ${stepLine(lang)}
       ${due === 'check' || due === 'full' ? `<p class="text-sm text-shu mt-1">今日は${due === 'full' ? '4週ごとの実力テスト' : '週1回の確認テスト'}の日です。</p>` : ''}
       <button class="btn-primary w-full mt-4" data-plan-open="menu">メニューを開く</button>`;
   } catch (err) {
     console.warn('home plan failed:', err);
   }
+}
+
+function stepLine(lang) {
+  const sp = st.steps[lang];
+  if (!sp) return '';
+  const lv = LANG[lang].levels[sp.idx];
+  if (!lv) return '<p class="text-xs text-koke mt-1">ステップ：すべて合格</p>';
+  const stg = sp.stage;
+  return `<p class="text-xs text-sumi-soft mt-1">ステップ：<b>${esc(lv)}</b>${stg?.attempts ? `（再テスト 残り ${stg.remaining.length} 問）` : '（段階テスト未受験）'}</p>`;
 }
 
 // ---------- 操作 ----------
@@ -1082,6 +1381,7 @@ async function runAction(it) {
   else if (a.type === 'drill') await startDrill(st.lang, 'drill');
   else if (a.type === 'grammar-drill') await startDrill(st.lang, 'grammar-drill');
   else if (a.type === 'check') await startDrill(st.lang, 'check');
+  else if (a.type === 'stage') await startStage(st.lang);
   else if (a.type === 'full-test') { ui.tab = 'test'; renderPlan(); }
   else if (a.type === 'night') {
     const ok = await startFixed('night', st.lang, [...dayRec(st.lang).mistakes].slice(-10));
@@ -1096,7 +1396,7 @@ export async function activatePlanScreen(opts = {}) {
   bank(st.lang).then((B) => { banksSync[st.lang] = B; }).catch(() => {});
   await renderPlan();
 }
-export function leavePlanScreen() { stopSpeaking(); }
+export function leavePlanScreen() { stopSpeaking(); document.body.classList.remove('pl-testing'); }
 
 export function initStudyPlan(h = {}) {
   Object.assign(hooks, h);
@@ -1143,23 +1443,42 @@ export function initStudyPlan(h = {}) {
     if (t.closest('[data-pl-next]')) { stopSpeaking(); nextItem(); window.scrollTo({ top: 0 }); return; }
     const say = t.closest('[data-pl-say]');
     if (say && ui.sess?.item) { speak(ui.sess.item.say, LANG[ui.sess.lang].speech, { rate: Number(say.dataset.plSay) * 0.85 }); return; }
-    if (t.closest('[data-pl-quit]')) {
-      if (ui.sess?.log.length && !confirm('ここまでの回答で結果を記録して終了しますか？\n（「キャンセル」で記録せずに中断）')) {
-        stopSpeaking(); ui.sess = null; renderPlan(); return;
-      }
-      if (ui.sess?.log.length) finishSession(); else { ui.sess = null; renderPlan(); }
+    if (t.closest('[data-pl-cont]')) { nextItem(); window.scrollTo({ top: 0 }); return; }
+    if (t.closest('[data-pl-stop]')) {
+      if (ui.sess?.kind === 'full') finishSession({ partialOnly: true }); else finishSession();
+      window.scrollTo({ top: 0 });
       return;
     }
-    if (t.closest('[data-pl-done]')) { ui.lastResult = null; ui.tab = 'menu'; renderPlan(); return; }
+    if (t.closest('[data-pl-quit]')) {
+      const sess = ui.sess;
+      if (sess?.kind === 'full') {
+        // 終わったパートだけ保存（今のパートの途中の回答はレベル判定に使わない）
+        if (Object.keys(sess.est).length) { if (confirm('終わったパートの結果を保存して中断しますか？（続きは後で受けられます）')) finishSession({ partialOnly: true }); }
+        else if (confirm('テストを中断しますか？（最初のパートが終わる前なので結果は残りません）')) { stopSpeaking(); ui.sess = null; renderPlan(); }
+        return;
+      }
+      if (sess?.log.length && !confirm('ここまでの回答を記録して終了しますか？\n（「キャンセル」で記録せずに中断）')) {
+        stopSpeaking(); ui.sess = null; renderPlan(); return;
+      }
+      if (sess?.log.length) finishSession(); else { ui.sess = null; renderPlan(); }
+      return;
+    }
+    const doneBtn = t.closest('[data-pl-done]');
+    if (doneBtn) { ui.lastResult = null; ui.tab = doneBtn.dataset.plTo ?? 'menu'; renderPlan(); return; }
     const go = t.closest('[data-pl-tab-go]');
     if (go) { ui.tab = go.dataset.plTabGo; renderPlan(); return; }
     const full = t.closest('[data-pl-full]');
     const check = t.closest('[data-pl-check]');
     const act = t.closest('[data-pl-act]');
-    if (!full && !check && !act) return;
+    const stageBtn = t.closest('[data-pl-stage]');
+    const resume = t.closest('[data-pl-resume]');
+    if (t.closest('[data-pl-stage-init]')) { syncSteps(st.lang, true); save(); renderPlan(); return; }
+    if (!full && !check && !act && !stageBtn && !resume) return;
     ui.busy = true;
     try {
       if (full) { bodyEl().innerHTML = '<div class="text-xs text-sumi-soft">問題を準備中...</div>'; await startFullTest(st.lang, Number(full.dataset.plFull)); }
+      else if (resume) { bodyEl().innerHTML = '<div class="text-xs text-sumi-soft">問題を準備中...</div>'; await startFullTest(st.lang, 0, true); }
+      else if (stageBtn) { ui.lastResult = null; bodyEl().innerHTML = '<div class="text-xs text-sumi-soft">問題を準備中...</div>'; await startStage(st.lang); }
       else if (check) await startDrill(st.lang, 'check');
       else if (act) { const it = menuCache[Number(act.dataset.plAct)]; if (it) await runAction(it); }
       window.scrollTo({ top: 0 });
