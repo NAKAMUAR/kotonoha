@@ -75,6 +75,7 @@ import { getReadingByPart } from './toeic-reading.js';
 import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.js';
 import { initLinking, activateLinkingScreen, leaveLinkingScreen } from './linking.js';
 import { initKentei, activateKenteiScreen, kenteiCounts, kenteiProgress } from './vi-kentei.js';
+import { openWordPlayer, closeWordPlayer } from './word-player.js';
 import { initStudyPlan, activatePlanScreen, leavePlanScreen, refreshHomePlan } from './study-plan.js';
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
@@ -150,6 +151,7 @@ function showScreen(name) {
   });
 
   state.currentScreen = name;
+  closeWordPlayer();
   window.scrollTo({ top: 0, behavior: 'instant' });
 
   if (name === 'vocabulary')       activateVocabularyScreen();
@@ -1884,6 +1886,13 @@ function bindEvents() {
       if (btn.dataset.vkMode) kenteiNext = { mode: btn.dataset.vkMode };
       if (target) showScreen(target);
     });
+  });
+
+  // 単語帳：今の並び（復習・新しい単語）を今のカードから連続で読み上げる
+  document.getElementById('vocab-play-all')?.addEventListener('click', () => {
+    const words = vocabState.queue;
+    if (!words.length) { showToast('読み上げる単語がありません'); return; }
+    openWordPlayer({ words, lang: vocabState.lang, title: `${getDeck(vocabState.deck).label} の単語`, startIndex: vocabState.index });
   });
 
   // フラッシュカード裏返し

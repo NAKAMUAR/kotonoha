@@ -91,6 +91,29 @@ export function speak(text, lang = 'en', { rate = 0.9, pitch = 1.0 } = {}) {
   return true;
 }
 
+/**
+ * 読み終わるまで待てる読み上げ（連続再生用）。
+ * 前の発話は止めずに順番に読む。読み終わり・中断・エラーのどれでも resolve する。
+ * 一部の端末で終了通知（onend）が来ないことがあるので、文字数に応じた時間で打ち切る。
+ */
+export function speakAsync(text, lang = 'en', { rate = 0.9 } = {}) {
+  return new Promise((resolve) => {
+    if (!SpeechSupport.tts || !text) { resolve(false); return; }
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = LANG_BCP47[lang] ?? lang;
+    u.rate = rate;
+    const voice = pickVoice(lang);
+    if (voice) u.voice = voice;
+    let done = false;
+    const finish = (ok) => { if (done) return; done = true; clearTimeout(timer); resolve(ok); };
+    const timer = setTimeout(() => finish(false), 4000 + (text.length * 220) / rate);
+    u.onend   = () => finish(true);
+    u.onerror = () => finish(false);
+    currentUtterance = u;
+    speechSynthesis.speak(u);
+  });
+}
+
 export function stopSpeaking() {
   if (SpeechSupport.tts) speechSynthesis.cancel();
   currentUtterance = null;

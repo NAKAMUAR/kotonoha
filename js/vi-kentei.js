@@ -10,6 +10,7 @@
 // =====================================================================
 
 import { speak, speakDialogue, stopSpeaking, SpeechSupport } from './scenarios.js';
+import { openWordPlayer } from './word-player.js';
 
 // n は画面内の識別用の数値（準6級は 6）。slug はデータファイル名に使う。
 export const KENTEI_LEVELS = Object.freeze([
@@ -168,6 +169,7 @@ async function renderVocab(body) {
           <option value="">すべての分類（${words.length}）</option>${catOpts}
         </select>
       </div>
+      ${SpeechSupport.tts ? '<button class="btn-secondary w-full mt-3 wp-launch" data-vk-wl-play="1">▶ この一覧を連続で聞く（聞き流し）</button>' : ''}
       <div id="vk-wl-count" class="text-xs text-sumi-soft mt-2"></div>
       <ul id="vk-wl-list" class="vk-wl"></ul>
       <button id="vk-wl-more" class="btn-secondary w-full mt-3 hidden" data-vk-wl-more="1"></button>
@@ -193,6 +195,7 @@ function renderWordList() {
     const rank = (w) => { const f = fold(speakable(w.word)); return f === q ? 0 : f.startsWith(q) ? 1 : 2; };
     hits.sort((x, y) => rank(x) - rank(y));
   }
+  vk.wl.hits = hits;   // 連続読み上げは、検索・分類で絞り込んだ一覧をそのまま読む
   const shown = hits.slice(0, vk.wl.shown);
   document.getElementById('vk-wl-count').textContent =
     hits.length ? `${hits.length.toLocaleString()} 語${hits.length > shown.length ? `（うち ${shown.length} 語を表示）` : ''}・語をタップすると例文が見られます` : '該当する単語がありません';
@@ -438,6 +441,12 @@ export function initKentei(hooks = {}) {
       return;
     }
     if (t.closest('[data-vk-wl-more]')) { vk.wl.shown += WL_PAGE; renderWordList(); return; }
+    if (t.closest('[data-vk-wl-play]')) {
+      const info = levelInfo(vk.level);
+      const label = vk.wl.cat || vk.wl.q ? `${info.label}（${[vk.wl.cat, vk.wl.q && `「${vk.wl.q}」`].filter(Boolean).join('・')}）` : `${info.label}の単語`;
+      openWordPlayer({ words: vk.wl.hits ?? [], lang: 'vi', title: `ベトナム語検定 ${label}` });
+      return;
+    }
     const deckBtn = t.closest('[data-vk-open-deck]');
     if (deckBtn) { vk.hooks.openDeck(deckBtn.dataset.vkOpenDeck); return; }
     const item = t.closest('[data-vk-passage]');

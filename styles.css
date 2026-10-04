@@ -966,3 +966,44 @@ body {
 }
 .acct-input:focus { outline: 2px solid var(--shu); outline-offset: 1px; }
 .acct-link { font-size: 0.78rem; color: var(--sumi-soft); text-decoration: underline; background: none; border: 0; padding: 0.2rem 0; }
+
+/* ---------- 単語の連続読み上げ（聞き流しプレーヤー） ---------- */
+.wp-launch-sm { display: inline-block; margin-top: 0.5rem; padding: 0.35rem 0.9rem; font-size: 0.8rem; }
+body.wp-open { overflow: hidden; }
+.wp {
+  position: fixed; inset: 0; z-index: 60; display: flex; align-items: flex-end; justify-content: center;
+  background: rgba(26, 22, 18, 0.45);
+}
+.wp.hidden { display: none; }
+.wp-sheet {
+  width: 100%; max-width: 34rem; max-height: 100%; overflow-y: auto;
+  background: var(--washi); border-radius: 16px 16px 0 0; padding: 1rem 1rem calc(1.2rem + env(safe-area-inset-bottom));
+  box-shadow: 0 -8px 30px rgba(26, 22, 18, 0.2);
+}
+@media (min-width: 640px) { .wp { align-items: center; } .wp-sheet { border-radius: 16px; } }
+.wp-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+.wp-title { font-family: "Shippori Mincho", serif; font-weight: 700; font-size: 0.95rem; }
+.wp-count { font-size: 0.72rem; color: var(--sumi-soft); margin-top: 0.1rem; }
+.wp-close { width: 2.2rem; height: 2.2rem; border-radius: 50%; border: 1px solid rgba(26, 22, 18, 0.15); background: var(--washi-light); color: var(--sumi-light); flex: none; }
+.wp-bar { height: 4px; margin-top: 0.6rem; border-radius: 999px; background: rgba(26, 22, 18, 0.08); overflow: hidden; }
+.wp-bar-fill { height: 100%; background: var(--shu); transition: width 0.3s; }
+.wp-card { margin-top: 1rem; padding: 1.1rem 1rem; min-height: 11rem; border-radius: 12px; background: var(--washi-light); border: 1px solid rgba(26, 22, 18, 0.08); text-align: center; }
+.wp-word { font-family: "Cormorant Garamond", serif; font-size: 2.1rem; font-weight: 700; line-height: 1.2; transition: color 0.2s; }
+.wp-word.wp-hidden { color: transparent; text-shadow: 0 0 14px rgba(26, 22, 18, 0.35); user-select: none; }
+.wp-reading { font-size: 0.75rem; color: var(--sumi-soft); margin-top: 0.15rem; }
+.wp-meaning { font-size: 1.05rem; margin-top: 0.6rem; color: var(--sumi-light); transition: color 0.2s; }
+.wp-example { font-family: "Cormorant Garamond", serif; font-size: 1.12rem; line-height: 1.5; margin-top: 0.8rem; transition: color 0.2s; }
+.wp-extrans { font-size: 0.8rem; color: var(--sumi-soft); margin-top: 0.2rem; transition: color 0.2s; }
+.wp-on { color: var(--shu) !important; }
+.wp-done { margin-top: 0.8rem; font-size: 0.85rem; color: var(--koke-dark); }
+.wp-controls { display: flex; justify-content: center; align-items: center; gap: 1.2rem; margin-top: 1rem; }
+.wp-btn { width: 3rem; height: 3rem; border-radius: 50%; border: 1px solid rgba(26, 22, 18, 0.15); background: var(--washi-light); font-size: 1.1rem; color: var(--sumi); }
+.wp-play { width: 4rem; height: 4rem; font-size: 1.5rem; background: var(--shu); color: var(--washi); border-color: var(--shu); }
+.wp-note { font-size: 0.75rem; color: var(--shu); margin-top: 0.6rem; line-height: 1.6; }
+.wp-settings { margin-top: 1rem; border-top: 1px solid rgba(26, 22, 18, 0.1); padding-top: 0.6rem; }
+.wp-settings summary { cursor: pointer; font-size: 0.85rem; color: var(--sumi-light); }
+.wp-row { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem 0.5rem; margin-top: 0.7rem; }
+.wp-label { width: 100%; font-size: 0.72rem; color: var(--sumi-soft); }
+.wp-check { font-size: 0.82rem; color: var(--sumi-light); display: inline-flex; align-items: center; gap: 0.3rem; margin-right: 0.6rem; }
+.wp-check input { accent-color: var(--shu); width: 1rem; height: 1rem; }
+.wp-hint { font-size: 0.7rem; color: var(--sumi-soft); line-height: 1.6; margin-top: 0.8rem; }
