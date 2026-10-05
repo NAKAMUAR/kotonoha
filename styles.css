@@ -861,7 +861,7 @@ body {
 /* ---------- ベトナム語検定：級ごとの単語一覧 ---------- */
 .vk-wl-tools { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 .vk-wl-search, .vk-wl-select {
-  flex: 1 1 12rem; min-width: 0; padding: 0.5rem 0.7rem; font-size: 0.9rem;
+  box-sizing: border-box; flex: 1 1 12rem; min-width: 0; padding: 0.5rem 0.7rem; font-size: 0.9rem;
   border: 1px solid rgba(26, 22, 18, 0.18); border-radius: 8px; background: var(--washi-light); color: inherit;
 }
 .vk-wl-search:focus, .vk-wl-select:focus { outline: 2px solid var(--shu); outline-offset: 1px; }
@@ -961,7 +961,7 @@ body {
 .acct-form { display: flex; flex-direction: column; gap: 0.7rem; }
 .acct-label { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.78rem; color: var(--sumi-soft); }
 .acct-input {
-  width: 100%; padding: 0.6rem 0.75rem; font-size: 1rem; /* 16px 以上で iPhone の自動ズームを防ぐ */
+  box-sizing: border-box; width: 100%; padding: 0.6rem 0.75rem; font-size: 1rem; /* 16px 以上で iPhone の自動ズームを防ぐ */
   border: 1px solid rgba(26, 22, 18, 0.2); border-radius: 8px; background: var(--washi-light); color: var(--sumi);
 }
 .acct-input:focus { outline: 2px solid var(--shu); outline-offset: 1px; }
@@ -1031,3 +1031,34 @@ body.pl-testing #bottom-nav { display: none; }   /* テスト中は下のメニ�
 .pl-step-main { flex: 1; min-width: 0; }
 .pl-optional { border-style: dashed; }
 .pl-opt-tag { padding: 0 0.4rem; border-radius: 999px; background: rgba(197, 56, 43, 0.1); color: var(--shu); }
+
+/* ---------- マイノート ---------- */
+.note-row { display: flex; flex-wrap: wrap; gap: 0.6rem 1rem; align-items: center; justify-content: space-between; }
+.note-req { font-size: 0.65rem; color: var(--shu); margin-left: 0.3rem; }
+.note-text { resize: vertical; min-height: 2.6rem; font-family: "Cormorant Garamond", serif; font-size: 1.1rem; }
+.note-tools { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.4rem; }
+.note-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.note-lookup { margin-top: 0.6rem; padding: 0.6rem 0.75rem; border-radius: 8px; background: var(--washi-light); border: 1px solid rgba(26, 22, 18, 0.1); }
+.note-lookup-list { list-style: none; padding: 0; }
+.note-lookup-list li { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; padding: 0.3rem 0; border-bottom: 1px dashed rgba(26, 22, 18, 0.1); }
+.note-lk-word { font-family: "Cormorant Garamond", serif; font-weight: 700; font-size: 1.05rem; }
+.note-lk-mean { flex: 1; min-width: 8rem; font-size: 0.8rem; color: var(--sumi-light); }
+.note-lk-lv { margin-left: 0.25rem; font-size: 0.6rem; padding: 0 0.35rem; border-radius: 999px; background: rgba(90, 112, 72, 0.12); color: var(--koke-dark); }
+.note-lk-none { font-size: 0.75rem; color: var(--sumi-soft); }
+.note-lk-add { width: 1.8rem; height: 1.8rem; border-radius: 50%; border: 1px solid var(--shu); color: var(--shu); background: none; font-weight: 700; }
+.note-lk-done { font-size: 0.7rem; color: var(--koke-dark); }
+.note-filters { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.note-study { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.note-study button:disabled { opacity: 0.5; }
+.note-list { list-style: none; padding: 0; }
+.note-item { padding: 0.7rem 0; border-bottom: 1px dashed rgba(26, 22, 18, 0.12); }
+.note-item-head { display: flex; gap: 0.4rem; align-items: center; }
+.note-badge { font-size: 0.62rem; padding: 0 0.45rem; border-radius: 999px; background: rgba(26, 22, 18, 0.07); color: var(--sumi-soft); }
+.note-unsynced { font-size: 0.62rem; padding: 0 0.45rem; border-radius: 999px; background: rgba(197, 56, 43, 0.1); color: var(--shu); }
+.note-item-text { margin-top: 0.2rem; font-family: "Cormorant Garamond", serif; font-size: 1.15rem; font-weight: 600; line-height: 1.4; }
+.note-item-text .audio-btn { margin-left: 0.3rem; vertical-align: middle; }
+.note-item-mean { font-size: 0.88rem; color: var(--sumi-light); }
+.note-item-sub { font-size: 0.75rem; color: var(--sumi-soft); }
+.note-item-meta { font-size: 0.72rem; color: var(--koke-dark); margin-top: 0.15rem; }
+.note-item-actions { display: flex; gap: 1rem; margin-top: 0.2rem; }
+#card-word.card-word-long { font-size: 1.5rem; line-height: 1.45; }

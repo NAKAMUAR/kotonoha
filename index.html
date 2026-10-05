@@ -148,7 +148,7 @@
 
       <div class="card mb-4">
         <h3 class="card-title">日常学習</h3>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mt-4">
           <button class="action-card" data-target="vocabulary">
             <div class="action-icon">学</div>
             <div class="action-label">単語復習</div>
@@ -168,6 +168,11 @@
             <div class="action-icon">繋</div>
             <div class="action-label">リンキング</div>
             <div class="action-sub">英語の音のつながり / 92 文</div>
+          </button>
+          <button class="action-card" data-target="notes">
+            <div class="action-icon">記</div>
+            <div class="action-label">マイノート</div>
+            <div class="action-sub">ドラマ等の単語・文を登録 / <span id="note-count">0</span> 件</div>
           </button>
         </div>
       </div>
@@ -275,6 +280,7 @@
         <button class="chip chip-active" data-deck="daily">日常会話</button>
         <button class="chip" data-deck="phrasal">句動詞</button>
         <button class="chip" data-deck="toeic">TOEIC</button>
+        <button class="chip" data-deck="mynote">マイノート</button>
       </div>
       <div id="vocab-kentei-row" class="filter-row mb-3 items-center">
         <span class="text-xs text-sumi-soft mr-1">ベトナム語検定:</span>
@@ -354,6 +360,10 @@
         <p class="text-sumi font-mincho text-lg">本日のレビューは完了しました</p>
         <p class="text-sumi-soft text-xs mt-2 font-cormorant tracking-widest">SEE YOU TOMORROW</p>
         <div id="vocab-stats" class="mt-8 text-xs text-sumi-soft"></div>
+        <div id="vocab-mynote-empty" class="hidden mt-6">
+          <p class="text-sm text-sumi-light">マイノートに単語や文を登録すると、ここで復習できます。</p>
+          <button class="btn-primary mt-3" data-target-screen="notes">マイノートに登録する</button>
+        </div>
       </div>
     </section>
 
@@ -477,6 +487,84 @@
           <li>貼り付けて送信、AI の結果を確認</li>
         </ol>
         <p class="text-xs text-sumi-soft mt-3">言語は自動判定されます（ベトナム語の声調記号があれば vi、なければ en）</p>
+      </div>
+    </section>
+
+    <section id="screen-notes" class="screen hidden">
+      <div class="screen-header">
+        <h2 class="screen-title">マイノート</h2>
+        <p class="screen-sub">ドラマや本で見つけた単語・文を登録して、単語帳で復習</p>
+      </div>
+
+      <form id="note-form" class="card" autocomplete="off">
+        <h3 class="card-title" id="note-form-title">新しく登録する</h3>
+        <input type="hidden" id="note-id">
+        <div class="note-row mt-3">
+          <div id="note-lang" class="tab-bar">
+            <button type="button" class="tab tab-active" data-note-lang="vi">ベトナム語</button>
+            <button type="button" class="tab" data-note-lang="en">英語</button>
+          </div>
+          <div id="note-kind" class="filter-row">
+            <button type="button" class="chip chip-active" data-note-kind="sentence">文</button>
+            <button type="button" class="chip" data-note-kind="word">単語</button>
+          </div>
+        </div>
+
+        <label class="acct-label mt-3"><span><span id="note-text-label">文（ベトナム語）</span><span class="note-req">必須</span></span>
+          <textarea id="note-text" class="acct-input note-text" rows="2" placeholder="例：Con về rồi à?" required></textarea>
+        </label>
+        <div class="note-tools">
+          <button type="button" class="audio-btn audio-btn-sm" data-note-say="1">🔊 試しに聞く</button>
+          <button type="button" class="audio-btn audio-btn-sm" data-note-say="0.6">🐢 ゆっくり</button>
+          <button type="button" class="audio-btn audio-btn-sm" id="note-lookup-btn">🔍 この文の単語を調べる</button>
+        </div>
+        <div id="note-lookup" class="note-lookup hidden"></div>
+
+        <label class="acct-label mt-3"><span><span id="note-meaning-label">意味・訳（日本語）</span><span class="note-req">必須</span></span>
+          <input id="note-meaning" class="acct-input" placeholder="例：帰ってきたの？" required>
+        </label>
+
+        <div id="note-word-extra" class="hidden">
+          <label class="acct-label mt-3">読み・発音のメモ（任意）
+            <input id="note-reading" class="acct-input" placeholder="例：ヴェー ニャー">
+          </label>
+          <label class="acct-label mt-3">例文（任意）
+            <input id="note-example" class="acct-input" placeholder="例：Con về nhà đi.">
+          </label>
+          <label class="acct-label mt-3">例文の訳（任意）
+            <input id="note-example-tr" class="acct-input" placeholder="例：家に帰っておいで。">
+          </label>
+        </div>
+
+        <label class="acct-label mt-3">出典（任意）
+          <input id="note-source" class="acct-input" list="note-sources" placeholder="例：Về nhà đi con 第3話">
+          <datalist id="note-sources"></datalist>
+        </label>
+        <label class="acct-label mt-3">場面・メモ（任意）
+          <input id="note-memo" class="acct-input" placeholder="例：父が娘に。「à」は軽い確認">
+        </label>
+
+        <div class="note-actions mt-4">
+          <button type="submit" id="note-save" class="btn-primary">登録する</button>
+          <button type="button" id="note-cancel" class="btn-secondary hidden">編集をやめる</button>
+        </div>
+        <p class="text-xs text-sumi-soft mt-3">登録した内容はあなたのアカウントにだけ保存され、パソコンと iPhone で共有されます。</p>
+      </form>
+
+      <div class="card mt-4">
+        <div class="flex items-baseline justify-between gap-2 flex-wrap">
+          <h3 class="card-title">登録した単語・文</h3>
+          <span class="text-xs text-sumi-soft" id="note-list-count"></span>
+        </div>
+        <div class="note-filters mt-3">
+          <input id="note-search" type="search" class="vk-wl-search" placeholder="検索（ベトナム語・英語・日本語・出典）">
+          <select id="note-filter-source" class="vk-wl-select"><option value="">すべての出典</option></select>
+        </div>
+        <div class="note-study mt-3">
+          <button class="btn-primary text-sm" id="note-study">単語帳で復習する</button>
+          <button class="btn-secondary text-sm" id="note-play">▶ 連続で聞く</button>
+        </div>
+        <ul id="note-list" class="note-list mt-3"></ul>
       </div>
     </section>
 

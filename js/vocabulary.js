@@ -5,6 +5,8 @@
 // データの流れ:
 //   ・マスター単語: data/vocabulary-{lang}.json → IndexedDB (cache)
 //   ・SRS 状態:    Firestore users/{uid}/srs/{wordId} ⇔ IndexedDB
+//   ・マイノート:  自分で登録した単語・文。Firestore users/{uid}/notes/{id} ⇔ IndexedDB
+//                  （公開されるアプリのデータには入らず、本人のアカウントにだけ保存）
 // =====================================================================
 
 import {
@@ -12,6 +14,7 @@ import {
   doc,
   getDocs,
   setDoc,
+  deleteDoc,
 } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js';
 
 import { auth, db } from './firebase-init.js';
@@ -77,6 +80,16 @@ async function idbPut(storeName, value) {
   });
 }
 
+async function idbDelete(storeName, key) {
+  const idb = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = idb.transaction(storeName, 'readwrite');
+    tx.objectStore(storeName).delete(key);
+    tx.oncomplete = () => resolve();
+    tx.onerror    = () => reject(tx.error);
+  });
+}
+
 async function idbBulkPut(storeName, values) {
   if (!values.length) return;
   const idb = await openDB();
@@ -106,6 +119,8 @@ export const DECKS = Object.freeze({
   vi1kyu: { id: 'vi1kyu', label: 'ベトナム語検定1級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-1kyu.json` },
   phrasal: { id: 'phrasal', label: '句動詞（イメージ）', languages: ['en'],     file: ()     => `./data/vocabulary-phrasal.json`,
              situations: () => './data/situations-phrasal.json' },
+  // 自分で登録した単語・文（ファイルではなく Firestore / IndexedDB から読む）
+  mynote: { id: 'mynote', label: 'マイノート', languages: ['vi', 'en'], custom: true, file: () => null },
 });
 
 export function getDeck(deckId) { return DECKS[deckId] ?? DECKS.daily; }
@@ -119,6 +134,11 @@ function cacheKey(deck, lang) { return `${deck}:${lang}`; }
 export async function loadVocabulary(lang, deck = 'daily') {
   const key = cacheKey(deck, lang);
   if (cacheLoaded.has(key)) return;
+  if (getDeck(deck).custom) {
+    await syncNotesOnce();
+    cacheLoaded.add(key);
+    return;
+  }
 
   const all      = await idbGetAll(STORE_VOCAB);
   const existing = all.filter((w) => (w.deck ?? 'daily') === deck && w.lang === lang);
@@ -246,11 +266,104 @@ export async function buildQueue(lang, filter = 'all', deck = 'daily') {
   });
 }
 
+// ---------- マイノート（自分で登録した単語・文） ----------
+
+export const NOTE_DECK = 'mynote';
+let notesSynced = false;
+
+const notesCol = (uid) => collection(db, 'users', uid, 'notes');
+// Firestore は undefined を保存できないので取り除く
+const clean = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined));
+const noteForCloud = (n) => clean({ ...n, synced: undefined });
+
+/** ログイン直後・最初に開いたときに 1 回、Firestore と端末のノートを突き合わせる */
+async function syncNotesOnce() {
+  if (notesSynced) return;
+  const user = auth.currentUser;
+  if (!user) return;
+  try {
+    const snap = await getDocs(notesCol(user.uid));
+    const remote = new Map();
+    snap.forEach((d) => remote.set(d.id, { ...d.data(), id: d.id, deck: NOTE_DECK }));
+    const local = (await idbGetAll(STORE_VOCAB)).filter((w) => w.deck === NOTE_DECK);
+    for (const n of local) {
+      if (remote.has(n.id)) continue;
+      if (n.synced === false) {
+        // 前回同期できなかったノートは、もう一度送る
+        try { await setDoc(doc(db, 'users', user.uid, 'notes', n.id), noteForCloud(n)); remote.set(n.id, { ...n, synced: true }); }
+        catch { remote.set(n.id, n); }
+      } else {
+        await idbDelete(STORE_VOCAB, n.id);   // ほかの端末で削除されたもの
+      }
+    }
+    await idbBulkPut(STORE_VOCAB, [...remote.values()].map((n) => ({ ...n, synced: n.synced ?? true })));
+    notesSynced = true;
+  } catch (err) {
+    console.warn('notes sync failed (using local):', err);
+  }
+}
+
+export async function getNotes() {
+  await syncNotesOnce();
+  const all = await idbGetAll(STORE_VOCAB);
+  return all.filter((w) => w.deck === NOTE_DECK).sort((a, b) => (b.createdAt ?? 0) - (a.createdAt ?? 0));
+}
+
+/**
+ * ノートを登録・更新する。戻り値 { note, synced }（synced=false は端末にだけ保存できた）
+ *   note: { id?, lang, kind: 'word'|'sentence', word, meaning, reading?, example?, exampleTranslation?, source?, memo? }
+ */
+export async function saveNote(input) {
+  const now = Date.now();
+  const prev = input.id ? await idbGet(STORE_VOCAB, input.id) : null;
+  const note = clean({
+    id: input.id || `note_${now.toString(36)}${Math.random().toString(36).slice(2, 6)}`,
+    deck: NOTE_DECK,
+    lang: input.lang,
+    kind: input.kind,
+    word: input.word.trim(),
+    meaning: input.meaning.trim(),
+    reading: input.reading?.trim() || undefined,
+    example: input.example?.trim() || undefined,
+    exampleTranslation: input.exampleTranslation?.trim() || undefined,
+    source: input.source?.trim() || undefined,
+    memo: input.memo?.trim() || undefined,
+    level: '',
+    tags: ['mynote', input.kind],
+    createdAt: prev?.createdAt ?? now,
+    updatedAt: now,
+  });
+  let synced = false;
+  const user = auth.currentUser;
+  if (user) {
+    try { await setDoc(doc(db, 'users', user.uid, 'notes', note.id), note); synced = true; }
+    catch (err) { console.warn('note sync failed:', err); }
+  }
+  await idbPut(STORE_VOCAB, { ...note, synced });
+  return { note, synced };
+}
+
+export async function deleteNote(id) {
+  await idbDelete(STORE_VOCAB, id);
+  await idbDelete(STORE_SRS, id).catch(() => {});
+  const user = auth.currentUser;
+  if (!user) return;
+  await Promise.all([
+    deleteDoc(doc(db, 'users', user.uid, 'notes', id)),
+    deleteDoc(doc(db, 'users', user.uid, 'srs', id)),
+  ]).catch((err) => console.warn('note delete sync failed:', err));
+}
+
 /**
  * ログアウト時に呼んで、ローカル SRS データをクリア
  * （マスター単語データは保持 — 次のユーザーが使い回せる）
  */
 export async function clearLocalSrs() {
+  // マイノートは個人のデータなので、ログアウト時に端末から消す（次にログインした人に見えないように）
+  const notes = (await idbGetAll(STORE_VOCAB)).filter((w) => w.deck === NOTE_DECK);
+  for (const n of notes) await idbDelete(STORE_VOCAB, n.id);
+  notesSynced = false;
+  for (const k of [...cacheLoaded]) if (k.startsWith(`${NOTE_DECK}:`)) cacheLoaded.delete(k);
   const idb = await openDB();
   return new Promise((resolve, reject) => {
     const tx = idb.transaction(STORE_SRS, 'readwrite');
@@ -258,6 +371,11 @@ export async function clearLocalSrs() {
     tx.oncomplete = () => resolve();
     tx.onerror    = () => reject(tx.error);
   });
+}
+
+/** マイノートを登録・削除したあと、単語帳の読み込みをやり直す */
+export function invalidateNotesCache() {
+  for (const k of [...cacheLoaded]) if (k.startsWith(`${NOTE_DECK}:`)) cacheLoaded.delete(k);
 }
 
 export async function getStudyStats(lang, deck = 'daily') {
@@ -311,6 +429,8 @@ export const PROGRESS_DECKS = Object.freeze([
   { deck: 'vi3kyu', lang: 'vi', label: 'ベトナム語検定3級 単語' },
   { deck: 'vi2kyu', lang: 'vi', label: 'ベトナム語検定2級 単語' },
   { deck: 'vi1kyu', lang: 'vi', label: 'ベトナム語検定1級 単語' },
+  { deck: 'mynote', lang: 'vi', label: 'マイノート（ベトナム語）' },
+  { deck: 'mynote', lang: 'en', label: 'マイノート（英語）' },
 ]);
 
 /**

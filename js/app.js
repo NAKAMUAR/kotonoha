@@ -76,11 +76,12 @@ import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.j
 import { initLinking, activateLinkingScreen, leaveLinkingScreen } from './linking.js';
 import { initKentei, activateKenteiScreen, kenteiCounts, kenteiProgress } from './vi-kentei.js';
 import { openWordPlayer, closeWordPlayer } from './word-player.js';
+import { initNotes, activateNotesScreen, leaveNotesScreen, noteCount } from './my-notes.js';
 import { initStudyPlan, activatePlanScreen, leavePlanScreen, refreshHomePlan } from './study-plan.js';
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
 
-const SCREENS = ['login', 'home', 'plan', 'vocabulary', 'scenarios', 'grammar', 'linking', 'vi-kentei', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
+const SCREENS = ['login', 'home', 'plan', 'notes', 'vocabulary', 'scenarios', 'grammar', 'linking', 'vi-kentei', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -167,6 +168,8 @@ function showScreen(name) {
   else                             leaveLinkingScreen();
   if (name === 'plan')             { activatePlanScreen(planNext ?? {}); planNext = null; }
   else                             leavePlanScreen();
+  if (name === 'notes')            activateNotesScreen();
+  else                             leaveNotesScreen();
   if (name !== 'scenarios' && name !== 'toeic-listening') stopSpeaking();
   if (name !== 'toeic-listening')  stopListeningAudio();
 }
@@ -247,6 +250,7 @@ async function refreshHomeStats() {
   }
   renderProgressRows().catch((err) => console.warn('progress rows failed:', err));
   refreshHomePlan().catch((err) => console.warn('home plan failed:', err));
+  noteCount().then((c) => setText('note-count', c)).catch(() => {});
 }
 
 // ---------- 学習進捗（連続学習日数・完了シナリオ・進捗バー） ----------
@@ -432,6 +436,8 @@ function showCurrentCard() {
 
   setText('vocab-remaining', remaining);
 
+  // マイノートがまだ空のときは、登録画面への案内を出す
+  document.getElementById('vocab-mynote-empty')?.classList.toggle('hidden', !(vocabState.deck === 'mynote' && total === 0));
   if (total === 0 || vocabState.index >= total) {
     cardArea?.classList.add('hidden');
     counter?.classList.add('hidden');
@@ -446,6 +452,8 @@ function showCurrentCard() {
 
   const word = vocabState.queue[vocabState.index];
   setText('card-word',       word.word ?? '—');
+  // マイノートの長い文は文字を小さくして収める
+  document.getElementById('card-word')?.classList.toggle('card-word-long', (word.word ?? '').length > 22);
   setText('card-reading',    word.reading ?? '');
   setText('card-meaning',    word.meaning ?? '');
   setText('card-example',    word.example ?? '');
@@ -2145,6 +2153,13 @@ function bindEvents() {
       } catch { return []; }
     },
   });
+
+  initNotes({
+    showToast,
+    openDeck: (deck, lang) => { vocabState.deck = deck; vocabState.lang = lang; showScreen('vocabulary'); },
+    onChange: () => noteCount().then((c) => setText('note-count', c)).catch(() => {}),
+  });
+  document.querySelectorAll('[data-target-screen]').forEach((b) => b.addEventListener('click', () => showScreen(b.dataset.targetScreen)));
 
   initStudyPlan({
     showToast,
