@@ -334,6 +334,8 @@
                 <button class="audio-btn audio-btn-sm" data-say="example" data-slow="1" aria-label="例文をゆっくり読み上げ">🐢 ゆっくり</button>
               </div>
               <div id="card-example-tr" class="text-xs text-sumi-soft mt-1 px-2"></div>
+              <div id="card-more-ex" class="card-more-ex hidden"></div>
+              <div id="card-parts" class="card-parts hidden"></div>
               <div id="card-concept" class="concept hidden"></div>
               <div id="card-situations" class="situations hidden"></div>
             </div>
@@ -516,9 +518,9 @@
         <div class="note-tools">
           <button type="button" class="audio-btn audio-btn-sm" data-note-say="1">🔊 試しに聞く</button>
           <button type="button" class="audio-btn audio-btn-sm" data-note-say="0.6">🐢 ゆっくり</button>
-          <button type="button" class="audio-btn audio-btn-sm" id="note-lookup-btn">🔍 この文の単語を調べる</button>
         </div>
         <div id="note-lookup" class="note-lookup hidden"></div>
+        <div id="note-examples" class="note-lookup hidden"></div>
 
         <label class="acct-label mt-3"><span><span id="note-meaning-label">意味・訳（日本語）</span><span class="note-req">必須</span></span>
           <input id="note-meaning" class="acct-input" placeholder="例：帰ってきたの？" required>

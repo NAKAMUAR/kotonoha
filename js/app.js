@@ -76,7 +76,7 @@ import { recordAnswer, getScorePrediction, clearAttempts } from './toeic-score.j
 import { initLinking, activateLinkingScreen, leaveLinkingScreen } from './linking.js';
 import { initKentei, activateKenteiScreen, kenteiCounts, kenteiProgress } from './vi-kentei.js';
 import { openWordPlayer, closeWordPlayer } from './word-player.js';
-import { initNotes, activateNotesScreen, leaveNotesScreen, noteCount } from './my-notes.js';
+import { initNotes, activateNotesScreen, leaveNotesScreen, noteCount, noteCardExtras } from './my-notes.js';
 import { initStudyPlan, activatePlanScreen, leavePlanScreen, refreshHomePlan } from './study-plan.js';
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
@@ -458,6 +458,12 @@ function showCurrentCard() {
   setText('card-meaning',    word.meaning ?? '');
   setText('card-example',    word.example ?? '');
   setText('card-example-tr', word.exampleTranslation ?? '');
+  // マイノート：文の単語の内訳・ほかの例文
+  const extras = noteCardExtras(word);
+  for (const [id, html] of [['card-parts', extras.parts], ['card-more-ex', extras.more]]) {
+    const el = document.getElementById(id);
+    if (el) { el.innerHTML = html; el.classList.toggle('hidden', !html); }
+  }
   renderConceptCard(word);
   renderSituations(word);
   renderIntervalPreview(word.srs);

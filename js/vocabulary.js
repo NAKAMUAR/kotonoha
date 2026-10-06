@@ -328,6 +328,9 @@ export async function saveNote(input) {
     exampleTranslation: input.exampleTranslation?.trim() || undefined,
     source: input.source?.trim() || undefined,
     memo: input.memo?.trim() || undefined,
+    // 文の単語の内訳 [{ w, m, lv }]・ほかの例文 [{ text, ja, lv }]
+    parts: input.parts?.length ? input.parts : undefined,
+    extraExamples: input.extraExamples?.length ? input.extraExamples : undefined,
     level: '',
     tags: ['mynote', input.kind],
     createdAt: prev?.createdAt ?? now,

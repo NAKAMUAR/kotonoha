@@ -1062,3 +1062,22 @@ body.pl-testing #bottom-nav { display: none; }   /* テスト中は下のメニ�
 .note-item-meta { font-size: 0.72rem; color: var(--koke-dark); margin-top: 0.15rem; }
 .note-item-actions { display: flex; gap: 1rem; margin-top: 0.2rem; }
 #card-word.card-word-long { font-size: 1.5rem; line-height: 1.45; }
+
+/* マイノート：単語の内訳・例文の候補 */
+.note-lk-head { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; font-size: 0.75rem; color: var(--sumi-soft); margin-bottom: 0.2rem; }
+.note-lk-foot { font-size: 0.7rem; color: var(--sumi-soft); margin-top: 0.4rem; line-height: 1.6; }
+.note-lk-check { accent-color: var(--shu); width: 1.05rem; height: 1.05rem; flex: none; align-self: center; }
+.note-lk-check-sp { width: 1.05rem; flex: none; }
+.note-ex-list { list-style: none; padding: 0; }
+.note-ex-list li { display: flex; align-items: flex-start; gap: 0.4rem; padding: 0.35rem 0; border-bottom: 1px dashed rgba(26, 22, 18, 0.1); }
+.note-ex-opt { flex: 1; display: flex; gap: 0.45rem; align-items: flex-start; cursor: pointer; }
+.note-ex-opt input { accent-color: var(--shu); margin-top: 0.3rem; flex: none; }
+.note-ex-text { font-family: "Cormorant Garamond", serif; font-size: 1.02rem; }
+.note-ex-ja { display: block; font-size: 0.75rem; color: var(--sumi-soft); }
+.note-parts { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.3rem; }
+.note-part { font-size: 0.72rem; padding: 0.1rem 0.5rem; border-radius: 999px; background: rgba(90, 112, 72, 0.1); color: var(--sumi-light); }
+.note-part b { font-family: "Cormorant Garamond", serif; font-size: 0.9rem; color: var(--sumi); }
+.card-parts, .card-more-ex { margin-top: 0.7rem; padding: 0 0.5rem; text-align: left; }
+.card-parts .note-parts { justify-content: center; }
+.card-extra-title { font-size: 0.65rem; letter-spacing: 0.15em; color: var(--sumi-soft); text-align: center; margin-bottom: 0.2rem; }
+.card-more-ex-row { font-family: "Cormorant Garamond", serif; font-size: 0.95rem; text-align: center; margin-top: 0.25rem; }
