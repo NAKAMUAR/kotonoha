@@ -77,11 +77,12 @@ import { initLinking, activateLinkingScreen, leaveLinkingScreen } from './linkin
 import { initKentei, activateKenteiScreen, kenteiCounts, kenteiProgress } from './vi-kentei.js';
 import { openWordPlayer, closeWordPlayer } from './word-player.js';
 import { initNotes, activateNotesScreen, leaveNotesScreen, noteCount, noteCardExtras } from './my-notes.js';
+import { initDrama, activateDramaScreen, leaveDramaScreen } from './drama.js';
 import { initStudyPlan, activatePlanScreen, leavePlanScreen, refreshHomePlan } from './study-plan.js';
 import { loadIeltsTopics, getIeltsTopicById, buildIeltsEvalPrompt } from './ielts-speaking.js';
 import { loadIeltsWritingPrompts, getIeltsWritingById, buildIeltsWritingEvalPrompt, countWords } from './ielts-writing.js';
 
-const SCREENS = ['login', 'home', 'plan', 'notes', 'vocabulary', 'scenarios', 'grammar', 'linking', 'vi-kentei', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
+const SCREENS = ['login', 'home', 'plan', 'notes', 'vocabulary', 'scenarios', 'drama', 'grammar', 'linking', 'vi-kentei', 'toeic-listening', 'toeic-reading', 'toeic-score', 'ielts-speaking', 'ielts-writing'];
 const PHASE_LABELS = { 1: '日常', 2: '中級', 3: 'ビジネス' };
 
 const state = {
@@ -170,6 +171,8 @@ function showScreen(name) {
   else                             leavePlanScreen();
   if (name === 'notes')            activateNotesScreen();
   else                             leaveNotesScreen();
+  if (name === 'drama')            activateDramaScreen();
+  else                             leaveDramaScreen();
   if (name !== 'scenarios' && name !== 'toeic-listening') stopSpeaking();
   if (name !== 'toeic-listening')  stopListeningAudio();
 }
@@ -326,6 +329,7 @@ async function renderProgressRows() {
     deckRow('daily', 'en'),
     deckRow('phrasal', 'en'),
     deckRow('daily', 'vi'),
+    deckRow('vidrama', 'vi'),
     { label: 'シナリオ会話', total: scenarios.length, learned: done, started: done, unit: '本',
       detail: `練習済み ${done}` },
     deckRow('toeic', 'en'),
@@ -2164,6 +2168,10 @@ function bindEvents() {
     showToast,
     openDeck: (deck, lang) => { vocabState.deck = deck; vocabState.lang = lang; showScreen('vocabulary'); },
     onChange: () => noteCount().then((c) => setText('note-count', c)).catch(() => {}),
+  });
+  initDrama({
+    showToast,
+    openDeck: (deck, lang) => { vocabState.deck = deck; vocabState.lang = lang; showScreen('vocabulary'); },
   });
   document.querySelectorAll('[data-target-screen]').forEach((b) => b.addEventListener('click', () => showScreen(b.dataset.targetScreen)));
 

@@ -47,7 +47,7 @@ function debounce(fn, ms) {
 // 並び順＝やさしい順。おすすめの判定と例文の並べ替えに使う。
 
 const LOOKUP_DECKS = {
-  vi: [['vipre6kyu', '準6級'], ['daily', '日常'], ['vi5kyu', '5級'], ['vi4kyu', '4級'], ['vi3kyu', '3級'], ['vi2kyu', '2級'], ['vi1kyu', '1級']],
+  vi: [['vipre6kyu', '準6級'], ['daily', '日常'], ['vi5kyu', '5級'], ['vi4kyu', '4級'], ['vi3kyu', '3級'], ['vi2kyu', '2級'], ['vi1kyu', '1級'], ['vidrama', 'ドラマ']],
   en: [['daily', '日常'], ['phrasal', '句動詞'], ['toeic', 'TOEIC']],
 };
 // 文から単語を登録するとき、最初からチェックを入れない「基本の語」の級

@@ -1081,3 +1081,73 @@ body.pl-testing #bottom-nav { display: none; }   /* テスト中は下のメニ�
 .card-parts .note-parts { justify-content: center; }
 .card-extra-title { font-size: 0.65rem; letter-spacing: 0.15em; color: var(--sumi-soft); text-align: center; margin-bottom: 0.2rem; }
 .card-more-ex-row { font-family: "Cormorant Garamond", serif; font-size: 0.95rem; text-align: center; margin-top: 0.25rem; }
+
+/* ---------- ドラマで学ぶ ---------- */
+
+.drama-link {
+  width: 100%; display: flex; align-items: center; gap: 0.75rem; text-align: left;
+  padding: 0.75rem 1rem; margin-bottom: 1rem;
+  background: var(--washi-light); border: 1px dashed rgba(197, 56, 43, 0.4); border-radius: 8px;
+}
+.drama-link .action-icon { margin-bottom: 0; flex-shrink: 0; }
+.drama-link:hover { border-color: var(--shu); }
+
+.dr-stats { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; margin-top: 0.6rem; font-size: 0.75rem; color: var(--sumi-light); }
+
+.dr-line {
+  display: grid; grid-template-columns: 32px 1fr auto; gap: 0.6rem; align-items: start;
+  padding: 0.75rem 0.8rem; background: var(--washi-light);
+  border: 1px solid rgba(26, 22, 18, 0.08); border-radius: 8px;
+  transition: border-color 0.15s, background 0.15s;
+}
+.dr-line-mine { background: var(--washi-dark); }
+.dr-line-current { border-color: var(--shu); box-shadow: 0 0 0 2px rgba(197, 56, 43, 0.15); }
+
+.dr-avatar {
+  width: 32px; height: 32px; border-radius: 50%; color: var(--washi);
+  display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 600;
+}
+.dr-sp-0 { background: var(--shu); }
+.dr-sp-1 { background: var(--koke); }
+.dr-sp-2 { background: #6a5a8c; }
+.dr-sp-3 { background: #b07a2a; }
+.dr-sp-4 { background: #3d6f86; }
+
+.dr-body { min-width: 0; }
+.dr-name { font-size: 0.7rem; color: var(--sumi-soft); margin-bottom: 0.15rem; }
+.dr-you { color: var(--shu); border: 1px solid var(--shu); border-radius: 999px; padding: 0 0.35rem; font-size: 0.62rem; margin-left: 0.2rem; }
+.dr-vi { font-size: 1.02rem; line-height: 1.5; color: var(--sumi); overflow-wrap: anywhere; }
+.dr-vi-hidden {
+  display: block; width: 100%; text-align: left; font-size: 0.8rem; color: var(--sumi-soft);
+  padding: 0.35rem 0.6rem; border: 1px dashed rgba(26, 22, 18, 0.25); border-radius: 6px; background: var(--washi);
+}
+.dr-ja { font-size: 0.8rem; color: var(--sumi-soft); margin-top: 0.2rem; line-height: 1.45; }
+.dr-note { font-size: 0.72rem; color: var(--sumi-light); margin-top: 0.35rem; padding: 0.3rem 0.5rem; background: var(--washi); border-radius: 4px; }
+.dr-btns { display: flex; flex-direction: column; gap: 0.35rem; }
+
+.dr-word { border-bottom: 2px solid rgba(197, 56, 43, 0.45); cursor: pointer; }
+.dr-word:hover { color: var(--shu); }
+
+.dr-result { font-size: 0.78rem; margin-top: 0.4rem; color: var(--sumi-light); }
+.dr-result-ok { color: var(--koke-dark); font-weight: 600; }
+.dr-result-mid { color: #8a6418; font-weight: 600; }
+.dr-result-retry { color: var(--shu-dark); }
+.dr-heard { display: block; font-weight: 400; color: var(--sumi-soft); font-size: 0.72rem; margin-top: 0.15rem; }
+
+.dr-turn-bar {
+  position: sticky; bottom: calc(72px + env(safe-area-inset-bottom)); z-index: 30;
+  margin-bottom: 1rem; padding: 0.75rem 0.9rem;
+  background: var(--washi-light); border: 1px solid var(--shu); border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(26, 22, 18, 0.12);
+}
+
+.dr-word-list { display: grid; grid-template-columns: 1fr; gap: 0.35rem; }
+@media (min-width: 640px) { .dr-word-list { grid-template-columns: 1fr 1fr; } }
+.dr-word-row {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.2rem 0.6rem; text-align: left;
+  padding: 0.45rem 0.6rem; background: var(--washi); border: 1px solid rgba(26, 22, 18, 0.08); border-radius: 6px;
+}
+.dr-word-row:hover { border-color: var(--shu); }
+.dr-word-vi { font-weight: 600; }
+.dr-word-reading { font-size: 0.7rem; color: var(--sumi-soft); }
+.dr-word-ja { font-size: 0.78rem; color: var(--sumi-light); width: 100%; }

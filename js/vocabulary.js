@@ -119,6 +119,8 @@ export const DECKS = Object.freeze({
   vi1kyu: { id: 'vi1kyu', label: 'ベトナム語検定1級', languages: ['vi'],       file: ()     => `./data/vocabulary-vi-1kyu.json` },
   phrasal: { id: 'phrasal', label: '句動詞（イメージ）', languages: ['en'],     file: ()     => `./data/vocabulary-phrasal.json`,
              situations: () => './data/situations-phrasal.json' },
+  vidrama: { id: 'vidrama', label: 'ドラマ（ベトナム語）', languages: ['vi'], file: () => './data/vocabulary-vi-drama.json',
+             situations: () => './data/situations-vi-drama.json' },
   // 自分で登録した単語・文（ファイルではなく Firestore / IndexedDB から読む）
   mynote: { id: 'mynote', label: 'マイノート', languages: ['vi', 'en'], custom: true, file: () => null },
 });
@@ -425,6 +427,7 @@ export const PROGRESS_DECKS = Object.freeze([
   { deck: 'daily',  lang: 'en', label: '日常会話 単語（英語）' },
   { deck: 'phrasal', lang: 'en', label: '句動詞（イメージで覚える）' },
   { deck: 'daily',  lang: 'vi', label: '日常会話 単語（ベトナム語）' },
+  { deck: 'vidrama', lang: 'vi', label: 'ドラマの単語（ベトナム語）' },
   { deck: 'toeic',  lang: 'en', label: 'TOEIC 単語' },
   { deck: 'vipre6kyu', lang: 'vi', label: 'ベトナム語検定準6級 単語' },
   { deck: 'vi5kyu', lang: 'vi', label: 'ベトナム語検定5級 単語' },

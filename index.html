@@ -159,6 +159,11 @@
             <div class="action-label">会話練習</div>
             <div class="action-sub">シナリオから選択</div>
           </button>
+          <button class="action-card" data-target="drama">
+            <div class="action-icon">劇</div>
+            <div class="action-label">ドラマで学ぶ</div>
+            <div class="action-sub">ベトナム語ドラマの会話・単語</div>
+          </button>
           <button class="action-card" data-target="grammar">
             <div class="action-icon">筆</div>
             <div class="action-label">文法添削</div>
@@ -281,6 +286,7 @@
         <button class="chip" data-deck="phrasal">句動詞</button>
         <button class="chip" data-deck="toeic">TOEIC</button>
         <button class="chip" data-deck="mynote">マイノート</button>
+        <button class="chip" data-deck="vidrama">ドラマ</button>
       </div>
       <div id="vocab-kentei-row" class="filter-row mb-3 items-center">
         <span class="text-xs text-sumi-soft mr-1">ベトナム語検定:</span>
@@ -377,6 +383,11 @@
           <p class="screen-sub">場面別の会話練習</p>
         </div>
 
+        <button class="drama-link" data-target-screen="drama">
+          <span class="action-icon">劇</span>
+          <span><b>ドラマで学ぶ</b><br><span class="text-xs text-sumi-soft">ベトナム語ドラマの台詞で会話練習・単語復習</span></span>
+        </button>
+
         <div class="tab-bar mb-6">
           <button class="tab tab-active" data-phase="1">Phase 1 日常</button>
           <button class="tab" data-phase="2">Phase 2 中級</button>
@@ -432,6 +443,73 @@
           </div>
           <button id="btn-scenario-ai" class="btn-primary w-full mt-4">AI と会話練習を始める</button>
           <div id="scenario-ai-response" class="hidden mt-4 p-3 bg-washi border border-sumi/10 rounded text-sm font-mincho whitespace-pre-wrap leading-relaxed text-sumi max-h-96 overflow-y-auto"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="screen-drama" class="screen hidden">
+
+      <div id="drama-list-view">
+        <div class="screen-header">
+          <h2 class="screen-title">ドラマで学ぶ</h2>
+          <p class="screen-sub">ベトナム語ドラマの会話練習と単語復習</p>
+        </div>
+        <div id="drama-intro" class="card mb-4"></div>
+        <div id="drama-scene-grid" class="grid grid-cols-1 md:grid-cols-2 gap-3"></div>
+      </div>
+
+      <div id="drama-detail-view" class="hidden">
+        <button id="drama-back" class="text-sm text-sumi-light hover:text-shu mb-4 inline-flex items-center gap-1 font-mincho">
+          <span class="text-base">←</span> シーン一覧に戻る
+        </button>
+
+        <div class="card mb-4">
+          <div class="flex items-baseline justify-between gap-3">
+            <h3 id="drama-scene-title" class="text-xl font-mincho font-semibold">—</h3>
+            <span id="drama-scene-num" class="font-cormorant text-3xl text-shu opacity-40 font-medium">—</span>
+          </div>
+          <p id="drama-scene-summary" class="text-sm text-sumi-soft mt-1">—</p>
+          <p id="drama-scene-meta" class="text-[11px] text-sumi-soft mt-2">—</p>
+        </div>
+
+        <div id="drama-mode-tabs" class="tab-bar mb-2">
+          <button class="tab tab-active" data-mode="listen">見る・聞く</button>
+          <button class="tab" data-mode="hide">隠して言う</button>
+          <button class="tab" data-mode="role">役になりきる</button>
+        </div>
+        <p id="drama-mode-help" class="text-xs text-sumi-soft mb-3"></p>
+        <div id="drama-role-row" class="filter-row mb-3 items-center hidden"></div>
+
+        <div class="flex flex-wrap gap-2 mb-4">
+          <button id="drama-play" class="btn-secondary text-xs flex-1 py-2">▶ 通しで再生</button>
+          <button id="drama-stop" class="btn-secondary text-xs px-3 py-2">■ 停止</button>
+          <button id="drama-slow" class="chip">ゆっくり</button>
+          <button id="drama-ja" class="chip chip-active">日本語訳</button>
+        </div>
+
+        <div id="drama-lines" class="space-y-2 mb-4"></div>
+
+        <div id="drama-turn-bar" class="dr-turn-bar hidden">
+          <div id="drama-turn-text" class="text-sm"></div>
+          <div class="flex gap-2 mt-2">
+            <button id="drama-turn-answer" class="btn-secondary text-xs flex-1 py-2">答えを聞く</button>
+            <button id="drama-turn-next" class="btn-primary text-xs flex-1 py-2">次へ ▶</button>
+          </div>
+        </div>
+
+        <div id="drama-words-card" class="card mb-4">
+          <h3 class="card-title">このシーンの単語</h3>
+          <p class="text-xs text-sumi-soft mt-1">タップすると発音を聞けます。単語帳（ドラマ）でくり返し復習できます。</p>
+          <div id="drama-words" class="dr-word-list mt-3"></div>
+          <div class="flex flex-wrap gap-2 mt-3">
+            <button id="drama-words-deck" class="btn-primary text-sm">単語帳で復習</button>
+            <button id="drama-words-listen" class="btn-secondary text-sm">このシーンの単語を聞き流す</button>
+          </div>
+        </div>
+
+        <div class="flex gap-2">
+          <button id="drama-prev" class="btn-secondary text-sm flex-1">← 前のシーン</button>
+          <button id="drama-next" class="btn-secondary text-sm flex-1">次のシーン →</button>
         </div>
       </div>
     </section>
